@@ -27,7 +27,7 @@ jobs:
         run: flutter pub get
       - name: Build web
         working-directory: app
-        run: flutter build web --release --base-href "/DreemWorld/"
+        run: flutter build web --release --base-href "/DreamWorld/"
       - name: SPA fallback
         run: cp app/build/web/index.html app/build/web/404.html
       - uses: actions/configure-pages@v5
