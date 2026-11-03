@@ -145,9 +145,20 @@ class GalacticHomeSystem extends StatelessWidget {
           }
         }
 
-        return Stack(
-          clipBehavior: Clip.none,
-          children: children,
+        return InteractiveViewer(
+          boundaryMargin: const EdgeInsets.all(200),
+          minScale: 0.4,
+          maxScale: 1.6,
+          constrained: false,
+          child: SizedBox(
+            width: effectiveSide * 1.6,
+            height: effectiveSide * 1.6,
+            child: Stack(
+              clipBehavior: Clip.none,
+              alignment: Alignment.center,
+              children: children,
+            ),
+          ),
         );
       },
     );
