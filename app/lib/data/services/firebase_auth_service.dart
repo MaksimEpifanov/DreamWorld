@@ -25,5 +25,10 @@ class FirebaseAuthService implements AuthService {
   }
 
   @override
+  Future<AppUser?> restoreSession() async {
+    return null;
+  }
+
+  @override
   AppUser? get currentUser => null;
 }
