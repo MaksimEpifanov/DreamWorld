@@ -30,32 +30,43 @@ jobs:
         working-directory: app
         run: flutter pub get
 
-      - name: Build for simulator
+      - name: Build for device
         working-directory: app
-        run: flutter build ios --simulator --no-codesign
+        run: |
+          flutter build ios --release --no-codesign || true
 
-      - name: Package
+      - name: Package device build
         working-directory: app
         run: |
           mkdir -p Payload
-          cp -r build/ios/iphonesimulator/Runner.app Payload/
-          zip -r ../dream-world-ios-simulator.ipa Payload
-          echo "---"
-          ls -lh ../dream-world-ios-simulator.ipa
+          if [ -d "build/ios/iphoneos/Runner.app" ]; then
+            cp -r build/ios/iphoneos/Runner.app Payload/
+            zip -r ../dream-world-ios-device-unsigned.ipa Payload
+            echo "packaged device build"
+            exit 0
+          fi
+          if [ -d "ios/build/Release-iphoneos/Runner.app" ]; then
+            cp -r ios/build/Release-iphoneos/Runner.app Payload/
+            zip -r ../dream-world-ios-device-unsigned.ipa Payload
+            echo "packaged from ios/build"
+            exit 0
+          fi
+          find . -name "Runner.app" | head -10
+          exit 1
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dream-world-ios-simulator
-          path: dream-world-ios-simulator.ipa
+          name: dream-world-ios-device
+          path: dream-world-ios-device-unsigned.ipa
 
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0-ios-sim
-          name: "Dreem World v1.0.0 (iOS Simulator)"
-          body: "Сборка для симулятора iOS. Для реального iPhone требуется подпись (AltStore/Sideloadly) с сертификатом разработчика."
-          files: dream-world-ios-simulator.ipa
+          tag_name: v1.0.0-ios
+          name: "Dreem World v1.0.0 (iOS IPA unsigned)"
+          body: "Несigned IPA для устройства iOS. Требуется подпись для установки на реальный iPhone (AltStore, Sideloadly)."
+          files: dream-world-ios-device-unsigned.ipa
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
