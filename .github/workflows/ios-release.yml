@@ -22,13 +22,17 @@ jobs:
           channel: 'stable'
           flutter-version: '3.47.7'
 
+      - name: Clean
+        working-directory: app
+        run: flutter clean
+
       - name: Pub get
         working-directory: app
         run: flutter pub get
 
       - name: Build iOS (no codesign)
         working-directory: app
-        run: flutter build ios --release --no-codesign
+        run: flutter build ios --release --no-codesign --no-tree-shake-icons
 
       - name: Package IPA
         working-directory: app
