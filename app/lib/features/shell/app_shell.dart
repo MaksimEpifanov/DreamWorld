@@ -6,7 +6,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/index.dart';
 import '../../core/widgets/cosmic_background.dart';
-import '../wallet/wallet_controller.dart';
 
 /// Каркас основного интерфейса с нижней навигацией по разделам.
 ///
@@ -20,7 +19,6 @@ class AppShell extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final WalletState wallet = ref.watch(walletProvider);
     return Scaffold(
       backgroundColor: const Color(0xFF050510),
       body: Stack(
@@ -28,17 +26,7 @@ class AppShell extends ConsumerWidget {
         children: <Widget>[
           const CosmicBackground(),
           SizedBox.expand(child: shell),
-          Positioned(
-            right: AppSpacing.md,
-            bottom: AppSpacing.md + 64 + AppSpacing.sm,
-            child: SafeArea(
-              top: false,
-              child: _MiniGamesBanner(
-                balance: wallet.balance,
-                onTap: () => context.go('/minigames'),
-              ),
-            ),
-          ),
+
         ],
       ),
       bottomNavigationBar: AppNavigationBar(
@@ -117,7 +105,7 @@ class _MiniGamesBanner extends StatelessWidget {
   }
 }
 
-/// Стеклянный неоновый бар с четырьмя разделами.
+/// Стеклянная нижняя панель навигации в стиле макета главного экрана.
 class AppNavigationBar extends StatelessWidget {
   const AppNavigationBar({
     super.key,
@@ -125,83 +113,94 @@ class AppNavigationBar extends StatelessWidget {
     required this.onDestinationSelected,
   });
 
-  /// Индекс активного раздела.
   final int currentIndex;
-
-  /// Колбэк переключения раздела.
   final ValueChanged<int> onDestinationSelected;
 
   @override
   Widget build(BuildContext context) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
+    final String path = GoRouterState.of(context).uri.path;
+    final int selectedIndex = path.contains('/news')
+        ? 2
+        : (currentIndex >= 2 ? currentIndex + 1 : currentIndex);
 
     return ClipRect(
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
         child: Container(
           decoration: BoxDecoration(
-            color: scheme.surface.withValues(alpha: 0.72),
+            color: const Color(0xE9081630),
             border: Border(
-              top: BorderSide(
-                color: scheme.primary.withValues(alpha: 0.35),
-              ),
+              top: BorderSide(color: const Color(0xFF2675C5).withValues(alpha: 0.55)),
             ),
             boxShadow: <BoxShadow>[
-              BoxShadow(
-                color: scheme.primary.withValues(alpha: 0.28),
-                blurRadius: 28,
-                spreadRadius: -6,
-              ),
+              BoxShadow(color: scheme.primary.withValues(alpha: 0.22), blurRadius: 24),
             ],
           ),
           child: NavigationBarTheme(
             data: NavigationBarThemeData(
               backgroundColor: Colors.transparent,
               elevation: 0,
-              indicatorColor: scheme.primary.withValues(alpha: 0.22),
-              indicatorShape: const RoundedRectangleBorder(
-                borderRadius: AppRadius.pillAll,
-              ),
+              indicatorColor: scheme.primary.withValues(alpha: 0.17),
+              indicatorShape: const RoundedRectangleBorder(borderRadius: AppRadius.pillAll),
               labelTextStyle: WidgetStateProperty.resolveWith<TextStyle>(
                 (Set<WidgetState> states) => AppTextStyles.label(
                   color: states.contains(WidgetState.selected)
-                      ? scheme.primary
-                      : AppColors.textSecondary,
+                      ? const Color(0xFF58CFFF)
+                      : const Color(0xFF91A5C8),
                 ),
               ),
               iconTheme: WidgetStateProperty.resolveWith<IconThemeData>(
                 (Set<WidgetState> states) => IconThemeData(
                   color: states.contains(WidgetState.selected)
-                      ? scheme.primary
-                      : AppColors.textSecondary,
+                      ? const Color(0xFF58CFFF)
+                      : const Color(0xFF91A5C8),
                 ),
               ),
             ),
             child: NavigationBar(
-              selectedIndex: currentIndex,
-              onDestinationSelected: onDestinationSelected,
-              height: 72,
+              selectedIndex: selectedIndex.clamp(0, 4),
+              onDestinationSelected: (int index) {
+                switch (index) {
+                  case 0:
+                    onDestinationSelected(0);
+                  case 1:
+                    onDestinationSelected(1);
+                  case 2:
+                    context.go('/main/planet/p_travel/news');
+                  case 3:
+                    onDestinationSelected(2);
+                  case 4:
+                    onDestinationSelected(3);
+                }
+              },
+              height: 76,
               labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
               backgroundColor: Colors.transparent,
               destinations: <NavigationDestination>[
                 NavigationDestination(
                   icon: const Icon(Icons.public_outlined),
                   selectedIcon: _glowingIcon(Icons.public, scheme),
-                  label: 'Главная',
+                  label: 'Планеты',
                 ),
                 NavigationDestination(
                   icon: const Icon(Icons.explore_outlined),
                   selectedIcon: _glowingIcon(Icons.explore, scheme),
-                  label: 'Подбор',
+                  label: 'Поиск',
                 ),
                 NavigationDestination(
-                  icon: const Icon(Icons.chat_bubble_outline),
-                  selectedIcon: _glowingIcon(Icons.chat_bubble, scheme),
+                  icon: const Icon(Icons.local_fire_department_outlined),
+                  selectedIcon: _glowingIcon(Icons.local_fire_department, scheme),
+                  label: 'События',
+                ),
+                NavigationDestination(
+                  icon: const Icon(Icons.chat_bubble_outline_rounded),
+                  selectedIcon: _glowingIcon(Icons.chat_bubble_rounded, scheme),
                   label: 'Чаты',
                 ),
                 NavigationDestination(
-                  icon: const Icon(Icons.people_outline),
-                  selectedIcon: _glowingIcon(Icons.people, scheme),
+                  icon: const Icon(Icons.people_outline_rounded),
+                  selectedIcon: _glowingIcon(Icons.people_rounded, scheme),
                   label: 'Контакты',
                 ),
               ],
@@ -213,13 +212,12 @@ class AppNavigationBar extends StatelessWidget {
   }
 
   Icon _glowingIcon(IconData icon, ColorScheme scheme) {
-    final Color glow = scheme.shadow;
     return Icon(
       icon,
-      color: scheme.primary,
+      color: const Color(0xFF58CFFF),
       shadows: <Shadow>[
-        Shadow(color: glow.withValues(alpha: 0.9), blurRadius: 16),
-        Shadow(color: glow.withValues(alpha: 0.6), blurRadius: 28),
+        Shadow(color: scheme.primary.withValues(alpha: 0.85), blurRadius: 15),
+        Shadow(color: scheme.primary.withValues(alpha: 0.5), blurRadius: 25),
       ],
     );
   }
