@@ -26,14 +26,13 @@ class GalacticHomeSystem extends StatelessWidget {
         final double width = constraints.maxWidth;
         final double height = constraints.maxHeight;
         final double shortSide = math.min(width, height);
-        final double unit = shortSide / 900;
         final double centerX = width / 2;
         final double centerY = height * 0.47;
         final double sunSize = (shortSide * 0.19).clamp(112.0, 190.0);
         final List<double> radii = <double>[
           shortSide * 0.235,
-          shortSide * 0.345,
-          shortSide * 0.445,
+          shortSide * 0.315,
+          shortSide * 0.39,
         ];
         final List<int> perOrbit = <int>[6, 8, 8];
         final double planetSize = (shortSide * 0.085).clamp(62.0, 92.0);
