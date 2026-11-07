@@ -1,42 +1,66 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:go_router/go_router.dart';
 
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/features/shell/app_shell.dart';
 
 void main() {
   group('AppNavigationBar', () {
-    testWidgets('рендерит четыре вкладки и сообщает выбранный индекс', (
+    testWidgets('показывает пять разделов и передаёт выбор вкладки', (
       WidgetTester tester,
     ) async {
-      int selected = 0;
+      final List<int> selected = <int>[];
+      final GoRouter router = GoRouter(
+        routes: <RouteBase>[
+          GoRoute(
+            path: '/',
+            builder: (BuildContext context, GoRouterState state) {
+              return Scaffold(
+                body: const SizedBox.expand(),
+                bottomNavigationBar: AppNavigationBar(
+                  currentIndex: 0,
+                  onDestinationSelected: selected.add,
+                ),
+              );
+            },
+          ),
+          GoRoute(
+            path: '/main/planet/p_travel/news',
+            builder: (BuildContext context, GoRouterState state) =>
+                const Scaffold(body: Text('События')),
+          ),
+        ],
+      );
+      addTearDown(router.dispose);
 
       await tester.pumpWidget(
-        MaterialApp(
+        MaterialApp.router(
           theme: AppTheme.of(AppThemeName.neonViolet),
-          home: Scaffold(
-            bottomNavigationBar: AppNavigationBar(
-              currentIndex: selected,
-              onDestinationSelected: (int index) => selected = index,
-            ),
-          ),
+          routerConfig: router,
         ),
       );
+      await tester.pumpAndSettle();
 
       expect(find.byType(NavigationBar), findsOneWidget);
-      expect(find.text('Главная'), findsOneWidget);
-      expect(find.text('Подбор'), findsOneWidget);
+      expect(find.text('Планеты'), findsOneWidget);
+      expect(find.text('Поиск'), findsOneWidget);
+      expect(find.text('События'), findsOneWidget);
       expect(find.text('Чаты'), findsOneWidget);
       expect(find.text('Контакты'), findsOneWidget);
-      expect(find.byType(NavigationDestination), findsNWidgets(4));
+      expect(find.byType(NavigationDestination), findsNWidgets(5));
 
       await tester.tap(find.text('Чаты'));
       await tester.pumpAndSettle();
-      expect(selected, 2);
+      expect(selected, <int>[2]);
 
       await tester.tap(find.text('Контакты'));
       await tester.pumpAndSettle();
-      expect(selected, 3);
+      expect(selected, <int>[2, 3]);
+
+      await tester.tap(find.text('События'));
+      await tester.pumpAndSettle();
+      expect(find.text('События'), findsOneWidget);
     });
   });
 }
