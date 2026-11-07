@@ -151,62 +151,131 @@ class _CosmosPainter extends CustomPainter {
 
   /// Наклонённая спиральная галактика: яркое ядро, диск и рукава.
   void _paintGalaxy(Canvas canvas, Size size) {
-    final Offset center = Offset(size.width * 0.76, size.height * 0.28);
-    final double radius = size.shortestSide * 0.28;
-    final double tilt = -0.48;
+    final Offset center = Offset(size.width * 0.5, size.height * 0.49);
+    final double radius = size.shortestSide * 0.49;
+    final Rect bounds = Rect.fromCenter(
+      center: center,
+      width: radius * 2.35,
+      height: radius * 1.55,
+    );
+
+    // Широкое фиолетово-синее гало вокруг центральной системы.
+    canvas.drawOval(
+      bounds,
+      Paint()
+        ..color = const Color(0xFF5145D8).withValues(alpha: 0.12)
+        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.2),
+    );
+    canvas.drawOval(
+      bounds.deflate(radius * 0.13),
+      Paint()
+        ..color = const Color(0xFF178DFF).withValues(alpha: 0.08)
+        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.12),
+    );
 
     canvas.save();
     canvas.translate(center.dx, center.dy);
-    canvas.rotate(tilt);
+    canvas.rotate(-0.12);
 
-    // Внешнее гало диска.
-    canvas.drawOval(
-      Rect.fromCenter(
-        center: Offset.zero,
-        width: radius * 2.0,
-        height: radius * 0.78,
-      ),
-      Paint()
-        ..color = const Color(0xFF7C86D9).withValues(alpha: 0.1)
-        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.36),
-    );
-    // Основной диск.
-    canvas.drawOval(
-      Rect.fromCenter(
-        center: Offset.zero,
-        width: radius * 1.5,
-        height: radius * 0.56,
-      ),
-      Paint()
-        ..color = const Color(0xFFB6C0F5).withValues(alpha: 0.14)
-        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.24),
-    );
-    // Пылевая полоса поперёк диска.
-    canvas.drawOval(
-      Rect.fromCenter(
-        center: Offset.zero,
-        width: radius * 1.38,
-        height: radius * 0.09,
-      ),
-      Paint()
-        ..color = const Color(0xFF0B0B18).withValues(alpha: 0.5)
-        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.05),
-    );
-    // Яркое тёплое ядро с ореолом.
+    // Два спиральных рукава, сформированных из светящихся сегментов.
+    for (int arm = 0; arm < 2; arm++) {
+      final Path path = Path();
+      for (int i = 0; i <= 220; i++) {
+        final double t = i / 220;
+        final double angle = t * math.pi * 3.15 + arm * math.pi;
+        final double r = radius * (0.12 + t * 0.92);
+        final Offset point = Offset(
+          math.cos(angle) * r * 1.12,
+          math.sin(angle) * r * 0.69,
+        );
+        if (i == 0) {
+          path.moveTo(point.dx, point.dy);
+        } else {
+          path.lineTo(point.dx, point.dy);
+        }
+      }
+      canvas.drawPath(
+        path,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = radius * 0.075
+          ..strokeCap = StrokeCap.round
+          ..color = (arm == 0
+                  ? const Color(0xFF7B55FF)
+                  : const Color(0xFF168DFF))
+              .withValues(alpha: 0.11)
+          ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.09),
+      );
+      canvas.drawPath(
+        path,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = radius * 0.012
+          ..strokeCap = StrokeCap.round
+          ..color = (arm == 0
+                  ? const Color(0xFFB69AFF)
+                  : const Color(0xFF72C8FF))
+              .withValues(alpha: 0.28),
+      );
+    }
+
+    // Концентрические световые кольца вокруг звезды.
+    for (int i = 0; i < 5; i++) {
+      final double factor = 0.28 + i * 0.17;
+      canvas.drawOval(
+        Rect.fromCenter(
+          center: Offset.zero,
+          width: radius * factor * 2.25,
+          height: radius * factor * 1.34,
+        ),
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = i == 0 ? 1.8 : 1
+          ..color = (i.isEven
+                  ? const Color(0xFF5D91FF)
+                  : const Color(0xFFB26AFF))
+              .withValues(alpha: 0.12 - i * 0.012),
+      );
+    }
+
+    // Яркое ядро галактики — центр композиции под солнечной сферой UI.
     canvas.drawCircle(
       Offset.zero,
-      radius * 0.24,
+      radius * 0.25,
       Paint()
-        ..color = const Color(0xFFFFE7B0).withValues(alpha: 0.28)
-        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.14),
+        ..color = const Color(0xFFFF9B37).withValues(alpha: 0.13)
+        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.18),
     );
     canvas.drawCircle(
       Offset.zero,
-      radius * 0.07,
+      radius * 0.11,
       Paint()
-        ..color = const Color(0xFFFFF7E6).withValues(alpha: 0.7)
-        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.03),
+        ..color = const Color(0xFFFFD18A).withValues(alpha: 0.1)
+        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.08),
     );
+
+    // Звёздные скопления вдоль спиральных рукавов.
+    final math.Random random = math.Random(seed + 19);
+    for (int i = 0; i < 380; i++) {
+      final double arm = random.nextBool() ? 0 : math.pi;
+      final double t = random.nextDouble();
+      final double angle = t * math.pi * 3.15 + arm;
+      final double r = radius * (0.12 + t * 0.92);
+      final Offset point = Offset(
+        math.cos(angle) * r * 1.12 + (random.nextDouble() - 0.5) * radius * 0.09,
+        math.sin(angle) * r * 0.69 + (random.nextDouble() - 0.5) * radius * 0.09,
+      );
+      final double dot = random.nextDouble() * 1.35 + 0.25;
+      canvas.drawCircle(
+        point,
+        dot,
+        Paint()
+          ..color = (i % 5 == 0
+                  ? const Color(0xFFFFD6B0)
+                  : const Color(0xFFD7DFFF))
+              .withValues(alpha: 0.18 + random.nextDouble() * 0.52),
+      );
+    }
     canvas.restore();
   }
 
