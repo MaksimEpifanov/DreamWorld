@@ -42,69 +42,6 @@ class AppShell extends ConsumerWidget {
   }
 }
 
-/// Плашка входа в мини-игры над нижним баром.
-class _MiniGamesBanner extends StatelessWidget {
-  const _MiniGamesBanner({required this.onTap, this.balance = 0});
-
-  final VoidCallback onTap;
-  final int balance;
-
-  @override
-  Widget build(BuildContext context) {
-    final ColorScheme scheme = Theme.of(context).colorScheme;
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(
-        AppSpacing.md,
-        0,
-        AppSpacing.md,
-        AppSpacing.xs,
-      ),
-      child: GestureDetector(
-        onTap: onTap,
-        child: Container(
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.md,
-            vertical: AppSpacing.xs,
-          ),
-          decoration: BoxDecoration(
-            borderRadius: AppRadius.pillAll,
-            gradient: LinearGradient(
-              colors: <Color>[
-                scheme.tertiary.withValues(alpha: 0.9),
-                scheme.primary.withValues(alpha: 0.9),
-              ],
-            ),
-            boxShadow: <BoxShadow>[
-              BoxShadow(
-                color: scheme.tertiary.withValues(alpha: 0.45),
-                blurRadius: 20,
-                spreadRadius: -4,
-              ),
-            ],
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              const Icon(
-                Icons.sports_esports_rounded,
-                size: 20,
-                color: Colors.white,
-              ),
-              const SizedBox(width: AppSpacing.xs),
-              Text(
-                balance > 0
-                    ? 'Мини-игры · $balance монет'
-                    : 'Мини-игры · заработай монеты',
-                style: AppTextStyles.label(color: Colors.white),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
 /// Стеклянная нижняя панель навигации в стиле макета главного экрана.
 class AppNavigationBar extends StatelessWidget {
   const AppNavigationBar({
@@ -164,14 +101,19 @@ class AppNavigationBar extends StatelessWidget {
                 switch (index) {
                   case 0:
                     onDestinationSelected(0);
+                    break;
                   case 1:
                     onDestinationSelected(1);
+                    break;
                   case 2:
                     context.go('/main/planet/p_travel/news');
+                    break;
                   case 3:
                     onDestinationSelected(2);
+                    break;
                   case 4:
                     onDestinationSelected(3);
+                    break;
                 }
               },
               height: 76,
