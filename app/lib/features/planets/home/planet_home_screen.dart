@@ -18,8 +18,6 @@ class PlanetHomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final List<Planet> planets = ref.watch(planetsProvider);
     final List<Planet> featured = ref.watch(featuredPlanetsProvider);
-    final ColorScheme scheme = Theme.of(context).colorScheme;
-
     return SafeArea(
       child: Column(
         children: <Widget>[
