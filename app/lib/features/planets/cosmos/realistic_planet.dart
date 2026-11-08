@@ -79,41 +79,61 @@ class RealisticPlanet extends StatelessWidget {
                   ),
                 ),
               ),
-            Image.asset(
-              planetAssetPath(planet),
-              width: size,
-              height: size,
-              fit: BoxFit.contain,
-              filterQuality: FilterQuality.high,
-              frameBuilder: (
-                BuildContext context,
-                Widget child,
-                int? frame,
-                bool wasSynchronouslyLoaded,
-              ) {
-                if (frame == null || rotationTurns == 0) return child;
-                return Transform.rotate(
-                  angle: rotationTurns * 2 * math.pi,
-                  child: child,
-                );
-              },
-              errorBuilder: (
-                BuildContext context,
-                Object error,
-                StackTrace? stackTrace,
-              ) {
-                return CustomPaint(
-                  size: Size.square(size),
-                  painter: _PlanetPainter(
-                    planet: planet,
-                    lightAlignment: lightAlignment,
-                    showRing: showRing,
-                    rotationTurns: rotationTurns,
-                    atmospherePulse: atmospherePulse,
-                    ringRotationTurns: ringRotationTurns,
-                  ),
-                );
-              },
+            CustomPaint(
+              painter: _PlanetEffectsPainter(
+                planet: planet,
+                size: size,
+                showRing: showRing,
+                atmospherePulse: atmospherePulse,
+                ringRotationTurns: ringRotationTurns,
+                drawBackRing: true,
+                drawFrontEffects: false,
+              ),
+              child: Image.asset(
+                planetAssetPath(planet),
+                width: size,
+                height: size,
+                fit: BoxFit.contain,
+                filterQuality: FilterQuality.high,
+                frameBuilder: (
+                  BuildContext context,
+                  Widget child,
+                  int? frame,
+                  bool wasSynchronouslyLoaded,
+                ) {
+                  if (frame == null || rotationTurns == 0) return child;
+                  return Transform.rotate(
+                    angle: rotationTurns * 2 * math.pi,
+                    child: child,
+                  );
+                },
+                errorBuilder: (
+                  BuildContext context,
+                  Object error,
+                  StackTrace? stackTrace,
+                ) {
+                  return CustomPaint(
+                    size: Size.square(size),
+                    painter: _PlanetPainter(
+                      planet: planet,
+                      lightAlignment: lightAlignment,
+                      showRing: showRing,
+                      rotationTurns: rotationTurns,
+                      atmospherePulse: atmospherePulse,
+                      ringRotationTurns: ringRotationTurns,
+                    ),
+                  );
+                },
+              ),
+              foregroundPainter: _PlanetEffectsPainter(
+                planet: planet,
+                size: size,
+                showRing: showRing,
+                atmospherePulse: atmospherePulse,
+                ringRotationTurns: ringRotationTurns,
+                drawBackRing: false,
+                drawFrontEffects: true,
+              ),
             ),
           ],
         ),
@@ -492,5 +512,124 @@ class _PlanetPainter extends CustomPainter {
         oldDelegate.rotationTurns != rotationTurns ||
         oldDelegate.atmospherePulse != atmospherePulse ||
         oldDelegate.ringRotationTurns != ringRotationTurns;
+  }
+}
+
+
+class _PlanetEffectsPainter extends CustomPainter {
+  const _PlanetEffectsPainter({
+    required this.planet,
+    required this.size,
+    required this.showRing,
+    required this.atmospherePulse,
+    required this.ringRotationTurns,
+    required this.drawBackRing,
+    required this.drawFrontEffects,
+  });
+
+  final Planet planet;
+  final double size;
+  final bool showRing;
+  final double atmospherePulse;
+  final double ringRotationTurns;
+  final bool drawBackRing;
+  final bool drawFrontEffects;
+
+  @override
+  void paint(Canvas canvas, Size canvasSize) {
+    final double radius = size / 2;
+    final Offset center = canvasSize.center(Offset.zero);
+    final SurfacePalette palette = paletteFor(planet);
+
+    if (showRing && drawBackRing) {
+      _paintRing(canvas, center, radius, palette, front: false);
+    }
+    if (drawFrontEffects) {
+      if (showRing) {
+        _paintRing(canvas, center, radius, palette, front: true);
+      }
+      _paintAtmosphere(
+        canvas,
+        Rect.fromCircle(center: center, radius: radius),
+        palette,
+        atmospherePulse,
+      );
+    }
+  }
+
+  void _paintRing(
+    Canvas canvas,
+    Offset center,
+    double radius,
+    SurfacePalette palette, {
+    required bool front,
+  }) {
+    canvas.save();
+    canvas.translate(center.dx, center.dy);
+    if (front) {
+      canvas.clipRect(Rect.fromLTRB(-radius * 2, 0, radius * 2, radius * 2));
+    }
+    canvas.transform(
+      (Matrix4.identity()
+            ..setEntry(3, 2, 0.001)
+            ..rotateX(1.2)
+            ..rotateZ(-0.35 + ringRotationTurns * 2 * math.pi))
+          .storage,
+    );
+    canvas.drawOval(
+      Rect.fromCenter(
+        center: Offset.zero,
+        width: radius * 3.1,
+        height: radius * 3.1,
+      ),
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = radius * 0.16
+        ..color = palette.light.withValues(alpha: front ? 0.42 : 0.32),
+    );
+    canvas.restore();
+  }
+
+  void _paintAtmosphere(
+    Canvas canvas,
+    Rect sphere,
+    SurfacePalette palette,
+    double pulse,
+  ) {
+    final double radius = sphere.width / 2;
+    canvas.drawCircle(
+      sphere.center,
+      radius,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = sphere.width * (0.03 + pulse * 0.012)
+        ..color = palette.light.withValues(alpha: 0.38 + pulse * 0.20)
+        ..maskFilter = MaskFilter.blur(
+          BlurStyle.outer,
+          sphere.width * (0.035 + pulse * 0.02),
+        ),
+    );
+    canvas.drawArc(
+      Rect.fromCircle(center: sphere.center, radius: radius * 1.015),
+      math.pi * 1.08,
+      math.pi * 0.78,
+      false,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = sphere.width * 0.012
+        ..strokeCap = StrokeCap.round
+        ..color = Colors.white.withValues(alpha: 0.28 + pulse * 0.20),
+    );
+  }
+
+  @override
+  bool shouldRepaint(covariant _PlanetEffectsPainter oldDelegate) {
+    return oldDelegate.planet != planet ||
+        oldDelegate.size != size ||
+        oldDelegate.showRing != showRing ||
+        oldDelegate.atmospherePulse != atmospherePulse ||
+        oldDelegate.ringRotationTurns != ringRotationTurns ||
+        oldDelegate.drawBackRing != drawBackRing ||
+        oldDelegate.drawFrontEffects != drawFrontEffects;
   }
 }
