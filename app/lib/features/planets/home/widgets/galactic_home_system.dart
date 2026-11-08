@@ -159,12 +159,22 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                 builder: (BuildContext context, Widget? child) {
                   final int speed = 1 + index % 3;
                   final double direction = index.isEven ? 1 : -1;
-                  return _GalaxyPlanet(
-                    planet: planet,
-                    size: size,
-                    rotationTurns:
-                        _rotationController.value * speed * direction,
-                    onTap: () => widget.onPlanetTap(planet),
+                  final double phase = _rotationController.value *
+                          2 *
+                          math.pi *
+                          (0.12 + (index % 4) * 0.025) +
+                      index * 0.83;
+                  final double orbitX = math.cos(phase) * width * 0.006;
+                  final double orbitY = math.sin(phase) * height * 0.012;
+                  return Transform.translate(
+                    offset: Offset(orbitX, orbitY),
+                    child: _GalaxyPlanet(
+                      planet: planet,
+                      size: size,
+                      rotationTurns:
+                          _rotationController.value * speed * direction,
+                      onTap: () => widget.onPlanetTap(planet),
+                    ),
                   );
                 },
               ),
