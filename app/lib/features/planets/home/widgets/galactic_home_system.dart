@@ -27,25 +27,25 @@ class GalacticHomeSystem extends StatelessWidget {
         final double height = constraints.maxHeight;
         final double shortSide = math.min(width, height);
         final double centerX = width / 2;
-        final double centerY = height * 0.47;
+        final double centerY = height * 0.50;
         final double sunSize = (shortSide * 0.19).clamp(112.0, 190.0);
         final List<double> radii = <double>[
-          shortSide * 0.235,
-          shortSide * 0.315,
-          shortSide * 0.39,
+          shortSide * 0.275,
+          shortSide * 0.385,
+          shortSide * 0.49,
         ];
         final List<int> perOrbit = <int>[6, 8, 8];
-        final double planetSize = (shortSide * 0.085).clamp(62.0, 92.0);
+        final double planetSize = (shortSide * 0.068).clamp(46.0, 70.0);
         final List<Planet> visible = planets.take(22).toList();
 
         final List<Widget> layers = <Widget>[
           Positioned.fill(child: CustomPaint(painter: _GalaxyDustPainter())),
           for (int i = 0; i < radii.length; i++)
             Positioned(
-              left: centerX - radii[i] * 1.18,
-              top: centerY - radii[i] * 0.78,
-              width: radii[i] * 2.36,
-              height: radii[i] * 1.56,
+              left: centerX - radii[i] * 1.12,
+              top: centerY - radii[i] * 0.66,
+              width: radii[i] * 2.24,
+              height: radii[i] * 1.32,
               child: _OrbitRing(index: i),
             ),
           Positioned(
@@ -64,9 +64,9 @@ class GalacticHomeSystem extends StatelessWidget {
             final double angle = -math.pi / 2 +
                 (2 * math.pi * i / perOrbit[orbit]) +
                 (orbit.isOdd ? 0.18 : 0);
-            final double x = centerX + math.cos(angle) * radii[orbit] * 1.12;
-            final double y = centerY + math.sin(angle) * radii[orbit] * 0.72;
-            final double size = planetSize * (orbit == 2 ? 0.9 : 1);
+            final double x = centerX + math.cos(angle) * radii[orbit] * 1.02;
+            final double y = centerY + math.sin(angle) * radii[orbit] * 0.66;
+            final double size = planetSize * (orbit == 2 ? 0.88 : (orbit == 0 ? 1.08 : 1));
             layers.add(
               Positioned(
                 left: x - size * 0.95,
