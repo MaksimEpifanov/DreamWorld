@@ -444,14 +444,17 @@ class _GalaxyPlanet extends StatelessWidget {
                     child: RealisticPlanet(
                       planet: planet,
                       size: size,
-                      glow: 0.72,
+                      glow: 0.88,
+                      showRing: planet.scene == PlanetScene.music ||
+                          planet.scene == PlanetScene.esoteric ||
+                          planet.scene == PlanetScene.finance,
                     ),
                   ),
                   Positioned(
                     top: 0,
                     child: Container(
-                      width: size * 0.54,
-                      height: size * 0.54,
+                      width: size * 0.60,
+                      height: size * 0.60,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.lerp(
@@ -461,19 +464,24 @@ class _GalaxyPlanet extends StatelessWidget {
                         ),
                         border: Border.all(
                           color: Colors.white.withValues(alpha: 0.78),
-                          width: 1.2,
+                          width: 1.35,
                         ),
                         boxShadow: <BoxShadow>[
                           BoxShadow(
                             color: planet.accent.withValues(alpha: 0.65),
-                            blurRadius: 17,
+                            blurRadius: 21,
                           ),
                         ],
                       ),
                       child: Center(
                         child: Text(
                           planet.emoji,
-                          style: TextStyle(fontSize: size * 0.27),
+                          style: TextStyle(
+                            fontSize: size * 0.30,
+                            shadows: const <Shadow>[
+                              Shadow(color: Colors.white70, blurRadius: 8),
+                            ],
+                          ),
                         ),
                       ),
                     ),
