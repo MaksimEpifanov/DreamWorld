@@ -105,6 +105,20 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
           const Positioned.fill(
             child: CustomPaint(painter: _GalaxyDustPainter()),
           ),
+          Positioned.fill(
+            child: IgnorePointer(
+              child: AnimatedBuilder(
+                animation: _rotationController,
+                builder: (BuildContext context, Widget? child) {
+                  return CustomPaint(
+                    painter: _TwinkleStarsPainter(
+                      phase: _rotationController.value,
+                    ),
+                  );
+                },
+              ),
+            ),
+          ),
           Positioned(
             left: centerX - width * 0.46,
             top: centerY - height * 0.39,
@@ -360,6 +374,68 @@ class _GalaxyDustPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant _GalaxyDustPainter oldDelegate) => false;
+}
+
+/// Дополнительные редкие звёзды мерцают поверх статичного звёздного поля.
+class _TwinkleStarsPainter extends CustomPainter {
+  const _TwinkleStarsPainter({required this.phase});
+
+  final double phase;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final math.Random random = math.Random(417);
+    for (int i = 0; i < 34; i++) {
+      final Offset point = Offset(
+        random.nextDouble() * size.width,
+        random.nextDouble() * size.height,
+      );
+      final double offset = random.nextDouble() * math.pi * 2;
+      final double speed = 0.7 + random.nextDouble() * 1.8;
+      final double pulse =
+          (math.sin(phase * math.pi * 2 * speed + offset) + 1) * 0.5;
+      if (pulse < 0.58) continue;
+
+      final double intensity = (pulse - 0.58) / 0.42;
+      final double radius = 0.65 + random.nextDouble() * 1.25;
+      final Color color = i % 7 == 0
+          ? const Color(0xFFFFD39A)
+          : (i % 3 == 0
+              ? const Color(0xFFD5B8FF)
+              : const Color(0xFFD9EAFF));
+      final Paint glow = Paint()
+        ..color = color.withValues(alpha: 0.10 + intensity * 0.34)
+        ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 2.8);
+      canvas.drawCircle(point, radius * (1 + intensity * 0.7), glow);
+      canvas.drawCircle(
+        point,
+        radius * 0.55,
+        Paint()
+          ..color = Colors.white.withValues(alpha: 0.35 + intensity * 0.55),
+      );
+
+      if (intensity > 0.78) {
+        final Paint ray = Paint()
+          ..color = color.withValues(alpha: intensity * 0.55)
+          ..strokeWidth = 0.7
+          ..strokeCap = StrokeCap.round;
+        canvas.drawLine(
+          point - Offset(radius * 2.2, 0),
+          point + Offset(radius * 2.2, 0),
+          ray,
+        );
+        canvas.drawLine(
+          point - Offset(0, radius * 2.2),
+          point + Offset(0, radius * 2.2),
+          ray,
+        );
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant _TwinkleStarsPainter oldDelegate) =>
+      oldDelegate.phase != phase;
 }
 
 class _OrbitRing extends StatelessWidget {
