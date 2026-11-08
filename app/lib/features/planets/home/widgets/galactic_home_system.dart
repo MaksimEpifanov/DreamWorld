@@ -29,25 +29,80 @@ class GalacticHomeSystem extends StatelessWidget {
         final double centerX = width / 2;
         final double centerY = height * 0.49;
         final double sunSize = (shortSide * 0.19).clamp(112.0, 190.0);
-        final List<double> radii = <double>[
-          shortSide * 0.275,
-          shortSide * 0.385,
-          shortSide * 0.49,
-        ];
-        final List<int> perOrbit = <int>[6, 8, 8];
-        final double planetSize = (shortSide * 0.068).clamp(46.0, 70.0);
+        final double planetSize =
+            (math.min(width * 0.075, height * 0.115)).clamp(48.0, 78.0);
         final List<Planet> visible = planets.take(22).toList();
 
+        final Map<String, Offset> referencePositions = <String, Offset>{
+          'p_tech': const Offset(0.53, 0.13),
+          'p_travel': const Offset(0.37, 0.18),
+          'p_nature': const Offset(0.27, 0.25),
+          'p_music': const Offset(0.69, 0.20),
+          'p_cinema': const Offset(0.84, 0.27),
+          'p_fishing': const Offset(0.15, 0.38),
+          'p_reading': const Offset(0.09, 0.55),
+          'p_art': const Offset(0.13, 0.70),
+          'p_gaming': const Offset(0.22, 0.83),
+          'p_animals': const Offset(0.32, 0.89),
+          'p_gardening': const Offset(0.43, 0.92),
+          'p_volunteering': const Offset(0.56, 0.91),
+          'p_finance': const Offset(0.69, 0.88),
+          'p_esoteric': const Offset(0.81, 0.88),
+          'p_psychology': const Offset(0.80, 0.76),
+          'p_food': const Offset(0.91, 0.65),
+          'p_sports': const Offset(0.91, 0.52),
+          'p_books': const Offset(0.90, 0.39),
+          'p_self_development': const Offset(0.61, 0.32),
+          'p_other': const Offset(0.40, 0.36),
+          'p_collecting': const Offset(0.29, 0.48),
+          'p_space': const Offset(0.70, 0.39),
+        };
+        final Map<String, double> sizeFactors = <String, double>{
+          'p_tech': 1.08,
+          'p_travel': 1.04,
+          'p_nature': 1.12,
+          'p_music': 1.08,
+          'p_cinema': 1.02,
+          'p_fishing': 1.10,
+          'p_reading': 0.92,
+          'p_art': 1.03,
+          'p_gaming': 1.12,
+          'p_animals': 1.02,
+          'p_gardening': 1.02,
+          'p_volunteering': 1.06,
+          'p_finance': 1.05,
+          'p_esoteric': 0.98,
+          'p_psychology': 1.05,
+          'p_food': 1.08,
+          'p_sports': 1.08,
+          'p_books': 1.04,
+        };
+
         final List<Widget> layers = <Widget>[
-          const Positioned.fill(child: CustomPaint(painter: _GalaxyDustPainter())),
-          for (int i = 0; i < radii.length; i++)
-            Positioned(
-              left: centerX - radii[i] * 1.12,
-              top: centerY - radii[i] * 0.66,
-              width: radii[i] * 2.24,
-              height: radii[i] * 1.32,
-              child: _OrbitRing(index: i),
-            ),
+          const Positioned.fill(
+            child: CustomPaint(painter: _GalaxyDustPainter()),
+          ),
+          Positioned(
+            left: centerX - width * 0.46,
+            top: centerY - height * 0.39,
+            width: width * 0.92,
+            height: height * 0.78,
+            child: const _OrbitRing(index: 0),
+          ),
+          Positioned(
+            left: centerX - width * 0.36,
+            top: centerY - height * 0.31,
+            width: width * 0.72,
+            height: height * 0.62,
+            child: const _OrbitRing(index: 1),
+          ),
+          Positioned(
+            left: centerX - width * 0.25,
+            top: centerY - height * 0.22,
+            width: width * 0.50,
+            height: height * 0.44,
+            child: const _OrbitRing(index: 2),
+          ),
           Positioned(
             left: centerX - sunSize * 0.95,
             top: centerY - sunSize * 0.95,
@@ -57,30 +112,26 @@ class GalacticHomeSystem extends StatelessWidget {
           ),
         ];
 
-        int planetIndex = 0;
-        for (int orbit = 0; orbit < perOrbit.length; orbit++) {
-          for (int i = 0; i < perOrbit[orbit] && planetIndex < visible.length; i++) {
-            final Planet planet = visible[planetIndex++];
-            final double phase = orbit == 0 ? 0 : (orbit == 1 ? 0.19 : -0.12);
-            final double angle = -math.pi / 2 +
-                (2 * math.pi * i / perOrbit[orbit]) + phase;
-            final double x = centerX + math.cos(angle) * radii[orbit] * 1.02;
-            final double y = centerY + math.sin(angle) * radii[orbit] * 0.66;
-            final double size = planetSize *
-                (orbit == 2 ? 0.88 : (orbit == 0 ? 1.08 : 1));
-            layers.add(
-              Positioned(
-                left: x - size * 0.95,
-                top: y - size * 0.95,
-                width: size * 1.9,
-                child: _GalaxyPlanet(
-                  planet: planet,
-                  size: size,
-                  onTap: () => onPlanetTap(planet),
-                ),
+        for (int index = 0; index < visible.length; index++) {
+          final Planet planet = visible[index];
+          final Offset normalized = referencePositions[planet.id] ??
+              _fallbackPosition(index, visible.length);
+          final double size =
+              planetSize * (sizeFactors[planet.id] ?? 0.94);
+          final double x = normalized.dx * width;
+          final double y = normalized.dy * height;
+          layers.add(
+            Positioned(
+              left: x - size * 0.95,
+              top: y - size * 0.95,
+              width: size * 1.9,
+              child: _GalaxyPlanet(
+                planet: planet,
+                size: size,
+                onTap: () => onPlanetTap(planet),
               ),
-            );
-          }
+            ),
+          );
         }
 
         return ClipRect(
@@ -89,6 +140,14 @@ class GalacticHomeSystem extends StatelessWidget {
       },
     );
   }
+  Offset _fallbackPosition(int index, int count) {
+    final double angle = -math.pi / 2 + (2 * math.pi * index / count);
+    return Offset(
+      0.5 + math.cos(angle) * 0.38,
+      0.5 + math.sin(angle) * 0.38,
+    );
+  }
+
 }
 
 /// Многослойная иллюстрация галактики: туманности, спиральные рукава,
