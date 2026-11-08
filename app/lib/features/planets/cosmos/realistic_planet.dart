@@ -117,10 +117,10 @@ class RealisticPlanet extends StatelessWidget {
                     painter: _PlanetPainter(
                       planet: planet,
                       lightAlignment: lightAlignment,
-                      showRing: showRing,
+                      showRing: false,
                       rotationTurns: rotationTurns,
-                      atmospherePulse: atmospherePulse,
-                      ringRotationTurns: ringRotationTurns,
+                      atmospherePulse: 0,
+                      ringRotationTurns: 0,
                     ),
                   );
                 },
