@@ -447,12 +447,14 @@ class _GalaxyPlanet extends StatelessWidget {
     required this.onTap,
     required this.rotationTurns,
     required this.atmospherePulse,
+    required this.ringRotationTurns,
   });
 
   final Planet planet;
   final double size;
   final double rotationTurns;
   final double atmospherePulse;
+  final double ringRotationTurns;
   final VoidCallback onTap;
 
   @override
@@ -496,6 +498,8 @@ class _GalaxyPlanet extends StatelessWidget {
                       glow: 0.88,
                       rotationTurns: rotationTurns,
                       atmospherePulse: atmospherePulse,
+                      ringRotationTurns: _rotationController.value *
+                          (index.isEven ? 0.12 : -0.12),
                       showRing: planet.scene == PlanetScene.music ||
                           planet.scene == PlanetScene.esoteric ||
                           planet.scene == PlanetScene.finance,
