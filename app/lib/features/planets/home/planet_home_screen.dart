@@ -273,9 +273,9 @@ class _GalaxyInfoCard extends StatelessWidget {
         children: <Widget>[
           Row(
             children: <Widget>[
-              const _RoundIcon(
-                icon: Icons.auto_awesome_rounded,
-                color: Color(0xFF43BFFF),
+              _RoundIcon(
+                icon: icon,
+                color: const Color(0xFF43BFFF),
                 size: 34,
               ),
               const SizedBox(width: 9),
