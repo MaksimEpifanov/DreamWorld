@@ -9,7 +9,7 @@ import '../../cosmos/realistic_planet.dart';
 import '../../cosmos/realistic_sun.dart';
 
 /// Центральная интерактивная галактика главного экрана DreamWorld.
-class GalacticHomeSystem extends StatelessWidget {
+class GalacticHomeSystem extends StatefulWidget {
   const GalacticHomeSystem({
     super.key,
     required this.planets,
@@ -18,6 +18,29 @@ class GalacticHomeSystem extends StatelessWidget {
 
   final List<Planet> planets;
   final ValueChanged<Planet> onPlanetTap;
+
+  @override
+  State<GalacticHomeSystem> createState() => _GalacticHomeSystemState();
+}
+
+class _GalacticHomeSystemState extends State<GalacticHomeSystem>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _rotationController;
+
+  @override
+  void initState() {
+    super.initState();
+    _rotationController = AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 100),
+    )..repeat();
+  }
+
+  @override
+  void dispose() {
+    _rotationController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +54,7 @@ class GalacticHomeSystem extends StatelessWidget {
         final double sunSize = (shortSide * 0.19).clamp(112.0, 190.0);
         final double planetSize =
             (math.min(width * 0.075, height * 0.115)).clamp(48.0, 78.0);
-        final List<Planet> visible = planets.take(22).toList();
+        final List<Planet> visible = widget.planets.take(22).toList();
 
         final Map<String, Offset> referencePositions = <String, Offset>{
           'p_tech': const Offset(0.53, 0.13),
@@ -131,10 +154,19 @@ class GalacticHomeSystem extends StatelessWidget {
               left: x - size * 0.95,
               top: y - size * 0.95,
               width: size * 1.9,
-              child: _GalaxyPlanet(
-                planet: planet,
-                size: size,
-                onTap: () => onPlanetTap(planet),
+              child: AnimatedBuilder(
+                animation: _rotationController,
+                builder: (BuildContext context, Widget? child) {
+                  final int speed = 1 + index % 3;
+                  final double direction = index.isEven ? 1 : -1;
+                  return _GalaxyPlanet(
+                    planet: planet,
+                    size: size,
+                    rotationTurns:
+                        _rotationController.value * speed * direction,
+                    onTap: () => widget.onPlanetTap(planet),
+                  );
+                },
               ),
             ),
           );
@@ -400,10 +432,12 @@ class _GalaxyPlanet extends StatelessWidget {
     required this.planet,
     required this.size,
     required this.onTap,
+    required this.rotationTurns,
   });
 
   final Planet planet;
   final double size;
+  final double rotationTurns;
   final VoidCallback onTap;
 
   @override
@@ -445,6 +479,7 @@ class _GalaxyPlanet extends StatelessWidget {
                       planet: planet,
                       size: size,
                       glow: 0.88,
+                      rotationTurns: rotationTurns,
                       showRing: planet.scene == PlanetScene.music ||
                           planet.scene == PlanetScene.esoteric ||
                           planet.scene == PlanetScene.finance,
