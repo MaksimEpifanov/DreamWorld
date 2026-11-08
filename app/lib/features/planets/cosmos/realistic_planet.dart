@@ -240,24 +240,31 @@ class _PlanetPainter extends CustomPainter {
       );
     }
 
-    // Мягкие атмосферные облака создают глубину поверхности.
+    // Мягкие облачные полосы создают ощущение движущейся атмосферы.
+    // Их фаза привязана к вращению поверхности, без отдельного таймера.
     for (int i = 0; i < 8; i++) {
       final double angle = i * math.pi * 2 / 8 + 0.24;
+      final double drift = math.sin(rotationTurns * 2 * math.pi + i) * 0.035;
       final Offset cloudCenter = center +
-          Offset(math.cos(angle) * radius * 0.48,
-              math.sin(angle) * radius * 0.34);
-      final Rect cloudRect = Rect.fromCircle(
+          Offset(
+            math.cos(angle) * radius * (0.48 + drift),
+            math.sin(angle) * radius * (0.34 + drift),
+          );
+      final Rect cloudRect = Rect.fromCenter(
         center: cloudCenter,
-        radius: radius * 0.25,
+        width: radius * (0.52 + drift),
+        height: radius * (0.34 - drift * 0.4),
       );
       canvas.drawOval(
         cloudRect,
         Paint()
           ..shader = RadialGradient(
             colors: <Color>[
-              palette.light.withValues(alpha: 0.22),
+              palette.light.withValues(alpha: 0.20),
+              palette.light.withValues(alpha: 0.06),
               Colors.transparent,
             ],
+            stops: const <double>[0, 0.48, 1],
           ).createShader(cloudRect),
       );
     }
