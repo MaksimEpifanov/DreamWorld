@@ -24,6 +24,7 @@ class RealisticPlanet extends StatelessWidget {
     this.glow = 0.55,
     this.rotationTurns = 0,
     this.atmospherePulse = 0,
+    this.ringRotationTurns = 0,
   });
 
   final Planet planet;
@@ -45,6 +46,9 @@ class RealisticPlanet extends StatelessWidget {
 
   /// Пульсация свечения атмосферы (0..1).
   final double atmospherePulse;
+
+  /// Угол вращения колец вокруг оси планеты (в оборотах).
+  final double ringRotationTurns;
 
   @override
   Widget build(BuildContext context) {
@@ -106,6 +110,7 @@ class RealisticPlanet extends StatelessWidget {
                     showRing: showRing,
                     rotationTurns: rotationTurns,
                     atmospherePulse: atmospherePulse,
+                    ringRotationTurns: ringRotationTurns,
                   ),
                 );
               },
@@ -124,6 +129,7 @@ class _PlanetPainter extends CustomPainter {
     required this.showRing,
     required this.rotationTurns,
     required this.atmospherePulse,
+    required this.ringRotationTurns,
   });
 
   final Planet planet;
@@ -131,6 +137,7 @@ class _PlanetPainter extends CustomPainter {
   final bool showRing;
   final double rotationTurns;
   final double atmospherePulse;
+  final double ringRotationTurns;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -371,7 +378,7 @@ class _PlanetPainter extends CustomPainter {
       (Matrix4.identity()
             ..setEntry(3, 2, 0.001)
             ..rotateX(1.2)
-            ..rotateZ(-0.35))
+            ..rotateZ(-0.35 + ringRotationTurns * 2 * math.pi))
           .storage,
     );
     canvas.drawOval(
@@ -454,6 +461,7 @@ class _PlanetPainter extends CustomPainter {
         oldDelegate.lightAlignment != lightAlignment ||
         oldDelegate.showRing != showRing ||
         oldDelegate.rotationTurns != rotationTurns ||
-        oldDelegate.atmospherePulse != atmospherePulse;
+        oldDelegate.atmospherePulse != atmospherePulse ||
+        oldDelegate.ringRotationTurns != ringRotationTurns;
   }
 }
