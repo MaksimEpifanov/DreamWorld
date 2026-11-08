@@ -148,11 +148,12 @@ class _GalaxyHeader extends ConsumerWidget {
       child: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
           final bool compact = constraints.maxWidth < 760;
+          final bool narrow = constraints.maxWidth < 430;
           return Row(
             children: <Widget>[
               Container(
-                width: 44,
-                height: 44,
+                width: narrow ? 38 : 44,
+                height: narrow ? 38 : 44,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   gradient: const LinearGradient(
@@ -165,7 +166,7 @@ class _GalaxyHeader extends ConsumerWidget {
                 ),
                 child: const Icon(Icons.public_rounded, color: Colors.white, size: 27),
               ),
-              const SizedBox(width: 10),
+              SizedBox(width: narrow ? 7 : 10),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
@@ -173,11 +174,15 @@ class _GalaxyHeader extends ConsumerWidget {
                   NeonGradientText(
                     'DreamWorld',
                     gradient: const LinearGradient(colors: <Color>[Color(0xFFE8F8FF), Color(0xFF69C9FF)]),
-                    style: AppTextStyles.title().copyWith(fontSize: 25, fontWeight: FontWeight.w800),
+                    style: AppTextStyles.title().copyWith(
+                      fontSize: narrow ? 20 : 25,
+                      fontWeight: FontWeight.w800,
+                    ),
                     glowColor: const Color(0xFF168CFF),
                   ),
-                  Text('Галактика возможностей',
-                      style: AppTextStyles.caption(color: AppColors.textSecondary)),
+                  if (!narrow)
+                    Text('Галактика возможностей',
+                        style: AppTextStyles.caption(color: AppColors.textSecondary)),
                 ],
               ),
               const Spacer(),
@@ -211,11 +216,19 @@ class _GalaxyHeader extends ConsumerWidget {
                     ),
                   ),
                 ),
-              const Spacer(),
-              IconButton(
+              if (compact) ...<Widget>[
+                const Spacer(),
+                _HeaderAction(
+                  tooltip: 'Поиск',
+                  icon: Icons.search_rounded,
+                  onPressed: () => context.go('/discovery'),
+                ),
+              ] else
+                const Spacer(),
+              _HeaderAction(
                 tooltip: 'Уведомления',
+                icon: Icons.notifications_none_rounded,
                 onPressed: () => context.go('/chats'),
-                icon: const Icon(Icons.notifications_none_rounded, color: Colors.white, size: 27),
               ),
               Stack(
                 clipBehavior: Clip.none,
@@ -253,6 +266,39 @@ class _GalaxyHeader extends ConsumerWidget {
   }
 }
 
+
+
+class _HeaderAction extends StatelessWidget {
+  const _HeaderAction({
+    required this.tooltip,
+    required this.icon,
+    required this.onPressed,
+  });
+
+  final String tooltip;
+  final IconData icon;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 3),
+      child: IconButton(
+        tooltip: tooltip,
+        onPressed: onPressed,
+        style: IconButton.styleFrom(
+          backgroundColor: const Color(0xB9081A38),
+          foregroundColor: const Color(0xFFD9F3FF),
+          side: BorderSide(
+            color: const Color(0xFF3989C8).withValues(alpha: 0.48),
+          ),
+          fixedSize: const Size(42, 42),
+        ),
+        icon: Icon(icon, size: 22),
+      ),
+    );
+  }
+}
 
 class _GalaxyInfoCard extends StatelessWidget {
   const _GalaxyInfoCard({
