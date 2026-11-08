@@ -164,6 +164,8 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                           math.pi *
                           (0.12 + (index % 4) * 0.025) +
                       index * 0.83;
+                  final double atmospherePulse =
+                      (math.sin(_rotationController.value * 2 * math.pi * 2 + index) + 1) * 0.5;
                   final double orbitX = math.cos(phase) * width * 0.006;
                   final double orbitY = math.sin(phase) * height * 0.012;
                   return Transform.translate(
@@ -173,6 +175,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                       size: size,
                       rotationTurns:
                           _rotationController.value * speed * direction,
+                      atmospherePulse: atmospherePulse,
                       onTap: () => widget.onPlanetTap(planet),
                     ),
                   );
@@ -443,11 +446,13 @@ class _GalaxyPlanet extends StatelessWidget {
     required this.size,
     required this.onTap,
     required this.rotationTurns,
+    required this.atmospherePulse,
   });
 
   final Planet planet;
   final double size;
   final double rotationTurns;
+  final double atmospherePulse;
   final VoidCallback onTap;
 
   @override
@@ -490,6 +495,7 @@ class _GalaxyPlanet extends StatelessWidget {
                       size: size,
                       glow: 0.88,
                       rotationTurns: rotationTurns,
+                      atmospherePulse: atmospherePulse,
                       showRing: planet.scene == PlanetScene.music ||
                           planet.scene == PlanetScene.esoteric ||
                           planet.scene == PlanetScene.finance,
