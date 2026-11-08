@@ -23,6 +23,7 @@ class RealisticPlanet extends StatelessWidget {
     this.showRing = false,
     this.glow = 0.55,
     this.rotationTurns = 0,
+    this.atmospherePulse = 0,
   });
 
   final Planet planet;
@@ -41,6 +42,9 @@ class RealisticPlanet extends StatelessWidget {
 
   /// Текущий угол поворота поверхности в оборотах (0..1).
   final double rotationTurns;
+
+  /// Пульсация свечения атмосферы (0..1).
+  final double atmospherePulse;
 
   @override
   Widget build(BuildContext context) {
@@ -101,6 +105,7 @@ class RealisticPlanet extends StatelessWidget {
                     lightAlignment: lightAlignment,
                     showRing: showRing,
                     rotationTurns: rotationTurns,
+                    atmospherePulse: atmospherePulse,
                   ),
                 );
               },
@@ -118,12 +123,14 @@ class _PlanetPainter extends CustomPainter {
     required this.lightAlignment,
     required this.showRing,
     required this.rotationTurns,
+    required this.atmospherePulse,
   });
 
   final Planet planet;
   final Alignment lightAlignment;
   final bool showRing;
   final double rotationTurns;
+  final double atmospherePulse;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -159,7 +166,7 @@ class _PlanetPainter extends CustomPainter {
 
     if (showRing) _paintRingFront(canvas, center, radius, palette);
 
-    _paintAtmosphere(canvas, sphere, palette);
+    _paintAtmosphere(canvas, sphere, palette, atmospherePulse);
   }
 
   /// Поверхность: пятна-материки, борозды облаков и мелкая детализация.
@@ -413,18 +420,19 @@ class _PlanetPainter extends CustomPainter {
   }
 
   /// Тонкая атмосферная кромка вокруг планеты.
-  void _paintAtmosphere(Canvas canvas, Rect sphere, SurfacePalette palette) {
+  void _paintAtmosphere(Canvas canvas, Rect sphere, SurfacePalette palette,
+      double pulse) {
     final double radius = sphere.width / 2;
     canvas.drawCircle(
       sphere.center,
       radius,
       Paint()
         ..style = PaintingStyle.stroke
-        ..strokeWidth = sphere.width * 0.035
-        ..color = palette.light.withValues(alpha: 0.48)
+        ..strokeWidth = sphere.width * (0.03 + pulse * 0.012)
+        ..color = palette.light.withValues(alpha: 0.38 + pulse * 0.20)
         ..maskFilter = MaskFilter.blur(
           BlurStyle.outer,
-          sphere.width * 0.045,
+          sphere.width * (0.035 + pulse * 0.02),
         ),
     );
     canvas.drawArc(
@@ -436,7 +444,7 @@ class _PlanetPainter extends CustomPainter {
         ..style = PaintingStyle.stroke
         ..strokeWidth = sphere.width * 0.012
         ..strokeCap = StrokeCap.round
-        ..color = Colors.white.withValues(alpha: 0.38),
+        ..color = Colors.white.withValues(alpha: 0.28 + pulse * 0.20),
     );
   }
 
@@ -445,6 +453,7 @@ class _PlanetPainter extends CustomPainter {
     return oldDelegate.planet != planet ||
         oldDelegate.lightAlignment != lightAlignment ||
         oldDelegate.showRing != showRing ||
-        oldDelegate.rotationTurns != rotationTurns;
+        oldDelegate.rotationTurns != rotationTurns ||
+        oldDelegate.atmospherePulse != atmospherePulse;
   }
 }
