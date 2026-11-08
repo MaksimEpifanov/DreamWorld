@@ -77,6 +77,18 @@ class RealisticPlanet extends StatelessWidget {
               height: size,
               fit: BoxFit.contain,
               filterQuality: FilterQuality.high,
+              frameBuilder: (
+                BuildContext context,
+                Widget child,
+                int? frame,
+                bool wasSynchronouslyLoaded,
+              ) {
+                if (frame == null || rotationTurns == 0) return child;
+                return Transform.rotate(
+                  angle: rotationTurns * 2 * math.pi,
+                  child: child,
+                );
+              },
               errorBuilder: (
                 BuildContext context,
                 Object error,
