@@ -363,6 +363,28 @@ class _PlanetPainter extends CustomPainter {
           Rect.fromCircle(center: center + lightOffset, radius: radius * 0.34),
         ),
     );
+
+    // Узкий направленный блик подчёркивает кривизну поверхности.
+    final Rect specularRect = Rect.fromCircle(
+      center: center + lightOffset * 0.72,
+      radius: radius * 0.78,
+    );
+    canvas.drawOval(
+      specularRect,
+      Paint()
+        ..shader = RadialGradient(
+          center: Alignment(
+            -lightAlignment.x * 0.55,
+            -lightAlignment.y * 0.55,
+          ),
+          colors: <Color>[
+            Colors.white.withValues(alpha: 0.13),
+            Colors.white.withValues(alpha: 0.035),
+            Colors.transparent,
+          ],
+          stops: const <double>[0, 0.42, 1],
+        ).createShader(specularRect),
+    );
   }
 
   /// Задняя часть кольца (за планетой).
