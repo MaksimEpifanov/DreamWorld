@@ -25,12 +25,15 @@ class PlanetHomeScreen extends ConsumerWidget {
             child: LayoutBuilder(
               builder: (BuildContext context, BoxConstraints constraints) {
                 final bool wide = constraints.maxWidth >= 900;
+                final bool showBottomCards =
+                    wide && constraints.maxHeight >= 620;
                 return Stack(
                   clipBehavior: Clip.none,
                   children: <Widget>[
                     Positioned.fill(
                       child: GalacticHomeSystem(
                         planets: planets,
+                        bottomReservedSpace: showBottomCards ? 132 : 0,
                         onPlanetTap: (Planet planet) =>
                             context.go('/main/planet/${planet.id}'),
                       ),
@@ -71,7 +74,7 @@ class PlanetHomeScreen extends ConsumerWidget {
                         ),
                       ),
 
-                    if (wide && constraints.maxHeight >= 620)
+                    if (showBottomCards)
                       Positioned(
                         left: 18,
                         right: 18,
