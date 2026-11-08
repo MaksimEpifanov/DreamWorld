@@ -121,11 +121,11 @@ class GalacticHomeSystem extends StatelessWidget {
           final double x = (normalized.dx * width).clamp(
             size * 0.95,
             width - size * 0.95,
-          );
+          ).toDouble();
           final double y = (normalized.dy * height).clamp(
             size * 0.95,
             height - size * 1.35,
-          );
+          ).toDouble();
           layers.add(
             Positioned(
               left: x - size * 0.95,
