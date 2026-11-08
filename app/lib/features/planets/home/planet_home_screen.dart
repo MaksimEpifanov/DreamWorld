@@ -104,8 +104,8 @@ class PlanetHomeScreen extends ConsumerWidget {
                             Expanded(
                               child: _GalaxyActionCard(
                                 icon: Icons.calendar_month_rounded,
-                                title: 'Ближайшие события',
-                                subtitle: 'Не пропусти самое интересное',
+                                title: 'Исследовать мир',
+                                subtitle: 'Открой новые интересы и сообщества',
                                 accent: const Color(0xFF55C8FF),
                                 artwork: _LandscapeMiniArtwork(),
                                 onTap: () => context.go('/discovery'),
@@ -226,8 +226,8 @@ class _GalaxyHeader extends ConsumerWidget {
               ] else
                 const Spacer(),
               _HeaderAction(
-                tooltip: 'Уведомления',
-                icon: Icons.notifications_none_rounded,
+                tooltip: 'Сообщения',
+                icon: Icons.chat_bubble_outline_rounded,
                 onPressed: () => context.go('/chats'),
               ),
               Stack(
