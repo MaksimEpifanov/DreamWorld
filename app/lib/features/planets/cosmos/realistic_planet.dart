@@ -177,24 +177,62 @@ class _PlanetPainter extends CustomPainter {
         ).createShader(Rect.fromCircle(center: center, radius: radius)),
     );
 
-    // «Материки»: неправильные пятна базового/светлого цвета.
-    for (int i = 0; i < 26; i++) {
-      final double a = rnd.nextDouble() * math.pi * 2;
-      final double d = rnd.nextDouble() * radius * 0.92;
-      final Offset p = center + Offset(math.cos(a) * d, math.sin(a) * d * 0.8);
-      final double blob = radius * (0.08 + rnd.nextDouble() * 0.22);
-      final Color color = rnd.nextBool()
-          ? palette.light.withValues(alpha: 0.5)
-          : palette.dark.withValues(alpha: 0.45);
-      canvas.drawCircle(
-        p,
+    // Неровные материки и облачные пятна вместо однообразных кругов.
+    for (int i = 0; i < 23; i++) {
+      final double angle = rnd.nextDouble() * math.pi * 2;
+      final double distance = rnd.nextDouble() * radius * 0.78;
+      final Offset origin = center +
+          Offset(math.cos(angle) * distance, math.sin(angle) * distance);
+      final double blobRadius = radius * (0.075 + rnd.nextDouble() * 0.16);
+      final Path blob = Path();
+      const int vertices = 9;
+      for (int pointIndex = 0; pointIndex < vertices; pointIndex++) {
+        final double theta = pointIndex * math.pi * 2 / vertices;
+        final double irregularity = 0.68 + rnd.nextDouble() * 0.52;
+        final Offset point = origin +
+            Offset(
+              math.cos(theta) * blobRadius * irregularity,
+              math.sin(theta) * blobRadius * irregularity * 0.72,
+            );
+        if (pointIndex == 0) {
+          blob.moveTo(point.dx, point.dy);
+        } else {
+          blob.lineTo(point.dx, point.dy);
+        }
+      }
+      blob.close();
+      final bool bright = rnd.nextBool();
+      canvas.drawPath(
         blob,
         Paint()
-          ..color = color
+          ..color = (bright ? palette.light : palette.dark)
+              .withValues(alpha: bright ? 0.42 : 0.38)
           ..maskFilter = MaskFilter.blur(
             BlurStyle.normal,
-            radius * (0.03 + rnd.nextDouble() * 0.05),
+            radius * 0.025,
           ),
+      );
+    }
+
+    // Мягкие атмосферные облака создают глубину поверхности.
+    for (int i = 0; i < 8; i++) {
+      final double angle = i * math.pi * 2 / 8 + 0.24;
+      final Offset cloudCenter = center +
+          Offset(math.cos(angle) * radius * 0.48,
+              math.sin(angle) * radius * 0.34);
+      final Rect cloudRect = Rect.fromCircle(
+        center: cloudCenter,
+        radius: radius * 0.25,
+      );
+      canvas.drawOval(
+        cloudRect,
+        Paint()
+          ..shader = RadialGradient(
+            colors: <Color>[
+              palette.light.withValues(alpha: 0.22),
+              Colors.transparent,
+            ],
+          ).createShader(cloudRect),
       );
     }
 
@@ -364,17 +402,29 @@ class _PlanetPainter extends CustomPainter {
 
   /// Тонкая атмосферная кромка вокруг планеты.
   void _paintAtmosphere(Canvas canvas, Rect sphere, SurfacePalette palette) {
+    final double radius = sphere.width / 2;
     canvas.drawCircle(
       sphere.center,
-      sphere.width / 2,
+      radius,
       Paint()
         ..style = PaintingStyle.stroke
-        ..strokeWidth = sphere.width * 0.02
-        ..color = palette.light.withValues(alpha: 0.35)
+        ..strokeWidth = sphere.width * 0.035
+        ..color = palette.light.withValues(alpha: 0.48)
         ..maskFilter = MaskFilter.blur(
           BlurStyle.outer,
-          sphere.width * 0.03,
+          sphere.width * 0.045,
         ),
+    );
+    canvas.drawArc(
+      Rect.fromCircle(center: sphere.center, radius: radius * 1.015),
+      math.pi * 1.08,
+      math.pi * 0.78,
+      false,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = sphere.width * 0.012
+        ..strokeCap = StrokeCap.round
+        ..color = Colors.white.withValues(alpha: 0.38),
     );
   }
 
