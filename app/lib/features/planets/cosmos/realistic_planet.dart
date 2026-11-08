@@ -409,7 +409,7 @@ class _PlanetPainter extends CustomPainter {
       (Matrix4.identity()
             ..setEntry(3, 2, 0.001)
             ..rotateX(1.2)
-            ..rotateZ(-0.35))
+            ..rotateZ(-0.35 + ringRotationTurns * 2 * math.pi))
           .storage,
     );
     canvas.drawOval(
