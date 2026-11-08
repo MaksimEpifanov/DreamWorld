@@ -14,10 +14,12 @@ class GalacticHomeSystem extends StatefulWidget {
     super.key,
     required this.planets,
     required this.onPlanetTap,
+    this.bottomReservedSpace = 0,
   });
 
   final List<Planet> planets;
   final ValueChanged<Planet> onPlanetTap;
+  final double bottomReservedSpace;
 
   @override
   State<GalacticHomeSystem> createState() => _GalacticHomeSystemState();
@@ -159,10 +161,11 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             size * 0.95,
             width - size * 0.95,
           ).toDouble();
-          final double y = (normalized.dy * height).clamp(
-            size * 0.95,
-            height - size * 1.35,
-          ).toDouble();
+          final double maxPlanetY =
+              math.max(size * 0.95, height - widget.bottomReservedSpace - size * 1.35);
+          final double y = (normalized.dy * height)
+              .clamp(size * 0.95, maxPlanetY)
+              .toDouble();
           layers.add(
             Positioned(
               left: x - size * 0.95,
