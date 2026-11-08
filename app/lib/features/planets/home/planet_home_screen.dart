@@ -70,6 +70,61 @@ class PlanetHomeScreen extends ConsumerWidget {
                           ),
                         ),
                       ),
+
+                    if (wide && constraints.maxHeight >= 620)
+                      Positioned(
+                        left: 18,
+                        right: 18,
+                        bottom: 14,
+                        height: 112,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: <Widget>[
+                            SizedBox(
+                              width: 218,
+                              child: _GalaxyInfoCard(
+                                icon: Icons.auto_awesome_rounded,
+                                title: '22 планеты — тысячи историй',
+                                description:
+                                    'Выбирай то, что вдохновляет. На каждой планете — люди, события и новые возможности.',
+                              ),
+                            ),
+                            const SizedBox(width: 14),
+                            Expanded(
+                              child: _GalaxyActionCard(
+                                icon: Icons.groups_rounded,
+                                title: 'Популярные планеты',
+                                subtitle: 'Сейчас на пике интереса',
+                                accent: const Color(0xFF9B8CFF),
+                                artwork: _PlanetMiniArtwork(),
+                                onTap: () => context.go('/main/planets'),
+                              ),
+                            ),
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: _GalaxyActionCard(
+                                icon: Icons.calendar_month_rounded,
+                                title: 'Ближайшие события',
+                                subtitle: 'Не пропусти самое интересное',
+                                accent: const Color(0xFF55C8FF),
+                                artwork: _LandscapeMiniArtwork(),
+                                onTap: () => context.go('/discovery'),
+                              ),
+                            ),
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: _GalaxyActionCard(
+                                icon: Icons.star_rounded,
+                                title: 'Новые люди',
+                                subtitle: 'Кто-то уже ждёт тебя',
+                                accent: const Color(0xFF9B8CFF),
+                                artwork: _PeopleMiniArtwork(),
+                                onTap: () => context.go('/discovery'),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                   ],
                 );
               },
@@ -194,6 +249,226 @@ class _GalaxyHeader extends ConsumerWidget {
           );
         },
       ),
+    );
+  }
+}
+
+
+class _GalaxyInfoCard extends StatelessWidget {
+  const _GalaxyInfoCard({
+    required this.icon,
+    required this.title,
+    required this.description,
+  });
+
+  final IconData icon;
+  final String title;
+  final String description;
+
+  @override
+  Widget build(BuildContext context) {
+    return _GlassPanel(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              const _RoundIcon(
+                icon: Icons.auto_awesome_rounded,
+                color: Color(0xFF43BFFF),
+                size: 34,
+              ),
+              const SizedBox(width: 9),
+              Expanded(
+                child: Text(
+                  title,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppTextStyles.label(color: AppColors.white)
+                      .copyWith(fontWeight: FontWeight.w700),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 7),
+          Expanded(
+            child: Text(
+              description,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: AppTextStyles.caption(color: AppColors.textSecondary)
+                  .copyWith(fontSize: 10),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _GalaxyActionCard extends StatelessWidget {
+  const _GalaxyActionCard({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    required this.accent,
+    required this.artwork,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final Color accent;
+  final Widget artwork;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(18),
+        child: _GlassPanel(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  _RoundIcon(icon: icon, color: accent, size: 34),
+                  const SizedBox(width: 9),
+                  Expanded(
+                    child: Text(
+                      title,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: AppTextStyles.label(color: AppColors.white)
+                          .copyWith(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                  const Icon(
+                    Icons.arrow_forward_rounded,
+                    color: Color(0xFFB8DFFF),
+                    size: 17,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 4),
+              Text(
+                subtitle,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppTextStyles.caption(color: AppColors.textSecondary)
+                    .copyWith(fontSize: 10),
+              ),
+              const Spacer(),
+              SizedBox(height: 30, child: artwork),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _PlanetMiniArtwork extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    const List<Color> colors = <Color>[
+      Color(0xFF39B9FF),
+      Color(0xFF9B70FF),
+      Color(0xFFFFA83D),
+      Color(0xFF38D9C1),
+      Color(0xFFE35BBD),
+    ];
+    return Row(
+      children: <Widget>[
+        for (final Color color in colors)
+          Align(
+            widthFactor: 0.82,
+            child: Container(
+              width: 28,
+              height: 28,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: RadialGradient(
+                  center: const Alignment(-0.35, -0.4),
+                  colors: <Color>[Colors.white, color, color.withValues(alpha: 0.35)],
+                  stops: const <double>[0, 0.24, 1],
+                ),
+                boxShadow: <BoxShadow>[
+                  BoxShadow(color: color.withValues(alpha: 0.55), blurRadius: 9),
+                ],
+                border: Border.all(color: Colors.white54, width: 0.7),
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+class _LandscapeMiniArtwork extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: <Color>[
+              Color(0xFF79C8F4),
+              Color(0xFF456D8F),
+              Color(0xFF1A4560),
+            ],
+          ),
+        ),
+        child: Stack(
+          children: <Widget>[
+            Positioned(
+              left: 12,
+              bottom: -14,
+              child: Icon(Icons.landscape_rounded,
+                  size: 76, color: Colors.white.withValues(alpha: 0.72)),
+            ),
+            Positioned(
+              right: 18,
+              bottom: -8,
+              child: Icon(Icons.terrain_rounded,
+                  size: 60, color: const Color(0xFF173F57).withValues(alpha: 0.9)),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _PeopleMiniArtwork extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    const List<Color> colors = <Color>[
+      Color(0xFFFFC18C),
+      Color(0xFFB8D7FF),
+      Color(0xFFE8A8D9),
+      Color(0xFF9BE2C5),
+    ];
+    return Row(
+      children: <Widget>[
+        for (final Color color in colors)
+          Align(
+            widthFactor: 0.82,
+            child: CircleAvatar(
+              radius: 14,
+              backgroundColor: color,
+              child: const Icon(Icons.person_rounded,
+                  color: Color(0xFF18304E), size: 17),
+            ),
+          ),
+      ],
     );
   }
 }
