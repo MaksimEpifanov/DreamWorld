@@ -176,6 +176,8 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                       rotationTurns:
                           _rotationController.value * speed * direction,
                       atmospherePulse: atmospherePulse,
+                      ringRotationTurns:
+                          _rotationController.value * (index.isEven ? 0.12 : -0.12),
                       onTap: () => widget.onPlanetTap(planet),
                     ),
                   );
@@ -498,8 +500,7 @@ class _GalaxyPlanet extends StatelessWidget {
                       glow: 0.88,
                       rotationTurns: rotationTurns,
                       atmospherePulse: atmospherePulse,
-                      ringRotationTurns: _rotationController.value *
-                          (index.isEven ? 0.12 : -0.12),
+                      ringRotationTurns: ringRotationTurns,
                       showRing: planet.scene == PlanetScene.music ||
                           planet.scene == PlanetScene.esoteric ||
                           planet.scene == PlanetScene.finance,
