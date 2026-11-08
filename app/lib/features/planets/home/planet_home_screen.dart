@@ -17,7 +17,6 @@ class PlanetHomeScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final List<Planet> planets = ref.watch(planetsProvider);
-    final List<Planet> featured = ref.watch(featuredPlanetsProvider);
     return SafeArea(
       child: Column(
         children: <Widget>[
@@ -71,12 +70,6 @@ class PlanetHomeScreen extends ConsumerWidget {
                           ),
                         ),
                       ),
-                    Positioned(
-                      left: wide ? 18 : 10,
-                      right: wide ? 18 : 10,
-                      bottom: 12,
-                      child: _HomeHighlights(planets: featured, wide: wide),
-                    ),
                   ],
                 );
               },
@@ -200,150 +193,6 @@ class _GalaxyHeader extends ConsumerWidget {
             ],
           );
         },
-      ),
-    );
-  }
-}
-
-class _HomeHighlights extends StatelessWidget {
-  const _HomeHighlights({required this.planets, required this.wide});
-  final List<Planet> planets;
-  final bool wide;
-
-  @override
-  Widget build(BuildContext context) {
-    if (!wide) {
-      return SizedBox(
-        height: 74,
-        child: _GlassPanel(
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
-          child: Row(
-            children: <Widget>[
-              const _RoundIcon(icon: Icons.auto_awesome_rounded, color: Color(0xFF8A7BFF)),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Text('22 планеты — тысячи историй',
-                    style: AppTextStyles.label(color: Colors.white)),
-              ),
-              IconButton(
-                onPressed: () => context.go('/main/planets'),
-                icon: const Icon(Icons.arrow_forward_rounded, color: Colors.white),
-              ),
-            ],
-          ),
-        ),
-      );
-    }
-
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-        SizedBox(
-          width: 230,
-          child: _GlassPanel(
-            child: const Row(
-              children: <Widget>[
-                _RoundIcon(icon: Icons.auto_awesome_rounded, color: Color(0xFF8A7BFF)),
-                SizedBox(width: 10),
-                Expanded(
-                  child: Text('22 планеты — тысячи историй\nВыбирай то, что вдохновляет. На каждой планете — люди, события и новые возможности.',
-                      style: TextStyle(color: Colors.white, fontSize: 12, height: 1.35)),
-                ),
-              ],
-            ),
-          ),
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: _HighlightCard(
-            icon: Icons.groups_rounded,
-            title: 'Популярные планеты',
-            subtitle: 'Сейчас на пике интереса',
-            planets: planets.take(4).toList(),
-            onTap: () => context.go('/main/planets'),
-          ),
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: _HighlightCard(
-            icon: Icons.event_rounded,
-            title: 'Ближайшие события',
-            subtitle: 'Не пропусти самое интересное',
-            planets: const <Planet>[],
-            onTap: () => context.go('/main/planet/p_travel/news'),
-          ),
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: _HighlightCard(
-            icon: Icons.star_rounded,
-            title: 'Новые люди',
-            subtitle: 'Кто-то уже ждёт тебя',
-            planets: const <Planet>[],
-            onTap: () => context.go('/discovery'),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-class _HighlightCard extends StatelessWidget {
-  const _HighlightCard({
-    required this.icon,
-    required this.title,
-    required this.subtitle,
-    required this.planets,
-    required this.onTap,
-  });
-  final IconData icon;
-  final String title;
-  final String subtitle;
-  final List<Planet> planets;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return _GlassPanel(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: AppRadius.mdAll,
-        child: Row(
-          children: <Widget>[
-            _RoundIcon(icon: icon, color: const Color(0xFF8D7BFF), size: 34),
-            const SizedBox(width: 9),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text(title, style: AppTextStyles.label(color: Colors.white)),
-                  const SizedBox(height: 3),
-                  Text(subtitle, style: AppTextStyles.caption(color: AppColors.textSecondary)),
-                  const SizedBox(height: 8),
-                  if (planets.isNotEmpty)
-                    Wrap(
-                      spacing: 5,
-                      children: planets.map((Planet p) => Container(
-                        width: 23,
-                        height: 23,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          gradient: LinearGradient(colors: <Color>[p.primary, p.accent]),
-                          border: Border.all(color: Colors.white.withValues(alpha: 0.65)),
-                        ),
-                        child: Center(child: Text(p.emoji, style: const TextStyle(fontSize: 12))),
-                      )).toList(),
-                    )
-                  else
-                    const Text('Открой новые возможности', style: TextStyle(color: Color(0xFFB7C9E8), fontSize: 10)),
-                ],
-              ),
-            ),
-            const Icon(Icons.arrow_forward_rounded, color: Color(0xFF9DDCFF)),
-          ],
-        ),
       ),
     );
   }
