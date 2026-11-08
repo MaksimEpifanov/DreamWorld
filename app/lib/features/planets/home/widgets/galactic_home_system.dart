@@ -52,7 +52,7 @@ class GalacticHomeSystem extends StatelessWidget {
           'p_food': const Offset(0.91, 0.65),
           'p_sports': const Offset(0.91, 0.52),
           'p_books': const Offset(0.90, 0.39),
-          'p_self_development': const Offset(0.61, 0.32),
+          'p_selfdev': const Offset(0.61, 0.32),
           'p_other': const Offset(0.40, 0.36),
           'p_collecting': const Offset(0.29, 0.48),
           'p_space': const Offset(0.70, 0.39),
@@ -118,8 +118,14 @@ class GalacticHomeSystem extends StatelessWidget {
               _fallbackPosition(index, visible.length);
           final double size =
               planetSize * (sizeFactors[planet.id] ?? 0.94);
-          final double x = normalized.dx * width;
-          final double y = normalized.dy * height;
+          final double x = (normalized.dx * width).clamp(
+            size * 0.95,
+            width - size * 0.95,
+          );
+          final double y = (normalized.dy * height).clamp(
+            size * 0.95,
+            height - size * 1.35,
+          );
           layers.add(
             Positioned(
               left: x - size * 0.95,
