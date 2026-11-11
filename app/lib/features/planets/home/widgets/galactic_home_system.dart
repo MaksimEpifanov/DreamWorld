@@ -52,36 +52,38 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
         final double height = constraints.maxHeight;
         final double shortSide = math.min(width, height);
         final double centerX = width / 2;
-        final double centerY = height * 0.49;
+        final double availableHeight = (height - widget.bottomReservedSpace)
+            .clamp(1.0, height);
+        final double centerY = availableHeight * 0.5;
+        final double orbitalScale = math.min(width, availableHeight);
+        final bool compactLayout = width < 1200;
         final double sunSize = (shortSide * 0.19).clamp(112.0, 190.0);
+        final double basePlanetSize = (math.min(
+          width * 0.075,
+          height * 0.115,
+        )).clamp(48.0, 78.0);
         final double planetSize =
-            (math.min(width * 0.075, height * 0.115)).clamp(48.0, 78.0);
+            basePlanetSize *
+            (width < 700
+                ? 0.55
+                : compactLayout
+                ? 0.65
+                : 1);
         final List<Planet> visible = widget.planets.take(22).toList();
+        final double maxNodeHeight =
+            planetSize * (width < 1200 ? 1.13 : 1.48) +
+            (width < 700
+                ? 38
+                : compactLayout
+                ? 34
+                : 40);
+        final double orbitWidth = _orbitWidth(width, orbitalScale);
+        final double orbitHeight = _orbitHeight(
+          availableHeight,
+          orbitalScale,
+          maxNodeHeight,
+        );
 
-        final Map<String, Offset> referencePositions = <String, Offset>{
-          'p_tech': const Offset(0.53, 0.13),
-          'p_travel': const Offset(0.37, 0.18),
-          'p_nature': const Offset(0.27, 0.25),
-          'p_music': const Offset(0.69, 0.20),
-          'p_cinema': const Offset(0.84, 0.27),
-          'p_fishing': const Offset(0.15, 0.38),
-          'p_reading': const Offset(0.09, 0.55),
-          'p_art': const Offset(0.13, 0.70),
-          'p_gaming': const Offset(0.22, 0.83),
-          'p_animals': const Offset(0.32, 0.89),
-          'p_gardening': const Offset(0.43, 0.92),
-          'p_volunteering': const Offset(0.56, 0.91),
-          'p_finance': const Offset(0.69, 0.88),
-          'p_esoteric': const Offset(0.81, 0.88),
-          'p_psychology': const Offset(0.80, 0.76),
-          'p_food': const Offset(0.91, 0.65),
-          'p_sports': const Offset(0.91, 0.52),
-          'p_books': const Offset(0.90, 0.39),
-          'p_selfdev': const Offset(0.61, 0.32),
-          'p_other': const Offset(0.40, 0.36),
-          'p_collecting': const Offset(0.29, 0.48),
-          'p_space': const Offset(0.70, 0.39),
-        };
         final Map<String, double> sizeFactors = <String, double>{
           'p_tech': 1.08,
           'p_travel': 1.04,
@@ -121,80 +123,124 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
               ),
             ),
           ),
-          Positioned(
-            left: centerX - width * 0.46,
-            top: centerY - height * 0.39,
-            width: width * 0.92,
-            height: height * 0.78,
-            child: const _OrbitRing(index: 0),
-          ),
-          Positioned(
-            left: centerX - width * 0.36,
-            top: centerY - height * 0.31,
-            width: width * 0.72,
-            height: height * 0.62,
-            child: const _OrbitRing(index: 1),
-          ),
-          Positioned(
-            left: centerX - width * 0.25,
-            top: centerY - height * 0.22,
-            width: width * 0.50,
-            height: height * 0.44,
-            child: const _OrbitRing(index: 2),
-          ),
+          for (int ring = 0; ring < 3; ring++)
+            Positioned(
+              left: centerX - orbitWidth * _orbitRadius(ring, compactLayout),
+              top: centerY - orbitHeight * _orbitRadius(ring, compactLayout),
+              width: orbitWidth * _orbitRadius(ring, compactLayout) * 2,
+              height: orbitHeight * _orbitRadius(ring, compactLayout) * 2,
+              child: _OrbitRing(index: ring),
+            ),
           Positioned(
             left: centerX - sunSize * 0.95,
             top: centerY - sunSize * 0.95,
-            width: sunSize * 1.9,
-            height: sunSize * 1.9,
+            width: sunSize * 1.25,
+            height: sunSize * 1.25,
             child: _CentralSun(size: sunSize),
           ),
         ];
 
+        final Rect sunExclusion = Rect.fromCenter(
+          center: Offset(centerX, centerY),
+          width: sunSize * 1.9,
+          height: sunSize * 1.9,
+        ).inflate(12);
+        final List<Rect> occupied = <Rect>[
+          sunExclusion,
+          if (width >= 900) const Rect.fromLTWH(0, 0, 270, 185),
+        ];
         for (int index = 0; index < visible.length; index++) {
           final Planet planet = visible[index];
-          final Offset normalized = referencePositions[planet.id] ??
-              _fallbackPosition(index, visible.length);
-          final double size =
-              planetSize * (sizeFactors[planet.id] ?? 0.94);
-          final double x = (normalized.dx * width).clamp(
-            size * 0.95,
-            width - size * 0.95,
-          ).toDouble();
-          final double maxPlanetY =
-              math.max(size * 0.95, height - widget.bottomReservedSpace - size * 1.35);
-          final double y = (normalized.dy * height)
-              .clamp(size * 0.95, maxPlanetY)
-              .toDouble();
+          final double size = planetSize * (sizeFactors[planet.id] ?? 0.94);
+          final int ring = index < 6 ? 0 : (index < 14 ? 1 : 2);
+          final int firstIndex = ring == 0 ? 0 : (ring == 1 ? 6 : 14);
+          final int count = ring == 0 ? 6 : (ring == 1 ? 8 : 8);
+          final int positionInRing = index - firstIndex;
+          final double angle =
+              -math.pi / 2 +
+              positionInRing * 2 * math.pi / count +
+              ring * math.pi / 9;
+          final double labelWidth = math.min(
+            width * 0.28,
+            width < 700
+                ? 64
+                : compactLayout
+                ? 104
+                : size * 2.0,
+          );
+          final double nodeWidth = math.max(size * 1.55, labelWidth);
+          final double nodeHeight =
+              size * (width < 1200 ? 1.13 : 1.48) +
+              (width < 700
+                  ? 38
+                  : compactLayout
+                  ? 34
+                  : 40);
+          final double motionX = width * 0.002;
+          final double motionY = height * 0.003;
+          final Offset? position = _findPlanetPosition(
+            angle: angle,
+            ring: ring,
+            center: Offset(centerX, centerY),
+            orbitWidth: orbitWidth,
+            orbitHeight: orbitHeight,
+            nodeWidth: nodeWidth,
+            nodeHeight: nodeHeight,
+            sceneWidth: width,
+            sceneHeight: availableHeight,
+            occupied: occupied,
+            motionPadding: Offset(motionX, motionY),
+            protectedBounds: sunExclusion,
+          );
+          if (position == null) continue;
+          final double x = position.dx;
+          final double y = position.dy;
+          occupied.add(
+            Rect.fromCenter(
+              center: position,
+              width: nodeWidth,
+              height: nodeHeight,
+            ).inflate((width < 700 ? 2 : 3) + math.max(motionX, motionY)),
+          );
           layers.add(
             Positioned(
-              left: x - size * 0.95,
-              top: y - size * 0.95,
-              width: size * 1.9,
+              key: ValueKey<String>('galaxy-planet-${planet.id}'),
+              left: x - nodeWidth / 2,
+              top: y - nodeHeight / 2,
+              width: nodeWidth,
+              height: nodeHeight,
               child: AnimatedBuilder(
                 animation: _rotationController,
                 builder: (BuildContext context, Widget? child) {
                   final int speed = 1 + index % 3;
                   final double direction = index.isEven ? 1 : -1;
-                  final double phase = _rotationController.value *
+                  final double phase =
+                      _rotationController.value *
                           2 *
                           math.pi *
                           (0.12 + (index % 4) * 0.025) +
                       index * 0.83;
                   final double atmospherePulse =
-                      (math.sin(_rotationController.value * 2 * math.pi * 2 + index) + 1) * 0.5;
-                  final double orbitX = math.cos(phase) * width * 0.006;
-                  final double orbitY = math.sin(phase) * height * 0.012;
+                      (math.sin(
+                            _rotationController.value * 2 * math.pi * 2 + index,
+                          ) +
+                          1) *
+                      0.5;
+                  final double orbitX = math.cos(phase) * motionX;
+                  final double orbitY = math.sin(phase) * motionY;
                   return Transform.translate(
                     offset: Offset(orbitX, orbitY),
                     child: _GalaxyPlanet(
                       planet: planet,
                       size: size,
+                      maxLabelWidth: labelWidth,
+                      compactLabel: compactLayout,
                       rotationTurns:
                           _rotationController.value * speed * direction,
                       atmospherePulse: atmospherePulse,
                       ringRotationTurns:
-                          _rotationController.value * (index.isEven ? 0.12 : -0.12),
+                          _rotationController.value *
+                          (index.isEven ? 0.12 : -0.12),
                       onTap: () => widget.onPlanetTap(planet),
                     ),
                   );
@@ -210,14 +256,161 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
       },
     );
   }
-  Offset _fallbackPosition(int index, int count) {
-    final double angle = -math.pi / 2 + (2 * math.pi * index / count);
-    return Offset(
-      0.5 + math.cos(angle) * 0.38,
-      0.5 + math.sin(angle) * 0.38,
+
+  double _orbitRadius(int ring, bool compactLayout) {
+    if (compactLayout) {
+      switch (ring) {
+        case 0:
+          return 0.72;
+        case 1:
+          return 0.88;
+        default:
+          return 1;
+      }
+    }
+    switch (ring) {
+      case 0:
+        return 0.72;
+      case 1:
+        return 0.88;
+      default:
+        return 1;
+    }
+  }
+
+  double _orbitWidth(double width, double orbitalScale) {
+    final double maxRadius = width * (width < 700 ? 0.36 : 0.44);
+    final double edgeSafeRadius = width / 2 - (width < 700 ? 50 : 78);
+    return math.max(0, math.min(maxRadius, edgeSafeRadius));
+  }
+
+  double _orbitHeight(
+    double height,
+    double orbitalScale,
+    double maxNodeHeight,
+  ) {
+    final double edgeSafeHeight = height / 2 - maxNodeHeight / 2 - 10;
+    return math.max(
+      0,
+      math.min(orbitalScale * 0.49, math.min(height * 0.39, edgeSafeHeight)),
     );
   }
 
+  Offset? _findPlanetPosition({
+    required double angle,
+    required int ring,
+    required Offset center,
+    required double orbitWidth,
+    required double orbitHeight,
+    required double nodeWidth,
+    required double nodeHeight,
+    required double sceneWidth,
+    required double sceneHeight,
+    required List<Rect> occupied,
+    required Offset motionPadding,
+    required Rect protectedBounds,
+  }) {
+    final List<double> radii = switch (ring) {
+      0 => <double>[0.72, 0.78, 0.84, 0.68, 0.90, 0.62, 0.96],
+      1 => <double>[0.88, 0.82, 0.94, 0.76, 1.0, 0.70, 1.04],
+      _ => <double>[1.0, 0.94, 0.88, 0.82, 0.76, 0.70, 1.06, 1.12],
+    };
+    final double edgePadding = sceneWidth < 700 ? 2 : 3;
+    final double paddingX = motionPadding.dx + edgePadding;
+    final double paddingY = motionPadding.dy + edgePadding;
+    final double minX = nodeWidth / 2 + paddingX;
+    final double maxX = sceneWidth - nodeWidth / 2 - paddingX;
+    final double minY = nodeHeight / 2 + paddingY;
+    final double maxY = sceneHeight - nodeHeight / 2 - paddingY;
+    final double stepX = nodeWidth + math.max(paddingX, paddingY) * 2 + 4;
+    final double stepY = nodeHeight + math.max(paddingX, paddingY) * 2 + 4;
+    final List<Offset> slots = <Offset>[];
+    for (double y = minY; y <= maxY; y += stepY) {
+      final bool stagger = ((y - minY) / stepY).round().isOdd;
+      for (double x = minX + (stagger ? stepX / 2 : 0); x <= maxX; x += stepX) {
+        slots.add(Offset(x, y));
+      }
+    }
+    slots.sort((Offset a, Offset b) {
+      final double costA = _orbitCost(
+        a,
+        angle,
+        center,
+        orbitWidth,
+        orbitHeight,
+      );
+      final double costB = _orbitCost(
+        b,
+        angle,
+        center,
+        orbitWidth,
+        orbitHeight,
+      );
+      return costA.compareTo(costB);
+    });
+    for (final Offset candidate in slots) {
+      final Rect bounds = Rect.fromCenter(
+        center: candidate,
+        width: nodeWidth,
+        height: nodeHeight,
+      ).inflate(math.max(paddingX, paddingY));
+      if (bounds.overlaps(protectedBounds)) continue;
+      if (!occupied.any(bounds.overlaps)) return candidate;
+    }
+    const int samples = 144;
+    for (final double radius in radii) {
+      for (int offset = 0; offset < samples; offset++) {
+        final int signedOffset = offset == 0
+            ? 0
+            : (offset.isOdd ? (offset + 1) ~/ 2 : -(offset ~/ 2));
+        final double candidateAngle =
+            angle + signedOffset * math.pi * 2 / samples;
+        final Offset candidate = Offset(
+          (center.dx + math.cos(candidateAngle) * orbitWidth * radius)
+              .clamp(minX, maxX)
+              .toDouble(),
+          (center.dy + math.sin(candidateAngle) * orbitHeight * radius)
+              .clamp(minY, maxY)
+              .toDouble(),
+        );
+        final Rect bounds = Rect.fromCenter(
+          center: candidate,
+          width: nodeWidth,
+          height: nodeHeight,
+        ).inflate(math.max(paddingX, paddingY));
+        if (!occupied.any(bounds.overlaps)) return candidate;
+      }
+    }
+    for (double y = minY; y <= maxY; y += 4) {
+      for (double x = minX; x <= maxX; x += 4) {
+        final Offset candidate = Offset(x, y);
+        final Rect bounds = Rect.fromCenter(
+          center: candidate,
+          width: nodeWidth,
+          height: nodeHeight,
+        ).inflate(math.max(paddingX, paddingY));
+        if (bounds.overlaps(protectedBounds)) continue;
+        if (!occupied.any(bounds.overlaps)) return candidate;
+      }
+    }
+    return null;
+  }
+
+  double _orbitCost(
+    Offset point,
+    double angle,
+    Offset center,
+    double orbitWidth,
+    double orbitHeight,
+  ) {
+    final double dx = (point.dx - center.dx) / math.max(orbitWidth, 1);
+    final double dy = (point.dy - center.dy) / math.max(orbitHeight, 1);
+    final double radius = math.sqrt(dx * dx + dy * dy);
+    final double actualAngle = math.atan2(dy, dx);
+    final double angularDistance =
+        (actualAngle - angle + math.pi * 3) % (math.pi * 2) - math.pi;
+    return (radius - 0.9).abs() * 220 + angularDistance.abs() * 80;
+  }
 }
 
 /// Многослойная иллюстрация галактики: туманности, спиральные рукава,
@@ -247,14 +440,34 @@ class _GalaxyDustPainter extends CustomPainter {
     final Offset center = Offset(size.width * 0.5, size.height * 0.49);
     final double scale = size.shortestSide;
 
-    _glow(canvas, center + Offset(-scale * 0.19, -scale * 0.18),
-        scale * 0.48, const Color(0xFF243BFF), 0.23);
-    _glow(canvas, center + Offset(scale * 0.23, scale * 0.11),
-        scale * 0.43, const Color(0xFF8B20FF), 0.19);
-    _glow(canvas, center + Offset(-scale * 0.02, scale * 0.28),
-        scale * 0.35, const Color(0xFF087DFF), 0.16);
-    _glow(canvas, center + Offset(-scale * 0.32, scale * 0.12),
-        scale * 0.25, const Color(0xFFB51DFF), 0.13);
+    _glow(
+      canvas,
+      center + Offset(-scale * 0.19, -scale * 0.18),
+      scale * 0.48,
+      const Color(0xFF243BFF),
+      0.23,
+    );
+    _glow(
+      canvas,
+      center + Offset(scale * 0.23, scale * 0.11),
+      scale * 0.43,
+      const Color(0xFF8B20FF),
+      0.19,
+    );
+    _glow(
+      canvas,
+      center + Offset(-scale * 0.02, scale * 0.28),
+      scale * 0.35,
+      const Color(0xFF087DFF),
+      0.16,
+    );
+    _glow(
+      canvas,
+      center + Offset(-scale * 0.32, scale * 0.12),
+      scale * 0.25,
+      const Color(0xFFB51DFF),
+      0.13,
+    );
 
     _drawSpiralArm(canvas, center, scale, -0.58, const Color(0xFF8D42FF), 0.18);
     _drawSpiralArm(canvas, center, scale, 2.42, const Color(0xFF168EFF), 0.17);
@@ -273,10 +486,9 @@ class _GalaxyDustPainter extends CustomPainter {
         Paint()
           ..style = PaintingStyle.stroke
           ..strokeWidth = ring == 2 ? 1.35 : 0.8
-          ..color = (ring.isEven
-                  ? const Color(0xFF6B70FF)
-                  : const Color(0xFF28A7FF))
-              .withValues(alpha: 0.10 + ring * 0.012)
+          ..color =
+              (ring.isEven ? const Color(0xFF6B70FF) : const Color(0xFF28A7FF))
+                  .withValues(alpha: 0.10 + ring * 0.012)
           ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 2.5),
       );
     }
@@ -291,9 +503,7 @@ class _GalaxyDustPainter extends CustomPainter {
       final double alpha = 0.16 + random.nextDouble() * 0.58;
       final Color color = i % 11 == 0
           ? const Color(0xFFFFC77A)
-          : (i % 5 == 0
-              ? const Color(0xFFB78CFF)
-              : const Color(0xFFB9D7FF));
+          : (i % 5 == 0 ? const Color(0xFFB78CFF) : const Color(0xFFB9D7FF));
       canvas.drawCircle(
         point,
         radius,
@@ -307,8 +517,13 @@ class _GalaxyDustPainter extends CustomPainter {
     _glow(canvas, center, scale * 0.16, const Color(0xFFFF8A24), 0.12);
   }
 
-  void _glow(Canvas canvas, Offset center, double radius, Color color,
-      double opacity) {
+  void _glow(
+    Canvas canvas,
+    Offset center,
+    double radius,
+    Color color,
+    double opacity,
+  ) {
     final Rect rect = Rect.fromCircle(center: center, radius: radius);
     canvas.drawRect(
       rect,
@@ -324,16 +539,25 @@ class _GalaxyDustPainter extends CustomPainter {
     );
   }
 
-  void _drawSpiralArm(Canvas canvas, Offset center, double scale,
-      double rotation, Color color, double opacity) {
+  void _drawSpiralArm(
+    Canvas canvas,
+    Offset center,
+    double scale,
+    double rotation,
+    Color color,
+    double opacity,
+  ) {
     final Path path = Path();
     for (int i = 0; i <= 90; i++) {
       final double t = i / 90;
       final double angle = rotation + t * math.pi * 1.48;
       final double radius = scale * (0.10 + t * 0.43);
-      final Offset point = center +
-          Offset(math.cos(angle) * radius * 1.55,
-              math.sin(angle) * radius * 0.76);
+      final Offset point =
+          center +
+          Offset(
+            math.cos(angle) * radius * 1.55,
+            math.sin(angle) * radius * 0.76,
+          );
       if (i == 0) {
         path.moveTo(point.dx, point.dy);
       } else {
@@ -364,10 +588,16 @@ class _GalaxyDustPainter extends CustomPainter {
       ..color = color.withValues(alpha: 0.82)
       ..strokeWidth = 0.8
       ..strokeCap = StrokeCap.round;
-    canvas.drawLine(point + Offset(-radius * 2, 0),
-        point + Offset(radius * 2, 0), paint);
-    canvas.drawLine(point + Offset(0, -radius * 2),
-        point + Offset(0, radius * 2), paint);
+    canvas.drawLine(
+      point + Offset(-radius * 2, 0),
+      point + Offset(radius * 2, 0),
+      paint,
+    );
+    canvas.drawLine(
+      point + Offset(0, -radius * 2),
+      point + Offset(0, radius * 2),
+      paint,
+    );
     canvas.drawCircle(
       point,
       radius * 0.55,
@@ -403,9 +633,7 @@ class _TwinkleStarsPainter extends CustomPainter {
       final double radius = 0.65 + random.nextDouble() * 1.25;
       final Color color = i % 7 == 0
           ? const Color(0xFFFFD39A)
-          : (i % 3 == 0
-              ? const Color(0xFFD5B8FF)
-              : const Color(0xFFD9EAFF));
+          : (i % 3 == 0 ? const Color(0xFFD5B8FF) : const Color(0xFFD9EAFF));
       final Paint glow = Paint()
         ..color = color.withValues(alpha: 0.10 + intensity * 0.34)
         ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 2.8);
@@ -447,8 +675,9 @@ class _OrbitRing extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color tint =
-        index == 1 ? const Color(0xFF8D6BFF) : const Color(0xFF54A9FF);
+    final Color tint = index == 1
+        ? const Color(0xFF8D6BFF)
+        : const Color(0xFF54A9FF);
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(Radius.elliptical(999, 999)),
@@ -471,52 +700,60 @@ class _CentralSun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IgnorePointer(
-      child: Stack(
-        alignment: Alignment.center,
-        children: <Widget>[
-          Container(
-            width: size * 1.9,
-            height: size * 1.9,
-            decoration: const BoxDecoration(
-              shape: BoxShape.circle,
-              gradient: RadialGradient(
-                colors: <Color>[
-                  Color(0x99FF9C24),
-                  Color(0x44FF6A00),
-                  Colors.transparent,
+      child:
+          Stack(
+                alignment: Alignment.center,
+                children: <Widget>[
+                  Container(
+                    width: size * 1.9,
+                    height: size * 1.9,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      gradient: RadialGradient(
+                        colors: <Color>[
+                          Color(0x99FF9C24),
+                          Color(0x44FF6A00),
+                          Colors.transparent,
+                        ],
+                      ),
+                    ),
+                  ),
+                  RealisticSun(size: size, glow: 0.9),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
+                        'ДОБРО ПОЖАЛОВАТЬ',
+                        style: AppTextStyles.caption(color: Colors.white),
+                      ),
+                      Text(
+                        'В ГАЛАКТИКУ',
+                        style: AppTextStyles.caption(color: Colors.white),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        'DreamWorld',
+                        style: AppTextStyles.title().copyWith(
+                          color: Colors.white,
+                          fontSize: 21,
+                          fontWeight: FontWeight.w800,
+                          shadows: const <Shadow>[
+                            Shadow(color: Color(0xFFFF9D22), blurRadius: 18),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
+              )
+              .animate(
+                onPlay: (AnimationController c) => c.repeat(reverse: true),
+              )
+              .scale(
+                begin: const Offset(0.985, 0.985),
+                end: const Offset(1.015, 1.015),
+                duration: 3200.ms,
               ),
-            ),
-          ),
-          RealisticSun(size: size, glow: 0.9),
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              Text('ДОБРО ПОЖАЛОВАТЬ',
-                  style: AppTextStyles.caption(color: Colors.white)),
-              Text('В ГАЛАКТИКУ',
-                  style: AppTextStyles.caption(color: Colors.white)),
-              const SizedBox(height: 4),
-              Text(
-                'DreamWorld',
-                style: AppTextStyles.title().copyWith(
-                  color: Colors.white,
-                  fontSize: 21,
-                  fontWeight: FontWeight.w800,
-                  shadows: const <Shadow>[
-                    Shadow(color: Color(0xFFFF9D22), blurRadius: 18),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ],
-      ).animate(onPlay: (AnimationController c) => c.repeat(reverse: true))
-          .scale(
-            begin: const Offset(0.985, 0.985),
-            end: const Offset(1.015, 1.015),
-            duration: 3200.ms,
-          ),
     );
   }
 }
@@ -525,6 +762,8 @@ class _GalaxyPlanet extends StatelessWidget {
   const _GalaxyPlanet({
     required this.planet,
     required this.size,
+    required this.maxLabelWidth,
+    required this.compactLabel,
     required this.onTap,
     required this.rotationTurns,
     required this.atmospherePulse,
@@ -533,6 +772,8 @@ class _GalaxyPlanet extends StatelessWidget {
 
   final Planet planet;
   final double size;
+  final double maxLabelWidth;
+  final bool compactLabel;
   final double rotationTurns;
   final double atmospherePulse;
   final double ringRotationTurns;
@@ -580,7 +821,8 @@ class _GalaxyPlanet extends StatelessWidget {
                       rotationTurns: rotationTurns,
                       atmospherePulse: atmospherePulse,
                       ringRotationTurns: ringRotationTurns,
-                      showRing: planet.scene == PlanetScene.music ||
+                      showRing:
+                          planet.scene == PlanetScene.music ||
                           planet.scene == PlanetScene.esoteric ||
                           planet.scene == PlanetScene.finance,
                     ),
@@ -627,9 +869,12 @@ class _GalaxyPlanet extends StatelessWidget {
             Transform.translate(
               offset: Offset(0, -size * 0.02),
               child: Container(
-                constraints: BoxConstraints(maxWidth: size * 1.85),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                key: ValueKey<String>('galaxy-label-${planet.id}'),
+                constraints: BoxConstraints(maxWidth: maxLabelWidth),
+                padding: EdgeInsets.symmetric(
+                  horizontal: compactLabel ? 7 : 10,
+                  vertical: compactLabel ? 4 : 5,
+                ),
                 decoration: BoxDecoration(
                   color: const Color(0xE9071732),
                   borderRadius: BorderRadius.circular(15),
@@ -649,29 +894,30 @@ class _GalaxyPlanet extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       title,
-                      maxLines: 1,
+                      maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: AppTextStyles.label(color: Colors.white)
-                          .copyWith(fontSize: 11),
+                          .copyWith(fontSize: compactLabel ? 10 : 11),
                     ),
-                    const SizedBox(height: 2),
-                    Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: <Widget>[
-                        const Icon(
-                          Icons.people_alt_rounded,
-                          size: 10,
-                          color: Color(0xFFB9D9FF),
-                        ),
-                        const SizedBox(width: 4),
-                        Text(
-                          count,
-                          style: AppTextStyles.caption(
-                            color: const Color(0xFFB9D9FF),
-                          ).copyWith(fontSize: 10),
-                        ),
-                      ],
-                    ),
+                    if (!compactLabel) const SizedBox(height: 2),
+                    if (!compactLabel)
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          const Icon(
+                            Icons.people_alt_rounded,
+                            size: 10,
+                            color: Color(0xFFB9D9FF),
+                          ),
+                          const SizedBox(width: 4),
+                          Text(
+                            count,
+                            style: AppTextStyles.caption(
+                              color: const Color(0xFFB9D9FF),
+                            ).copyWith(fontSize: 10),
+                          ),
+                        ],
+                      ),
                   ],
                 ),
               ),

@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/data/models/map_spot.dart';
 import 'package:dreem_world/data/models/planet.dart';
@@ -8,6 +10,7 @@ import 'package:dreem_world/data/repositories/mock_planet_repository.dart';
 import 'package:dreem_world/features/planets/cosmos/orbital_catalog.dart';
 import 'package:dreem_world/features/planets/cosmos/realistic_planet.dart';
 import 'package:dreem_world/features/planets/cosmos/realistic_sun.dart';
+import 'package:dreem_world/features/planets/home/widgets/galactic_home_system.dart';
 
 import 'package:dreem_world/features/planets/map/planet_map_screen.dart';
 import 'package:dreem_world/features/planets/news/planet_news_screen.dart';
@@ -63,8 +66,9 @@ void main() {
       addTearDown(container.dispose);
 
       final Planet planet = container.read(planetByIdProvider('p_fishing'))!;
-      final List<MapSpot> spots =
-          container.read(planetMapSpotsProvider('p_fishing'));
+      final List<MapSpot> spots = container.read(
+        planetMapSpotsProvider('p_fishing'),
+      );
 
       expect(spots.length, greaterThanOrEqualTo(6));
       for (final MapSpot spot in spots) {
@@ -75,9 +79,7 @@ void main() {
       }
       // Отметки привязаны к интересам планеты.
       expect(
-        spots.any(
-          (MapSpot spot) => spot.tags.any(planet.keywords.contains),
-        ),
+        spots.any((MapSpot spot) => spot.tags.any(planet.keywords.contains)),
         isTrue,
       );
     });
@@ -128,9 +130,7 @@ void main() {
       expect(a.first.tag, planet.keywords.first);
     });
 
-    testWidgets('экран новостей показывает ленту', (
-      WidgetTester tester,
-    ) async {
+    testWidgets('экран новостей показывает ленту', (WidgetTester tester) async {
       await tester.pumpWidget(
         ProviderScope(
           child: MaterialApp(
@@ -232,8 +232,7 @@ void main() {
 
       final Rect catalog = tester.getRect(find.byType(OrbitalCatalog));
 
-      for (final Element element
-          in find.byType(RealisticPlanet).evaluate()) {
+      for (final Element element in find.byType(RealisticPlanet).evaluate()) {
         final Rect r = tester.getRect(find.byWidget(element.widget));
         expect(
           r.top >= catalog.top - 0.5 && r.bottom <= catalog.bottom + 0.5,
@@ -248,4 +247,122 @@ void main() {
       }
     });
   });
+
+  for (final Size viewport in <Size>[
+    const Size(1920, 795),
+    const Size(390, 844),
+  ]) {
+    testWidgets(
+      'узлы галактики не пересекаются при размере ${viewport.width}x${viewport.height}',
+      (WidgetTester tester) async {
+        tester.view.physicalSize = viewport;
+        tester.view.devicePixelRatio = 1;
+        addTearDown(tester.view.resetPhysicalSize);
+        addTearDown(tester.view.resetDevicePixelRatio);
+
+        final List<Planet> planets = const MockPlanetRepository().getPlanets();
+        await tester.pumpWidget(
+          MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: Scaffold(
+              body: GalacticHomeSystem(
+                planets: planets,
+                bottomReservedSpace: viewport.height < 800
+                    ? 132
+                    : viewport.width < 350
+                    ? 0
+                    : viewport.width < 700
+                    ? 132
+                    : 230,
+                onPlanetTap: (Planet planet) {},
+              ),
+            ),
+          ),
+        );
+        await tester.pump(const Duration(milliseconds: 300));
+
+        final List<Rect> nodes = <Rect>[
+          for (final Planet planet in planets.take(22))
+            tester.getRect(
+              find.byKey(ValueKey<String>('galaxy-planet-${planet.id}')),
+            ),
+        ];
+        final List<Rect> labels = <Rect>[
+          for (final Planet planet in planets.take(22))
+            tester.getRect(
+              find.byKey(ValueKey<String>('galaxy-label-${planet.id}')),
+            ),
+        ];
+        final List<Rect> planetPaintBounds = <Rect>[
+          for (final Element element in find.byType(RealisticPlanet).evaluate())
+            tester.getRect(find.byWidget(element.widget)),
+        ];
+        final Rect scene = tester.getRect(find.byType(GalacticHomeSystem));
+        final double sunSize =
+            (math.min(viewport.width, viewport.height) * 0.19).clamp(
+              112.0,
+              190.0,
+            );
+        final Rect sunExclusion = Rect.fromCenter(
+          center: Offset(
+            scene.left + viewport.width / 2,
+            scene.top +
+                (viewport.height -
+                        (viewport.height < 800
+                            ? 132
+                            : viewport.width < 350
+                            ? 0
+                            : viewport.width < 700
+                            ? 132
+                            : 230)) /
+                    2,
+          ),
+          width: sunSize * 1.9,
+          height: sunSize * 1.9,
+        ).inflate(12);
+
+        expect(nodes, hasLength(planets.take(22).length));
+        for (int index = 0; index < nodes.length; index++) {
+          expect(
+            scene.contains(nodes[index].topLeft) &&
+                scene.contains(nodes[index].bottomRight),
+            isTrue,
+            reason: 'Узел галактики выходит за сцену: ${nodes[index]} / $scene',
+          );
+          expect(
+            nodes[index].overlaps(sunExclusion),
+            isFalse,
+            reason:
+                'Планета попала в зону солнца: ${nodes[index]} / $sunExclusion',
+          );
+          for (int other = index + 1; other < nodes.length; other++) {
+            expect(
+              nodes[index].overlaps(nodes[other]),
+              isFalse,
+              reason:
+                  'Узлы галактики пересекаются: ${nodes[index]} / ${nodes[other]}',
+            );
+            expect(
+              labels[index].overlaps(labels[other]),
+              isFalse,
+              reason:
+                  'Подписи планет пересекаются: ${labels[index]} / ${labels[other]}',
+            );
+            expect(
+              planetPaintBounds[index].overlaps(planetPaintBounds[other]),
+              isFalse,
+              reason:
+                  'Изображения планет пересекаются: ${planetPaintBounds[index]} / ${planetPaintBounds[other]}',
+            );
+            expect(
+              labels[index].overlaps(planetPaintBounds[other]),
+              isFalse,
+              reason:
+                  'Подпись перекрывает соседнюю планету: ${labels[index]} / ${planetPaintBounds[other]}',
+            );
+          }
+        }
+      },
+    );
+  }
 }
