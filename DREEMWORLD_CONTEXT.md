@@ -297,3 +297,13 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
 - Карточку «Найди своих по интересам» можно закрыть компактным крестиком в правом верхнем углу. Состояние закрытия временное и сбрасывается при пересоздании экрана.
 - Добавлен widget-тест закрытия карточки; полный `flutter test` — 94 теста пройдены. `flutter analyze` сообщает прежние 5 замечаний без ошибок. Web release build успешен с прежними WASM-предупреждениями `flutter_secure_storage_web`.
 - Локальная папка `backups/preview-current-20261111` обновлена; публикация и коммит не выполнялись.
+
+## 23. Публикация изменений на GitHub Pages (12.11.2026)
+
+- Все накопленные изменения (визуал галактики, экран планеты, солнце и текстуры, раздел уведомлений, 22 PNG планет, фон галактики, `sun.png`) закоммичены как `11659d3` и отправлены в `main`; публикация выполнена по явному разрешению пользователя.
+- Устранены 5 замечаний `flutter analyze` (было: 3 warning + 2 info, теперь `No issues found`): снят лишний `@override` в `firebase_auth_service.dart`, убрано неиспользуемое поле в `firebase_bootstrap.dart`, добавлен тип у `currentPlatform` в `firebase_options.dart`, `child` перенесён после `foregroundPainter` в `realistic_planet.dart`, удалён неиспользуемый параметр `padding` в `planet_home_screen.dart`. Поведение и внешний вид не менялись: размер `main.dart.js` совпал с предыдущей сборкой байт в байт.
+- `app/pubspec.lock` очищен от 16 записей Firebase (зависимости отключены в `pubspec.yaml`). В `.gitignore` добавлены `*.apk`, `.opencode/`, `opencode.json`.
+- Проверки перед публикацией: `flutter pub get`, `flutter analyze` — чисто, `flutter test` — 94 теста, `flutter build web --release --base-href "/DreamWorld/"` — успешно.
+- Деплой: workflow `Deploy Web to GitHub Pages` (run `43196760866`) — success; параллельный `Flutter Web CI and GitHub Pages` (run `43196760744`) — success. Сайт https://maksimepifanov.github.io/DreamWorld/ отдаёт `main.dart.js` с SHA-256 `25E13EE6…`, идентичным локальной сборке; текстуры планет, `sun.png` и `galaxy_background.jpg` на сайте совпадают по SHA-256 с локальными. Различия `index.html` и `flutter_bootstrap.js` — только переводы строк (CRLF локально, LF в CI).
+- Проверка в браузере: приложение загружается без ошибок консоли, маршрут `/onboarding` открывается, приватный `/main` переводит на `/login` (та же логика, что и локально).
+- В репозиторий намеренно не попали: `app/assets/space/variants/` (неиспользуемые варианты солнца, ~5,5 МБ), `app-release.apk`, `.opencode/`, `opencode.json`, `knowledge/`, временные `*.html`-проверки. Они остаются локально и не отслеживаются git.
