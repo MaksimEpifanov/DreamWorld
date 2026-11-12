@@ -29,8 +29,7 @@ class _ScanQrScreenState extends ConsumerState<ScanQrScreen> {
 
     final List<String> existing = ref.read(contactsProvider);
     final List<Profile> profiles =
-        ref.read(discoveryProfilesProvider).asData?.value ??
-            const <Profile>[];
+        ref.read(discoveryProfilesProvider).asData?.value ?? const <Profile>[];
     final Profile? found = profiles
         .where((Profile p) => !existing.contains(p.id))
         .cast<Profile?>()
@@ -108,72 +107,84 @@ class _ScanQrScreenState extends ConsumerState<ScanQrScreen> {
         child: ResponsiveContent(
           child: Padding(
             padding: AppSpacing.page,
-            child: Column(
-              children: <Widget>[
-                const Spacer(),
-                AspectRatio(
-                  aspectRatio: 1,
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: <Widget>[
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: AppRadius.xlAll,
-                          border: Border.all(
-                            color: scheme.primary.withValues(alpha: 0.6),
-                            width: 2,
+            child: SingleChildScrollView(
+              child: Column(
+                children: <Widget>[
+                  const SizedBox(height: AppSpacing.xl),
+                  AspectRatio(
+                    aspectRatio: 1,
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: <Widget>[
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: AppRadius.xlAll,
+                            border: Border.all(
+                              color: scheme.primary.withValues(alpha: 0.6),
+                              width: 2,
+                            ),
                           ),
                         ),
-                      ),
-                      Icon(
-                        Icons.qr_code_2_rounded,
-                        size: 140,
-                        color: scheme.primary.withValues(alpha: 0.25),
-                      ),
-                      if (_scanning)
-                        Positioned.fill(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: AppRadius.xlAll,
-                              gradient: LinearGradient(
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter,
-                                colors: <Color>[
-                                  scheme.primary.withValues(alpha: 0),
-                                  scheme.primary.withValues(alpha: 0.35),
-                                  scheme.primary.withValues(alpha: 0),
-                                ],
-                              ),
-                            ),
-                          )
-                              .animate(onPlay: (AnimationController c) => c.repeat())
-                              .slideY(begin: -0.6, end: 0.6, duration: 1200.ms),
+                        Icon(
+                          Icons.qr_code_2_rounded,
+                          size: 140,
+                          color: scheme.primary.withValues(alpha: 0.25),
                         ),
-                    ],
+                        if (_scanning)
+                          Positioned.fill(
+                            child:
+                                Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: AppRadius.xlAll,
+                                        gradient: LinearGradient(
+                                          begin: Alignment.topCenter,
+                                          end: Alignment.bottomCenter,
+                                          colors: <Color>[
+                                            scheme.primary.withValues(alpha: 0),
+                                            scheme.primary.withValues(
+                                              alpha: 0.35,
+                                            ),
+                                            scheme.primary.withValues(alpha: 0),
+                                          ],
+                                        ),
+                                      ),
+                                    )
+                                    .animate(
+                                      onPlay: (AnimationController c) =>
+                                          c.repeat(),
+                                    )
+                                    .slideY(
+                                      begin: -0.6,
+                                      end: 0.6,
+                                      duration: 1200.ms,
+                                    ),
+                          ),
+                      ],
+                    ),
                   ),
-                ),
-                const SizedBox(height: AppSpacing.xl),
-                Text(
-                  'Наведите камеру на QR-код друга',
-                  style: AppTextStyles.title(),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: AppSpacing.xs),
-                Text(
-                  'Сканирование пока работает в демо-режиме.',
-                  style: AppTextStyles.caption(),
-                  textAlign: TextAlign.center,
-                ),
-                const Spacer(),
-                NeonButton(
-                  label: _scanning ? 'Сканируем…' : 'Сканировать',
-                  icon: Icons.qr_code_scanner_rounded,
-                  expanded: true,
-                  isLoading: _scanning,
-                  onPressed: _scan,
-                ),
-                const SizedBox(height: AppSpacing.lg),
-              ],
+                  const SizedBox(height: AppSpacing.xl),
+                  Text(
+                    'Наведите камеру на QR-код друга',
+                    style: AppTextStyles.title(),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: AppSpacing.xs),
+                  Text(
+                    'Сканирование пока работает в демо-режиме.',
+                    style: AppTextStyles.caption(),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: AppSpacing.xl),
+                  NeonButton(
+                    label: _scanning ? 'Сканируем…' : 'Сканировать',
+                    icon: Icons.qr_code_scanner_rounded,
+                    expanded: true,
+                    isLoading: _scanning,
+                    onPressed: _scan,
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                ],
+              ),
             ),
           ),
         ),

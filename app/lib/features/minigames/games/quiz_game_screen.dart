@@ -122,44 +122,46 @@ class _QuizGameScreenState extends ConsumerState<QuizGameScreen> {
     final ColorScheme scheme = Theme.of(context).colorScheme;
     final QuizQuestion q = _questions[_index];
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-        Row(
-          children: <Widget>[
-            Text('Вопрос ${_index + 1} из ${_questions.length}',
-                style: AppTextStyles.caption()),
-            const Spacer(),
-            Icon(Icons.timer_outlined, size: 16, color: scheme.secondary),
-            const SizedBox(width: AppSpacing.xs),
-            Text('$_secondsLeft с', style: AppTextStyles.caption()),
-          ],
-        ),
-        const SizedBox(height: AppSpacing.md),
-        ClipRRect(
-          borderRadius: AppRadius.pillAll,
-          child: LinearProgressIndicator(
-            value: _secondsLeft / _secondsPerQuestion,
-            minHeight: 6,
-            backgroundColor: AppColors.surface,
-            valueColor: AlwaysStoppedAnimation<Color>(scheme.primary),
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Text(
+                'Вопрос ${_index + 1} из ${_questions.length}',
+                style: AppTextStyles.caption(),
+              ),
+              const Spacer(),
+              Icon(Icons.timer_outlined, size: 16, color: scheme.secondary),
+              const SizedBox(width: AppSpacing.xs),
+              Text('$_secondsLeft с', style: AppTextStyles.caption()),
+            ],
           ),
-        ),
-        const SizedBox(height: AppSpacing.xl),
-        GlassCard(
-          child: Text(q.text, style: AppTextStyles.title()),
-        ),
-        const SizedBox(height: AppSpacing.lg),
-        for (int i = 0; i < q.options.length; i++)
-          Padding(
-            padding: const EdgeInsets.only(bottom: AppSpacing.sm),
-            child: _OptionTile(
-              text: q.options[i],
-              state: _optionState(i, q),
-              onTap: _selected == null ? () => _answer(i) : null,
+          const SizedBox(height: AppSpacing.md),
+          ClipRRect(
+            borderRadius: AppRadius.pillAll,
+            child: LinearProgressIndicator(
+              value: _secondsLeft / _secondsPerQuestion,
+              minHeight: 6,
+              backgroundColor: AppColors.surface,
+              valueColor: AlwaysStoppedAnimation<Color>(scheme.primary),
             ),
           ),
-      ],
+          const SizedBox(height: AppSpacing.xl),
+          GlassCard(child: Text(q.text, style: AppTextStyles.title())),
+          const SizedBox(height: AppSpacing.lg),
+          for (int i = 0; i < q.options.length; i++)
+            Padding(
+              padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+              child: _OptionTile(
+                text: q.options[i],
+                state: _optionState(i, q),
+                onTap: _selected == null ? () => _answer(i) : null,
+              ),
+            ),
+        ],
+      ),
     );
   }
 
@@ -216,8 +218,9 @@ class _QuizGameScreenState extends ConsumerState<QuizGameScreen> {
                 _limitReached = false;
                 (List<QuizQuestion>.of(quizQuestions)..shuffle(Random()));
               });
-              final List<QuizQuestion> pool =
-                  List<QuizQuestion>.of(quizQuestions)..shuffle(Random());
+              final List<QuizQuestion> pool = List<QuizQuestion>.of(
+                quizQuestions,
+              )..shuffle(Random());
               _questions = pool.take(_total).toList(growable: false);
               _startTimer();
             },
@@ -285,9 +288,7 @@ class _OptionTile extends StatelessWidget {
         ),
         child: Row(
           children: <Widget>[
-            Expanded(
-              child: Text(text, style: AppTextStyles.body()),
-            ),
+            Expanded(child: Text(text, style: AppTextStyles.body())),
             if (icon != null)
               Icon(icon, color: iconColor, size: 20)
             else

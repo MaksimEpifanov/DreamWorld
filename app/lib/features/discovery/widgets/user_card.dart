@@ -47,59 +47,59 @@ class UserCard extends StatelessWidget {
     final Color primary = Theme.of(context).colorScheme.primary;
 
     return NeonCard(
-      color: primary,
-      padding: EdgeInsets.zero,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          _PhotoBanner(profile: profile, compatibility: compatibility),
-          Padding(
-            padding: const EdgeInsets.all(AppSpacing.md),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Row(
+          color: primary,
+          padding: EdgeInsets.zero,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              _PhotoBanner(profile: profile, compatibility: compatibility),
+              Padding(
+                padding: const EdgeInsets.all(AppSpacing.md),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Flexible(child: _RelationshipBadge(status: relationshipStatus)),
-                    const Spacer(),
-                    if (onReport != null)
-                      IconButton(
-                        tooltip: 'Пожаловаться',
-                        visualDensity: VisualDensity.compact,
-                        icon: const Icon(Icons.flag_outlined, size: 20),
-                        color: AppColors.textMuted,
-                        onPressed: onReport,
+                    Row(
+                      children: <Widget>[
+                        Flexible(
+                          child: _RelationshipBadge(status: relationshipStatus),
+                        ),
+                        const Spacer(),
+                        if (onReport != null)
+                          IconButton(
+                            tooltip: 'Пожаловаться',
+                            visualDensity: VisualDensity.compact,
+                            icon: const Icon(Icons.flag_outlined, size: 20),
+                            color: AppColors.textMuted,
+                            onPressed: onReport,
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: AppSpacing.sm),
+                    if ((profile.city ?? '').isNotEmpty) ...<Widget>[
+                      _City(city: profile.city!),
+                      const SizedBox(height: AppSpacing.sm),
+                    ],
+                    if ((profile.bio ?? '').isNotEmpty) ...<Widget>[
+                      Text(
+                        profile.bio!,
+                        style: AppTextStyles.body(
+                          color: AppColors.textSecondary,
+                        ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
+                      const SizedBox(height: AppSpacing.sm),
+                    ],
+                    if (profile.interests.isNotEmpty)
+                      _Interests(interests: profile.interests, color: primary),
+                    const SizedBox(height: AppSpacing.lg),
+                    _Actions(isBusy: isBusy, onLike: onLike, onPass: onPass),
                   ],
                 ),
-                const SizedBox(height: AppSpacing.sm),
-                if ((profile.city ?? '').isNotEmpty) ...<Widget>[
-                  _City(city: profile.city!),
-                  const SizedBox(height: AppSpacing.sm),
-                ],
-                if ((profile.bio ?? '').isNotEmpty) ...<Widget>[
-                  Text(
-                    profile.bio!,
-                    style: AppTextStyles.body(color: AppColors.textSecondary),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: AppSpacing.sm),
-                ],
-                if (profile.interests.isNotEmpty)
-                  _Interests(interests: profile.interests, color: primary),
-                const SizedBox(height: AppSpacing.lg),
-                _Actions(
-                  isBusy: isBusy,
-                  onLike: onLike,
-                  onPass: onPass,
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
-        ],
-      ),
-    )
+        )
         .animate()
         .fadeIn(duration: 350.ms)
         .slideY(begin: 0.05, end: 0, curve: Curves.easeOutCubic)
@@ -121,7 +121,8 @@ class _RelationshipBadge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
-    final Color color = status == RelationshipStatus.married ||
+    final Color color =
+        status == RelationshipStatus.married ||
             status == RelationshipStatus.inRelationship
         ? scheme.tertiary
         : scheme.secondary;
@@ -140,9 +141,13 @@ class _RelationshipBadge extends StatelessWidget {
         children: <Widget>[
           Text(status.emoji, style: const TextStyle(fontSize: 14)),
           const SizedBox(width: AppSpacing.xs),
-          Text(
-            status.label,
-            style: AppTextStyles.label(color: color),
+          Flexible(
+            child: Text(
+              status.label,
+              style: AppTextStyles.label(color: color),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
           ),
         ],
       ),
@@ -185,8 +190,10 @@ class _PhotoBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
     final Uint8List? photoBytes = decodeDataUri(profile.photoUrl);
-    final double photoHeight =
-        (MediaQuery.sizeOf(context).height * 0.42).clamp(240.0, 520.0);
+    final double photoHeight = (MediaQuery.sizeOf(context).height * 0.42).clamp(
+      240.0,
+      520.0,
+    );
 
     return ClipRRect(
       borderRadius: const BorderRadius.vertical(
@@ -336,10 +343,7 @@ class _OnlineBadge extends StatelessWidget {
         children: <Widget>[
           const Icon(Icons.circle, size: 8, color: AppColors.success),
           const SizedBox(width: AppSpacing.xs),
-          Text(
-            'онлайн',
-            style: AppTextStyles.caption(color: AppColors.white),
-          ),
+          Text('онлайн', style: AppTextStyles.caption(color: AppColors.white)),
         ],
       ),
     );
@@ -362,10 +366,7 @@ class _CompatibilityRing extends StatelessWidget {
         shape: BoxShape.circle,
         color: AppColors.black.withValues(alpha: 0.35),
         boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: color.withValues(alpha: 0.55),
-            blurRadius: 18,
-          ),
+          BoxShadow(color: color.withValues(alpha: 0.55), blurRadius: 18),
         ],
       ),
       child: Stack(

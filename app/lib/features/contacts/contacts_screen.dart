@@ -68,25 +68,43 @@ class ContactsScreen extends ConsumerWidget {
                       ],
                     ),
                     const SizedBox(height: AppSpacing.md),
-                    Row(
-                      children: <Widget>[
-                        Expanded(
-                          child: NeonButton(
-                            label: 'Мой QR',
-                            icon: Icons.qr_code_rounded,
-                            variant: NeonButtonVariant.outlined,
-                            onPressed: () => context.go('/contacts/my-qr'),
-                          ),
-                        ),
-                        const SizedBox(width: AppSpacing.sm),
-                        Expanded(
-                          child: NeonButton(
-                            label: 'Сканировать',
-                            icon: Icons.qr_code_scanner_rounded,
-                            onPressed: () => context.go('/contacts/scan'),
-                          ),
-                        ),
-                      ],
+                    LayoutBuilder(
+                      builder:
+                          (BuildContext context, BoxConstraints constraints) {
+                            final Widget qrButton = NeonButton(
+                              label: 'Мой QR',
+                              icon: Icons.qr_code_rounded,
+                              variant: NeonButtonVariant.outlined,
+                              onPressed: () => context.go('/contacts/my-qr'),
+                            );
+                            final Widget scanButton = NeonButton(
+                              label: 'Сканировать',
+                              icon: Icons.qr_code_scanner_rounded,
+                              onPressed: () => context.go('/contacts/scan'),
+                            );
+                            if (constraints.maxWidth < 320) {
+                              return Column(
+                                children: <Widget>[
+                                  SizedBox(
+                                    width: double.infinity,
+                                    child: qrButton,
+                                  ),
+                                  const SizedBox(height: AppSpacing.sm),
+                                  SizedBox(
+                                    width: double.infinity,
+                                    child: scanButton,
+                                  ),
+                                ],
+                              );
+                            }
+                            return Row(
+                              children: <Widget>[
+                                Expanded(child: qrButton),
+                                const SizedBox(width: AppSpacing.sm),
+                                Expanded(child: scanButton),
+                              ],
+                            );
+                          },
                     ),
                   ],
                 ),
@@ -96,10 +114,7 @@ class ContactsScreen extends ConsumerWidget {
                 children: <Widget>[
                   Text('Мои контакты', style: AppTextStyles.title()),
                   const Spacer(),
-                  Text(
-                    '${contacts.length}',
-                    style: AppTextStyles.caption(),
-                  ),
+                  Text('${contacts.length}', style: AppTextStyles.caption()),
                 ],
               ),
               const SizedBox(height: AppSpacing.sm),
@@ -112,10 +127,9 @@ class ContactsScreen extends ConsumerWidget {
                     child: _ContactTile(
                       profile: contacts[i],
                       index: i,
-                      onRemove: () =>
-                          ref.read(contactsProvider.notifier).remove(
-                                contacts[i].id,
-                              ),
+                      onRemove: () => ref
+                          .read(contactsProvider.notifier)
+                          .remove(contacts[i].id),
                       onReport: () => showReportSheet(
                         context,
                         ref,
@@ -142,11 +156,7 @@ class _EmptyContacts extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: AppSpacing.xl),
       child: Column(
         children: <Widget>[
-          Icon(
-            Icons.people_alt_outlined,
-            size: 64,
-            color: AppColors.textMuted,
-          ),
+          Icon(Icons.people_alt_outlined, size: 64, color: AppColors.textMuted),
           const SizedBox(height: AppSpacing.md),
           Text('Пока нет контактов', style: AppTextStyles.title()),
           const SizedBox(height: AppSpacing.xs),
@@ -177,49 +187,49 @@ class _ContactTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GlassCard(
-      padding: const EdgeInsets.all(AppSpacing.sm),
-      child: Row(
-        children: <Widget>[
-          AuraAvatar(
-            photoUrl: profile.photoUrl,
-            size: 52,
-            fallbackText: profile.name,
-          ),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(profile.name, style: AppTextStyles.bodyBold()),
-                const SizedBox(height: AppSpacing.xxs),
-                Text(
-                  <String>[
-                    if ((profile.city ?? '').isNotEmpty) profile.city!,
-                    if (profile.interestNames.isNotEmpty)
-                      profile.interestNames.take(2).join(', '),
-                  ].join(' • '),
-                  style: AppTextStyles.caption(),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
+          padding: const EdgeInsets.all(AppSpacing.sm),
+          child: Row(
+            children: <Widget>[
+              AuraAvatar(
+                photoUrl: profile.photoUrl,
+                size: 52,
+                fallbackText: profile.name,
+              ),
+              const SizedBox(width: AppSpacing.md),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(profile.name, style: AppTextStyles.bodyBold()),
+                    const SizedBox(height: AppSpacing.xxs),
+                    Text(
+                      <String>[
+                        if ((profile.city ?? '').isNotEmpty) profile.city!,
+                        if (profile.interestNames.isNotEmpty)
+                          profile.interestNames.take(2).join(', '),
+                      ].join(' • '),
+                      style: AppTextStyles.caption(),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+              IconButton(
+                tooltip: 'Пожаловаться',
+                icon: const Icon(Icons.flag_outlined),
+                color: AppColors.textMuted,
+                onPressed: onReport,
+              ),
+              IconButton(
+                tooltip: 'Удалить',
+                icon: const Icon(Icons.person_remove_outlined),
+                color: AppColors.error,
+                onPressed: onRemove,
+              ),
+            ],
           ),
-          IconButton(
-            tooltip: 'Пожаловаться',
-            icon: const Icon(Icons.flag_outlined),
-            color: AppColors.textMuted,
-            onPressed: onReport,
-          ),
-          IconButton(
-            tooltip: 'Удалить',
-            icon: const Icon(Icons.person_remove_outlined),
-            color: AppColors.error,
-            onPressed: onRemove,
-          ),
-        ],
-      ),
-    )
+        )
         .animate(delay: (index * 50).ms)
         .fadeIn(duration: 300.ms)
         .slideX(begin: 0.08, end: 0, curve: Curves.easeOutCubic);

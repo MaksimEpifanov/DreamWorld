@@ -33,31 +33,31 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int _currentPage = 0;
 
   List<OnboardingPage> _pages(BuildContext context) => <OnboardingPage>[
-        OnboardingPage(
-          title: 'Знакомства по совместимости',
-          description: 'Умный подбор на основе интересов, ценностей и целей',
-          icon: Icons.favorite_rounded,
-          iconColor: Theme.of(context).colorScheme.primary,
-        ),
-        OnboardingPage(
-          title: 'Чат + перевод',
-          description: 'Коммуницируй без языковых барьеров в реальном времени',
-          icon: Icons.chat_bubble_rounded,
-          iconColor: Theme.of(context).colorScheme.secondary,
-        ),
-        OnboardingPage(
-          title: 'ИИ-помощник',
-          description: 'Советы, переформулировки и ледоколы для общения',
-          icon: Icons.auto_awesome_rounded,
-          iconColor: Theme.of(context).colorScheme.tertiary,
-        ),
-        OnboardingPage(
-          title: 'Твоя история начинается',
-          description: 'Создай профиль и найди тех, кто близок по духу',
-          icon: Icons.celebration_rounded,
-          iconColor: Theme.of(context).colorScheme.primary,
-        ),
-      ];
+    OnboardingPage(
+      title: 'Знакомства по совместимости',
+      description: 'Умный подбор на основе интересов, ценностей и целей',
+      icon: Icons.favorite_rounded,
+      iconColor: Theme.of(context).colorScheme.primary,
+    ),
+    OnboardingPage(
+      title: 'Чат + перевод',
+      description: 'Коммуницируй без языковых барьеров в реальном времени',
+      icon: Icons.chat_bubble_rounded,
+      iconColor: Theme.of(context).colorScheme.secondary,
+    ),
+    OnboardingPage(
+      title: 'ИИ-помощник',
+      description: 'Советы, переформулировки и ледоколы для общения',
+      icon: Icons.auto_awesome_rounded,
+      iconColor: Theme.of(context).colorScheme.tertiary,
+    ),
+    OnboardingPage(
+      title: 'Твоя история начинается',
+      description: 'Создай профиль и найди тех, кто близок по духу',
+      icon: Icons.celebration_rounded,
+      iconColor: Theme.of(context).colorScheme.primary,
+    ),
+  ];
 
   @override
   void dispose() {
@@ -97,8 +97,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   children: <Widget>[
                     Row(
                       children: <Widget>[
-                        const NeonLogoText(fontSize: 28),
-                        const Spacer(),
+                        Expanded(
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              child: NeonLogoText(fontSize: 28),
+                            ),
+                          ),
+                        ),
                         TextButton(
                           onPressed: _skip,
                           child: Text(
@@ -119,70 +126,113 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         itemCount: pages.length,
                         itemBuilder: (BuildContext context, int index) {
                           final OnboardingPage page = pages[index];
-                          return Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              Container(
-                                width: 120,
-                                height: 120,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  gradient: RadialGradient(
-                                    colors: <Color>[
-                                      (page.iconColor ?? scheme.primary)
-                                          .withValues(alpha: 0.4),
-                                      (page.iconColor ?? scheme.primary)
-                                          .withValues(alpha: 0.1),
-                                      Colors.transparent,
-                                    ],
-                                  ),
-                                ),
-                                child: Icon(
-                                  page.icon,
-                                  size: 64,
-                                  color: page.iconColor ?? scheme.primary,
-                                )
-                                    .animate(key: ValueKey<int>(index))
-                                    .scale(
-                                      begin: const Offset(0.6, 0.6),
-                                      end: const Offset(1, 1),
-                                      duration: 500.ms,
-                                      curve: Curves.easeOutBack,
-                                    )
-                                    .fadeIn(duration: 400.ms),
-                              ),
-                              const SizedBox(height: AppSpacing.xl),
-                              Text(
-                                page.title,
-                                style: AppTextStyles.title()
-                                    .copyWith(fontSize: 22),
-                                textAlign: TextAlign.center,
-                              )
-                                  .animate(key: ValueKey<int>(index))
-                                  .fadeIn(delay: 100.ms, duration: 400.ms)
-                                  .slideY(
-                                    begin: 0.3,
-                                    end: 0,
-                                    duration: 400.ms,
-                                    curve: Curves.easeOut,
-                                  ),
-                              const SizedBox(height: AppSpacing.md),
-                              Text(
-                                page.description,
-                                style: AppTextStyles.body(
-                                  color: AppColors.textSecondary,
-                                ),
-                                textAlign: TextAlign.center,
-                              )
-                                  .animate(key: ValueKey<int>(index))
-                                  .fadeIn(delay: 200.ms, duration: 400.ms)
-                                  .slideY(
-                                    begin: 0.3,
-                                    end: 0,
-                                    duration: 400.ms,
-                                    curve: Curves.easeOut,
-                                  ),
-                            ],
+                          return LayoutBuilder(
+                            builder:
+                                (
+                                  BuildContext context,
+                                  BoxConstraints constraints,
+                                ) {
+                                  return SingleChildScrollView(
+                                    child: ConstrainedBox(
+                                      constraints: BoxConstraints(
+                                        minHeight: constraints.maxHeight,
+                                      ),
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: <Widget>[
+                                          Container(
+                                            width: 120,
+                                            height: 120,
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              gradient: RadialGradient(
+                                                colors: <Color>[
+                                                  (page.iconColor ??
+                                                          scheme.primary)
+                                                      .withValues(alpha: 0.4),
+                                                  (page.iconColor ??
+                                                          scheme.primary)
+                                                      .withValues(alpha: 0.1),
+                                                  Colors.transparent,
+                                                ],
+                                              ),
+                                            ),
+                                            child:
+                                                Icon(
+                                                      page.icon,
+                                                      size: 64,
+                                                      color:
+                                                          page.iconColor ??
+                                                          scheme.primary,
+                                                    )
+                                                    .animate(
+                                                      key: ValueKey<String>(
+                                                        'icon-$index',
+                                                      ),
+                                                    )
+                                                    .scale(
+                                                      begin: const Offset(
+                                                        0.6,
+                                                        0.6,
+                                                      ),
+                                                      end: const Offset(1, 1),
+                                                      duration: 500.ms,
+                                                      curve: Curves.easeOutBack,
+                                                    )
+                                                    .fadeIn(duration: 400.ms),
+                                          ),
+                                          const SizedBox(height: AppSpacing.xl),
+                                          Text(
+                                                page.title,
+                                                style: AppTextStyles.title()
+                                                    .copyWith(fontSize: 22),
+                                                textAlign: TextAlign.center,
+                                              )
+                                              .animate(
+                                                key: ValueKey<String>(
+                                                  'title-$index',
+                                                ),
+                                              )
+                                              .fadeIn(
+                                                delay: 100.ms,
+                                                duration: 400.ms,
+                                              )
+                                              .slideY(
+                                                begin: 0.3,
+                                                end: 0,
+                                                duration: 400.ms,
+                                                curve: Curves.easeOut,
+                                              ),
+                                          const SizedBox(height: AppSpacing.md),
+                                          Text(
+                                                page.description,
+                                                style: AppTextStyles.body(
+                                                  color:
+                                                      AppColors.textSecondary,
+                                                ),
+                                                textAlign: TextAlign.center,
+                                              )
+                                              .animate(
+                                                key: ValueKey<String>(
+                                                  'description-$index',
+                                                ),
+                                              )
+                                              .fadeIn(
+                                                delay: 200.ms,
+                                                duration: 400.ms,
+                                              )
+                                              .slideY(
+                                                begin: 0.3,
+                                                end: 0,
+                                                duration: 400.ms,
+                                                curve: Curves.easeOut,
+                                              ),
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                },
                           );
                         },
                       ),
@@ -208,13 +258,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 : null,
                             color: _currentPage == index
                                 ? null
-                                : AppColors.textSecondary.withValues(alpha: 0.3),
+                                : AppColors.textSecondary.withValues(
+                                    alpha: 0.3,
+                                  ),
                             borderRadius: BorderRadius.circular(AppRadius.md),
                             boxShadow: _currentPage == index
                                 ? <BoxShadow>[
                                     BoxShadow(
-                                      color: scheme.primary
-                                          .withValues(alpha: 0.5),
+                                      color: scheme.primary.withValues(
+                                        alpha: 0.5,
+                                      ),
                                       blurRadius: 12,
                                       spreadRadius: 2,
                                     ),
@@ -227,7 +280,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     const SizedBox(height: AppSpacing.lg),
                     NeonButton(
                       onPressed: _next,
-                      label: _currentPage == pages.length - 1 ? 'Начать' : 'Далее',
+                      label: _currentPage == pages.length - 1
+                          ? 'Начать'
+                          : 'Далее',
                       expanded: true,
                     ),
                   ],

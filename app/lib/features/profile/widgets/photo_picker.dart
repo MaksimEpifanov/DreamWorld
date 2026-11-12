@@ -86,16 +86,20 @@ class PhotoPicker extends StatelessWidget {
         const SizedBox(height: AppSpacing.sm),
         Row(
           children: <Widget>[
-            TextButton.icon(
-              onPressed: () => _pick(ImageSource.gallery),
-              icon: const Icon(Icons.photo_library_outlined, size: 18),
-              label: const Text('Галерея'),
+            Flexible(
+              child: TextButton.icon(
+                onPressed: () => _pick(ImageSource.gallery),
+                icon: const Icon(Icons.photo_library_outlined, size: 18),
+                label: const Text('Галерея'),
+              ),
             ),
             const SizedBox(width: AppSpacing.sm),
-            TextButton.icon(
-              onPressed: () => _pick(ImageSource.camera),
-              icon: const Icon(Icons.photo_camera_outlined, size: 18),
-              label: const Text('Камера'),
+            Flexible(
+              child: TextButton.icon(
+                onPressed: () => _pick(ImageSource.camera),
+                icon: const Icon(Icons.photo_camera_outlined, size: 18),
+                label: const Text('Камера'),
+              ),
             ),
           ],
         ),
