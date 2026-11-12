@@ -69,7 +69,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                 : compactLayout
                 ? 0.65
                 : 1);
-        final List<Planet> visible = widget.planets.take(22).toList();
+        final List<Planet> visible = widget.planets.take(21).toList();
         final double maxNodeHeight =
             planetSize * (width < 1200 ? 1.13 : 1.48) +
             (width < 700
@@ -102,7 +102,6 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
           'p_psychology': 1.05,
           'p_food': 1.08,
           'p_sports': 1.08,
-          'p_books': 1.04,
         };
 
         final List<Widget> layers = <Widget>[
@@ -149,17 +148,24 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
           sunExclusion,
           if (width >= 900) const Rect.fromLTWH(0, 0, 270, 185),
         ];
-        for (int index = 0; index < visible.length; index++) {
-          final Planet planet = visible[index];
+        final List<Planet> placementOrder = List<Planet>.of(visible)
+          ..sort((Planet a, Planet b) {
+            if (a.id == 'p_cars') return -1;
+            if (b.id == 'p_cars') return 1;
+            return 0;
+          });
+        for (final Planet planet in placementOrder) {
+          final int index = visible.indexOf(planet);
           final double size = planetSize * (sizeFactors[planet.id] ?? 0.94);
           final int ring = index < 6 ? 0 : (index < 14 ? 1 : 2);
           final int firstIndex = ring == 0 ? 0 : (ring == 1 ? 6 : 14);
           final int count = ring == 0 ? 6 : (ring == 1 ? 8 : 8);
           final int positionInRing = index - firstIndex;
-          final double angle =
+          final double orbitalAngle =
               -math.pi / 2 +
               positionInRing * 2 * math.pi / count +
               ring * math.pi / 9;
+          final double angle = planet.id == 'p_cars' ? -0.18 : orbitalAngle;
           final double labelWidth = math.min(
             width * 0.28,
             width < 700
@@ -191,6 +197,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             occupied: occupied,
             motionPadding: Offset(motionX, motionY),
             protectedBounds: sunExclusion,
+            targetRadius: planet.id == 'p_cars' ? 0.42 : 0.9,
           );
           if (position == null) continue;
           final double x = position.dx;
@@ -309,6 +316,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
     required List<Rect> occupied,
     required Offset motionPadding,
     required Rect protectedBounds,
+    required double targetRadius,
   }) {
     final List<double> radii = switch (ring) {
       0 => <double>[0.72, 0.78, 0.84, 0.68, 0.90, 0.62, 0.96],
@@ -338,6 +346,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
         center,
         orbitWidth,
         orbitHeight,
+        targetRadius,
       );
       final double costB = _orbitCost(
         b,
@@ -345,6 +354,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
         center,
         orbitWidth,
         orbitHeight,
+        targetRadius,
       );
       return costA.compareTo(costB);
     });
@@ -402,6 +412,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
     Offset center,
     double orbitWidth,
     double orbitHeight,
+    double targetRadius,
   ) {
     final double dx = (point.dx - center.dx) / math.max(orbitWidth, 1);
     final double dy = (point.dy - center.dy) / math.max(orbitHeight, 1);
@@ -409,7 +420,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
     final double actualAngle = math.atan2(dy, dx);
     final double angularDistance =
         (actualAngle - angle + math.pi * 3) % (math.pi * 2) - math.pi;
-    return (radius - 0.9).abs() * 220 + angularDistance.abs() * 80;
+    return (radius - targetRadius).abs() * 220 + angularDistance.abs() * 80;
   }
 }
 
@@ -428,10 +439,10 @@ class _GalaxyDustPainter extends CustomPainter {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: <Color>[
-            Color(0xFF02091E),
-            Color(0xFF07143A),
-            Color(0xFF03091F),
-            Color(0xFF010617),
+            Color(0x2202091E),
+            Color(0x2E07143A),
+            Color(0x2903091F),
+            Color(0x39010617),
           ],
           stops: <double>[0, 0.34, 0.72, 1],
         ).createShader(bounds),
@@ -828,38 +839,55 @@ class _GalaxyPlanet extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    top: 0,
-                    child: Container(
-                      width: size * 0.60,
-                      height: size * 0.60,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Color.lerp(
-                          planet.primary,
-                          const Color(0xFF06152E),
-                          0.28,
-                        ),
-                        border: Border.all(
-                          color: Colors.white.withValues(alpha: 0.78),
-                          width: 1.35,
-                        ),
-                        boxShadow: <BoxShadow>[
-                          BoxShadow(
-                            color: planet.accent.withValues(alpha: 0.65),
-                            blurRadius: 21,
+                    top: size * 0.15,
+                    child: SizedBox(
+                      width: size * 0.3,
+                      height: size * 0.3,
+                      child: Stack(
+                        alignment: Alignment.center,
+                        clipBehavior: Clip.none,
+                        children: <Widget>[
+                          IgnorePointer(
+                            child: Container(
+                              width: size * 0.72,
+                              height: size * 0.72,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                gradient: RadialGradient(
+                                  colors: <Color>[
+                                    planet.accent.withValues(alpha: 0.46),
+                                    planet.secondary.withValues(alpha: 0.20),
+                                    Colors.transparent,
+                                  ],
+                                  stops: const <double>[0, 0.42, 1],
+                                ),
+                              ),
+                            ),
+                          ),
+                          Text(
+                            planet.emoji,
+                            style: TextStyle(
+                              fontSize: size * 0.25,
+                              shadows: <Shadow>[
+                                Shadow(
+                                  color: planet.accent.withValues(alpha: 0.92),
+                                  blurRadius: size * 0.28,
+                                ),
+                                Shadow(
+                                  color: planet.secondary.withValues(
+                                    alpha: 0.64,
+                                  ),
+                                  blurRadius: size * 0.14,
+                                ),
+                                const Shadow(
+                                  color: Color(0xAA000000),
+                                  blurRadius: 3,
+                                  offset: Offset(0, 1),
+                                ),
+                              ],
+                            ),
                           ),
                         ],
-                      ),
-                      child: Center(
-                        child: Text(
-                          planet.emoji,
-                          style: TextStyle(
-                            fontSize: size * 0.30,
-                            shadows: const <Shadow>[
-                              Shadow(color: Colors.white70, blurRadius: 8),
-                            ],
-                          ),
-                        ),
                       ),
                     ),
                   ),

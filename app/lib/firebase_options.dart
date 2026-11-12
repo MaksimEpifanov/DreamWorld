@@ -3,7 +3,7 @@ class DefaultFirebaseOptions {
 
   static const bool isConfigured = false;
 
-  static get currentPlatform => throw UnsupportedError(
+  static Object get currentPlatform => throw UnsupportedError(
     'Firebase disabled',
   );
 }

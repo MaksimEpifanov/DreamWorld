@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -13,6 +13,7 @@ import '../../features/contacts/my_qr_screen.dart';
 import '../../features/contacts/scan_qr_screen.dart';
 import '../../features/discovery/discovery_screen.dart';
 import '../../features/match/match_screen.dart';
+import '../../features/notifications/notifications_screen.dart';
 import '../../features/minigames/games/match_three_game_screen.dart';
 import '../../features/minigames/games/memory_game_screen.dart';
 import '../../features/minigames/games/quiz_game_screen.dart';
@@ -186,8 +187,7 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
                     path: 'planet/:id',
                     name: 'planet',
                     builder: (BuildContext context, GoRouterState state) {
-                      final String id =
-                          state.pathParameters['id'] ?? '';
+                      final String id = state.pathParameters['id'] ?? '';
                       return PlanetDetailScreen(planetId: id);
                     },
                     routes: <RouteBase>[
@@ -195,8 +195,7 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
                         path: 'map',
                         name: 'planet-map',
                         builder: (BuildContext context, GoRouterState state) {
-                          final String id =
-                              state.pathParameters['id'] ?? '';
+                          final String id = state.pathParameters['id'] ?? '';
                           return PlanetMapScreen(planetId: id);
                         },
                       ),
@@ -204,8 +203,7 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
                         path: 'news',
                         name: 'planet-news',
                         builder: (BuildContext context, GoRouterState state) {
-                          final String id =
-                              state.pathParameters['id'] ?? '';
+                          final String id = state.pathParameters['id'] ?? '';
                           return PlanetNewsScreen(planetId: id);
                         },
                       ),
@@ -272,6 +270,13 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         name: 'profile',
         builder: (BuildContext context, GoRouterState state) {
           return const ProfileViewEditScreen();
+        },
+      ),
+      GoRoute(
+        path: '/notifications',
+        name: 'notifications',
+        builder: (BuildContext context, GoRouterState state) {
+          return const NotificationsScreen();
         },
       ),
       GoRoute(

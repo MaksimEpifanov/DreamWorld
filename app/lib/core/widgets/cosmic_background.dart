@@ -17,9 +17,9 @@ class CosmicBackground extends StatelessWidget {
     this.child,
   });
 
-  final int seed;
+  static const String _backgroundAsset = 'assets/space/galaxy_background.jpg';
 
-  /// Необязательный оттенок текущей темы, добавляемый мягким свечением.
+  final int seed;
   final Color? tint;
   final double tintOpacity;
   final Widget? child;
@@ -27,28 +27,40 @@ class CosmicBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox.expand(
-      child: DecoratedBox(
-        decoration: const BoxDecoration(
-          gradient: RadialGradient(
-            center: Alignment(0, -0.25),
-            radius: 1.4,
-            colors: <Color>[
-              Color(0xFF050510),
-              Color(0xFF020208),
-              Color(0xFF000000),
-            ],
-            stops: <double>[0.0, 0.55, 1.0],
+      child: Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          Positioned.fill(
+            child: Image.asset(
+              _backgroundAsset,
+              fit: BoxFit.cover,
+              filterQuality: FilterQuality.medium,
+              errorBuilder:
+                  (BuildContext context, Object error, StackTrace? stackTrace) {
+                    return CustomPaint(
+                      painter: _CosmosPainter(
+                        seed: seed,
+                        tint: null,
+                        tintOpacity: 0,
+                        useImageBackdrop: false,
+                      ),
+                    );
+                  },
+            ),
           ),
-        ),
-        child: CustomPaint(
-          size: Size.infinite,
-          painter: _CosmosPainter(
-            seed: seed,
-            tint: tint,
-            tintOpacity: tintOpacity,
+          Positioned.fill(
+            child: CustomPaint(
+              size: Size.infinite,
+              painter: _CosmosPainter(
+                seed: seed,
+                tint: tint,
+                tintOpacity: tintOpacity,
+                useImageBackdrop: true,
+              ),
+              child: child,
+            ),
           ),
-          child: child,
-        ),
+        ],
       ),
     );
   }
@@ -59,23 +71,34 @@ class _CosmosPainter extends CustomPainter {
     required this.seed,
     required this.tint,
     required this.tintOpacity,
+    required this.useImageBackdrop,
   });
 
   final int seed;
   final Color? tint;
   final double tintOpacity;
+  final bool useImageBackdrop;
 
   @override
   void paint(Canvas canvas, Size size) {
-    final math.Random rnd = math.Random(seed);
-
-    _paintColorWash(canvas, size);
-    _paintNebulae(canvas, size, rnd);
-    _paintGalaxy(canvas, size);
-    _paintMilkyWay(canvas, size, rnd);
-    _paintStars(canvas, size, rnd);
-    _paintVignette(canvas, size);
+    if (useImageBackdrop) {
+      _paintImageBackdropShade(canvas, size);
+    } else {
+      final math.Random rnd = math.Random(seed);
+      _paintColorWash(canvas, size);
+      _paintNebulae(canvas, size, rnd);
+      _paintGalaxy(canvas, size);
+      _paintMilkyWay(canvas, size, rnd);
+      _paintStars(canvas, size, rnd);
+      _paintVignette(canvas, size);
+    }
     _paintTint(canvas, size);
+  }
+
+  void _paintImageBackdropShade(Canvas canvas, Size size) {
+    final Rect rect = Offset.zero & size;
+    canvas.drawRect(rect, Paint()..color = const Color(0x16030A1E));
+    _paintVignette(canvas, size, opacity: 0.24);
   }
 
   /// Цветовая подложка: широкие насыщенные пятна, задающие богатство палитры.
@@ -200,10 +223,9 @@ class _CosmosPainter extends CustomPainter {
           ..style = PaintingStyle.stroke
           ..strokeWidth = radius * 0.075
           ..strokeCap = StrokeCap.round
-          ..color = (arm == 0
-                  ? const Color(0xFF7B55FF)
-                  : const Color(0xFF168DFF))
-              .withValues(alpha: 0.11)
+          ..color =
+              (arm == 0 ? const Color(0xFF7B55FF) : const Color(0xFF168DFF))
+                  .withValues(alpha: 0.11)
           ..maskFilter = MaskFilter.blur(BlurStyle.normal, radius * 0.09),
       );
       canvas.drawPath(
@@ -212,10 +234,9 @@ class _CosmosPainter extends CustomPainter {
           ..style = PaintingStyle.stroke
           ..strokeWidth = radius * 0.012
           ..strokeCap = StrokeCap.round
-          ..color = (arm == 0
-                  ? const Color(0xFFB69AFF)
-                  : const Color(0xFF72C8FF))
-              .withValues(alpha: 0.28),
+          ..color =
+              (arm == 0 ? const Color(0xFFB69AFF) : const Color(0xFF72C8FF))
+                  .withValues(alpha: 0.28),
       );
     }
 
@@ -231,10 +252,9 @@ class _CosmosPainter extends CustomPainter {
         Paint()
           ..style = PaintingStyle.stroke
           ..strokeWidth = i == 0 ? 1.8 : 1
-          ..color = (i.isEven
-                  ? const Color(0xFF5D91FF)
-                  : const Color(0xFFB26AFF))
-              .withValues(alpha: 0.12 - i * 0.012),
+          ..color =
+              (i.isEven ? const Color(0xFF5D91FF) : const Color(0xFFB26AFF))
+                  .withValues(alpha: 0.12 - i * 0.012),
       );
     }
 
@@ -262,18 +282,19 @@ class _CosmosPainter extends CustomPainter {
       final double angle = t * math.pi * 3.15 + arm;
       final double r = radius * (0.12 + t * 0.92);
       final Offset point = Offset(
-        math.cos(angle) * r * 1.12 + (random.nextDouble() - 0.5) * radius * 0.09,
-        math.sin(angle) * r * 0.69 + (random.nextDouble() - 0.5) * radius * 0.09,
+        math.cos(angle) * r * 1.12 +
+            (random.nextDouble() - 0.5) * radius * 0.09,
+        math.sin(angle) * r * 0.69 +
+            (random.nextDouble() - 0.5) * radius * 0.09,
       );
       final double dot = random.nextDouble() * 1.35 + 0.25;
       canvas.drawCircle(
         point,
         dot,
         Paint()
-          ..color = (i % 5 == 0
-                  ? const Color(0xFFFFD6B0)
-                  : const Color(0xFFD7DFFF))
-              .withValues(alpha: 0.18 + random.nextDouble() * 0.52),
+          ..color =
+              (i % 5 == 0 ? const Color(0xFFFFD6B0) : const Color(0xFFD7DFFF))
+                  .withValues(alpha: 0.18 + random.nextDouble() * 0.52),
       );
     }
     canvas.restore();
@@ -281,8 +302,9 @@ class _CosmosPainter extends CustomPainter {
 
   /// Млечный Путь: широкая туманная полоса с пылевыми жилами и звёздами.
   void _paintMilkyWay(Canvas canvas, Size size, math.Random rnd) {
-    final double diagonal =
-        math.sqrt(size.width * size.width + size.height * size.height);
+    final double diagonal = math.sqrt(
+      size.width * size.width + size.height * size.height,
+    );
     const double angle = 0.44;
     final Offset start = Offset(
       size.width * 0.5 - math.cos(angle) * diagonal * 0.6,
@@ -372,11 +394,7 @@ class _CosmosPainter extends CustomPainter {
       final Color color = hue > 0.92
           ? const Color(0xFFB9C8FF)
           : (hue > 0.88 ? const Color(0xFFFFE3C0) : Colors.white);
-      canvas.drawCircle(
-        p,
-        r,
-        Paint()..color = color.withValues(alpha: alpha),
-      );
+      canvas.drawCircle(p, r, Paint()..color = color.withValues(alpha: alpha));
     }
     // Яркие звёзды с крестовым ореолом и лучами.
     for (int i = 0; i < 6; i++) {
@@ -406,7 +424,7 @@ class _CosmosPainter extends CustomPainter {
   }
 
   /// Мягкое затемнение по самому краю — читаемость интерфейса без потери цвета.
-  void _paintVignette(Canvas canvas, Size size) {
+  void _paintVignette(Canvas canvas, Size size, {double opacity = 0.52}) {
     final Rect rect = Offset.zero & size;
     canvas.drawRect(
       rect,
@@ -416,7 +434,7 @@ class _CosmosPainter extends CustomPainter {
           radius: 1.15,
           colors: <Color>[
             Colors.transparent,
-            const Color(0xFF000000).withValues(alpha: 0.52),
+            const Color(0xFF000000).withValues(alpha: opacity),
           ],
           stops: const <double>[0.72, 1.0],
         ).createShader(rect),

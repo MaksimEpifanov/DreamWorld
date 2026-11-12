@@ -10,6 +10,14 @@ desktop.ini
 *.tmp
 *.bak
 
+# Локальные бэкапы (не коммитить)
+backups/
+
+# Собранные APK и локальные инструменты агента
+*.apk
+.opencode/
+opencode.json
+
 # IDE
 .vscode/
 .idea/

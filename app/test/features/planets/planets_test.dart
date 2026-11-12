@@ -11,10 +11,12 @@ import 'package:dreem_world/features/planets/cosmos/orbital_catalog.dart';
 import 'package:dreem_world/features/planets/cosmos/realistic_planet.dart';
 import 'package:dreem_world/features/planets/cosmos/realistic_sun.dart';
 import 'package:dreem_world/features/planets/home/widgets/galactic_home_system.dart';
+import 'package:dreem_world/features/planets/home/planet_home_screen.dart';
 
 import 'package:dreem_world/features/planets/map/planet_map_screen.dart';
 import 'package:dreem_world/features/planets/news/planet_news_screen.dart';
 import 'package:dreem_world/features/planets/news/widgets/news_card.dart';
+import 'package:dreem_world/features/notifications/notifications_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -31,12 +33,17 @@ void main() {
           .toList();
 
       expect(ids, isNotEmpty);
-      expect(ids.length, 22);
+      expect(ids.length, 21);
       expect(ids, contains('p_fishing'));
       expect(ids, contains('p_travel'));
       expect(ids, contains('p_cinema'));
-      expect(ids, contains('p_books'));
+      expect(ids, contains('p_reading'));
+      expect(ids, isNot(contains('p_books')));
       expect(ids, contains('p_collecting'));
+      expect(
+        container.read(planetByIdProvider('p_other'))?.name,
+        'Планета «Микс»',
+      );
     });
 
     testWidgets('главный экран отображает планеты', (
@@ -58,6 +65,140 @@ void main() {
       await tester.pump(const Duration(milliseconds: 100));
       expect(find.byType(SizedBox), findsWidgets);
     });
+
+    testWidgets('в шапке есть уведомления и настройки', (
+      WidgetTester tester,
+    ) async {
+      tester.view.physicalSize = const Size(1920, 1080);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const Scaffold(body: PlanetHomeScreen()),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 100));
+
+      expect(find.byTooltip('Уведомления'), findsOneWidget);
+      expect(find.byTooltip('Настройки'), findsOneWidget);
+      expect(find.text('Исследовать мир'), findsNothing);
+    });
+
+    testWidgets('нижние карточки можно закрыть крестиками', (
+      WidgetTester tester,
+    ) async {
+      tester.view.physicalSize = const Size(1920, 1080);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const Scaffold(body: PlanetHomeScreen()),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 100));
+
+      for (final String title in <String>[
+        '21 планета — тысячи историй',
+        'Популярные планеты',
+        'Новые люди',
+      ]) {
+        final Finder closeButton = find.byTooltip('Закрыть: $title');
+        expect(closeButton, findsOneWidget);
+        await tester.tap(closeButton);
+        await tester.pump();
+        expect(find.text(title), findsNothing);
+      }
+    });
+
+    testWidgets('окошко поиска по интересам закрывается крестиком', (
+      WidgetTester tester,
+    ) async {
+      tester.view.physicalSize = const Size(1920, 1080);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const Scaffold(body: PlanetHomeScreen()),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 100));
+
+      const String tooltip = 'Закрыть: Найди своих по интересам';
+      expect(find.byTooltip(tooltip), findsOneWidget);
+      expect(find.text('Найди своих по интересам'), findsOneWidget);
+
+      await tester.tap(find.byTooltip(tooltip));
+      await tester.pump();
+
+      expect(find.byTooltip(tooltip), findsNothing);
+      expect(find.text('Найди своих по интересам'), findsNothing);
+    });
+
+    testWidgets('кнопки шапки остаются видимыми на телефоне', (
+      WidgetTester tester,
+    ) async {
+      tester.view.physicalSize = const Size(390, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const Scaffold(body: PlanetHomeScreen()),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 100));
+
+      expect(find.byTooltip('Уведомления'), findsOneWidget);
+      expect(find.byTooltip('Настройки'), findsOneWidget);
+    });
+  });
+
+  testWidgets('экран уведомлений показывает события разных типов', (
+    WidgetTester tester,
+  ) async {
+    tester.view.physicalSize = const Size(900, 900);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        child: MaterialApp(
+          theme: AppTheme.of(AppThemeName.neonViolet),
+          home: const NotificationsScreen(),
+        ),
+      ),
+    );
+    await tester.pump(const Duration(milliseconds: 100));
+
+    expect(find.text('Новое в планете «Кино»'), findsOneWidget);
+    expect(find.text('Скоро событие: прогулка выходного дня'), findsOneWidget);
+    expect(find.text('Подобрали новые миры для тебя'), findsOneWidget);
+    expect(find.text('Исследовать мир'), findsNothing);
+    expect(find.text('3 новых уведомления'), findsOneWidget);
+
+    await tester.tap(find.text('Прочитать все'));
+    await tester.pump();
+    expect(find.text('Ты всё посмотрел'), findsOneWidget);
   });
 
   group('Карта планеты', () {
@@ -282,20 +423,25 @@ void main() {
         await tester.pump(const Duration(milliseconds: 300));
 
         final List<Rect> nodes = <Rect>[
-          for (final Planet planet in planets.take(22))
+          for (final Planet planet in planets.take(21))
             tester.getRect(
               find.byKey(ValueKey<String>('galaxy-planet-${planet.id}')),
             ),
         ];
         final List<Rect> labels = <Rect>[
-          for (final Planet planet in planets.take(22))
+          for (final Planet planet in planets.take(21))
             tester.getRect(
               find.byKey(ValueKey<String>('galaxy-label-${planet.id}')),
             ),
         ];
         final List<Rect> planetPaintBounds = <Rect>[
-          for (final Element element in find.byType(RealisticPlanet).evaluate())
-            tester.getRect(find.byWidget(element.widget)),
+          for (final Planet planet in planets.take(21))
+            tester.getRect(
+              find.descendant(
+                of: find.byKey(ValueKey<String>('galaxy-planet-${planet.id}')),
+                matching: find.byType(RealisticPlanet),
+              ),
+            ),
         ];
         final Rect scene = tester.getRect(find.byType(GalacticHomeSystem));
         final double sunSize =
@@ -321,7 +467,24 @@ void main() {
           height: sunSize * 1.9,
         ).inflate(12);
 
-        expect(nodes, hasLength(planets.take(22).length));
+        if (viewport.width >= 1200) {
+          final Rect cars = tester.getRect(
+            find.byKey(const ValueKey<String>('galaxy-planet-p_cars')),
+          );
+          expect(
+            cars.center.dx,
+            greaterThan(sunExclusion.center.dx),
+            reason: 'Планета автолюбителей должна быть справа от солнца',
+          );
+          expect(
+            cars.center.dx,
+            lessThan(scene.center.dx + sunSize * 3.5),
+            reason:
+                'Планета автолюбителей должна остаться во внутренней орбите',
+          );
+        }
+
+        expect(nodes, hasLength(planets.take(21).length));
         for (int index = 0; index < nodes.length; index++) {
           expect(
             scene.contains(nodes[index].topLeft) &&

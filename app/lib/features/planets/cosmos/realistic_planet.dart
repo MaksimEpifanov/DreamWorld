@@ -80,6 +80,7 @@ class RealisticPlanet extends StatelessWidget {
                 ),
               ),
             CustomPaint(
+              size: Size.square(canvas),
               painter: _PlanetEffectsPainter(
                 planet: planet,
                 size: size,
@@ -89,7 +90,17 @@ class RealisticPlanet extends StatelessWidget {
                 drawBackRing: true,
                 drawFrontEffects: false,
               ),
-              child: Image.asset(
+              foregroundPainter: _PlanetEffectsPainter(
+                planet: planet,
+                size: size,
+                showRing: showRing,
+                atmospherePulse: atmospherePulse,
+                ringRotationTurns: ringRotationTurns,
+                drawBackRing: false,
+                drawFrontEffects: true,
+              ),
+              child: Center(
+                child: Image.asset(
                 planetAssetPath(planet),
                 width: size,
                 height: size,
@@ -112,27 +123,21 @@ class RealisticPlanet extends StatelessWidget {
                   Object error,
                   StackTrace? stackTrace,
                 ) {
-                  return CustomPaint(
-                    size: Size.square(size),
-                    painter: _PlanetPainter(
-                      planet: planet,
-                      lightAlignment: lightAlignment,
-                      showRing: false,
-                      rotationTurns: rotationTurns,
-                      atmospherePulse: 0,
-                      ringRotationTurns: 0,
+                  return Center(
+                    child: CustomPaint(
+                      size: Size.square(size),
+                      painter: _PlanetPainter(
+                        planet: planet,
+                        lightAlignment: lightAlignment,
+                        showRing: false,
+                        rotationTurns: rotationTurns,
+                        atmospherePulse: 0,
+                        ringRotationTurns: 0,
+                      ),
                     ),
                   );
                 },
-              ),
-              foregroundPainter: _PlanetEffectsPainter(
-                planet: planet,
-                size: size,
-                showRing: showRing,
-                atmospherePulse: atmospherePulse,
-                ringRotationTurns: ringRotationTurns,
-                drawBackRing: false,
-                drawFrontEffects: true,
+                ),
               ),
             ),
           ],

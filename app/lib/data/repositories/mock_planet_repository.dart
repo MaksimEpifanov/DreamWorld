@@ -66,21 +66,6 @@ class MockPlanetRepository implements PlanetRepository {
       keywords: <String>['Кино', 'Искусство'],
     ),
     Planet(
-      id: 'p_books',
-      name: 'Планета книг',
-      tagline: 'Романы, нон-фикшн и книжные клубы',
-      description:
-          'Делитесь впечатлениями о прочитанном, собирайте книжные полки '
-          'мечты и обсуждайте любимых авторов.',
-      emoji: '📚',
-      scene: PlanetScene.books,
-      primary: Color(0xFFB06AFF),
-      secondary: Color(0xFF6C8CFF),
-      accent: Color(0xFFFFD166),
-      memberCount: 1743,
-      keywords: <String>['Книги', 'Искусство'],
-    ),
-    Planet(
       id: 'p_music',
       name: 'Планета музыки',
       tagline: 'Концерты, плейлисты и джемы',
@@ -307,7 +292,7 @@ class MockPlanetRepository implements PlanetRepository {
     ),
     Planet(
       id: 'p_other',
-      name: 'Планета «Другое»',
+      name: 'Планета «Микс»',
       tagline: 'Всё, что не попало в другие миры',
       description:
           'Необычные увлечения и темы вне списка. Если вашего хобби '

@@ -29,6 +29,5 @@ class FirebaseAuthService implements AuthService {
     return null;
   }
 
-  @override
   AppUser? get currentUser => null;
 }
