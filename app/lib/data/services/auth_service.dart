@@ -14,22 +14,32 @@ class AuthException implements Exception {
 ///
 /// TODO(R2): заменить мок-реализацию на реальный бэкенд (Supabase Auth).
 abstract interface class AuthService {
-  /// Регистрирует нового пользователя и сразу открывает сессию.
-  Future<AppUser> register({
+  Future<RegistrationResult> register({
     required String email,
     required String password,
     required String name,
   });
 
   /// Входит в существующий аккаунт и открывает сессию.
-  Future<AppUser> login({
-    required String email,
-    required String password,
-  });
+  Future<AppUser> login({required String email, required String password});
 
   /// Завершает текущую сессию.
   Future<void> logout();
 
   /// Восстанавливает сохранённую сессию или возвращает `null`.
   Future<AppUser?> restoreSession();
+
+  Future<void> sendPasswordReset({required String email});
+
+  Future<void> updatePassword({required String password});
+}
+
+class RegistrationResult {
+  const RegistrationResult({
+    required this.user,
+    required this.emailConfirmationRequired,
+  });
+
+  final AppUser user;
+  final bool emailConfirmationRequired;
 }

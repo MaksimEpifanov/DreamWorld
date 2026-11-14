@@ -26,6 +26,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
 
   bool _isLoading = false;
   String? _error;
+  String? _success;
 
   @override
   void dispose() {
@@ -44,11 +45,19 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
     });
 
     try {
-      await ref.read(authControllerProvider.notifier).register(
+      final RegistrationResult result = await ref
+          .read(authControllerProvider.notifier)
+          .register(
             email: _emailController.text.trim(),
             password: _passwordController.text,
             name: _nameController.text.trim(),
           );
+      if (mounted && result.emailConfirmationRequired) {
+        setState(() {
+          _success =
+              'Письмо со ссылкой для подтверждения отправлено на ${result.user.email}. Перейдите по ссылке, чтобы активировать аккаунт.';
+        });
+      }
     } on AuthException catch (e) {
       if (mounted) {
         setState(() => _error = e.message);
@@ -56,7 +65,9 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
       }
     } catch (_) {
       if (mounted) {
-        setState(() => _error = 'Не удалось создать аккаунт. Попробуйте ещё раз.');
+        setState(
+          () => _error = 'Не удалось создать аккаунт. Попробуйте ещё раз.',
+        );
         _showError('Не удалось создать аккаунт. Попробуйте ещё раз.');
       }
     } finally {
@@ -68,10 +79,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
     ScaffoldMessenger.of(context)
       ..hideCurrentSnackBar()
       ..showSnackBar(
-        SnackBar(
-          content: Text(message),
-          backgroundColor: AppColors.error,
-        ),
+        SnackBar(content: Text(message), backgroundColor: AppColors.error),
       );
   }
 
@@ -124,6 +132,14 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                             color: AppColors.textSecondary,
                           ),
                         ).animate(delay: 150.ms).fadeIn(duration: 400.ms),
+                        if (_success != null) ...<Widget>[
+                          const SizedBox(height: AppSpacing.md),
+                          Text(
+                            _success!,
+                            textAlign: TextAlign.center,
+                            style: AppTextStyles.body(color: scheme.secondary),
+                          ),
+                        ],
                         const SizedBox(height: AppSpacing.lg),
                         TextFormField(
                           controller: _nameController,
@@ -165,7 +181,9 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                           controller: _passwordController,
                           obscureText: true,
                           textInputAction: TextInputAction.next,
-                          autofillHints: const <String>[AutofillHints.newPassword],
+                          autofillHints: const <String>[
+                            AutofillHints.newPassword,
+                          ],
                           decoration: const InputDecoration(
                             labelText: 'Пароль',
                             prefixIcon: Icon(Icons.lock_outline_rounded),
@@ -205,7 +223,9 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                           const SizedBox(height: AppSpacing.md),
                           Text(
                             _error!,
-                            style: AppTextStyles.caption(color: AppColors.error),
+                            style: AppTextStyles.caption(
+                              color: AppColors.error,
+                            ),
                             textAlign: TextAlign.center,
                           ),
                         ],

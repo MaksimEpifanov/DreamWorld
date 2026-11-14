@@ -19,6 +19,8 @@ class MockMapRepository implements MapRepository {
       final _SpotTemplate template = pool[(seed + i * 3) % pool.length];
       final double x = 0.12 + 0.76 * _rnd(seed + i * 17 + 1);
       final double y = 0.14 + 0.72 * _rnd(seed + i * 29 + 2);
+      final double latitude = 66 - y * 132;
+      final double longitude = x * 360 - 180;
       final List<String> tags = <String>{
         ...template.tags,
         ...planet.keywords.take(2),
@@ -36,6 +38,8 @@ class MockMapRepository implements MapRepository {
         likes: likes,
         x: x,
         y: y,
+        latitude: latitude,
+        longitude: longitude,
         color: i.isEven ? planet.secondary : planet.accent,
         comments: List<MapComment>.generate(commentCount, (int c) {
           final int ci = seed + i * 11 + c * 19;
@@ -122,71 +126,72 @@ const List<_SpotTemplate> _generic = <_SpotTemplate>[
   ),
 ];
 
-const Map<String, List<_SpotTemplate>> _byKeyword = <String, List<_SpotTemplate>>{
-  'Природа': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Тихий берег',
-      description: 'Безлюдный уголок для отдыха и длинных прогулок.',
-      emoji: '🏞️',
-      tags: <String>['Природа', 'Отдых'],
-    ),
-    _SpotTemplate(
-      title: 'Смотровая площадка',
-      description: 'Отсюда открывается лучший вид на закат.',
-      emoji: '🌄',
-      tags: <String>['Природа', 'Фото'],
-    ),
-  ],
-  'Спорт': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Спортзал на районе',
-      description: 'Дружелюбный зал с разумным абонементом.',
-      emoji: '🏋️',
-      tags: <String>['Спорт', 'Тренировка'],
-    ),
-    _SpotTemplate(
-      title: 'Беговая дорожка',
-      description: 'Классический маршрут на утреннюю пробежку.',
-      emoji: '🏃',
-      tags: <String>['Спорт', 'Утро'],
-    ),
-  ],
-  'Путешествия': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Автовокзал',
-      description: 'Отсюда начинаются все спонтанные поездки.',
-      emoji: '🚌',
-      tags: <String>['Путешествия', 'Дорога'],
-    ),
-    _SpotTemplate(
-      title: 'Хостел мечты',
-      description: 'Уютный хостел с лучшими попутчиками.',
-      emoji: '🛏️',
-      tags: <String>['Путешествия', 'Ночлег'],
-    ),
-  ],
-  'Фотография': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Точка для кадра',
-      description: 'Ракурс, который всегда получается эффектным.',
-      emoji: '📷',
-      tags: <String>['Фото', 'Ракурс'],
-    ),
-  ],
-  'Кино': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Старый кинотеатр',
-      description: 'Здесь показывают классику по вторникам.',
-      emoji: '🎦',
-      tags: <String>['Кино', 'Классика'],
-    ),
-  ],
-  'Искусство': <_SpotTemplate>[
-    _SpotTemplate(
-      title: 'Галерея современного искусства',
-      description: 'Молодые художники и смелые выставки.',
-      emoji: '🖼️',
-      tags: <String>['Искусство', 'Выставка'],
-    ),
-  ],
-};
+const Map<String, List<_SpotTemplate>> _byKeyword =
+    <String, List<_SpotTemplate>>{
+      'Природа': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Тихий берег',
+          description: 'Безлюдный уголок для отдыха и длинных прогулок.',
+          emoji: '🏞️',
+          tags: <String>['Природа', 'Отдых'],
+        ),
+        _SpotTemplate(
+          title: 'Смотровая площадка',
+          description: 'Отсюда открывается лучший вид на закат.',
+          emoji: '🌄',
+          tags: <String>['Природа', 'Фото'],
+        ),
+      ],
+      'Спорт': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Спортзал на районе',
+          description: 'Дружелюбный зал с разумным абонементом.',
+          emoji: '🏋️',
+          tags: <String>['Спорт', 'Тренировка'],
+        ),
+        _SpotTemplate(
+          title: 'Беговая дорожка',
+          description: 'Классический маршрут на утреннюю пробежку.',
+          emoji: '🏃',
+          tags: <String>['Спорт', 'Утро'],
+        ),
+      ],
+      'Путешествия': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Автовокзал',
+          description: 'Отсюда начинаются все спонтанные поездки.',
+          emoji: '🚌',
+          tags: <String>['Путешествия', 'Дорога'],
+        ),
+        _SpotTemplate(
+          title: 'Хостел мечты',
+          description: 'Уютный хостел с лучшими попутчиками.',
+          emoji: '🛏️',
+          tags: <String>['Путешествия', 'Ночлег'],
+        ),
+      ],
+      'Фотография': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Точка для кадра',
+          description: 'Ракурс, который всегда получается эффектным.',
+          emoji: '📷',
+          tags: <String>['Фото', 'Ракурс'],
+        ),
+      ],
+      'Кино': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Старый кинотеатр',
+          description: 'Здесь показывают классику по вторникам.',
+          emoji: '🎦',
+          tags: <String>['Кино', 'Классика'],
+        ),
+      ],
+      'Искусство': <_SpotTemplate>[
+        _SpotTemplate(
+          title: 'Галерея современного искусства',
+          description: 'Молодые художники и смелые выставки.',
+          emoji: '🖼️',
+          tags: <String>['Искусство', 'Выставка'],
+        ),
+      ],
+    };

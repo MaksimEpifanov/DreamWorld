@@ -40,7 +40,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     });
 
     try {
-      await ref.read(authControllerProvider.notifier).login(
+      await ref
+          .read(authControllerProvider.notifier)
+          .login(
             email: _emailController.text.trim(),
             password: _passwordController.text,
           );
@@ -63,10 +65,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     ScaffoldMessenger.of(context)
       ..hideCurrentSnackBar()
       ..showSnackBar(
-        SnackBar(
-          content: Text(message),
-          backgroundColor: AppColors.error,
-        ),
+        SnackBar(content: Text(message), backgroundColor: AppColors.error),
       );
   }
 
@@ -111,6 +110,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                           textAlign: TextAlign.center,
                           style: AppTextStyles.headline(),
                         ).animate(delay: 100.ms).fadeIn(duration: 400.ms),
+                        Align(
+                          alignment: Alignment.centerRight,
+                          child: TextButton(
+                            onPressed: _isLoading
+                                ? null
+                                : () => context.go('/forgot-password'),
+                            child: const Text('Забыли пароль?'),
+                          ),
+                        ),
                         const SizedBox(height: AppSpacing.lg),
                         TextFormField(
                           controller: _emailController,
@@ -153,7 +161,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                           const SizedBox(height: AppSpacing.md),
                           Text(
                             _error!,
-                            style: AppTextStyles.caption(color: AppColors.error),
+                            style: AppTextStyles.caption(
+                              color: AppColors.error,
+                            ),
                             textAlign: TextAlign.center,
                           ),
                         ],

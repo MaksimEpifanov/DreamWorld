@@ -28,7 +28,9 @@ class MockAuthService implements AuthService {
     if (raw == null || raw.isEmpty) return <Map<String, dynamic>>[];
     final List<dynamic> decoded = jsonDecode(raw) as List<dynamic>;
     return decoded
-        .map((dynamic e) => Map<String, dynamic>.from(e as Map<dynamic, dynamic>))
+        .map(
+          (dynamic e) => Map<String, dynamic>.from(e as Map<dynamic, dynamic>),
+        )
         .toList();
   }
 
@@ -43,7 +45,7 @@ class MockAuthService implements AuthService {
   String _normalize(String email) => email.trim().toLowerCase();
 
   @override
-  Future<AppUser> register({
+  Future<RegistrationResult> register({
     required String email,
     required String password,
     required String name,
@@ -53,7 +55,8 @@ class MockAuthService implements AuthService {
     final String normalized = _normalize(email);
 
     final bool exists = users.any(
-      (Map<String, dynamic> u) => _normalize(u['email'] as String) == normalized,
+      (Map<String, dynamic> u) =>
+          _normalize(u['email'] as String) == normalized,
     );
     if (exists) {
       throw const AuthException('Пользователь с таким email уже существует');
@@ -68,7 +71,7 @@ class MockAuthService implements AuthService {
     users.add(<String, dynamic>{...user.toJson(), 'password': password});
     await _writeUsers(prefs, users);
     await _saveSession(prefs, user);
-    return user;
+    return RegistrationResult(user: user, emailConfirmationRequired: false);
   }
 
   @override
@@ -80,11 +83,13 @@ class MockAuthService implements AuthService {
     final List<Map<String, dynamic>> users = _readUsers(prefs);
     final String normalized = _normalize(email);
 
-    final Map<String, dynamic>? account = users.cast<Map<String, dynamic>?>().firstWhere(
-      (Map<String, dynamic>? u) =>
-          u != null && _normalize(u['email'] as String) == normalized,
-      orElse: () => null,
-    );
+    final Map<String, dynamic>? account = users
+        .cast<Map<String, dynamic>?>()
+        .firstWhere(
+          (Map<String, dynamic>? u) =>
+              u != null && _normalize(u['email'] as String) == normalized,
+          orElse: () => null,
+        );
 
     if (account == null || account['password'] != password) {
       throw const AuthException('Неверный email или пароль');
@@ -107,11 +112,24 @@ class MockAuthService implements AuthService {
     final String? raw = prefs.getString(currentSessionKey);
     if (raw == null || raw.isEmpty) return null;
     try {
-      final Map<String, dynamic> json =
-          Map<String, dynamic>.from(jsonDecode(raw) as Map<dynamic, dynamic>);
+      final Map<String, dynamic> json = Map<String, dynamic>.from(
+        jsonDecode(raw) as Map<dynamic, dynamic>,
+      );
       return AppUser.fromJson(json);
     } catch (_) {
       return null;
     }
+  }
+
+  @override
+  Future<void> sendPasswordReset({required String email}) async {
+    throw const AuthException('Сброс пароля доступен после настройки сервера.');
+  }
+
+  @override
+  Future<void> updatePassword({required String password}) async {
+    throw const AuthException(
+      'Изменение пароля доступно после настройки сервера.',
+    );
   }
 }

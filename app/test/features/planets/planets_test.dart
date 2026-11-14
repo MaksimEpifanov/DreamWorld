@@ -215,6 +215,8 @@ void main() {
       for (final MapSpot spot in spots) {
         expect(spot.x, inInclusiveRange(0, 1));
         expect(spot.y, inInclusiveRange(0, 1));
+        expect(spot.latitude, inInclusiveRange(-90, 90));
+        expect(spot.longitude, inInclusiveRange(-180, 180));
         expect(spot.tags, isNotEmpty);
         expect(spot.title, isNotEmpty);
       }
@@ -223,6 +225,24 @@ void main() {
         spots.any((MapSpot spot) => spot.tags.any(planet.keywords.contains)),
         isTrue,
       );
+    });
+
+    test('новые комментарии сохраняются в состоянии карты', () {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+      final MapComment comment = MapComment(
+        authorName: 'Вы',
+        text: 'Красивое место',
+      );
+
+      container
+          .read(planetMapSpotsProvider('p_fishing').notifier)
+          .addComment('p_fishing_spot_0', comment);
+
+      final MapSpot updated = container
+          .read(planetMapSpotsProvider('p_fishing'))
+          .firstWhere((MapSpot spot) => spot.id == 'p_fishing_spot_0');
+      expect(updated.comments.last.text, 'Красивое место');
     });
 
     testWidgets('экран карты показывает отметки и теги', (
@@ -239,7 +259,7 @@ void main() {
       await tester.pump(const Duration(milliseconds: 300));
 
       expect(find.textContaining('отметок участников'), findsOneWidget);
-      expect(find.textContaining('Отметить место'), findsOneWidget);
+      expect(find.textContaining('Добавить место'), findsOneWidget);
     });
   });
 

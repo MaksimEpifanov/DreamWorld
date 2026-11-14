@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:latlong2/latlong.dart';
+import 'package:uuid/uuid.dart';
 
 import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
@@ -24,6 +26,7 @@ class PlanetMapScreen extends ConsumerStatefulWidget {
 
 class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
   String? _selectedId;
+  bool _isAddingSpot = false;
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +44,9 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
       );
     }
 
-    final List<MapSpot> spots = ref.watch(planetMapSpotsProvider(widget.planetId));
+    final List<MapSpot> spots = ref.watch(
+      planetMapSpotsProvider(widget.planetId),
+    );
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -64,9 +69,21 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
                     planet: planet,
                     spots: spots,
                     selectedId: _selectedId,
+                    onMapTap: (LatLng point) {
+                      if (_isAddingSpot) _createSpot(point, planet);
+                    },
                     onSpotTap: (MapSpot spot) {
                       setState(() => _selectedId = spot.id);
-                      showSpotSheet(context, spot: spot, planet: planet);
+                      showSpotSheet(
+                        context,
+                        spot: spot,
+                        planet: planet,
+                        onCommentAdded: (MapComment comment) => ref
+                            .read(
+                              planetMapSpotsProvider(widget.planetId).notifier,
+                            )
+                            .addComment(spot.id, comment),
+                      );
                     },
                   ),
                 ),
@@ -81,21 +98,20 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
                     const SizedBox(width: AppSpacing.xs),
                     Expanded(
                       child: Text(
-                        'Нажмите на отметку, чтобы посмотреть фото, '
-                        'теги и комментарии.',
+                        _isAddingSpot
+                            ? 'Нажмите на карте, чтобы выбрать место.'
+                            : 'Нажмите на отметку, чтобы посмотреть детали.',
                         style: AppTextStyles.caption(),
                       ),
                     ),
                     NeonButton(
-                      label: 'Отметить место',
-                      icon: Icons.add_location_alt_outlined,
+                      label: _isAddingSpot ? 'Отмена' : 'Добавить место',
+                      icon: _isAddingSpot
+                          ? Icons.close_rounded
+                          : Icons.add_location_alt_outlined,
                       color: planet.secondary,
                       onPressed: () {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('Добавление отметок появится скоро'),
-                          ),
-                        );
+                        setState(() => _isAddingSpot = !_isAddingSpot);
                       },
                     ),
                   ],
@@ -106,6 +122,80 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
         ),
       ),
     );
+  }
+
+  Future<void> _createSpot(LatLng point, Planet planet) async {
+    final TextEditingController titleController = TextEditingController();
+    final TextEditingController descriptionController = TextEditingController();
+    final bool? confirmed = await showDialog<bool>(
+      context: context,
+      builder: (BuildContext dialogContext) => AlertDialog(
+        title: const Text('Новая отметка'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            TextField(
+              controller: titleController,
+              autofocus: true,
+              maxLength: 48,
+              decoration: const InputDecoration(labelText: 'Название места'),
+            ),
+            TextField(
+              controller: descriptionController,
+              maxLines: 3,
+              maxLength: 240,
+              decoration: const InputDecoration(
+                labelText: 'Комментарий или впечатление',
+              ),
+            ),
+          ],
+        ),
+        actions: <Widget>[
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext, false),
+            child: const Text('Отмена'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(
+              dialogContext,
+              titleController.text.trim().isNotEmpty,
+            ),
+            child: const Text('Добавить'),
+          ),
+        ],
+      ),
+    );
+    final String title = titleController.text.trim();
+    final String description = descriptionController.text.trim();
+    titleController.dispose();
+    descriptionController.dispose();
+    if (confirmed != true || title.isEmpty || !mounted) return;
+
+    final List<MapComment> comments = description.isEmpty
+        ? const <MapComment>[]
+        : <MapComment>[MapComment(authorName: 'Вы', text: description)];
+    final MapSpot spot = MapSpot(
+      id: const Uuid().v4(),
+      title: title,
+      description: description.isEmpty
+          ? 'Место на карте планеты.'
+          : description,
+      authorName: 'Вы',
+      emoji: '📍',
+      tags: planet.keywords.take(2).toList(growable: false),
+      likes: 0,
+      x: (point.longitude + 180) / 360,
+      y: (90 - point.latitude) / 180,
+      latitude: point.latitude,
+      longitude: point.longitude,
+      color: planet.accent,
+      comments: comments,
+    );
+    ref.read(planetMapSpotsProvider(widget.planetId).notifier).add(spot);
+    setState(() {
+      _selectedId = spot.id;
+      _isAddingSpot = false;
+    });
   }
 }
 

@@ -19,8 +19,9 @@ final Provider<PlanetRepository> planetRepositoryProvider =
     Provider<PlanetRepository>((Ref ref) => const MockPlanetRepository());
 
 /// Репозиторий отметок на карте планет.
-final Provider<MapRepository> mapRepositoryProvider =
-    Provider<MapRepository>((Ref ref) => const MockMapRepository());
+final Provider<MapRepository> mapRepositoryProvider = Provider<MapRepository>(
+  (Ref ref) => const MockMapRepository(),
+);
 
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
@@ -48,9 +49,7 @@ final Provider<List<Planet>> featuredPlanetsProvider = Provider<List<Planet>>((
   final List<Planet> matched = interests.isEmpty
       ? <Planet>[]
       : all
-            .where(
-              (Planet planet) => planet.keywords.any(interests.contains),
-            )
+            .where((Planet planet) => planet.keywords.any(interests.contains))
             .toList(growable: false);
 
   final List<Planet> result = <Planet>[...matched];
@@ -89,47 +88,82 @@ final ProviderFamily<Planet?, String> planetByIdProvider =
 /// планета не оставалась пустой.
 final ProviderFamily<AsyncValue<List<Profile>>, String> planetMembersProvider =
     Provider.family<AsyncValue<List<Profile>>, String>((Ref ref, String id) {
-  final Planet? planet = ref.watch(planetByIdProvider(id));
-  final AsyncValue<List<Profile>> profiles = ref.watch(
-    discoveryProfilesProvider,
-  );
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      final AsyncValue<List<Profile>> profiles = ref.watch(
+        discoveryProfilesProvider,
+      );
 
-  if (planet == null) {
-    return const AsyncValue<List<Profile>>.data(<Profile>[]);
-  }
+      if (planet == null) {
+        return const AsyncValue<List<Profile>>.data(<Profile>[]);
+      }
 
-  return profiles.whenData((List<Profile> all) {
-    final List<Profile> matched = all
-        .where(
-          (Profile profile) =>
-              profile.interestNames.any(planet.keywords.contains),
-        )
-        .toList(growable: false);
-    return matched.isEmpty ? all : matched;
-  });
-});
+      return profiles.whenData((List<Profile> all) {
+        final List<Profile> matched = all
+            .where(
+              (Profile profile) =>
+                  profile.interestNames.any(planet.keywords.contains),
+            )
+            .toList(growable: false);
+        return matched.isEmpty ? all : matched;
+      });
+    });
 
 /// Отметки на карте планеты.
-final ProviderFamily<List<MapSpot>, String> planetMapSpotsProvider =
-    Provider.family<List<MapSpot>, String>((Ref ref, String id) {
-  final Planet? planet = ref.watch(planetByIdProvider(id));
-  if (planet == null) return const <MapSpot>[];
-  return ref.watch(mapRepositoryProvider).spotsFor(planet);
-});
+final StateNotifierProviderFamily<MapSpotsNotifier, List<MapSpot>, String>
+planetMapSpotsProvider =
+    StateNotifierProvider.family<MapSpotsNotifier, List<MapSpot>, String>((
+      Ref ref,
+      String id,
+    ) {
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      if (planet == null) return MapSpotsNotifier(const <MapSpot>[]);
+      return MapSpotsNotifier(
+        ref.watch(mapRepositoryProvider).spotsFor(planet),
+      );
+    });
+
+class MapSpotsNotifier extends StateNotifier<List<MapSpot>> {
+  MapSpotsNotifier(super.initialSpots);
+
+  void add(MapSpot spot) => state = <MapSpot>[spot, ...state];
+
+  void addComment(String spotId, MapComment comment) {
+    state = state
+        .map((MapSpot spot) {
+          if (spot.id != spotId) return spot;
+          return MapSpot(
+            id: spot.id,
+            title: spot.title,
+            description: spot.description,
+            authorName: spot.authorName,
+            emoji: spot.emoji,
+            tags: spot.tags,
+            likes: spot.likes,
+            x: spot.x,
+            y: spot.y,
+            latitude: spot.latitude,
+            longitude: spot.longitude,
+            color: spot.color,
+            comments: <MapComment>[...spot.comments, comment],
+          );
+        })
+        .toList(growable: false);
+  }
+}
 
 /// Лента новостей планеты с обновлением раз в час.
 ///
 /// Первый выпуск отдаётся сразу, затем лента пересобирается каждый час.
 final StreamProviderFamily<List<PlanetNewsItem>, String> planetNewsProvider =
     StreamProvider.family<List<PlanetNewsItem>, String>((Ref ref, String id) {
-  final Planet? planet = ref.watch(planetByIdProvider(id));
-  if (planet == null) {
-    return Stream<List<PlanetNewsItem>>.value(const <PlanetNewsItem>[]);
-  }
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      if (planet == null) {
+        return Stream<List<PlanetNewsItem>>.value(const <PlanetNewsItem>[]);
+      }
 
-  final NewsRepository repository = ref.watch(newsRepositoryProvider);
-  return _hourlyNews(repository, planet);
-});
+      final NewsRepository repository = ref.watch(newsRepositoryProvider);
+      return _hourlyNews(repository, planet);
+    });
 
 /// Бесконечный поток новостей: сразу первая порция, далее раз в час.
 ///

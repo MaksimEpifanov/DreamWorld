@@ -24,6 +24,8 @@ class MapSpot {
     required this.likes,
     required this.x,
     required this.y,
+    this.latitude,
+    this.longitude,
     this.color,
     this.comments = const <MapComment>[],
   });
@@ -46,6 +48,9 @@ class MapSpot {
   /// Нормализованные координаты на карте (`0..1`).
   final double x;
   final double y;
+
+  final double? latitude;
+  final double? longitude;
 
   /// Акцентный цвет отметки (в тон планеты, если не задан).
   final Color? color;

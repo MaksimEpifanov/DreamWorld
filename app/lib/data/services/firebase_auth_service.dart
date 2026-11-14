@@ -3,7 +3,7 @@ import 'auth_service.dart';
 
 class FirebaseAuthService implements AuthService {
   @override
-  Future<AppUser> register({
+  Future<RegistrationResult> register({
     required String email,
     required String password,
     required String name,
@@ -27,6 +27,16 @@ class FirebaseAuthService implements AuthService {
   @override
   Future<AppUser?> restoreSession() async {
     return null;
+  }
+
+  @override
+  Future<void> sendPasswordReset({required String email}) async {
+    throw UnimplementedError('Firebase disabled');
+  }
+
+  @override
+  Future<void> updatePassword({required String password}) async {
+    throw UnimplementedError('Firebase disabled');
   }
 
   AppUser? get currentUser => null;

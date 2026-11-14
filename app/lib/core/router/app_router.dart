@@ -6,6 +6,8 @@ import '../../data/providers/app_providers.dart';
 import '../../data/providers/auth_providers.dart';
 import '../../features/auth/login_screen.dart';
 import '../../features/auth/register_screen.dart';
+import '../../features/auth/forgot_password_screen.dart';
+import '../../features/auth/reset_password_screen.dart';
 import '../../features/chat/chat_screen.dart';
 import '../../features/chat/conversations_list_screen.dart';
 import '../../features/contacts/contacts_screen.dart';
@@ -36,6 +38,9 @@ import '../../features/shell/app_shell.dart';
 const Set<String> _publicRoutes = <String>{
   '/login',
   '/register',
+  '/forgot-password',
+  '/reset-password',
+  '/auth/callback',
   '/onboarding',
   '/splash',
 };
@@ -141,6 +146,24 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         builder: (BuildContext context, GoRouterState state) {
           return const RegisterScreen();
         },
+      ),
+      GoRoute(
+        path: '/forgot-password',
+        name: 'forgot-password',
+        builder: (BuildContext context, GoRouterState state) =>
+            const ForgotPasswordScreen(),
+      ),
+      GoRoute(
+        path: '/reset-password',
+        name: 'reset-password',
+        builder: (BuildContext context, GoRouterState state) =>
+            const ResetPasswordScreen(),
+      ),
+      GoRoute(
+        path: '/auth/callback',
+        name: 'auth-callback',
+        builder: (BuildContext context, GoRouterState state) =>
+            const AuthCallbackScreen(),
       ),
       GoRoute(
         path: '/profile-setup',

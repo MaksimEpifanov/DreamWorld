@@ -1,20 +1,23 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:supabase_flutter/supabase_flutter.dart' hide AuthException;
 
 import '../models/app_user.dart';
 import '../services/auth_service.dart';
-import '../services/firebase_auth_service.dart';
-import '../services/firebase_bootstrap.dart';
 import '../services/mock_auth_service.dart';
+import '../services/supabase_auth_service.dart';
 
-/// Сервис аутентификации.
-///
-/// Если Firebase инициализирован ([isFirebaseInitialized]) — реальная
-/// аутентификация через Firebase, иначе безопасный откат на мок-режим
-/// (in-memory + shared_preferences).
-final Provider<AuthService> authServiceProvider = Provider<AuthService>(
-  (Ref ref) =>
-      isFirebaseInitialized ? FirebaseAuthService() : MockAuthService(),
-);
+final Provider<SupabaseClient> supabaseClientProvider =
+    Provider<SupabaseClient>((Ref ref) => Supabase.instance.client);
+
+final Provider<AuthService> authServiceProvider = Provider<AuthService>((
+  Ref ref,
+) {
+  try {
+    return SupabaseAuthService(ref.watch(supabaseClientProvider));
+  } on AssertionError {
+    return MockAuthService();
+  }
+});
 
 /// Статус аутентификации.
 enum AuthStatus {
@@ -74,28 +77,27 @@ class AuthController extends Notifier<AuthState> {
   }
 
   /// Регистрирует нового пользователя. Бросает [AuthException] при ошибке.
-  Future<void> register({
+  Future<RegistrationResult> register({
     required String email,
     required String password,
     required String name,
   }) async {
-    final AppUser user = await _service.register(
+    final RegistrationResult result = await _service.register(
       email: email,
       password: password,
       name: name,
     );
-    state = AuthState(status: AuthStatus.authenticated, user: user);
+    if (!result.emailConfirmationRequired) {
+      state = AuthState(status: AuthStatus.authenticated, user: result.user);
+    } else {
+      state = const AuthState.unauthenticated();
+    }
+    return result;
   }
 
   /// Входит в аккаунт. Бросает [AuthException] при ошибке.
-  Future<void> login({
-    required String email,
-    required String password,
-  }) async {
-    final AppUser user = await _service.login(
-      email: email,
-      password: password,
-    );
+  Future<void> login({required String email, required String password}) async {
+    final AppUser user = await _service.login(email: email, password: password);
     state = AuthState(status: AuthStatus.authenticated, user: user);
   }
 
@@ -103,6 +105,17 @@ class AuthController extends Notifier<AuthState> {
   Future<void> logout() async {
     await _service.logout();
     state = const AuthState.unauthenticated();
+  }
+
+  Future<void> sendPasswordReset({required String email}) =>
+      _service.sendPasswordReset(email: email);
+
+  Future<void> updatePassword({required String password}) async {
+    await _service.updatePassword(password: password);
+    final AppUser? user = await _service.restoreSession();
+    state = user == null
+        ? const AuthState.unauthenticated()
+        : AuthState(status: AuthStatus.authenticated, user: user);
   }
 }
 

@@ -10,20 +10,27 @@ Future<void> showSpotSheet(
   BuildContext context, {
   required MapSpot spot,
   required Planet planet,
+  required ValueChanged<MapComment> onCommentAdded,
 }) {
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (BuildContext context) => _SpotSheet(spot: spot, planet: planet),
+    builder: (BuildContext context) =>
+        _SpotSheet(spot: spot, planet: planet, onCommentAdded: onCommentAdded),
   );
 }
 
 class _SpotSheet extends StatefulWidget {
-  const _SpotSheet({required this.spot, required this.planet});
+  const _SpotSheet({
+    required this.spot,
+    required this.planet,
+    required this.onCommentAdded,
+  });
 
   final MapSpot spot;
   final Planet planet;
+  final ValueChanged<MapComment> onCommentAdded;
 
   @override
   State<_SpotSheet> createState() => _SpotSheetState();
@@ -32,8 +39,9 @@ class _SpotSheet extends StatefulWidget {
 class _SpotSheetState extends State<_SpotSheet> {
   late int _likes = widget.spot.likes;
   bool _liked = false;
-  late final List<MapComment> _comments =
-      List<MapComment>.of(widget.spot.comments);
+  late final List<MapComment> _comments = List<MapComment>.of(
+    widget.spot.comments,
+  );
   final TextEditingController _controller = TextEditingController();
 
   @override
@@ -53,7 +61,9 @@ class _SpotSheetState extends State<_SpotSheet> {
     final String text = _controller.text.trim();
     if (text.isEmpty) return;
     setState(() {
-      _comments.add(MapComment(authorName: 'Вы', text: text));
+      final MapComment comment = MapComment(authorName: 'Вы', text: text);
+      _comments.add(comment);
+      widget.onCommentAdded(comment);
       _controller.clear();
     });
     FocusScope.of(context).unfocus();
@@ -75,9 +85,7 @@ class _SpotSheetState extends State<_SpotSheet> {
           borderRadius: const BorderRadius.vertical(
             top: Radius.circular(AppRadius.xl),
           ),
-          border: Border(
-            top: BorderSide(color: accent.withValues(alpha: 0.4)),
-          ),
+          border: Border(top: BorderSide(color: accent.withValues(alpha: 0.4))),
         ),
         child: SafeArea(
           top: false,
@@ -123,10 +131,7 @@ class _SpotSheetState extends State<_SpotSheet> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          Text(
-                            widget.spot.title,
-                            style: AppTextStyles.title(),
-                          ),
+                          Text(widget.spot.title, style: AppTextStyles.title()),
                           const SizedBox(height: AppSpacing.xxs),
                           Text(
                             'Отметил(а) ${widget.spot.authorName}',
@@ -258,10 +263,7 @@ class _Tag extends StatelessWidget {
         borderRadius: AppRadius.pillAll,
         border: Border.all(color: color.withValues(alpha: 0.4)),
       ),
-      child: Text(
-        '#$label',
-        style: AppTextStyles.label(color: color),
-      ),
+      child: Text('#$label', style: AppTextStyles.label(color: color)),
     );
   }
 }

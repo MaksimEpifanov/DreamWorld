@@ -17,12 +17,14 @@ void main() {
     test('register создаёт пользователя и сессию', () async {
       final MockAuthService service = MockAuthService();
 
-      final AppUser user = await service.register(
+      final RegistrationResult result = await service.register(
         email: 'user@example.com',
         password: 'secret1',
         name: 'Иван',
       );
+      final AppUser user = result.user;
 
+      expect(result.emailConfirmationRequired, isFalse);
       expect(user.email, 'user@example.com');
       expect(user.name, 'Иван');
       expect(user.id, isNotEmpty);
@@ -98,11 +100,7 @@ void main() {
       addTearDown(tester.view.resetDevicePixelRatio);
 
       await tester.pumpWidget(
-        const ProviderScope(
-          child: MaterialApp(
-            home: RegisterScreen(),
-          ),
-        ),
+        const ProviderScope(child: MaterialApp(home: RegisterScreen())),
       );
       await tester.pumpAndSettle();
 
@@ -128,11 +126,7 @@ void main() {
       addTearDown(tester.view.resetDevicePixelRatio);
 
       await tester.pumpWidget(
-        const ProviderScope(
-          child: MaterialApp(
-            home: RegisterScreen(),
-          ),
-        ),
+        const ProviderScope(child: MaterialApp(home: RegisterScreen())),
       );
       await tester.pumpAndSettle();
 
