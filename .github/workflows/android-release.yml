@@ -30,9 +30,27 @@ jobs:
       - name: Test
         working-directory: app
         run: flutter test
+      - name: Подготовить ключ подписи
+        working-directory: app/android
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::warning::Секрет ANDROID_KEYSTORE_BASE64 не задан, APK будет подписан debug-ключом и не сможет обновить предыдущую установку."
+            exit 0
+          fi
+          printf '%s' "$KEYSTORE_BASE64" | base64 -d > app/dreemworld-release.jks
+          {
+            printf 'storePassword=%s\n' "$KEYSTORE_PASSWORD"
+            printf 'keyPassword=%s\n' "$KEYSTORE_PASSWORD"
+            printf 'keyAlias=dreemworld\n'
+            printf 'storeFile=dreemworld-release.jks\n'
+            printf 'storeType=PKCS12\n'
+          } > key.properties
       - name: Build APK
         working-directory: app
-        run: flutter build apk --release
+        run: flutter build apk --release --build-number=$(( ${{ github.run_number }} + 100 ))
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -41,8 +59,8 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0
-          name: "Dreem World v1.0.0 (Android APK)"
+          tag_name: v1.1.0
+          name: "Dreem World v1.1.0 (Android APK)"
           body: "Android APK, собранный автоматически через GitHub Actions (mock-режим)."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
