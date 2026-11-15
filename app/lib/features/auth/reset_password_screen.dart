@@ -138,11 +138,40 @@ class _ResetPasswordScreenState extends ConsumerState<ResetPasswordScreen> {
   }
 }
 
-class AuthCallbackScreen extends ConsumerWidget {
+class AuthCallbackScreen extends ConsumerStatefulWidget {
   const AuthCallbackScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<AuthCallbackScreen> createState() => _AuthCallbackScreenState();
+}
+
+class _AuthCallbackScreenState extends ConsumerState<AuthCallbackScreen> {
+  bool _checking = true;
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _check());
+  }
+
+  Future<void> _check() async {
+    final AuthState auth = ref.read(authControllerProvider);
+    if (!auth.isAwaitingEmailVerification) {
+      if (mounted) setState(() => _checking = false);
+      return;
+    }
+    try {
+      await ref.read(authControllerProvider.notifier).confirmEmailVerified();
+    } on AuthException catch (error) {
+      if (mounted) setState(() => _error = error.message);
+    } finally {
+      if (mounted) setState(() => _checking = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final AuthState auth = ref.watch(authControllerProvider);
     final bool signedIn = auth.isAuthenticated;
     return Scaffold(
@@ -160,16 +189,27 @@ class AuthCallbackScreen extends ConsumerWidget {
               ),
               const SizedBox(height: AppSpacing.md),
               Text(
-                signedIn ? 'Email подтверждён. Аккаунт активирован.' : 'Подтверждаем email. Если это занимает долго, вернитесь ко входу.',
+                signedIn ? 'Email подтверждён. Аккаунт активирован.' : 'Подтверждаем email. Если это занимает долго, вернитесь ко входу и войдите с паролем.',
                 textAlign: TextAlign.center,
                 style: AppTextStyles.headline(),
               ),
+              if (_error != null) ...<Widget>[
+                const SizedBox(height: AppSpacing.md),
+                Text(
+                  _error!,
+                  textAlign: TextAlign.center,
+                  style: AppTextStyles.caption(color: AppColors.error),
+                ),
+              ],
               const SizedBox(height: AppSpacing.lg),
-              NeonButton(
-                onPressed: () => context.go(signedIn ? '/main' : '/login'),
-                label: signedIn ? 'Открыть DreamWorld' : 'Ко входу',
-                icon: Icons.arrow_forward_rounded,
-              ),
+              if (_checking)
+                const CircularProgressIndicator()
+              else
+                NeonButton(
+                  onPressed: () => context.go(signedIn ? '/main' : '/login'),
+                  label: signedIn ? 'Открыть DreamWorld' : 'Ко входу',
+                  icon: Icons.arrow_forward_rounded,
+                ),
             ],
           ),
         ),

@@ -1,4 +1,5 @@
 export 'chat_repository.dart';
+export 'firestore_profile_repository.dart';
 export 'match_repository.dart';
 export 'mock_chat_repository.dart';
 export 'mock_match_repository.dart';

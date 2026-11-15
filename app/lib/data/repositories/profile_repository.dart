@@ -23,6 +23,14 @@ abstract interface class ProfileRepository {
   /// Создание или обновление профиля.
   Future<void> saveProfile(Profile profile);
 
+  /// Поиск анкет по публичному ID пользователя (уже нормализованному).
+  ///
+  /// Возвращает пустой список, если никто не найден.
+  Future<List<Profile>> findByUserCode(String normalizedCode);
+
+  /// Создан ли профиль текущего пользователя (не демо-заготовка).
+  Future<bool> hasSavedProfileAsync();
+
   /// Освобождение ресурсов (потоки).
   void dispose();
 }

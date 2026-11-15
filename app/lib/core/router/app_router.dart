@@ -6,13 +6,12 @@ import '../../data/providers/app_providers.dart';
 import '../../data/providers/auth_providers.dart';
 import '../../features/auth/login_screen.dart';
 import '../../features/auth/register_screen.dart';
+import '../../features/auth/verify_email_screen.dart';
 import '../../features/auth/forgot_password_screen.dart';
 import '../../features/auth/reset_password_screen.dart';
 import '../../features/chat/chat_screen.dart';
 import '../../features/chat/conversations_list_screen.dart';
 import '../../features/contacts/contacts_screen.dart';
-import '../../features/contacts/my_qr_screen.dart';
-import '../../features/contacts/scan_qr_screen.dart';
 import '../../features/discovery/discovery_screen.dart';
 import '../../features/match/match_screen.dart';
 import '../../features/notifications/notifications_screen.dart';
@@ -31,6 +30,7 @@ import '../../features/planets/news/planet_news_screen.dart';
 import '../../features/profile/profile_setup_screen.dart';
 import '../../features/profile/profile_view_edit_screen.dart';
 import '../../features/safety/safety_center_screen.dart';
+import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
 import '../../features/shell/app_shell.dart';
 
@@ -41,6 +41,7 @@ const Set<String> _publicRoutes = <String>{
   '/forgot-password',
   '/reset-password',
   '/auth/callback',
+  '/verify-email',
   '/onboarding',
   '/splash',
 };
@@ -96,6 +97,11 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         return location == '/splash' ? null : '/splash';
       }
 
+      // Аккаунт создан, но почта не подтверждена.
+      if (auth.isAwaitingEmailVerification) {
+        return location == '/verify-email' ? null : '/verify-email';
+      }
+
       // Не авторизован.
       if (!auth.isAuthenticated) {
         if (location == '/splash') return '/onboarding';
@@ -103,8 +109,8 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         return '/login';
       }
 
-      // Авторизован: со вход/регистрации — на главную.
-      if (isLogin) return '/main';
+      // Авторизован: со вход/регистрации/подтверждения — на главную.
+      if (isLogin || location == '/verify-email') return '/main';
 
       // Авторизован: со сплэша — на главную (или к анкете, если профиля нет).
       if (location == '/splash') {
@@ -145,6 +151,13 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         name: 'register',
         builder: (BuildContext context, GoRouterState state) {
           return const RegisterScreen();
+        },
+      ),
+      GoRoute(
+        path: '/verify-email',
+        name: 'verify-email',
+        builder: (BuildContext context, GoRouterState state) {
+          return const VerifyEmailScreen();
         },
       ),
       GoRoute(
@@ -266,28 +279,19 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
                 builder: (BuildContext context, GoRouterState state) {
                   return const ContactsScreen();
                 },
-                routes: <RouteBase>[
-                  GoRoute(
-                    path: 'my-qr',
-                    name: 'contacts-my-qr',
-                    builder: (BuildContext context, GoRouterState state) {
-                      return const MyQrScreen();
-                    },
-                  ),
-                  GoRoute(
-                    path: 'scan',
-                    name: 'contacts-scan',
-                    builder: (BuildContext context, GoRouterState state) {
-                      return const ScanQrScreen();
-                    },
-                  ),
-                ],
               ),
             ],
           ),
         ],
       ),
       // Полноэкранные маршруты поверх оболочки.
+      GoRoute(
+        path: '/search',
+        name: 'search',
+        builder: (BuildContext context, GoRouterState state) {
+          return const SearchScreen();
+        },
+      ),
       GoRoute(
         path: '/profile',
         name: 'profile',

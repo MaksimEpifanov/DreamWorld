@@ -10,7 +10,10 @@
 Основной актуальный продукт — неоновая «галактика интересов»: сообщества-планеты,
 карта внутреннего мира планеты, лента новостей, чаты, безопасность, кошелёк и подписка.
 Бэкенд-слой абстрагирован; сейчас в основном используются мок-реализации.
-Firebase-зависимости в `app/pubspec.yaml` временно отключены (закомментированы) для упрощения CI-сборок; в коде есть заглушки/ветвление под Firebase. Деплой сайта — в приоритете.
+Аутентификация и анкета пользователя подключены к Firebase (`firebase_core`, `firebase_auth`,
+`cloud_firestore`); пока параметры проекта не заполнены в
+`app/lib/data/services/firebase_config.dart`, приложение автоматически работает в мок-режиме.
+Supabase удалён. Деплой сайта — в приоритете.
 
 > Важно: в репозитории есть исторические материалы (папки `01_Chronology` … `06_Limitations`,
 > `docs/`, `README.txt`), которые описывают **более ранние концепции** и местами
@@ -22,8 +25,8 @@ Firebase-зависимости в `app/pubspec.yaml` временно откл�
 - **Платформы:** Android, iOS, Web (основные целевые).
 - **Состояние/навигация:** `flutter_riverpod`, `go_router`.
 - **Модели/сериализация:** `freezed`/`freezed_annotation`, `json_serializable`/`json_annotation`, `equatable`.
-- **Данные/интеграции:** `supabase_flutter` (в зависимостях), мок-сервисы; Firebase временно отключён.
-- **UI/утилиты:** `flutter_animate`, `flutter_secure_storage`, `shared_preferences`, `image_picker`, `qr_flutter`, `intl`, `uuid`.
+- **Данные/интеграции:** Firebase (Auth + Firestore), мок-сервисы и мок-репозитории для остальных данных.
+- **UI/утилиты:** `flutter_animate`, `flutter_secure_storage`, `shared_preferences`, `image_picker`, `intl`, `uuid`.
 - **Структура кода:** `app/lib/` — приложение, `features/*` (экраны/фичи), `core/*` (тема, виджеты), `data/*` (модели, провайдеры, сервисы, репозитории). Следовать существующим паттернам.
 
 ## 3. Окружение и инструменты (важно!)
@@ -71,7 +74,7 @@ C:\flutter\bin\flutter.bat build web --release --base-href "/DreamWorld/"
 
 - Репозиторий: **https://github.com/MaksimEpifanov/DreamWorld** (удалённый может отображаться как `DreamWorld`; локальная папка — `DreemWorld`), ветка `main`.
 - Сайт: **https://maksimepifanov.github.io/DreamWorld/**.
-- Релизы: APK — `v1.0.0`; iOS unsigned IPA (устройство) — `v1.0.0-ios`; iOS simulator — `v1.0.0-ios-sim` (по состоянию репозитория; проверять актуальность в Releases/Actions).
+- Релизы: APK — `v1.1.0` (и далее растёт `versionCode`); iOS unsigned IPA (устройство) — `v1.0.0-ios`; iOS simulator — `v1.0.0-ios-sim` (по состоянию репозитория; проверять актуальность в Releases/Actions).
 - Workflows: [`.github/workflows/web-deploy.yml`](.github/workflows/web-deploy.yml), [`.github/workflows/android-release.yml`](.github/workflows/android-release.yml), [`.github/workflows/ios-release.yml`](.github/workflows/ios-release.yml). Push в `main` при изменениях в `app/**` или workflow-файлах запускает соответствующие сборки.
 - Проверка сайта:
 

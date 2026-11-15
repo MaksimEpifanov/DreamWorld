@@ -81,7 +81,7 @@ class _ForgotPasswordScreenState extends ConsumerState<ForgotPasswordScreen> {
                       const Icon(Icons.mark_email_read_outlined, size: 48),
                       const SizedBox(height: AppSpacing.md),
                       Text(
-                        'Если аккаунт с таким адресом существует, письмо со ссылкой для сброса уже отправлено.',
+                        'Если аккаунт с таким адресом существует, письмо со ссылкой для сброса уже отправлено. Проверьте «Входящие» и «Спам».',
                         textAlign: TextAlign.center,
                         style: AppTextStyles.body(),
                       ),

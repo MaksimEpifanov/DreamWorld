@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/conversation.dart';
@@ -6,6 +7,7 @@ import '../models/message.dart';
 import '../models/profile.dart';
 import '../models/relationship_status.dart';
 import '../repositories/chat_repository.dart';
+import '../repositories/firestore_profile_repository.dart';
 import '../repositories/match_repository.dart';
 import '../repositories/mock_chat_repository.dart';
 import '../repositories/mock_match_repository.dart';
@@ -13,16 +15,20 @@ import '../repositories/mock_profile_repository.dart';
 import '../repositories/profile_repository.dart';
 import '../repositories/relationship_status_repository.dart';
 import '../services/ai_service.dart';
+import '../services/firebase_bootstrap.dart';
 import '../services/mock_ai_service.dart';
 import '../services/mock_realtime_service.dart';
 import '../services/mock_translation_service.dart';
 import '../services/realtime_service.dart';
 import '../services/translation_service.dart';
+import '../services/user_code.dart';
+import 'auth_providers.dart';
 
-/// Идентификатор текущего пользователя (в мок-режиме — фиксированный).
-final Provider<String> currentUserIdProvider = Provider<String>(
-  (Ref ref) => MockProfileRepository.defaultCurrentUserId,
-);
+/// Идентификатор текущего пользователя: Firebase UID или мок-идентификатор.
+final Provider<String> currentUserIdProvider = Provider<String>((Ref ref) {
+  final String? uid = ref.watch(currentUserFromAuthProvider)?.id;
+  return uid ?? MockProfileRepository.defaultCurrentUserId;
+});
 
 /// Шина реалтайм-событий.
 ///
@@ -48,9 +54,21 @@ final Provider<TranslationService> translationServiceProvider =
 /// Репозиторий профилей.
 final Provider<ProfileRepository> profileRepositoryProvider =
     Provider<ProfileRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      final RealtimeService realtime = ref.watch(realtimeServiceProvider);
+      if (isFirebaseInitialized) {
+        final FirestoreProfileRepository repository =
+            FirestoreProfileRepository(
+              firestore: FirebaseFirestore.instance,
+              currentUserId: currentUserId,
+              realtime: realtime,
+            );
+        ref.onDispose(repository.dispose);
+        return repository;
+      }
       final MockProfileRepository repository = MockProfileRepository(
-        currentUserId: ref.watch(currentUserIdProvider),
-        realtime: ref.watch(realtimeServiceProvider),
+        currentUserId: currentUserId,
+        realtime: realtime,
       );
       ref.onDispose(repository.dispose);
       return repository;
@@ -92,9 +110,7 @@ final FutureProvider<bool> hasSavedProfileProvider = FutureProvider<bool>((
   Ref ref,
 ) async {
   try {
-    final ProfileRepository repository = ref.watch(profileRepositoryProvider);
-    if (repository is! MockProfileRepository) return true;
-    return await repository.hasSavedProfileAsync();
+    return await ref.watch(profileRepositoryProvider).hasSavedProfileAsync();
   } catch (_) {
     return false;
   }
@@ -106,6 +122,22 @@ final StreamProvider<List<Profile>> discoveryProfilesProvider =
       (Ref ref) =>
           ref.watch(profileRepositoryProvider).watchDiscoveryProfiles(),
     );
+
+/// Поиск анкет по публичному ID пользователя (`DW-XXXX-XXXX`).
+///
+/// Неполный или неизвестный код возвращает пустой список.
+final FutureProviderFamily<List<Profile>, String> profileSearchProvider =
+    FutureProvider.family<List<Profile>, String>((Ref ref, String query) async {
+      final String normalized = UserCode.normalize(query);
+      if (normalized.length != UserCode.length) return const <Profile>[];
+      try {
+        return await ref
+            .watch(profileRepositoryProvider)
+            .findByUserCode(normalized);
+      } catch (_) {
+        return const <Profile>[];
+      }
+    });
 
 /// Поток мэтчей.
 final StreamProvider<List<Match>> matchesProvider = StreamProvider<List<Match>>(
@@ -136,14 +168,14 @@ final FutureProviderFamily<int, Profile> compatibilityProvider =
     });
 
 /// Репозиторий статуса отношений участников.
-final Provider<RelationshipStatusRepository> relationshipStatusRepositoryProvider =
-    Provider<RelationshipStatusRepository>(
+final Provider<RelationshipStatusRepository>
+relationshipStatusRepositoryProvider = Provider<RelationshipStatusRepository>(
   (Ref ref) => const MockRelationshipStatusRepository(),
 );
 
 /// Статус отношений участника по его идентификатору.
 final ProviderFamily<RelationshipStatus, String> relationshipStatusProvider =
     Provider.family<RelationshipStatus, String>(
-  (Ref ref, String profileId) =>
-      ref.watch(relationshipStatusRepositoryProvider).statusFor(profileId),
-);
+      (Ref ref, String profileId) =>
+          ref.watch(relationshipStatusRepositoryProvider).statusFor(profileId),
+    );

@@ -122,6 +122,17 @@ class MockAuthService implements AuthService {
   }
 
   @override
+  Future<String?> pendingVerificationEmail() async => null;
+
+  @override
+  Future<void> resendVerificationEmail() async {
+    throw const AuthException('В мок-режиме подтверждение почты не требуется.');
+  }
+
+  @override
+  Future<AppUser?> reloadVerifiedUser() => restoreSession();
+
+  @override
   Future<void> sendPasswordReset({required String email}) async {
     throw const AuthException('Сброс пароля доступен после настройки сервера.');
   }

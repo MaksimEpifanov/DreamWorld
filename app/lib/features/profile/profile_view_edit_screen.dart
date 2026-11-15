@@ -1,6 +1,5 @@
-import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -10,6 +9,7 @@ import '../../core/utils/image_utils.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
+import '../../data/services/user_code.dart';
 import 'widgets/photo_picker.dart';
 
 class ProfileViewEditScreen extends ConsumerStatefulWidget {
@@ -151,11 +151,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
           case 'Игры':
             return InterestCatalog.games;
           default:
-            return Interest(
-              id: s,
-              name: s,
-              category: InterestCategory.other,
-            );
+            return Interest(id: s, name: s, category: InterestCategory.other);
         }
       }).toList(),
       goals: _selectedGoals.toList(),
@@ -179,9 +175,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
 
     ScaffoldMessenger.of(context)
       ..clearSnackBars()
-      ..showSnackBar(
-        const SnackBar(content: Text('Изменения сохранены')),
-      );
+      ..showSnackBar(const SnackBar(content: Text('Изменения сохранены')));
 
     if (router.canPop()) {
       router.pop();
@@ -237,9 +231,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
   @override
   Widget build(BuildContext context) {
     if (_isLoading) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
-      );
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
 
     return Scaffold(
@@ -250,263 +242,276 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
       body: SafeArea(
         child: ResponsiveContent(
           child: Form(
-          key: _formKey,
-          child: SingleChildScrollView(
-            padding: AppSpacing.page,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                _ProfileHeader(
-                  photoDataUri: _photoDataUri,
-                  name: _nameController.text.trim(),
-                  age: _ageController.text.trim(),
-                  city: _cityController.text.trim(),
-                  interests: _selectedInterests.toList(),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                _SubscriptionCard(
-                  isPremium: _isPremium,
-                  onSubscribe: () => _subscribe(),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonButton(
-                  label: 'Изменить фото',
-                  icon: Icons.add_a_photo_outlined,
-                  variant: NeonButtonVariant.outlined,
-                  expanded: true,
-                  onPressed: () {
-                    showModalBottomSheet<void>(
-                      context: context,
-                      backgroundColor: Theme.of(context).colorScheme.surface,
-                      shape: const RoundedRectangleBorder(
-                        borderRadius: AppRadius.xlAll,
-                      ),
-                      builder: (BuildContext context) => Padding(
-                        padding: AppSpacing.page,
-                        child: PhotoPicker(
-                          photoDataUri: _photoDataUri,
-                          height: 220,
-                          onPicked: (String dataUri) {
-                            setState(() => _photoDataUri = dataUri);
+            key: _formKey,
+            child: SingleChildScrollView(
+              padding: AppSpacing.page,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  _ProfileHeader(
+                    photoDataUri: _photoDataUri,
+                    name: _nameController.text.trim(),
+                    age: _ageController.text.trim(),
+                    city: _cityController.text.trim(),
+                    interests: _selectedInterests.toList(),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  _UserIdCard(userId: ref.watch(currentUserIdProvider)),
+                  const SizedBox(height: AppSpacing.lg),
+                  _SubscriptionCard(
+                    isPremium: _isPremium,
+                    onSubscribe: () => _subscribe(),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonButton(
+                    label: 'Изменить фото',
+                    icon: Icons.add_a_photo_outlined,
+                    variant: NeonButtonVariant.outlined,
+                    expanded: true,
+                    onPressed: () {
+                      showModalBottomSheet<void>(
+                        context: context,
+                        backgroundColor: Theme.of(context).colorScheme.surface,
+                        shape: const RoundedRectangleBorder(
+                          borderRadius: AppRadius.xlAll,
+                        ),
+                        builder: (BuildContext context) => Padding(
+                          padding: AppSpacing.page,
+                          child: PhotoPicker(
+                            photoDataUri: _photoDataUri,
+                            height: 220,
+                            onPicked: (String dataUri) {
+                              setState(() => _photoDataUri = dataUri);
+                            },
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Основные данные', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.md),
+                        TextFormField(
+                          controller: _nameController,
+                          decoration: const InputDecoration(labelText: 'Имя'),
+                          onChanged: (_) => setState(() {}),
+                          validator: (String? value) {
+                            if (value == null || value.trim().isEmpty) {
+                              return 'Введите имя';
+                            }
+                            return null;
                           },
                         ),
-                      ),
-                    );
-                  },
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('Основные данные', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.md),
-                      TextFormField(
-                        controller: _nameController,
-                        decoration: const InputDecoration(labelText: 'Имя'),
-                        onChanged: (_) => setState(() {}),
-                        validator: (String? value) {
-                          if (value == null || value.trim().isEmpty) {
-                            return 'Введите имя';
-                          }
-                          return null;
-                        },
-                      ),
-                      const SizedBox(height: AppSpacing.md),
-                      TextFormField(
-                        controller: _ageController,
-                        decoration: const InputDecoration(labelText: 'Возраст'),
-                        keyboardType: TextInputType.number,
-                        onChanged: (_) => setState(() {}),
-                        validator: (String? value) {
-                          if (value == null || value.trim().isEmpty) {
-                            return 'Введите возраст';
-                          }
-                          return null;
-                        },
-                      ),
-                      const SizedBox(height: AppSpacing.md),
-                      TextFormField(
-                        controller: _cityController,
-                        decoration: const InputDecoration(labelText: 'Город'),
-                        onChanged: (_) => setState(() {}),
-                        validator: (String? value) {
-                          if (value == null || value.trim().isEmpty) {
-                            return 'Введите город';
-                          }
-                          return null;
-                        },
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('Интересы', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.xs),
-                      Text(
-                        'Выбери основные направления',
-                        style: AppTextStyles.caption(color: AppColors.textMuted),
-                      ),
-                      const SizedBox(height: AppSpacing.sm),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: _interestOptions.map((String interest) {
-                          final bool selected = _selectedInterests.contains(interest);
-                          return FilterChip(
-                            label: Text(interest),
-                            selected: selected,
-                            onSelected: (bool value) {
-                              setState(() {
-                                if (value) {
-                                  _selectedInterests.add(interest);
-                                } else {
-                                  _selectedInterests.remove(interest);
-                                }
-                              });
-                            },
-                          );
-                        }).toList(),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                _DetailedInterestsEditor(
-                  selected: _selectedDetailedInterests,
-                  onChanged: (Set<String> value) {
-                    setState(() {
-                      _selectedDetailedInterests
-                        ..clear()
-                        ..addAll(value);
-                    });
-                  },
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('Цель отношений', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.sm),
-                      SegmentedButton<RelationshipGoal>(
-                        segments: const <ButtonSegment<RelationshipGoal>>[
-                          ButtonSegment<RelationshipGoal>(
-                            value: RelationshipGoal.friendship,
-                            label: Text('Дружба'),
+                        const SizedBox(height: AppSpacing.md),
+                        TextFormField(
+                          controller: _ageController,
+                          decoration: const InputDecoration(
+                            labelText: 'Возраст',
                           ),
-                          ButtonSegment<RelationshipGoal>(
-                            value: RelationshipGoal.chat,
-                            label: Text('Чат'),
+                          keyboardType: TextInputType.number,
+                          onChanged: (_) => setState(() {}),
+                          validator: (String? value) {
+                            if (value == null || value.trim().isEmpty) {
+                              return 'Введите возраст';
+                            }
+                            return null;
+                          },
+                        ),
+                        const SizedBox(height: AppSpacing.md),
+                        TextFormField(
+                          controller: _cityController,
+                          decoration: const InputDecoration(labelText: 'Город'),
+                          onChanged: (_) => setState(() {}),
+                          validator: (String? value) {
+                            if (value == null || value.trim().isEmpty) {
+                              return 'Введите город';
+                            }
+                            return null;
+                          },
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Интересы', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.xs),
+                        Text(
+                          'Выбери основные направления',
+                          style: AppTextStyles.caption(
+                            color: AppColors.textMuted,
                           ),
-                          ButtonSegment<RelationshipGoal>(
-                            value: RelationshipGoal.dating,
-                            label: Text('Свидания'),
+                        ),
+                        const SizedBox(height: AppSpacing.sm),
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: _interestOptions.map((String interest) {
+                            final bool selected = _selectedInterests.contains(
+                              interest,
+                            );
+                            return FilterChip(
+                              label: Text(interest),
+                              selected: selected,
+                              onSelected: (bool value) {
+                                setState(() {
+                                  if (value) {
+                                    _selectedInterests.add(interest);
+                                  } else {
+                                    _selectedInterests.remove(interest);
+                                  }
+                                });
+                              },
+                            );
+                          }).toList(),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  _DetailedInterestsEditor(
+                    selected: _selectedDetailedInterests,
+                    onChanged: (Set<String> value) {
+                      setState(() {
+                        _selectedDetailedInterests
+                          ..clear()
+                          ..addAll(value);
+                      });
+                    },
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Цель отношений', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.sm),
+                        SegmentedButton<RelationshipGoal>(
+                          segments: const <ButtonSegment<RelationshipGoal>>[
+                            ButtonSegment<RelationshipGoal>(
+                              value: RelationshipGoal.friendship,
+                              label: Text('Дружба'),
+                            ),
+                            ButtonSegment<RelationshipGoal>(
+                              value: RelationshipGoal.chat,
+                              label: Text('Чат'),
+                            ),
+                            ButtonSegment<RelationshipGoal>(
+                              value: RelationshipGoal.dating,
+                              label: Text('Свидания'),
+                            ),
+                            ButtonSegment<RelationshipGoal>(
+                              value: RelationshipGoal.serious,
+                              label: Text('Серьезные'),
+                            ),
+                          ],
+                          selected: <RelationshipGoal>{_relationshipGoal},
+                          onSelectionChanged:
+                              (Set<RelationshipGoal> newSelection) {
+                                setState(() {
+                                  _relationshipGoal = newSelection.first;
+                                });
+                              },
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Ценности', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.sm),
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: _valueOptions.map((String value) {
+                            final bool selected = _selectedValues.contains(
+                              value,
+                            );
+                            return FilterChip(
+                              label: Text(value),
+                              selected: selected,
+                              onSelected: (bool valueChip) {
+                                setState(() {
+                                  if (valueChip) {
+                                    _selectedValues.add(value);
+                                  } else {
+                                    _selectedValues.remove(value);
+                                  }
+                                });
+                              },
+                            );
+                          }).toList(),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Цели', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.sm),
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: _goalOptions.map((String goal) {
+                            final bool selected = _selectedGoals.contains(goal);
+                            return FilterChip(
+                              label: Text(goal),
+                              selected: selected,
+                              onSelected: (bool value) {
+                                setState(() {
+                                  if (value) {
+                                    _selectedGoals.add(goal);
+                                  } else {
+                                    _selectedGoals.remove(goal);
+                                  }
+                                });
+                              },
+                            );
+                          }).toList(),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonCard(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('О себе', style: AppTextStyles.title()),
+                        const SizedBox(height: AppSpacing.sm),
+                        TextFormField(
+                          controller: _bioController,
+                          decoration: const InputDecoration(
+                            labelText: 'Коротко о себе',
                           ),
-                          ButtonSegment<RelationshipGoal>(
-                            value: RelationshipGoal.serious,
-                            label: Text('Серьезные'),
-                          ),
-                        ],
-                        selected: <RelationshipGoal>{_relationshipGoal},
-                        onSelectionChanged: (Set<RelationshipGoal> newSelection) {
-                          setState(() {
-                            _relationshipGoal = newSelection.first;
-                          });
-                        },
-                      ),
-                    ],
+                          maxLines: 3,
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('Ценности', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.sm),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: _valueOptions.map((String value) {
-                          final bool selected = _selectedValues.contains(value);
-                          return FilterChip(
-                            label: Text(value),
-                            selected: selected,
-                            onSelected: (bool valueChip) {
-                              setState(() {
-                                if (valueChip) {
-                                  _selectedValues.add(value);
-                                } else {
-                                  _selectedValues.remove(value);
-                                }
-                              });
-                            },
-                          );
-                        }).toList(),
-                      ),
-                    ],
+                  const SizedBox(height: AppSpacing.lg),
+                  NeonButton(
+                    onPressed: _isSaving ? null : _save,
+                    label: _isSaving ? 'Сохранение...' : 'Сохранить',
+                    isLoading: _isSaving,
+                    expanded: true,
                   ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('Цели', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.sm),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: _goalOptions.map((String goal) {
-                          final bool selected = _selectedGoals.contains(goal);
-                          return FilterChip(
-                            label: Text(goal),
-                            selected: selected,
-                            onSelected: (bool value) {
-                              setState(() {
-                                if (value) {
-                                  _selectedGoals.add(goal);
-                                } else {
-                                  _selectedGoals.remove(goal);
-                                }
-                              });
-                            },
-                          );
-                        }).toList(),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonCard(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Text('О себе', style: AppTextStyles.title()),
-                      const SizedBox(height: AppSpacing.sm),
-                      TextFormField(
-                        controller: _bioController,
-                        decoration: const InputDecoration(labelText: 'Коротко о себе'),
-                        maxLines: 3,
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                NeonButton(
-                  onPressed: _isSaving ? null : _save,
-                  label: _isSaving ? 'Сохранение...' : 'Сохранить',
-                  isLoading: _isSaving,
-                  expanded: true,
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
           ),
         ),
       ),
@@ -514,12 +519,58 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
   }
 }
 
+/// Карточка публичного ID: по нему пользователя находят в поиске.
+class _UserIdCard extends StatelessWidget {
+  const _UserIdCard({required this.userId});
+
+  final String userId;
+
+  Future<void> _copy(BuildContext context, String code) async {
+    await Clipboard.setData(ClipboardData(text: code));
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context)
+      ..clearSnackBars()
+      ..showSnackBar(const SnackBar(content: Text('Ваш ID скопирован')));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final ColorScheme scheme = Theme.of(context).colorScheme;
+    final String code = UserCode.fromUserId(userId);
+
+    return NeonCard(
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.badge_outlined, color: scheme.primary),
+          const SizedBox(width: AppSpacing.sm),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text('Ваш ID', style: AppTextStyles.caption()),
+                Text(
+                  code,
+                  style: AppTextStyles.bodyBold(),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
+            ),
+          ),
+          IconButton(
+            tooltip: 'Скопировать ID',
+            icon: const Icon(Icons.copy_rounded, size: 20),
+            onPressed: () => _copy(context, code),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 /// Карточка подписки Dreem+ (демо-режим, реальная оплата не подключена).
 class _SubscriptionCard extends StatelessWidget {
-  const _SubscriptionCard({
-    required this.isPremium,
-    required this.onSubscribe,
-  });
+  const _SubscriptionCard({required this.isPremium, required this.onSubscribe});
 
   final bool isPremium;
   final VoidCallback onSubscribe;
@@ -547,9 +598,7 @@ class _SubscriptionCard extends StatelessWidget {
               const Spacer(),
               Chip(
                 label: Text(isPremium ? 'Активна' : 'Бесплатно'),
-                side: BorderSide(
-                  color: scheme.primary.withValues(alpha: 0.5),
-                ),
+                side: BorderSide(color: scheme.primary.withValues(alpha: 0.5)),
                 backgroundColor: scheme.primary.withValues(alpha: 0.12),
               ),
             ],
@@ -620,11 +669,7 @@ class _ProfileHeader extends StatelessWidget {
                       width: 136,
                       height: 136,
                     )
-                  : Icon(
-                      Icons.person,
-                      size: 72,
-                      color: scheme.primary,
-                    ),
+                  : Icon(Icons.person, size: 72, color: scheme.primary),
             ),
           ),
         ),
@@ -659,8 +704,7 @@ class _ProfileHeader extends StatelessWidget {
                     side: BorderSide(
                       color: scheme.primary.withValues(alpha: 0.5),
                     ),
-                    backgroundColor:
-                        scheme.primary.withValues(alpha: 0.12),
+                    backgroundColor: scheme.primary.withValues(alpha: 0.12),
                   ),
                 )
                 .toList(),
@@ -731,7 +775,10 @@ class _DetailedInterestsEditorState extends State<_DetailedInterestsEditor> {
               Text(_sceneTitle(entry.key), style: AppTextStyles.bodyBold()),
               const SizedBox(height: AppSpacing.sm),
               for (final PlanetInterestGroup group in entry.value) ...<Widget>[
-                Text(group.title, style: AppTextStyles.caption(color: scheme.primary)),
+                Text(
+                  group.title,
+                  style: AppTextStyles.caption(color: scheme.primary),
+                ),
                 const SizedBox(height: AppSpacing.xs),
                 Wrap(
                   spacing: 8,
@@ -742,7 +789,9 @@ class _DetailedInterestsEditorState extends State<_DetailedInterestsEditor> {
                       label: Text(item),
                       selected: selected,
                       onSelected: (bool value) {
-                        final Set<String> next = Set<String>.from(widget.selected);
+                        final Set<String> next = Set<String>.from(
+                          widget.selected,
+                        );
                         if (value) {
                           next.add(item);
                         } else {

@@ -290,7 +290,7 @@ class _GalaxyHeader extends ConsumerWidget {
                     constraints: const BoxConstraints(maxWidth: 410),
                     child: InkWell(
                       borderRadius: AppRadius.pillAll,
-                      onTap: () => context.go('/discovery'),
+                      onTap: () => context.go('/search'),
                       child: Container(
                         height: 44,
                         padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -318,7 +318,7 @@ class _GalaxyHeader extends ConsumerWidget {
                             const SizedBox(width: 10),
                             Expanded(
                               child: Text(
-                                'Поиск планет, людей, интересов...',
+                                'Поиск людей по ID...',
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                                 style: AppTextStyles.body(
@@ -335,9 +335,9 @@ class _GalaxyHeader extends ConsumerWidget {
               if (compact && !narrow) ...<Widget>[
                 const Spacer(),
                 _HeaderAction(
-                  tooltip: 'Поиск',
+                  tooltip: 'Поиск по ID',
                   icon: Icons.search_rounded,
-                  onPressed: () => context.go('/discovery'),
+                  onPressed: () => context.go('/search'),
                 ),
               ] else
                 const Spacer(),
@@ -669,9 +669,7 @@ class _PeopleMiniArtwork extends StatelessWidget {
 }
 
 class _GlassPanel extends StatelessWidget {
-  const _GlassPanel({
-    required this.child,
-  });
+  const _GlassPanel({required this.child});
   final Widget child;
 
   @override

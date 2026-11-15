@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -7,15 +8,28 @@ import '../../core/theme/index.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
+import '../../data/services/user_code.dart';
 import '../safety/widgets/report_sheet.dart';
 import 'contacts_controller.dart';
 
-/// Экран контактов: добавление по QR и список знакомых.
+/// Экран контактов: свой ID для поиска и список знакомых.
 class ContactsScreen extends ConsumerWidget {
   const ContactsScreen({super.key});
 
+  Future<void> _copyId(BuildContext context, String code) async {
+    await Clipboard.setData(ClipboardData(text: code));
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context)
+      ..clearSnackBars()
+      ..showSnackBar(const SnackBar(content: Text('Ваш ID скопирован')));
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final ColorScheme scheme = Theme.of(context).colorScheme;
+    final String userCode = UserCode.fromUserId(
+      ref.watch(currentUserIdProvider),
+    );
     final List<String> contactIds = ref.watch(contactsProvider);
     final Map<String, Profile> profiles = <String, Profile>{
       for (final Profile profile
@@ -40,26 +54,24 @@ class ContactsScreen extends ConsumerWidget {
             children: <Widget>[
               GlassCard(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Row(
                       children: <Widget>[
                         Icon(
-                          Icons.qr_code_2_rounded,
+                          Icons.badge_outlined,
                           size: 40,
-                          color: Theme.of(context).colorScheme.primary,
+                          color: scheme.primary,
                         ),
                         const SizedBox(width: AppSpacing.md),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text(
-                                'Добавить по QR-коду',
-                                style: AppTextStyles.title(),
-                              ),
+                              Text('Ваш ID', style: AppTextStyles.title()),
                               const SizedBox(height: AppSpacing.xxs),
                               Text(
-                                'Покажите свой код или отсканируйте чужой.',
+                                'Поделитесь им, чтобы вас нашли в поиске.',
                                 style: AppTextStyles.caption(),
                               ),
                             ],
@@ -68,43 +80,42 @@ class ContactsScreen extends ConsumerWidget {
                       ],
                     ),
                     const SizedBox(height: AppSpacing.md),
-                    LayoutBuilder(
-                      builder:
-                          (BuildContext context, BoxConstraints constraints) {
-                            final Widget qrButton = NeonButton(
-                              label: 'Мой QR',
-                              icon: Icons.qr_code_rounded,
-                              variant: NeonButtonVariant.outlined,
-                              onPressed: () => context.go('/contacts/my-qr'),
-                            );
-                            final Widget scanButton = NeonButton(
-                              label: 'Сканировать',
-                              icon: Icons.qr_code_scanner_rounded,
-                              onPressed: () => context.go('/contacts/scan'),
-                            );
-                            if (constraints.maxWidth < 320) {
-                              return Column(
-                                children: <Widget>[
-                                  SizedBox(
-                                    width: double.infinity,
-                                    child: qrButton,
-                                  ),
-                                  const SizedBox(height: AppSpacing.sm),
-                                  SizedBox(
-                                    width: double.infinity,
-                                    child: scanButton,
-                                  ),
-                                ],
-                              );
-                            }
-                            return Row(
-                              children: <Widget>[
-                                Expanded(child: qrButton),
-                                const SizedBox(width: AppSpacing.sm),
-                                Expanded(child: scanButton),
-                              ],
-                            );
-                          },
+                    Container(
+                      padding: const EdgeInsets.only(
+                        left: AppSpacing.md,
+                        right: AppSpacing.xs,
+                      ),
+                      decoration: BoxDecoration(
+                        color: scheme.primary.withValues(alpha: 0.1),
+                        borderRadius: AppRadius.pillAll,
+                        border: Border.all(
+                          color: scheme.primary.withValues(alpha: 0.5),
+                        ),
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Text(
+                              userCode,
+                              style: AppTextStyles.bodyBold(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          IconButton(
+                            tooltip: 'Скопировать ID',
+                            icon: const Icon(Icons.copy_rounded, size: 20),
+                            onPressed: () => _copyId(context, userCode),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: AppSpacing.md),
+                    NeonButton(
+                      label: 'Найти по ID',
+                      icon: Icons.search_rounded,
+                      expanded: true,
+                      onPressed: () => context.go('/search'),
                     ),
                   ],
                 ),
@@ -161,7 +172,7 @@ class _EmptyContacts extends StatelessWidget {
           Text('Пока нет контактов', style: AppTextStyles.title()),
           const SizedBox(height: AppSpacing.xs),
           Text(
-            'Добавьте знакомых по QR-коду — они появятся здесь.',
+            'Найдите знакомых по ID — они появятся здесь.',
             textAlign: TextAlign.center,
             style: AppTextStyles.body(color: AppColors.textSecondary),
           ),

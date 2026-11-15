@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/interest.dart';
 import '../models/profile.dart';
 import '../services/realtime_service.dart';
+import '../services/user_code.dart';
 import 'profile_repository.dart';
 
 /// Профили в памяти с сид-данными для демо.
@@ -162,15 +163,31 @@ class MockProfileRepository implements ProfileRepository {
   bool get hasSavedProfile => _hasSavedProfile;
 
   /// Ждёт завершения восстановления и сообщает, был ли сохранённый профиль.
+  @override
   Future<bool> hasSavedProfileAsync() async {
     await _restoreFuture;
     return _hasSavedProfile;
   }
 
+  @override
+  Future<List<Profile>> findByUserCode(String normalizedCode) async {
+    if (normalizedCode.isEmpty) return const <Profile>[];
+    await _restoreFuture;
+    return _profiles.values
+        .where(
+          (Profile profile) => UserCode.matches(profile.id, normalizedCode),
+        )
+        .toList(growable: false);
+  }
+
+  String get _savedProfileKey => currentUserId == defaultCurrentUserId
+      ? savedProfileKey
+      : 'saved_profile_$currentUserId';
+
   Future<void> _restore() async {
     try {
       final SharedPreferences prefs = await SharedPreferences.getInstance();
-      final String? raw = prefs.getString(savedProfileKey);
+      final String? raw = prefs.getString(_savedProfileKey);
       if (raw == null || raw.isEmpty) return;
 
       final Object? decoded = jsonDecode(raw);
@@ -189,7 +206,7 @@ class MockProfileRepository implements ProfileRepository {
   Future<void> _persistCurrentProfile(Profile profile) async {
     try {
       final SharedPreferences prefs = await SharedPreferences.getInstance();
-      await prefs.setString(savedProfileKey, jsonEncode(profile.toJson()));
+      await prefs.setString(_savedProfileKey, jsonEncode(profile.toJson()));
     } catch (_) {
       // Мок: сбой хранилища не должен ломать сохранение в памяти.
     }

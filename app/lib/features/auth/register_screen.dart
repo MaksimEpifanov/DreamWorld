@@ -26,7 +26,6 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
 
   bool _isLoading = false;
   String? _error;
-  String? _success;
 
   @override
   void dispose() {
@@ -45,19 +44,13 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
     });
 
     try {
-      final RegistrationResult result = await ref
+      await ref
           .read(authControllerProvider.notifier)
           .register(
             email: _emailController.text.trim(),
             password: _passwordController.text,
             name: _nameController.text.trim(),
           );
-      if (mounted && result.emailConfirmationRequired) {
-        setState(() {
-          _success =
-              'Письмо со ссылкой для подтверждения отправлено на ${result.user.email}. Перейдите по ссылке, чтобы активировать аккаунт.';
-        });
-      }
     } on AuthException catch (e) {
       if (mounted) {
         setState(() => _error = e.message);
@@ -132,14 +125,6 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                             color: AppColors.textSecondary,
                           ),
                         ).animate(delay: 150.ms).fadeIn(duration: 400.ms),
-                        if (_success != null) ...<Widget>[
-                          const SizedBox(height: AppSpacing.md),
-                          Text(
-                            _success!,
-                            textAlign: TextAlign.center,
-                            style: AppTextStyles.body(color: scheme.secondary),
-                          ),
-                        ],
                         const SizedBox(height: AppSpacing.lg),
                         TextFormField(
                           controller: _nameController,

@@ -34,6 +34,19 @@ void main() {
       expect(restored, user);
     });
 
+    test('в мок-режиме подтверждение почты не требуется', () async {
+      final MockAuthService service = MockAuthService();
+
+      final RegistrationResult result = await service.register(
+        email: 'user@example.com',
+        password: 'secret1',
+        name: 'Иван',
+      );
+
+      expect(await service.pendingVerificationEmail(), isNull);
+      expect(await service.reloadVerifiedUser(), result.user);
+    });
+
     test('повторный register с тем же email бросает AuthException', () async {
       final MockAuthService service = MockAuthService();
 
