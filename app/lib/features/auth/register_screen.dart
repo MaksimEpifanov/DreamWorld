@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/theme/index.dart';
+import '../../core/utils/email_domains.dart';
 import '../../core/widgets/index.dart';
 import '../../data/providers/auth_providers.dart';
 import '../../data/services/auth_service.dart';
@@ -147,6 +148,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                           keyboardType: TextInputType.emailAddress,
                           textInputAction: TextInputAction.next,
                           autofillHints: const <String>[AutofillHints.email],
+                          onChanged: (_) => setState(() {}),
                           decoration: const InputDecoration(
                             labelText: 'Email',
                             prefixIcon: Icon(Icons.mail_outline_rounded),
@@ -161,6 +163,16 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                             return null;
                           },
                         ).animate(delay: 250.ms).fadeIn(duration: 400.ms),
+                        if (isMailRuEmail(_emailController.text)) ...<Widget>[
+                          const SizedBox(height: AppSpacing.sm),
+                          Text(
+                            'Mail.ru часто блокирует письма подтверждения. '
+                            'Надёжнее указать адрес Gmail.',
+                            style: AppTextStyles.caption(
+                              color: AppColors.warning,
+                            ),
+                          ),
+                        ],
                         const SizedBox(height: AppSpacing.md),
                         TextFormField(
                           controller: _passwordController,

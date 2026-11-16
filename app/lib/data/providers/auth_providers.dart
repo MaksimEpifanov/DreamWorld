@@ -34,27 +34,38 @@ enum AuthStatus {
 
 /// Состояние аутентификации.
 class AuthState {
-  const AuthState({required this.status, this.user, this.email});
+  const AuthState({
+    required this.status,
+    this.user,
+    this.email,
+    this.pendingEmailVerification = false,
+  });
 
   const AuthState.unknown()
     : status = AuthStatus.unknown,
       user = null,
-      email = null;
+      email = null,
+      pendingEmailVerification = false;
 
   const AuthState.unauthenticated()
     : status = AuthStatus.unauthenticated,
       user = null,
-      email = null;
+      email = null,
+      pendingEmailVerification = false;
 
   const AuthState.awaitingEmailVerification(String this.email)
     : status = AuthStatus.awaitingEmailVerification,
-      user = null;
+      user = null,
+      pendingEmailVerification = true;
 
   final AuthStatus status;
   final AppUser? user;
 
   /// Email аккаунта, ожидающего подтверждения.
   final String? email;
+
+  /// Пользователь вошёл, но почта ещё не подтверждена (вошёл без письма).
+  final bool pendingEmailVerification;
 
   bool get isAuthenticated => status == AuthStatus.authenticated;
   bool get isUnknown => status == AuthStatus.unknown;
@@ -67,10 +78,12 @@ class AuthState {
       other is AuthState &&
           status == other.status &&
           user == other.user &&
-          email == other.email;
+          email == other.email &&
+          pendingEmailVerification == other.pendingEmailVerification;
 
   @override
-  int get hashCode => Object.hash(status, user, email);
+  int get hashCode =>
+      Object.hash(status, user, email, pendingEmailVerification);
 }
 
 /// Контроллер аутентификации: восстанавливает сессию и выполняет вход/выход.
@@ -143,6 +156,22 @@ class AuthController extends Notifier<AuthState> {
 
   /// Повторно отправляет письмо с подтверждением почты.
   Future<void> resendVerificationEmail() => _service.resendVerificationEmail();
+
+  /// Пускает в приложение без подтверждения почты.
+  ///
+  /// Нужно, когда письмо не доходит (например, mail.ru часто его блокирует).
+  Future<void> continueWithoutVerification() async {
+    final AppUser? user = _service.currentAccount();
+    if (user == null) {
+      throw const AuthException('Сессия истекла. Войдите в аккаунт заново.');
+    }
+    state = AuthState(
+      status: AuthStatus.authenticated,
+      user: user,
+      email: user.email,
+      pendingEmailVerification: true,
+    );
+  }
 
   /// Проверяет, подтверждена ли почта, и открывает доступ к приложению.
   Future<void> confirmEmailVerified() async {

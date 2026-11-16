@@ -3,11 +3,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/theme/index.dart';
+import '../../core/utils/email_domains.dart';
 import '../../core/widgets/index.dart';
 import '../../data/providers/auth_providers.dart';
 import '../../data/services/auth_service.dart';
+import '../../data/services/firebase_config.dart';
 import '../onboarding/widgets/neon_logo_text.dart';
 
 /// Экран ожидания подтверждения почты после регистрации или входа.
@@ -106,6 +109,21 @@ class _VerifyEmailScreenState extends ConsumerState<VerifyEmailScreen> {
     await ref.read(authControllerProvider.notifier).logout();
   }
 
+  Future<void> _continueWithoutVerification() async {
+    setState(() {
+      _error = null;
+      _info = null;
+    });
+    try {
+      await ref
+          .read(authControllerProvider.notifier)
+          .continueWithoutVerification();
+      if (mounted) context.go('/main');
+    } on AuthException catch (error) {
+      if (mounted) setState(() => _error = error.message);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
@@ -159,12 +177,25 @@ class _VerifyEmailScreenState extends ConsumerState<VerifyEmailScreen> {
                       ),
                       const SizedBox(height: AppSpacing.sm),
                       Text(
-                        'Письма от нового отправителя иногда попадают в «Спам».',
+                        'Письмо отправлено с адреса '
+                        'no-reply@${FirebaseConfig.projectId}.firebaseapp.com. '
+                        'Проверьте «Входящие», «Спам» и «Рассылки».',
                         textAlign: TextAlign.center,
                         style: AppTextStyles.caption(
                           color: AppColors.textSecondary,
                         ),
                       ),
+                      if (isMailRuEmail(email)) ...<Widget>[
+                        const SizedBox(height: AppSpacing.xs),
+                        Text(
+                          'Mail.ru часто блокирует такие письма. '
+                          'Если письма нет 10 минут — попробуйте Gmail.',
+                          textAlign: TextAlign.center,
+                          style: AppTextStyles.caption(
+                            color: AppColors.warning,
+                          ),
+                        ),
+                      ],
                       if (_error != null) ...<Widget>[
                         const SizedBox(height: AppSpacing.md),
                         Text(
@@ -199,6 +230,22 @@ class _VerifyEmailScreenState extends ConsumerState<VerifyEmailScreen> {
                               : 'Отправить письмо ещё раз',
                         ),
                       ),
+                      const SizedBox(height: AppSpacing.xs),
+                      TextButton(
+                        onPressed: _checking || _resending
+                            ? null
+                            : _continueWithoutVerification,
+                        child: const Text('Продолжить без подтверждения'),
+                      ),
+                      Text(
+                        'Почта останется неподтверждённой. Используйте, если '
+                        'письмо не приходит (например, на mail.ru).',
+                        textAlign: TextAlign.center,
+                        style: AppTextStyles.caption(
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                      const SizedBox(height: AppSpacing.xs),
                       TextButton(
                         onPressed: _checking || _resending
                             ? null

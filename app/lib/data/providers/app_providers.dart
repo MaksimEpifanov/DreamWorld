@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/conversation.dart';
@@ -59,7 +58,6 @@ final Provider<ProfileRepository> profileRepositoryProvider =
       if (isFirebaseInitialized) {
         final FirestoreProfileRepository repository =
             FirestoreProfileRepository(
-              firestore: FirebaseFirestore.instance,
               currentUserId: currentUserId,
               realtime: realtime,
             );
@@ -110,7 +108,10 @@ final FutureProvider<bool> hasSavedProfileProvider = FutureProvider<bool>((
   Ref ref,
 ) async {
   try {
-    return await ref.watch(profileRepositoryProvider).hasSavedProfileAsync();
+    return await ref
+        .watch(profileRepositoryProvider)
+        .hasSavedProfileAsync()
+        .timeout(const Duration(seconds: 8), onTimeout: () => false);
   } catch (_) {
     return false;
   }

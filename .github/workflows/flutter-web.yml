@@ -50,7 +50,7 @@ jobs:
 
       - name: Build web
         working-directory: app
-        run: flutter build web --release --base-href /DreamWorld/
+        run: flutter build web --release --base-href /DreamWorld/ --pwa-strategy=none
 
       - name: Upload Web preview artifact
         if: github.event_name == 'workflow_dispatch'

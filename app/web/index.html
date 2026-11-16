@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -8,9 +8,6 @@
     The path provided below has to start and end with a slash "/" in order for
     it to work correctly.
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
@@ -18,29 +15,92 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Dream World — галактика интересов: сообщества-планеты, чаты и поиск людей по ID.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#050B1E">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dreem_world">
+  <meta name="apple-mobile-web-app-title" content="Dream World">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>dreem_world</title>
+  <title>Dream World</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: radial-gradient(circle at 50% 30%, #12204a 0%, #050b1e 60%, #02040d 100%);
+      color: #eae6ff;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    #dw-boot {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      text-align: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    #dw-boot .dw-title {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #b48cff;
+      text-shadow: 0 0 22px rgba(180, 140, 255, 0.65);
+    }
+    #dw-boot .dw-sub {
+      font-size: 14px;
+      color: #a79fc7;
+    }
+    #dw-boot .dw-spinner {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 3px solid rgba(180, 140, 255, 0.25);
+      border-top-color: #b48cff;
+      animation: dw-spin 0.9s linear infinite;
+    }
+    @keyframes dw-spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+  <div id="dw-boot">
+    <div class="dw-title">DREAM WORLD</div>
+    <div class="dw-spinner"></div>
+    <div class="dw-sub">Загрузка галактики…</div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var boot = document.getElementById('dw-boot');
+      if (boot) boot.remove();
+    });
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+    // Сброс устаревшего кэша service worker: после обновления сайта
+    // старые файлы не должны показывать пустой экран.
+    (function () {
+      if (!('serviceWorker' in navigator)) return;
+      navigator.serviceWorker.getRegistrations().then(function (list) {
+        list.forEach(function (registration) { registration.unregister(); });
+      }).catch(function () {});
+      if (window.caches && caches.keys) {
+        caches.keys().then(function (keys) {
+          keys.forEach(function (key) { caches.delete(key); });
+        }).catch(function () {});
+      }
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

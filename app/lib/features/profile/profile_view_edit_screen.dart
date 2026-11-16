@@ -9,6 +9,7 @@ import '../../core/utils/image_utils.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
+import '../../data/providers/auth_providers.dart';
 import '../../data/services/user_code.dart';
 import 'widgets/photo_picker.dart';
 
@@ -256,6 +257,14 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
                     interests: _selectedInterests.toList(),
                   ),
                   const SizedBox(height: AppSpacing.lg),
+                  if (ref
+                      .watch(authControllerProvider)
+                      .pendingEmailVerification) ...<Widget>[
+                    _UnverifiedEmailCard(
+                      email: ref.watch(authControllerProvider).email,
+                    ),
+                    const SizedBox(height: AppSpacing.lg),
+                  ],
                   _UserIdCard(userId: ref.watch(currentUserIdProvider)),
                   const SizedBox(height: AppSpacing.lg),
                   _SubscriptionCard(
@@ -514,6 +523,45 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
             ),
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Напоминание подтвердить почту, если вход был без письма.
+class _UnverifiedEmailCard extends StatelessWidget {
+  const _UnverifiedEmailCard({this.email});
+
+  final String? email;
+
+  @override
+  Widget build(BuildContext context) {
+    final ColorScheme scheme = Theme.of(context).colorScheme;
+    return NeonCard(
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.mark_email_unread_outlined, color: scheme.error),
+          const SizedBox(width: AppSpacing.sm),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text('Почта не подтверждена', style: AppTextStyles.bodyBold()),
+                const SizedBox(height: AppSpacing.xxs),
+                Text(
+                  email == null || email!.isEmpty
+                      ? 'Подтвердите почту, чтобы защитить аккаунт.'
+                      : 'Подтвердите $email, чтобы защитить аккаунт.',
+                  style: AppTextStyles.caption(),
+                ),
+              ],
+            ),
+          ),
+          TextButton(
+            onPressed: () => context.go('/verify-email'),
+            child: const Text('Подтвердить'),
+          ),
+        ],
       ),
     );
   }

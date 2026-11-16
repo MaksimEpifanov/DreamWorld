@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart' as firebase;
 import 'package:flutter/foundation.dart';
 
@@ -33,7 +35,8 @@ class FirebaseAuthService implements AuthService {
           .createUserWithEmailAndPassword(
             email: email.trim(),
             password: password,
-          );
+          )
+          .timeout(const Duration(seconds: 25));
       final firebase.User? user = credential.user;
       if (user == null) {
         throw const AuthException(
@@ -49,6 +52,10 @@ class FirebaseAuthService implements AuthService {
         user: _mapUser(user),
         emailConfirmationRequired: true,
       );
+    } on TimeoutException {
+      throw const AuthException(
+        'Нет соединения с сервером. Проверьте интернет и попробуйте снова.',
+      );
     } on firebase.FirebaseAuthException catch (error) {
       throw AuthException(_message(error));
     }
@@ -61,12 +68,13 @@ class FirebaseAuthService implements AuthService {
   }) async {
     try {
       final firebase.UserCredential credential = await _auth
-          .signInWithEmailAndPassword(email: email.trim(), password: password);
+          .signInWithEmailAndPassword(email: email.trim(), password: password)
+          .timeout(const Duration(seconds: 25));
       final firebase.User? user = credential.user;
       if (user == null) {
         throw const AuthException('Не удалось войти. Попробуйте ещё раз.');
       }
-      await user.reload();
+      await user.reload().timeout(const Duration(seconds: 15));
       final firebase.User? fresh = _auth.currentUser;
       if (fresh == null) {
         throw const AuthException('Не удалось войти. Попробуйте ещё раз.');
@@ -75,6 +83,10 @@ class FirebaseAuthService implements AuthService {
         throw EmailNotVerifiedException(fresh.email ?? email.trim());
       }
       return _mapUser(fresh);
+    } on TimeoutException {
+      throw const AuthException(
+        'Нет соединения с сервером. Проверьте интернет и попробуйте снова.',
+      );
     } on firebase.FirebaseAuthException catch (error) {
       throw AuthException(_message(error));
     }
@@ -88,7 +100,7 @@ class FirebaseAuthService implements AuthService {
     final firebase.User? user = _auth.currentUser;
     if (user == null) return null;
     try {
-      await user.reload();
+      await user.reload().timeout(const Duration(seconds: 6));
     } catch (error) {
       debugPrint('Не удалось обновить сессию Firebase: $error');
     }
@@ -124,7 +136,7 @@ class FirebaseAuthService implements AuthService {
   Future<AppUser?> reloadVerifiedUser() async {
     final firebase.User? user = _auth.currentUser;
     if (user == null) return null;
-    await user.reload();
+    await user.reload().timeout(const Duration(seconds: 15));
     final firebase.User? fresh = _auth.currentUser;
     if (fresh == null || !fresh.emailVerified) return null;
     return _mapUser(fresh);
@@ -155,7 +167,8 @@ class FirebaseAuthService implements AuthService {
     }
   }
 
-  AppUser? get currentUser {
+  @override
+  AppUser? currentAccount() {
     final firebase.User? user = _auth.currentUser;
     if (user == null) return null;
     return _mapUser(user);
@@ -163,9 +176,9 @@ class FirebaseAuthService implements AuthService {
 
   Future<void> _sendVerification(firebase.User user) async {
     try {
-      await user.sendEmailVerification();
-    } on firebase.FirebaseAuthException catch (error) {
-      debugPrint('Письмо подтверждения не отправлено: ${error.code}');
+      await user.sendEmailVerification().timeout(const Duration(seconds: 15));
+    } catch (error) {
+      debugPrint('Письмо подтверждения не отправлено: $error');
     }
   }
 

@@ -402,3 +402,38 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
 - Проверки: `flutter analyze` — `No issues found`, `flutter test` — 218 тестов,
   `flutter build web --release --base-href "/DreamWorld/"` — успешно. Коммит, push и деплой
   не выполнялись.
+
+## 29. Белый экран, зависания и вход без подтверждения почты (16.11.2026)
+
+- Наблюдение пользователя: сайт на GitHub Pages по адресу `/#/verify-email` показывал белый
+  экран и «подвисал», локальная сборка открывалась нормально. Причина — устаревший service
+  worker GitHub Pages отдавал старый `main.dart.js` вместе с новым `index.html`.
+- Причина «письмо не приходит» установлена окончательно: Firebase отправляет письма успешно
+  (проверено на тестовом ящике, отправитель `noreply@dreamworld-34005.firebaseapp.com`,
+  доставка за секунды), а **mail.ru молча выбрасывает письма с `*.firebaseapp.com`**.
+  Повторно отлаживать Firebase по этому симптому не нужно.
+- `app/web/index.html` переписан: экран загрузки (`#dw-boot` с логотипом и спиннером, снимается
+  по событию `flutter-first-frame`), заголовок и метатеги «Dream World», а также сброс
+  устаревшего кэша — при старте снимается регистрация service worker и удаляются все `caches`.
+  Service worker больше не создаётся: сборка идёт с `--pwa-strategy=none` (в
+  `.github/workflows/flutter-web.yml` и `web-deploy.yml`), `flutter_service_worker.js` — 0 байт.
+- Убраны лишние сетевые ожидания на старте: `FirestoreProfileRepository` больше не создаёт
+  `FirebaseFirestore.instance` в конструкторе (клиент ленивый, `_db`), а до входа пользователя
+  (`_online == false`) работает только локальный кэш — это убирает `permission-denied` в консоли
+  и отложенную загрузку Firestore JS SDK. В `hasSavedProfileProvider` добавлен таймаут 8 с,
+  в вызовы Firebase Auth — таймауты 6–25 с с понятным сообщением «Нет соединения с сервером…».
+- Вход без подтверждения почты: в `AuthState` появился флаг `pendingEmailVerification`,
+  `AuthService.currentAccount()` отдаёт текущий аккаунт без проверки `emailVerified`,
+  `AuthController.continueWithoutVerification()` пускает в приложение. На `/verify-email`
+  добавлена кнопка «Продолжить без подтверждения» с пояснением, в профиле — карточка
+  «Почта не подтверждена» со ссылкой на `/verify-email`. `/verify-email` убран из публичных
+  маршрутов: он доступен только ожидающему подтверждения аккаунту или вошедшему пользователю
+  с `pendingEmailVerification`.
+- Подсказки про почту: новый `app/lib/core/utils/email_domains.dart` (`isMailRuEmail`) —
+  на экране регистрации предупреждение про mail.ru, на экране подтверждения — адрес отправителя,
+  совет проверить «Спам»/«Рассылки» и предупреждение для mail.ru.
+- Что делать пользователю: регистрироваться лучше с Gmail; если письмо не пришло — «Продолжить
+  без подтверждения». После обновления сайта достаточно обычного обновления страницы: старый
+  кэш чистится автоматически.
+- Проверки: `flutter analyze` — `No issues found`, `flutter test` — 218 тестов,
+  `flutter build web --release --base-href "/DreamWorld/" --pwa-strategy=none` — успешно.

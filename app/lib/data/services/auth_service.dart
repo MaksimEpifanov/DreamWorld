@@ -39,6 +39,9 @@ abstract interface class AuthService {
   /// Восстанавливает сохранённую сессию или возвращает `null`.
   Future<AppUser?> restoreSession();
 
+  /// Текущий аккаунт без проверки подтверждения почты (или `null`).
+  AppUser? currentAccount();
+
   /// Email аккаунта, ожидающего подтверждения почты, иначе `null`.
   Future<String?> pendingVerificationEmail();
 

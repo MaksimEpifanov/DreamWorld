@@ -41,7 +41,6 @@ const Set<String> _publicRoutes = <String>{
   '/forgot-password',
   '/reset-password',
   '/auth/callback',
-  '/verify-email',
   '/onboarding',
   '/splash',
 };
@@ -109,8 +108,12 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         return '/login';
       }
 
-      // Авторизован: со вход/регистрации/подтверждения — на главную.
-      if (isLogin || location == '/verify-email') return '/main';
+      // Авторизован: со вход/регистрации — на главную.
+      if (location == '/verify-email') {
+        // Пользователь вошёл без подтверждения — экран ему ещё доступен.
+        return auth.pendingEmailVerification ? null : '/main';
+      }
+      if (isLogin) return '/main';
 
       // Авторизован: со сплэша — на главную (или к анкете, если профиля нет).
       if (location == '/splash') {

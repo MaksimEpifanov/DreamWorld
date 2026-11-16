@@ -16,7 +16,7 @@ import 'profile_repository.dart';
 /// работал сразу после регистрации.
 class FirestoreProfileRepository implements ProfileRepository {
   FirestoreProfileRepository({
-    required this.firestore,
+    this.firestore,
     required this.currentUserId,
     RealtimeService? realtime,
   }) : _local = MockProfileRepository(
@@ -26,12 +26,21 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   static const String collectionName = 'profiles';
 
-  final FirebaseFirestore firestore;
+  /// Явный клиент Firestore (для тестов); в приложении создаётся лениво.
+  final FirebaseFirestore? firestore;
   final MockProfileRepository _local;
   final String currentUserId;
 
+  /// Firestore нужен только вошедшему пользователю: до входа работаем на
+  /// локальном кэше, чтобы не загружать SDK и не получать отказ правил.
+  bool get _online =>
+      currentUserId.isNotEmpty &&
+      currentUserId != MockProfileRepository.defaultCurrentUserId;
+
+  FirebaseFirestore get _db => firestore ?? FirebaseFirestore.instance;
+
   DocumentReference<Map<String, dynamic>> get _document =>
-      firestore.collection(collectionName).doc(currentUserId);
+      _db.collection(collectionName).doc(currentUserId);
 
   List<Profile> get _demoProfiles => MockProfileRepository.seedProfiles
       .where(
@@ -58,6 +67,7 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   @override
   Future<Profile?> getCurrentProfile() async {
+    if (!_online) return _local.getCurrentProfile();
     try {
       final DocumentSnapshot<Map<String, dynamic>> snapshot = await _document
           .get();
@@ -71,6 +81,10 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   @override
   Stream<Profile?> watchCurrentProfile() async* {
+    if (!_online) {
+      yield* _local.watchCurrentProfile();
+      return;
+    }
     yield await getCurrentProfile();
     yield* _document.snapshots().map(_fromSnapshot).handleError(_logError);
   }
@@ -107,6 +121,7 @@ class FirestoreProfileRepository implements ProfileRepository {
   Future<void> saveProfile(Profile profile) async {
     final Profile stored = profile.copyWith(id: currentUserId);
     await _local.saveProfile(stored);
+    if (!_online) return;
     try {
       await _document.set(stored.toJson(), SetOptions(merge: true));
     } catch (error) {
@@ -126,8 +141,10 @@ class FirestoreProfileRepository implements ProfileRepository {
       }
     }
 
+    if (!_online) return found.values.toList(growable: false);
+
     try {
-      final QuerySnapshot<Map<String, dynamic>> snapshot = await firestore
+      final QuerySnapshot<Map<String, dynamic>> snapshot = await _db
           .collection(collectionName)
           .get();
       for (final QueryDocumentSnapshot<Map<String, dynamic>> document
@@ -148,6 +165,7 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   @override
   Future<bool> hasSavedProfileAsync() async {
+    if (!_online) return _local.hasSavedProfileAsync();
     try {
       final DocumentSnapshot<Map<String, dynamic>> snapshot = await _document
           .get();
