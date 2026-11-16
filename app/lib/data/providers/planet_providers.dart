@@ -12,6 +12,8 @@ import '../repositories/mock_news_repository.dart';
 import '../repositories/mock_planet_repository.dart';
 import '../repositories/news_repository.dart';
 import '../repositories/planet_repository.dart';
+import '../repositories/profile_repository.dart';
+import '../services/firebase_bootstrap.dart';
 import 'app_providers.dart';
 
 /// Репозиторий планет-сообществ.
@@ -28,9 +30,22 @@ final Provider<NewsRepository> newsRepositoryProvider =
     Provider<NewsRepository>((Ref ref) => const MockNewsRepository());
 
 /// Каталог планет.
-final Provider<List<Planet>> planetsProvider = Provider<List<Planet>>(
-  (Ref ref) => ref.watch(planetRepositoryProvider).getPlanets(),
-);
+///
+/// В рабочей версии число участников берётся из реальных анкет, поэтому
+/// под планетами не показываются выдуманные значения.
+final Provider<List<Planet>> planetsProvider = Provider<List<Planet>>((
+  Ref ref,
+) {
+  final List<Planet> base = ref.watch(planetRepositoryProvider).getPlanets();
+  if (!isFirebaseInitialized) return base;
+  return base
+      .map(
+        (Planet planet) => planet.copyWith(
+          memberCount: ref.watch(planetMemberCountProvider(planet.id)),
+        ),
+      )
+      .toList(growable: false);
+});
 
 /// Избранные планеты на главной (до 7).
 ///
@@ -82,21 +97,61 @@ final ProviderFamily<Planet?, String> planetByIdProvider =
       (Ref ref, String id) => ref.watch(planetRepositoryProvider).byId(id),
     );
 
-/// Участники планеты — подвыборка каталога подбора по общим интересам.
+/// Все анкеты сообщества: реальные пользователи Firebase (включая текущего)
+/// или демо-подбор в мок-режиме.
+final Provider<AsyncValue<List<Profile>>> communityProfilesProvider =
+    Provider<AsyncValue<List<Profile>>>((Ref ref) {
+      final AsyncValue<List<Profile>> others = ref.watch(
+        discoveryProfilesProvider,
+      );
+      final Profile? me = ref.watch(currentProfileProvider).valueOrNull;
+      return others.whenData((List<Profile> list) => <Profile>[?me, ...list]);
+    });
+
+/// Сколько участников реально вступило в планету.
 ///
-/// Если по интересам никто не нашёлся, возвращается весь каталог, чтобы
-/// планета не оставалась пустой.
+/// В мок-режиме остаются демонстрационные числа из каталога, в рабочей
+/// версии — фактическое количество анкет с этой планетой.
+final ProviderFamily<int, String> planetMemberCountProvider =
+    Provider.family<int, String>((Ref ref, String id) {
+      if (!isFirebaseInitialized) {
+        return ref.watch(planetByIdProvider(id))?.memberCount ?? 0;
+      }
+      final List<Profile> all =
+          ref.watch(communityProfilesProvider).valueOrNull ?? const <Profile>[];
+      return all
+          .where((Profile profile) => profile.joinedPlanetIds.contains(id))
+          .length;
+    });
+
+/// Участники планеты.
+///
+/// В рабочей версии — только реальные пользователи, которые вступили в неё.
+/// В мок-режиме остаётся демонстрационная подборка по интересам, чтобы
+/// приложение было непустым без бэкенда.
 final ProviderFamily<AsyncValue<List<Profile>>, String> planetMembersProvider =
     Provider.family<AsyncValue<List<Profile>>, String>((Ref ref, String id) {
       final Planet? planet = ref.watch(planetByIdProvider(id));
-      final AsyncValue<List<Profile>> profiles = ref.watch(
-        discoveryProfilesProvider,
-      );
 
       if (planet == null) {
         return const AsyncValue<List<Profile>>.data(<Profile>[]);
       }
 
+      if (isFirebaseInitialized) {
+        return ref
+            .watch(communityProfilesProvider)
+            .whenData(
+              (List<Profile> all) => all
+                  .where(
+                    (Profile profile) => profile.joinedPlanetIds.contains(id),
+                  )
+                  .toList(growable: false),
+            );
+      }
+
+      final AsyncValue<List<Profile>> profiles = ref.watch(
+        discoveryProfilesProvider,
+      );
       return profiles.whenData((List<Profile> all) {
         final List<Profile> matched = all
             .where(
@@ -107,6 +162,40 @@ final ProviderFamily<AsyncValue<List<Profile>>, String> planetMembersProvider =
         return matched.isEmpty ? all : matched;
       });
     });
+
+/// Вступление в планету и выход из неё.
+///
+/// Список планет хранится в анкете пользователя (`joinedPlanetIds`), поэтому
+/// он общий для сайта и приложения и не требует отдельного бэкенда.
+class PlanetMembershipController {
+  PlanetMembershipController(this._ref);
+
+  final Ref _ref;
+
+  /// Вступает в планету или выходит из неё. Возвращает новое состояние.
+  Future<bool> toggle(String planetId) async {
+    final ProfileRepository repository = _ref.read(profileRepositoryProvider);
+    final Profile? me =
+        await repository.getCurrentProfile() ??
+        _ref.read(currentProfileProvider).valueOrNull;
+    if (me == null) {
+      throw StateError('Анкета не найдена');
+    }
+    final Set<String> joined = me.joinedPlanetIds.toSet();
+    final bool nowJoined = !joined.remove(planetId);
+    if (nowJoined) joined.add(planetId);
+    await repository.saveProfile(
+      me.copyWith(joinedPlanetIds: joined.toList(growable: false)),
+    );
+    return nowJoined;
+  }
+}
+
+/// Контроллер вступления в планеты.
+final Provider<PlanetMembershipController> planetMembershipControllerProvider =
+    Provider<PlanetMembershipController>(
+      (Ref ref) => PlanetMembershipController(ref),
+    );
 
 /// Отметки на карте планеты.
 final StateNotifierProviderFamily<MapSpotsNotifier, List<MapSpot>, String>

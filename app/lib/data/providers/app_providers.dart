@@ -6,6 +6,7 @@ import '../models/message.dart';
 import '../models/profile.dart';
 import '../models/relationship_status.dart';
 import '../repositories/chat_repository.dart';
+import '../repositories/firestore_chat_repository.dart';
 import '../repositories/firestore_profile_repository.dart';
 import '../repositories/match_repository.dart';
 import '../repositories/mock_chat_repository.dart';
@@ -88,8 +89,16 @@ final Provider<MatchRepository> matchRepositoryProvider =
 /// Репозиторий чатов.
 final Provider<ChatRepository> chatRepositoryProvider =
     Provider<ChatRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      if (isFirebaseInitialized) {
+        final FirestoreChatRepository repository = FirestoreChatRepository(
+          currentUserId: currentUserId,
+        );
+        ref.onDispose(repository.dispose);
+        return repository;
+      }
       final MockChatRepository repository = MockChatRepository(
-        currentUserId: ref.watch(currentUserIdProvider),
+        currentUserId: currentUserId,
         realtime: ref.watch(realtimeServiceProvider),
       );
       ref.onDispose(repository.dispose);
@@ -117,11 +126,16 @@ final FutureProvider<bool> hasSavedProfileProvider = FutureProvider<bool>((
   }
 });
 
-/// Поток каталога профилей для подбора.
+/// Поток каталога реальных профилей.
+///
+/// Используется подбором, контактами и подсчётом участников планет, поэтому
+/// берём с запасом: на бесплатном тарифе это не увеличивает число чтений
+/// (слушатель коллекции получает её целиком).
 final StreamProvider<List<Profile>> discoveryProfilesProvider =
     StreamProvider<List<Profile>>(
-      (Ref ref) =>
-          ref.watch(profileRepositoryProvider).watchDiscoveryProfiles(),
+      (Ref ref) => ref
+          .watch(profileRepositoryProvider)
+          .watchDiscoveryProfiles(limit: 200),
     );
 
 /// Поиск анкет по публичному ID пользователя (`DW-XXXX-XXXX`).

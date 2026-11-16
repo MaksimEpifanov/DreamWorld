@@ -63,6 +63,10 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
 
   String? _photoDataUri;
 
+  /// Планеты, в которые пользователь уже вступил (их нельзя терять при
+  /// сохранении анкеты).
+  List<String> _joinedPlanetIds = const <String>[];
+
   bool _isLoading = true;
   bool _isSaving = false;
   bool _isPremium = false;
@@ -96,6 +100,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
       _selectedDetailedInterests
         ..clear()
         ..addAll(profile.detailedInterests);
+      _joinedPlanetIds = profile.joinedPlanetIds;
     }
     if (mounted) {
       setState(() => _isLoading = false);
@@ -160,6 +165,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
       languages: const <String>['ru'],
       relationshipGoal: _relationshipGoal,
       detailedInterests: _selectedDetailedInterests.toList(),
+      joinedPlanetIds: _joinedPlanetIds,
     );
 
     try {

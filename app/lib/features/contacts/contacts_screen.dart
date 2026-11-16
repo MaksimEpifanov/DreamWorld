@@ -24,6 +24,28 @@ class ContactsScreen extends ConsumerWidget {
       ..showSnackBar(const SnackBar(content: Text('Ваш ID скопирован')));
   }
 
+  Future<void> _openChat(
+    BuildContext context,
+    WidgetRef ref,
+    String otherUserId,
+  ) async {
+    try {
+      final Conversation conversation = await ref
+          .read(chatRepositoryProvider)
+          .getOrCreateConversation(otherUserId);
+      if (context.mounted) context.push('/chat/${conversation.id}');
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось открыть чат. Попробуйте ещё раз.'),
+          ),
+        );
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
@@ -138,6 +160,7 @@ class ContactsScreen extends ConsumerWidget {
                     child: _ContactTile(
                       profile: contacts[i],
                       index: i,
+                      onOpenChat: () => _openChat(context, ref, contacts[i].id),
                       onRemove: () => ref
                           .read(contactsProvider.notifier)
                           .remove(contacts[i].id),
@@ -186,12 +209,14 @@ class _ContactTile extends StatelessWidget {
   const _ContactTile({
     required this.profile,
     required this.index,
+    required this.onOpenChat,
     required this.onRemove,
     required this.onReport,
   });
 
   final Profile profile;
   final int index;
+  final VoidCallback onOpenChat;
   final VoidCallback onRemove;
   final VoidCallback onReport;
 
@@ -199,46 +224,56 @@ class _ContactTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GlassCard(
           padding: const EdgeInsets.all(AppSpacing.sm),
-          child: Row(
-            children: <Widget>[
-              AuraAvatar(
-                photoUrl: profile.photoUrl,
-                size: 52,
-                fallbackText: profile.name,
-              ),
-              const SizedBox(width: AppSpacing.md),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(profile.name, style: AppTextStyles.bodyBold()),
-                    const SizedBox(height: AppSpacing.xxs),
-                    Text(
-                      <String>[
-                        if ((profile.city ?? '').isNotEmpty) profile.city!,
-                        if (profile.interestNames.isNotEmpty)
-                          profile.interestNames.take(2).join(', '),
-                      ].join(' • '),
-                      style: AppTextStyles.caption(),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ],
+          child: InkWell(
+            borderRadius: AppRadius.mdAll,
+            onTap: onOpenChat,
+            child: Row(
+              children: <Widget>[
+                AuraAvatar(
+                  photoUrl: profile.photoUrl,
+                  size: 52,
+                  fallbackText: profile.name,
                 ),
-              ),
-              IconButton(
-                tooltip: 'Пожаловаться',
-                icon: const Icon(Icons.flag_outlined),
-                color: AppColors.textMuted,
-                onPressed: onReport,
-              ),
-              IconButton(
-                tooltip: 'Удалить',
-                icon: const Icon(Icons.person_remove_outlined),
-                color: AppColors.error,
-                onPressed: onRemove,
-              ),
-            ],
+                const SizedBox(width: AppSpacing.md),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(profile.name, style: AppTextStyles.bodyBold()),
+                      const SizedBox(height: AppSpacing.xxs),
+                      Text(
+                        <String>[
+                          if ((profile.city ?? '').isNotEmpty) profile.city!,
+                          if (profile.interestNames.isNotEmpty)
+                            profile.interestNames.take(2).join(', '),
+                        ].join(' • '),
+                        style: AppTextStyles.caption(),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                ),
+                IconButton(
+                  tooltip: 'Написать',
+                  icon: const Icon(Icons.chat_bubble_outline_rounded),
+                  color: Theme.of(context).colorScheme.primary,
+                  onPressed: onOpenChat,
+                ),
+                IconButton(
+                  tooltip: 'Пожаловаться',
+                  icon: const Icon(Icons.flag_outlined),
+                  color: AppColors.textMuted,
+                  onPressed: onReport,
+                ),
+                IconButton(
+                  tooltip: 'Удалить',
+                  icon: const Icon(Icons.person_remove_outlined),
+                  color: AppColors.error,
+                  onPressed: onRemove,
+                ),
+              ],
+            ),
           ),
         )
         .animate(delay: (index * 50).ms)

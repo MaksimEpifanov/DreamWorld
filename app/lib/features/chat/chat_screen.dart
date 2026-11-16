@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -50,8 +50,9 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     final Profile? other = await ref
         .read(profileRepositoryProvider)
         .getProfileById(otherId);
-    final Profile? me =
-        await ref.read(profileRepositoryProvider).getCurrentProfile();
+    final Profile? me = await ref
+        .read(profileRepositoryProvider)
+        .getCurrentProfile();
     if (!mounted) return;
     setState(() {
       _otherUserId = otherId;
@@ -86,9 +87,21 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       return;
     }
 
-    await ref
-        .read(chatRepositoryProvider)
-        .sendMessage(widget.conversationId, text);
+    try {
+      await ref
+          .read(chatRepositoryProvider)
+          .sendMessage(widget.conversationId, text);
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Сообщение не отправлено. Проверьте интернет.'),
+          ),
+        );
+      return;
+    }
     _textController.clear();
     setState(() {
       _showingTopics = false;
@@ -104,7 +117,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
         backgroundColor: AppColors.surface,
         title: Row(
           children: <Widget>[
-            Icon(Icons.shield_moon_rounded, color: Theme.of(context).colorScheme.secondary),
+            Icon(
+              Icons.shield_moon_rounded,
+              color: Theme.of(context).colorScheme.secondary,
+            ),
             const SizedBox(width: AppSpacing.sm),
             const Expanded(child: Text('Чат ограничен')),
           ],
@@ -130,7 +146,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
         backgroundColor: AppColors.surface,
         title: Row(
           children: <Widget>[
-            Icon(Icons.report_gmailerrorred_rounded, color: Theme.of(context).colorScheme.error),
+            Icon(
+              Icons.report_gmailerrorred_rounded,
+              color: Theme.of(context).colorScheme.error,
+            ),
             const SizedBox(width: AppSpacing.sm),
             const Expanded(child: Text('Сообщение заблокировано')),
           ],
@@ -166,8 +185,9 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       return;
     }
     setState(() => _translatingMessageId = message.id);
-    final TranslationService translationService =
-        ref.read(translationServiceProvider);
+    final TranslationService translationService = ref.read(
+      translationServiceProvider,
+    );
     final String translated = await translationService.translate(
       message.text,
       fromLang: '',
@@ -241,7 +261,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
         backgroundColor: AppColors.surface,
         title: Row(
           children: <Widget>[
-            Icon(Icons.videocam_off_outlined, color: Theme.of(context).colorScheme.primary),
+            Icon(
+              Icons.videocam_off_outlined,
+              color: Theme.of(context).colorScheme.primary,
+            ),
             const SizedBox(width: AppSpacing.sm),
             const Expanded(child: Text('Видеозвонки закрыты')),
           ],
@@ -318,19 +341,16 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                         final Message message = messages[index];
                         final bool isMine = message.senderId == currentUserId;
                         return _MessageRow(
-                          message: message,
-                          isMine: isMine,
-                          translation: _translations[message.id],
-                          isTranslating: _translatingMessageId == message.id,
-                          onTranslate: () => _translateMessage(message),
-                        )
+                              message: message,
+                              isMine: isMine,
+                              translation: _translations[message.id],
+                              isTranslating:
+                                  _translatingMessageId == message.id,
+                              onTranslate: () => _translateMessage(message),
+                            )
                             .animate(key: ValueKey<String>(message.id))
                             .fadeIn(duration: 250.ms)
-                            .slideY(
-                              begin: 0.12,
-                              end: 0,
-                              curve: Curves.easeOut,
-                            );
+                            .slideY(begin: 0.12, end: 0, curve: Curves.easeOut);
                       },
                     );
                   },
@@ -386,10 +406,7 @@ class _SafetyBanner extends StatelessWidget {
               style: AppTextStyles.caption(color: AppColors.textSecondary),
             ),
           ),
-          TextButton(
-            onPressed: onTap,
-            child: const Text('Почему?'),
-          ),
+          TextButton(onPressed: onTap, child: const Text('Почему?')),
         ],
       ),
     );
@@ -490,11 +507,7 @@ class _TranslateButton extends StatelessWidget {
     final Color accent = Theme.of(context).colorScheme.primary;
     return TextButton.icon(
       onPressed: isLoading ? null : onTap,
-      icon: Icon(
-        Icons.translate_rounded,
-        size: 16,
-        color: accent,
-      ),
+      icon: Icon(Icons.translate_rounded, size: 16, color: accent),
       label: Text(
         isLoading ? 'Перевод...' : 'Перевод',
         style: AppTextStyles.caption(color: accent),
@@ -527,9 +540,7 @@ class _TranslatedText extends StatelessWidget {
       decoration: BoxDecoration(
         color: primary.withValues(alpha: 0.08),
         borderRadius: AppRadius.smAll,
-        border: Border(
-          left: BorderSide(color: primary, width: 2),
-        ),
+        border: Border(left: BorderSide(color: primary, width: 2)),
       ),
       child: Text(
         text,
@@ -553,9 +564,7 @@ class _TopicPanel extends StatelessWidget {
       padding: const EdgeInsets.all(AppSpacing.md),
       decoration: BoxDecoration(
         color: AppColors.surface.withValues(alpha: 0.9),
-        border: Border(
-          top: BorderSide(color: primary.withValues(alpha: 0.35)),
-        ),
+        border: Border(top: BorderSide(color: primary.withValues(alpha: 0.35))),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -619,9 +628,7 @@ class _InputBar extends StatelessWidget {
       ),
       decoration: BoxDecoration(
         color: AppColors.surface.withValues(alpha: 0.85),
-        border: Border(
-          top: BorderSide(color: primary.withValues(alpha: 0.3)),
-        ),
+        border: Border(top: BorderSide(color: primary.withValues(alpha: 0.3))),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
@@ -723,11 +730,7 @@ class _NeonSendButton extends StatelessWidget {
         background: scheme.primary,
         borderRadius: AppRadius.pillAll,
         padding: const EdgeInsets.all(AppSpacing.sm + 2),
-        child: Icon(
-          Icons.send_rounded,
-          color: scheme.onPrimary,
-          size: 24,
-        ),
+        child: Icon(Icons.send_rounded, color: scheme.onPrimary, size: 24),
       ),
     );
   }

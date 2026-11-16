@@ -49,6 +49,11 @@ _Profile _$ProfileFromJson(Map<String, dynamic> json) => _Profile(
           ?.map((e) => e as String)
           .toList() ??
       const <String>[],
+  joinedPlanetIds:
+      (json['joinedPlanetIds'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList() ??
+      const <String>[],
 );
 
 Map<String, dynamic> _$ProfileToJson(_Profile instance) => <String, dynamic>{
@@ -69,6 +74,7 @@ Map<String, dynamic> _$ProfileToJson(_Profile instance) => <String, dynamic>{
   'lastSeenAt': instance.lastSeenAt?.toIso8601String(),
   'createdAt': instance.createdAt?.toIso8601String(),
   'detailedInterests': instance.detailedInterests,
+  'joinedPlanetIds': instance.joinedPlanetIds,
 };
 
 const _$RelationshipGoalEnumMap = {

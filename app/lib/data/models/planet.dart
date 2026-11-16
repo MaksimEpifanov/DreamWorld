@@ -70,6 +70,21 @@ class Planet {
   /// Ключевые интересы планеты (по ним подбираются участники).
   final List<String> keywords;
 
+  /// Копия планеты с изменёнными полями.
+  Planet copyWith({int? memberCount}) => Planet(
+    id: id,
+    name: name,
+    tagline: tagline,
+    description: description,
+    emoji: emoji,
+    scene: scene,
+    primary: primary,
+    secondary: secondary,
+    accent: accent,
+    memberCount: memberCount ?? this.memberCount,
+    keywords: keywords,
+  );
+
   @override
   bool operator ==(Object other) => other is Planet && other.id == id;
 

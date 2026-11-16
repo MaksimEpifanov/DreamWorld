@@ -8,6 +8,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/constants/planet_interest_details.dart';
 import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
+import '../../../data/models/conversation.dart';
 import '../../../data/models/planet.dart';
 import '../../../data/models/profile.dart';
 import '../../../data/providers/app_providers.dart';
@@ -20,6 +21,52 @@ class PlanetDetailScreen extends ConsumerWidget {
   const PlanetDetailScreen({super.key, required this.planetId});
 
   final String planetId;
+
+  Future<void> _join(BuildContext context, WidgetRef ref, Planet planet) async {
+    try {
+      await ref.read(planetMembershipControllerProvider).toggle(planet.id);
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось вступить. Попробуйте ещё раз.'),
+          ),
+        );
+      return;
+    }
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context)
+      ..clearSnackBars()
+      ..showSnackBar(
+        SnackBar(content: Text('Вы присоединились к «${planet.name}»')),
+      );
+  }
+
+  Future<void> _leave(
+    BuildContext context,
+    WidgetRef ref,
+    Planet planet,
+  ) async {
+    try {
+      await ref.read(planetMembershipControllerProvider).toggle(planet.id);
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось выйти. Попробуйте ещё раз.'),
+          ),
+        );
+      return;
+    }
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context)
+      ..clearSnackBars()
+      ..showSnackBar(SnackBar(content: Text('Вы покинули «${planet.name}»')));
+  }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -38,6 +85,14 @@ class PlanetDetailScreen extends ConsumerWidget {
     final AsyncValue<List<Profile>> members = ref.watch(
       planetMembersProvider(planetId),
     );
+    final int memberCount = ref.watch(planetMemberCountProvider(planetId));
+    final bool joined =
+        ref
+            .watch(currentProfileProvider)
+            .valueOrNull
+            ?.joinedPlanetIds
+            .contains(planetId) ??
+        false;
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -61,23 +116,29 @@ class PlanetDetailScreen extends ConsumerWidget {
               child: ListView(
                 padding: AppSpacing.page,
                 children: <Widget>[
-                  _PlanetHeader(planet: planet),
+                  _PlanetHeader(planet: planet, memberCount: memberCount),
                   const SizedBox(height: AppSpacing.lg),
-                  NeonButton(
-                    label: 'Присоединиться',
-                    icon: Icons.rocket_launch_outlined,
-                    expanded: true,
-                    color: planet.primary,
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            'Вы присоединились к «${planet.name}»',
-                          ),
-                        ),
-                      );
-                    },
-                  ),
+                  if (joined) ...<Widget>[
+                    NeonButton(
+                      label: 'Вы уже присоединились',
+                      icon: Icons.check_circle_outline_rounded,
+                      expanded: true,
+                      color: planet.accent,
+                      onPressed: null,
+                    ),
+                    const SizedBox(height: AppSpacing.xs),
+                    TextButton(
+                      onPressed: () => _leave(context, ref, planet),
+                      child: const Text('Покинуть планету'),
+                    ),
+                  ] else
+                    NeonButton(
+                      label: 'Присоединиться',
+                      icon: Icons.rocket_launch_outlined,
+                      expanded: true,
+                      color: planet.primary,
+                      onPressed: () => _join(context, ref, planet),
+                    ),
                   const SizedBox(height: AppSpacing.sm),
                   NeonButton(
                     label: 'Смотреть всех в подборе',
@@ -115,17 +176,28 @@ class PlanetDetailScreen extends ConsumerWidget {
                       'Не удалось загрузить участников',
                       style: AppTextStyles.body(color: AppColors.textMuted),
                     ),
-                    data: (List<Profile> list) => Column(
-                      children: <Widget>[
-                        for (int i = 0; i < list.length; i++)
-                          Padding(
-                            padding: const EdgeInsets.only(
-                              bottom: AppSpacing.sm,
+                    data: (List<Profile> list) => list.isEmpty
+                        ? Text(
+                            'Пока никто не вступил. Станьте первым участником — '
+                            'и другие смогут найти вас здесь.',
+                            style: AppTextStyles.body(
+                              color: AppColors.textSecondary,
                             ),
-                            child: _MemberTile(profile: list[i], index: i),
+                          )
+                        : Column(
+                            children: <Widget>[
+                              for (int i = 0; i < list.length; i++)
+                                Padding(
+                                  padding: const EdgeInsets.only(
+                                    bottom: AppSpacing.sm,
+                                  ),
+                                  child: _MemberTile(
+                                    profile: list[i],
+                                    index: i,
+                                  ),
+                                ),
+                            ],
                           ),
-                      ],
-                    ),
                   ),
                   const SizedBox(height: AppSpacing.xxl),
                 ],
@@ -140,9 +212,10 @@ class PlanetDetailScreen extends ConsumerWidget {
 
 /// Шапка планеты: орбитальный неоновый шар, название и чипы-статистика.
 class _PlanetHeader extends StatelessWidget {
-  const _PlanetHeader({required this.planet});
+  const _PlanetHeader({required this.planet, required this.memberCount});
 
   final Planet planet;
+  final int memberCount;
 
   @override
   Widget build(BuildContext context) {
@@ -152,10 +225,10 @@ class _PlanetHeader extends StatelessWidget {
         _HeroOrb(planet: planet),
         const SizedBox(height: AppSpacing.lg),
         Text(
-          planet.name,
-          style: AppTextStyles.display(),
-          textAlign: TextAlign.center,
-        )
+              planet.name,
+              style: AppTextStyles.display(),
+              textAlign: TextAlign.center,
+            )
             .animate()
             .fadeIn(duration: 500.ms, delay: 100.ms)
             .slideY(
@@ -185,7 +258,7 @@ class _PlanetHeader extends StatelessWidget {
           children: <Widget>[
             _StatChip(
               icon: Icons.people_alt_outlined,
-              label: '${planet.memberCount} участников',
+              label: '$memberCount участников',
               color: planet.accent,
             ),
             _StatChip(
@@ -209,39 +282,48 @@ class _HeroOrb extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Widget orb = Container(
-      width: 132,
-      height: 132,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        gradient: RadialGradient(
-          center: const Alignment(-0.4, -0.4),
-          radius: 0.95,
-          colors: <Color>[
-            planet.secondary,
-            planet.primary,
-            planet.primary.withValues(alpha: 0.6),
-          ],
-          stops: const <double>[0.0, 0.62, 1.0],
-        ),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: planet.primary.withValues(alpha: 0.65),
-            blurRadius: 56,
-            spreadRadius: 4,
-          ),
-          BoxShadow(
-            color: planet.secondary.withValues(alpha: 0.32),
-            blurRadius: 84,
-            spreadRadius: 2,
-          ),
-        ],
-      ),
-      alignment: Alignment.center,
-      child: Text(planet.emoji, style: const TextStyle(fontSize: 58)),
-    )
-        .animate(onPlay: (AnimationController controller) => controller.repeat(reverse: true))
-        .moveY(begin: -6, end: 6, duration: 2800.ms, curve: Curves.easeInOut);
+    final Widget orb =
+        Container(
+              width: 132,
+              height: 132,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: RadialGradient(
+                  center: const Alignment(-0.4, -0.4),
+                  radius: 0.95,
+                  colors: <Color>[
+                    planet.secondary,
+                    planet.primary,
+                    planet.primary.withValues(alpha: 0.6),
+                  ],
+                  stops: const <double>[0.0, 0.62, 1.0],
+                ),
+                boxShadow: <BoxShadow>[
+                  BoxShadow(
+                    color: planet.primary.withValues(alpha: 0.65),
+                    blurRadius: 56,
+                    spreadRadius: 4,
+                  ),
+                  BoxShadow(
+                    color: planet.secondary.withValues(alpha: 0.32),
+                    blurRadius: 84,
+                    spreadRadius: 2,
+                  ),
+                ],
+              ),
+              alignment: Alignment.center,
+              child: Text(planet.emoji, style: const TextStyle(fontSize: 58)),
+            )
+            .animate(
+              onPlay: (AnimationController controller) =>
+                  controller.repeat(reverse: true),
+            )
+            .moveY(
+              begin: -6,
+              end: 6,
+              duration: 2800.ms,
+              curve: Curves.easeInOut,
+            );
 
     return SizedBox(
       width: 190,
@@ -250,14 +332,18 @@ class _HeroOrb extends StatelessWidget {
         alignment: Alignment.center,
         children: <Widget>[
           Positioned.fill(
-            child: CustomPaint(
-              painter: _OrbitPainter(
-                color: planet.accent,
-                dotColor: planet.secondary,
-              ),
-            )
-                .animate(onPlay: (AnimationController controller) => controller.repeat())
-                .rotate(duration: 24000.ms),
+            child:
+                CustomPaint(
+                      painter: _OrbitPainter(
+                        color: planet.accent,
+                        dotColor: planet.secondary,
+                      ),
+                    )
+                    .animate(
+                      onPlay: (AnimationController controller) =>
+                          controller.repeat(),
+                    )
+                    .rotate(duration: 24000.ms),
           ),
           orb
               .animate()
@@ -361,10 +447,7 @@ class _StatChip extends StatelessWidget {
         children: <Widget>[
           Icon(icon, size: 15, color: color),
           const SizedBox(width: AppSpacing.xs),
-          Text(
-            label,
-            style: AppTextStyles.label(color: AppColors.textPrimary),
-          ),
+          Text(label, style: AppTextStyles.label(color: AppColors.textPrimary)),
         ],
       ),
     );
@@ -386,7 +469,8 @@ class _PlanetInterestDetailsState extends State<_PlanetInterestDetails> {
   @override
   Widget build(BuildContext context) {
     final List<PlanetInterestGroup> groups =
-        planetInterestDetailsByScene[widget.planet.scene] ?? const <PlanetInterestGroup>[];
+        planetInterestDetailsByScene[widget.planet.scene] ??
+        const <PlanetInterestGroup>[];
 
     if (groups.isEmpty) {
       return const SizedBox.shrink();
@@ -507,49 +591,82 @@ class _MemberTile extends ConsumerWidget {
   final Profile profile;
   final int index;
 
+  Future<void> _openChat(BuildContext context, WidgetRef ref) async {
+    final Conversation conversation = await ref
+        .read(chatRepositoryProvider)
+        .getOrCreateConversation(profile.id);
+    if (context.mounted) context.push('/chat/${conversation.id}');
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final int compatibility =
         ref.watch(compatibilityProvider(profile)).asData?.value ?? 0;
+    final bool isSelf = profile.id == ref.watch(currentUserIdProvider);
 
     return GlassCard(
-      padding: const EdgeInsets.all(AppSpacing.sm),
-      child: Row(
-        children: <Widget>[
-          AuraAvatar(
-            photoUrl: profile.photoUrl,
-            size: 52,
-            fallbackText: profile.name,
-          ),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+          padding: const EdgeInsets.all(AppSpacing.sm),
+          child: InkWell(
+            borderRadius: AppRadius.mdAll,
+            onTap: isSelf ? null : () => _openChat(context, ref),
+            child: Row(
               children: <Widget>[
-                Text(profile.name, style: AppTextStyles.bodyBold()),
-                const SizedBox(height: AppSpacing.xxs),
-                Text(
-                  <String>[
-                    if (profile.city != null) profile.city!,
-                    if (profile.interestNames.isNotEmpty)
-                      profile.interestNames.take(2).join(', '),
-                  ].join(' • '),
-                  style: AppTextStyles.caption(),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
+                AuraAvatar(
+                  photoUrl: profile.photoUrl,
+                  size: 52,
+                  fallbackText: profile.name,
+                ),
+                const SizedBox(width: AppSpacing.md),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Row(
+                        children: <Widget>[
+                          Flexible(
+                            child: Text(
+                              profile.name,
+                              style: AppTextStyles.bodyBold(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          if (isSelf) ...<Widget>[
+                            const SizedBox(width: AppSpacing.xs),
+                            Text('(вы)', style: AppTextStyles.caption()),
+                          ],
+                        ],
+                      ),
+                      const SizedBox(height: AppSpacing.xxs),
+                      Text(
+                        <String>[
+                          if (profile.city != null) profile.city!,
+                          if (profile.interestNames.isNotEmpty)
+                            profile.interestNames.take(2).join(', '),
+                        ].join(' • '),
+                        style: AppTextStyles.caption(),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                if (!isSelf)
+                  Icon(
+                    Icons.chat_bubble_outline_rounded,
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+                const SizedBox(width: AppSpacing.sm),
+                CompatibilityRing(
+                  percent: compatibility / 100,
+                  size: 48,
+                  strokeWidth: 5,
                 ),
               ],
             ),
           ),
-          const SizedBox(width: AppSpacing.sm),
-          CompatibilityRing(
-            percent: compatibility / 100,
-            size: 48,
-            strokeWidth: 5,
-          ),
-        ],
-      ),
-    )
+        )
         .animate()
         .fadeIn(duration: 400.ms, delay: (200 + 60 * index).ms)
         .slideX(

@@ -12,8 +12,9 @@ import 'profile_repository.dart';
 /// Профиль пользователя в Firestore с локальным кэшем.
 ///
 /// Анкета текущего пользователя хранится в коллекции `profiles` под его
-/// Firebase UID. Демо-профили для подбора остаются локальными, чтобы подбор
-/// работал сразу после регистрации.
+/// Firebase UID. В рабочей версии подбор и участники планет показывают только
+/// реальные анкеты из Firestore; демо-профили остаются лишь в мок-режиме
+/// (когда параметры Firebase не заполнены).
 class FirestoreProfileRepository implements ProfileRepository {
   FirestoreProfileRepository({
     this.firestore,
@@ -41,14 +42,6 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   DocumentReference<Map<String, dynamic>> get _document =>
       _db.collection(collectionName).doc(currentUserId);
-
-  List<Profile> get _demoProfiles => MockProfileRepository.seedProfiles
-      .where(
-        (Profile profile) =>
-            profile.id != currentUserId &&
-            profile.id != MockProfileRepository.defaultCurrentUserId,
-      )
-      .toList(growable: false);
 
   Profile? _fromSnapshot(DocumentSnapshot<Map<String, dynamic>> snapshot) {
     final Map<String, dynamic>? data = snapshot.data();
@@ -95,6 +88,18 @@ class FirestoreProfileRepository implements ProfileRepository {
         id == MockProfileRepository.defaultCurrentUserId) {
       return getCurrentProfile();
     }
+    if (_online) {
+      try {
+        final DocumentSnapshot<Map<String, dynamic>> snapshot = await _db
+            .collection(collectionName)
+            .doc(id)
+            .get();
+        final Profile? profile = _fromSnapshot(snapshot);
+        if (profile != null) return profile;
+      } catch (error) {
+        _logError(error);
+      }
+    }
     return _local.getProfileById(id);
   }
 
@@ -103,18 +108,69 @@ class FirestoreProfileRepository implements ProfileRepository {
     int limit = 20,
     String? excludeUserId,
   }) async {
-    final String exclude = excludeUserId ?? currentUserId;
-    return _demoProfiles
-        .where((Profile profile) => profile.id != exclude)
-        .take(limit)
-        .toList(growable: false);
+    if (!_online) {
+      return _local.getDiscoveryProfiles(
+        limit: limit,
+        excludeUserId: excludeUserId,
+      );
+    }
+    try {
+      final QuerySnapshot<Map<String, dynamic>> snapshot = await _db
+          .collection(collectionName)
+          .limit(limit + 1)
+          .get();
+      return _realProfiles(
+        snapshot,
+        excludeUserId: excludeUserId,
+        limit: limit,
+      );
+    } catch (error) {
+      _logError(error);
+      return const <Profile>[];
+    }
   }
 
   @override
-  Stream<List<Profile>> watchDiscoveryProfiles({int limit = 20}) {
-    return Stream<List<Profile>>.value(
-      _demoProfiles.take(limit).toList(growable: false),
-    );
+  Stream<List<Profile>> watchDiscoveryProfiles({int limit = 20}) async* {
+    if (!_online) {
+      yield* _local.watchDiscoveryProfiles(limit: limit);
+      return;
+    }
+    yield await getDiscoveryProfiles(limit: limit);
+    yield* _db
+        .collection(collectionName)
+        .snapshots()
+        .map(
+          (QuerySnapshot<Map<String, dynamic>> snapshot) => _realProfiles(
+            snapshot,
+            excludeUserId: currentUserId,
+            limit: limit,
+          ),
+        )
+        .handleError(_logError);
+  }
+
+  /// Реальные анкеты из Firestore: без текущего пользователя и без демо-сида.
+  List<Profile> _realProfiles(
+    QuerySnapshot<Map<String, dynamic>> snapshot, {
+    required String? excludeUserId,
+    required int limit,
+  }) {
+    final String exclude = excludeUserId ?? currentUserId;
+    final List<Profile> result = <Profile>[];
+    for (final QueryDocumentSnapshot<Map<String, dynamic>> document
+        in snapshot.docs) {
+      if (document.id == exclude) continue;
+      try {
+        final Profile profile = Profile.fromJson(document.data());
+        if (profile.name.trim().isEmpty) continue;
+        result.add(profile);
+      } catch (error) {
+        debugPrint('Профиль Firestore повреждён: $error');
+      }
+      if (result.length >= limit) break;
+    }
+    return List<Profile>.unmodifiable(result);
   }
 
   @override
@@ -134,14 +190,16 @@ class FirestoreProfileRepository implements ProfileRepository {
     if (normalizedCode.isEmpty) return const <Profile>[];
     final Map<String, Profile> found = <String, Profile>{};
 
-    final Profile? ownProfile = await _local.getCurrentProfile();
-    for (final Profile profile in <Profile>[..._demoProfiles, ?ownProfile]) {
-      if (UserCode.matches(profile.id, normalizedCode)) {
-        found[profile.id] = profile;
+    if (!_online) {
+      final List<Profile> local = await _local.getDiscoveryProfiles(limit: 500);
+      final Profile? ownProfile = await _local.getCurrentProfile();
+      for (final Profile profile in <Profile>[...local, ?ownProfile]) {
+        if (UserCode.matches(profile.id, normalizedCode)) {
+          found[profile.id] = profile;
+        }
       }
+      return found.values.toList(growable: false);
     }
-
-    if (!_online) return found.values.toList(growable: false);
 
     try {
       final QuerySnapshot<Map<String, dynamic>> snapshot = await _db

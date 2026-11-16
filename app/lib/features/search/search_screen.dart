@@ -227,6 +227,24 @@ class _SearchResultCard extends ConsumerWidget {
     final bool inContacts = ref.watch(contactsProvider).contains(profile.id);
     final String? city = profile.city;
 
+    Future<void> openChat() async {
+      try {
+        final Conversation conversation = await ref
+            .read(chatRepositoryProvider)
+            .getOrCreateConversation(profile.id);
+        if (context.mounted) context.push('/chat/${conversation.id}');
+      } catch (_) {
+        if (!context.mounted) return;
+        ScaffoldMessenger.of(context)
+          ..clearSnackBars()
+          ..showSnackBar(
+            const SnackBar(
+              content: Text('Не удалось открыть чат. Попробуйте ещё раз.'),
+            ),
+          );
+      }
+    }
+
     return GlassCard(
           padding: const EdgeInsets.all(AppSpacing.sm),
           child: Row(
@@ -262,35 +280,44 @@ class _SearchResultCard extends ConsumerWidget {
                   ),
                   backgroundColor: scheme.primary.withValues(alpha: 0.12),
                 )
-              else if (inContacts)
+              else ...<Widget>[
                 IconButton(
-                  tooltip: 'Уже в контактах',
+                  tooltip: 'Написать',
                   icon: Icon(
-                    Icons.check_circle_outline,
-                    color: scheme.secondary,
-                  ),
-                  onPressed: null,
-                )
-              else
-                IconButton(
-                  tooltip: 'Добавить в контакты',
-                  icon: Icon(
-                    Icons.person_add_alt_1_rounded,
+                    Icons.chat_bubble_outline_rounded,
                     color: scheme.primary,
                   ),
-                  onPressed: () {
-                    ref.read(contactsProvider.notifier).add(profile.id);
-                    ScaffoldMessenger.of(context)
-                      ..clearSnackBars()
-                      ..showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            '${profile.name} добавлен(а) в контакты',
-                          ),
-                        ),
-                      );
-                  },
+                  onPressed: openChat,
                 ),
+                inContacts
+                    ? IconButton(
+                        tooltip: 'Уже в контактах',
+                        icon: Icon(
+                          Icons.check_circle_outline,
+                          color: scheme.secondary,
+                        ),
+                        onPressed: null,
+                      )
+                    : IconButton(
+                        tooltip: 'Добавить в контакты',
+                        icon: Icon(
+                          Icons.person_add_alt_1_rounded,
+                          color: scheme.primary,
+                        ),
+                        onPressed: () {
+                          ref.read(contactsProvider.notifier).add(profile.id);
+                          ScaffoldMessenger.of(context)
+                            ..clearSnackBars()
+                            ..showSnackBar(
+                              SnackBar(
+                                content: Text(
+                                  '${profile.name} добавлен(а) в контакты',
+                                ),
+                              ),
+                            );
+                        },
+                      ),
+              ],
             ],
           ),
         )
