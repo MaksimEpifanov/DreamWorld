@@ -5,7 +5,9 @@ import 'package:go_router/go_router.dart';
 import '../../core/theme/index.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/app_notification.dart';
+import '../../data/models/profile.dart';
 import '../../data/providers/notification_providers.dart';
+import '../contacts/contacts_controller.dart';
 
 class NotificationsScreen extends ConsumerStatefulWidget {
   const NotificationsScreen({super.key});
@@ -26,7 +28,11 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
     final List<AppNotification> visible = _unreadOnly
         ? notifications.where((AppNotification item) => !item.isRead).toList()
         : notifications;
-    final int unreadCount = notifications.where((item) => !item.isRead).length;
+    final List<Profile> requests = ref.watch(
+      incomingContactRequestProfilesProvider,
+    );
+    final int unreadCount =
+        notifications.where((item) => !item.isRead).length + requests.length;
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -78,29 +84,59 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
                 ),
                 const SizedBox(height: AppSpacing.md),
                 Expanded(
-                  child: visible.isEmpty
+                  child: (visible.isEmpty && requests.isEmpty)
                       ? const _EmptyNotifications()
-                      : ListView.separated(
+                      : ListView(
                           padding: const EdgeInsets.only(bottom: AppSpacing.md),
-                          itemCount: visible.length,
-                          separatorBuilder: (_, _) =>
+                          children: <Widget>[
+                            if (requests.isNotEmpty) ...<Widget>[
+                              _ContactRequestsHeader(count: requests.length),
                               const SizedBox(height: AppSpacing.sm),
-                          itemBuilder: (BuildContext context, int index) {
-                            final AppNotification item = visible[index];
-                            return _NotificationTile(
-                              notification: item,
-                              onTap: () {
-                                ref
-                                    .read(
-                                      notificationControllerProvider.notifier,
-                                    )
-                                    .markRead(item.id);
-                                if (item.route != null) {
-                                  context.go(item.route!);
-                                }
-                              },
-                            );
-                          },
+                              for (int i = 0; i < requests.length; i++)
+                                Padding(
+                                  padding: const EdgeInsets.only(
+                                    bottom: AppSpacing.sm,
+                                  ),
+                                  child: _ContactRequestNotification(
+                                    profile: requests[i],
+                                    onOpenProfile: () =>
+                                        context.push('/user/${requests[i].id}'),
+                                    onAccept: () => _handleRequest(
+                                      context,
+                                      () => ref
+                                          .read(contactsControllerProvider)
+                                          .acceptRequest(requests[i].id),
+                                      'Запрос принят — ${requests[i].name} в контактах',
+                                    ),
+                                    onDecline: () => _handleRequest(
+                                      context,
+                                      () => ref
+                                          .read(contactsControllerProvider)
+                                          .declineRequest(requests[i].id),
+                                      'Запрос отклонён',
+                                    ),
+                                  ),
+                                ),
+                              if (visible.isNotEmpty)
+                                const SizedBox(height: AppSpacing.sm),
+                            ],
+                            for (int i = 0; i < visible.length; i++) ...<Widget>[
+                              if (i > 0) const SizedBox(height: AppSpacing.sm),
+                              _NotificationTile(
+                                notification: visible[i],
+                                onTap: () {
+                                  ref
+                                      .read(
+                                        notificationControllerProvider
+                                            .notifier,
+                                      )
+                                      .markRead(visible[i].id);
+                                  final String? route = visible[i].route;
+                                  if (route != null) context.go(route);
+                                },
+                              ),
+                            ],
+                          ],
                         ),
                 ),
               ],
@@ -109,6 +145,29 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
         ),
       ),
     );
+  }
+
+  Future<void> _handleRequest(
+    BuildContext context,
+    Future<void> Function() action,
+    String successMessage,
+  ) async {
+    try {
+      await action();
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(SnackBar(content: Text(successMessage)));
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось обновить контакты. Попробуйте ещё раз.'),
+          ),
+        );
+    }
   }
 
   String _unreadLabel(int count) {
@@ -145,6 +204,103 @@ class _FilterChip extends StatelessWidget {
       ),
       labelStyle: AppTextStyles.caption(
         color: selected ? Colors.white : AppColors.textSecondary,
+      ),
+    );
+  }
+}
+
+class _ContactRequestsHeader extends StatelessWidget {
+  const _ContactRequestsHeader({required this.count});
+
+  final int count;
+
+  @override
+  Widget build(BuildContext context) {
+    final ColorScheme scheme = Theme.of(context).colorScheme;
+    return Row(
+      children: <Widget>[
+        Icon(Icons.person_add_alt_1_rounded, size: 20, color: scheme.primary),
+        const SizedBox(width: AppSpacing.xs),
+        Text('Запросы в контакты', style: AppTextStyles.bodyBold()),
+        const Spacer(),
+        Text('$count', style: AppTextStyles.caption()),
+      ],
+    );
+  }
+}
+
+class _ContactRequestNotification extends StatelessWidget {
+  const _ContactRequestNotification({
+    required this.profile,
+    required this.onOpenProfile,
+    required this.onAccept,
+    required this.onDecline,
+  });
+
+  final Profile profile;
+  final VoidCallback onOpenProfile;
+  final VoidCallback onAccept;
+  final VoidCallback onDecline;
+
+  @override
+  Widget build(BuildContext context) {
+    return NeonCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          InkWell(
+            borderRadius: AppRadius.mdAll,
+            onTap: onOpenProfile,
+            child: Row(
+              children: <Widget>[
+                AuraAvatar(
+                  photoUrl: profile.photoUrl,
+                  size: 44,
+                  fallbackText: profile.name,
+                ),
+                const SizedBox(width: AppSpacing.md),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(profile.name, style: AppTextStyles.bodyBold()),
+                      const SizedBox(height: 4),
+                      Text(
+                        'Хочет добавить вас в контакты',
+                        style: AppTextStyles.caption(
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: NeonButton(
+                  label: 'Добавить',
+                  icon: Icons.person_add_alt_1_rounded,
+                  expanded: true,
+                  onPressed: onAccept,
+                ),
+              ),
+              const SizedBox(width: AppSpacing.sm),
+              Expanded(
+                child: NeonButton(
+                  label: 'Отклонить',
+                  icon: Icons.close_rounded,
+                  variant: NeonButtonVariant.outlined,
+                  expanded: true,
+                  onPressed: onDecline,
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }

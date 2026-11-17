@@ -52,6 +52,12 @@ class UserProfileScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final AsyncValue<Profile?> profile = ref.watch(userProfileProvider(userId));
     final bool inContacts = ref.watch(contactsProvider).contains(userId);
+    final bool hasIncoming = ref
+        .watch(incomingContactRequestIdsProvider)
+        .contains(userId);
+    final bool hasOutgoing = ref
+        .watch(outgoingContactRequestIdsProvider)
+        .contains(userId);
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -82,9 +88,10 @@ class UserProfileScreen extends ConsumerWidget {
               return _ProfileBody(
                 profile: value,
                 inContacts: inContacts,
+                hasIncoming: hasIncoming,
+                hasOutgoing: hasOutgoing,
                 onOpenChat: () => _openChat(context, ref),
-                onToggleContact: () =>
-                    _toggleContact(context, ref, value, inContacts),
+                onContactPressed: () => _handleContact(context, ref, value),
               );
             },
           ),
@@ -93,33 +100,38 @@ class UserProfileScreen extends ConsumerWidget {
     );
   }
 
-  Future<void> _toggleContact(
+  Future<void> _handleContact(
     BuildContext context,
     WidgetRef ref,
     Profile profile,
-    bool inContacts,
   ) async {
+    final bool inContacts = ref.read(contactsProvider).contains(profile.id);
+    final bool hasIncoming = ref
+        .read(incomingContactRequestIdsProvider)
+        .contains(profile.id);
+    final bool hasOutgoing = ref
+        .read(outgoingContactRequestIdsProvider)
+        .contains(profile.id);
+    final ContactsController controller = ref.read(contactsControllerProvider);
+    final String message;
     try {
-      final ContactsController controller = ref.read(
-        contactsControllerProvider,
-      );
       if (inContacts) {
         await controller.remove(profile.id);
+        message = '${profile.name} убран(а) из контактов';
+      } else if (hasIncoming) {
+        await controller.acceptRequest(profile.id);
+        message = 'Запрос принят — ${profile.name} в контактах';
+      } else if (hasOutgoing) {
+        await controller.cancelRequest(profile.id);
+        message = 'Запрос отменён';
       } else {
-        await controller.add(profile.id);
+        await controller.sendRequest(profile.id);
+        message = 'Запрос отправлен: ${profile.name}';
       }
       if (!context.mounted) return;
       ScaffoldMessenger.of(context)
         ..clearSnackBars()
-        ..showSnackBar(
-          SnackBar(
-            content: Text(
-              inContacts
-                  ? '${profile.name} убран(а) из контактов'
-                  : '${profile.name} добавлен(а) в контакты',
-            ),
-          ),
-        );
+        ..showSnackBar(SnackBar(content: Text(message)));
     } catch (_) {
       if (!context.mounted) return;
       ScaffoldMessenger.of(context)
@@ -137,14 +149,18 @@ class _ProfileBody extends StatelessWidget {
   const _ProfileBody({
     required this.profile,
     required this.inContacts,
+    required this.hasIncoming,
+    required this.hasOutgoing,
     required this.onOpenChat,
-    required this.onToggleContact,
+    required this.onContactPressed,
   });
 
   final Profile profile;
   final bool inContacts;
+  final bool hasIncoming;
+  final bool hasOutgoing;
   final VoidCallback onOpenChat;
-  final VoidCallback onToggleContact;
+  final VoidCallback onContactPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -152,6 +168,13 @@ class _ProfileBody extends StatelessWidget {
       ...profile.interestNames,
       ...profile.detailedInterests,
     ];
+    final (String, IconData) contactButton = inContacts
+        ? ('В контактах', Icons.check_circle_outline)
+        : hasIncoming
+        ? ('Принять запрос', Icons.person_add_alt_1_rounded)
+        : hasOutgoing
+        ? ('Запрос отправлен', Icons.hourglass_top_rounded)
+        : ('В контакты', Icons.person_add_alt_1_rounded);
 
     return ListView(
       padding: AppSpacing.page,
@@ -174,13 +197,11 @@ class _ProfileBody extends StatelessWidget {
             const SizedBox(width: AppSpacing.sm),
             Expanded(
               child: NeonButton(
-                label: inContacts ? 'В контактах' : 'В контакты',
-                icon: inContacts
-                    ? Icons.check_circle_outline
-                    : Icons.person_add_alt_1_rounded,
+                label: contactButton.$1,
+                icon: contactButton.$2,
                 variant: NeonButtonVariant.outlined,
                 expanded: true,
-                onPressed: onToggleContact,
+                onPressed: onContactPressed,
               ),
             ),
           ],

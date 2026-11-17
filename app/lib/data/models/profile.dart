@@ -41,6 +41,8 @@ abstract class Profile with _$Profile {
     @Default(<String>[]) List<String> detailedInterests,
     @Default(<String>[]) List<String> joinedPlanetIds,
     @Default(<String>[]) List<String> contactIds,
+    @Default(<String>[]) List<String> incomingContactRequestIds,
+    @Default(<String>[]) List<String> outgoingContactRequestIds,
   }) = _Profile;
 
   factory Profile.fromJson(Map<String, dynamic> json) =>
@@ -66,4 +68,12 @@ abstract class Profile with _$Profile {
       detailedInterests.isNotEmpty ||
       goals.isNotEmpty ||
       values.isNotEmpty;
+
+  /// Есть ли входящий запрос в контакты от пользователя [userId].
+  bool hasIncomingContactRequest(String userId) =>
+      incomingContactRequestIds.contains(userId);
+
+  /// Есть ли исходящий (отправленный) запрос в контакты к [userId].
+  bool hasOutgoingContactRequest(String userId) =>
+      outgoingContactRequestIds.contains(userId);
 }

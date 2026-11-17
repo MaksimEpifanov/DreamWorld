@@ -220,6 +220,128 @@ class FirestoreProfileRepository implements ProfileRepository {
     );
   }
 
+  @override
+  Future<void> sendContactRequest(String otherId) async {
+    if (otherId.isEmpty || otherId == currentUserId) return;
+    if (!_online) {
+      await _local.sendContactRequest(otherId);
+      return;
+    }
+    await _updateOwnProfile(
+      (Profile me) => me.copyWith(
+        outgoingContactRequestIds: _addId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _updateOtherList(
+      otherId,
+      'incomingContactRequestIds',
+      FieldValue.arrayUnion(<String>[currentUserId]),
+    );
+  }
+
+  @override
+  Future<void> acceptContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    if (!_online) {
+      await _local.acceptContactRequest(otherId);
+      return;
+    }
+    await _updateOwnProfile(
+      (Profile me) => me.copyWith(
+        contactIds: _addId(me.contactIds, otherId),
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+        outgoingContactRequestIds: _removeId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _updateOtherList(
+      otherId,
+      'contactIds',
+      FieldValue.arrayUnion(<String>[currentUserId]),
+    );
+    await _updateOtherList(
+      otherId,
+      'outgoingContactRequestIds',
+      FieldValue.arrayRemove(<String>[currentUserId]),
+    );
+    await _updateOtherList(
+      otherId,
+      'incomingContactRequestIds',
+      FieldValue.arrayRemove(<String>[currentUserId]),
+    );
+  }
+
+  @override
+  Future<void> declineContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    if (!_online) {
+      await _local.declineContactRequest(otherId);
+      return;
+    }
+    await _updateOwnProfile(
+      (Profile me) => me.copyWith(
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _updateOtherList(
+      otherId,
+      'outgoingContactRequestIds',
+      FieldValue.arrayRemove(<String>[currentUserId]),
+    );
+  }
+
+  @override
+  Future<void> cancelContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    if (!_online) {
+      await _local.cancelContactRequest(otherId);
+      return;
+    }
+    await _updateOwnProfile(
+      (Profile me) => me.copyWith(
+        outgoingContactRequestIds: _removeId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _updateOtherList(
+      otherId,
+      'incomingContactRequestIds',
+      FieldValue.arrayRemove(<String>[currentUserId]),
+    );
+  }
+
+  static List<String> _addId(List<String> ids, String id) =>
+      ids.contains(id) ? ids : <String>[...ids, id];
+
+  static List<String> _removeId(List<String> ids, String id) =>
+      ids.where((String value) => value != id).toList(growable: false);
+
+  /// Обновляет анкету текущего пользователя через [transform].
+  Future<void> _updateOwnProfile(Profile Function(Profile me) transform) async {
+    final Profile? me = await getCurrentProfile();
+    if (me == null) return;
+    final Profile next = transform(me);
+    if (next == me) return;
+    await saveProfile(next);
+  }
+
   /// Обновляет список контактов в анкете текущего пользователя.
   Future<void> _updateOwnContacts(
     List<String> Function(List<String> ids) transform,
@@ -233,20 +355,25 @@ class FirestoreProfileRepository implements ProfileRepository {
 
   /// Дописывает текущего пользователя в контакты другого пользователя.
   ///
-  /// Требует правила Firestore, разрешающего обновлять только `contactIds`
-  /// чужой анкеты. Если правило не обновлено или анкеты ещё нет, обратная
-  /// запись молча пропускается — контакт останется односторонним.
-  Future<void> _updateOtherContacts(
+  /// Требует правила Firestore, разрешающего обновлять поля-списки контактов
+  /// и запросов в чужой анкете. Если правило не обновлено или анкеты ещё нет,
+  /// обратная запись молча пропускается — контакт останется односторонним.
+  Future<void> _updateOtherContacts(String otherId, FieldValue update) =>
+      _updateOtherList(otherId, 'contactIds', update);
+
+  /// Обновляет одно поле-список в чужой анкете.
+  Future<void> _updateOtherList(
     String otherId,
+    String field,
     FieldValue update,
   ) async {
     try {
       await _db
           .collection(collectionName)
           .doc(otherId)
-          .update(<String, dynamic>{'contactIds': update});
+          .update(<String, dynamic>{field: update});
     } catch (error) {
-      debugPrint('Не удалось обновить контакты собеседника: $error');
+      debugPrint('Не удалось обновить «$field» собеседника: $error');
     }
   }
 

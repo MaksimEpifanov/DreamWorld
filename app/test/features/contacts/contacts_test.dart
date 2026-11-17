@@ -1,6 +1,9 @@
+import 'dart:convert';
+
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/data/models/index.dart';
 import 'package:dreem_world/data/providers/app_providers.dart';
+import 'package:dreem_world/data/repositories/profile_repository.dart';
 import 'package:dreem_world/data/services/user_code.dart';
 import 'package:dreem_world/features/contacts/contacts_controller.dart';
 import 'package:dreem_world/features/contacts/contacts_screen.dart';
@@ -54,6 +57,117 @@ void main() {
           .read(profileRepositoryProvider)
           .getProfileById('p_anna');
       expect(afterRemove?.contactIds, isNot(contains('me')));
+    });
+
+    test('запрос в контакты становится контактом только после принятия', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      await container.read(contactsControllerProvider).sendRequest('p_anna');
+
+      Profile? me = await container
+          .read(profileRepositoryProvider)
+          .getCurrentProfile();
+      Profile? other = await container
+          .read(profileRepositoryProvider)
+          .getProfileById('p_anna');
+      expect(me?.outgoingContactRequestIds, contains('p_anna'));
+      expect(me?.contactIds, isEmpty);
+      expect(other?.incomingContactRequestIds, contains('me'));
+      expect(other?.contactIds, isEmpty);
+
+      await container.read(contactsControllerProvider).acceptRequest('p_anna');
+
+      me = await container
+          .read(profileRepositoryProvider)
+          .getCurrentProfile();
+      other = await container
+          .read(profileRepositoryProvider)
+          .getProfileById('p_anna');
+      expect(me?.contactIds, contains('p_anna'));
+      expect(other?.contactIds, contains('me'));
+      expect(me?.outgoingContactRequestIds, isNot(contains('p_anna')));
+      expect(other?.incomingContactRequestIds, isNot(contains('me')));
+    });
+
+    test('получатель может отклонить запрос — контакт не создаётся', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      final ProfileRepository repository = container.read(
+        profileRepositoryProvider,
+      );
+      final Profile me = (await repository.getCurrentProfile())!.copyWith(
+        incomingContactRequestIds: <String>['p_anna'],
+      );
+      await repository.saveProfile(me);
+      final Profile anna = (await repository.getProfileById('p_anna'))!
+          .copyWith(outgoingContactRequestIds: <String>['me']);
+      await repository.saveProfile(anna);
+
+      await container.read(contactsControllerProvider).declineRequest('p_anna');
+
+      final Profile? after = await repository.getCurrentProfile();
+      final Profile? afterOther = await repository.getProfileById('p_anna');
+      expect(after?.incomingContactRequestIds, isEmpty);
+      expect(after?.contactIds, isEmpty);
+      expect(afterOther?.outgoingContactRequestIds, isEmpty);
+      expect(afterOther?.contactIds, isEmpty);
+    });
+
+    test('собственный запрос можно отменить', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      await container.read(contactsControllerProvider).sendRequest('p_anna');
+      await container.read(contactsControllerProvider).cancelRequest('p_anna');
+
+      final Profile? me = await container
+          .read(profileRepositoryProvider)
+          .getCurrentProfile();
+      final Profile? other = await container
+          .read(profileRepositoryProvider)
+          .getProfileById('p_anna');
+      expect(me?.outgoingContactRequestIds, isEmpty);
+      expect(other?.incomingContactRequestIds, isEmpty);
+    });
+
+    testWidgets('экран контактов показывает запрос и позволяет его принять', (
+      WidgetTester tester,
+    ) async {
+      SharedPreferences.setMockInitialValues(<String, Object>{
+        'saved_profile_me': jsonEncode(
+          const Profile(
+            id: 'me',
+            name: 'Ты',
+            age: 26,
+            city: 'Москва',
+            incomingContactRequestIds: <String>['p_anna'],
+          ).toJson(),
+        ),
+      });
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const ContactsScreen(),
+          ),
+        ),
+      );
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+
+      expect(find.text('Запросы в контакты'), findsOneWidget);
+      expect(find.text('Добавить'), findsOneWidget);
+      expect(find.text('Отклонить'), findsOneWidget);
+
+      await tester.tap(find.text('Добавить'));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+
+      expect(find.text('Запросы в контакты'), findsNothing);
+      expect(find.text('Мои контакты'), findsOneWidget);
     });
 
     testWidgets('экран контактов показывает свой ID и кнопку поиска', (

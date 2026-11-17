@@ -8,7 +8,9 @@ import 'package:go_router/go_router.dart';
 import '../../core/theme/index.dart';
 import '../../core/widgets/cosmic_background.dart';
 import '../../data/models/conversation.dart';
+import '../../data/models/profile.dart';
 import '../../data/providers/app_providers.dart';
+import '../contacts/contacts_controller.dart';
 
 /// Каркас основного интерфейса с нижней навигацией по разделам.
 ///
@@ -57,6 +59,36 @@ class AppShell extends ConsumerWidget {
       }
     });
 
+    // Показывает уведомление, когда собеседник отправляет запрос в контакты.
+    ref.listen<List<String>>(incomingContactRequestIdsProvider, (
+      List<String>? previous,
+      List<String> next,
+    ) {
+      if (previous == null) return;
+      final List<String> added = next
+          .where((String id) => !previous.contains(id))
+          .toList(growable: false);
+      if (added.isEmpty) return;
+      final List<Profile> live =
+          ref.read(discoveryProfilesProvider).valueOrNull ??
+          const <Profile>[];
+      String name = 'Пользователь';
+      for (final Profile profile in live) {
+        if (profile.id == added.first) {
+          name = profile.name;
+          break;
+        }
+      }
+      final ScaffoldMessengerState? messenger = ScaffoldMessenger.maybeOf(
+        context,
+      );
+      messenger
+        ?..clearSnackBars()
+        ..showSnackBar(
+          SnackBar(content: Text('$name хочет добавить вас в контакты')),
+        );
+    });
+
     return Scaffold(
       backgroundColor: const Color(0xFF050510),
       body: Stack(
@@ -103,6 +135,9 @@ class AppNavigationBar extends ConsumerWidget {
               (int sum, Conversation item) => sum + item.unreadCount,
             ) ??
         0;
+    final int contactRequestCount = ref
+        .watch(incomingContactRequestIdsProvider)
+        .length;
 
     final Widget bar = Container(
       decoration: BoxDecoration(
@@ -196,8 +231,14 @@ class AppNavigationBar extends ConsumerWidget {
               label: 'Чаты',
             ),
             NavigationDestination(
-              icon: const Icon(Icons.people_outline_rounded),
-              selectedIcon: _glowingIcon(Icons.people_rounded, scheme),
+              icon: _badge(
+                const Icon(Icons.people_outline_rounded),
+                contactRequestCount,
+              ),
+              selectedIcon: _badge(
+                _glowingIcon(Icons.people_rounded, scheme),
+                contactRequestCount,
+              ),
               label: 'Контакты',
             ),
           ],

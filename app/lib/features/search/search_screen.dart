@@ -221,10 +221,39 @@ class _SearchResultCard extends ConsumerWidget {
   final int index;
   final bool isSelf;
 
+  Future<void> _contactAction(
+    BuildContext context,
+    Future<void> Function() action,
+    String successMessage,
+  ) async {
+    try {
+      await action();
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(SnackBar(content: Text(successMessage)));
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось обновить контакты. Попробуйте ещё раз.'),
+          ),
+        );
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
     final bool inContacts = ref.watch(contactsProvider).contains(profile.id);
+    final bool hasIncoming = ref
+        .watch(incomingContactRequestIdsProvider)
+        .contains(profile.id);
+    final bool hasOutgoing = ref
+        .watch(outgoingContactRequestIdsProvider)
+        .contains(profile.id);
     final String? city = profile.city;
 
     Future<void> openChat() async {
@@ -299,41 +328,43 @@ class _SearchResultCard extends ConsumerWidget {
                         ),
                         onPressed: null,
                       )
+                    : hasIncoming
+                    ? IconButton(
+                        tooltip: 'Принять запрос',
+                        icon: Icon(
+                          Icons.person_add_alt_1_rounded,
+                          color: scheme.primary,
+                        ),
+                        onPressed: () => _contactAction(
+                          context,
+                          () => ref
+                              .read(contactsControllerProvider)
+                              .acceptRequest(profile.id),
+                          'Запрос принят — ${profile.name} в контактах',
+                        ),
+                      )
+                    : hasOutgoing
+                    ? IconButton(
+                        tooltip: 'Запрос отправлен',
+                        icon: Icon(
+                          Icons.hourglass_top_rounded,
+                          color: scheme.tertiary,
+                        ),
+                        onPressed: null,
+                      )
                     : IconButton(
                         tooltip: 'Добавить в контакты',
                         icon: Icon(
                           Icons.person_add_alt_1_rounded,
                           color: scheme.primary,
                         ),
-                        onPressed: () async {
-                          try {
-                            await ref
-                                .read(contactsControllerProvider)
-                                .add(profile.id);
-                            if (!context.mounted) return;
-                            ScaffoldMessenger.of(context)
-                              ..clearSnackBars()
-                              ..showSnackBar(
-                                SnackBar(
-                                  content: Text(
-                                    '${profile.name} добавлен(а) в контакты',
-                                  ),
-                                ),
-                              );
-                          } catch (_) {
-                            if (!context.mounted) return;
-                            ScaffoldMessenger.of(context)
-                              ..clearSnackBars()
-                              ..showSnackBar(
-                                const SnackBar(
-                                  content: Text(
-                                    'Не удалось добавить контакт. '
-                                    'Попробуйте ещё раз.',
-                                  ),
-                                ),
-                              );
-                          }
-                        },
+                        onPressed: () => _contactAction(
+                          context,
+                          () => ref
+                              .read(contactsControllerProvider)
+                              .sendRequest(profile.id),
+                          'Запрос отправлен: ${profile.name}',
+                        ),
                       ),
               ],
             ],

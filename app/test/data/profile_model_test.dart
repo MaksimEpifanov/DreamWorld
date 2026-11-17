@@ -43,6 +43,33 @@ void main() {
     });
   });
 
+  group('Profile: запросы в контакты', () {
+    test('по умолчанию списки запросов пусты', () {
+      const Profile stub = Profile(id: 'u1', name: 'Иван', age: 18);
+      expect(stub.incomingContactRequestIds, isEmpty);
+      expect(stub.outgoingContactRequestIds, isEmpty);
+      expect(stub.hasIncomingContactRequest('u2'), isFalse);
+      expect(stub.hasOutgoingContactRequest('u2'), isFalse);
+    });
+
+    test('JSON сохраняет и читает списки запросов', () {
+      const Profile profile = Profile(
+        id: 'u1',
+        name: 'Иван',
+        age: 20,
+        incomingContactRequestIds: <String>['u2'],
+        outgoingContactRequestIds: <String>['u3'],
+      );
+      final Profile restored = Profile.fromJson(
+        jsonDecode(jsonEncode(profile.toJson())) as Map<String, dynamic>,
+      );
+      expect(restored.incomingContactRequestIds, <String>['u2']);
+      expect(restored.outgoingContactRequestIds, <String>['u3']);
+      expect(restored.hasIncomingContactRequest('u2'), isTrue);
+      expect(restored.hasOutgoingContactRequest('u3'), isTrue);
+    });
+  });
+
   group('hasSavedProfileProvider', () {
     const AppUser user = AppUser(
       id: 'u1',

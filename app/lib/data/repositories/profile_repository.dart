@@ -31,6 +31,19 @@ abstract interface class ProfileRepository {
   /// Убирает пользователя из контактов взаимно: и у себя, и у него.
   Future<void> removeContactMutual(String otherId);
 
+  /// Отправляет запрос в контакты: у себя помечает как исходящий, а у
+  /// собеседника — как входящий, чтобы он мог принять или отклонить его.
+  Future<void> sendContactRequest(String otherId);
+
+  /// Принимает входящий запрос: добавляет контакт взаимно и убирает запрос.
+  Future<void> acceptContactRequest(String otherId);
+
+  /// Отклоняет входящий запрос: убирает его у себя и у отправителя.
+  Future<void> declineContactRequest(String otherId);
+
+  /// Отменяет собственный исходящий запрос.
+  Future<void> cancelContactRequest(String otherId);
+
   /// Поиск анкет по публичному ID пользователя (уже нормализованному).
   ///
   /// Возвращает пустой список, если никто не найден.

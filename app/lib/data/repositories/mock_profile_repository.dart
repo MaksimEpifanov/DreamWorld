@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/interest.dart';
@@ -263,44 +262,154 @@ class MockProfileRepository implements ProfileRepository {
   @override
   Future<void> addContactMutual(String otherId) async {
     if (otherId.isEmpty || otherId == currentUserId) return;
-    await _mutateContacts(
+    await _mutateProfile(
       currentUserId,
-      (List<String> ids) =>
-          ids.contains(otherId) ? ids : <String>[...ids, otherId],
+      (Profile me) => me.copyWith(contactIds: _addId(me.contactIds, otherId)),
     );
-    await _mutateContacts(
+    await _mutateProfile(
       otherId,
-      (List<String> ids) =>
-          ids.contains(currentUserId) ? ids : <String>[...ids, currentUserId],
+      (Profile other) =>
+          other.copyWith(contactIds: _addId(other.contactIds, currentUserId)),
     );
   }
 
   @override
   Future<void> removeContactMutual(String otherId) async {
     if (otherId.isEmpty) return;
-    await _mutateContacts(
+    await _mutateProfile(
       currentUserId,
-      (List<String> ids) =>
-          ids.where((String id) => id != otherId).toList(growable: false),
+      (Profile me) => me.copyWith(contactIds: _removeId(me.contactIds, otherId)),
     );
-    await _mutateContacts(
+    await _mutateProfile(
       otherId,
-      (List<String> ids) =>
-          ids.where((String id) => id != currentUserId).toList(growable: false),
+      (Profile other) => other.copyWith(
+        contactIds: _removeId(other.contactIds, currentUserId),
+      ),
     );
   }
 
-  /// Меняет список контактов профиля [userId], если он есть в памяти.
-  Future<void> _mutateContacts(
+  @override
+  Future<void> sendContactRequest(String otherId) async {
+    if (otherId.isEmpty || otherId == currentUserId) return;
+    await _mutateProfile(
+      currentUserId,
+      (Profile me) => me.copyWith(
+        outgoingContactRequestIds: _addId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _mutateProfile(
+      otherId,
+      (Profile other) => other.copyWith(
+        incomingContactRequestIds: _addId(
+          other.incomingContactRequestIds,
+          currentUserId,
+        ),
+      ),
+    );
+  }
+
+  @override
+  Future<void> acceptContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    await _mutateProfile(
+      currentUserId,
+      (Profile me) => me.copyWith(
+        contactIds: _addId(me.contactIds, otherId),
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+        outgoingContactRequestIds: _removeId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _mutateProfile(
+      otherId,
+      (Profile other) => other.copyWith(
+        contactIds: _addId(other.contactIds, currentUserId),
+        outgoingContactRequestIds: _removeId(
+          other.outgoingContactRequestIds,
+          currentUserId,
+        ),
+        incomingContactRequestIds: _removeId(
+          other.incomingContactRequestIds,
+          currentUserId,
+        ),
+      ),
+    );
+  }
+
+  @override
+  Future<void> declineContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    await _mutateProfile(
+      currentUserId,
+      (Profile me) => me.copyWith(
+        incomingContactRequestIds: _removeId(
+          me.incomingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _mutateProfile(
+      otherId,
+      (Profile other) => other.copyWith(
+        outgoingContactRequestIds: _removeId(
+          other.outgoingContactRequestIds,
+          currentUserId,
+        ),
+      ),
+    );
+  }
+
+  @override
+  Future<void> cancelContactRequest(String otherId) async {
+    if (otherId.isEmpty) return;
+    await _mutateProfile(
+      currentUserId,
+      (Profile me) => me.copyWith(
+        outgoingContactRequestIds: _removeId(
+          me.outgoingContactRequestIds,
+          otherId,
+        ),
+      ),
+    );
+    await _mutateProfile(
+      otherId,
+      (Profile other) => other.copyWith(
+        incomingContactRequestIds: _removeId(
+          other.incomingContactRequestIds,
+          currentUserId,
+        ),
+      ),
+    );
+  }
+
+  static List<String> _addId(List<String> ids, String id) =>
+      ids.contains(id) ? ids : <String>[...ids, id];
+
+  static List<String> _removeId(List<String> ids, String id) =>
+      ids.where((String value) => value != id).toList(growable: false);
+
+  /// Применяет [transform] к анкете [userId], если она есть в памяти.
+  Future<void> _mutateProfile(
     String userId,
-    List<String> Function(List<String> ids) transform,
+    Profile Function(Profile profile) transform,
   ) async {
     await _restoreFuture;
     final Profile? profile = _profiles[userId];
     if (profile == null) return;
-    final List<String> next = transform(profile.contactIds);
-    if (listEquals(next, profile.contactIds)) return;
-    final Profile updated = profile.copyWith(contactIds: next);
+    final Profile updated = transform(profile);
+    if (updated == profile) return;
     _profiles[userId] = updated;
     _catalogController.add(List<Profile>.unmodifiable(_profiles.values));
     if (userId == currentUserId) {

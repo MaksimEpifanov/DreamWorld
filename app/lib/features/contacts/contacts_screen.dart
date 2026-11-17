@@ -45,6 +45,58 @@ class ContactsScreen extends ConsumerWidget {
     }
   }
 
+  Future<void> _acceptRequest(
+    BuildContext context,
+    WidgetRef ref,
+    Profile profile,
+  ) async {
+    try {
+      await ref
+          .read(contactsControllerProvider)
+          .acceptRequest(profile.id);
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          SnackBar(content: Text('${profile.name} добавлен(а) в контакты')),
+        );
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось принять запрос. Попробуйте ещё раз.'),
+          ),
+        );
+    }
+  }
+
+  Future<void> _declineRequest(
+    BuildContext context,
+    WidgetRef ref,
+    Profile profile,
+  ) async {
+    try {
+      await ref
+          .read(contactsControllerProvider)
+          .declineRequest(profile.id);
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(const SnackBar(content: Text('Запрос отклонён')));
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось отклонить запрос. Попробуйте ещё раз.'),
+          ),
+        );
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ColorScheme scheme = Theme.of(context).colorScheme;
@@ -67,6 +119,11 @@ class ContactsScreen extends ConsumerWidget {
     // «Пока нет контактов», чтобы список не выглядел пустым.
     final bool isLoadingContacts =
         contacts.isEmpty && contactIds.isNotEmpty && discovery.isLoading;
+    final List<String> requestIds = ref.watch(incomingContactRequestIdsProvider);
+    final List<Profile> requests = <Profile>[
+      for (final String id in requestIds)
+        if (profiles[id] != null) profiles[id]!,
+    ];
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -146,6 +203,36 @@ class ContactsScreen extends ConsumerWidget {
                   ],
                 ),
               ).animate().fadeIn(duration: 360.ms).slideY(begin: 0.08),
+              if (requests.isNotEmpty) ...<Widget>[
+                const SizedBox(height: AppSpacing.lg),
+                Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.person_add_alt_1_rounded,
+                      size: 20,
+                      color: scheme.primary,
+                    ),
+                    const SizedBox(width: AppSpacing.xs),
+                    Text('Запросы в контакты', style: AppTextStyles.title()),
+                    const Spacer(),
+                    Text('${requests.length}', style: AppTextStyles.caption()),
+                  ],
+                ),
+                const SizedBox(height: AppSpacing.sm),
+                for (int i = 0; i < requests.length; i++)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                    child: _ContactRequestTile(
+                      profile: requests[i],
+                      index: i,
+                      onOpenProfile: () =>
+                          context.push('/user/${requests[i].id}'),
+                      onAccept: () => _acceptRequest(context, ref, requests[i]),
+                      onDecline: () =>
+                          _declineRequest(context, ref, requests[i]),
+                    ),
+                  ),
+              ],
               const SizedBox(height: AppSpacing.lg),
               Row(
                 children: <Widget>[
@@ -207,6 +294,88 @@ class _EmptyContacts extends StatelessWidget {
         ],
       ),
     );
+  }
+}
+
+class _ContactRequestTile extends StatelessWidget {
+  const _ContactRequestTile({
+    required this.profile,
+    required this.index,
+    required this.onOpenProfile,
+    required this.onAccept,
+    required this.onDecline,
+  });
+
+  final Profile profile;
+  final int index;
+  final VoidCallback onOpenProfile;
+  final VoidCallback onAccept;
+  final VoidCallback onDecline;
+
+  @override
+  Widget build(BuildContext context) {
+    return GlassCard(
+          padding: const EdgeInsets.all(AppSpacing.sm),
+          child: Column(
+            children: <Widget>[
+              InkWell(
+                borderRadius: AppRadius.mdAll,
+                onTap: onOpenProfile,
+                child: Row(
+                  children: <Widget>[
+                    AuraAvatar(
+                      photoUrl: profile.photoUrl,
+                      size: 48,
+                      fallbackText: profile.name,
+                    ),
+                    const SizedBox(width: AppSpacing.md),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Text(profile.name, style: AppTextStyles.bodyBold()),
+                          const SizedBox(height: AppSpacing.xxs),
+                          Text(
+                            'Хочет добавить вас в контакты',
+                            style: AppTextStyles.caption(),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: AppSpacing.sm),
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    child: NeonButton(
+                      label: 'Добавить',
+                      icon: Icons.person_add_alt_1_rounded,
+                      expanded: true,
+                      onPressed: onAccept,
+                    ),
+                  ),
+                  const SizedBox(width: AppSpacing.sm),
+                  Expanded(
+                    child: NeonButton(
+                      label: 'Отклонить',
+                      icon: Icons.close_rounded,
+                      variant: NeonButtonVariant.outlined,
+                      expanded: true,
+                      onPressed: onDecline,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        )
+        .animate(delay: (index * 50).ms)
+        .fadeIn(duration: 300.ms)
+        .slideY(begin: 0.08, end: 0, curve: Curves.easeOutCubic);
   }
 }
 
