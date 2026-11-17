@@ -109,30 +109,32 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         return '/login';
       }
 
-      // Авторизован: со вход/регистрации — на главную.
+      // Авторизован: со вход/регистрации — сначала проверяем анкету.
       if (location == '/verify-email') {
         // Пользователь вошёл без подтверждения — экран ему ещё доступен.
-        return auth.pendingEmailVerification ? null : '/main';
+        return auth.pendingEmailVerification ? null : '/splash';
       }
-      if (isLogin) return '/main';
+      if (isLogin) return '/splash';
 
-      // Авторизован: со сплэша — на главную (или к анкете, если профиля нет).
+      // Авторизован: со сплэша — на главную (или к анкете, если её нет).
       if (location == '/splash') {
         final AsyncValue<bool> saved = ref.read(hasSavedProfileProvider);
-        if (!saved.hasValue) {
-          // Профиль ещё восстанавливается — держимся на сплэше.
+        if (!saved.hasValue || saved.isLoading) {
+          // Анкета ещё восстанавливается — держимся на сплэше.
           return '/splash';
         }
         return saved.value! ? '/main' : '/profile-setup';
       }
 
       // Анкета уже есть — уводим с экрана создания на главную. Нужно из-за
-      // гонки холодной загрузки: при первом переходе профиль ещё мог не
+      // гонки холодной загрузки: при первом переходе анкета ещё могла не
       // определиться, а без этого правила пользователь навсегда оставался
       // на полноэкранном /profile-setup без нижней навигации.
       if (location == '/profile-setup') {
         final AsyncValue<bool> saved = ref.read(hasSavedProfileProvider);
-        if (saved.hasValue && saved.value == true) return '/main';
+        if (!saved.isLoading && saved.hasValue && saved.value == true) {
+          return '/main';
+        }
         return null;
       }
 

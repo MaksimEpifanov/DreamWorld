@@ -125,48 +125,50 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
     final profileRepo = ref.read(profileRepositoryProvider);
     final currentUserId = ref.read(currentUserIdProvider);
     final GoRouter router = GoRouter.of(context);
+    final Profile? existing = await profileRepo.getCurrentProfile();
 
-    final Profile updatedProfile = Profile(
-      id: currentUserId,
-      name: _nameController.text.trim(),
-      age: int.tryParse(_ageController.text.trim()) ?? 18,
-      city: _cityController.text.trim(),
-      country: 'Россия',
-      bio: _bioController.text.trim(),
-      photoUrl: _photoDataUri,
-      interests: _selectedInterests.map((s) {
-        switch (s) {
-          case 'Путешествия':
-            return InterestCatalog.travel;
-          case 'Музыка':
-            return InterestCatalog.music;
-          case 'Спорт':
-            return InterestCatalog.sport;
-          case 'Чтение':
-            return InterestCatalog.books;
-          case 'Фильмы':
-            return InterestCatalog.cinema;
-          case 'Искусство':
-            return InterestCatalog.art;
-          case 'Технологии':
-            return InterestCatalog.tech;
-          case 'Еда':
-            return InterestCatalog.food;
-          case 'Природа':
-            return InterestCatalog.nature;
-          case 'Игры':
-            return InterestCatalog.games;
-          default:
-            return Interest(id: s, name: s, category: InterestCategory.other);
-        }
-      }).toList(),
-      goals: _selectedGoals.toList(),
-      values: _selectedValues.toList(),
-      languages: const <String>['ru'],
-      relationshipGoal: _relationshipGoal,
-      detailedInterests: _selectedDetailedInterests.toList(),
-      joinedPlanetIds: _joinedPlanetIds,
-    );
+    final Profile updatedProfile =
+        (existing ?? Profile(id: currentUserId, name: '', age: 18)).copyWith(
+          id: currentUserId,
+          name: _nameController.text.trim(),
+          age: int.tryParse(_ageController.text.trim()) ?? 18,
+          city: _cityController.text.trim(),
+          country: 'Россия',
+          bio: _bioController.text.trim(),
+          photoUrl: _photoDataUri,
+          interests: _selectedInterests.map((s) {
+            switch (s) {
+              case 'Путешествия':
+                return InterestCatalog.travel;
+              case 'Музыка':
+                return InterestCatalog.music;
+              case 'Спорт':
+                return InterestCatalog.sport;
+              case 'Чтение':
+                return InterestCatalog.books;
+              case 'Фильмы':
+                return InterestCatalog.cinema;
+              case 'Искусство':
+                return InterestCatalog.art;
+              case 'Технологии':
+                return InterestCatalog.tech;
+              case 'Еда':
+                return InterestCatalog.food;
+              case 'Природа':
+                return InterestCatalog.nature;
+              case 'Игры':
+                return InterestCatalog.games;
+              default:
+                return Interest(id: s, name: s, category: InterestCategory.other);
+            }
+          }).toList(),
+          goals: _selectedGoals.toList(),
+          values: _selectedValues.toList(),
+          languages: const <String>['ru'],
+          relationshipGoal: _relationshipGoal,
+          detailedInterests: _selectedDetailedInterests.toList(),
+          joinedPlanetIds: _joinedPlanetIds,
+        );
 
     try {
       await profileRepo.saveProfile(updatedProfile);

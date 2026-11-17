@@ -1,9 +1,6 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../data/models/profile.dart';
 import '../../data/providers/app_providers.dart';
-import '../../data/repositories/profile_repository.dart';
 
 /// Идентификаторы контактов текущего пользователя.
 ///
@@ -25,29 +22,13 @@ class ContactsController {
 
   final Ref _ref;
 
-  /// Добавляет участника в контакты, если его там ещё нет.
+  /// Добавляет участника в контакты взаимно (себе и ему).
   Future<void> add(String profileId) {
     if (profileId.isEmpty) return Future<void>.value();
-    return _update(
-      (List<String> ids) =>
-          ids.contains(profileId) ? ids : <String>[...ids, profileId],
-    );
+    return _ref.read(profileRepositoryProvider).addContactMutual(profileId);
   }
 
-  /// Удаляет участника из контактов.
-  Future<void> remove(String profileId) => _update(
-    (List<String> ids) =>
-        ids.where((String id) => id != profileId).toList(growable: false),
-  );
-
-  Future<void> _update(
-    List<String> Function(List<String> ids) transform,
-  ) async {
-    final ProfileRepository repository = _ref.read(profileRepositoryProvider);
-    final Profile? profile = await repository.getCurrentProfile();
-    if (profile == null) return;
-    final List<String> next = transform(profile.contactIds);
-    if (listEquals(next, profile.contactIds)) return;
-    await repository.saveProfile(profile.copyWith(contactIds: next));
-  }
+  /// Убирает участника из контактов взаимно (у себя и у него).
+  Future<void> remove(String profileId) =>
+      _ref.read(profileRepositoryProvider).removeContactMutual(profileId);
 }

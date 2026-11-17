@@ -23,6 +23,14 @@ abstract interface class ProfileRepository {
   /// Создание или обновление профиля.
   Future<void> saveProfile(Profile profile);
 
+  /// Добавляет пользователя в контакты взаимно: и себе, и ему.
+  ///
+  /// Нужно, чтобы после добавления контакт появлялся у обоих пользователей.
+  Future<void> addContactMutual(String otherId);
+
+  /// Убирает пользователя из контактов взаимно: и у себя, и у него.
+  Future<void> removeContactMutual(String otherId);
+
   /// Поиск анкет по публичному ID пользователя (уже нормализованному).
   ///
   /// Возвращает пустой список, если никто не найден.

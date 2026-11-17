@@ -118,7 +118,7 @@ class _VerifyEmailScreenState extends ConsumerState<VerifyEmailScreen> {
       await ref
           .read(authControllerProvider.notifier)
           .continueWithoutVerification();
-      if (mounted) context.go('/main');
+      if (mounted) context.go('/splash');
     } on AuthException catch (error) {
       if (mounted) setState(() => _error = error.message);
     }

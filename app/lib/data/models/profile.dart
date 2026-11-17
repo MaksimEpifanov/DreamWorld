@@ -52,4 +52,18 @@ abstract class Profile with _$Profile {
   List<String> get interestNames => interests
       .map((Interest interest) => interest.name)
       .toList(growable: false);
+
+  /// Заполнена ли анкета содержательными данными.
+  ///
+  /// Техническая заготовка (создаётся автоматически при первом входе) содержит
+  /// только имя и возраст, поэтому её нельзя считать заполненной анкетой: иначе
+  /// пользователь не увидит экран создания анкеты и его интересы с описанием
+  /// нигде не сохранятся.
+  bool get hasSetupContent =>
+      (city ?? '').trim().isNotEmpty ||
+      (bio ?? '').trim().isNotEmpty ||
+      interests.isNotEmpty ||
+      detailedInterests.isNotEmpty ||
+      goals.isNotEmpty ||
+      values.isNotEmpty;
 }

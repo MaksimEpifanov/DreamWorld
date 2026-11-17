@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/interest.dart';
@@ -256,6 +257,57 @@ class MockProfileRepository implements ProfileRepository {
       _currentController.add(profile);
       realtime?.emit(RealtimeEvent.profileUpdated(profile: profile));
       await _persistCurrentProfile(profile);
+    }
+  }
+
+  @override
+  Future<void> addContactMutual(String otherId) async {
+    if (otherId.isEmpty || otherId == currentUserId) return;
+    await _mutateContacts(
+      currentUserId,
+      (List<String> ids) =>
+          ids.contains(otherId) ? ids : <String>[...ids, otherId],
+    );
+    await _mutateContacts(
+      otherId,
+      (List<String> ids) =>
+          ids.contains(currentUserId) ? ids : <String>[...ids, currentUserId],
+    );
+  }
+
+  @override
+  Future<void> removeContactMutual(String otherId) async {
+    if (otherId.isEmpty) return;
+    await _mutateContacts(
+      currentUserId,
+      (List<String> ids) =>
+          ids.where((String id) => id != otherId).toList(growable: false),
+    );
+    await _mutateContacts(
+      otherId,
+      (List<String> ids) =>
+          ids.where((String id) => id != currentUserId).toList(growable: false),
+    );
+  }
+
+  /// Меняет список контактов профиля [userId], если он есть в памяти.
+  Future<void> _mutateContacts(
+    String userId,
+    List<String> Function(List<String> ids) transform,
+  ) async {
+    await _restoreFuture;
+    final Profile? profile = _profiles[userId];
+    if (profile == null) return;
+    final List<String> next = transform(profile.contactIds);
+    if (listEquals(next, profile.contactIds)) return;
+    final Profile updated = profile.copyWith(contactIds: next);
+    _profiles[userId] = updated;
+    _catalogController.add(List<Profile>.unmodifiable(_profiles.values));
+    if (userId == currentUserId) {
+      _hasSavedProfile = true;
+      _currentController.add(updated);
+      realtime?.emit(RealtimeEvent.profileUpdated(profile: updated));
+      await _persistCurrentProfile(updated);
     }
   }
 

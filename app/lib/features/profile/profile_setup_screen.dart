@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../core/constants/planet_interest_details.dart';
 import '../../core/theme/index.dart';
@@ -72,12 +73,64 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
   bool _isSaving = false;
 
   @override
+  void initState() {
+    super.initState();
+    _loadExisting();
+  }
+
+  /// Подставляет данные уже существующей анкеты (например, имя из аккаунта),
+  /// чтобы пользователю не пришлось вводить всё заново.
+  Future<void> _loadExisting() async {
+    final Profile? profile = await ref
+        .read(profileRepositoryProvider)
+        .getCurrentProfile();
+    if (!mounted || profile == null) return;
+    setState(() {
+      if (profile.name.trim().isNotEmpty && _nameController.text.isEmpty) {
+        _nameController.text = profile.name;
+      }
+      if (profile.age > 0 && _ageController.text.isEmpty) {
+        _ageController.text = profile.age.toString();
+      }
+      if ((profile.city ?? '').isNotEmpty && _cityController.text.isEmpty) {
+        _cityController.text = profile.city!;
+      }
+      if ((profile.bio ?? '').isNotEmpty && _bioController.text.isEmpty) {
+        _bioController.text = profile.bio!;
+      }
+      _photoDataUri ??= profile.photoUrl;
+      _relationshipGoal = profile.relationshipGoal;
+      _selectedGoals.addAll(profile.goals);
+      _selectedValues.addAll(profile.values);
+      for (final Interest interest in profile.interests) {
+        if (interest.name.isNotEmpty) {
+          _selectedInterests.add(interest.name);
+        }
+      }
+      _selectedDetailedInterests.addAll(profile.detailedInterests);
+    });
+  }
+
+  @override
   void dispose() {
     _nameController.dispose();
     _ageController.dispose();
     _cityController.dispose();
     _bioController.dispose();
     super.dispose();
+  }
+
+  /// Отказ от заполнения анкеты: запоминаем локально, чтобы не спрашивать снова.
+  Future<void> _skip() async {
+    final String uid = ref.read(currentUserIdProvider);
+    try {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      await prefs.setBool(profileSetupDismissedKey(uid), true);
+    } catch (_) {
+      // Локальное хранилище недоступно — просто продолжаем.
+    }
+    ref.invalidate(hasSavedProfileProvider);
+    if (mounted) context.go('/main');
   }
 
   Future<void> _save() async {
@@ -88,51 +141,53 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
 
     final profileRepo = ref.read(profileRepositoryProvider);
     final currentUserId = ref.read(currentUserIdProvider);
+    final Profile? existing = await profileRepo.getCurrentProfile();
 
-    final Profile newProfile = Profile(
-      id: currentUserId,
-      name: _nameController.text.trim(),
-      age: int.tryParse(_ageController.text.trim()) ?? 18,
-      city: _cityController.text.trim(),
-      country: 'Россия',
-      bio: _bioController.text.trim(),
-      photoUrl: _photoDataUri,
-      interests: _selectedInterests.map((s) {
-        switch (s) {
-          case 'Путешествия':
-            return InterestCatalog.travel;
-          case 'Музыка':
-            return InterestCatalog.music;
-          case 'Спорт':
-            return InterestCatalog.sport;
-          case 'Чтение':
-            return InterestCatalog.books;
-          case 'Фильмы':
-            return InterestCatalog.cinema;
-          case 'Искусство':
-            return InterestCatalog.art;
-          case 'Технологии':
-            return InterestCatalog.tech;
-          case 'Еда':
-            return InterestCatalog.food;
-          case 'Природа':
-            return InterestCatalog.nature;
-          case 'Игры':
-            return InterestCatalog.games;
-          default:
-            return Interest(
-              id: s.replaceAll(RegExp(r'\s+'), '_').toLowerCase(),
-              name: s,
-              category: InterestCategory.other,
-            );
-        }
-      }).toList(),
-      goals: _selectedGoals.toList(),
-      values: _selectedValues.toList(),
-      languages: const <String>['ru'],
-      relationshipGoal: _relationshipGoal,
-      detailedInterests: _selectedDetailedInterests.toList(),
-    );
+    final Profile newProfile =
+        (existing ?? Profile(id: currentUserId, name: '', age: 18)).copyWith(
+          id: currentUserId,
+          name: _nameController.text.trim(),
+          age: int.tryParse(_ageController.text.trim()) ?? 18,
+          city: _cityController.text.trim(),
+          country: 'Россия',
+          bio: _bioController.text.trim(),
+          photoUrl: _photoDataUri,
+          interests: _selectedInterests.map((s) {
+            switch (s) {
+              case 'Путешествия':
+                return InterestCatalog.travel;
+              case 'Музыка':
+                return InterestCatalog.music;
+              case 'Спорт':
+                return InterestCatalog.sport;
+              case 'Чтение':
+                return InterestCatalog.books;
+              case 'Фильмы':
+                return InterestCatalog.cinema;
+              case 'Искусство':
+                return InterestCatalog.art;
+              case 'Технологии':
+                return InterestCatalog.tech;
+              case 'Еда':
+                return InterestCatalog.food;
+              case 'Природа':
+                return InterestCatalog.nature;
+              case 'Игры':
+                return InterestCatalog.games;
+              default:
+                return Interest(
+                  id: s.replaceAll(RegExp(r'\s+'), '_').toLowerCase(),
+                  name: s,
+                  category: InterestCategory.other,
+                );
+            }
+          }).toList(),
+          goals: _selectedGoals.toList(),
+          values: _selectedValues.toList(),
+          languages: const <String>['ru'],
+          relationshipGoal: _relationshipGoal,
+          detailedInterests: _selectedDetailedInterests.toList(),
+        );
 
     try {
       await profileRepo.saveProfile(newProfile);
@@ -151,6 +206,13 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
       return;
     }
 
+    try {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      await prefs.remove(profileSetupDismissedKey(currentUserId));
+    } catch (_) {
+      // Локальное хранилище недоступно — не критично.
+    }
+
     ref.invalidate(hasSavedProfileProvider);
     if (mounted) {
       context.go('/main');
@@ -164,7 +226,7 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
         title: const Text('Создание профиля'),
         actions: <Widget>[
           TextButton(
-            onPressed: _isSaving ? null : () => context.go('/main'),
+            onPressed: _isSaving ? null : _skip,
             child: const Text('Пропустить'),
           ),
         ],

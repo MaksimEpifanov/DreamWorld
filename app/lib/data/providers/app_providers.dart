@@ -1,4 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/conversation.dart';
 import '../models/match.dart';
@@ -111,18 +112,43 @@ final StreamProvider<Profile?> currentProfileProvider =
       (Ref ref) => ref.watch(profileRepositoryProvider).watchCurrentProfile(),
     );
 
-/// Есть ли сохранённый профиль текущего пользователя (для редиректа после
-/// восстановления сессии). Никогда не бросает — вернёт `false` при сбое.
+/// Ключ `shared_preferences` с отметкой «анкету пропустили».
+///
+/// Нужен, чтобы не показывать экран создания анкеты повторно тем, кто нажал
+/// «Пропустить».
+String profileSetupDismissedKey(String userId) =>
+    'profile_setup_dismissed_$userId';
+
+/// Заполнена ли анкета текущего пользователя (для редиректа после входа).
+///
+/// Возвращает `true`, если анкета содержит данные (или пользователь от неё
+/// отказался), и `false`, если анкеты ещё нет. Техническая заготовка без
+/// интересов и описания считается незаполненной — иначе пользователь не попадёт
+/// на экран создания анкеты. Никогда не бросает — при сбое не блокирует вход.
 final FutureProvider<bool> hasSavedProfileProvider = FutureProvider<bool>((
   Ref ref,
 ) async {
+  final String uid = ref.watch(currentUserIdProvider);
+  final bool isRealUser =
+      uid.isNotEmpty && uid != MockProfileRepository.defaultCurrentUserId;
+  if (isRealUser) {
+    try {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      if (prefs.getBool(profileSetupDismissedKey(uid)) == true) return true;
+    } catch (_) {
+      // Локальное хранилище недоступно — продолжаем по анкете.
+    }
+  }
   try {
-    return await ref
+    final Profile? profile = await ref
         .watch(profileRepositoryProvider)
-        .hasSavedProfileAsync()
-        .timeout(const Duration(seconds: 8), onTimeout: () => false);
+        .getCurrentProfile()
+        .timeout(const Duration(seconds: 8), onTimeout: () => null);
+    if (profile == null) return false;
+    if (!isRealUser) return true;
+    return profile.hasSetupContent;
   } catch (_) {
-    return false;
+    return !isRealUser;
   }
 });
 

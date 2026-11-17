@@ -187,6 +187,70 @@ class FirestoreProfileRepository implements ProfileRepository {
   }
 
   @override
+  Future<void> addContactMutual(String otherId) async {
+    if (otherId.isEmpty || otherId == currentUserId) return;
+    if (!_online) {
+      await _local.addContactMutual(otherId);
+      return;
+    }
+    await _updateOwnContacts(
+      (List<String> ids) =>
+          ids.contains(otherId) ? ids : <String>[...ids, otherId],
+    );
+    await _updateOtherContacts(
+      otherId,
+      FieldValue.arrayUnion(<String>[currentUserId]),
+    );
+  }
+
+  @override
+  Future<void> removeContactMutual(String otherId) async {
+    if (otherId.isEmpty) return;
+    if (!_online) {
+      await _local.removeContactMutual(otherId);
+      return;
+    }
+    await _updateOwnContacts(
+      (List<String> ids) =>
+          ids.where((String id) => id != otherId).toList(growable: false),
+    );
+    await _updateOtherContacts(
+      otherId,
+      FieldValue.arrayRemove(<String>[currentUserId]),
+    );
+  }
+
+  /// Обновляет список контактов в анкете текущего пользователя.
+  Future<void> _updateOwnContacts(
+    List<String> Function(List<String> ids) transform,
+  ) async {
+    final Profile? me = await getCurrentProfile();
+    if (me == null) return;
+    final List<String> next = transform(me.contactIds);
+    if (listEquals(next, me.contactIds)) return;
+    await saveProfile(me.copyWith(contactIds: next));
+  }
+
+  /// Дописывает текущего пользователя в контакты другого пользователя.
+  ///
+  /// Требует правила Firestore, разрешающего обновлять только `contactIds`
+  /// чужой анкеты. Если правило не обновлено или анкеты ещё нет, обратная
+  /// запись молча пропускается — контакт останется односторонним.
+  Future<void> _updateOtherContacts(
+    String otherId,
+    FieldValue update,
+  ) async {
+    try {
+      await _db
+          .collection(collectionName)
+          .doc(otherId)
+          .update(<String, dynamic>{'contactIds': update});
+    } catch (error) {
+      debugPrint('Не удалось обновить контакты собеседника: $error');
+    }
+  }
+
+  @override
   Future<List<Profile>> findByUserCode(String normalizedCode) async {
     if (normalizedCode.isEmpty) return const <Profile>[];
     final Map<String, Profile> found = <String, Profile>{};

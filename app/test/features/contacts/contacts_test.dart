@@ -37,6 +37,25 @@ void main() {
       expect(me?.contactIds, <String>['p_leo']);
     });
 
+    test('контакт становится взаимным у обоих пользователей', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      await container.read(contactsControllerProvider).add('p_anna');
+
+      final Profile? other = await container
+          .read(profileRepositoryProvider)
+          .getProfileById('p_anna');
+      expect(other?.contactIds, contains('me'));
+
+      await container.read(contactsControllerProvider).remove('p_anna');
+
+      final Profile? afterRemove = await container
+          .read(profileRepositoryProvider)
+          .getProfileById('p_anna');
+      expect(afterRemove?.contactIds, isNot(contains('me')));
+    });
+
     testWidgets('экран контактов показывает свой ID и кнопку поиска', (
       WidgetTester tester,
     ) async {
