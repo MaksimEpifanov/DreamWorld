@@ -11,6 +11,7 @@ class NeonAppBar extends StatelessWidget implements PreferredSizeWidget {
   const NeonAppBar({
     super.key,
     required this.title,
+    this.titleWidget,
     this.actions,
     this.leading,
     this.showGlowLine = true,
@@ -18,6 +19,11 @@ class NeonAppBar extends StatelessWidget implements PreferredSizeWidget {
   });
 
   final String title;
+
+  /// Заголовок в виде виджета. Если задан, используется вместо [title]
+  /// (например, кликабельное имя собеседника в чате).
+  final Widget? titleWidget;
+
   final List<Widget>? actions;
   final Widget? leading;
   final bool showGlowLine;
@@ -31,7 +37,7 @@ class NeonAppBar extends StatelessWidget implements PreferredSizeWidget {
     final Color primary = Theme.of(context).colorScheme.primary;
 
     final Widget bar = AppBar(
-      title: Text(title, style: AppTextStyles.headline()),
+      title: titleWidget ?? Text(title, style: AppTextStyles.headline()),
       actions: actions,
       leading: leading,
       // На web размытие фона на части устройств даёт серый прямоугольник,

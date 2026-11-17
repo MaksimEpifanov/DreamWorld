@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/features/chat/chat_screen.dart';
@@ -59,6 +61,50 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Видеозвонки закрыты'), findsOneWidget);
+  });
+
+  testWidgets('ChatScreen открывает профиль собеседника по нажатию на имя', (
+    WidgetTester tester,
+  ) async {
+    tester.view.physicalSize = const Size(1200, 2400);
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    SharedPreferences.setMockInitialValues(<String, Object>{});
+
+    final GoRouter router = GoRouter(
+      initialLocation: '/chat/c_anna',
+      routes: <RouteBase>[
+        GoRoute(
+          path: '/chat/:id',
+          builder: (BuildContext context, GoRouterState state) =>
+              ChatScreen(conversationId: state.pathParameters['id']!),
+        ),
+        GoRoute(
+          path: '/user/:id',
+          builder: (BuildContext context, GoRouterState state) => Scaffold(
+            body: Text('Профиль ${state.pathParameters['id']}'),
+          ),
+        ),
+      ],
+    );
+    addTearDown(router.dispose);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        child: MaterialApp.router(
+          theme: AppTheme.of(AppThemeName.neonViolet),
+          routerConfig: router,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.byTooltip('Открыть профиль'), findsOneWidget);
+    await tester.tap(find.byTooltip('Открыть профиль'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Профиль p_anna'), findsOneWidget);
   });
 
   testWidgets('список чатов показывает три подвкладки', (

@@ -169,6 +169,7 @@ void main() {
 
       expect(find.byTooltip('Уведомления'), findsOneWidget);
       expect(find.byTooltip('Настройки'), findsOneWidget);
+      expect(find.byTooltip('Поиск по ID'), findsOneWidget);
     });
   });
 

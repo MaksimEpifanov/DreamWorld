@@ -223,6 +223,12 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     }
   }
 
+  void _openOtherProfile() {
+    final String? id = _otherUserId;
+    if (id == null) return;
+    context.push('/user/$id');
+  }
+
   Future<String> _getOtherUserId() async {
     final Conversation? conversation = await ref
         .read(chatRepositoryProvider)
@@ -305,6 +311,40 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     return Scaffold(
       appBar: NeonAppBar(
         title: _otherName,
+        titleWidget: _otherUserId == null
+            ? null
+            : Tooltip(
+                message: 'Открыть профиль',
+                child: InkWell(
+                  borderRadius: AppRadius.pillAll,
+                  onTap: _openOtherProfile,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: AppSpacing.xs,
+                      vertical: AppSpacing.xxs,
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        Flexible(
+                          child: Text(
+                            _otherName,
+                            style: AppTextStyles.headline(),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                        const SizedBox(width: AppSpacing.xxs),
+                        Icon(
+                          Icons.chevron_right_rounded,
+                          size: 22,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_rounded),
           onPressed: () => context.pop(),

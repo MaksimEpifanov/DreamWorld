@@ -207,6 +207,50 @@ class _GalaxyHeader extends ConsumerWidget {
             fontSize: narrow ? 18 : 25,
             fontWeight: FontWeight.w800,
           );
+          final Widget wordmark = Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Stack(
+                clipBehavior: Clip.none,
+                children: <Widget>[
+                  Text(
+                    'DreamWorld',
+                    style: wordmarkStyle.copyWith(
+                      foreground: Paint()
+                        ..style = PaintingStyle.stroke
+                        ..strokeWidth = 1.1
+                        ..color = const Color(0xFF78E9FF),
+                      shadows: const <Shadow>[
+                        Shadow(color: Color(0xFF20CFFF), blurRadius: 8),
+                        Shadow(color: Color(0xFF765BFF), blurRadius: 18),
+                      ],
+                    ),
+                  ),
+                  NeonGradientText(
+                    'DreamWorld',
+                    gradient: const LinearGradient(
+                      colors: <Color>[
+                        Color(0xFFFFFFFF),
+                        Color(0xFFD8F7FF),
+                        Color(0xFF93DFFF),
+                      ],
+                    ),
+                    style: wordmarkStyle,
+                    glowColor: const Color(0xFF35C9FF),
+                    glowRadius: 13,
+                  ),
+                ],
+              ),
+              if (!narrow)
+                Text(
+                  'Галактика возможностей',
+                  style: AppTextStyles.caption(
+                    color: AppColors.textSecondary,
+                  ),
+                ),
+            ],
+          );
           return Row(
             children: <Widget>[
               Container(
@@ -239,52 +283,18 @@ class _GalaxyHeader extends ConsumerWidget {
                 ),
               ),
               SizedBox(width: narrow ? 7 : 10),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Stack(
-                    clipBehavior: Clip.none,
-                    children: <Widget>[
-                      Text(
-                        'DreamWorld',
-                        style: wordmarkStyle.copyWith(
-                          foreground: Paint()
-                            ..style = PaintingStyle.stroke
-                            ..strokeWidth = 1.1
-                            ..color = const Color(0xFF78E9FF),
-                          shadows: const <Shadow>[
-                            Shadow(color: Color(0xFF20CFFF), blurRadius: 8),
-                            Shadow(color: Color(0xFF765BFF), blurRadius: 18),
-                          ],
-                        ),
-                      ),
-                      NeonGradientText(
-                        'DreamWorld',
-                        gradient: const LinearGradient(
-                          colors: <Color>[
-                            Color(0xFFFFFFFF),
-                            Color(0xFFD8F7FF),
-                            Color(0xFF93DFFF),
-                          ],
-                        ),
-                        style: wordmarkStyle,
-                        glowColor: const Color(0xFF35C9FF),
-                        glowRadius: 13,
-                      ),
-                    ],
+              // На телефоне логотип ужимается, чтобы поместилась кнопка поиска.
+              if (compact)
+                Expanded(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
+                    child: wordmark,
                   ),
-                  if (!narrow)
-                    Text(
-                      'Галактика возможностей',
-                      style: AppTextStyles.caption(
-                        color: AppColors.textSecondary,
-                      ),
-                    ),
-                ],
-              ),
-              const Spacer(),
-              if (!compact)
+                )
+              else ...<Widget>[
+                wordmark,
+                const Spacer(),
                 Flexible(
                   child: ConstrainedBox(
                     constraints: const BoxConstraints(maxWidth: 410),
@@ -332,15 +342,15 @@ class _GalaxyHeader extends ConsumerWidget {
                     ),
                   ),
                 ),
-              if (compact && !narrow) ...<Widget>[
                 const Spacer(),
+              ],
+              if (compact)
                 _HeaderAction(
                   tooltip: 'Поиск по ID',
                   icon: Icons.search_rounded,
+                  size: narrow ? 34 : 42,
                   onPressed: () => context.go('/search'),
                 ),
-              ] else
-                const Spacer(),
               _HeaderAction(
                 tooltip: 'Уведомления',
                 icon: Icons.notifications_none_rounded,
