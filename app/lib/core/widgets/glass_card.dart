@@ -33,9 +33,12 @@ class GlassCard extends StatelessWidget {
     final Color primary = theme.colorScheme.primary;
     final Color secondary = theme.colorScheme.secondary;
     final Color surface = backgroundColor ?? theme.colorScheme.surface;
-    final bool frosted = blur > 0;
-    final double topAlpha = frosted ? (kIsWeb ? 0.55 : 0.75) : 0.9;
-    final double bottomAlpha = frosted ? (kIsWeb ? 0.35 : 0.5) : 0.72;
+    // На web `BackdropFilter` на части устройств (особенно с программным
+    // WebGL) отрисовывается серым прямоугольником вместо размытия, поэтому
+    // вместо размытия используем более плотный фон.
+    final bool frosted = blur > 0 && !kIsWeb;
+    final double topAlpha = frosted ? 0.75 : (blur > 0 ? 0.86 : 0.9);
+    final double bottomAlpha = frosted ? 0.5 : (blur > 0 ? 0.68 : 0.72);
 
     final Widget inner = Container(
       decoration: BoxDecoration(

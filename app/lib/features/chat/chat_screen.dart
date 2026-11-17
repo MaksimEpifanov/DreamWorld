@@ -61,6 +61,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
           ? AgeSafety.restrictionReason(myAge: me.age, otherAge: other.age)
           : null;
     });
+    await ref.read(chatRepositoryProvider).markAsRead(widget.conversationId);
   }
 
   @override
@@ -290,6 +291,16 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       messagesProvider(widget.conversationId),
     );
     final String currentUserId = ref.watch(currentUserIdProvider);
+
+    // Пока диалог открыт, новые сообщения сразу считаются прочитанными.
+    ref.listen<AsyncValue<List<Message>>>(
+      messagesProvider(widget.conversationId),
+      (AsyncValue<List<Message>>? previous, AsyncValue<List<Message>> next) {
+        if (next.hasValue) {
+          ref.read(chatRepositoryProvider).markAsRead(widget.conversationId);
+        }
+      },
+    );
 
     return Scaffold(
       appBar: NeonAppBar(
