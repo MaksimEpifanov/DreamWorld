@@ -23,7 +23,7 @@ class CompatibilityRing extends StatefulWidget {
 class _CompatibilityRingState extends State<CompatibilityRing>
     with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
-  late final Animation<double> _animation;
+  late Animation<double> _animation;
 
   @override
   void initState() {
