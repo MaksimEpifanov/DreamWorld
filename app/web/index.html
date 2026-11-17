@@ -114,6 +114,42 @@
       }).catch(function () {});
     })();
   </script>
+  <script>
+    // Автообновление сборки: сайт — одностраничное приложение, и уже
+    // открытая вкладка продолжает работать на старом коде даже после нового
+    // деплоя. Поэтому периодически и при возврате на вкладку сверяем метку
+    // сборки (build.json пишется в CI) и один раз перезагружаем страницу,
+    // когда на сервере появилась новая версия.
+    (function () {
+      var current = null;
+      var reloading = false;
+      function check() {
+        if (reloading) return;
+        fetch('build.json?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (response) {
+            return response.ok ? response.json() : null;
+          })
+          .then(function (data) {
+            if (!data || !data.id) return;
+            if (current === null) {
+              current = data.id;
+              return;
+            }
+            if (data.id !== current) {
+              reloading = true;
+              location.reload();
+            }
+          })
+          .catch(function () {});
+      }
+      check();
+      setInterval(check, 300000);
+      window.addEventListener('focus', check);
+      document.addEventListener('visibilitychange', function () {
+        if (!document.hidden) check();
+      });
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
