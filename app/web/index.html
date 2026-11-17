@@ -87,18 +87,31 @@
       if (boot) boot.remove();
     });
 
-    // Сброс устаревшего кэша service worker: после обновления сайта
-    // старые файлы не должны показывать пустой экран.
+    // Сброс устаревшего кэша service worker: если в браузере остался
+    // service worker от прошлых сборок, он отдаёт старые файлы и «пустой»
+    // или сломанный интерфейс. Снимаем его, чистим кэши и один раз
+    // перезагружаем страницу, чтобы загрузилась актуальная версия.
     (function () {
       if (!('serviceWorker' in navigator)) return;
+      var RELOAD_KEY = 'dw-sw-reset';
       navigator.serviceWorker.getRegistrations().then(function (list) {
-        list.forEach(function (registration) { registration.unregister(); });
+        var cacheJob = (window.caches && caches.keys)
+          ? caches.keys().then(function (keys) {
+              return Promise.all(keys.map(function (key) {
+                return caches.delete(key);
+              }));
+            })
+          : Promise.resolve();
+        if (!list.length) return cacheJob;
+        var jobs = list.map(function (registration) {
+          return registration.unregister();
+        });
+        return Promise.all(jobs.concat([cacheJob])).then(function () {
+          if (sessionStorage.getItem(RELOAD_KEY) === '1') return;
+          sessionStorage.setItem(RELOAD_KEY, '1');
+          location.reload();
+        });
       }).catch(function () {});
-      if (window.caches && caches.keys) {
-        caches.keys().then(function (keys) {
-          keys.forEach(function (key) { caches.delete(key); });
-        }).catch(function () {});
-      }
     })();
   </script>
   <script src="flutter_bootstrap.js" async></script>
