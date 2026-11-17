@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:dreem_world/data/models/app_user.dart';
+import 'package:dreem_world/data/providers/auth_providers.dart';
 import 'package:dreem_world/data/services/auth_service.dart';
 import 'package:dreem_world/data/services/mock_auth_service.dart';
 import 'package:dreem_world/features/auth/register_screen.dart';
@@ -103,6 +104,82 @@ void main() {
     });
   });
 
+  group('AuthController: подтверждение почты', () {
+    test('после «Продолжить без подтверждения» перезапуск не возвращает '
+        'на экран подтверждения', () async {
+      final _FakeAuthService service = _FakeAuthService(email: 'u@example.com');
+      final ProviderContainer container = ProviderContainer(
+        overrides: <Override>[authServiceProvider.overrideWithValue(service)],
+      );
+      addTearDown(container.dispose);
+
+      await container.read(authControllerProvider.notifier).restore();
+      expect(
+        container.read(authControllerProvider).status,
+        AuthStatus.awaitingEmailVerification,
+      );
+
+      await container
+          .read(authControllerProvider.notifier)
+          .continueWithoutVerification();
+      expect(container.read(authControllerProvider).isAuthenticated, isTrue);
+      expect(
+        container.read(authControllerProvider).pendingEmailVerification,
+        isTrue,
+      );
+
+      final ProviderContainer restarted = ProviderContainer(
+        overrides: <Override>[authServiceProvider.overrideWithValue(service)],
+      );
+      addTearDown(restarted.dispose);
+      await restarted.read(authControllerProvider.notifier).restore();
+
+      final AuthState restored = restarted.read(authControllerProvider);
+      expect(restored.isAuthenticated, isTrue);
+      expect(restored.pendingEmailVerification, isTrue);
+    });
+
+    test('без «Продолжить без подтверждения» перезапуск возвращает '
+        'на экран подтверждения', () async {
+      final _FakeAuthService service = _FakeAuthService(email: 'u@example.com');
+      final ProviderContainer container = ProviderContainer(
+        overrides: <Override>[authServiceProvider.overrideWithValue(service)],
+      );
+      addTearDown(container.dispose);
+
+      await container.read(authControllerProvider.notifier).restore();
+      expect(
+        container.read(authControllerProvider).status,
+        AuthStatus.awaitingEmailVerification,
+      );
+    });
+
+    test(
+      'выход из аккаунта сбрасывает сохранённый пропуск подтверждения',
+      () async {
+        final _FakeAuthService service = _FakeAuthService(
+          email: 'u@example.com',
+        );
+        final ProviderContainer container = ProviderContainer(
+          overrides: <Override>[authServiceProvider.overrideWithValue(service)],
+        );
+        addTearDown(container.dispose);
+
+        await container.read(authControllerProvider.notifier).restore();
+        await container
+            .read(authControllerProvider.notifier)
+            .continueWithoutVerification();
+        await container.read(authControllerProvider.notifier).logout();
+
+        await container.read(authControllerProvider.notifier).restore();
+        expect(
+          container.read(authControllerProvider).status,
+          AuthStatus.awaitingEmailVerification,
+        );
+      },
+    );
+  });
+
   group('RegisterScreen', () {
     testWidgets('рендерится и показывает ошибки валидации пустых полей', (
       WidgetTester tester,
@@ -159,4 +236,53 @@ void main() {
       expect(find.text('Пароли не совпадают'), findsOneWidget);
     });
   });
+}
+
+class _FakeAuthService implements AuthService {
+  _FakeAuthService({required this.email});
+
+  final String email;
+
+  AppUser get _user => AppUser(id: 'uid-1', email: email, name: 'Тест');
+
+  @override
+  Future<RegistrationResult> register({
+    required String email,
+    required String password,
+    required String name,
+  }) async {
+    return RegistrationResult(user: _user, emailConfirmationRequired: true);
+  }
+
+  @override
+  Future<AppUser> login({
+    required String email,
+    required String password,
+  }) async {
+    throw EmailNotVerifiedException(this.email);
+  }
+
+  @override
+  Future<void> logout() async {}
+
+  @override
+  Future<AppUser?> restoreSession() async => null;
+
+  @override
+  AppUser? currentAccount() => _user;
+
+  @override
+  Future<String?> pendingVerificationEmail() async => email;
+
+  @override
+  Future<void> resendVerificationEmail() async {}
+
+  @override
+  Future<AppUser?> reloadVerifiedUser() async => null;
+
+  @override
+  Future<void> sendPasswordReset({required String email}) async {}
+
+  @override
+  Future<void> updatePassword({required String password}) async {}
 }

@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart' as firebase;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/app_user.dart';
 import '../services/auth_service.dart';
@@ -88,6 +89,8 @@ class AuthState {
 
 /// Контроллер аутентификации: восстанавливает сессию и выполняет вход/выход.
 class AuthController extends Notifier<AuthState> {
+  static const String _skipVerificationKey = 'skip_email_verification_email';
+
   @override
   AuthState build() {
     restore();
@@ -95,6 +98,32 @@ class AuthController extends Notifier<AuthState> {
   }
 
   AuthService get _service => ref.read(authServiceProvider);
+
+  Future<String?> _skippedVerificationEmail() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_skipVerificationKey);
+  }
+
+  Future<void> _rememberSkippedVerification(String? email) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    if (email == null || email.isEmpty) {
+      await prefs.remove(_skipVerificationKey);
+      return;
+    }
+    await prefs.setString(_skipVerificationKey, email);
+  }
+
+  AuthState? _stateWithoutVerification(String? email) {
+    if (email == null || email.isEmpty) return null;
+    final AppUser? account = _service.currentAccount();
+    if (account == null) return null;
+    return AuthState(
+      status: AuthStatus.authenticated,
+      user: account,
+      email: account.email,
+      pendingEmailVerification: true,
+    );
+  }
 
   /// Восстанавливает сохранённую сессию при старте приложения.
   Future<void> restore() async {
@@ -106,6 +135,16 @@ class AuthController extends Notifier<AuthState> {
       }
       final String? pendingEmail = await _service.pendingVerificationEmail();
       if (pendingEmail != null) {
+        final String? skipped = await _skippedVerificationEmail();
+        if (skipped == pendingEmail) {
+          final AuthState? withoutVerification = _stateWithoutVerification(
+            pendingEmail,
+          );
+          if (withoutVerification != null) {
+            state = withoutVerification;
+            return;
+          }
+        }
         state = AuthState.awaitingEmailVerification(pendingEmail);
         return;
       }
@@ -143,6 +182,16 @@ class AuthController extends Notifier<AuthState> {
       );
       state = AuthState(status: AuthStatus.authenticated, user: user);
     } on EmailNotVerifiedException catch (error) {
+      final String? skipped = await _skippedVerificationEmail();
+      if (skipped == error.email) {
+        final AuthState? withoutVerification = _stateWithoutVerification(
+          error.email,
+        );
+        if (withoutVerification != null) {
+          state = withoutVerification;
+          return;
+        }
+      }
       state = AuthState.awaitingEmailVerification(error.email);
       rethrow;
     }
@@ -151,6 +200,7 @@ class AuthController extends Notifier<AuthState> {
   /// Завершает сессию.
   Future<void> logout() async {
     await _service.logout();
+    await _rememberSkippedVerification(null);
     state = const AuthState.unauthenticated();
   }
 
@@ -165,6 +215,7 @@ class AuthController extends Notifier<AuthState> {
     if (user == null) {
       throw const AuthException('Сессия истекла. Войдите в аккаунт заново.');
     }
+    await _rememberSkippedVerification(user.email);
     state = AuthState(
       status: AuthStatus.authenticated,
       user: user,
@@ -181,6 +232,7 @@ class AuthController extends Notifier<AuthState> {
         'Почта ещё не подтверждена. Проверьте «Входящие» и «Спам», затем нажмите снова.',
       );
     }
+    await _rememberSkippedVerification(null);
     state = AuthState(status: AuthStatus.authenticated, user: user);
   }
 
