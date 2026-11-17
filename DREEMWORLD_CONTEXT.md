@@ -731,8 +731,13 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
     (`focus`/`visibilitychange`) и раз в 5 минут запрашивает `build.json?t=…` (`cache: 'no-store'`)
     и, если метка сборки изменилась, один раз перезагружает страницу. Проверено на локальной
     сборке: смена `build.json` приводит к перезагрузке.
-  - `.github/workflows/web-deploy.yml`: шаг **Build info** пишет `app/build/web/build.json`
-    с `id` = `${{ github.sha }}` — метка меняется на каждом деплое.
+  - `.github/workflows/web-deploy.yml` и `.github/workflows/flutter-web.yml`: шаг
+    **Build info** пишет `app/build/web/build.json` с `id` = `${{ github.sha }}` — метка
+    меняется на каждом деплое. **Важно:** на GitHub Pages деплоят **оба** воркфлоу
+    (`Deploy Web to GitHub Pages` и `Flutter Web CI and GitHub Pages`, разные группы
+    concurrency), и они гонятся друг с другом. Если `build.json` пишет только один, второй
+    перезатирает артефакт и файла на сайте не будет — поэтому шаги Build info и SPA fallback
+    продублированы в обоих.
 - **Как посмотреть правки прямо сейчас (без нового деплоя).** Открыть именно
   **https://maksimepifanov.github.io/DreamWorld/** и сделать **полную перезагрузку**
   (`Ctrl+Shift+R`) либо открыть сайт в новой вкладке/инкогнито; не использовать старый
