@@ -125,6 +125,16 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         return saved.value! ? '/main' : '/profile-setup';
       }
 
+      // Анкета уже есть — уводим с экрана создания на главную. Нужно из-за
+      // гонки холодной загрузки: при первом переходе профиль ещё мог не
+      // определиться, а без этого правила пользователь навсегда оставался
+      // на полноэкранном /profile-setup без нижней навигации.
+      if (location == '/profile-setup') {
+        final AsyncValue<bool> saved = ref.read(hasSavedProfileProvider);
+        if (saved.hasValue && saved.value == true) return '/main';
+        return null;
+      }
+
       return null;
     },
     routes: <RouteBase>[

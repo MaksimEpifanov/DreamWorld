@@ -145,6 +145,7 @@ final FutureProvider<Profile?> profileBootstrapProvider =
           if (existing.name.trim().isNotEmpty) {
             await repository.saveProfile(existing);
           }
+          ref.invalidate(hasSavedProfileProvider);
           return existing;
         }
         final String accountName =
@@ -156,6 +157,7 @@ final FutureProvider<Profile?> profileBootstrapProvider =
           createdAt: DateTime.now(),
         );
         await repository.saveProfile(profile);
+        ref.invalidate(hasSavedProfileProvider);
         return profile;
       } catch (_) {
         return null;

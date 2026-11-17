@@ -151,6 +151,7 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
       return;
     }
 
+    ref.invalidate(hasSavedProfileProvider);
     if (mounted) {
       context.go('/main');
     }
