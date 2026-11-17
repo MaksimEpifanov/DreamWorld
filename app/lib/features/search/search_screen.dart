@@ -247,6 +247,7 @@ class _SearchResultCard extends ConsumerWidget {
 
     return GlassCard(
           padding: const EdgeInsets.all(AppSpacing.sm),
+          onTap: isSelf ? null : () => context.push('/user/${profile.id}'),
           child: Row(
             children: <Widget>[
               AuraAvatar(
@@ -304,17 +305,34 @@ class _SearchResultCard extends ConsumerWidget {
                           Icons.person_add_alt_1_rounded,
                           color: scheme.primary,
                         ),
-                        onPressed: () {
-                          ref.read(contactsProvider.notifier).add(profile.id);
-                          ScaffoldMessenger.of(context)
-                            ..clearSnackBars()
-                            ..showSnackBar(
-                              SnackBar(
-                                content: Text(
-                                  '${profile.name} добавлен(а) в контакты',
+                        onPressed: () async {
+                          try {
+                            await ref
+                                .read(contactsControllerProvider)
+                                .add(profile.id);
+                            if (!context.mounted) return;
+                            ScaffoldMessenger.of(context)
+                              ..clearSnackBars()
+                              ..showSnackBar(
+                                SnackBar(
+                                  content: Text(
+                                    '${profile.name} добавлен(а) в контакты',
+                                  ),
                                 ),
-                              ),
-                            );
+                              );
+                          } catch (_) {
+                            if (!context.mounted) return;
+                            ScaffoldMessenger.of(context)
+                              ..clearSnackBars()
+                              ..showSnackBar(
+                                const SnackBar(
+                                  content: Text(
+                                    'Не удалось добавить контакт. '
+                                    'Попробуйте ещё раз.',
+                                  ),
+                                ),
+                              );
+                          }
                         },
                       ),
               ],

@@ -49,6 +49,7 @@ void main() {
     '/contacts',
     '/search',
     '/profile',
+    '/user/p_anna',
     '/notifications',
     '/settings',
     '/safety',

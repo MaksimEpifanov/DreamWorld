@@ -15,18 +15,26 @@ void main() {
   });
 
   group('Контакты', () {
-    test('контроллер добавляет и удаляет контакты без дублей', () {
-      final ContactsController controller = ContactsController();
+    test('контроллер добавляет и удаляет контакты в анкете', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
 
-      expect(controller.state, isEmpty);
-      controller.add('p_anna');
-      controller.add('p_leo');
-      controller.add('p_anna'); // дубль игнорируется
-      expect(controller.state, <String>['p_anna', 'p_leo']);
-      expect(controller.contains('p_leo'), isTrue);
+      expect(container.read(contactsProvider), isEmpty);
 
-      controller.remove('p_anna');
-      expect(controller.state, <String>['p_leo']);
+      await container.read(contactsControllerProvider).add('p_anna');
+      await container.read(contactsControllerProvider).add('p_leo');
+      await container.read(contactsControllerProvider).add('p_anna'); // дубль
+
+      Profile? me = await container
+          .read(profileRepositoryProvider)
+          .getCurrentProfile();
+      expect(me?.contactIds, <String>['p_anna', 'p_leo']);
+
+      await container.read(contactsControllerProvider).remove('p_anna');
+      me = await container
+          .read(profileRepositoryProvider)
+          .getCurrentProfile();
+      expect(me?.contactIds, <String>['p_leo']);
     });
 
     testWidgets('экран контактов показывает свой ID и кнопку поиска', (
@@ -48,6 +56,22 @@ void main() {
       expect(find.text('Найти по ID'), findsOneWidget);
       expect(find.text('Пока нет контактов'), findsOneWidget);
       expect(find.text('Мой QR'), findsNothing);
+    });
+
+    test('провайдер профиля отдаёт анкету по ID и null для неизвестного', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      final Profile? found = await container.read(
+        userProfileProvider('p_anna').future,
+      );
+      expect(found?.id, 'p_anna');
+      expect(found?.name, isNotEmpty);
+
+      final Profile? missing = await container.read(
+        userProfileProvider('нет-такого').future,
+      );
+      expect(missing, isNull);
     });
 
     test('поиск по ID находит демо-анкету', () async {

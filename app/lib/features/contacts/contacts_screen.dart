@@ -9,7 +9,6 @@ import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
 import '../../data/services/user_code.dart';
-import '../safety/widgets/report_sheet.dart';
 import 'contacts_controller.dart';
 
 /// Экран контактов: свой ID для поиска и список знакомых.
@@ -53,16 +52,21 @@ class ContactsScreen extends ConsumerWidget {
       ref.watch(currentUserIdProvider),
     );
     final List<String> contactIds = ref.watch(contactsProvider);
+    final AsyncValue<List<Profile>> discovery = ref.watch(
+      discoveryProfilesProvider,
+    );
     final Map<String, Profile> profiles = <String, Profile>{
-      for (final Profile profile
-          in ref.watch(discoveryProfilesProvider).asData?.value ??
-              const <Profile>[])
+      for (final Profile profile in discovery.asData?.value ?? const <Profile>[])
         profile.id: profile,
     };
     final List<Profile> contacts = <Profile>[
       for (final String id in contactIds)
         if (profiles[id] != null) profiles[id]!,
     ];
+    // Контакты уже сохранены, но анкеты ещё подгружаются: не показываем
+    // «Пока нет контактов», чтобы список не выглядел пустым.
+    final bool isLoadingContacts =
+        contacts.isEmpty && contactIds.isNotEmpty && discovery.isLoading;
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -151,7 +155,12 @@ class ContactsScreen extends ConsumerWidget {
                 ],
               ),
               const SizedBox(height: AppSpacing.sm),
-              if (contacts.isEmpty)
+              if (isLoadingContacts)
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: AppSpacing.xl),
+                  child: Center(child: CircularProgressIndicator()),
+                )
+              else if (contacts.isEmpty)
                 _EmptyContacts()
               else
                 for (int i = 0; i < contacts.length; i++)
@@ -160,17 +169,13 @@ class ContactsScreen extends ConsumerWidget {
                     child: _ContactTile(
                       profile: contacts[i],
                       index: i,
+                      onOpenProfile: () =>
+                          context.push('/user/${contacts[i].id}'),
                       onOpenChat: () => _openChat(context, ref, contacts[i].id),
-                      onRemove: () => ref
-                          .read(contactsProvider.notifier)
-                          .remove(contacts[i].id),
-                      onReport: () => showReportSheet(
-                        context,
-                        ref,
-                        targetId: contacts[i].id,
-                        targetName: contacts[i].name,
-                        target: ReportTarget.user,
-                      ),
+                      onRemove: () =>
+                          ref.read(contactsControllerProvider).remove(
+                            contacts[i].id,
+                          ),
                     ),
                   ),
             ],
@@ -209,16 +214,16 @@ class _ContactTile extends StatelessWidget {
   const _ContactTile({
     required this.profile,
     required this.index,
+    required this.onOpenProfile,
     required this.onOpenChat,
     required this.onRemove,
-    required this.onReport,
   });
 
   final Profile profile;
   final int index;
+  final VoidCallback onOpenProfile;
   final VoidCallback onOpenChat;
   final VoidCallback onRemove;
-  final VoidCallback onReport;
 
   @override
   Widget build(BuildContext context) {
@@ -226,7 +231,7 @@ class _ContactTile extends StatelessWidget {
           padding: const EdgeInsets.all(AppSpacing.sm),
           child: InkWell(
             borderRadius: AppRadius.mdAll,
-            onTap: onOpenChat,
+            onTap: onOpenProfile,
             child: Row(
               children: <Widget>[
                 AuraAvatar(
@@ -255,16 +260,16 @@ class _ContactTile extends StatelessWidget {
                   ),
                 ),
                 IconButton(
+                  tooltip: 'Профиль',
+                  icon: const Icon(Icons.person_outline_rounded),
+                  color: AppColors.textMuted,
+                  onPressed: onOpenProfile,
+                ),
+                IconButton(
                   tooltip: 'Написать',
                   icon: const Icon(Icons.chat_bubble_outline_rounded),
                   color: Theme.of(context).colorScheme.primary,
                   onPressed: onOpenChat,
-                ),
-                IconButton(
-                  tooltip: 'Пожаловаться',
-                  icon: const Icon(Icons.flag_outlined),
-                  color: AppColors.textMuted,
-                  onPressed: onReport,
                 ),
                 IconButton(
                   tooltip: 'Удалить',

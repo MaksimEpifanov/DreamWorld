@@ -54,6 +54,11 @@ _Profile _$ProfileFromJson(Map<String, dynamic> json) => _Profile(
           ?.map((e) => e as String)
           .toList() ??
       const <String>[],
+  contactIds:
+      (json['contactIds'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList() ??
+      const <String>[],
 );
 
 Map<String, dynamic> _$ProfileToJson(_Profile instance) => <String, dynamic>{
@@ -75,6 +80,7 @@ Map<String, dynamic> _$ProfileToJson(_Profile instance) => <String, dynamic>{
   'createdAt': instance.createdAt?.toIso8601String(),
   'detailedInterests': instance.detailedInterests,
   'joinedPlanetIds': instance.joinedPlanetIds,
+  'contactIds': instance.contactIds,
 };
 
 const _$RelationshipGoalEnumMap = {

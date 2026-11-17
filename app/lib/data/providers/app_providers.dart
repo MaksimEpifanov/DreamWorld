@@ -192,6 +192,13 @@ final FutureProviderFamily<List<Profile>, String> profileSearchProvider =
       }
     });
 
+/// Анкета другого пользователя по идентификатору (для просмотра профиля).
+final FutureProviderFamily<Profile?, String> userProfileProvider =
+    FutureProvider.family<Profile?, String>((Ref ref, String id) {
+      if (id.isEmpty) return null;
+      return ref.watch(profileRepositoryProvider).getProfileById(id);
+    });
+
 /// Поток мэтчей.
 final StreamProvider<List<Match>> matchesProvider = StreamProvider<List<Match>>(
   (Ref ref) => ref.watch(matchRepositoryProvider).watchMatches(),

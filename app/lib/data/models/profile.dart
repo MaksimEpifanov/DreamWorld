@@ -40,6 +40,7 @@ abstract class Profile with _$Profile {
     DateTime? createdAt,
     @Default(<String>[]) List<String> detailedInterests,
     @Default(<String>[]) List<String> joinedPlanetIds,
+    @Default(<String>[]) List<String> contactIds,
   }) = _Profile;
 
   factory Profile.fromJson(Map<String, dynamic> json) =>

@@ -29,6 +29,7 @@ import '../../features/planets/map/planet_map_screen.dart';
 import '../../features/planets/news/planet_news_screen.dart';
 import '../../features/profile/profile_setup_screen.dart';
 import '../../features/profile/profile_view_edit_screen.dart';
+import '../../features/profile/user_profile_screen.dart';
 import '../../features/safety/safety_center_screen.dart';
 import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
@@ -310,6 +311,14 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         name: 'profile',
         builder: (BuildContext context, GoRouterState state) {
           return const ProfileViewEditScreen();
+        },
+      ),
+      GoRoute(
+        path: '/user/:id',
+        name: 'user-profile',
+        builder: (BuildContext context, GoRouterState state) {
+          final String id = state.pathParameters['id'] ?? '';
+          return UserProfileScreen(userId: id);
         },
       ),
       GoRoute(
