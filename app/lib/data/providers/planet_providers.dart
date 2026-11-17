@@ -7,6 +7,7 @@ import '../models/map_spot.dart';
 import '../models/planet.dart';
 import '../models/planet_news.dart';
 import '../models/profile.dart';
+import '../repositories/firestore_map_repository.dart';
 import '../repositories/map_repository.dart';
 import '../repositories/mock_map_repository.dart';
 import '../repositories/mock_news_repository.dart';
@@ -23,9 +24,26 @@ final Provider<PlanetRepository> planetRepositoryProvider =
     Provider<PlanetRepository>((Ref ref) => const MockPlanetRepository());
 
 /// Репозиторий отметок на карте планет.
-final Provider<MapRepository> mapRepositoryProvider = Provider<MapRepository>(
-  (Ref ref) => const MockMapRepository(),
-);
+///
+/// В рабочей версии отметки хранятся в Firestore и общие для всех участников
+/// планеты, в мок-режиме — в памяти.
+final Provider<MapRepository> mapRepositoryProvider = Provider<MapRepository>((
+  Ref ref,
+) {
+  final String currentUserId = ref.watch(currentUserIdProvider);
+  if (isFirebaseInitialized) {
+    final FirestoreMapRepository repository = FirestoreMapRepository(
+      currentUserId: currentUserId,
+    );
+    ref.onDispose(repository.dispose);
+    return repository;
+  }
+  final MockMapRepository repository = MockMapRepository(
+    currentUserId: currentUserId,
+  );
+  ref.onDispose(repository.dispose);
+  return repository;
+});
 
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
@@ -211,47 +229,17 @@ final Provider<PlanetMembershipController> planetMembershipControllerProvider =
     );
 
 /// Отметки на карте планеты.
-final StateNotifierProviderFamily<MapSpotsNotifier, List<MapSpot>, String>
-planetMapSpotsProvider =
-    StateNotifierProvider.family<MapSpotsNotifier, List<MapSpot>, String>((
-      Ref ref,
-      String id,
-    ) {
+///
+/// В рабочей версии — живой поток из Firestore: добавленную одним участником
+/// отметку сразу видят остальные. В мок-режиме — сгенерированная карта.
+final StreamProviderFamily<List<MapSpot>, String> planetMapSpotsProvider =
+    StreamProvider.family<List<MapSpot>, String>((Ref ref, String id) {
       final Planet? planet = ref.watch(planetByIdProvider(id));
-      if (planet == null) return MapSpotsNotifier(const <MapSpot>[]);
-      return MapSpotsNotifier(
-        ref.watch(mapRepositoryProvider).spotsFor(planet),
-      );
+      if (planet == null) {
+        return Stream<List<MapSpot>>.value(const <MapSpot>[]);
+      }
+      return ref.watch(mapRepositoryProvider).watchSpots(planet);
     });
-
-class MapSpotsNotifier extends StateNotifier<List<MapSpot>> {
-  MapSpotsNotifier(super.initialSpots);
-
-  void add(MapSpot spot) => state = <MapSpot>[spot, ...state];
-
-  void addComment(String spotId, MapComment comment) {
-    state = state
-        .map((MapSpot spot) {
-          if (spot.id != spotId) return spot;
-          return MapSpot(
-            id: spot.id,
-            title: spot.title,
-            description: spot.description,
-            authorName: spot.authorName,
-            emoji: spot.emoji,
-            tags: spot.tags,
-            likes: spot.likes,
-            x: spot.x,
-            y: spot.y,
-            latitude: spot.latitude,
-            longitude: spot.longitude,
-            color: spot.color,
-            comments: <MapComment>[...spot.comments, comment],
-          );
-        })
-        .toList(growable: false);
-  }
-}
 
 /// Лента новостей планеты с обновлением раз в час.
 ///

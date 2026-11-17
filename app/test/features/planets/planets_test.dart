@@ -5,6 +5,7 @@ import 'package:dreem_world/data/models/map_spot.dart';
 import 'package:dreem_world/data/models/planet.dart';
 import 'package:dreem_world/data/models/planet_news.dart';
 import 'package:dreem_world/data/providers/planet_providers.dart';
+import 'package:dreem_world/data/repositories/map_repository.dart';
 import 'package:dreem_world/data/repositories/mock_news_repository.dart';
 import 'package:dreem_world/data/repositories/mock_planet_repository.dart';
 import 'package:dreem_world/features/planets/cosmos/orbital_catalog.dart';
@@ -203,13 +204,13 @@ void main() {
   });
 
   group('Карта планеты', () {
-    test('для планеты генерируются отметки с координатами и тегами', () {
+    test('для планеты генерируются отметки с координатами и тегами', () async {
       final ProviderContainer container = ProviderContainer();
       addTearDown(container.dispose);
 
       final Planet planet = container.read(planetByIdProvider('p_fishing'))!;
-      final List<MapSpot> spots = container.read(
-        planetMapSpotsProvider('p_fishing'),
+      final List<MapSpot> spots = await container.read(
+        planetMapSpotsProvider('p_fishing').future,
       );
 
       expect(spots.length, greaterThanOrEqualTo(6));
@@ -228,22 +229,61 @@ void main() {
       );
     });
 
-    test('новые комментарии сохраняются в состоянии карты', () {
+    test('добавленная отметка видна в потоке карты', () async {
       final ProviderContainer container = ProviderContainer();
       addTearDown(container.dispose);
-      final MapComment comment = MapComment(
+      final Planet planet = container.read(planetByIdProvider('p_fishing'))!;
+      final MapRepository repository = container.read(mapRepositoryProvider);
+
+      final MapSpot spot = MapSpot(
+        id: 'test_spot_1',
+        title: 'Наше место',
+        description: 'Отметка одного участника',
+        authorName: 'Аня',
+        authorId: 'u_anna',
+        emoji: '📍',
+        tags: const <String>['Рыбалка'],
+        likes: 0,
+        x: 0.5,
+        y: 0.5,
+        latitude: 10,
+        longitude: 20,
+      );
+      await repository.addSpot(planet, spot);
+
+      final List<MapSpot> spots = await repository.watchSpots(planet).first;
+      expect(
+        spots.any((MapSpot item) => item.id == 'test_spot_1'),
+        isTrue,
+        reason: 'отметка должна попадать в общий список карты',
+      );
+    });
+
+    test('комментарии и лайки сохраняются в состоянии карты', () async {
+      final ProviderContainer container = ProviderContainer();
+      addTearDown(container.dispose);
+      final Planet planet = container.read(planetByIdProvider('p_fishing'))!;
+      final MapRepository repository = container.read(mapRepositoryProvider);
+      const MapComment comment = MapComment(
         authorName: 'Вы',
         text: 'Красивое место',
       );
 
-      container
-          .read(planetMapSpotsProvider('p_fishing').notifier)
-          .addComment('p_fishing_spot_0', comment);
+      final List<MapSpot> before = await repository.watchSpots(planet).first;
+      final MapSpot original = before.firstWhere(
+        (MapSpot spot) => spot.id == 'p_fishing_spot_0',
+      );
 
-      final MapSpot updated = container
-          .read(planetMapSpotsProvider('p_fishing'))
-          .firstWhere((MapSpot spot) => spot.id == 'p_fishing_spot_0');
+      await repository.addComment(planet, 'p_fishing_spot_0', comment);
+      await repository.setLike(planet, 'p_fishing_spot_0', liked: true);
+
+      final List<MapSpot> spots = await repository.watchSpots(planet).first;
+      final MapSpot updated = spots.firstWhere(
+        (MapSpot spot) => spot.id == 'p_fishing_spot_0',
+      );
       expect(updated.comments.last.text, 'Красивое место');
+      expect(updated.likedBy.length, original.likedBy.length + 1);
+      expect(updated.likes, original.likes + 1);
     });
 
     testWidgets('экран карты показывает отметки и теги', (

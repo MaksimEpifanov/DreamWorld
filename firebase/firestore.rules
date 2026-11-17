@@ -23,6 +23,26 @@ service cloud.firestore {
       );
     }
 
+    // Отметки на карте планет. Читают все вошедшие, чтобы отметку, оставленную
+    // одним участником, видели остальные. Создавать и удалять может только
+    // автор; комментарии и лайки разрешено добавлять любому вошедшему.
+    match /planets/{planetId}/spots/{spotId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+        && request.resource.data.authorId == request.auth.uid;
+
+      allow update: if request.auth != null && (
+        resource.data.authorId == request.auth.uid
+        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
+          ['comments', 'likedBy']
+        )
+      );
+
+      allow delete: if request.auth != null
+        && resource.data.authorId == request.auth.uid;
+    }
+
     // Чаты. Участники диалога видят его и переписываются.
     match /conversations/{conversationId} {
       allow read: if request.auth != null

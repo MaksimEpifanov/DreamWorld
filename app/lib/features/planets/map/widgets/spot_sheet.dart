@@ -10,14 +10,25 @@ Future<void> showSpotSheet(
   BuildContext context, {
   required MapSpot spot,
   required Planet planet,
+  required bool liked,
+  required String authorName,
+  required String authorId,
   required ValueChanged<MapComment> onCommentAdded,
+  required ValueChanged<bool> onLikeToggled,
 }) {
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (BuildContext context) =>
-        _SpotSheet(spot: spot, planet: planet, onCommentAdded: onCommentAdded),
+    builder: (BuildContext context) => _SpotSheet(
+      spot: spot,
+      planet: planet,
+      liked: liked,
+      authorName: authorName,
+      authorId: authorId,
+      onCommentAdded: onCommentAdded,
+      onLikeToggled: onLikeToggled,
+    ),
   );
 }
 
@@ -25,12 +36,20 @@ class _SpotSheet extends StatefulWidget {
   const _SpotSheet({
     required this.spot,
     required this.planet,
+    required this.liked,
+    required this.authorName,
+    required this.authorId,
     required this.onCommentAdded,
+    required this.onLikeToggled,
   });
 
   final MapSpot spot;
   final Planet planet;
+  final bool liked;
+  final String authorName;
+  final String authorId;
   final ValueChanged<MapComment> onCommentAdded;
+  final ValueChanged<bool> onLikeToggled;
 
   @override
   State<_SpotSheet> createState() => _SpotSheetState();
@@ -38,7 +57,7 @@ class _SpotSheet extends StatefulWidget {
 
 class _SpotSheetState extends State<_SpotSheet> {
   late int _likes = widget.spot.likes;
-  bool _liked = false;
+  late bool _liked = widget.liked;
   late final List<MapComment> _comments = List<MapComment>.of(
     widget.spot.comments,
   );
@@ -55,13 +74,18 @@ class _SpotSheetState extends State<_SpotSheet> {
       _liked = !_liked;
       _likes += _liked ? 1 : -1;
     });
+    widget.onLikeToggled(_liked);
   }
 
   void _addComment() {
     final String text = _controller.text.trim();
     if (text.isEmpty) return;
     setState(() {
-      final MapComment comment = MapComment(authorName: 'Вы', text: text);
+      final MapComment comment = MapComment(
+        authorName: widget.authorName,
+        text: text,
+        authorId: widget.authorId,
+      );
       _comments.add(comment);
       widget.onCommentAdded(comment);
       _controller.clear();

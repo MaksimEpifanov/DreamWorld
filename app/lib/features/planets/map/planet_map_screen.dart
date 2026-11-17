@@ -9,6 +9,7 @@ import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
 import '../../../data/models/map_spot.dart';
 import '../../../data/models/planet.dart';
+import '../../../data/providers/app_providers.dart';
 import '../../../data/providers/planet_providers.dart';
 import 'widgets/map_canvas.dart';
 import 'widgets/spot_sheet.dart';
@@ -44,9 +45,9 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
       );
     }
 
-    final List<MapSpot> spots = ref.watch(
-      planetMapSpotsProvider(widget.planetId),
-    );
+    final List<MapSpot> spots =
+        ref.watch(planetMapSpotsProvider(widget.planetId)).valueOrNull ??
+        const <MapSpot>[];
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -78,11 +79,17 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
                         context,
                         spot: spot,
                         planet: planet,
+                        liked: spot.isLikedBy(
+                          ref.read(currentUserIdProvider),
+                        ),
+                        authorName: _authorName(),
+                        authorId: ref.read(currentUserIdProvider),
                         onCommentAdded: (MapComment comment) => ref
-                            .read(
-                              planetMapSpotsProvider(widget.planetId).notifier,
-                            )
-                            .addComment(spot.id, comment),
+                            .read(mapRepositoryProvider)
+                            .addComment(planet, spot.id, comment),
+                        onLikeToggled: (bool liked) => ref
+                            .read(mapRepositoryProvider)
+                            .setLike(planet, spot.id, liked: liked),
                       );
                     },
                   ),
@@ -171,16 +178,25 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
     descriptionController.dispose();
     if (confirmed != true || title.isEmpty || !mounted) return;
 
+    final String authorName = _authorName();
+    final String authorId = ref.read(currentUserIdProvider);
     final List<MapComment> comments = description.isEmpty
         ? const <MapComment>[]
-        : <MapComment>[MapComment(authorName: 'Вы', text: description)];
+        : <MapComment>[
+            MapComment(
+              authorName: authorName,
+              text: description,
+              authorId: authorId,
+            ),
+          ];
     final MapSpot spot = MapSpot(
       id: const Uuid().v4(),
       title: title,
       description: description.isEmpty
           ? 'Место на карте планеты.'
           : description,
-      authorName: 'Вы',
+      authorName: authorName,
+      authorId: authorId,
       emoji: '📍',
       tags: planet.keywords.take(2).toList(growable: false),
       likes: 0,
@@ -191,11 +207,30 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
       color: planet.accent,
       comments: comments,
     );
-    ref.read(planetMapSpotsProvider(widget.planetId).notifier).add(spot);
+    try {
+      await ref.read(mapRepositoryProvider).addSpot(planet, spot);
+    } catch (_) {
+      // Ошибку уже залогировал репозиторий; не оставляем пользователя без ответа.
+      if (!mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(content: Text('Не удалось сохранить отметку.')),
+        );
+      return;
+    }
+    if (!mounted) return;
     setState(() {
       _selectedId = spot.id;
       _isAddingSpot = false;
     });
+  }
+
+  /// Имя текущего пользователя для подписи отметки.
+  String _authorName() {
+    final String name =
+        ref.read(currentProfileProvider).valueOrNull?.name.trim() ?? '';
+    return name.isEmpty ? 'Вы' : name;
   }
 }
 
@@ -217,7 +252,9 @@ class _MapIntro extends StatelessWidget {
             const SizedBox(width: AppSpacing.xs),
             Expanded(
               child: Text(
-                '$count отметок участников',
+                count == 0
+                    ? 'Пока нет отметок — оставьте первую.'
+                    : '$count отметок участников',
                 style: AppTextStyles.bodyBold(),
               ),
             ),
