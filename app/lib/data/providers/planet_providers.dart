@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../models/app_user.dart';
 import '../models/map_spot.dart';
 import '../models/planet.dart';
 import '../models/planet_news.dart';
@@ -15,6 +16,7 @@ import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
 import '../services/firebase_bootstrap.dart';
 import 'app_providers.dart';
+import 'auth_providers.dart';
 
 /// Репозиторий планет-сообществ.
 final Provider<PlanetRepository> planetRepositoryProvider =
@@ -175,11 +177,20 @@ class PlanetMembershipController {
   /// Вступает в планету или выходит из неё. Возвращает новое состояние.
   Future<bool> toggle(String planetId) async {
     final ProfileRepository repository = _ref.read(profileRepositoryProvider);
-    final Profile? me =
+    Profile? me =
         await repository.getCurrentProfile() ??
         _ref.read(currentProfileProvider).valueOrNull;
+    // Если анкеты ещё нет (новый аккаунт без заполнения профиля), создаём её
+    // из аккаунта, чтобы вступление работало сразу.
     if (me == null) {
-      throw StateError('Анкета не найдена');
+      final AppUser? account = _ref.read(currentUserFromAuthProvider);
+      final String accountName = account?.name.trim() ?? '';
+      me = Profile(
+        id: _ref.read(currentUserIdProvider),
+        name: accountName.isEmpty ? 'Пользователь' : accountName,
+        age: 18,
+        createdAt: DateTime.now(),
+      );
     }
     final Set<String> joined = me.joinedPlanetIds.toSet();
     final bool nowJoined = !joined.remove(planetId);
@@ -187,6 +198,8 @@ class PlanetMembershipController {
     await repository.saveProfile(
       me.copyWith(joinedPlanetIds: joined.toList(growable: false)),
     );
+    // Обновляем поток анкеты, чтобы кнопка сразу стала «Вы уже присоединились».
+    _ref.invalidate(currentProfileProvider);
     return nowJoined;
   }
 }

@@ -126,6 +126,42 @@ final FutureProvider<bool> hasSavedProfileProvider = FutureProvider<bool>((
   }
 });
 
+/// Гарантирует, что у вошедшего пользователя есть анкета в Firestore.
+///
+/// Новый аккаунт после регистрации сразу получает профиль с именем из анкеты
+/// регистрации, а локальная (старая) анкета синхронизируется с облаком. Без
+/// профиля не работают участники планет, поиск по ID и чаты.
+final FutureProvider<Profile?> profileBootstrapProvider =
+    FutureProvider<Profile?>((Ref ref) async {
+      if (!isFirebaseInitialized) return null;
+      final String uid = ref.watch(currentUserIdProvider);
+      if (uid.isEmpty || uid == MockProfileRepository.defaultCurrentUserId) {
+        return null;
+      }
+      final ProfileRepository repository = ref.watch(profileRepositoryProvider);
+      try {
+        final Profile? existing = await repository.getCurrentProfile();
+        if (existing != null) {
+          if (existing.name.trim().isNotEmpty) {
+            await repository.saveProfile(existing);
+          }
+          return existing;
+        }
+        final String accountName =
+            ref.read(currentUserFromAuthProvider)?.name.trim() ?? '';
+        final Profile profile = Profile(
+          id: uid,
+          name: accountName.isEmpty ? 'Пользователь' : accountName,
+          age: 18,
+          createdAt: DateTime.now(),
+        );
+        await repository.saveProfile(profile);
+        return profile;
+      } catch (_) {
+        return null;
+      }
+    });
+
 /// Поток каталога реальных профилей.
 ///
 /// Используется подбором, контактами и подсчётом участников планет, поэтому

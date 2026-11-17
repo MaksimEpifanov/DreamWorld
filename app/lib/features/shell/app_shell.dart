@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/index.dart';
 import '../../core/widgets/cosmic_background.dart';
+import '../../data/providers/app_providers.dart';
 
 /// Каркас основного интерфейса с нижней навигацией по разделам.
 ///
@@ -19,6 +20,10 @@ class AppShell extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // Создаёт анкету в Firestore, если её ещё нет: без неё не работают
+    // участники планет, поиск по ID и чаты.
+    ref.watch(profileBootstrapProvider);
+
     return Scaffold(
       backgroundColor: const Color(0xFF050510),
       body: Stack(
@@ -26,16 +31,12 @@ class AppShell extends ConsumerWidget {
         children: <Widget>[
           const CosmicBackground(),
           SizedBox.expand(child: shell),
-
         ],
       ),
       bottomNavigationBar: AppNavigationBar(
         currentIndex: shell.currentIndex,
         onDestinationSelected: (int index) {
-          shell.goBranch(
-            index,
-            initialLocation: index == shell.currentIndex,
-          );
+          shell.goBranch(index, initialLocation: index == shell.currentIndex);
         },
       ),
     );
@@ -68,10 +69,15 @@ class AppNavigationBar extends StatelessWidget {
           decoration: BoxDecoration(
             color: const Color(0xE9081630),
             border: Border(
-              top: BorderSide(color: const Color(0xFF2675C5).withValues(alpha: 0.55)),
+              top: BorderSide(
+                color: const Color(0xFF2675C5).withValues(alpha: 0.55),
+              ),
             ),
             boxShadow: <BoxShadow>[
-              BoxShadow(color: scheme.primary.withValues(alpha: 0.22), blurRadius: 24),
+              BoxShadow(
+                color: scheme.primary.withValues(alpha: 0.22),
+                blurRadius: 24,
+              ),
             ],
           ),
           child: NavigationBarTheme(
@@ -79,7 +85,9 @@ class AppNavigationBar extends StatelessWidget {
               backgroundColor: Colors.transparent,
               elevation: 0,
               indicatorColor: scheme.primary.withValues(alpha: 0.17),
-              indicatorShape: const RoundedRectangleBorder(borderRadius: AppRadius.pillAll),
+              indicatorShape: const RoundedRectangleBorder(
+                borderRadius: AppRadius.pillAll,
+              ),
               labelTextStyle: WidgetStateProperty.resolveWith<TextStyle>(
                 (Set<WidgetState> states) => AppTextStyles.label(
                   color: states.contains(WidgetState.selected)
@@ -132,7 +140,10 @@ class AppNavigationBar extends StatelessWidget {
                 ),
                 NavigationDestination(
                   icon: const Icon(Icons.local_fire_department_outlined),
-                  selectedIcon: _glowingIcon(Icons.local_fire_department, scheme),
+                  selectedIcon: _glowingIcon(
+                    Icons.local_fire_department,
+                    scheme,
+                  ),
                   label: 'События',
                 ),
                 NavigationDestination(

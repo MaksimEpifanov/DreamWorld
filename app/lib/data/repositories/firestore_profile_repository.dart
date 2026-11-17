@@ -182,6 +182,7 @@ class FirestoreProfileRepository implements ProfileRepository {
       await _document.set(stored.toJson(), SetOptions(merge: true));
     } catch (error) {
       _logError(error);
+      rethrow;
     }
   }
 

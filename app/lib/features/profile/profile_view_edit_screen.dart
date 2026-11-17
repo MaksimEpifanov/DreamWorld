@@ -170,6 +170,19 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
 
     try {
       await profileRepo.saveProfile(updatedProfile);
+    } catch (_) {
+      if (mounted) {
+        ScaffoldMessenger.of(context)
+          ..clearSnackBars()
+          ..showSnackBar(
+            const SnackBar(
+              content: Text(
+                'Не удалось сохранить изменения. Проверьте интернет и попробуйте ещё раз.',
+              ),
+            ),
+          );
+      }
+      return;
     } finally {
       if (mounted) {
         setState(() => _isSaving = false);
