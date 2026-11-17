@@ -159,7 +159,15 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Создание профиля')),
+      appBar: AppBar(
+        title: const Text('Создание профиля'),
+        actions: <Widget>[
+          TextButton(
+            onPressed: _isSaving ? null : () => context.go('/main'),
+            child: const Text('Пропустить'),
+          ),
+        ],
+      ),
       body: SafeArea(
         child: ResponsiveContent(
           child: Form(
@@ -388,16 +396,33 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
                       ],
                     ),
                   ),
-                  const SizedBox(height: AppSpacing.lg),
-                  NeonButton(
-                    onPressed: _isSaving ? null : _save,
-                    label: _isSaving
-                        ? 'Сохранение...'
-                        : 'Сохранить и продолжить',
-                    isLoading: _isSaving,
-                    expanded: true,
-                  ),
+                  const SizedBox(height: AppSpacing.sm),
                 ],
+              ),
+            ),
+          ),
+        ),
+      ),
+      // Кнопка сохранения закреплена внизу экрана: при низком окне браузера
+      // она больше не «уезжает» за пределы видимой области длинной формы.
+      bottomNavigationBar: SafeArea(
+        top: false,
+        child: Padding(
+          padding: AppSpacing.page,
+          child: Align(
+            heightFactor: 1,
+            alignment: Alignment.topCenter,
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(
+                maxWidth: ResponsiveContent.kResponsiveMaxWidth,
+              ),
+              child: NeonButton(
+                onPressed: _isSaving ? null : _save,
+                label: _isSaving
+                    ? 'Сохранение...'
+                    : 'Сохранить и продолжить',
+                isLoading: _isSaving,
+                expanded: true,
               ),
             ),
           ),

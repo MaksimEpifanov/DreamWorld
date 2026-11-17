@@ -30,4 +30,28 @@ void main() {
     expect(find.text('Галерея'), findsOneWidget);
     expect(find.text('Камера'), findsOneWidget);
   });
+
+  testWidgets('Кнопка сохранения видна при низком окне', (
+    WidgetTester tester,
+  ) async {
+    tester.view.physicalSize = const Size(1000, 600);
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    await tester.pumpWidget(
+      const ProviderScope(
+        child: MaterialApp(home: ProfileSetupScreen()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Пропустить'), findsOneWidget);
+
+    final Finder save = find.text('Сохранить и продолжить');
+    expect(save, findsOneWidget);
+    final Rect rect = tester.getRect(save);
+    expect(rect.top, greaterThanOrEqualTo(0));
+    expect(rect.bottom, lessThanOrEqualTo(600));
+  });
 }
