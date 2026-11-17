@@ -219,9 +219,22 @@ final FutureProviderFamily<List<Profile>, String> profileSearchProvider =
     });
 
 /// Анкета другого пользователя по идентификатору (для просмотра профиля).
+///
+/// Данные берём из живого потока анкет ([discoveryProfilesProvider]), а не
+/// одиночным запросом: одиночный `FutureProvider` кэшируется на всю сессию и
+/// после заполнения анкеты собеседником экран профиля продолжал показывать
+/// устаревшую пустую анкету (только имя и возраст), хотя список контактов
+/// обновлялся. Если анкеты нет в потоке (например, он выходит за лимит подбора),
+/// дочитываем документ напрямую.
 final FutureProviderFamily<Profile?, String> userProfileProvider =
-    FutureProvider.family<Profile?, String>((Ref ref, String id) {
+    FutureProvider.family<Profile?, String>((Ref ref, String id) async {
       if (id.isEmpty) return null;
+      final List<Profile> live = await ref.watch(
+        discoveryProfilesProvider.future,
+      );
+      for (final Profile profile in live) {
+        if (profile.id == id) return profile;
+      }
       return ref.watch(profileRepositoryProvider).getProfileById(id);
     });
 
