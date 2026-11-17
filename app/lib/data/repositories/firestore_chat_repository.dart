@@ -150,9 +150,17 @@ class FirestoreChatRepository implements ChatRepository {
     if (!_online) return fallback;
 
     try {
-      final DocumentSnapshot<Map<String, dynamic>> snapshot = await reference
-          .get();
-      if (snapshot.exists) return _conversationFromSnapshot(snapshot);
+      DocumentSnapshot<Map<String, dynamic>>? snapshot;
+      try {
+        snapshot = await reference.get();
+      } catch (error) {
+        // Правила Firestore запрещают чтение несуществующего диалога, поэтому
+        // отказ на чтении означает «диалога ещё нет» — создаём его ниже.
+        _logError(error);
+      }
+      if (snapshot != null && snapshot.exists) {
+        return _conversationFromSnapshot(snapshot);
+      }
 
       final String now = DateTime.now().toIso8601String();
       await reference.set(<String, dynamic>{

@@ -191,10 +191,7 @@ class PlanetDetailScreen extends ConsumerWidget {
                                   padding: const EdgeInsets.only(
                                     bottom: AppSpacing.sm,
                                   ),
-                                  child: _MemberTile(
-                                    profile: list[i],
-                                    index: i,
-                                  ),
+                                  child: _MemberTile(profile: list[i]),
                                 ),
                             ],
                           ),
@@ -586,16 +583,26 @@ class _PlanetInterestDetailsState extends State<_PlanetInterestDetails> {
 }
 
 class _MemberTile extends ConsumerWidget {
-  const _MemberTile({required this.profile, this.index = 0});
+  const _MemberTile({required this.profile});
 
   final Profile profile;
-  final int index;
 
   Future<void> _openChat(BuildContext context, WidgetRef ref) async {
-    final Conversation conversation = await ref
-        .read(chatRepositoryProvider)
-        .getOrCreateConversation(profile.id);
-    if (context.mounted) context.push('/chat/${conversation.id}');
+    try {
+      final Conversation conversation = await ref
+          .read(chatRepositoryProvider)
+          .getOrCreateConversation(profile.id);
+      if (context.mounted) context.push('/chat/${conversation.id}');
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось открыть чат. Попробуйте ещё раз.'),
+          ),
+        );
+    }
   }
 
   @override
@@ -605,76 +612,68 @@ class _MemberTile extends ConsumerWidget {
     final bool isSelf = profile.id == ref.watch(currentUserIdProvider);
 
     return GlassCard(
-          padding: const EdgeInsets.all(AppSpacing.sm),
-          child: InkWell(
-            borderRadius: AppRadius.mdAll,
-            onTap: isSelf ? null : () => _openChat(context, ref),
-            child: Row(
-              children: <Widget>[
-                AuraAvatar(
-                  photoUrl: profile.photoUrl,
-                  size: 52,
-                  fallbackText: profile.name,
-                ),
-                const SizedBox(width: AppSpacing.md),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+      blur: 0,
+      padding: const EdgeInsets.all(AppSpacing.sm),
+      child: InkWell(
+        borderRadius: AppRadius.mdAll,
+        onTap: isSelf ? null : () => _openChat(context, ref),
+        child: Row(
+          children: <Widget>[
+            AuraAvatar(
+              photoUrl: profile.photoUrl,
+              size: 52,
+              fallbackText: profile.name,
+            ),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Row(
                     children: <Widget>[
-                      Row(
-                        children: <Widget>[
-                          Flexible(
-                            child: Text(
-                              profile.name,
-                              style: AppTextStyles.bodyBold(),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                          if (isSelf) ...<Widget>[
-                            const SizedBox(width: AppSpacing.xs),
-                            Text('(вы)', style: AppTextStyles.caption()),
-                          ],
-                        ],
+                      Flexible(
+                        child: Text(
+                          profile.name,
+                          style: AppTextStyles.bodyBold(),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
                       ),
-                      const SizedBox(height: AppSpacing.xxs),
-                      Text(
-                        <String>[
-                          if (profile.city != null) profile.city!,
-                          if (profile.interestNames.isNotEmpty)
-                            profile.interestNames.take(2).join(', '),
-                        ].join(' • '),
-                        style: AppTextStyles.caption(),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
+                      if (isSelf) ...<Widget>[
+                        const SizedBox(width: AppSpacing.xs),
+                        Text('(вы)', style: AppTextStyles.caption()),
+                      ],
                     ],
                   ),
-                ),
-                const SizedBox(width: AppSpacing.sm),
-                if (!isSelf)
-                  Icon(
-                    Icons.chat_bubble_outline_rounded,
-                    color: Theme.of(context).colorScheme.primary,
+                  const SizedBox(height: AppSpacing.xxs),
+                  Text(
+                    <String>[
+                      if (profile.city != null) profile.city!,
+                      if (profile.interestNames.isNotEmpty)
+                        profile.interestNames.take(2).join(', '),
+                    ].join(' • '),
+                    style: AppTextStyles.caption(),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
-                const SizedBox(width: AppSpacing.sm),
-                CompatibilityRing(
-                  percent: compatibility / 100,
-                  size: 48,
-                  strokeWidth: 5,
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        )
-        .animate()
-        .fadeIn(duration: 400.ms, delay: (200 + 60 * index).ms)
-        .slideX(
-          begin: 0.08,
-          end: 0,
-          duration: 400.ms,
-          delay: (200 + 60 * index).ms,
-          curve: Curves.easeOutCubic,
-        );
+            const SizedBox(width: AppSpacing.sm),
+            if (!isSelf)
+              Icon(
+                Icons.chat_bubble_outline_rounded,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+            const SizedBox(width: AppSpacing.sm),
+            CompatibilityRing(
+              percent: compatibility / 100,
+              size: 48,
+              strokeWidth: 5,
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }

@@ -33,8 +33,25 @@ class GlassCard extends StatelessWidget {
     final Color primary = theme.colorScheme.primary;
     final Color secondary = theme.colorScheme.secondary;
     final Color surface = backgroundColor ?? theme.colorScheme.surface;
-    final double topAlpha = kIsWeb ? 0.55 : 0.75;
-    final double bottomAlpha = kIsWeb ? 0.35 : 0.5;
+    final bool frosted = blur > 0;
+    final double topAlpha = frosted ? (kIsWeb ? 0.55 : 0.75) : 0.9;
+    final double bottomAlpha = frosted ? (kIsWeb ? 0.35 : 0.5) : 0.72;
+
+    final Widget inner = Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: <Color>[
+            surface.withValues(alpha: topAlpha),
+            surface.withValues(alpha: bottomAlpha),
+          ],
+        ),
+        borderRadius: borderRadius,
+      ),
+      padding: padding,
+      child: child,
+    );
 
     final Widget card = Container(
       decoration: BoxDecoration(
@@ -59,24 +76,12 @@ class GlassCard extends StatelessWidget {
       padding: const EdgeInsets.all(1.5),
       child: ClipRRect(
         borderRadius: borderRadius,
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
-          child: Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: <Color>[
-                  surface.withValues(alpha: topAlpha),
-                  surface.withValues(alpha: bottomAlpha),
-                ],
-              ),
-              borderRadius: borderRadius,
-            ),
-            padding: padding,
-            child: child,
-          ),
-        ),
+        child: frosted
+            ? BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: blur, sigmaY: blur),
+                child: inner,
+              )
+            : inner,
       ),
     );
 
