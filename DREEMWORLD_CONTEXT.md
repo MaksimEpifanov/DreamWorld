@@ -1013,7 +1013,16 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
 - **Правила Firestore.** Добавлен блок `match /{path=**}/events/{eventId}` с
   `allow read: if request.auth != null` — чтение событий по всей коллекции
   (collection group) для сводки уведомлений. Запись не затрагивается.
-  **Требуется повторная публикация правил.**
+- **Индекс Firestore.** Для сводки создан одноразовый индекс: collection group
+  `events`, поле `createdAt` (Descending). Без него запрос возвращал
+  `FAILED_PRECONDITION`.
+- **Проверено (18.11.2026):** правила опубликованы, индекс построен; запрос
+  `runQuery` по `events` (`allDescendants: true`, `orderBy createdAt`) вернул
+  реальное событие — уведомления о событиях планет работают.
+- **Сборки `9d6768e`:** Web CI, Deploy Web и Android APK — успешно; iOS отменён.
+  Сайт задеплоен (`build.json` id `9d6768e`), APK пересобран.
+- **Бэкап.** Ветка `backup/notifications-20261118` создана локально и запушена в
+  `origin`.
 - **Тесты.** `app/test/features/notifications/notifications_test.dart`:
   подписи времени, сбор событий из каталога планет, демо-лента и счётчик,
   пометка просмотренного.
