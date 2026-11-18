@@ -23,7 +23,7 @@ class MessageBubble extends StatelessWidget {
     final Color primary = scheme.primary;
     final Color secondary = scheme.secondary;
 
-    final Color textColor = isMine ? scheme.onPrimary : AppColors.textPrimary;
+    final Color textColor = isMine ? scheme.onPrimary : AppColors.white;
 
     final BoxDecoration decoration = isMine
         ? BoxDecoration(
@@ -42,9 +42,9 @@ class MessageBubble extends StatelessWidget {
             ],
           )
         : BoxDecoration(
-            color: primary.withValues(alpha: 0.10),
+            color: primary.withValues(alpha: 0.18),
             borderRadius: _radiusFor(isMine),
-            border: Border.all(color: primary.withValues(alpha: 0.28)),
+            border: Border.all(color: primary.withValues(alpha: 0.45)),
           );
 
     return Align(
@@ -66,7 +66,19 @@ class MessageBubble extends StatelessWidget {
           children: <Widget>[
             Text(
               message.displayText,
-              style: AppTextStyles.body(color: textColor),
+              style: AppTextStyles.body(color: textColor).copyWith(
+                fontWeight: FontWeight.w600,
+                letterSpacing: 0.1,
+                shadows: isMine
+                    ? null
+                    : <Shadow>[
+                        Shadow(
+                          color: AppColors.black.withValues(alpha: 0.55),
+                          blurRadius: 4,
+                          offset: const Offset(0, 1),
+                        ),
+                      ],
+              ),
             ),
             const SizedBox(height: AppSpacing.xs),
             Row(
@@ -75,7 +87,7 @@ class MessageBubble extends StatelessWidget {
                 Text(
                   _formatTime(message.createdAt),
                   style: AppTextStyles.caption(
-                    color: textColor.withValues(alpha: 0.72),
+                    color: textColor.withValues(alpha: 0.85),
                   ),
                 ),
                 if (isMine) ...<Widget>[
@@ -83,7 +95,7 @@ class MessageBubble extends StatelessWidget {
                   Icon(
                     _statusIcon(message.status),
                     size: 14,
-                    color: textColor.withValues(alpha: 0.72),
+                    color: textColor.withValues(alpha: 0.85),
                   ),
                 ],
               ],
