@@ -1,11 +1,12 @@
 import 'notification_service_stub.dart'
-    if (dart.library.io) 'notification_service_io.dart';
+    if (dart.library.io) 'notification_service_io.dart'
+    if (dart.library.js_interop) 'notification_service_web.dart';
 
-/// Локальные уведомления о новых сообщениях.
+/// Уведомления о новых сообщениях.
 ///
 /// На Android и iOS показывают системное уведомление со звуком, пока приложение
-/// запущено (в том числе свёрнуто). На веб локальные уведомления не нужны —
-/// используется заглушка.
+/// запущено (в том числе свёрнуто). На веб проигрывают короткий звук и, если
+/// разрешено, показывают баннер браузера. На прочих платформах — заглушка.
 abstract interface class NotificationService {
   /// Готовит канал уведомлений и запрашивает разрешение.
   ///

@@ -1,6 +1,6 @@
 import 'notification_service.dart';
 
-/// Заглушка для веб: локальные уведомления там не используются.
+/// Заглушка для платформ без поддержки уведомлений.
 NotificationService createPlatformNotificationService() =>
     const _NoopNotificationService();
 
