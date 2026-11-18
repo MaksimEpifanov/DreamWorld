@@ -286,14 +286,34 @@ class _GalaxyHeader extends ConsumerWidget {
               // На телефоне логотип ужимается, чтобы поместилась кнопка поиска.
               if (compact)
                 Expanded(
-                  child: FittedBox(
-                    fit: BoxFit.scaleDown,
-                    alignment: Alignment.centerLeft,
-                    child: wordmark,
+                  child: Row(
+                    children: <Widget>[
+                      Flexible(
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerLeft,
+                          child: wordmark,
+                        ),
+                      ),
+                      const SizedBox(width: AppSpacing.xs),
+                      _HeaderAction(
+                        tooltip: 'Отзывы',
+                        icon: Icons.rate_review_outlined,
+                        size: narrow ? 34 : 42,
+                        onPressed: () => context.go('/reviews'),
+                      ),
+                    ],
                   ),
                 )
               else ...<Widget>[
                 wordmark,
+                const SizedBox(width: AppSpacing.sm),
+                _HeaderAction(
+                  tooltip: 'Отзывы',
+                  icon: Icons.rate_review_outlined,
+                  size: 42,
+                  onPressed: () => context.go('/reviews'),
+                ),
                 const Spacer(),
                 Flexible(
                   child: ConstrainedBox(

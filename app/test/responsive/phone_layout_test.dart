@@ -51,6 +51,7 @@ void main() {
     '/profile',
     '/user/p_anna',
     '/notifications',
+    '/reviews',
     '/settings',
     '/safety',
     '/minigames',

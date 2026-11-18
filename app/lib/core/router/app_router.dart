@@ -30,6 +30,7 @@ import '../../features/planets/news/planet_news_screen.dart';
 import '../../features/profile/profile_setup_screen.dart';
 import '../../features/profile/profile_view_edit_screen.dart';
 import '../../features/profile/user_profile_screen.dart';
+import '../../features/reviews/reviews_screen.dart';
 import '../../features/safety/safety_center_screen.dart';
 import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
@@ -328,6 +329,13 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         name: 'notifications',
         builder: (BuildContext context, GoRouterState state) {
           return const NotificationsScreen();
+        },
+      ),
+      GoRoute(
+        path: '/reviews',
+        name: 'reviews',
+        builder: (BuildContext context, GoRouterState state) {
+          return const ReviewsScreen();
         },
       ),
       GoRoute(

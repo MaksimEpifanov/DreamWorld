@@ -43,6 +43,20 @@ service cloud.firestore {
         && resource.data.authorId == request.auth.uid;
     }
 
+    // Отзывы о сайте и приложении. Читают все вошедшие, писать может каждый
+    // от своего имени; изменять чужие отзывы нельзя.
+    match /reviews/{reviewId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+        && request.resource.data.authorId == request.auth.uid;
+
+      allow update: if false;
+
+      allow delete: if request.auth != null
+        && resource.data.authorId == request.auth.uid;
+    }
+
     // Чаты. Участники диалога видят его и переписываются.
     match /conversations/{conversationId} {
       allow read: if request.auth != null

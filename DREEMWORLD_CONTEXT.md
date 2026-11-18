@@ -905,3 +905,36 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   `app/test/data/map_spot_model_test.dart` (сериализация `MapSpot`).
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
   **250 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.
+
+### 30.15. Отзывы о сайте и приложении (18.11.2026)
+
+- **Задача.** Добавить в шапку главного экрана кнопку-иконку «Отзывы» (слева
+  вверху, сразу справа от надписи «DreamWorld · Галактика возможностей»), чтобы
+  любой пользователь мог оставить свой отзыв о сайте и приложении и прочитать
+  отзывы других.
+- **Решение.**
+  - Кнопка `_HeaderAction` с иконкой `rate_review_outlined` и подсказкой
+    «Отзывы» добавлена в `_GalaxyHeader`
+    (`app/lib/features/planets/home/planet_home_screen.dart`) сразу после
+    логотипа — и в мобильной, и в широкой раскладке.
+  - Новый полноэкранный маршрут `/reviews` и экран
+    `app/lib/features/reviews/reviews_screen.dart`: форма (оценка 1–5 звёзд и
+    текст до 600 символов) и список отзывов участников.
+  - Модель `Review` (`app/lib/data/models/review.dart`) с `toJson`/`fromJson`;
+    оценка ограничивается диапазоном 1–5 при чтении.
+  - Репозиторий `ReviewRepository` + `FirestoreReviewRepository` (коллекция
+    `reviews`, сортировка по `createdAt` по убыванию) и `MockReviewRepository`
+    (память с двумя демо-отзывами, только режим без Firebase).
+  - Провайдеры `reviewRepositoryProvider` (Firestore или мок по
+    `isFirebaseInitialized`) и `reviewsProvider` (`StreamProvider`).
+- **Правила Firestore.** Добавлен блок `reviews/{reviewId}`: чтение — любой
+  вошедший; создание — только от своего имени (`authorId == request.auth.uid`);
+  изменение запрещено; удаление — только автор. **Требуется публикация правил**
+  в Firebase Console.
+- **Тесты.** `app/test/data/review_model_test.dart` (сериализация и починка
+  оценки), `app/test/features/reviews/reviews_test.dart` (мок-репозиторий и
+  экран), проверка кнопки «Отзывы» в шапке в
+  `app/test/features/planets/planets_test.dart`, маршрут `/reviews` в
+  адаптивном аудите `app/test/responsive/phone_layout_test.dart`.
+- **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
+  **259 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.
