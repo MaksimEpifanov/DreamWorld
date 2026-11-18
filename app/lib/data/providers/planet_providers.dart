@@ -5,14 +5,18 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/app_user.dart';
 import '../models/map_spot.dart';
 import '../models/planet.dart';
+import '../models/planet_event.dart';
 import '../models/planet_news.dart';
 import '../models/profile.dart';
 import '../repositories/firestore_map_repository.dart';
+import '../repositories/firestore_planet_event_repository.dart';
 import '../repositories/map_repository.dart';
 import '../repositories/mock_map_repository.dart';
 import '../repositories/mock_news_repository.dart';
+import '../repositories/mock_planet_event_repository.dart';
 import '../repositories/mock_planet_repository.dart';
 import '../repositories/news_repository.dart';
+import '../repositories/planet_event_repository.dart';
 import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
 import '../services/firebase_bootstrap.dart';
@@ -48,6 +52,26 @@ final Provider<MapRepository> mapRepositoryProvider = Provider<MapRepository>((
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
     Provider<NewsRepository>((Ref ref) => const MockNewsRepository());
+
+/// Репозиторий событий планеты.
+///
+/// В рабочей версии события хранятся в Firestore и общие для всех участников,
+/// в мок-режиме — в памяти.
+final Provider<PlanetEventRepository> planetEventRepositoryProvider =
+    Provider<PlanetEventRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      if (isFirebaseInitialized) {
+        final FirestorePlanetEventRepository repository =
+            FirestorePlanetEventRepository(currentUserId: currentUserId);
+        ref.onDispose(repository.dispose);
+        return repository;
+      }
+      final MockPlanetEventRepository repository = MockPlanetEventRepository(
+        currentUserId: currentUserId,
+      );
+      ref.onDispose(repository.dispose);
+      return repository;
+    });
 
 /// Каталог планет.
 ///
@@ -239,6 +263,19 @@ final StreamProviderFamily<List<MapSpot>, String> planetMapSpotsProvider =
         return Stream<List<MapSpot>>.value(const <MapSpot>[]);
       }
       return ref.watch(mapRepositoryProvider).watchSpots(planet);
+    });
+
+/// События планеты.
+///
+/// В рабочей версии — живой поток из Firestore: созданное одним участником
+/// событие и поданные заявки сразу видят остальные. В мок-режиме — память.
+final StreamProviderFamily<List<PlanetEvent>, String> planetEventsProvider =
+    StreamProvider.family<List<PlanetEvent>, String>((Ref ref, String id) {
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      if (planet == null) {
+        return Stream<List<PlanetEvent>>.value(const <PlanetEvent>[]);
+      }
+      return ref.watch(planetEventRepositoryProvider).watchEvents(planet);
     });
 
 /// Лента новостей планеты с обновлением раз в час.

@@ -13,6 +13,7 @@ import '../../../data/models/planet.dart';
 import '../../../data/models/profile.dart';
 import '../../../data/providers/app_providers.dart';
 import '../../../data/providers/planet_providers.dart';
+import '../events/widgets/planet_events_section.dart';
 import '../news/widgets/news_section.dart';
 import 'widgets/planet_scene.dart';
 
@@ -160,6 +161,8 @@ class PlanetDetailScreen extends ConsumerWidget {
                     onPressed: () =>
                         context.go('/main/planet/${planet.id}/map'),
                   ),
+                  const SizedBox(height: AppSpacing.lg),
+                  PlanetEventsSection(planet: planet),
                   const SizedBox(height: AppSpacing.lg),
                   NewsSection(planet: planet),
                   const SizedBox(height: AppSpacing.lg),

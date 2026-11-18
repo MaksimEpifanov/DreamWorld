@@ -43,6 +43,7 @@ void main() {
     '/main/other-interests',
     '/main/planet/p_animals',
     '/main/planet/p_animals/map',
+    '/main/planet/p_animals/events',
     '/main/planet/p_animals/news',
     '/discovery',
     '/chats',

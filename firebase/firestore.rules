@@ -43,6 +43,28 @@ service cloud.firestore {
         && resource.data.authorId == request.auth.uid;
     }
 
+    // События планеты (встречи, поездки, сборы). Читают все вошедшие, чтобы
+    // событие, созданное одним участником, видели остальные. Создаёт и удаляет
+    // только организатор; заявки на участие (`applicantIds`) может подавать и
+    // отменять любой вошедший, а подтверждает участников (`participantIds`)
+    // только организатор.
+    match /planets/{planetId}/events/{eventId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+        && request.resource.data.authorId == request.auth.uid;
+
+      allow update: if request.auth != null && (
+        resource.data.authorId == request.auth.uid
+        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
+          ['applicantIds']
+        )
+      );
+
+      allow delete: if request.auth != null
+        && resource.data.authorId == request.auth.uid;
+    }
+
     // Отзывы о сайте и приложении. Читают все вошедшие, писать может каждый
     // от своего имени; изменять чужие отзывы нельзя.
     match /reviews/{reviewId} {

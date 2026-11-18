@@ -938,3 +938,47 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   адаптивном аудите `app/test/responsive/phone_layout_test.dart`.
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
   **259 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.
+
+### 30.16. События планеты: создание и заявки на участие (18.11.2026)
+
+- **Задача.** Внутри планеты дать возможность создать своё событие с записью
+  участников. Пример: «Рыбалка на Волгу» — нужно 2 человека, выезд 13 августа из
+  Дубны. Другие пользователи подают заявку о вступлении; организатор её
+  принимает или отклоняет. Раздел «События планеты» живёт внутри планеты.
+- **Решение (по согласованию с пользователем).**
+  - Размещение — **отдельный экран** `/main/planet/:id/events` **плюс секция** на
+    экране планеты (как «Карта планеты» и новости), без настоящего `TabBar`.
+  - Запись — **организатор принимает/отклоняет**; когда мест нет — «набор
+    закрыт».
+  - Создавать события может **любой вошедший** (не только участники планеты).
+  - Модель `PlanetEvent` (`app/lib/data/models/planet_event.dart`): название,
+    описание, эмодзи-обложка, дата (`ГГГГ-ММ-ДД`), место, число мест (`0` — без
+    лимита), `applicantIds` (ожидают решения), `participantIds` (подтверждены).
+    Хелперы `hasLimit`/`taken`/`isFull`/`isAuthor`/`hasApplied`/`isParticipant`.
+  - Репозиторий `PlanetEventRepository` + `FirestorePlanetEventRepository`
+    (путь `planets/{planetId}/events/{eventId}`, сортировка по `createdAt` по
+    убыванию; заявки — `arrayUnion`/`arrayRemove`) и
+    `MockPlanetEventRepository` (память + 2 демо-события, только режим без
+    Firebase).
+  - Провайдеры `planetEventRepositoryProvider` (Firestore или мок по
+    `isFirebaseInitialized`) и `planetEventsProvider` (`StreamProvider.family`).
+  - Экран `app/lib/features/planets/events/planet_events_screen.dart`: форма
+    создания (эмодзи, название, описание, дата через календарь, число мест,
+    место/точка сбора), карточки событий с заявками, действия «Подать заявку» /
+    «Отменить» / принять / отклонить / удалить (у организатора).
+  - Секция `app/lib/features/planets/events/widgets/planet_events_section.dart`
+    на экране планеты (`planet_detail_screen.dart`) перед новостями: ближайшие
+    события и переход «Все события».
+- **Правила Firestore.** Добавлен блок
+  `planets/{planetId}/events/{eventId}`: чтение — любой вошедший; создание —
+  от своего имени (`authorId == request.auth.uid`); изменение — организатор
+  (любые поля) либо любой вошедший, если меняются **только** `applicantIds`
+  (подача/отмена заявки); удаление — только организатор. **Требуется публикация
+  правил** в Firebase Console.
+- **Тесты.** `app/test/data/planet_event_model_test.dart` (сериализация и
+  состояние), `app/test/features/planets/planet_events_test.dart`
+  (мок-репозиторий: заявка/подтверждение/отклонение; экран), маршрут
+  `/main/planet/p_animals/events` в адаптивном аудите
+  `app/test/responsive/phone_layout_test.dart`.
+- **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
+  **270 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.
