@@ -51,6 +51,19 @@ void main() {
     expect(find.text(message), findsOneWidget);
   });
 
+  testWidgets('ChatScreen отправляет сообщение по действию «отправить» (Enter в вебе)', (
+    WidgetTester tester,
+  ) async {
+    await pumpChat(tester);
+
+    const String message = 'Отправка по Enter';
+    await tester.enterText(find.byType(TextField), message);
+    await tester.testTextInput.receiveAction(TextInputAction.send);
+    await tester.pumpAndSettle();
+
+    expect(find.text(message), findsOneWidget);
+  });
+
   testWidgets('ChatScreen показывает заблокированный видеовызов', (
     WidgetTester tester,
   ) async {

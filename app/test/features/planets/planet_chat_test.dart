@@ -161,5 +161,41 @@ void main() {
 
       expect(find.text(message), findsOneWidget);
     });
+
+    testWidgets('отправляет сообщение по действию «отправить» (Enter в вебе)', (
+      WidgetTester tester,
+    ) async {
+      tester.view.physicalSize = const Size(1200, 2400);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      final MockPlanetChatRepository repository = MockPlanetChatRepository(
+        currentUserId: 'u1',
+      );
+      addTearDown(repository.dispose);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          overrides: <Override>[
+            planetChatRepositoryProvider.overrideWithValue(repository),
+          ],
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const PlanetChatScreen(planetId: 'p_animals'),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(Duration.zero);
+
+      const String message = 'Отправка по Enter';
+      await tester.enterText(find.byType(TextField), message);
+      await tester.testTextInput.receiveAction(TextInputAction.send);
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(Duration.zero);
+
+      expect(find.text(message), findsOneWidget);
+    });
   });
 }
