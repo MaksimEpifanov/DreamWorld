@@ -298,11 +298,27 @@ class _PlanetMessageRow extends StatelessWidget {
 }
 
 /// Нижняя панель ввода сообщения в общий чат.
-class _InputBar extends StatelessWidget {
+class _InputBar extends StatefulWidget {
   const _InputBar({required this.controller, required this.onSend});
 
   final TextEditingController controller;
   final VoidCallback onSend;
+
+  @override
+  State<_InputBar> createState() => _InputBarState();
+}
+
+class _InputBarState extends State<_InputBar> {
+  bool _showEmoji = false;
+
+  void _toggleEmoji() => setState(() => _showEmoji = !_showEmoji);
+
+  void _insertEmoji(String emoji) => insertEmoji(widget.controller, emoji);
+
+  void _handleSend() {
+    setState(() => _showEmoji = false);
+    widget.onSend();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -319,62 +335,101 @@ class _InputBar extends StatelessWidget {
         color: AppColors.surface.withValues(alpha: 0.85),
         border: Border(top: BorderSide(color: primary.withValues(alpha: 0.3))),
       ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(
-                color: AppColors.surfaceElevated,
-                borderRadius: AppRadius.pillAll,
-                border: Border.all(color: primary.withValues(alpha: 0.35)),
-              ),
-              padding: const EdgeInsets.symmetric(
-                horizontal: AppSpacing.md,
-                vertical: AppSpacing.xs,
-              ),
-              child: TextField(
-                controller: controller,
-                style: AppTextStyles.body(),
-                cursorColor: primary,
-                decoration: InputDecoration(
-                  hintText: 'Написать в чат сообщества...',
-                  border: InputBorder.none,
-                  isDense: true,
-                  filled: false,
-                  contentPadding: const EdgeInsets.symmetric(
-                    vertical: AppSpacing.sm,
+          if (_showEmoji) EmojiPicker(onSelected: _insertEmoji),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: AppColors.surfaceElevated,
+                    borderRadius: AppRadius.pillAll,
+                    border: Border.all(
+                      color: primary.withValues(alpha: 0.35),
+                    ),
                   ),
-                  hintStyle: AppTextStyles.body(color: AppColors.textMuted),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSpacing.md,
+                    vertical: AppSpacing.xs,
+                  ),
+                  child: TextField(
+                    controller: widget.controller,
+                    style: AppTextStyles.body(),
+                    cursorColor: primary,
+                    decoration: InputDecoration(
+                      hintText: 'Написать в чат сообщества...',
+                      border: InputBorder.none,
+                      isDense: true,
+                      filled: false,
+                      contentPadding: const EdgeInsets.symmetric(
+                        vertical: AppSpacing.sm,
+                      ),
+                      hintStyle: AppTextStyles.body(
+                        color: AppColors.textMuted,
+                      ),
+                    ),
+                    minLines: 1,
+                    maxLines: 4,
+                    textInputAction: kIsWeb ? TextInputAction.send : null,
+                    onEditingComplete: () {},
+                    onSubmitted: (_) => _handleSend(),
+                  ),
                 ),
-                minLines: 1,
-                maxLines: 4,
-                textInputAction: kIsWeb ? TextInputAction.send : null,
-                onEditingComplete: () {},
-                onSubmitted: (_) => onSend(),
               ),
-            ),
-          ),
-          const SizedBox(width: AppSpacing.sm),
-          GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onTap: onSend,
-            child: GlowContainer(
-              color: primary,
-              glowRadius: 20,
-              glowOpacity: 0.6,
-              borderColor: primary,
-              background: primary,
-              borderRadius: AppRadius.pillAll,
-              padding: const EdgeInsets.all(AppSpacing.sm + 2),
-              child: Icon(
-                Icons.send_rounded,
-                color: Theme.of(context).colorScheme.onPrimary,
-                size: 24,
+              const SizedBox(width: AppSpacing.sm),
+              _EmojiButton(onTap: _toggleEmoji),
+              const SizedBox(width: AppSpacing.sm),
+              GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: _handleSend,
+                child: GlowContainer(
+                  color: primary,
+                  glowRadius: 20,
+                  glowOpacity: 0.6,
+                  borderColor: primary,
+                  background: primary,
+                  borderRadius: AppRadius.pillAll,
+                  padding: const EdgeInsets.all(AppSpacing.sm + 2),
+                  child: Icon(
+                    Icons.send_rounded,
+                    color: Theme.of(context).colorScheme.onPrimary,
+                    size: 24,
+                  ),
+                ),
               ),
-            ),
+            ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _EmojiButton extends StatelessWidget {
+  const _EmojiButton({required this.onTap});
+
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color primary = Theme.of(context).colorScheme.primary;
+    return Tooltip(
+      message: 'Смайлики',
+      child: GlowContainer(
+        color: primary,
+        glowRadius: 12,
+        glowOpacity: 0.25,
+        borderColor: primary.withValues(alpha: 0.4),
+        background: AppColors.surfaceElevated,
+        borderRadius: AppRadius.pillAll,
+        child: IconButton(
+          onPressed: onTap,
+          icon: Icon(Icons.emoji_emotions_outlined, color: primary),
+          iconSize: 22,
+        ),
       ),
     );
   }

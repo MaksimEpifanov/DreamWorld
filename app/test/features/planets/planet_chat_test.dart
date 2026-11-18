@@ -1,4 +1,5 @@
 import 'package:dreem_world/core/theme/index.dart';
+import 'package:dreem_world/core/widgets/index.dart';
 import 'package:dreem_world/data/models/planet.dart';
 import 'package:dreem_world/data/models/planet_chat_message.dart';
 import 'package:dreem_world/data/providers/planet_providers.dart';
@@ -196,6 +197,48 @@ void main() {
       await tester.pump(Duration.zero);
 
       expect(find.text(message), findsOneWidget);
+    });
+
+    testWidgets('вставляет смайлик в поле ввода', (WidgetTester tester) async {
+      tester.view.physicalSize = const Size(1200, 2400);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      final MockPlanetChatRepository repository = MockPlanetChatRepository(
+        currentUserId: 'u1',
+      );
+      addTearDown(repository.dispose);
+
+      await tester.pumpWidget(
+        ProviderScope(
+          overrides: <Override>[
+            planetChatRepositoryProvider.overrideWithValue(repository),
+          ],
+          child: MaterialApp(
+            theme: AppTheme.of(AppThemeName.neonViolet),
+            home: const PlanetChatScreen(planetId: 'p_animals'),
+          ),
+        ),
+      );
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(Duration.zero);
+
+      expect(find.byType(EmojiPicker), findsNothing);
+      await tester.tap(find.byIcon(Icons.emoji_emotions_outlined));
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(Duration.zero);
+
+      expect(find.byType(EmojiPicker), findsOneWidget);
+
+      await tester.tap(find.text('😀'));
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(Duration.zero);
+
+      final TextField field = tester.widget<TextField>(
+        find.byType(TextField),
+      );
+      expect(field.controller!.text, '😀');
     });
   });
 }

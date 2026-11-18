@@ -4,6 +4,7 @@ export 'app_bar.dart';
 export 'aura_avatar.dart';
 export 'compatibility_ring.dart';
 export 'cosmic_background.dart';
+export 'emoji_picker.dart';
 export 'glass_card.dart';
 export 'glow_container.dart';
 export 'neon_button.dart';

@@ -654,8 +654,8 @@ class _TopicPanel extends StatelessWidget {
   }
 }
 
-/// Нижняя панель ввода: закруглённое поле, подсказки и неоновая отправка.
-class _InputBar extends StatelessWidget {
+/// Нижняя панель ввода: закруглённое поле, смайлики, подсказки и отправка.
+class _InputBar extends StatefulWidget {
   const _InputBar({
     required this.controller,
     required this.onSend,
@@ -665,6 +665,22 @@ class _InputBar extends StatelessWidget {
   final TextEditingController controller;
   final VoidCallback onSend;
   final VoidCallback onSuggest;
+
+  @override
+  State<_InputBar> createState() => _InputBarState();
+}
+
+class _InputBarState extends State<_InputBar> {
+  bool _showEmoji = false;
+
+  void _toggleEmoji() => setState(() => _showEmoji = !_showEmoji);
+
+  void _insertEmoji(String emoji) => insertEmoji(widget.controller, emoji);
+
+  void _handleSend() {
+    setState(() => _showEmoji = false);
+    widget.onSend();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -682,50 +698,66 @@ class _InputBar extends StatelessWidget {
         color: AppColors.surface.withValues(alpha: 0.85),
         border: Border(top: BorderSide(color: primary.withValues(alpha: 0.3))),
       ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(
-                color: AppColors.surfaceElevated,
-                borderRadius: AppRadius.pillAll,
-                border: Border.all(color: primary.withValues(alpha: 0.35)),
-              ),
-              padding: const EdgeInsets.symmetric(
-                horizontal: AppSpacing.md,
-                vertical: AppSpacing.xs,
-              ),
-              child: TextField(
-                controller: controller,
-                style: AppTextStyles.body(),
-                cursorColor: primary,
-                decoration: InputDecoration(
-                  hintText: 'Введите сообщение...',
-                  border: InputBorder.none,
-                  isDense: true,
-                  filled: false,
-                  contentPadding: const EdgeInsets.symmetric(
-                    vertical: AppSpacing.sm,
+          if (_showEmoji) EmojiPicker(onSelected: _insertEmoji),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: AppColors.surfaceElevated,
+                    borderRadius: AppRadius.pillAll,
+                    border: Border.all(
+                      color: primary.withValues(alpha: 0.35),
+                    ),
                   ),
-                  hintStyle: AppTextStyles.body(color: AppColors.textMuted),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSpacing.md,
+                    vertical: AppSpacing.xs,
+                  ),
+                  child: TextField(
+                    controller: widget.controller,
+                    style: AppTextStyles.body(),
+                    cursorColor: primary,
+                    decoration: InputDecoration(
+                      hintText: 'Введите сообщение...',
+                      border: InputBorder.none,
+                      isDense: true,
+                      filled: false,
+                      contentPadding: const EdgeInsets.symmetric(
+                        vertical: AppSpacing.sm,
+                      ),
+                      hintStyle: AppTextStyles.body(
+                        color: AppColors.textMuted,
+                      ),
+                    ),
+                    minLines: 1,
+                    maxLines: 4,
+                    textInputAction: kIsWeb ? TextInputAction.send : null,
+                    onEditingComplete: () {},
+                    onSubmitted: (_) => _handleSend(),
+                  ),
                 ),
-                minLines: 1,
-                maxLines: 4,
-                textInputAction: kIsWeb ? TextInputAction.send : null,
-                onEditingComplete: () {},
-                onSubmitted: (_) => onSend(),
               ),
-            ),
+              const SizedBox(width: AppSpacing.sm),
+              _NeonIconButton(
+                icon: Icons.emoji_emotions_outlined,
+                tooltip: 'Смайлики',
+                onTap: _toggleEmoji,
+              ),
+              const SizedBox(width: AppSpacing.sm),
+              _NeonIconButton(
+                icon: Icons.lightbulb_outline_rounded,
+                tooltip: 'Подсказки тем',
+                onTap: widget.onSuggest,
+              ),
+              const SizedBox(width: AppSpacing.sm),
+              _NeonSendButton(onTap: _handleSend),
+            ],
           ),
-          const SizedBox(width: AppSpacing.sm),
-          _NeonIconButton(
-            icon: Icons.lightbulb_outline_rounded,
-            tooltip: 'Подсказки тем',
-            onTap: onSuggest,
-          ),
-          const SizedBox(width: AppSpacing.sm),
-          _NeonSendButton(onTap: onSend),
         ],
       ),
     );

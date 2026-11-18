@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:dreem_world/core/theme/index.dart';
+import 'package:dreem_world/core/widgets/index.dart';
 import 'package:dreem_world/features/chat/chat_screen.dart';
 import 'package:dreem_world/features/chat/conversations_list_screen.dart';
 
@@ -62,6 +63,24 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text(message), findsOneWidget);
+  });
+
+  testWidgets('ChatScreen вставляет смайлик в поле ввода', (
+    WidgetTester tester,
+  ) async {
+    await pumpChat(tester);
+
+    expect(find.byType(EmojiPicker), findsNothing);
+    await tester.tap(find.byIcon(Icons.emoji_emotions_outlined));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(EmojiPicker), findsOneWidget);
+
+    await tester.tap(find.text('😀'));
+    await tester.pumpAndSettle();
+
+    final TextField field = tester.widget<TextField>(find.byType(TextField));
+    expect(field.controller!.text, '😀');
   });
 
   testWidgets('ChatScreen показывает заблокированный видеовызов', (

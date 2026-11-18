@@ -1135,3 +1135,33 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   Android APK — успешно (iOS отменён), сайт задеплоен (`build.json` id
   `95adc1220641…`), APK пересобран (12:20:31Z). Бэкап-ветка
   `backup/chat-text-20261118` запушена в `origin`.
+
+### 30.20. Смайлики (эмодзи) в обоих чатах (18.11.2026)
+
+- **Задача.** В личном чате и в общем чате планеты дать возможность вставлять
+  смайлики. Сделать макет, внести изменения в локальную веб-версию; веб и Android
+  не публиковать до отдельного разрешения.
+- **Решение (без новых зависимостей).**
+  - Общий переиспользуемый виджет `app/lib/core/widgets/emoji_picker.dart`:
+    `EmojiPicker` — 8 категорий (Смайлы, Жесты, Сердца, Животные, Еда, Активности,
+    Природа, Транспорт) с переключателем-иконками сверху и сеткой эмодзи
+    (`GridView` + `SliverGridDelegateWithMaxCrossAxisExtent`), высота 244.
+    Плюс хелпер `insertEmoji(controller, emoji)` — вставляет эмодзи в позицию
+    курсора, заменяет выделение, иначе добавляет в конец и ставит курсор после
+    эмодзи. Экспортирован через `core/widgets/index.dart`.
+  - Оба поля ввода (`_InputBar` в `chat_screen.dart` и `planet_chat_screen.dart`)
+    переведены из `StatelessWidget` в `StatefulWidget` с локальным флагом
+    `_showEmoji`: панель эмодзи показывается над строкой ввода, закрывается при
+    повторном нажатии и при отправке. В личном чате кнопка `emoji_emotions_outlined`
+    добавлена рядом с «Подсказки тем»; в общем чате планеты — рядом с отправкой
+    (приватная `_EmojiButton`).
+- **Тесты.** `app/test/core/widgets/emoji_picker_test.dart` (3 юнита `insertEmoji`
+  + виджет-тест `EmojiPicker`); сценарии «вставляет смайлик в поле ввода» в
+  `chat_screen_test.dart` и `planet_chat_test.dart`.
+- **Проверки (18.11.2026).** `flutter analyze` — `No issues found`, `flutter test` —
+  **302 теста** (+6). Локальные сборки: полная веб-версия (`app/build/web`) и
+  макет-энтрипоинт (`app/lib/preview/emoji_preview.dart` → `app/build/preview_web`),
+  скриншот макета снят через headless Chrome.
+- **Доставка (18.11.2026).** Чтобы не пересобирать APK, изменения задеплоены на сайт
+  через `workflow_dispatch` веб-workflow (ветка `feat/firebase-auth-full`), без
+  push в `main`. Временные файлы макета удалены перед коммитом.
