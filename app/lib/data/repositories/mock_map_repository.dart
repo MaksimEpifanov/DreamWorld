@@ -73,6 +73,17 @@ class MockMapRepository implements MapRepository {
   }
 
   @override
+  Future<int> deleteSpotsByAuthor(Planet planet, String authorId) async {
+    if (authorId.isEmpty) return 0;
+    final List<MapSpot> spots = _spotsFor(planet);
+    final int before = spots.length;
+    spots.removeWhere((MapSpot spot) => spot.authorId == authorId);
+    final int removed = before - spots.length;
+    if (removed > 0) _emit(planet.id);
+    return removed;
+  }
+
+  @override
   void dispose() {
     for (final StreamController<List<MapSpot>> controller
         in _controllers.values) {

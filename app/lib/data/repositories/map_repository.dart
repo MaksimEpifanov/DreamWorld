@@ -18,6 +18,12 @@ abstract class MapRepository {
   /// Ставит ([liked] = `true`) или убирает лайк отметки.
   Future<void> setLike(Planet planet, String spotId, {required bool liked});
 
+  /// Удаляет все отметки автора [authorId] на карте планеты.
+  ///
+  /// Возвращает число удалённых отметок. В рабочей версии вызывается, когда на
+  /// автора накопилось больше 3 жалоб, и убирает его заметки у всех.
+  Future<int> deleteSpotsByAuthor(Planet planet, String authorId);
+
   /// Освобождает ресурсы (закрывает потоки в мок-режиме).
   void dispose();
 }

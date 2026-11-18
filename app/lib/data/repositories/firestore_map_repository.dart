@@ -119,5 +119,26 @@ class FirestoreMapRepository implements MapRepository {
   }
 
   @override
+  Future<int> deleteSpotsByAuthor(Planet planet, String authorId) async {
+    if (!_online || authorId.isEmpty) return 0;
+    try {
+      final QuerySnapshot<Map<String, dynamic>> snapshot = await _spots(planet.id)
+          .where('authorId', isEqualTo: authorId)
+          .get();
+      if (snapshot.docs.isEmpty) return 0;
+      final WriteBatch batch = _db.batch();
+      for (final QueryDocumentSnapshot<Map<String, dynamic>> doc
+          in snapshot.docs) {
+        batch.delete(doc.reference);
+      }
+      await batch.commit();
+      return snapshot.docs.length;
+    } catch (error) {
+      _logError(error);
+      return 0;
+    }
+  }
+
+  @override
   void dispose() {}
 }

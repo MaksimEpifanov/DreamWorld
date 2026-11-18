@@ -247,7 +247,8 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
     return name.isEmpty ? 'Вы' : name;
   }
 
-  /// Жалоба на автора отметки: после отправки все его заметки скрываются.
+  /// Жалоба на автора отметки: заметки скрываются у пожаловавшегося, а если
+  /// жалоб больше 3 — убираются у всех.
   Future<void> _reportSpot(MapSpot spot) async {
     Navigator.of(context).pop();
     final bool sent = await showReportSheet(
@@ -259,17 +260,45 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
       autoBlock: true,
     );
     if (!sent || !mounted) return;
+
+    int reports = 0;
+    try {
+      reports = await ref
+          .read(spotReportRepositoryProvider)
+          .registerReport(
+            authorId: spot.authorId,
+            authorName: spot.authorName,
+          );
+      if (shouldRemoveSpotsForEveryone(reports)) {
+        final List<Planet> planets = ref
+            .read(planetRepositoryProvider)
+            .getPlanets();
+        for (final Planet planet in planets) {
+          await ref
+              .read(mapRepositoryProvider)
+              .deleteSpotsByAuthor(planet, spot.authorId);
+        }
+      }
+    } catch (_) {
+      // Жалоба уже учтена локально; счётчик недоступен — не мешаем пользователю.
+    }
+    if (!mounted) return;
     ScaffoldMessenger.of(context)
       ..clearSnackBars()
       ..showSnackBar(
         SnackBar(
           content: Text(
-            'Жалоба отправлена. Заметки пользователя ${spot.authorName} скрыты.',
+            shouldRemoveSpotsForEveryone(reports)
+                ? 'Жалоб больше 3 — заметки пользователя ${spot.authorName} удалены для всех.'
+                : 'Жалоба отправлена. Заметки пользователя ${spot.authorName} скрыты.',
           ),
         ),
       );
   }
 }
+
+/// Порог жалоб: заметки автора убираются у всех, когда жалоб **больше 3**.
+bool shouldRemoveSpotsForEveryone(int reports) => reports > 3;
 
 /// Отметки, видимые пользователю: заметки заблокированных авторов скрываются.
 List<MapSpot> visibleMapSpots(

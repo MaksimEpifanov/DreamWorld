@@ -1029,28 +1029,43 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
   **274 теста**. Коммит, деплой и публикация правил — по отдельному разрешению.
 
-### 30.18. Жалоба на заметку карты и скрытие заметок автора (18.11.2026)
+### 30.18. Жалоба на заметку карты и удаление заметок автора (18.11.2026)
 
 - **Задача.** Карта открыта всем вошедшим, но если кто-то специально оставляет
   ложные заметки, на него можно пожаловаться и убрать все его заметки.
-- **Решение (выбрано пользователем — «скрывать только у меня»).**
+- **Решение (в два шага, уточнено пользователем).**
   - В карточке отметки появилась кнопка-флажок «Пожаловаться» (только для
     отметок других людей — не для своих и не для демо-отметок без автора).
   - Нажатие открывает обычную шторку жалобы (`ReportTarget.planetSpot`) с
     предустановленной блокировкой автора; подпись чекбокса —
     «Все его заметки на карте скроются».
-  - После жалобы автор блокируется, и **все его заметки скрываются у того, кто
-    пожаловался**. Другие пользователи продолжают видеть эти заметки. Правила
-    Firestore не менялись.
-  - Список блокировок (`SafetyController`) теперь сохраняется локально
-    (`shared_preferences`, ключ `blocked_users_<uid>`), поэтому скрытие действует
-    и после перезапуска. Фильтрация — чистая функция `visibleMapSpots`.
+  - **Шаг 1 (сразу):** автор блокируется, и **все его заметки скрываются у того,
+    кто пожаловался**. Список блокировок (`SafetyController`) сохраняется
+    локально (`shared_preferences`, ключ `blocked_users_<uid>`), поэтому скрытие
+    действует и после перезапуска. Фильтрация — чистая функция `visibleMapSpots`.
+  - **Шаг 2 (общий счётчик):** жалоба регистрируется в Firestore-документе
+    `spotReportCounters/{authorId}` (поля `count`, `reporters`) через транзакцию.
+    Один пользователь добавляется только один раз. Когда разных жалобщиков
+    становится **больше 3**, заметки автора удаляются на картах всех планет —
+    **у всех** (порог — чистая функция `shouldRemoveSpotsForEveryone`).
+  - **Правила Firestore.** Обновление `spotReportCounters` разрешено только
+    инкрементом на 1 со своим `uid` (нельзя накрутить в одиночку); удаление
+    чужой отметки разрешено при `count > 3`. **Требуется повторная публикация
+    правил.**
   - Файлы: `app/lib/features/safety/safety_controller.dart`,
     `app/lib/features/safety/widgets/report_sheet.dart` (параметр `autoBlock`),
     `app/lib/features/planets/map/planet_map_screen.dart`,
-    `app/lib/features/planets/map/widgets/spot_sheet.dart` (параметр `onReport`).
+    `app/lib/features/planets/map/widgets/spot_sheet.dart` (параметр `onReport`),
+    `app/lib/data/repositories/spot_report_repository.dart` и его реализации
+    (`firestore_spot_report_repository.dart`, `mock_spot_report_repository.dart`),
+    `map_repository.dart` / `firestore_map_repository.dart` /
+    `mock_map_repository.dart` (метод `deleteSpotsByAuthor`),
+    `app/lib/data/providers/planet_providers.dart`
+    (`spotReportRepositoryProvider`), `firebase/firestore.rules`.
 - **Тесты.** `app/test/features/planets/planet_map_test.dart` (скрытие заметок
-  заблокированного автора, кнопка жалобы в шторке),
-  `app/test/features/safety/safety_test.dart` (сохранение блокировок).
+  заблокированного автора, кнопка жалобы, счётчик по нескольким пользователям,
+  порог, `deleteSpotsByAuthor`), `app/test/features/safety/safety_test.dart`
+  (сохранение блокировок).
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
-  **278 тестов**. Коммит, деплой — по отдельному разрешению.
+  **283 теста**. Коммит, деплой и повторная публикация правил — по отдельному
+  разрешению.

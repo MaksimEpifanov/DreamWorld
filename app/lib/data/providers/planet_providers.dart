@@ -10,15 +10,18 @@ import '../models/planet_news.dart';
 import '../models/profile.dart';
 import '../repositories/firestore_map_repository.dart';
 import '../repositories/firestore_planet_event_repository.dart';
+import '../repositories/firestore_spot_report_repository.dart';
 import '../repositories/map_repository.dart';
 import '../repositories/mock_map_repository.dart';
 import '../repositories/mock_news_repository.dart';
 import '../repositories/mock_planet_event_repository.dart';
 import '../repositories/mock_planet_repository.dart';
+import '../repositories/mock_spot_report_repository.dart';
 import '../repositories/news_repository.dart';
 import '../repositories/planet_event_repository.dart';
 import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
+import '../repositories/spot_report_repository.dart';
 import '../services/firebase_bootstrap.dart';
 import 'app_providers.dart';
 import 'auth_providers.dart';
@@ -48,6 +51,18 @@ final Provider<MapRepository> mapRepositoryProvider = Provider<MapRepository>((
   ref.onDispose(repository.dispose);
   return repository;
 });
+
+/// Счётчик жалоб на авторов заметок карты.
+///
+/// В рабочей версии общий (Firestore), в мок-режиме — в памяти.
+final Provider<SpotReportRepository> spotReportRepositoryProvider =
+    Provider<SpotReportRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      if (isFirebaseInitialized) {
+        return FirestoreSpotReportRepository(currentUserId: currentUserId);
+      }
+      return MockSpotReportRepository(currentUserId: currentUserId);
+    });
 
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
