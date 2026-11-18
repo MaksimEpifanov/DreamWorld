@@ -57,7 +57,7 @@ void main() {
       );
       await tester.pump(const Duration(milliseconds: 300));
 
-      expect(find.text('Отправить отзыв'), findsOneWidget);
+      expect(find.text('Опубликовать отзыв'), findsOneWidget);
       expect(find.text('Отзывы участников'), findsOneWidget);
       expect(find.textContaining('Наконец-то место'), findsOneWidget);
     });

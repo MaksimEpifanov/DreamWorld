@@ -176,7 +176,7 @@ class _ReviewComposer extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.xs),
           NeonButton(
-            label: 'Отправить отзыв',
+            label: 'Опубликовать отзыв',
             icon: Icons.send_rounded,
             isLoading: sending,
             expanded: true,
