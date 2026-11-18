@@ -15,6 +15,7 @@ Future<bool> showReportSheet(
   required String targetId,
   required String targetName,
   required ReportTarget target,
+  bool autoBlock = false,
 }) async {
   final bool? result = await showModalBottomSheet<bool>(
     context: context,
@@ -25,6 +26,7 @@ Future<bool> showReportSheet(
       targetId: targetId,
       targetName: targetName,
       target: target,
+      autoBlock: autoBlock,
     ),
   );
   return result ?? false;
@@ -35,11 +37,15 @@ class _ReportSheet extends ConsumerStatefulWidget {
     required this.targetId,
     required this.targetName,
     required this.target,
+    this.autoBlock = false,
   });
 
   final String targetId;
   final String targetName;
   final ReportTarget target;
+
+  /// Всегда скрывать нарушителя после жалобы (например, для заметок на карте).
+  final bool autoBlock;
 
   @override
   ConsumerState<_ReportSheet> createState() => _ReportSheetState();
@@ -48,7 +54,7 @@ class _ReportSheet extends ConsumerStatefulWidget {
 class _ReportSheetState extends ConsumerState<_ReportSheet> {
   ReportReason? _reason;
   final TextEditingController _comment = TextEditingController();
-  bool _blockToo = false;
+  late bool _blockToo = widget.autoBlock;
 
   @override
   void dispose() {
@@ -69,7 +75,7 @@ class _ReportSheetState extends ConsumerState<_ReportSheet> {
           comment: _comment.text.trim(),
         );
 
-    if (_blockToo) {
+    if (_blockToo || widget.autoBlock) {
       ref.read(safetyProvider.notifier).block(
             userId: widget.targetId,
             name: widget.targetName,
@@ -150,10 +156,16 @@ class _ReportSheetState extends ConsumerState<_ReportSheet> {
             CheckboxListTile(
               contentPadding: EdgeInsets.zero,
               value: _blockToo,
-              onChanged: (bool? value) =>
-                  setState(() => _blockToo = value ?? false),
+              onChanged: widget.autoBlock
+                  ? null
+                  : (bool? value) =>
+                        setState(() => _blockToo = value ?? false),
               title: const Text('Также заблокировать пользователя'),
-              subtitle: const Text('Он исчезнет из подбора и чатов'),
+              subtitle: Text(
+                widget.autoBlock
+                    ? 'Все его заметки на карте скроются'
+                    : 'Он исчезнет из подбора и чатов',
+              ),
             ),
             const SizedBox(height: AppSpacing.sm),
             Text(

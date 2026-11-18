@@ -1,8 +1,11 @@
+import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../data/models/safety.dart';
+import '../../data/providers/app_providers.dart';
 
 /// Состояние системы безопасности: поданные жалобы и заблокированные.
 class SafetyState {
@@ -27,10 +30,67 @@ class SafetyState {
 /// Логика намеренно «демонстрационная»: жалобы с высокой серьёзностью
 /// мгновенно скрывают объект и получают статус «Принята», остальные —
 /// «На проверке». Реальный конвейер модераторов подключается позже.
+///
+/// Список заблокированных сохраняется локально ([storageKey]), чтобы заметки
+/// нарушителя оставались скрытыми и после перезапуска приложения.
 class SafetyController extends StateNotifier<SafetyState> {
-  SafetyController() : super(const SafetyState());
+  SafetyController({this.storageKey = ''}) : super(const SafetyState()) {
+    if (storageKey.isNotEmpty) {
+      _load();
+    }
+  }
 
   final Random _random = Random();
+
+  /// Ключ локального хранилища; пустой — не сохранять (например, в тестах).
+  final String storageKey;
+
+  Future<void> _load() async {
+    try {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      final String? raw = prefs.getString(storageKey);
+      if (raw == null || raw.isEmpty || !mounted) return;
+      final Object? decoded = jsonDecode(raw);
+      if (decoded is! List) return;
+      final List<BlockedUser> blocked = <BlockedUser>[
+        for (final Object? item in decoded)
+          if (item is Map) _blockedFromJson(item.cast<String, dynamic>()),
+      ];
+      if (blocked.isEmpty || !mounted) return;
+      state = state.copyWith(blocked: blocked);
+    } catch (_) {
+      // Локальное хранилище недоступно — работаем без сохранения.
+    }
+  }
+
+  Future<void> _persist() async {
+    if (storageKey.isEmpty) return;
+    try {
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      await prefs.setString(
+        storageKey,
+        jsonEncode(
+          state.blocked.map(_blockedToJson).toList(growable: false),
+        ),
+      );
+    } catch (_) {
+      // Не критично: блокировки применятся только на текущую сессию.
+    }
+  }
+
+  Map<String, dynamic> _blockedToJson(BlockedUser user) => <String, dynamic>{
+    'userId': user.userId,
+    'name': user.name,
+    'blockedAt': user.blockedAt.toIso8601String(),
+    if (user.reason != null) 'reason': user.reason,
+  };
+
+  BlockedUser _blockedFromJson(Map<String, dynamic> json) => BlockedUser(
+    userId: '${json['userId'] ?? ''}',
+    name: '${json['name'] ?? ''}',
+    blockedAt: DateTime.tryParse('${json['blockedAt'] ?? ''}') ?? DateTime.now(),
+    reason: json['reason'] is String ? json['reason'] as String : null,
+  );
 
   /// Подаёт жалобу. Возвращает созданную жалобу с итоговым статусом.
   Report submitReport({
@@ -87,6 +147,7 @@ class SafetyController extends StateNotifier<SafetyState> {
         ),
       ],
     );
+    _persist();
   }
 
   /// Снимает блокировку.
@@ -96,11 +157,14 @@ class SafetyController extends StateNotifier<SafetyState> {
           .where((BlockedUser b) => b.userId != userId)
           .toList(growable: false),
     );
+    _persist();
   }
 }
 
-/// Провайдер безопасности.
+/// Провайдер безопасности. Блокировки хранятся локально для текущего пользователя.
 final StateNotifierProvider<SafetyController, SafetyState> safetyProvider =
     StateNotifierProvider<SafetyController, SafetyState>(
-  (Ref ref) => SafetyController(),
-);
+      (Ref ref) => SafetyController(
+        storageKey: 'blocked_users_${ref.watch(currentUserIdProvider)}',
+      ),
+    );

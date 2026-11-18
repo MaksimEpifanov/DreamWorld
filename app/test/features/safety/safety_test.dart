@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/data/models/index.dart';
@@ -10,6 +11,7 @@ import 'package:dreem_world/features/safety/safety_center_screen.dart';
 import 'package:dreem_world/features/safety/safety_controller.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
   group('ИИ-модерация (заглушка)', () {
     const ModerationService moderation = MockModerationService();
 
@@ -91,6 +93,21 @@ void main() {
 
       controller.unblock('p_bad');
       expect(controller.state.isBlocked('p_bad'), isFalse);
+    });
+
+    test('блокировки сохраняются и восстанавливаются', () async {
+      SharedPreferences.setMockInitialValues(<String, Object>{});
+      final SafetyController first = SafetyController(storageKey: 'blocked_t');
+      first.block(userId: 'u_bad', name: 'Плохой', reason: 'Спам');
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      expect(prefs.getString('blocked_t'), isNotNull);
+
+      final SafetyController second = SafetyController(storageKey: 'blocked_t');
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+      expect(second.state.isBlocked('u_bad'), isTrue);
+      expect(second.state.blocked.single.name, 'Плохой');
     });
   });
 

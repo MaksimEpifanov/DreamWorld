@@ -9,8 +9,11 @@ import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
 import '../../../data/models/map_spot.dart';
 import '../../../data/models/planet.dart';
+import '../../../data/models/safety.dart';
 import '../../../data/providers/app_providers.dart';
 import '../../../data/providers/planet_providers.dart';
+import '../../safety/safety_controller.dart';
+import '../../safety/widgets/report_sheet.dart';
 import 'widgets/map_canvas.dart';
 import 'widgets/spot_sheet.dart';
 
@@ -45,9 +48,14 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
       );
     }
 
-    final List<MapSpot> spots =
+    final SafetyState safety = ref.watch(safetyProvider);
+    final List<MapSpot> allSpots =
         ref.watch(planetMapSpotsProvider(widget.planetId)).valueOrNull ??
         const <MapSpot>[];
+    final List<MapSpot> spots = visibleMapSpots(
+      allSpots,
+      safety.blocked.map((BlockedUser user) => user.userId).toSet(),
+    );
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -75,21 +83,27 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
                     },
                     onSpotTap: (MapSpot spot) {
                       setState(() => _selectedId = spot.id);
+                      final String currentUserId = ref.read(
+                        currentUserIdProvider,
+                      );
                       showSpotSheet(
                         context,
                         spot: spot,
                         planet: planet,
-                        liked: spot.isLikedBy(
-                          ref.read(currentUserIdProvider),
-                        ),
+                        liked: spot.isLikedBy(currentUserId),
                         authorName: _authorName(),
-                        authorId: ref.read(currentUserIdProvider),
+                        authorId: currentUserId,
                         onCommentAdded: (MapComment comment) => ref
                             .read(mapRepositoryProvider)
                             .addComment(planet, spot.id, comment),
                         onLikeToggled: (bool liked) => ref
                             .read(mapRepositoryProvider)
                             .setLike(planet, spot.id, liked: liked),
+                        onReport:
+                            spot.authorId.isNotEmpty &&
+                                spot.authorId != currentUserId
+                            ? () => _reportSpot(spot)
+                            : null,
                       );
                     },
                   ),
@@ -232,7 +246,41 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
         ref.read(currentProfileProvider).valueOrNull?.name.trim() ?? '';
     return name.isEmpty ? 'Вы' : name;
   }
+
+  /// Жалоба на автора отметки: после отправки все его заметки скрываются.
+  Future<void> _reportSpot(MapSpot spot) async {
+    Navigator.of(context).pop();
+    final bool sent = await showReportSheet(
+      context,
+      ref,
+      targetId: spot.authorId,
+      targetName: spot.authorName,
+      target: ReportTarget.planetSpot,
+      autoBlock: true,
+    );
+    if (!sent || !mounted) return;
+    ScaffoldMessenger.of(context)
+      ..clearSnackBars()
+      ..showSnackBar(
+        SnackBar(
+          content: Text(
+            'Жалоба отправлена. Заметки пользователя ${spot.authorName} скрыты.',
+          ),
+        ),
+      );
+  }
 }
+
+/// Отметки, видимые пользователю: заметки заблокированных авторов скрываются.
+List<MapSpot> visibleMapSpots(
+  List<MapSpot> spots,
+  Set<String> blockedAuthorIds,
+) => spots
+    .where(
+      (MapSpot spot) =>
+          spot.authorId.isEmpty || !blockedAuthorIds.contains(spot.authorId),
+    )
+    .toList(growable: false);
 
 /// Короткая шапка карты: название, число отметок и теги интересов планеты.
 class _MapIntro extends StatelessWidget {

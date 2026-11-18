@@ -15,6 +15,7 @@ Future<void> showSpotSheet(
   required String authorId,
   required ValueChanged<MapComment> onCommentAdded,
   required ValueChanged<bool> onLikeToggled,
+  VoidCallback? onReport,
 }) {
   return showModalBottomSheet<void>(
     context: context,
@@ -28,6 +29,7 @@ Future<void> showSpotSheet(
       authorId: authorId,
       onCommentAdded: onCommentAdded,
       onLikeToggled: onLikeToggled,
+      onReport: onReport,
     ),
   );
 }
@@ -41,6 +43,7 @@ class _SpotSheet extends StatefulWidget {
     required this.authorId,
     required this.onCommentAdded,
     required this.onLikeToggled,
+    this.onReport,
   });
 
   final MapSpot spot;
@@ -50,6 +53,9 @@ class _SpotSheet extends StatefulWidget {
   final String authorId;
   final ValueChanged<MapComment> onCommentAdded;
   final ValueChanged<bool> onLikeToggled;
+
+  /// Жалоба на автора отметки (если это отметка другого человека).
+  final VoidCallback? onReport;
 
   @override
   State<_SpotSheet> createState() => _SpotSheetState();
@@ -164,6 +170,15 @@ class _SpotSheetState extends State<_SpotSheet> {
                         ],
                       ),
                     ),
+                    if (widget.onReport != null)
+                      IconButton(
+                        tooltip: 'Пожаловаться',
+                        onPressed: widget.onReport,
+                        icon: Icon(
+                          Icons.flag_outlined,
+                          color: Theme.of(context).colorScheme.error,
+                        ),
+                      ),
                   ],
                 ),
                 const SizedBox(height: AppSpacing.md),
