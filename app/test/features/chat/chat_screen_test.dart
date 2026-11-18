@@ -6,6 +6,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:dreem_world/core/theme/index.dart';
 import 'package:dreem_world/core/widgets/index.dart';
+import 'package:dreem_world/data/providers/app_providers.dart';
+import 'package:dreem_world/data/services/call_service.dart';
 import 'package:dreem_world/features/chat/chat_screen.dart';
 import 'package:dreem_world/features/chat/conversations_list_screen.dart';
 
@@ -83,16 +85,44 @@ void main() {
     expect(field.controller!.text, '😀');
   });
 
-  testWidgets('ChatScreen показывает заблокированный видеовызов', (
+  testWidgets('ChatScreen запускает звонок из листа звонка', (
     WidgetTester tester,
   ) async {
-    await pumpChat(tester);
+    tester.view.physicalSize = const Size(1200, 2400);
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
 
-    expect(find.byIcon(Icons.videocam_outlined), findsOneWidget);
-    await tester.tap(find.byIcon(Icons.videocam_outlined));
+    final _FakeCallService calls = _FakeCallService();
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: <Override>[callServiceProvider.overrideWithValue(calls)],
+        child: MaterialApp(
+          theme: AppTheme.of(AppThemeName.neonViolet),
+          home: const ChatScreen(conversationId: 'c_anna'),
+        ),
+      ),
+    );
     await tester.pumpAndSettle();
 
-    expect(find.text('Видеозвонки закрыты'), findsOneWidget);
+    expect(find.byIcon(Icons.call_outlined), findsOneWidget);
+    expect(find.byIcon(Icons.videocam_outlined), findsOneWidget);
+
+    await tester.tap(find.byIcon(Icons.videocam_outlined));
+    await tester.pumpAndSettle();
+    expect(find.text('Видеозвонок'), findsOneWidget);
+
+    await tester.tap(find.text('Видеозвонок'));
+    await tester.pumpAndSettle();
+    expect(calls.started, isTrue);
+    expect(calls.video, isTrue);
+    expect(calls.room, 'DreamWorld-c_anna');
+
+    await tester.tap(find.byIcon(Icons.call_outlined));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Аудиозвонок'));
+    await tester.pumpAndSettle();
+    expect(calls.video, isFalse);
   });
 
   testWidgets('ChatScreen открывает профиль собеседника по нажатию на имя', (
@@ -162,4 +192,27 @@ void main() {
     expect(find.text('По интересам'), findsOneWidget);
     expect(find.text('Непрочитанные'), findsOneWidget);
   });
+}
+
+class _FakeCallService implements CallService {
+  bool started = false;
+  bool? video;
+  String? room;
+  String? displayName;
+
+  @override
+  String roomUrl(String room) => 'https://meet.jit.si/$room';
+
+  @override
+  Future<bool> startCall({
+    required String room,
+    required String displayName,
+    bool video = true,
+  }) async {
+    started = true;
+    this.video = video;
+    this.room = room;
+    this.displayName = displayName;
+    return true;
+  }
 }

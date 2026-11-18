@@ -41,7 +41,7 @@ class PlanetDetailScreen extends ConsumerWidget {
     ScaffoldMessenger.of(context)
       ..clearSnackBars()
       ..showSnackBar(
-        SnackBar(content: Text('Вы присоединились к «${planet.name}»')),
+        SnackBar(content: Text('Вы присоединились к «${planet.displayName}»')),
       );
   }
 
@@ -66,7 +66,9 @@ class PlanetDetailScreen extends ConsumerWidget {
     if (!context.mounted) return;
     ScaffoldMessenger.of(context)
       ..clearSnackBars()
-      ..showSnackBar(SnackBar(content: Text('Вы покинули «${planet.name}»')));
+      ..showSnackBar(
+        SnackBar(content: Text('Вы покинули «${planet.displayName}»')),
+      );
   }
 
   @override
@@ -99,7 +101,7 @@ class PlanetDetailScreen extends ConsumerWidget {
       backgroundColor: Colors.transparent,
       extendBodyBehindAppBar: true,
       appBar: NeonAppBar(
-        title: planet.name,
+        title: planet.displayName,
         leading: BackButton(onPressed: () => context.go('/main')),
       ),
       body: Stack(
@@ -235,7 +237,7 @@ class _PlanetHeader extends StatelessWidget {
         _HeroOrb(planet: planet),
         const SizedBox(height: AppSpacing.lg),
         Text(
-              planet.name,
+              planet.displayName,
               style: AppTextStyles.display(),
               textAlign: TextAlign.center,
             )

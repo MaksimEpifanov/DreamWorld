@@ -1170,3 +1170,111 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   Сайт: `build.json` id `490f1712…`. APK пересобран и опубликован в релизе
   `v1.1.0` (`app-release.apk`, sha256 `321aacc7…`, ~66,6 МБ). Временные файлы
   макета удалены перед коммитом.
+
+### 30.21. Аудио- и видеозвонки: Jitsi MVP (18.11.2026)
+
+- **Задача.** Добавить возможность аудио- и видеозвонков в приложении и на веб-версии.
+- **Выбор варианта.** Рассмотрены бесплатные решения: Jitsi Meet, LiveKit Cloud
+  (Build — $0 без карты, 5 000 WebRTC-минут/мес), Agora RTC (10 000 мин/мес),
+  свой WebRTC на `flutter_webrtc` + сигналинг на Firestore + TURN. Выбран **Jitsi MVP**
+  как самый быстрый путь без карты, ключей и своего сервера. Факты: с 09.10.2026
+  публичный `meet.jit.si` ограничивает встречи 95 минутами; пакет
+  `jitsi_meet_flutter_sdk` **веб не поддерживает** (только Android/iOS).
+- **Решение (без новых зависимостей).** Использован уже подключённый `url_launcher`:
+  звонок открывается в Jitsi Meet — на веб в новой вкладке, на Android/iOS во внешнем
+  браузере/приложении Jitsi. Осознанный отказ от нативного встроенного экрана звонка
+  (SDK) в этом инкременте, чтобы не ломать CI (потребовались бы `minSdk 24`,
+  `Podfile`, ProGuard, `tools:replace="android:label"`).
+  - `app/lib/data/services/call_service.dart` — `CallService` (интерфейс) и
+    `JitsiCallService` (`roomUrl(room)`, `startCall({room, displayName, video})`).
+    Ссылка формируется с `#userInfo.displayName=…` и
+    `config.startWithVideoMuted=${!video}`. Экспортирован через `data/services/index.dart`.
+  - `app/lib/core/widgets/call_sheet.dart` — `showCallSheet(context, {title, roomUrl,
+    onStart})`: нижний лист с кнопками «Аудиозвонок», «Видеозвонок» и
+    «Скопировать ссылку». Экспортирован через `core/widgets/index.dart`.
+  - Провайдер `callServiceProvider` в `app/lib/data/providers/app_providers.dart`.
+  - **Комнаты:** личный чат — `DreamWorld-<conversationId>`, планета —
+    `DreamWorld-planet-<planetId>` (детерминированно, обе стороны попадают в одну комнату).
+  - `chat_screen.dart`: вместо заглушки `_showVideoCallLocked` — реальный звонок;
+    в AppBar кнопки `Icons.call_outlined` (аудио) и `Icons.videocam_outlined` (видео).
+  - `planet_chat_screen.dart`: те же кнопки в AppBar, `_callRoom`, `_openCallSheet`.
+- **Тесты.** `app/test/data/services/call_service_test.dart` (2 юнита `roomUrl`);
+  сценарий запуска звонка из листа в `chat_screen_test.dart` (фейк `_FakeCallService`,
+  проверяются аудио и видео) и в `planet_chat_test.dart` (комната планеты).
+- **Проверки (18.11.2026).** `flutter analyze` — `No issues found`, `flutter test` —
+  **305 тестов** (+3). Локальная сборка макета-энтрипоинта
+  (`app/lib/preview_call_sheet.dart` → `app/build/preview_calls`), скриншот снят через
+  headless Chrome. Временные файлы макета удалены.
+- **Ограничения.** Звонок работает, только когда у собеседника открыто приложение/сайт
+  (входящих push-уведомлений в фоне пока нет). На iOS `iosAppId` пуст → мок-режим,
+  для реальных звонков нужен iOS-апп в Firebase + APNs. Встроенный экран звонка (SDK)
+  и push-входящие — отдельный следующий шаг.
+
+### 30.22. Названия планет с большой буквы (18.11.2026)
+
+- **Задача.** Сделать названия планет с большой буквы (пример: «Рыбалки») и на
+  веб-версии, и в Android-сборке.
+- **Причина.** Названия хранятся как «Планета рыбалки», а подписи под планетами
+  показывали слово без префикса и в нижнем регистре — «рыбалки».
+- **Решение (без новых зависимостей).** В модели `Planet` добавлены геттеры:
+  - `shortName` — убирает префикс «Планета » и поднимает первую букву
+    («Планета рыбалки» → «Рыбалки», «Планета «Микс»» → ««Микс»»);
+  - `displayName` — полное название с большой буквы («Планета рыбалки» →
+    «Планета Рыбалки»); для названий без префикса возвращается как есть
+    («Клуб чтения»).
+- **Где применено.**
+  - Подписи: `app/lib/features/planets/cosmos/orbital_catalog.dart` и
+    `app/lib/features/planets/home/widgets/galactic_home_system.dart` — `shortName`.
+  - Полные названия: карточка `home/widgets/planet_card.dart`, `home/widgets/solar_system.dart`,
+    экран планеты `detail/planet_detail_screen.dart`, заголовки
+    «Новости/Карта/События/Чат» (`news/planet_news_screen.dart`,
+    `map/planet_map_screen.dart`, `events/planet_events_screen.dart`,
+    `chat/planet_chat_screen.dart`), а также `mock_planet_event_repository.dart`.
+- **Тесты.** `app/test/features/planets/planets_test.dart`, группа `Planet: названия`
+  (`shortName` и `displayName`).
+- **Проверки (18.11.2026).** `flutter analyze` — `No issues found`, `flutter test` —
+  **311 тестов**.
+
+### 30.23. Локальные звуковые уведомления о новых сообщениях (18.11.2026)
+
+- **Задача.** На телефоне не приходил звук/баннер при новом сообщении. Системы
+  уведомлений в приложении не было вовсе (был только внутренний список и бейдж,
+  раздел 30.17).
+- **Выбор варианта.** Полный push (FCM) требует сервера-отправителя (Firebase Blaze
+  с картой или бесплатный воркер) и отклонён на этом этапе. Выбраны **локальные
+  уведомления** (`flutter_local_notifications`): бесплатно, без сервера, звук и баннер,
+  пока приложение запущено (в том числе свёрнуто).
+- **Решение.**
+  - Новая зависимость `flutter_local_notifications: ^23.0.3` (требует Flutter ≥3.44 —
+    есть 3.47.7).
+  - `app/lib/data/services/notification_service.dart` — интерфейс `NotificationService`
+    (`initialize`, `showMessageNotification`, `cancelAll`) и фабрика
+    `createNotificationService()`. Реализация подключается условным импортом:
+    `notification_service_io.dart` (Android/iOS, плагин) и `notification_service_stub.dart`
+    (веб — заглушка). Так `dart:io`-код плагина не попадает в веб-сборку.
+  - `notification_service_io.dart` — `LocalNotificationService`: канал `dreem_messages`
+    (`Importance.max`, звук, вибрация), иконка `@mipmap/ic_launcher`, разрешения
+    (Android `requestNotificationsPermission`, iOS `requestPermissions`). В тестах плагин
+    не зарегистрирован — инициализация аккуратно пропускается.
+  - Провайдеры в `app/lib/data/providers/app_providers.dart`:
+    `localNotificationServiceProvider` и `appLifecycleStateProvider` (состояние
+    «передний план/фон», вынесено отдельно для тестируемости).
+  - `app/lib/features/notifications/chat_notification_listener.dart` —
+    `ChatNotificationListener`: слушает `conversationsProvider`, запоминает уже
+    виденные сообщения (первый снимок не уведомляет), и при новом входящем сообщении
+    в фоне показывает уведомление со звуком (имя отправителя берётся из анкет,
+    иначе «Новое сообщение»). Подключён поверх `MaterialApp.router` в `app.dart`.
+- **Android-настройка.** `compileSdk = 37`, `multiDexEnabled`, core-library desugaring
+  (`desugar_jdk_libs:2.1.4`), AGP `9.1.1` в `settings.gradle.kts`, `res/raw/keep.xml`
+  (чтобы R8 не выбросил иконку уведомления). Права `POST_NOTIFICATIONS`/`VIBRATE`
+  приходят из манифеста плагина.
+- **Тесты.** `app/test/features/notifications/chat_notification_listener_test.dart`
+  (4 виджет-теста: уведомление в фоне, отсутствие уведомления на переднем плане,
+  игнор своих сообщений и повторов, имя отправителя в заголовке).
+- **Проверки (18.11.2026).** `flutter analyze` — `No issues found`, `flutter test` —
+  **311 тестов**; `flutter build web --release --base-href "/DreamWorld/"` — успешно
+  (веб собирается без плагина). Android-сборка проверяется только в GitHub Actions.
+- **Ограничения.** Уведомление приходит, только пока приложение запущено (в том числе
+  свёрнуто). Если приложение полностью закрыто/выгружено системой — уведомления нет
+  (нужен серверный push, отдельный следующий шаг). Уведомляются только личные чаты;
+  общие чаты планет — не уведомляются. На веб локальные уведомления не используются.

@@ -291,7 +291,7 @@ class _PlanetLabel extends StatelessWidget {
         ),
       ),
       child: Text(
-        planet.name.replaceFirst('Планета ', ''),
+        planet.shortName,
         maxLines: 1,
         overflow: TextOverflow.ellipsis,
         textAlign: TextAlign.center,

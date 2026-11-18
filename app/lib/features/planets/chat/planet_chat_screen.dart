@@ -10,6 +10,7 @@ import '../../../data/models/planet.dart';
 import '../../../data/models/planet_chat_message.dart';
 import '../../../data/providers/app_providers.dart';
 import '../../../data/providers/planet_providers.dart';
+import '../../../data/services/call_service.dart';
 import '../../../data/services/moderation_service.dart';
 import '../../chat/widgets/message_bubble.dart';
 
@@ -43,6 +44,26 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
     final String name =
         ref.read(currentProfileProvider).valueOrNull?.name.trim() ?? '';
     return name.isEmpty ? 'Пользователь' : name;
+  }
+
+  String get _callRoom => 'DreamWorld-planet-${widget.planetId}';
+
+  Future<bool> _startCall({required bool video}) {
+    return ref
+        .read(callServiceProvider)
+        .startCall(room: _callRoom, displayName: _senderName, video: video);
+  }
+
+  void _openCallSheet() {
+    final CallService service = ref.read(callServiceProvider);
+    final String name =
+        ref.read(planetByIdProvider(widget.planetId))?.displayName ?? 'планета';
+    showCallSheet(
+      context,
+      title: name,
+      roomUrl: service.roomUrl(_callRoom),
+      onStart: (bool video) => _startCall(video: video),
+    );
   }
 
   Future<void> _send() async {
@@ -137,11 +158,24 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
 
     return Scaffold(
       appBar: NeonAppBar(
-        title: 'Чат · ${planet?.name ?? 'планета'}',
+        title: 'Чат · ${planet?.displayName ?? 'планета'}',
         leading: BackButton(
           onPressed: () =>
               context.go('/main/planet/${widget.planetId}'),
         ),
+        actions: <Widget>[
+          IconButton(
+            tooltip: 'Аудиозвонок',
+            icon: const Icon(Icons.call_outlined),
+            onPressed: _openCallSheet,
+          ),
+          IconButton(
+            tooltip: 'Видеозвонок',
+            icon: const Icon(Icons.videocam_outlined),
+            onPressed: _openCallSheet,
+          ),
+          const SizedBox(width: AppSpacing.xs),
+        ],
       ),
       body: SafeArea(
         child: ResponsiveContent(

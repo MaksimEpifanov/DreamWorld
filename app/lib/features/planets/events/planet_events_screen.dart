@@ -56,7 +56,7 @@ class _PlanetEventsScreenState extends ConsumerState<PlanetEventsScreen> {
 
     return Scaffold(
       appBar: NeonAppBar(
-        title: 'События · ${planet.name}',
+        title: 'События · ${planet.displayName}',
         leading: BackButton(
           onPressed: () => context.go('/main/planet/${planet.id}'),
         ),

@@ -2,6 +2,7 @@ export 'animated_gradient_background.dart';
 export 'animated_press.dart';
 export 'app_bar.dart';
 export 'aura_avatar.dart';
+export 'call_sheet.dart';
 export 'compatibility_ring.dart';
 export 'cosmic_background.dart';
 export 'emoji_picker.dart';

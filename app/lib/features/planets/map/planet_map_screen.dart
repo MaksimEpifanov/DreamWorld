@@ -59,7 +59,7 @@ class _PlanetMapScreenState extends ConsumerState<PlanetMapScreen> {
 
     return Scaffold(
       appBar: NeonAppBar(
-        title: 'Карта · ${planet.name}',
+        title: 'Карта · ${planet.displayName}',
         leading: BackButton(
           onPressed: () => context.go('/main/planet/${planet.id}'),
         ),

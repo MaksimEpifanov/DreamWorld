@@ -179,7 +179,7 @@ class _OrbitPlanetState extends State<_OrbitPlanet>
               ],
             ),
             child: Text(
-              widget.planet.name,
+              widget.planet.displayName,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,

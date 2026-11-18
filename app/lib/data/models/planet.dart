@@ -70,6 +70,23 @@ class Planet {
   /// Ключевые интересы планеты (по ним подбираются участники).
   final List<String> keywords;
 
+  /// Короткое название для подписей: без слова «Планета» и с большой буквы.
+  String get shortName {
+    final String base = name.startsWith(_planetPrefix)
+        ? name.substring(_planetPrefix.length)
+        : name;
+    final int index = base.indexOf(_firstLetter);
+    if (index < 0) return base;
+    return base.replaceRange(index, index + 1, base[index].toUpperCase());
+  }
+
+  /// Полное название с большой буквы: «Планета рыбалки» → «Планета Рыбалки».
+  String get displayName =>
+      name.startsWith(_planetPrefix) ? '$_planetPrefix$shortName' : name;
+
+  static const String _planetPrefix = 'Планета ';
+  static final RegExp _firstLetter = RegExp(r'[A-Za-zА-Яа-яЁё]');
+
   /// Копия планеты с изменёнными полями.
   Planet copyWith({int? memberCount}) => Planet(
     id: id,

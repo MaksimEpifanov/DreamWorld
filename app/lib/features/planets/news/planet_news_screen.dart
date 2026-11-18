@@ -37,7 +37,7 @@ class PlanetNewsScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: NeonAppBar(
-        title: 'Новости · ${planet.name}',
+        title: 'Новости · ${planet.displayName}',
         leading: BackButton(
           onPressed: () => context.go('/main/planet/${planet.id}'),
         ),

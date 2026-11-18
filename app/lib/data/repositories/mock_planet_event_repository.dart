@@ -155,7 +155,7 @@ class MockPlanetEventRepository implements PlanetEventRepository {
   /// Демонстрационные события для мок-режима (в рабочей версии их нет).
   List<PlanetEvent> _demo(Planet planet) {
     final String keyword = planet.keywords.isEmpty
-        ? planet.name
+        ? planet.displayName
         : planet.keywords.first;
     final DateTime now = DateTime.now();
     final String date = _dateString(now.add(const Duration(days: 5)));

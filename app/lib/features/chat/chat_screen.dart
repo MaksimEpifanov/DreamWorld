@@ -8,6 +8,7 @@ import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
 import '../../../data/models/index.dart';
 import '../../../data/providers/app_providers.dart';
+import '../../../data/services/call_service.dart';
 import '../../../data/services/mock_ai_service.dart';
 import '../../../data/services/moderation_service.dart';
 import '../../../data/services/translation_service.dart';
@@ -262,36 +263,29 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     });
   }
 
-  void _showVideoCallLocked(BuildContext context) {
-    showDialog<void>(
-      context: context,
-      builder: (BuildContext context) => AlertDialog(
-        backgroundColor: AppColors.surface,
-        title: Row(
-          children: <Widget>[
-            Icon(
-              Icons.videocam_off_outlined,
-              color: Theme.of(context).colorScheme.primary,
-            ),
-            const SizedBox(width: AppSpacing.sm),
-            const Expanded(child: Text('Видеозвонки закрыты')),
-          ],
-        ),
-        content: Text(
-          'Видеовызов откроется после повышения уровня аккаунта '
-          'и настройки безопасности. Продолжайте общаться текстом.',
-          style: AppTextStyles.body(color: AppColors.textSecondary),
-        ),
-        actions: <Widget>[
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Понятно'),
-          ),
-        ],
-      ),
-    );
+  String get _callRoom => 'DreamWorld-${widget.conversationId}';
+
+  String get _myName {
+    final String name =
+        ref.read(currentProfileProvider).valueOrNull?.name.trim() ?? '';
+    return name.isEmpty ? 'Пользователь' : name;
   }
 
+  Future<bool> _startCall({required bool video}) {
+    return ref
+        .read(callServiceProvider)
+        .startCall(room: _callRoom, displayName: _myName, video: video);
+  }
+
+  void _openCallSheet() {
+    final CallService service = ref.read(callServiceProvider);
+    showCallSheet(
+      context,
+      title: _otherName,
+      roomUrl: service.roomUrl(_callRoom),
+      onStart: (bool video) => _startCall(video: video),
+    );
+  }
   @override
   Widget build(BuildContext context) {
     final AsyncValue<List<Message>> messagesAsync = ref.watch(
@@ -352,9 +346,14 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
         ),
         actions: <Widget>[
           IconButton(
+            tooltip: 'Аудиозвонок',
+            icon: const Icon(Icons.call_outlined),
+            onPressed: _openCallSheet,
+          ),
+          IconButton(
             tooltip: 'Видеозвонок',
             icon: const Icon(Icons.videocam_outlined),
-            onPressed: () => _showVideoCallLocked(context),
+            onPressed: _openCallSheet,
           ),
           IconButton(
             tooltip: 'Пожаловаться',

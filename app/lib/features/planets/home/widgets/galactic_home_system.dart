@@ -792,7 +792,7 @@ class _GalaxyPlanet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final String title = planet.name.replaceFirst('Планета ', '');
+    final String title = planet.shortName;
     final String count = _formatCount(planet.memberCount);
     return Semantics(
       button: true,

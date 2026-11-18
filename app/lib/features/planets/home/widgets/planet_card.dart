@@ -71,7 +71,7 @@ class _PlanetCardState extends State<PlanetCard> {
                 ),
                 const SizedBox(height: AppSpacing.sm),
                 Text(
-                  planet.name,
+                  planet.displayName,
                   style: AppTextStyles.title().copyWith(
                     shadows: <Shadow>[
                       Shadow(

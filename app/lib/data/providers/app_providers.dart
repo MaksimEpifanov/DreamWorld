@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -16,10 +17,12 @@ import '../repositories/mock_profile_repository.dart';
 import '../repositories/profile_repository.dart';
 import '../repositories/relationship_status_repository.dart';
 import '../services/ai_service.dart';
+import '../services/call_service.dart';
 import '../services/firebase_bootstrap.dart';
 import '../services/mock_ai_service.dart';
 import '../services/mock_realtime_service.dart';
 import '../services/mock_translation_service.dart';
+import '../services/notification_service.dart';
 import '../services/realtime_service.dart';
 import '../services/translation_service.dart';
 import '../services/user_code.dart';
@@ -51,6 +54,27 @@ final Provider<AiService> aiServiceProvider = Provider<AiService>(
 /// Сервис автоперевода.
 final Provider<TranslationService> translationServiceProvider =
     Provider<TranslationService>((Ref ref) => const MockTranslationService());
+
+/// Сервис звонков (Jitsi Meet).
+final Provider<CallService> callServiceProvider = Provider<CallService>(
+  (Ref ref) => const JitsiCallService(),
+);
+
+/// Сервис локальных уведомлений (звук и баннер о новых сообщениях).
+final Provider<NotificationService> localNotificationServiceProvider =
+    Provider<NotificationService>(
+      (Ref ref) => createNotificationService(),
+    );
+
+/// Состояние жизненного цикла приложения: передний план или фон.
+///
+/// Обновляется наблюдателем в [ChatNotificationListener]. Вынесено в провайдер,
+/// чтобы уведомления можно было включать только в фоне и тестировать это.
+final StateProvider<AppLifecycleState> appLifecycleStateProvider =
+    StateProvider<AppLifecycleState>(
+      (Ref ref) =>
+          WidgetsBinding.instance.lifecycleState ?? AppLifecycleState.resumed,
+    );
 
 /// Репозиторий профилей.
 final Provider<ProfileRepository> profileRepositoryProvider =

@@ -23,6 +23,27 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  group('Planet: названия', () {
+    test('shortName убирает слово «Планета» и делает первую букву большой', () {
+      const MockPlanetRepository repository = MockPlanetRepository();
+
+      expect(repository.byId('p_fishing')!.shortName, 'Рыбалки');
+      expect(repository.byId('p_travel')!.shortName, 'Путешествий');
+      expect(repository.byId('p_cinema')!.shortName, 'Кино');
+      expect(repository.byId('p_reading')!.shortName, 'Клуб чтения');
+      expect(repository.byId('p_other')!.shortName, '«Микс»');
+    });
+
+    test('displayName делает большую букву в полном названии', () {
+      const MockPlanetRepository repository = MockPlanetRepository();
+
+      expect(repository.byId('p_fishing')!.displayName, 'Планета Рыбалки');
+      expect(repository.byId('p_travel')!.displayName, 'Планета Путешествий');
+      expect(repository.byId('p_reading')!.displayName, 'Клуб чтения');
+      expect(repository.byId('p_other')!.displayName, 'Планета «Микс»');
+    });
+  });
+
   group('Планеты', () {
     test('каталог планет не пуст и содержит ключевые сообщества', () {
       final ProviderContainer container = ProviderContainer();
