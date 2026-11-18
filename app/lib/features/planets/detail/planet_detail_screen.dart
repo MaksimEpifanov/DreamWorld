@@ -161,6 +161,16 @@ class PlanetDetailScreen extends ConsumerWidget {
                     onPressed: () =>
                         context.go('/main/planet/${planet.id}/map'),
                   ),
+                  const SizedBox(height: AppSpacing.sm),
+                  NeonButton(
+                    label: 'Чат сообщества',
+                    icon: Icons.forum_outlined,
+                    variant: NeonButtonVariant.outlined,
+                    expanded: true,
+                    color: planet.secondary,
+                    onPressed: () =>
+                        context.go('/main/planet/${planet.id}/chat'),
+                  ),
                   const SizedBox(height: AppSpacing.lg),
                   PlanetEventsSection(planet: planet),
                   const SizedBox(height: AppSpacing.lg),

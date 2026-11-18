@@ -1069,3 +1069,41 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
   **283 теста**. Коммит, деплой и повторная публикация правил — по отдельному
   разрешению.
+
+### 30.19. Общий чат сообщества планеты (18.11.2026)
+
+- **Задача.** В каждую планету добавить **общий чат сообщества**, где в онлайн-
+  режиме люди пишут сообщения, все участники планеты их видят и могут отвечать.
+- **Решение.**
+  - Новый чат на планету: `planets/{planetId}/chat/{messageId}`. Это **не** личные
+    диалоги (`conversations` требует ровно двух участников) — здесь чат общий и
+    открыт всем вошедшим.
+  - Модель `app/lib/data/models/planet_chat_message.dart` — простая (без freezed),
+    поля `id`, `senderId`, `senderName`, `text`, `createdAt`. Метод `toMessage()`
+    переводит её в обычный `Message`, чтобы переиспользовать пузырь чата
+    (`MessageBubble`) без дублирования оформления. Время хранится строкой
+    ISO-8601 — сортировка по строке совпадает с сортировкой по дате.
+  - Репозитории `planet_chat_repository.dart` (интерфейс),
+    `firestore_planet_chat_repository.dart` (живой поток `snapshots`),
+    `mock_planet_chat_repository.dart` (память + демо-сообщения только в режиме
+    без Firebase). Имя отправителя сохраняется вместе с сообщением, чтобы его
+    видели все.
+  - Провайдеры `planetChatRepositoryProvider` (Firestore или мок по
+    `isFirebaseInitialized`) и `planetChatMessagesProvider`
+    (`StreamProvider.family` по `planetId`) в `planet_providers.dart`.
+  - Экран `app/lib/features/planets/chat/planet_chat_screen.dart`: шапка-пояснение
+    «Общий чат. Сообщения видят все участники планеты», живой список сообщений с
+    именем отправителя у чужих сообщений, поле ввода с неоновой кнопкой отправки,
+    ИИ-фильтр текста (модерация) и авто-прокрутка к последнему сообщению.
+  - Маршрут `/main/planet/:id/chat` (`planet-chat`) в `app_router.dart`; кнопка
+    «Чат сообщества» на экране планеты (`planet_detail_screen.dart`) рядом с
+    «Карта планеты».
+- **Правила Firestore.** Добавлен блок `planets/{planetId}/chat/{messageId}`:
+  чтение — любой вошедший; создание — от своего имени
+  (`senderId == request.auth.uid`); изменение — запрещено; удаление — только своё.
+  **Требуется публикация правил** в Firebase Console.
+- **Тесты.** `app/test/features/planets/planet_chat_test.dart` (сериализация
+  модели и `toMessage`; мок-репозиторий: сид и отправка; экран: пояснение,
+  сообщения, поле ввода, отправка нового сообщения).
+- **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
+  **289 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.

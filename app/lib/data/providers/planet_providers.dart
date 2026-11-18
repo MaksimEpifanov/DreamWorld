@@ -5,19 +5,23 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/app_user.dart';
 import '../models/map_spot.dart';
 import '../models/planet.dart';
+import '../models/planet_chat_message.dart';
 import '../models/planet_event.dart';
 import '../models/planet_news.dart';
 import '../models/profile.dart';
 import '../repositories/firestore_map_repository.dart';
+import '../repositories/firestore_planet_chat_repository.dart';
 import '../repositories/firestore_planet_event_repository.dart';
 import '../repositories/firestore_spot_report_repository.dart';
 import '../repositories/map_repository.dart';
 import '../repositories/mock_map_repository.dart';
 import '../repositories/mock_news_repository.dart';
+import '../repositories/mock_planet_chat_repository.dart';
 import '../repositories/mock_planet_event_repository.dart';
 import '../repositories/mock_planet_repository.dart';
 import '../repositories/mock_spot_report_repository.dart';
 import '../repositories/news_repository.dart';
+import '../repositories/planet_chat_repository.dart';
 import '../repositories/planet_event_repository.dart';
 import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
@@ -67,6 +71,25 @@ final Provider<SpotReportRepository> spotReportRepositoryProvider =
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
     Provider<NewsRepository>((Ref ref) => const MockNewsRepository());
+
+/// Репозиторий общего чата планеты.
+///
+/// В рабочей версии чат общий и живой (Firestore), в мок-режиме — в памяти.
+final Provider<PlanetChatRepository> planetChatRepositoryProvider =
+    Provider<PlanetChatRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      if (isFirebaseInitialized) {
+        final FirestorePlanetChatRepository repository =
+            FirestorePlanetChatRepository(currentUserId: currentUserId);
+        ref.onDispose(repository.dispose);
+        return repository;
+      }
+      final MockPlanetChatRepository repository = MockPlanetChatRepository(
+        currentUserId: currentUserId,
+      );
+      ref.onDispose(repository.dispose);
+      return repository;
+    });
 
 /// Репозиторий событий планеты.
 ///
@@ -292,6 +315,24 @@ final StreamProviderFamily<List<PlanetEvent>, String> planetEventsProvider =
         return Stream<List<PlanetEvent>>.value(const <PlanetEvent>[]);
       }
       return ref.watch(planetEventRepositoryProvider).watchEvents(planet);
+    });
+
+/// Сообщения общего чата планеты.
+///
+/// Живой поток: написанное одним участником сразу видят остальные.
+final StreamProviderFamily<List<PlanetChatMessage>, String>
+planetChatMessagesProvider =
+    StreamProvider.family<List<PlanetChatMessage>, String>((
+      Ref ref,
+      String id,
+    ) {
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      if (planet == null) {
+        return Stream<List<PlanetChatMessage>>.value(
+          const <PlanetChatMessage>[],
+        );
+      }
+      return ref.watch(planetChatRepositoryProvider).watchMessages(planet);
     });
 
 /// Лента новостей планеты с обновлением раз в час.

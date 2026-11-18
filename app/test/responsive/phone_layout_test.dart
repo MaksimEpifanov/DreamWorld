@@ -45,6 +45,7 @@ void main() {
     '/main/planet/p_animals/map',
     '/main/planet/p_animals/events',
     '/main/planet/p_animals/news',
+    '/main/planet/p_animals/chat',
     '/discovery',
     '/chats',
     '/contacts',
