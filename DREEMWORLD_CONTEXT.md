@@ -1162,6 +1162,11 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   **302 теста** (+6). Локальные сборки: полная веб-версия (`app/build/web`) и
   макет-энтрипоинт (`app/lib/preview/emoji_preview.dart` → `app/build/preview_web`),
   скриншот макета снят через headless Chrome.
-- **Доставка (18.11.2026).** Чтобы не пересобирать APK, изменения задеплоены на сайт
-  через `workflow_dispatch` веб-workflow (ветка `feat/firebase-auth-full`), без
-  push в `main`. Временные файлы макета удалены перед коммитом.
+- **Доставка (18.11.2026).** Сначала сайт обновлён через `workflow_dispatch`
+  веб-workflow на ветке `feat/firebase-auth-full` (окружение `github-pages`
+  разрешает деплой только из `main`: ветку временно добавляли в разрешённые и
+  затем убрали). Затем коммит `490f171` влит в `main` (`d8eb2f8..490f171`):
+  Deploy Web / Flutter Web CI / Android Release APK — успешно (iOS отменён).
+  Сайт: `build.json` id `490f1712…`. APK пересобран и опубликован в релизе
+  `v1.1.0` (`app-release.apk`, sha256 `321aacc7…`, ~66,6 МБ). Временные файлы
+  макета удалены перед коммитом.
