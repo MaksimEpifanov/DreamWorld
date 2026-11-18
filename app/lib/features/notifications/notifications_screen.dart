@@ -23,7 +23,7 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
   @override
   Widget build(BuildContext context) {
     final List<AppNotification> notifications = ref.watch(
-      notificationControllerProvider,
+      notificationsProvider,
     );
     final List<AppNotification> visible = _unreadOnly
         ? notifications.where((AppNotification item) => !item.isRead).toList()
@@ -59,7 +59,7 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
                     if (unreadCount > 0)
                       TextButton.icon(
                         onPressed: () => ref
-                            .read(notificationControllerProvider.notifier)
+                            .read(notificationsControllerProvider)
                             .markAllRead(),
                         icon: const Icon(Icons.done_all_rounded, size: 18),
                         label: const Text('Прочитать все'),
@@ -126,10 +126,7 @@ class _NotificationsScreenState extends ConsumerState<NotificationsScreen> {
                                 notification: visible[i],
                                 onTap: () {
                                   ref
-                                      .read(
-                                        notificationControllerProvider
-                                            .notifier,
-                                      )
+                                      .read(notificationsControllerProvider)
                                       .markRead(visible[i].id);
                                   final String? route = visible[i].route;
                                   if (route != null) context.go(route);
@@ -435,7 +432,7 @@ class _EmptyNotifications extends StatelessWidget {
           Text('Новых уведомлений пока нет', style: AppTextStyles.bodyBold()),
           const SizedBox(height: 4),
           Text(
-            'Здесь появятся новости о событиях и сообществах',
+            'Здесь появятся заявки в контакты, новые сообщения и события планет',
             textAlign: TextAlign.center,
             style: AppTextStyles.caption(color: AppColors.textSecondary),
           ),

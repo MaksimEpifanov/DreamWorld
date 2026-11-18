@@ -10,6 +10,9 @@ abstract class PlanetEventRepository {
   /// Живой список событий указанной планеты (сначала новые).
   Stream<List<PlanetEvent>> watchEvents(Planet planet);
 
+  /// Последние события всех планет (сначала новые) — для сводки уведомлений.
+  Stream<List<PlanetEvent>> watchRecentEvents({int limit = 20});
+
   /// Создаёт новое событие.
   Future<void> addEvent(Planet planet, PlanetEvent event);
 

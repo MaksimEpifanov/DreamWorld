@@ -55,6 +55,9 @@ class PlanetEvent {
 
   DateTime? get dateValue => DateTime.tryParse(date);
 
+  /// Момент создания события (для сортировки и уведомлений).
+  DateTime? get createdAtValue => DateTime.tryParse(createdAt);
+
   /// Задано ли ограничение по числу участников.
   bool get hasLimit => seats > 0;
 

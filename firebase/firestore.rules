@@ -65,6 +65,13 @@ service cloud.firestore {
         && resource.data.authorId == request.auth.uid;
     }
 
+    // Сводка событий всех планет для уведомлений: запрос по всей коллекции
+    // `events` (collection group). Чтение разрешено любому вошедшему; запись
+    // по-прежнему только через правило `planets/{planetId}/events/{eventId}`.
+    match /{path=**}/events/{eventId} {
+      allow read: if request.auth != null;
+    }
+
     // Отзывы о сайте и приложении. Читают все вошедшие, писать может каждый
     // от своего имени; изменять чужие отзывы нельзя.
     match /reviews/{reviewId} {

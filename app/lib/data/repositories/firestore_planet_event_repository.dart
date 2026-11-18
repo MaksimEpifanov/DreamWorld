@@ -66,6 +66,20 @@ class FirestorePlanetEventRepository implements PlanetEventRepository {
   }
 
   @override
+  Stream<List<PlanetEvent>> watchRecentEvents({int limit = 20}) {
+    if (!_online) return Stream<List<PlanetEvent>>.value(const <PlanetEvent>[]);
+    return _db
+        .collectionGroup(eventsCollection)
+        .orderBy('createdAt', descending: true)
+        .limit(limit)
+        .snapshots()
+        .map(_parse)
+        .handleError((Object error) {
+          _logError(error);
+        });
+  }
+
+  @override
   Future<void> addEvent(Planet planet, PlanetEvent event) async {
     if (!_online) return;
     try {

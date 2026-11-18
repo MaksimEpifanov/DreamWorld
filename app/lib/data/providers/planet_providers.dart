@@ -68,6 +68,7 @@ final Provider<PlanetEventRepository> planetEventRepositoryProvider =
       }
       final MockPlanetEventRepository repository = MockPlanetEventRepository(
         currentUserId: currentUserId,
+        planets: ref.watch(planetRepositoryProvider).getPlanets(),
       );
       ref.onDispose(repository.dispose);
       return repository;

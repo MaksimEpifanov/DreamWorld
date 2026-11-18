@@ -982,3 +982,40 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   `app/test/responsive/phone_layout_test.dart`.
 - **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
   **270 тестов**. Коммит, деплой и публикация правил — по отдельному разрешению.
+
+### 30.17. Реальные уведомления: заявки, сообщения и события планет (18.11.2026)
+
+- **Задача.** Чтобы иконка-вкладка уведомлений показывала настоящие события:
+  поступившие заявки в контакты, новые сообщения и новые события планет
+  («кто-то предлагает реально куда-то поехать или пойти»). Плюс счётчик на иконке.
+- **Решение.**
+  - Экран уведомлений (`app/lib/features/notifications/notifications_screen.dart`)
+    теперь берёт список из `notificationsProvider`, а действия — из
+    `notificationsControllerProvider`. Заявки в контакты (с кнопками
+    «Добавить»/«Отклонить») остаются отдельными карточками, как и раньше.
+  - В рабочей версии список собирается из реальных данных: непрочитанные диалоги
+    (`conversationsProvider`) → «Новое сообщение» с переходом в чат; свежие
+    события всех планет (`recentEventsProvider`) → «кто зовёт и куда» с переходом
+    на экран событий планеты. Свои события и уже прошедшие не показываются.
+    В мок-режиме остаётся демо-лента (`MockNotificationRepository`).
+  - Провайдеры в `app/lib/data/providers/notification_providers.dart`:
+    `notificationsProvider`, `recentEventsProvider`,
+    `notificationsUnreadCountProvider`, `seenNotificationsProvider` и
+    `notificationsControllerProvider`. Просмотренные уведомления хранятся локально
+    (`shared_preferences`, ключ `seen_notifications_<uid>`), чтобы «новые»
+    события не висели вечно; для сообщений отметка «прочитано» ставится в самом
+    чате (`markAsRead`).
+  - На иконке уведомлений в шапке (`planet_home_screen.dart`) появился счётчик
+    (`Badge.count`) = заявки в контакты + непрочитанные сообщения + новые события.
+  - Сводка событий по всем планетам: `PlanetEventRepository.watchRecentEvents`
+    (Firestore — запрос по коллекции `events`, мок — объединение демо-событий).
+    Модель `PlanetEvent` получила `createdAtValue`.
+- **Правила Firestore.** Добавлен блок `match /{path=**}/events/{eventId}` с
+  `allow read: if request.auth != null` — чтение событий по всей коллекции
+  (collection group) для сводки уведомлений. Запись не затрагивается.
+  **Требуется повторная публикация правил.**
+- **Тесты.** `app/test/features/notifications/notifications_test.dart`:
+  подписи времени, сбор событий из каталога планет, демо-лента и счётчик,
+  пометка просмотренного.
+- **Проверки (18.11.2026):** `flutter analyze` — `No issues found`, `flutter test` —
+  **274 теста**. Коммит, деплой и публикация правил — по отдельному разрешению.

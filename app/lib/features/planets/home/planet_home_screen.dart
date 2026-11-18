@@ -7,6 +7,7 @@ import '../../../core/widgets/index.dart';
 import '../../../data/models/planet.dart';
 import '../../../data/models/profile.dart';
 import '../../../data/providers/app_providers.dart';
+import '../../../data/providers/notification_providers.dart';
 import '../../../data/providers/planet_providers.dart';
 import 'widgets/galactic_home_system.dart';
 
@@ -375,6 +376,7 @@ class _GalaxyHeader extends ConsumerWidget {
                 tooltip: 'Уведомления',
                 icon: Icons.notifications_none_rounded,
                 size: narrow ? 34 : 42,
+                badgeCount: ref.watch(notificationsUnreadCountProvider),
                 onPressed: () => context.go('/notifications'),
               ),
               _HeaderAction(
@@ -428,6 +430,7 @@ class _HeaderAction extends StatelessWidget {
     required this.icon,
     required this.onPressed,
     this.size = 42,
+    this.badgeCount = 0,
   });
 
   final String tooltip;
@@ -435,23 +438,29 @@ class _HeaderAction extends StatelessWidget {
   final VoidCallback onPressed;
   final double size;
 
+  /// Число непрочитанных: если больше нуля, на кнопке появляется счётчик.
+  final int badgeCount;
+
   @override
   Widget build(BuildContext context) {
+    final Widget button = IconButton(
+      tooltip: tooltip,
+      onPressed: onPressed,
+      style: IconButton.styleFrom(
+        backgroundColor: const Color(0xB9081A38),
+        foregroundColor: const Color(0xFFD9F3FF),
+        side: BorderSide(
+          color: const Color(0xFF3989C8).withValues(alpha: 0.48),
+        ),
+        fixedSize: Size(size, size),
+      ),
+      icon: Icon(icon, size: size <= 36 ? 19 : 22),
+    );
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: size <= 36 ? 1 : 3),
-      child: IconButton(
-        tooltip: tooltip,
-        onPressed: onPressed,
-        style: IconButton.styleFrom(
-          backgroundColor: const Color(0xB9081A38),
-          foregroundColor: const Color(0xFFD9F3FF),
-          side: BorderSide(
-            color: const Color(0xFF3989C8).withValues(alpha: 0.48),
-          ),
-          fixedSize: Size(size, size),
-        ),
-        icon: Icon(icon, size: size <= 36 ? 19 : 22),
-      ),
+      child: badgeCount > 0
+          ? Badge.count(count: badgeCount, child: button)
+          : button,
     );
   }
 }

@@ -10,9 +10,15 @@ import 'planet_event_repository.dart';
 /// чтобы приложение было непустым без бэкенда. Созданные в сессии события и
 /// заявки живут в памяти и сбрасываются при перезапуске.
 class MockPlanetEventRepository implements PlanetEventRepository {
-  MockPlanetEventRepository({this.currentUserId = ''});
+  MockPlanetEventRepository({
+    this.currentUserId = '',
+    this.planets = const <Planet>[],
+  });
 
   final String currentUserId;
+
+  /// Каталог планет: нужен, чтобы собрать демонстрационные события для сводки.
+  final List<Planet> planets;
 
   final Map<String, List<PlanetEvent>> _cache = <String, List<PlanetEvent>>{};
   final Map<String, StreamController<List<PlanetEvent>>> _controllers =
@@ -23,6 +29,20 @@ class MockPlanetEventRepository implements PlanetEventRepository {
     _eventsFor(planet);
     yield _snapshot(planet.id);
     yield* _controller(planet.id).stream;
+  }
+
+  @override
+  Stream<List<PlanetEvent>> watchRecentEvents({int limit = 20}) async* {
+    final List<PlanetEvent> all = <PlanetEvent>[
+      for (final Planet planet in planets) ..._eventsFor(planet),
+    ];
+    all.sort(
+      (PlanetEvent a, PlanetEvent b) =>
+          (b.createdAtValue ?? DateTime(0)).compareTo(
+            a.createdAtValue ?? DateTime(0),
+          ),
+    );
+    yield List<PlanetEvent>.unmodifiable(all.take(limit));
   }
 
   @override
