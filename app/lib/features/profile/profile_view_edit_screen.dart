@@ -281,6 +281,8 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
                     interests: _selectedInterests.toList(),
                   ),
                   const SizedBox(height: AppSpacing.lg),
+                  const PhotoAlbumsSection(),
+                  const SizedBox(height: AppSpacing.lg),
                   if (ref
                       .watch(authControllerProvider)
                       .pendingEmailVerification) ...<Widget>[
@@ -295,8 +297,6 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
                     isPremium: _isPremium,
                     onSubscribe: () => _subscribe(),
                   ),
-                  const SizedBox(height: AppSpacing.lg),
-                  const PhotoAlbumsSection(),
                   const SizedBox(height: AppSpacing.lg),
                   NeonCard(
                     child: Column(

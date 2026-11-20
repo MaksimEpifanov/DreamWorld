@@ -59,8 +59,8 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.1.0
-          name: "Dreem World v1.1.0 (Android APK)"
+          tag_name: v1.1.1
+          name: "Dreem World v1.1.1 (Android APK)"
           body: "Android APK, собранный автоматически через GitHub Actions (mock-режим)."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
