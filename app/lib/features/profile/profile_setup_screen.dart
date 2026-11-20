@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../core/constants/planet_interest_details.dart';
 import '../../core/theme/index.dart';
+import '../../core/utils/image_utils.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
@@ -151,7 +152,7 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
           city: _cityController.text.trim(),
           country: 'Россия',
           bio: _bioController.text.trim(),
-          photoUrl: _photoDataUri,
+          photoUrl: remoteImageUrlOrNull(existing?.photoUrl),
           interests: _selectedInterests.map((s) {
             switch (s) {
               case 'Путешествия':
@@ -191,6 +192,11 @@ class _ProfileSetupScreenState extends ConsumerState<ProfileSetupScreen> {
 
     try {
       await profileRepo.saveProfile(newProfile);
+      if (_photoDataUri != null) {
+        await saveMainProfilePhoto(ref, _photoDataUri!);
+      }
+      ref.invalidate(currentProfileProvider);
+      ref.invalidate(hasSavedProfileProvider);
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);

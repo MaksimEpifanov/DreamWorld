@@ -197,6 +197,7 @@ class _GalaxyHeader extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final Profile? profile = ref.watch(currentProfileProvider).valueOrNull;
+    final String? mainPhotoUri = ref.watch(mainProfilePhotoProvider).valueOrNull;
     final ColorScheme scheme = Theme.of(context).colorScheme;
     return Padding(
       padding: const EdgeInsets.fromLTRB(18, 8, 18, 8),
@@ -392,7 +393,7 @@ class _GalaxyHeader extends ConsumerWidget {
                     onPressed: () => context.go('/profile'),
                     scaleDown: 0.9,
                     child: AuraAvatar(
-                      photoUrl: profile?.photoUrl,
+                      photoUrl: mainPhotoUri ?? profile?.photoUrl,
                       size: narrow ? 32 : 40,
                       fallbackText: profile?.name,
                       fallbackIcon: Icons.person_rounded,

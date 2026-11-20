@@ -11,6 +11,7 @@ import '../../data/providers/app_providers.dart';
 import '../../data/services/user_code.dart';
 import '../contacts/contacts_controller.dart';
 import '../safety/widgets/report_sheet.dart';
+import 'widgets/photo_albums_gallery.dart';
 
 /// Экран просмотра анкеты другого пользователя.
 ///
@@ -58,6 +59,10 @@ class UserProfileScreen extends ConsumerWidget {
     final bool hasOutgoing = ref
         .watch(outgoingContactRequestIdsProvider)
         .contains(userId);
+    final bool isOwnProfile = userId == ref.watch(currentUserIdProvider);
+    final String? mainPhotoUri = isOwnProfile
+        ? ref.watch(mainProfilePhotoProvider).valueOrNull
+        : null;
 
     return Scaffold(
       appBar: NeonAppBar(
@@ -87,6 +92,8 @@ class UserProfileScreen extends ConsumerWidget {
               if (value == null) return const _NotFound();
               return _ProfileBody(
                 profile: value,
+                isOwnProfile: isOwnProfile,
+                mainPhotoUri: mainPhotoUri,
                 inContacts: inContacts,
                 hasIncoming: hasIncoming,
                 hasOutgoing: hasOutgoing,
@@ -148,6 +155,8 @@ class UserProfileScreen extends ConsumerWidget {
 class _ProfileBody extends StatelessWidget {
   const _ProfileBody({
     required this.profile,
+    required this.isOwnProfile,
+    required this.mainPhotoUri,
     required this.inContacts,
     required this.hasIncoming,
     required this.hasOutgoing,
@@ -156,6 +165,8 @@ class _ProfileBody extends StatelessWidget {
   });
 
   final Profile profile;
+  final bool isOwnProfile;
+  final String? mainPhotoUri;
   final bool inContacts;
   final bool hasIncoming;
   final bool hasOutgoing;
@@ -179,11 +190,12 @@ class _ProfileBody extends StatelessWidget {
     return ListView(
       padding: AppSpacing.page,
       children: <Widget>[
-        _Header(profile: profile)
+        _Header(profile: profile, photoUrl: mainPhotoUri)
             .animate()
             .fadeIn(duration: 360.ms)
             .slideY(begin: 0.08),
         const SizedBox(height: AppSpacing.lg),
+        if (isOwnProfile) const PhotoAlbumsGallery(),
         Row(
           children: <Widget>[
             Expanded(
@@ -246,9 +258,10 @@ class _ProfileBody extends StatelessWidget {
 }
 
 class _Header extends StatelessWidget {
-  const _Header({required this.profile});
+  const _Header({required this.profile, this.photoUrl});
 
   final Profile profile;
+  final String? photoUrl;
 
   Future<void> _copyId(BuildContext context, String code) async {
     await Clipboard.setData(ClipboardData(text: code));
@@ -271,7 +284,7 @@ class _Header extends StatelessWidget {
       child: Column(
         children: <Widget>[
           AuraAvatar(
-            photoUrl: profile.photoUrl,
+            photoUrl: photoUrl ?? profile.photoUrl,
             size: 104,
             fallbackText: profile.name,
           ),

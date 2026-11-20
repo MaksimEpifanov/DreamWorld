@@ -11,7 +11,7 @@ import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
 import '../../data/providers/auth_providers.dart';
 import '../../data/services/user_code.dart';
-import 'widgets/photo_picker.dart';
+import 'widgets/photo_albums_section.dart';
 
 class ProfileViewEditScreen extends ConsumerStatefulWidget {
   const ProfileViewEditScreen({super.key});
@@ -135,7 +135,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
           city: _cityController.text.trim(),
           country: 'Россия',
           bio: _bioController.text.trim(),
-          photoUrl: _photoDataUri,
+          photoUrl: remoteImageUrlOrNull(existing?.photoUrl),
           interests: _selectedInterests.map((s) {
             switch (s) {
               case 'Путешествия':
@@ -172,6 +172,8 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
 
     try {
       await profileRepo.saveProfile(updatedProfile);
+      ref.invalidate(currentProfileProvider);
+      ref.invalidate(hasSavedProfileProvider);
     } catch (_) {
       if (mounted) {
         ScaffoldMessenger.of(context)
@@ -252,6 +254,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final String? mainPhotoUri = ref.watch(mainProfilePhotoProvider).valueOrNull;
     if (_isLoading) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
@@ -271,7 +274,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   _ProfileHeader(
-                    photoDataUri: _photoDataUri,
+                    photoDataUri: mainPhotoUri ?? _photoDataUri,
                     name: _nameController.text.trim(),
                     age: _ageController.text.trim(),
                     city: _cityController.text.trim(),
@@ -293,31 +296,7 @@ class _ProfileViewEditScreenState extends ConsumerState<ProfileViewEditScreen> {
                     onSubscribe: () => _subscribe(),
                   ),
                   const SizedBox(height: AppSpacing.lg),
-                  NeonButton(
-                    label: 'Изменить фото',
-                    icon: Icons.add_a_photo_outlined,
-                    variant: NeonButtonVariant.outlined,
-                    expanded: true,
-                    onPressed: () {
-                      showModalBottomSheet<void>(
-                        context: context,
-                        backgroundColor: Theme.of(context).colorScheme.surface,
-                        shape: const RoundedRectangleBorder(
-                          borderRadius: AppRadius.xlAll,
-                        ),
-                        builder: (BuildContext context) => Padding(
-                          padding: AppSpacing.page,
-                          child: PhotoPicker(
-                            photoDataUri: _photoDataUri,
-                            height: 220,
-                            onPicked: (String dataUri) {
-                              setState(() => _photoDataUri = dataUri);
-                            },
-                          ),
-                        ),
-                      );
-                    },
-                  ),
+                  const PhotoAlbumsSection(),
                   const SizedBox(height: AppSpacing.lg),
                   NeonCard(
                     child: Column(

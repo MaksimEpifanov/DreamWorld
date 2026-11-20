@@ -5,6 +5,7 @@ export 'interest.dart';
 export 'match.dart';
 export 'message.dart';
 export 'planet.dart';
+export 'photo_album.dart';
 export 'profile.dart';
 export 'safety.dart';
 export 'user.dart';

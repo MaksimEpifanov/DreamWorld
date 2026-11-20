@@ -1878,3 +1878,41 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   ссылка https://github.com/MaksimEpifanov/DreamWorld/releases/download/v1.1.0/app-release.apk
   Локальная копия: `C:\Users\scorp\AppData\Local\Temp\opencode\dreem-site-backups\apk_v1.1.0_planets_20261120\app-release.apk`.
   Прежний APK сохранён для отката в `apk_v1.1.0_20261120` (SHA256 `ff237575…f8cc`).
+
+## Фототека профиля и стабильный аватар (20.11.2026)
+
+- Причины нестабильного фото профиля: base64 изображение сохранялось прямо в
+  документе Firestore `profiles/{uid}` (лимит документа 1 МБ — запись отклонялась,
+  а локальный вариант затем затирался облачным snapshots); задержка 20–30 с
+  возникала из-за блокирующего `await getCurrentProfile()` в начале
+  `watchCurrentProfile()` — `StreamProvider` не отдавал значение до ответа сервера.
+- Выбрано локальное хранилище без синхронизации (пользователь выбрал «Локально,
+  надёжно»): фото сжимаются до 640 px / JPEG quality 70 и хранятся отдельными
+  записями SharedPreferences; альбомы хранят только метаданные и id фото.
+  Firebase Storage и server rules не используются.
+- Новые файлы: `app/lib/data/models/photo_album.dart` (freezed `AlbumPhoto`,
+  `PhotoAlbum`), `app/lib/data/repositories/profile_photos_repository.dart`,
+  `app/lib/features/profile/widgets/photo_albums_section.dart`,
+  `app/lib/features/profile/widgets/photo_albums_gallery.dart`.
+- Добавлена зависимость `image: ^4.13.1` и `compressImageBytes` в
+  `core/utils/image_utils.dart`; `remoteImageUrlOrNull` не пускает data URI в облако.
+- Провайдеры в `app_providers.dart`: `profilePhotosRepositoryProvider`,
+  `photoAlbumsProvider`, `mainPhotoIdProvider`, `mainProfilePhotoProvider`,
+  хелпер `saveMainProfilePhoto`. Первое загруженное фото автоматически становится
+  главным; кнопка «Сделать аватаром» переключает выбор; при удалении главного
+  фото аватаром становится первое оставшееся.
+- `FirestoreProfileRepository`: `watchCurrentProfile()` сначала отдаёт локальный
+  профиль без сетевого ожидания, затем слушает snapshots и сохраняет локальный
+  сетевой URL фото, если в облаке фото нет; в Firestore теперь не пишутся
+  data URI (только http(s) URL).
+- Аватар главного экрана (`planet_home_screen.dart`) и шапки профилей берут
+  `mainProfilePhotoProvider` — фото появляется сразу после загрузки и не
+  пропадает при сбое/откате Firestore. На странице своего профиля добавлена
+  галерея альбомов с просмотром фото на весь экран.
+- Проверки до публикации: `flutter analyze --no-pub` — чисто;
+  `flutter test --no-pub` — 522 теста (добавлены тесты репозитория, провайдера
+  и раздела альбомов); `flutter build web --release --base-href /DreamWorld/
+  --pwa-strategy=none` — успешно, `main.dart.js` 6 106 970 байт.
+- Перед публикацией создана точка отката live `web_LIVE_cc10539_20261120(.zip)`
+  (коммит `cc10539`, `main.dart.js` 5 671 318 байт — совпадал с живым сайтом,
+  255 файлов, 26,65 МБ, флаги CI). Инструкция обновлена в `README_откат.md`.

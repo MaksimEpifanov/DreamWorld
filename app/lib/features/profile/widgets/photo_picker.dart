@@ -19,6 +19,8 @@ class PhotoPicker extends StatelessWidget {
     required this.photoDataUri,
     required this.onPicked,
     this.height = 200,
+    this.allowMultiple = false,
+    this.onPickedMultiple,
   });
 
   /// Текущее фото (data URI) или `null`, если фото ещё нет.
@@ -30,17 +32,45 @@ class PhotoPicker extends StatelessWidget {
   /// Высота области предпросмотра.
   final double height;
 
+  /// Разрешить выбор нескольких фото за один раз.
+  final bool allowMultiple;
+
+  /// Вызывается со списком data URI при множественном выборе.
+  final ValueChanged<List<String>>? onPickedMultiple;
+
   Future<void> _pick(ImageSource source) async {
     final ImagePicker picker = ImagePicker();
+    if (allowMultiple) {
+      final List<XFile> files = await picker.pickMultiImage(
+        maxWidth: 1280,
+        imageQuality: 85,
+      );
+      if (files.isEmpty) return;
+      final List<String> uris = <String>[];
+      for (final XFile file in files) {
+        final Uint8List bytes = await file.readAsBytes();
+        final Uint8List? compressed = await compressImageBytes(bytes);
+        if (compressed != null) {
+          uris.add(encodeImageToDataUri(compressed));
+        }
+      }
+      if (uris.isNotEmpty) {
+        onPickedMultiple?.call(uris);
+      }
+      return;
+    }
+
     final XFile? file = await picker.pickImage(
       source: source,
-      maxWidth: 1024,
+      maxWidth: 1280,
       imageQuality: 85,
     );
     if (file == null) return;
 
     final Uint8List bytes = await file.readAsBytes();
-    onPicked(encodeImageToDataUri(bytes));
+    final Uint8List? compressed = await compressImageBytes(bytes);
+    if (compressed == null) return;
+    onPicked(encodeImageToDataUri(compressed));
   }
 
   @override
@@ -93,14 +123,16 @@ class PhotoPicker extends StatelessWidget {
                 label: const Text('Галерея'),
               ),
             ),
-            const SizedBox(width: AppSpacing.sm),
-            Flexible(
-              child: TextButton.icon(
-                onPressed: () => _pick(ImageSource.camera),
-                icon: const Icon(Icons.photo_camera_outlined, size: 18),
-                label: const Text('Камера'),
+            if (!allowMultiple) ...<Widget>[
+              const SizedBox(width: AppSpacing.sm),
+              Flexible(
+                child: TextButton.icon(
+                  onPressed: () => _pick(ImageSource.camera),
+                  icon: const Icon(Icons.photo_camera_outlined, size: 18),
+                  label: const Text('Камера'),
+                ),
               ),
-            ),
+            ],
           ],
         ),
       ],

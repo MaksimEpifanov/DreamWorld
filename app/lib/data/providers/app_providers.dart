@@ -1,10 +1,14 @@
+import 'dart:typed_data';
+
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../core/utils/image_utils.dart';
 import '../models/conversation.dart';
 import '../models/match.dart';
 import '../models/message.dart';
+import '../models/photo_album.dart';
 import '../models/profile.dart';
 import '../models/relationship_status.dart';
 import '../repositories/chat_repository.dart';
@@ -14,6 +18,7 @@ import '../repositories/match_repository.dart';
 import '../repositories/mock_chat_repository.dart';
 import '../repositories/mock_match_repository.dart';
 import '../repositories/mock_profile_repository.dart';
+import '../repositories/profile_photos_repository.dart';
 import '../repositories/profile_repository.dart';
 import '../repositories/relationship_status_repository.dart';
 import '../services/ai_service.dart';
@@ -135,6 +140,70 @@ final StreamProvider<Profile?> currentProfileProvider =
     StreamProvider<Profile?>(
       (Ref ref) => ref.watch(profileRepositoryProvider).watchCurrentProfile(),
     );
+
+/// Локальная фототека текущего пользователя.
+final Provider<ProfilePhotosRepository> profilePhotosRepositoryProvider =
+    Provider<ProfilePhotosRepository>((Ref ref) {
+      final LocalProfilePhotosRepository repository =
+          LocalProfilePhotosRepository(
+            userId: ref.watch(currentUserIdProvider),
+          );
+      ref.onDispose(repository.dispose);
+      return repository;
+    });
+
+/// Альбомы с фотографиями текущего пользователя.
+final StreamProvider<List<PhotoAlbum>> photoAlbumsProvider =
+    StreamProvider<List<PhotoAlbum>>(
+      (Ref ref) => ref.watch(profilePhotosRepositoryProvider).watchAlbums(),
+    );
+
+/// Идентификатор фото, выбранного главным (аватаром).
+final FutureProvider<String?> mainPhotoIdProvider = FutureProvider<String?>((
+  Ref ref,
+) => ref.watch(profilePhotosRepositoryProvider).getMainPhotoId());
+
+/// data URI главного фото для аватара на всех экранах.
+///
+/// Сначала берём явно выбранное фото, затем первое загруженное.
+final FutureProvider<String?> mainProfilePhotoProvider =
+    FutureProvider<String?>((Ref ref) async {
+      final ProfilePhotosRepository repository =
+          ref.watch(profilePhotosRepositoryProvider);
+      final String? mainId = await ref.watch(mainPhotoIdProvider.future);
+      if (mainId != null) {
+        final AlbumPhoto? main = await repository.findPhoto(mainId);
+        if (main != null) return main.dataUri;
+      }
+      final List<PhotoAlbum> albums = await ref.watch(photoAlbumsProvider.future);
+      for (final PhotoAlbum album in albums) {
+        if (album.photos.isNotEmpty) return album.photos.first.dataUri;
+      }
+      return null;
+    });
+
+/// Добавляет фото в первый альбом и делает его главным.
+Future<void> saveMainProfilePhoto(WidgetRef ref, String dataUri) async {
+  final Uint8List? bytes = decodeDataUri(dataUri);
+  final Uint8List? compressed = bytes == null ? null : await compressImageBytes(bytes);
+  final String photoUri =
+      compressed == null ? dataUri : encodeImageToDataUri(compressed);
+
+  final ProfilePhotosRepository repository =
+      ref.read(profilePhotosRepositoryProvider);
+  final List<PhotoAlbum> albums = await repository.loadAlbums();
+  final PhotoAlbum album = albums.isEmpty
+      ? await repository.createAlbum('Мои фото')
+      : albums.first;
+  final List<AlbumPhoto> added = await repository.addPhotos(
+    album.id,
+    <String>[photoUri],
+  );
+  if (added.isEmpty) return;
+  await repository.setMainPhotoId(added.first.id);
+  ref.invalidate(mainPhotoIdProvider);
+  ref.invalidate(mainProfilePhotoProvider);
+}
 
 /// Ключ `shared_preferences` с отметкой «анкету пропустили».
 ///

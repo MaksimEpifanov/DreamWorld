@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 
+import '../../core/utils/image_utils.dart';
 import '../models/profile.dart';
 import '../services/realtime_service.dart';
 import '../services/user_code.dart';
@@ -78,8 +79,17 @@ class FirestoreProfileRepository implements ProfileRepository {
       yield* _local.watchCurrentProfile();
       return;
     }
-    yield await getCurrentProfile();
-    yield* _document.snapshots().map(_fromSnapshot).handleError(_logError);
+    final Profile? localProfile = await _local.getCurrentProfile();
+    yield localProfile;
+    yield* _document.snapshots().map((DocumentSnapshot<Map<String, dynamic>> snapshot) {
+      final Profile? cloud = _fromSnapshot(snapshot);
+      if (cloud == null) return localProfile;
+      if (remoteImageUrlOrNull(cloud.photoUrl) != null || localProfile == null) {
+        return cloud;
+      }
+      final String? localUrl = remoteImageUrlOrNull(localProfile.photoUrl);
+      return localUrl == null ? cloud : cloud.copyWith(photoUrl: localUrl);
+    }).handleError(_logError);
   }
 
   @override
@@ -178,8 +188,15 @@ class FirestoreProfileRepository implements ProfileRepository {
     final Profile stored = profile.copyWith(id: currentUserId);
     await _local.saveProfile(stored);
     if (!_online) return;
+    final Profile cloudProfile = stored.copyWith(
+      photoUrl: remoteImageUrlOrNull(stored.photoUrl),
+      photoUrls: stored.photoUrls
+          .map(remoteImageUrlOrNull)
+          .whereType<String>()
+          .toList(),
+    );
     try {
-      await _document.set(stored.toJson(), SetOptions(merge: true));
+      await _document.set(cloudProfile.toJson(), SetOptions(merge: true));
     } catch (error) {
       _logError(error);
       rethrow;

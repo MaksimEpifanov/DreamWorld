@@ -77,4 +77,25 @@ void main() {
     expect(find.text('Главная'), findsOneWidget);
     expect(find.text('Сохранить'), findsNothing);
   });
+
+  testWidgets('Профиль содержит раздел фото и альбомов', (
+    WidgetTester tester,
+  ) async {
+    tester.view.physicalSize = const Size(1200, 2600);
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    await tester.pumpWidget(
+      const ProviderScope(
+        child: MaterialApp(home: ProfileViewEditScreen()),
+      ),
+    );
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+
+    expect(find.text('Фото и альбомы'), findsOneWidget);
+    expect(find.text('Новый'), findsOneWidget);
+    expect(find.text('Изменить фото'), findsNothing);
+  });
 }
