@@ -88,17 +88,18 @@ final StreamProvider<List<PlanetEvent>> recentEventsProvider =
 final Provider<List<AppNotification>> notificationsProvider =
     Provider<List<AppNotification>>((Ref ref) {
       final Set<String> seen = ref.watch(seenNotificationsProvider);
+      final List<AppNotification> demo = ref
+          .watch(notificationRepositoryProvider)
+          .getNotifications()
+          .map(
+            (AppNotification item) => item.isRead || seen.contains(item.id)
+                ? item.copyWith(isRead: true)
+                : item,
+          )
+          .toList(growable: false);
 
       if (!isFirebaseInitialized) {
-        return ref
-            .watch(notificationRepositoryProvider)
-            .getNotifications()
-            .map(
-              (AppNotification item) => item.isRead || seen.contains(item.id)
-                  ? item.copyWith(isRead: true)
-                  : item,
-            )
-            .toList(growable: false);
+        return demo;
       }
 
       final String me = ref.watch(currentUserIdProvider);
@@ -111,7 +112,10 @@ final Provider<List<AppNotification>> notificationsProvider =
       };
 
       final List<(DateTime, AppNotification)> entries =
-          <(DateTime, AppNotification)>[];
+          <(DateTime, AppNotification)>[
+        for (final AppNotification item in demo)
+          (DateTime.fromMillisecondsSinceEpoch(0), item),
+      ];
 
       // События планет: не свои и не прошедшие.
       final DateTime now = DateTime.now();

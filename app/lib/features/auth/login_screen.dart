@@ -23,6 +23,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   final TextEditingController _passwordController = TextEditingController();
 
   bool _isLoading = false;
+  bool _obscurePassword = true;
   String? _error;
 
   @override
@@ -142,13 +143,19 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         const SizedBox(height: AppSpacing.md),
                         TextFormField(
                           controller: _passwordController,
-                          obscureText: true,
+                          obscureText: _obscurePassword,
                           autofillHints: const <String>[AutofillHints.password],
                           textInputAction: TextInputAction.done,
                           onFieldSubmitted: (_) => _submit(),
-                          decoration: const InputDecoration(
+                          decoration: InputDecoration(
                             labelText: 'Пароль',
                             prefixIcon: Icon(Icons.lock_outline_rounded),
+                            suffixIcon: PasswordVisibilityButton(
+                              obscure: _obscurePassword,
+                              onToggle: () => setState(
+                                () => _obscurePassword = !_obscurePassword,
+                              ),
+                            ),
                           ),
                           validator: (String? value) {
                             if (value == null || value.isEmpty) {

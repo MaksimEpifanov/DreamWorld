@@ -26,6 +26,8 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
   final TextEditingController _confirmController = TextEditingController();
 
   bool _isLoading = false;
+  bool _obscurePassword = true;
+  bool _obscureConfirm = true;
   String? _error;
 
   @override
@@ -176,15 +178,21 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                         const SizedBox(height: AppSpacing.md),
                         TextFormField(
                           controller: _passwordController,
-                          obscureText: true,
+                          obscureText: _obscurePassword,
                           textInputAction: TextInputAction.next,
                           autofillHints: const <String>[
                             AutofillHints.newPassword,
                           ],
-                          decoration: const InputDecoration(
+                          decoration: InputDecoration(
                             labelText: 'Пароль',
                             prefixIcon: Icon(Icons.lock_outline_rounded),
                             helperText: 'Минимум 6 символов',
+                            suffixIcon: PasswordVisibilityButton(
+                              obscure: _obscurePassword,
+                              onToggle: () => setState(
+                                () => _obscurePassword = !_obscurePassword,
+                              ),
+                            ),
                           ),
                           validator: (String? value) {
                             if (value == null || value.isEmpty) {
@@ -199,12 +207,18 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                         const SizedBox(height: AppSpacing.md),
                         TextFormField(
                           controller: _confirmController,
-                          obscureText: true,
+                          obscureText: _obscureConfirm,
                           textInputAction: TextInputAction.done,
                           onFieldSubmitted: (_) => _submit(),
-                          decoration: const InputDecoration(
+                          decoration: InputDecoration(
                             labelText: 'Повторите пароль',
                             prefixIcon: Icon(Icons.lock_reset_rounded),
+                            suffixIcon: PasswordVisibilityButton(
+                              obscure: _obscureConfirm,
+                              onToggle: () => setState(
+                                () => _obscureConfirm = !_obscureConfirm,
+                              ),
+                            ),
                           ),
                           validator: (String? value) {
                             if (value == null || value.isEmpty) {

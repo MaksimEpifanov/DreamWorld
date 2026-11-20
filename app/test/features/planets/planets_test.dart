@@ -109,6 +109,10 @@ void main() {
       expect(find.byTooltip('Уведомления'), findsOneWidget);
       expect(find.byTooltip('Настройки'), findsOneWidget);
       expect(find.text('Исследовать мир'), findsNothing);
+      expect(
+        find.descendant(of: find.byType(Badge), matching: find.text('3')),
+        findsOneWidget,
+      );
     });
 
     testWidgets('нижние карточки можно закрыть крестиками', (

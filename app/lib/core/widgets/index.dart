@@ -11,4 +11,5 @@ export 'glow_container.dart';
 export 'neon_button.dart';
 export 'neon_card.dart';
 export 'neon_gradient_text.dart';
+export 'password_visibility_button.dart';
 export 'responsive_content.dart';
