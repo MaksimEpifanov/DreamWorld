@@ -1,0 +1,12 @@
+Источники изображений для обложки планеты «Кино» и жанровых карточек.
+
+p_cinema.jpg — обложка, «Auditorium at Maxim in May 2024», JIP, Wikimedia Commons, лицензия CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+g_scifi.png — NASA/ESA Hubble, лицензия CC BY (https://creativecommons.org/licenses/by/4.0/).
+g_thriller.png — StockCake, атрибуция не обязательна.
+g_comedy.png — StockCake, атрибуция не обязательна.
+g_arthouse.png — Vecteezy Free, атрибуция не обязательна.
+g_anime.png — Magnific Free, атрибуция не обязательна.
+g_documentary.png — StockCake, атрибуция не обязательна.
+g_classic.png — StockCake, атрибуция не обязательна.
+g_dorama.png — Unsplash, атрибуция не обязательна.

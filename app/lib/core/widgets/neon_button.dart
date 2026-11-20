@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../theme/app_radius.dart';
+import '../theme/compact_scale.dart';
 import 'animated_press.dart';
 import 'glow_container.dart';
 
@@ -22,6 +23,7 @@ class NeonButton extends StatelessWidget {
     this.color,
     this.isLoading = false,
     this.expanded = false,
+    this.compact = false,
   });
 
   final VoidCallback? onPressed;
@@ -33,6 +35,9 @@ class NeonButton extends StatelessWidget {
 
   /// Растягивает кнопку на всю доступную ширину.
   final bool expanded;
+
+  /// Уплотнённая кнопка для внутреннего экрана планеты.
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
@@ -47,6 +52,14 @@ class NeonButton extends StatelessWidget {
         ? scheme.onPrimary
         : accent;
     final Color muted = contentColor.withValues(alpha: 0.5);
+    final EdgeInsetsGeometry buttonPadding = compact
+        ? const EdgeInsets.symmetric(horizontal: 8, vertical: 4)
+        : const EdgeInsets.symmetric(horizontal: 16, vertical: 12);
+    final Size buttonMinimumSize = compact
+        ? const Size(0, 26)
+        : const Size(0, 44);
+    final TextStyle? buttonTextStyle =
+        compact ? CompactText.bodyBold() : null;
 
     final Widget button = switch (variant) {
       NeonButtonVariant.filled => FilledButton(
@@ -57,8 +70,9 @@ class NeonButton extends StatelessWidget {
           disabledBackgroundColor: Colors.transparent,
           disabledForegroundColor: enabled ? contentColor : muted,
           shadowColor: Colors.transparent,
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          minimumSize: const Size(0, 44),
+          padding: buttonPadding,
+          minimumSize: buttonMinimumSize,
+          textStyle: buttonTextStyle,
           shape: const RoundedRectangleBorder(borderRadius: AppRadius.mdAll),
         ),
         child: _content(enabled ? contentColor : muted),
@@ -71,8 +85,9 @@ class NeonButton extends StatelessWidget {
               ? accent
               : accent.withValues(alpha: 0.5),
           side: BorderSide(color: accent.withValues(alpha: 0.9)),
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          minimumSize: const Size(0, 44),
+          padding: buttonPadding,
+          minimumSize: buttonMinimumSize,
+          textStyle: buttonTextStyle,
           shape: const RoundedRectangleBorder(borderRadius: AppRadius.mdAll),
         ),
         child: _content(enabled ? accent : accent.withValues(alpha: 0.5)),
@@ -84,8 +99,9 @@ class NeonButton extends StatelessWidget {
           disabledForegroundColor: enabled
               ? accent
               : accent.withValues(alpha: 0.5),
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          minimumSize: const Size(0, 44),
+          padding: buttonPadding,
+          minimumSize: buttonMinimumSize,
+          textStyle: buttonTextStyle,
           shape: const RoundedRectangleBorder(borderRadius: AppRadius.mdAll),
         ),
         child: _content(enabled ? accent : accent.withValues(alpha: 0.5)),
@@ -111,8 +127,8 @@ class NeonButton extends StatelessWidget {
 
     final Widget result = GlowContainer(
       color: accent,
-      glowRadius: enabled ? 18 : 0,
-      glowOpacity: enabled ? 0.42 : 0,
+      glowRadius: enabled ? (compact ? 8 : 18) : 0,
+      glowOpacity: enabled ? (compact ? 0.3 : 0.42) : 0,
       borderRadius: AppRadius.mdAll,
       child: decorated,
     );
@@ -128,8 +144,8 @@ class NeonButton extends StatelessWidget {
   Widget _content(Color contentColor) {
     if (isLoading) {
       return SizedBox(
-        width: 20,
-        height: 20,
+        width: compact ? 12 : 20,
+        height: compact ? 12 : 20,
         child: CircularProgressIndicator(strokeWidth: 2, color: contentColor),
       );
     }
@@ -138,8 +154,8 @@ class NeonButton extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Icon(icon, size: 20),
-          const SizedBox(width: 8),
+          Icon(icon, size: compact ? 12 : 20),
+          SizedBox(width: compact ? CompactSpace.xs : CompactSpace.md),
           Flexible(
             child: Text(
               label,

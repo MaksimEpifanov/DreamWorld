@@ -83,6 +83,28 @@ flutter:
 
   assets:
     - assets/planets/
+    - assets/planets/covers/
+    - assets/planets/genres/cinema/
+    - assets/planets/genres/p_fishing/
+    - assets/planets/genres/p_travel/
+    - assets/planets/genres/p_music/
+    - assets/planets/genres/p_sports/
+    - assets/planets/genres/p_reading/
+    - assets/planets/genres/p_art/
+    - assets/planets/genres/p_tech/
+    - assets/planets/genres/p_food/
+    - assets/planets/genres/p_nature/
+    - assets/planets/genres/p_gaming/
+    - assets/planets/genres/p_cars/
+    - assets/planets/genres/p_animals/
+    - assets/planets/genres/p_gardening/
+    - assets/planets/genres/p_esoteric/
+    - assets/planets/genres/p_finance/
+    - assets/planets/genres/p_volunteering/
+    - assets/planets/genres/p_psychology/
+    - assets/planets/genres/p_other/
+    - assets/planets/genres/p_selfdev/
+    - assets/planets/genres/p_collecting/
     - assets/space/
 
   # To add assets to your application, add an assets section, like this:

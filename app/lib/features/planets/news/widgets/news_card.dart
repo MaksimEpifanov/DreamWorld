@@ -12,15 +12,20 @@ class NewsCard extends StatelessWidget {
     required this.news,
     required this.planet,
     this.onTap,
+    this.compact = false,
   });
 
   final PlanetNewsItem news;
   final Planet planet;
   final VoidCallback? onTap;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
+    final double imageSize = compact ? 22 : 44;
+    final double iconSize = compact ? 10 : 16;
     return GlassCard(
+      compact: compact,
       onTap: onTap,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,52 +33,59 @@ class NewsCard extends StatelessWidget {
           Row(
             children: <Widget>[
               Container(
-                width: 44,
-                height: 44,
+                width: imageSize,
+                height: imageSize,
                 decoration: BoxDecoration(
-                  borderRadius: AppRadius.mdAll,
+                  borderRadius: compact ? AppRadius.smAll : AppRadius.mdAll,
                   gradient: LinearGradient(
                     colors: <Color>[planet.primary, planet.secondary],
                   ),
                 ),
                 alignment: Alignment.center,
-                child: Text(news.emoji, style: const TextStyle(fontSize: 22)),
+                child: Text(
+                  news.emoji,
+                  style: TextStyle(fontSize: compact ? 11 : 22),
+                ),
               ),
-              const SizedBox(width: AppSpacing.md),
+              SizedBox(width: compact ? CompactSpace.sm : AppSpacing.md),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
                       news.title,
-                      style: AppTextStyles.bodyBold(),
+                      style: compact
+                          ? CompactText.bodyBold()
+                          : AppTextStyles.bodyBold(),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    const SizedBox(height: AppSpacing.xxs),
+                    SizedBox(height: compact ? CompactSpace.xxs : AppSpacing.xxs),
                     Text(
                       '${news.sourceName} · ${relativeTime(news.publishedAt)}',
-                      style: AppTextStyles.caption(),
+                      style:
+                          compact ? CompactText.caption() : AppTextStyles.caption(),
                     ),
                   ],
                 ),
               ),
             ],
           ),
-          const SizedBox(height: AppSpacing.sm),
+          SizedBox(height: compact ? CompactSpace.xs : AppSpacing.sm),
           Text(
             news.summary,
-            style: AppTextStyles.body(color: AppColors.textSecondary),
-            maxLines: 3,
+            style: (compact ? CompactText.body() : AppTextStyles.body())
+                .copyWith(color: AppColors.textSecondary),
+            maxLines: compact ? 2 : 3,
             overflow: TextOverflow.ellipsis,
           ),
-          const SizedBox(height: AppSpacing.sm),
+          SizedBox(height: compact ? CompactSpace.xs : AppSpacing.sm),
           Row(
             children: <Widget>[
               Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: AppSpacing.sm,
-                  vertical: 2,
+                padding: EdgeInsets.symmetric(
+                  horizontal: compact ? CompactSpace.xs : AppSpacing.sm,
+                  vertical: compact ? 1 : 2,
                 ),
                 decoration: BoxDecoration(
                   color: planet.accent.withValues(alpha: 0.12),
@@ -81,17 +93,21 @@ class NewsCard extends StatelessWidget {
                 ),
                 child: Text(
                   '#${news.tag}',
-                  style: AppTextStyles.label(color: planet.accent),
+                  style: (compact ? CompactText.label() : AppTextStyles.label())
+                      .copyWith(color: planet.accent),
                 ),
               ),
               const Spacer(),
               Icon(
                 Icons.favorite_border_rounded,
-                size: 16,
+                size: iconSize,
                 color: AppColors.textMuted,
               ),
-              const SizedBox(width: AppSpacing.xxs),
-              Text('${news.likes}', style: AppTextStyles.caption()),
+              SizedBox(width: compact ? CompactSpace.xxs : AppSpacing.xxs),
+              Text(
+                '${news.likes}',
+                style: compact ? CompactText.caption() : AppTextStyles.caption(),
+              ),
             ],
           ),
         ],

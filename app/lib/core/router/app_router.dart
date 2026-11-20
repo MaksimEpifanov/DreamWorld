@@ -12,7 +12,13 @@ import '../../features/auth/reset_password_screen.dart';
 import '../../features/chat/chat_screen.dart';
 import '../../features/chat/conversations_list_screen.dart';
 import '../../features/contacts/contacts_screen.dart';
+import '../../features/animals/presentation/screens/animals_screen.dart';
+import '../../features/animals/presentation/screens/animals_people_screen.dart';
+import '../../features/animals/presentation/screens/animals_types_screen.dart';
 import '../../features/discovery/discovery_screen.dart';
+import '../../features/fishing/presentation/screens/fishing_screen.dart';
+import '../../features/fishing/presentation/screens/fishing_people_screen.dart';
+import '../../features/fishing/presentation/screens/fishing_types_screen.dart';
 import '../../features/match/match_screen.dart';
 import '../../features/notifications/notifications_screen.dart';
 import '../../features/minigames/games/match_three_game_screen.dart';
@@ -29,6 +35,10 @@ import '../../features/planets/events/planet_events_screen.dart';
 import '../../features/planets/home/planet_home_screen.dart';
 import '../../features/planets/map/planet_map_screen.dart';
 import '../../features/planets/news/planet_news_screen.dart';
+import '../../features/planets/portal/data/portal_catalog.dart';
+import '../../features/planets/portal/presentation/screens/universal_planet_portal_screen.dart';
+import '../../features/planets/portal/presentation/screens/universal_planet_people_screen.dart';
+import '../../features/planets/portal/presentation/screens/universal_planet_types_screen.dart';
 import '../../features/profile/profile_setup_screen.dart';
 import '../../features/profile/profile_view_edit_screen.dart';
 import '../../features/profile/user_profile_screen.dart';
@@ -204,6 +214,172 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
           return const ProfileSetupScreen();
         },
       ),
+      // Полноэкранный портал «Рыбалка»: без верхней шапки и нижней навигации.
+      GoRoute(
+        path: '/main/planet/p_fishing',
+        name: 'fishing-planet',
+        builder: (BuildContext context, GoRouterState state) {
+          return const FishingScreen();
+        },
+        routes: <RouteBase>[
+          GoRoute(
+            path: 'types',
+            name: 'fishing-planet-types',
+            builder: (BuildContext context, GoRouterState state) {
+              return const FishingTypesScreen();
+            },
+          ),
+          GoRoute(
+            path: 'people',
+            name: 'fishing-planet-people',
+            builder: (BuildContext context, GoRouterState state) {
+              return const FishingPeopleScreen();
+            },
+          ),
+          GoRoute(
+            path: 'map',
+            name: 'fishing-planet-map',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetMapScreen(planetId: 'p_fishing');
+            },
+          ),
+          GoRoute(
+            path: 'chat',
+            name: 'fishing-planet-chat',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetChatScreen(planetId: 'p_fishing');
+            },
+          ),
+          GoRoute(
+            path: 'events',
+            name: 'fishing-planet-events',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetEventsScreen(planetId: 'p_fishing');
+            },
+          ),
+          GoRoute(
+            path: 'news',
+            name: 'fishing-planet-news',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetNewsScreen(planetId: 'p_fishing');
+            },
+          ),
+        ],
+      ),
+      // Полноэкранный портал «Животные»: без верхней шапки и нижней навигации.
+      GoRoute(
+        path: '/main/planet/p_animals',
+        name: 'animals-planet',
+        builder: (BuildContext context, GoRouterState state) {
+          return const AnimalsScreen();
+        },
+        routes: <RouteBase>[
+          GoRoute(
+            path: 'types',
+            name: 'animals-planet-types',
+            builder: (BuildContext context, GoRouterState state) {
+              return const AnimalsTypesScreen();
+            },
+          ),
+          GoRoute(
+            path: 'people',
+            name: 'animals-planet-people',
+            builder: (BuildContext context, GoRouterState state) {
+              return const AnimalsPeopleScreen();
+            },
+          ),
+          GoRoute(
+            path: 'map',
+            name: 'animals-planet-map',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetMapScreen(planetId: 'p_animals');
+            },
+          ),
+          GoRoute(
+            path: 'chat',
+            name: 'animals-planet-chat',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetChatScreen(planetId: 'p_animals');
+            },
+          ),
+          GoRoute(
+            path: 'events',
+            name: 'animals-planet-events',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetEventsScreen(planetId: 'p_animals');
+            },
+          ),
+          GoRoute(
+            path: 'news',
+            name: 'animals-planet-news',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetNewsScreen(planetId: 'p_animals');
+            },
+          ),
+        ],
+      ),
+      // Полноэкранные порталы остальных планет: без верхней шапки и нижней навигации.
+      GoRoute(
+        path: '/main/planet/:id',
+        name: 'universal-planet',
+        builder: (BuildContext context, GoRouterState state) {
+          final String id = state.pathParameters['id'] ?? '';
+          if (PortalCatalog.isUniversal(id)) {
+            return UniversalPlanetPortalScreen(planetId: id);
+          }
+          return PlanetDetailScreen(planetId: id);
+        },
+        routes: <RouteBase>[
+          GoRoute(
+            path: 'types',
+            name: 'universal-planet-types',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return UniversalPlanetTypesScreen(planetId: id);
+            },
+          ),
+          GoRoute(
+            path: 'people',
+            name: 'universal-planet-people',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return UniversalPlanetPeopleScreen(planetId: id);
+            },
+          ),
+          GoRoute(
+            path: 'map',
+            name: 'universal-planet-map',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return PlanetMapScreen(planetId: id);
+            },
+          ),
+          GoRoute(
+            path: 'chat',
+            name: 'universal-planet-chat',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return PlanetChatScreen(planetId: id);
+            },
+          ),
+          GoRoute(
+            path: 'events',
+            name: 'universal-planet-events',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return PlanetEventsScreen(planetId: id);
+            },
+          ),
+          GoRoute(
+            path: 'news',
+            name: 'universal-planet-news',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return PlanetNewsScreen(planetId: id);
+            },
+          ),
+        ],
+      ),
       // Оболочка с нижней навигацией: главная, подбор, чаты, контакты.
       StatefulShellRoute.indexedStack(
         builder:
@@ -320,6 +496,13 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
         ],
       ),
       // Полноэкранные маршруты поверх оболочки.
+      GoRoute(
+        path: '/main/fishing',
+        name: 'fishing',
+        builder: (BuildContext context, GoRouterState state) {
+          return const FishingScreen();
+        },
+      ),
       GoRoute(
         path: '/search',
         name: 'search',

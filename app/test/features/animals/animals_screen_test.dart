@@ -1,0 +1,290 @@
+import 'package:dreem_world/core/theme/index.dart';
+import 'package:dreem_world/features/animals/presentation/screens/animals_screen.dart';
+import 'package:dreem_world/features/animals/presentation/widgets/animals_navigation_rail.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:go_router/go_router.dart';
+
+class _Stub extends StatelessWidget {
+  const _Stub(this.marker);
+
+  final String marker;
+
+  @override
+  Widget build(BuildContext context) => Scaffold(body: Text('МАРКЕР:$marker'));
+}
+
+GoRouter _router() => GoRouter(
+  initialLocation: '/main/planet/p_animals',
+  routes: <RouteBase>[
+    GoRoute(
+      path: '/main/planet/p_animals',
+      builder: (BuildContext context, GoRouterState state) =>
+          const AnimalsScreen(),
+    ),
+    GoRoute(
+      path: '/main',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('main'),
+    ),
+    GoRoute(
+      path: '/main/planets',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('planets'),
+    ),
+    GoRoute(
+      path: '/search',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('search'),
+    ),
+    GoRoute(
+      path: '/profile',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('profile'),
+    ),
+    GoRoute(
+      path: '/chats',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('chats'),
+    ),
+    GoRoute(
+      path: '/settings',
+      builder: (BuildContext context, GoRouterState state) =>
+          const _Stub('settings'),
+    ),
+    for (final String suffix in <String>[
+      'types',
+      'people',
+      'events',
+      'chat',
+      'map',
+      'news',
+    ])
+      GoRoute(
+        path: '/main/planet/p_animals/$suffix',
+        builder: (BuildContext context, GoRouterState state) => _Stub(suffix),
+      ),
+  ],
+);
+
+void main() {
+  Future<void> pumpScreen(WidgetTester tester, Size size) async {
+    tester.view.physicalSize = size;
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    await tester.pumpWidget(
+      MaterialApp.router(
+        theme: AppTheme.of(AppThemeName.neonViolet),
+        routerConfig: _router(),
+      ),
+    );
+    await tester.pump(const Duration(milliseconds: 400));
+    while (tester.takeException() != null) {}
+    await tester.pump(const Duration(milliseconds: 200));
+  }
+
+  testWidgets('широкий экран показывает три колонки и весь контент', (
+    WidgetTester tester,
+  ) async {
+    await pumpScreen(tester, const Size(1440, 1000));
+
+    expect(find.byType(AnimalsScreen), findsOneWidget);
+    expect(find.byType(AnimalsNavigationRail), findsOneWidget);
+    expect(find.text('AnimalWorld'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey<String>('animals-nav-Животные')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey<String>('animals-nav-Карта')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey<String>('animals-nav-Настройки')),
+      findsOneWidget,
+    );
+    expect(find.text('Животные'), findsWidgets);
+    expect(find.text('Питомцы, спасение и забота'), findsOneWidget);
+    expect(find.text('3 412 участников'), findsOneWidget);
+    expect(find.text('Сейчас онлайн: 211'), findsOneWidget);
+    expect(find.text('История дня'), findsOneWidget);
+    expect(
+      find.text('Лев и его прайд: жизнь больших кошек'),
+      findsOneWidget,
+    );
+    expect(find.text('Направления'), findsOneWidget);
+    expect(find.text('Все виды'), findsOneWidget);
+    expect(find.text('Популярные животные'), findsOneWidget);
+    expect(find.text('Ближайшие события'), findsOneWidget);
+    expect(find.text('Рекомендуемые люди'), findsOneWidget);
+    expect(find.text('Онлайн'), findsWidgets);
+    expect(find.text('Оффлайн'), findsWidgets);
+    expect(find.text('День помощи бездомным животным'), findsOneWidget);
+    expect(find.text('Выставка кошек'), findsOneWidget);
+    expect(find.text('Экскурсия в зоопарк'), findsOneWidget);
+    expect(find.text('Зоолог_Аня'), findsWidgets);
+    expect(find.text('Котомания'), findsWidgets);
+    expect(find.text('Делитесь историями о животных'), findsOneWidget);
+
+    for (final String title in <String>[
+      'Собаки',
+      'Кошки',
+      'Птицы',
+      'Дикие животные',
+      'Грызуны',
+      'Рептилии',
+    ]) {
+      expect(
+        find.byKey(ValueKey<String>('animals-direction-$title')),
+        findsOneWidget,
+        reason: 'не найдена карточка направления $title',
+      );
+    }
+
+    final GridView grid = tester.widget<GridView>(
+      find.byKey(const ValueKey<String>('animals-directions-grid')),
+    );
+    final SliverGridDelegateWithFixedCrossAxisCount delegate =
+        grid.gridDelegate as SliverGridDelegateWithFixedCrossAxisCount;
+    expect(
+      delegate.crossAxisCount,
+      3,
+      reason: 'сетка направлений должна быть 3×2',
+    );
+
+    for (final String label in <String>[
+      'Главная',
+      'Виды животных',
+      'Новости',
+      'Люди',
+      'События',
+      'Карта',
+      'Чат',
+    ]) {
+      expect(
+        find.byKey(ValueKey<String>('animals-tab-$label')),
+        findsOneWidget,
+        reason: 'не найден таб $label',
+      );
+    }
+  });
+
+  testWidgets('табы и подписка работают', (WidgetTester tester) async {
+    await pumpScreen(tester, const Size(1440, 1000));
+
+    await tester.tap(
+      find.byKey(const ValueKey<String>('animals-tab-Главная')),
+    );
+    await tester.pump(const Duration(milliseconds: 400));
+
+    final Finder follow = find.byKey(
+      const ValueKey<String>('animals-follow-Зоолог_Аня'),
+    );
+    await tester.ensureVisible(follow);
+    await tester.pump(const Duration(milliseconds: 200));
+    await tester.tap(follow);
+    await tester.pump(const Duration(milliseconds: 200));
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('табы в центральной колонке ведут на нужные экраны', (
+    WidgetTester tester,
+  ) async {
+    for (final MapEntry<String, String> target in const <String, String>{
+      'Виды животных': 'types',
+      'Новости': 'news',
+      'Люди': 'people',
+      'События': 'events',
+    }.entries) {
+      await pumpScreen(tester, const Size(1440, 1000));
+
+      final Finder tab = find.byKey(
+        ValueKey<String>('animals-tab-${target.key}'),
+      );
+      expect(tab, findsOneWidget);
+      await tester.tap(tab);
+      for (int i = 0; i < 8; i++) {
+        await tester.pump(const Duration(milliseconds: 100));
+        tester.takeException();
+      }
+
+      expect(
+        find.text('МАРКЕР:${target.value}'),
+        findsOneWidget,
+        reason:
+            'таб «${target.key}» должен открыть /main/planet/p_animals/${target.value}',
+      );
+    }
+  });
+
+  testWidgets('кнопка «Все виды» открывает все виды животных', (
+    WidgetTester tester,
+  ) async {
+    await pumpScreen(tester, const Size(1440, 1000));
+
+    await tester.tap(find.byKey(const ValueKey<String>('animals-show-all')));
+    for (int i = 0; i < 8; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+      tester.takeException();
+    }
+
+    expect(find.text('МАРКЕР:types'), findsOneWidget);
+  });
+
+  for (final MapEntry<String, Size> viewport in const <String, Size>{
+    'SE1': Size(320, 568),
+    'android': Size(360, 640),
+    'iphone14': Size(390, 844),
+    'iphone14 landscape': Size(844, 390),
+    'desktop': Size(1440, 900),
+  }.entries) {
+    testWidgets('животные без переполнений: ${viewport.key}', (
+      WidgetTester tester,
+    ) async {
+      final List<String> problems = <String>[];
+      final void Function(FlutterErrorDetails)? previous = FlutterError.onError;
+      FlutterError.onError = (FlutterErrorDetails details) {
+        problems.add(details.toString());
+      };
+      try {
+        await pumpScreen(tester, viewport.value);
+      } finally {
+        FlutterError.onError = previous;
+      }
+
+      final List<String> overflow = problems
+          .where((String details) => details.contains('overflowed by'))
+          .toList();
+      expect(
+        overflow,
+        isEmpty,
+        reason: '${viewport.key}:\n${overflow.join('\n')}',
+      );
+      expect(tester.takeException(), isNull);
+    });
+  }
+
+  testWidgets('на узком экране рельс иконок остаётся, правый уходит вниз', (
+    WidgetTester tester,
+  ) async {
+    await pumpScreen(tester, const Size(390, 844));
+
+    final AnimalsNavigationRail rail = tester.widget<AnimalsNavigationRail>(
+      find.byType(AnimalsNavigationRail),
+    );
+    expect(rail.compact, isTrue);
+    expect(
+      find.byKey(const ValueKey<String>('animals-nav-Карта')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey<String>('animals-popular-panel')),
+      findsOneWidget,
+    );
+    expect(find.text('Популярные животные'), findsOneWidget);
+    expect(find.text('Ближайшие события'), findsOneWidget);
+    expect(find.text('Рекомендуемые люди'), findsOneWidget);
+  });
+}
