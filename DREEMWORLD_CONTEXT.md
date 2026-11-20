@@ -1870,3 +1870,11 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   Проверены все 142 файла направлений на живом сайте — ошибок нет.
   APK в релизе `v1.1.0` не менялся: SHA256 `ff237575…f8cc` прежний.
   Локальный сервер на 8085/8086 после проверок возвращён к сборке с `<base href="/">`.
+- APK с теми же изменениями собран 20.11.2026 по явному разрешению пользователя:
+  `android-release.yml` запущен вручную (`workflow_dispatch`, run `44722128478`, коммит `44e6c17`,
+  код планет `cc10539`), analyze/test/Check APK/Publish Release — успешно, время сборки ~10 мин.
+  Ассет релиза `v1.1.0` обновлён: `app-release.apk` 79 064 648 байт,
+  SHA256 `761df73f56a9521b7296054c7a62b7e6ff2ea66120e7cb89c3e3b38e6e6c19fe`,
+  ссылка https://github.com/MaksimEpifanov/DreamWorld/releases/download/v1.1.0/app-release.apk
+  Локальная копия: `C:\Users\scorp\AppData\Local\Temp\opencode\dreem-site-backups\apk_v1.1.0_planets_20261120\app-release.apk`.
+  Прежний APK сохранён для отката в `apk_v1.1.0_20261120` (SHA256 `ff237575…f8cc`).
