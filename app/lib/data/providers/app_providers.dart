@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:flutter/widgets.dart';
@@ -24,11 +25,11 @@ import '../repositories/relationship_status_repository.dart';
 import '../services/ai_service.dart';
 import '../services/call_service.dart';
 import '../services/firebase_bootstrap.dart';
-import '../services/mock_ai_service.dart';
 import '../services/mock_realtime_service.dart';
 import '../services/mock_translation_service.dart';
 import '../services/notification_service.dart';
 import '../services/realtime_service.dart';
+import '../services/scoring_service.dart';
 import '../services/translation_service.dart';
 import '../services/user_code.dart';
 import 'auth_providers.dart';
@@ -52,8 +53,11 @@ final Provider<RealtimeService> realtimeServiceProvider =
 /// ИИ-сервис (совместимость, темы, перевод).
 ///
 /// TODO(A7): заменить на реальный провайдер без правок UI.
+final Provider<ScoringService> scoringServiceProvider =
+    Provider<ScoringService>((Ref ref) => const ScoringService());
+
 final Provider<AiService> aiServiceProvider = Provider<AiService>(
-  (Ref ref) => const MockAiService(),
+  (Ref ref) => ref.watch(scoringServiceProvider),
 );
 
 /// Сервис автоперевода.
@@ -294,6 +298,41 @@ final StreamProvider<List<Profile>> discoveryProfilesProvider =
           .watch(profileRepositoryProvider)
           .watchDiscoveryProfiles(limit: 200),
     );
+
+final StreamProvider<List<ScoredProfile>> rankedDiscoveryProfilesProvider =
+    StreamProvider<List<ScoredProfile>>((Ref ref) {
+  final ScoringService scoring = ref.watch(scoringServiceProvider);
+  final StreamController<List<ScoredProfile>> controller =
+      StreamController<List<ScoredProfile>>();
+  Profile? me;
+  List<Profile> candidates = const <Profile>[];
+
+  void emit() {
+    if (controller.isClosed) return;
+    controller.add(
+      me == null
+          ? const <ScoredProfile>[]
+          : scoring.rank(me!, candidates),
+    );
+  }
+
+  ref.listen<AsyncValue<Profile?>>(
+    currentProfileProvider,
+    (_, AsyncValue<Profile?> next) {
+      me = next.asData?.value;
+      emit();
+    },
+  );
+  ref.listen<AsyncValue<List<Profile>>>(
+    discoveryProfilesProvider,
+    (_, AsyncValue<List<Profile>> next) {
+      candidates = next.asData?.value ?? const <Profile>[];
+      emit();
+    },
+  );
+  ref.onDispose(controller.close);
+  return controller.stream;
+});
 
 /// Поиск анкет по публичному ID пользователя (`DW-XXXX-XXXX`).
 ///

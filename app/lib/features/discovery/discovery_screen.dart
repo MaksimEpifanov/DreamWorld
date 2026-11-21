@@ -7,6 +7,7 @@ import '../../core/theme/index.dart';
 import '../../core/widgets/index.dart';
 import '../../data/models/index.dart';
 import '../../data/providers/app_providers.dart';
+import '../../data/services/scoring_service.dart';
 import '../safety/widgets/report_sheet.dart';
 import 'widgets/user_card.dart';
 
@@ -86,8 +87,8 @@ class _DiscoveryScreenState extends ConsumerState<DiscoveryScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final AsyncValue<List<Profile>> profilesAsync = ref.watch(
-      discoveryProfilesProvider,
+    final AsyncValue<List<ScoredProfile>> profilesAsync = ref.watch(
+      rankedDiscoveryProfilesProvider,
     );
 
     return Scaffold(
@@ -103,7 +104,7 @@ class _DiscoveryScreenState extends ConsumerState<DiscoveryScreen> {
               icon: Icons.error_outline_rounded,
               text: 'Не удалось загрузить анкеты',
             ),
-            data: (List<Profile> profiles) {
+            data: (List<ScoredProfile> profiles) {
               if (profiles.isEmpty) {
                 return const _Message(
                   icon: Icons.explore_off_outlined,
@@ -119,9 +120,9 @@ class _DiscoveryScreenState extends ConsumerState<DiscoveryScreen> {
                 );
               }
 
-              final Profile profile = profiles[_index];
-              final int compatibility =
-                  ref.watch(compatibilityProvider(profile)).asData?.value ?? 0;
+              final ScoredProfile candidate = profiles[_index];
+              final Profile profile = candidate.profile;
+              final int compatibility = candidate.score;
 
               return Column(
                 children: <Widget>[
