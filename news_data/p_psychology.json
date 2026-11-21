@@ -1,6 +1,6 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:30:58.430583Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
@@ -27,6 +27,17 @@
       "likes": 32
     },
     {
+      "id": "p_psychology_news_2162680903",
+      "title": "Психолог объяснил пользу зависти",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Известия.",
+      "emoji": "🧠",
+      "sourceName": "Известия",
+      "sourceUrl": "https://iz.ru/2200738/2026-11-12/psikholog-obiasnil-polzu-zavisti",
+      "tag": "Книги",
+      "publishedAt": "2026-11-12T14:26:00Z",
+      "likes": 84
+    },
+    {
       "id": "p_psychology_news_3733483328",
       "title": "Психолог назвала главные различия привязанности и зависимости в отношениях",
       "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Радио 1.",
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-09T16:00:00Z",
       "likes": 7
-    },
-    {
-      "id": "p_psychology_news_2535787950",
-      "title": "Психолог объяснила, как распознать зависимость в отношениях и не спутать ее с привязанностью",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
-      "emoji": "🧠",
-      "sourceName": "Здоровье Mail",
-      "sourceUrl": "https://health.mail.ru/news/3956038-psiholog-obyasnila-kak-raspoznat-zavisimost-v-otnosheniyah-i-ne-sputat-ee-s-privyazannostyu/",
-      "tag": "Книги",
-      "publishedAt": "2026-11-09T11:50:00Z",
-      "likes": 88
     }
   ]
 }

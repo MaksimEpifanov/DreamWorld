@@ -1,63 +1,63 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:30:58.430583Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_other_news_2797337415",
-      "title": "На Новый год приготовлю салат «Хрустальная снежинка»: нежные слои, сырная начинка и необычное ...",
-      "summary": "Необычные увлечения и темы вне списка. Источник: prokazan.ru.",
+      "id": "p_other_news_533308097",
+      "title": "Забота о кирпичах. Какие необычные хобби появляются у молодежи в мире",
+      "summary": "Необычные увлечения и темы вне списка. Источник: RBC.",
       "emoji": "✨",
-      "sourceName": "prokazan.ru",
-      "sourceUrl": "https://prokazan.ru/kulinaria/view/na-novyj-god-prigotovlu-salat-hrustalnaa-snezinka-neznye-sloi-syrnaa-nacinka-i-neobycnoe-ukrasenie-dla-prazdnicnogo-stola",
+      "sourceName": "RBC",
+      "sourceUrl": "https://www.rbc.ru/society/01/11/2026/6ae31bca2fd1a98b116df377",
       "tag": "Игры",
-      "publishedAt": "2026-11-19T16:05:00Z",
-      "likes": 28
+      "publishedAt": "2026-11-01T03:20:00Z",
+      "likes": 77
     },
     {
-      "id": "p_other_news_373044308",
-      "title": "В новосибирском аэропорту появилось необычное пространство с авиационной тематикой",
-      "summary": "Необычные увлечения и темы вне списка. Источник: Новости Новосибирска и Новосибирской области.",
+      "id": "p_other_news_1240198456",
+      "title": "«Хобби — это социальный лифт»: почему бизнес выбирает падел и триатлон",
+      "summary": "Необычные увлечения и темы вне списка. Источник: RBC.",
       "emoji": "✨",
-      "sourceName": "Новости Новосибирска и Новосибирской области",
-      "sourceUrl": "https://www.nsk.om1.ru/news/stroitelstvo_i_gorodskaja_sreda/441499-v_novosibirskom_aehroportu_pojavilos_neobychnoe_prostranstvo_s_aviacionnojj_tematikojj/",
+      "sourceName": "RBC",
+      "sourceUrl": "https://www.rbc.ru/radio/25/06/2026/6a3d88fa9a7947749da019b8",
       "tag": "Игры",
-      "publishedAt": "2026-11-19T11:40:00Z",
+      "publishedAt": "2026-06-25T13:04:00Z",
+      "likes": 65
+    },
+    {
+      "id": "p_other_news_1886400431",
+      "title": "Чем заняться в свободное время? Хобби в домашних условиях",
+      "summary": "Необычные увлечения и темы вне списка. Источник: myJane.",
+      "emoji": "✨",
+      "sourceName": "myJane",
+      "sourceUrl": "https://www.myjane.ru/articles/text/?id=25059",
+      "tag": "Игры",
+      "publishedAt": "2025-09-22T01:00:00Z",
       "likes": 17
     },
     {
-      "id": "p_other_news_1678862870",
-      "title": "Необычное свидание в Москве: 5 стрелковых клубов для двоих",
-      "summary": "Необычные увлечения и темы вне списка. Источник: vc.ru.",
+      "id": "p_other_news_2063185312",
+      "title": "Лера Кудрявцева показала необычное увлечение 6-летней дочери",
+      "summary": "Необычные увлечения и темы вне списка. Источник: muz-tv.",
       "emoji": "✨",
-      "sourceName": "vc.ru",
-      "sourceUrl": "https://vc.ru/links/3266733-neobychnye-svidaniya-v-moskve-strelkovye-kluby-dlya-romantiki",
+      "sourceName": "muz-tv",
+      "sourceUrl": "https://muz-tv.ru/news/lera-kudryavceva-pokazala-neobychnoe-uvlechenie-6-letney-docheri/",
       "tag": "Игры",
-      "publishedAt": "2026-11-19T07:42:00Z",
-      "likes": 87
+      "publishedAt": "2025-07-18T23:49:00Z",
+      "likes": 11
     },
     {
-      "id": "p_other_news_3938413434",
-      "title": "Необычное небесное тело заметили в небе жители Алтайского края",
-      "summary": "Необычные увлечения и темы вне списка. Источник: Комсомольская Правда в Барнауле.",
+      "id": "p_other_news_1378910251",
+      "title": "Костюмы животных и забеги на четвереньках: необычные увлечения современных подростков",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Sport Express.",
       "emoji": "✨",
-      "sourceName": "Комсомольская Правда в Барнауле",
-      "sourceUrl": "https://www.alt.kp.ru/online/news/7280927/",
+      "sourceName": "Sport Express",
+      "sourceUrl": "https://www.sport-express.ru/zozh/hobby/reviews/furri-kvadrobika-i-hobbihorsing-neobychnye-uvlecheniya-podrostkov-2219542/",
       "tag": "Игры",
-      "publishedAt": "2026-11-18T16:01:00Z",
-      "likes": 55
-    },
-    {
-      "id": "p_other_news_3066070665",
-      "title": "Необычное для ноября потепление возвращается на Средний Урал",
-      "summary": "Необычные увлечения и темы вне списка. Источник: МК-Урал.",
-      "emoji": "✨",
-      "sourceName": "МК-Урал",
-      "sourceUrl": "https://eburg.mk.ru/science/2026/11/19/neobychnoe-dlya-noyabrya-poteplenie-vozvrashhaetsya-na-sredniy-ural.html",
-      "tag": "Игры",
-      "publishedAt": "2026-11-18T16:01:00Z",
-      "likes": 91
+      "publishedAt": "2024-06-09T22:59:00Z",
+      "likes": 32
     }
   ]
 }

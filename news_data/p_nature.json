@@ -1,63 +1,63 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:30:58.430583Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_nature_news_2529855399",
-      "title": "В Ростове 170 школьников приняли участие в образовательных мероприятиях о Пушкине и экологии",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Коммерсантъ.",
+      "id": "p_nature_news_1390306163",
+      "title": "Домашняя конка выбрала дикую жизнь в Хоперском заповеднике под Воронежем",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: МК в Воронеже.",
       "emoji": "🌲",
-      "sourceName": "Коммерсантъ",
-      "sourceUrl": "https://www.kommersant.ru/doc/9113982",
+      "sourceName": "МК в Воронеже",
+      "sourceUrl": "https://vrn.mk.ru/social/2026/11/19/domashnyaya-konka-vybrala-dikuyu-zhizn-v-khoperskom-zapovednike-pod-voronezhem.html",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T09:21:00Z",
-      "likes": 59
+      "publishedAt": "2026-11-18T16:01:00Z",
+      "likes": 33
     },
     {
-      "id": "p_nature_news_2966164513",
-      "title": "Светлана Артемьева",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер.",
+      "id": "p_nature_news_1290409601",
+      "title": "В заповеднике \"Брянский лес\" отметили 15-летие зубра Мефодия",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер/новости.",
       "emoji": "🌲",
-      "sourceName": "Рамблер",
-      "sourceUrl": "https://www.rambler.ru/eco/experts/svetlana-artem-eva/",
+      "sourceName": "Рамблер/новости",
+      "sourceUrl": "https://news.rambler.ru/world/57390900-v-zapovednike-bryanskiy-les-otmetili-15-letie-zubra-mefodiya/",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T05:01:00Z",
-      "likes": 41
+      "publishedAt": "2026-11-10T08:30:00Z",
+      "likes": 58
     },
     {
-      "id": "p_nature_news_4016220442",
-      "title": "Природа фотографии",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Сноб.",
+      "id": "p_nature_news_4215955094",
+      "title": "Медведи, волки и ласки в Кавказском заповеднике привыкают к соседству с туристами",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: interfax-russia.",
       "emoji": "🌲",
-      "sourceName": "Сноб",
-      "sourceUrl": "https://snob.ru/tag/ai/85391/",
+      "sourceName": "interfax-russia",
+      "sourceUrl": "https://www.interfax-russia.ru/index.php/tourism/news/medvedi-volki-i-laski-v-kavkazskom-zapovednike-privykayut-k-sosedstvu-s-turistami",
       "tag": "Природа",
-      "publishedAt": "2026-11-17T05:27:00Z",
-      "likes": 70
+      "publishedAt": "2026-09-09T05:12:00Z",
+      "likes": 60
     },
     {
-      "id": "p_nature_news_2369229369",
-      "title": "Природа как национальное достояние: курс на бережное развитие",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: МК-Кавказ.",
+      "id": "p_nature_news_1124699857",
+      "title": "Уникальные кадры тигрят на рыбалке показал российский заповедник",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Lentaru.",
       "emoji": "🌲",
-      "sourceName": "МК-Кавказ",
-      "sourceUrl": "https://kavkaz.mk.ru/social/2026/11/17/priroda-kak-nacionalnoe-dostoyanie-kurs-na-berezhnoe-razvitie.html",
+      "sourceName": "Lentaru",
+      "sourceUrl": "https://lenta.ru/news/2025/06/17/unikalnye-kadry-tigryat-na-rybalke-pokazal-rossiyskiy-zapovednik/",
       "tag": "Природа",
-      "publishedAt": "2026-11-16T16:00:00Z",
-      "likes": 89
+      "publishedAt": "2025-06-17T13:30:00Z",
+      "likes": 18
     },
     {
-      "id": "p_nature_news_1537413115",
-      "title": "Природа заперла их в одной точке мира: 10 уникальных животных, которых нигде больше нет",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Правда.Ру.",
+      "id": "p_nature_news_3100663430",
+      "title": "Мать-природа: как женщины охраняют заповедники и спасают вымирающие виды животных",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Андрей Мовчан.",
       "emoji": "🌲",
-      "sourceName": "Правда.Ру",
-      "sourceUrl": "https://www.pravda.ru/news/zoo/2442473-rare-endemic-animals/",
+      "sourceName": "Андрей Мовчан",
+      "sourceUrl": "https://www.forbes.ru/forbes-woman/538655-mat-priroda-kak-zensiny-ohranaut-zapovedniki-i-spasaut-vymirausie-vidy-zivotnyh",
       "tag": "Природа",
-      "publishedAt": "2026-11-13T20:43:00Z",
-      "likes": 77
+      "publishedAt": "2025-06-05T03:00:00Z",
+      "likes": 87
     }
   ]
 }

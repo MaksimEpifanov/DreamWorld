@@ -1,41 +1,41 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:20:37.741911Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_2522310185",
-      "title": "Лучшие игровые наборы «Рыбалка»: 6 вариантов для дошкольников — от первого улова до турнира",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: vc.ru.",
+      "id": "p_fishing_news_2857271182",
+      "title": "Рыбакам рассказали, кого и на что ловить на первом льду",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Радио 1.",
       "emoji": "🎣",
-      "sourceName": "vc.ru",
-      "sourceUrl": "https://vc.ru/id6020831/3261587-igrovye-nabory-rybalka-dlya-doshkolnikov",
+      "sourceName": "Радио 1",
+      "sourceUrl": "https://radio1.ru/articles/obschestvo/ribakam-rasskazali-kogo-i-na-chto-lovit-na-pervom-ldu/",
       "tag": "Природа",
-      "publishedAt": "2026-11-17T06:07:00Z",
-      "likes": 57
+      "publishedAt": "2026-11-20T04:04:00Z",
+      "likes": 69
     },
     {
-      "id": "p_fishing_news_932618545",
-      "title": "Омич поймал крупного налима на Иртыше у Ленинградского моста",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Город55.",
+      "id": "p_fishing_news_1926519892",
+      "title": "Бесплатная рыбалка в Подмосковье: 22 секретных места, где рыба клюет всегда",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: REGIONS.RU.",
       "emoji": "🎣",
-      "sourceName": "Город55",
-      "sourceUrl": "https://gorod55.ru/news/2026-11-15/uzhe-led-stoit-kuda-omichi-otpravlyayutsya-na-rybalku-v-noyabre-2026-goda-5731396",
+      "sourceName": "REGIONS.RU",
+      "sourceUrl": "https://regions.ru/obschestvo/besplatnaja-rybalka-v-podmoskove-22-sekretnyh-mesta-gde-ryba-kljuet-vsegda",
       "tag": "Природа",
-      "publishedAt": "2026-11-14T16:00:00Z",
-      "likes": 56
+      "publishedAt": "2026-11-16T05:14:00Z",
+      "likes": 84
     },
     {
-      "id": "p_fishing_news_664347051",
-      "title": "Зимняя рыбалка в 2026–2027 годах: запреты, нормы вылова, разрешенные снасти и штрафы",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Рамблер/новости.",
+      "id": "p_fishing_news_3861066155",
+      "title": "На глубине. Рыбалка в ноябре 2026: где ловить щуку, окуня и судака",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: oren.aif.",
       "emoji": "🎣",
-      "sourceName": "Рамблер/новости",
-      "sourceUrl": "https://news.rambler.ru/community/57409795-zimnyaya-rybalka-v-2026-2027-godah-zaprety-normy-vylova-razreshennye-snasti-i-shtrafy/",
+      "sourceName": "oren.aif",
+      "sourceUrl": "https://oren.aif.ru/society/na-glubine-rybalka-v-noyabre-2026-gde-lovit-shchuku-okunya-i-sudaka",
       "tag": "Природа",
-      "publishedAt": "2026-11-13T03:20:00Z",
-      "likes": 36
+      "publishedAt": "2026-11-05T10:08:00Z",
+      "likes": 63
     }
   ]
 }

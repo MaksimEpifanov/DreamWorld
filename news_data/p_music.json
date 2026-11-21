@@ -1,41 +1,52 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:20:37.741911Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_2243108564",
-      "title": "Концерт победителя шоу «Наша новая музыка» Тома Космоса уже сегодня на Первом канале",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 1tv.",
+      "id": "p_music_news_4054216180",
+      "title": "Вышел альбом с треками GTA 6 — в него вошло 34 песни",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Чемпионат.",
       "emoji": "🎵",
-      "sourceName": "1tv",
-      "sourceUrl": "https://www.1tv.ru/news/2026-10-10/555657",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://www.championat.com/cybersport/news-6707016-vyshel-albom-s-trekami-gta-6-v-nego-voshlo-34-pesni.html",
       "tag": "Музыка",
-      "publishedAt": "2026-10-10T06:07:00Z",
-      "likes": 25
+      "publishedAt": "2026-11-20T09:01:00Z",
+      "likes": 5
     },
     {
-      "id": "p_music_news_1861364582",
-      "title": "Том Космос — «Ангел». Концерт победителя проекта «Наша новая музыка». Фрагмент выпуска от 10.10.2026",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 1tv.",
+      "id": "p_music_news_936978090",
+      "title": "Брюс Дикинсон выпустил первый сингл из нового сольного альбома",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: InterMedia.",
       "emoji": "🎵",
-      "sourceName": "1tv",
-      "sourceUrl": "https://www.1tv.ru/shows/koncerty/vystupleniya/tom-kosmos-angel-koncert-pobeditelya-proekta-nasha-novaya-muzyka-fragment-vypuska-ot-10-10-2026",
+      "sourceName": "InterMedia",
+      "sourceUrl": "https://www.intermedia.ru/news/408215",
       "tag": "Музыка",
-      "publishedAt": "2026-10-09T17:00:00Z",
-      "likes": 15
+      "publishedAt": "2026-11-19T02:32:00Z",
+      "likes": 83
     },
     {
-      "id": "p_music_news_3489363169",
-      "title": "Южнокорейская группа BTS выпустила новый альбом после четырехлетнего перерыва",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: iz.",
+      "id": "p_music_news_3279300276",
+      "title": "Подопечные фонда \"Доброделы\" выпустили второй музыкальный альбом \"Герой начинается с тебя\" при ...",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Metro.",
       "emoji": "🎵",
-      "sourceName": "iz",
-      "sourceUrl": "https://iz.ru/2063034/iuzhnokoreiskaia-gruppa-bts-vypustila-novyi-albom-posle-chetyrekhletnego-pereryva-izi",
+      "sourceName": "Metro",
+      "sourceUrl": "https://www.metronews.ru/novosti/peterbourg/reviews/podopechnye-fonda-dobrodely-vypustili-vtoroy-muzykalnyy-albom-geroy-nachinaetsya-s-tebya-pri-podderzhke-vk-records-2193779/",
       "tag": "Музыка",
-      "publishedAt": "2026-03-20T07:27:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-13T08:54:00Z",
+      "likes": 70
+    },
+    {
+      "id": "p_music_news_3575370854",
+      "title": "Музыкальная осень 2026: какие альбомы выпустили украинские артисты и что готовят дальше",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: delo.ua.",
+      "emoji": "🎵",
+      "sourceName": "delo.ua",
+      "sourceUrl": "https://delo.ua/ru/creative-economy/muzykalnaya-osen-2026-kakie-albomy-vypustili-ukrainskie-artisty-i-cto-gotovyat-dalse-475540/",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-03T04:23:00Z",
+      "likes": 17
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:30:58.430583Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_82412449",
-      "title": "Новый Джеймс Бонд с вампирским прошлым, спорное возвращение Деппа в Голливуд и электричество из ...",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Газета.Ru.",
+      "id": "p_cars_news_264903716",
+      "title": "Забудьте об автосалонах: BMW разрешила покупать авто и записываться на тест-драйв через ChatGPT",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Фокус.",
       "emoji": "🚗",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/twz/krugozor/novyi-dzheims-bond-s-vampirskim-proshlym.htm",
+      "sourceName": "Фокус",
+      "sourceUrl": "https://focus.ua/auto/774367-bmw-v-chatgpt-kak-vybrat-avto-i-zapisatsya-na-test-drayv",
       "tag": "Технологии",
-      "publishedAt": "2026-11-20T11:00:00Z",
-      "likes": 86
+      "publishedAt": "2026-11-11T06:49:00Z",
+      "likes": 21
     },
     {
-      "id": "p_cars_news_3464294993",
-      "title": "Новый тарифный коридор ОСАГО. Кому страховка влетит в копеечку?",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Российская газета.",
+      "id": "p_cars_news_3739203604",
+      "title": "Компактный и простой. Есть ли что-то особенное в кроссовере Belgee X50+? Тест-драйв «Ленты.ру»",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Lentaru.",
       "emoji": "🚗",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/rg-poschitala-skolko-budet-stoit-polis-osago-s-novymi-granicami-tarifov.html",
+      "sourceName": "Lentaru",
+      "sourceUrl": "https://lenta.ru/articles/2026/09/07/belgeex50plus/",
       "tag": "Технологии",
-      "publishedAt": "2026-11-20T08:18:00Z",
-      "likes": 42
+      "publishedAt": "2026-09-06T17:01:00Z",
+      "likes": 72
     },
     {
-      "id": "p_cars_news_215221927",
-      "title": "Названы песни, которые чаще всего звучат в эфире на Новый год",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Вести.Ru.",
+      "id": "p_cars_news_14045465",
+      "title": "Большой автомобиль с маленьким налогом. Чем удивляет гибридный кроссовер GAC S9: тест-драйв «Ленты…",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Lentaru.",
       "emoji": "🚗",
-      "sourceName": "Вести.Ru",
-      "sourceUrl": "https://www.vesti.ru/ns/nazvany-pesni-kotorye-chashche-vsego-zvuchat-v-ehfire-na-novyj-god",
+      "sourceName": "Lentaru",
+      "sourceUrl": "https://lenta.ru/articles/2026/08/26/gacs9/",
       "tag": "Технологии",
-      "publishedAt": "2026-11-20T08:02:00Z",
-      "likes": 43
+      "publishedAt": "2026-08-25T17:01:00Z",
+      "likes": 25
     },
     {
-      "id": "p_cars_news_3514539881",
-      "title": "В Dota 2 обнаружили, что новый предмет Greater Horn of Battle призывает не мегакрипов",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Cybersport.ru.",
+      "id": "p_cars_news_4281221026",
+      "title": "Большой тест-драйв финалистов «ТОП-5 АВТО»",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Колеса.ру.",
       "emoji": "🚗",
-      "sourceName": "Cybersport.ru",
-      "sourceUrl": "https://www.cybersport.ru/tags/dota-2/v-dota-2-obnaruzhili-chto-novyi-predmet-greater-horn-of-battle-prizyvayet-ne",
+      "sourceName": "Колеса.ру",
+      "sourceUrl": "https://www.kolesa.ru/news/bolsoi-test-draiv-finalistov-top-5-avto",
       "tag": "Технологии",
-      "publishedAt": "2026-11-20T02:48:00Z",
-      "likes": 20
+      "publishedAt": "2026-07-27T14:16:00Z",
+      "likes": 26
     },
     {
-      "id": "p_cars_news_2008302398",
-      "title": "Дилер рассказал, кто будет покупать новый кроссовер Lada Azimut",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Российская газета.",
+      "id": "p_cars_news_4192379952",
+      "title": "Тест-драйв кроссовера Belgee X70: полный привод за 3 миллиона",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Mail.",
       "emoji": "🚗",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/diler-rasskazal-kto-budet-pokupat-novyj-krossover-lada-azimut.html",
+      "sourceName": "Mail",
+      "sourceUrl": "https://auto.mail.ru/article/118609-test-drajv-krossovera-belgee-x70-polnyij-privod-za-3-milliona/",
       "tag": "Технологии",
-      "publishedAt": "2026-11-20T01:01:00Z",
-      "likes": 89
+      "publishedAt": "2026-02-20T06:17:00Z",
+      "likes": 60
     }
   ]
 }

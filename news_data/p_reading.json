@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:20:37.741911Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_2231175403",
-      "title": "Новая волна протестов прокатилась по странам Европы",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Первый канал.",
+      "id": "p_reading_news_2699210065",
+      "title": "В «Библиотеку Десятилетия науки и технологий» войдут 150 книг",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ОТР - Общественное Телевидение России.",
       "emoji": "📖",
-      "sourceName": "Первый канал",
-      "sourceUrl": "https://www.1tv.ru/news/2026-11-21/559507",
+      "sourceName": "ОТР - Общественное Телевидение России",
+      "sourceUrl": "https://otr-online.ru/news/v-biblioteku-desyatiletiya-nauki-i-tehnologii-voidut-knig-336484.html",
       "tag": "Книги",
-      "publishedAt": "2026-11-21T02:02:00Z",
-      "likes": 23
+      "publishedAt": "2026-11-18T15:48:00Z",
+      "likes": 71
     },
     {
-      "id": "p_reading_news_4267004099",
-      "title": "Внутри атома нашли возможный ключ к судьбе космоса: новая модель объясняет тёмную энергию",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Правда.Ру.",
+      "id": "p_reading_news_1602190231",
+      "title": "Около 150 изданий войдут в \"Библиотеку Десятилетия науки и технологий\"",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: SAMARAONLINE24.",
       "emoji": "📖",
-      "sourceName": "Правда.Ру",
-      "sourceUrl": "https://www.pravda.ru/news/science/2446724-dark-energy-quantum-chromodynamics-breakthrough/",
+      "sourceName": "SAMARAONLINE24",
+      "sourceUrl": "https://samaraonline24.ru/science/view/okolo-150-izdanij-vojdut-v-biblioteku-desatiletia-nauki-i-tehnologij",
       "tag": "Книги",
-      "publishedAt": "2026-11-20T15:52:00Z",
-      "likes": 33
+      "publishedAt": "2026-11-18T11:09:00Z",
+      "likes": 47
     },
     {
-      "id": "p_reading_news_1576486817",
-      "title": "Глазьев: Может появиться новая союзная программа для создания лекарств от устойчивых к ...",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Российская газета.",
+      "id": "p_reading_news_2495368729",
+      "title": "Книжные новинки и встречи с писателями: как пройдет литературная ярмарка non/fiction",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: TASS.",
       "emoji": "📖",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/glazev-mozhet-poiavitsia-novaia-soiuznaia-programma-dlia-sozdaniia-lekarstv-ot-ustojchivyh-k-antibiotikam-bakterij.html",
+      "sourceName": "TASS",
+      "sourceUrl": "https://tass.ru/opinions/20411263",
       "tag": "Книги",
-      "publishedAt": "2026-11-20T10:31:00Z",
-      "likes": 12
+      "publishedAt": "2024-04-03T17:00:00Z",
+      "likes": 37
     },
     {
-      "id": "p_reading_news_2558429175",
-      "title": "Новая функция \"Госуслуг\" будет запущена в России в начале 2027 года",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Вести.Ru.",
+      "id": "p_reading_news_164894830",
+      "title": "Директор издательства «Время» Борис Пастернак: Запускаем новые тиражи книг Светланы Алексиевич",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Komsomolskaya Pravda.",
       "emoji": "📖",
-      "sourceName": "Вести.Ru",
-      "sourceUrl": "https://www.vesti.ru/ns/novaya-funkciya-gosuslug-budet-zapushchena-v-rossii-v-nachale-2027-goda",
+      "sourceName": "Komsomolskaya Pravda",
+      "sourceUrl": "https://www.kp.ru/daily/26443/3314419/",
       "tag": "Книги",
-      "publishedAt": "2026-11-20T04:06:00Z",
-      "likes": 50
+      "publishedAt": "2015-10-08T23:32:00Z",
+      "likes": 38
     },
     {
-      "id": "p_reading_news_3262899024",
-      "title": "Новая бронемашина для словацких гор: показан средний танк Karpat",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Военное обозрение.",
+      "id": "p_reading_news_2049571227",
+      "title": "Книжные издательства. Что предлагают авторам?",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: KM.",
       "emoji": "📖",
-      "sourceName": "Военное обозрение",
-      "sourceUrl": "https://topwar.ru/293876-novaja-bronemashina-dlja-slovackih-gor-pokazan-srednij-tank-karpat.html",
+      "sourceName": "KM",
+      "sourceUrl": "https://www.km.ru/referats/DE63383919F2451CBCFC5AC99BEACFC0",
       "tag": "Книги",
-      "publishedAt": "2026-11-20T03:59:00Z",
-      "likes": 32
+      "publishedAt": "2012-06-16T17:00:00Z",
+      "likes": 86
     }
   ]
 }

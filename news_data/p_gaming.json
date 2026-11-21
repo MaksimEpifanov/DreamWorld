@@ -1,63 +1,41 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:32:43.862254Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_3524180586",
-      "title": "ЕС направит миллиард евро на новые контракты по вооружению для ВСУ",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Аргументы Недели.",
+      "id": "p_gaming_news_1975996133",
+      "title": "Игра GTA VI установила исторический рекорд в первый день продаж",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Вести.Ru.",
       "emoji": "🎮",
-      "sourceName": "Аргументы Недели",
-      "sourceUrl": "https://argumenti.ru/politics/es-napravit-milliard-evro-na-novye-kontrakty-po-vooruzheniyu-dlya-vsu-1015357",
+      "sourceName": "Вести.Ru",
+      "sourceUrl": "https://www.vesti.ru/ns/igra-gta-vi-ustanovila-istoricheskij-rekord-v-pervyj-den-prodazh",
       "tag": "Игры",
-      "publishedAt": "2026-11-21T02:31:00Z",
-      "likes": 85
-    },
-    {
-      "id": "p_gaming_news_3786929399",
-      "title": "БПЛА станут надежнее: в России разработали новые ГСМ",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Военное дело.",
-      "emoji": "🎮",
-      "sourceName": "Военное дело",
-      "sourceUrl": "https://voennoedelo.com/posts/id92104-bpla-stanut-nadezhnee-v-rossii-razrabotali-novye-gsm",
-      "tag": "Игры",
-      "publishedAt": "2026-11-20T16:39:00Z",
-      "likes": 30
-    },
-    {
-      "id": "p_gaming_news_918306474",
-      "title": "Тайный бункер для биообразцов: Пентагон опубликовал новые документы об НЛО",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Газета.Ru.",
-      "emoji": "🎮",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/social/2026/11/21/long-23894731.shtml",
-      "tag": "Игры",
-      "publishedAt": "2026-11-20T16:03:00Z",
-      "likes": 65
-    },
-    {
-      "id": "p_gaming_news_3332615848",
-      "title": "Дивизии имени Дзержинского передали новые танки, БМП, БТР и бронеавтомобили \"Спартак\"",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Российская газета.",
-      "emoji": "🎮",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/divizii-imeni-dzerzhinskogo-peredali-novye-tanki-bmp-btr-i-broneavtomobili.html",
-      "tag": "Игры",
-      "publishedAt": "2026-11-20T08:51:00Z",
-      "likes": 24
-    },
-    {
-      "id": "p_gaming_news_3335511831",
-      "title": "Новые правила исчисления процентов по кредитам опубликовали в Казахстане",
-      "summary": "Кооп, рейды и вечерние катки. Источник: NUR.KZ.",
-      "emoji": "🎮",
-      "sourceName": "NUR.KZ",
-      "sourceUrl": "https://www.nur.kz/nurfin/banks/2459397-novye-pravila-ischisleniya-procentov-po-kreditam-opublikovali-v-kazahstane/",
-      "tag": "Игры",
-      "publishedAt": "2026-11-20T08:04:00Z",
+      "publishedAt": "2026-11-20T16:36:00Z",
       "likes": 18
+    },
+    {
+      "id": "p_gaming_news_299484346",
+      "title": "«Кинопоиск | Игры» переезжает на Игромир. Что это значит?",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Кинопоиск.",
+      "emoji": "🎮",
+      "sourceName": "Кинопоиск",
+      "sourceUrl": "https://www.kinopoisk.ru/media/news/4013722/",
+      "tag": "Игры",
+      "publishedAt": "2026-11-18T17:19:00Z",
+      "likes": 72
+    },
+    {
+      "id": "p_gaming_news_254678773",
+      "title": "Ultima и другие классические игры EA получили переиздание для современных систем",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Ferra Ru.",
+      "emoji": "🎮",
+      "sourceName": "Ferra Ru",
+      "sourceUrl": "https://www.ferra.ru/news/games/ultima-i-drugie-klassicheskie-igry-ea-poluchili-pereizdanie-dlya-sovremennykh-sistem-06-11-2026.htm",
+      "tag": "Игры",
+      "publishedAt": "2026-11-07T06:01:00Z",
+      "likes": 5
     }
   ]
 }

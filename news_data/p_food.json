@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:20:37.741911Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_2391312198",
-      "title": "Зловещий замок и жестокая фея Мелюзина - хоррор EONA получил новый трейлер",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: PlayGround.ru.",
+      "id": "p_food_news_1161203633",
+      "title": "Знаю, как угодить Красной Козе — на Новый год-2027 подам салат «На сене»: ингредиенты простые, а ...",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Хибины.ru.",
       "emoji": "🍜",
-      "sourceName": "PlayGround.ru",
-      "sourceUrl": "https://www.playground.ru/eona/news/zloveschij_zamok_i_zhestokaya_feya_melyuzina_horror_eona_poluchil_novyj_trejler-1892587",
+      "sourceName": "Хибины.ru",
+      "sourceUrl": "https://www.hibiny.ru/murmanskaya-oblast/news/item-znayu-kak-ugodit-krasnoy-koze-na-novyy-god-2027-podam-salat-na-sene-ingredienty-prostye-a-vkusnota-nere-477390/",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-20T16:29:00Z",
-      "likes": 43
+      "publishedAt": "2026-11-19T10:30:00Z",
+      "likes": 48
     },
     {
-      "id": "p_food_news_82412449",
-      "title": "Новый Джеймс Бонд с вампирским прошлым, спорное возвращение Деппа в Голливуд и электричество из ...",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Газета.Ru.",
+      "id": "p_food_news_1519324784",
+      "title": "На Новый год приготовлю мясные «Снежки»: рецепт сочных шариков под нежной сырной шапочкой",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: prokazan.ru.",
       "emoji": "🍜",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/twz/krugozor/novyi-dzheims-bond-s-vampirskim-proshlym.htm",
+      "sourceName": "prokazan.ru",
+      "sourceUrl": "https://prokazan.ru/kulinaria/view/na-novyj-god-prigotovlu-masnye-snezki-recept-socnyh-sarikov-pod-neznoj-syrnoj-sapockoj",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-20T11:00:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-14T05:05:00Z",
+      "likes": 11
     },
     {
-      "id": "p_food_news_3464294993",
-      "title": "Новый тарифный коридор ОСАГО. Кому страховка влетит в копеечку?",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Российская газета.",
+      "id": "p_food_news_1931722868",
+      "title": "Забытое белорусское блюдо взорвало TikTok – что за рецепт",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Точка.",
       "emoji": "🍜",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/rg-poschitala-skolko-budet-stoit-polis-osago-s-novymi-granicami-tarifov.html",
+      "sourceName": "Точка",
+      "sourceUrl": "https://tochka.by/articles/life/zabytoe_belorusskoe_blyudo_vzorvalo_tiktok_chto_za_retsept_/",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-20T08:18:00Z",
+      "publishedAt": "2026-11-13T06:54:00Z",
+      "likes": 23
+    },
+    {
+      "id": "p_food_news_1445512687",
+      "title": "Добавляю мандарины в салат с курицей: необычное сочетание, которое хочется повторить на Новый ...",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: prokazan.ru.",
+      "emoji": "🍜",
+      "sourceName": "prokazan.ru",
+      "sourceUrl": "https://prokazan.ru/kulinaria/view/dobavlau-mandariny-v-salat-s-kuricej-neobycnoe-socetanie-kotoroe-hocetsa-povtorit-na-novyj-god-recept",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-12T16:05:00Z",
       "likes": 50
     },
     {
-      "id": "p_food_news_215221927",
-      "title": "Названы песни, которые чаще всего звучат в эфире на Новый год",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Вести.Ru.",
+      "id": "p_food_news_1835231324",
+      "title": "Чем заменить селедку в «шубе»: 8 вкусных альтернатив для салата на Новый год",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Пятый канал.",
       "emoji": "🍜",
-      "sourceName": "Вести.Ru",
-      "sourceUrl": "https://www.vesti.ru/ns/nazvany-pesni-kotorye-chashche-vsego-zvuchat-v-ehfire-na-novyj-god",
+      "sourceName": "Пятый канал",
+      "sourceUrl": "https://www.5-tv.ru/tabloid/5094463/cem-zamenit-seledku-vsube-8-vkusnyh-alternativ-dla-salata-nanovyj-god/",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-20T08:02:00Z",
-      "likes": 41
-    },
-    {
-      "id": "p_food_news_2008302398",
-      "title": "Дилер рассказал, кто будет покупать новый кроссовер Lada Azimut",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Российская газета.",
-      "emoji": "🍜",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/20/diler-rasskazal-kto-budet-pokupat-novyj-krossover-lada-azimut.html",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-20T01:01:00Z",
-      "likes": 47
+      "publishedAt": "2026-11-08T08:31:00Z",
+      "likes": 35
     }
   ]
 }

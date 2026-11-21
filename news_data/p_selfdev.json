@@ -1,6 +1,6 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:32:43.862254Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
@@ -38,17 +38,6 @@
       "likes": 46
     },
     {
-      "id": "p_selfdev_news_2553448555",
-      "title": "Саморазвитие. С чего начать?",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: vc.",
-      "emoji": "🚀",
-      "sourceName": "vc",
-      "sourceUrl": "https://vc.ru/opinions/1688027-samorazvitie-s-chego-nachat",
-      "tag": "Книги",
-      "publishedAt": "2024-12-03T00:08:00Z",
-      "likes": 63
-    },
-    {
       "id": "p_selfdev_news_4197845330",
       "title": "Саморазвитие: пять способов инвестировать в себя",
       "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Учительская Газета.",
@@ -58,6 +47,17 @@
       "tag": "Книги",
       "publishedAt": "2023-11-26T07:32:00Z",
       "likes": 84
+    },
+    {
+      "id": "p_selfdev_news_2409537725",
+      "title": "Что такое саморазвитие личности",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: woman.rambler.",
+      "emoji": "🚀",
+      "sourceName": "woman.rambler",
+      "sourceUrl": "https://woman.rambler.ru/love/51683663-chto-takoe-samorazvitie-lichnosti/",
+      "tag": "Книги",
+      "publishedAt": "2023-10-30T07:53:00Z",
+      "likes": 61
     }
   ]
 }

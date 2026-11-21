@@ -1,6 +1,6 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "updatedAt": "2026-11-21T15:20:37.741911Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
@@ -14,6 +14,28 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-20T21:00:00Z",
       "likes": 83
+    },
+    {
+      "id": "p_travel_news_4235451870",
+      "title": "Курорт «Абрау-Дюрсо» представил туристический маршрут «Южное наследие Романовых»",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: rst.",
+      "emoji": "✈️",
+      "sourceName": "rst",
+      "sourceUrl": "https://rst.ru/novosti/novosti-kompanii/kurort-abrau-dyurso-predstavil-turisticheskij-marshrut-yuzhnoe-nasledie-romanovyh/",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-20T05:45:00Z",
+      "likes": 10
+    },
+    {
+      "id": "p_travel_news_352780337",
+      "title": "Новый туристический поезд РЖД «Балтийское кольцо» с 27 ноября: маршрут, цены и билеты",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: SecurityLab.ru.",
+      "emoji": "✈️",
+      "sourceName": "SecurityLab.ru",
+      "sourceUrl": "https://www.securitylab.ru/blog/personal/Faraway/363675.php",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-19T03:38:00Z",
+      "likes": 48
     },
     {
       "id": "p_travel_news_2655408557",
@@ -36,28 +58,6 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-17T23:32:00Z",
       "likes": 53
-    },
-    {
-      "id": "p_travel_news_217744003",
-      "title": "В Малмыжском районе открыли маршрут «Легенды и тайны земли Малмыжской»",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Рамблер/путешествия.",
-      "emoji": "✈️",
-      "sourceName": "Рамблер/путешествия",
-      "sourceUrl": "https://travel.rambler.ru/local/57426641-v-malmyzhskom-rayone-otkryli-marshrut-legendy-i-tayny-zemli-malmyzhskoy/",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-16T10:59:00Z",
-      "likes": 30
-    },
-    {
-      "id": "p_travel_news_3411711989",
-      "title": "Как арендовать авто для путешествия по России: выбор машины, условия проката и новый сервис Rentaca…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: sostav.ru.",
-      "emoji": "✈️",
-      "sourceName": "sostav.ru",
-      "sourceUrl": "https://www.sostav.ru/blogs/288146/116112",
-      "tag": "Путешествия",
-      "publishedAt": "2026-10-24T02:55:00Z",
-      "likes": 78
     }
   ]
 }

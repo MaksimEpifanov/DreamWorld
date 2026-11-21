@@ -160,23 +160,37 @@ def fetch_bing_rss(query):
         return []
 
 
-def query_variants(query):
-    parts = [clean(part) for part in query.split() if len(clean(part)) > 2]
-    variants = []
-    for candidate in [query] + parts[:3]:
-        candidate = clean(candidate)
-        if candidate and candidate not in variants:
-            variants.append(candidate)
-    return variants
+def title_tokens(title):
+    return {
+        token
+        for token in re.findall(r"[a-zа-яё0-9]+", clean(title).lower())
+        if len(token) > 3
+    }
+
+
+def is_relevant(planet, article):
+    title = clean(article.get("title"))
+    if not title:
+        return False
+    if any(re.search(pattern, title, re.IGNORECASE) for pattern in planet.get("reject", [])):
+        return False
+    return any(re.search(pattern, title, re.IGNORECASE) for pattern in planet.get("require", []))
 
 
 def merge_articles(current, incoming):
     seen = {item["url"] for item in current}
+    signatures = [title_tokens(item["title"]) for item in current]
     result = list(current)
     for item in incoming:
         if item["url"] in seen:
             continue
+        tokens = title_tokens(item["title"])
+        if tokens and any(
+            len(tokens & other) / len(tokens | other) >= 0.72 for other in signatures
+        ):
+            continue
         seen.add(item["url"])
+        signatures.append(tokens)
         result.append(item)
     return result
 
@@ -197,25 +211,25 @@ def sort_and_filter(articles):
     return fresh if len(fresh) >= 3 else articles
 
 
-def collect(query):
-    variants = query_variants(query)
-    articles = fetch_gdelt(query)
-    used = ["gdelt"] if articles else []
-    for variant in variants:
-        if len(articles) >= 3:
-            break
-        incoming = fetch_google_rss(variant)
-        articles = merge_articles(articles, incoming)
-        if incoming:
-            used.append("google-rss")
-    for variant in variants:
-        if len(articles) >= 3:
-            break
-        incoming = fetch_bing_rss(variant)
-        articles = merge_articles(articles, incoming)
-        if incoming:
-            used.append("bing-rss")
-    return sort_and_filter(articles)[:5], "+".join(dict.fromkeys(used)) or "rss"
+def collect(planet):
+    queries = planet.get("queries") or [planet["query"]]
+    articles = []
+    used = []
+    gdelt = [item for item in fetch_gdelt(planet["query"]) if is_relevant(planet, item)]
+    if gdelt:
+        used.append("gdelt")
+        articles = merge_articles(articles, gdelt)
+    for fetcher, label in ((fetch_google_rss, "google-rss"), (fetch_bing_rss, "bing-rss")):
+        for query in queries:
+            if len(articles) >= 5:
+                break
+            incoming = fetcher(query)
+            accepted = [item for item in incoming if is_relevant(planet, item)]
+            if accepted:
+                if label not in used:
+                    used.append(label)
+                articles = merge_articles(articles, accepted)
+    return sort_and_filter(articles)[:5], "+".join(used) or "rss"
 
 
 def gemini_rewrite(planet, articles, key):
@@ -310,10 +324,13 @@ def build_news(planet, articles, key, mode):
         seen.add(article["url"])
         rewritten = items[index] if index < len(items) else {}
         fallback = template_rewrite(planet, [article])[0]
+        title = shorten(rewritten.get("title") or article["title"], 120)
+        if not is_relevant(planet, {"title": title}):
+            title = shorten(article["title"], 120)
         news.append(
             {
                 "id": f"{planet['id']}_news_{zlib.crc32(article['url'].encode('utf-8'))}",
-                "title": shorten(rewritten.get("title") or article["title"], 120),
+                "title": title,
                 "summary": shorten(rewritten.get("summary") or fallback["summary"], 260),
                 "emoji": shorten(rewritten.get("emoji") or planet["emoji"], 8),
                 "sourceName": shorten(article["source"], 60),
@@ -337,16 +354,23 @@ def main():
     for index, planet in enumerate(planets):
         if index:
             time.sleep(5.5)
-        articles, source = collect(planet["query"])
+        articles, source = collect(planet)
         news, mode = build_news(planet, articles, key, "template")
         path = OUT / f"{planet['id']}.json"
         if not news and path.exists():
-            print(f"{planet['id']}: нет свежих материалов, сохранён предыдущий выпуск", flush=True)
             previous = json.loads(path.read_text(encoding="utf-8"))
-            total += len(previous.get("news") or [])
-            modes.add(previous.get("mode") or mode)
-            sources.add(previous.get("source") or source)
-            continue
+            items = previous.get("news") or []
+            if len(items) >= 3 and all(
+                is_relevant(planet, {"title": item.get("title", "")}) for item in items
+            ):
+                print(f"{planet['id']}: сохранён предыдущий релевантный выпуск", flush=True)
+                total += len(items)
+                modes.add(previous.get("mode") or mode)
+                sources.add(previous.get("source") or source)
+                continue
+        if not news:
+            print(f"{planet['id']}: нет релевантных материалов, выпуск пуст", flush=True)
+            source = "none"
         payload = {
             "planetId": planet["id"],
             "updatedAt": generated_at,
