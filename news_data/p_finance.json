@@ -1,0 +1,63 @@
+{
+  "planetId": "p_finance",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_finance_news_3100926812",
+      "title": "Кабмин внес в Госдуму законопроект о возврате остатков бюджетных инвестиций",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Рамблер Финансы.",
+      "emoji": "💰",
+      "sourceName": "Рамблер Финансы",
+      "sourceUrl": "https://finance.rambler.ru/business/57441617-kabmin-vnes-v-gosdumu-zakonoproekt-o-vozvrate-ostatkov-byudzhetnyh-investitsiy/",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-18T12:31:00Z",
+      "likes": 21
+    },
+    {
+      "id": "p_finance_news_3886610544",
+      "title": "Бюджет региона, сложности логистики, транзит в ЕС и запрет вейпов. Итоги",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Рамблер Финансы.",
+      "emoji": "💰",
+      "sourceName": "Рамблер Финансы",
+      "sourceUrl": "https://finance.rambler.ru/economics/57441478-byudzhet-regiona-slozhnosti-logistiki-tranzit-v-es-i-zapret-veypov-itogi/",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-18T12:00:00Z",
+      "likes": 79
+    },
+    {
+      "id": "p_finance_news_3259106824",
+      "title": "Почему бюджет может не работать: когда нужен внешний взгляд на личные финансы",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: sostav.ru.",
+      "emoji": "💰",
+      "sourceName": "sostav.ru",
+      "sourceUrl": "https://www.sostav.ru/blogs/293004/112475",
+      "tag": "Технологии",
+      "publishedAt": "2026-10-02T08:44:00Z",
+      "likes": 6
+    },
+    {
+      "id": "p_finance_news_1363398639",
+      "title": "Когда личные финансы требуют внешнего взгляда: как выбрать специалиста и навести порядок",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: sostav.ru.",
+      "emoji": "💰",
+      "sourceName": "sostav.ru",
+      "sourceUrl": "https://www.sostav.ru/blogs/293004/111162",
+      "tag": "Технологии",
+      "publishedAt": "2026-09-25T08:51:00Z",
+      "likes": 83
+    },
+    {
+      "id": "p_finance_news_1740240958",
+      "title": "Личные финансы: инвестиции и трейдинг от Skillbox",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: RBC.",
+      "emoji": "💰",
+      "sourceName": "RBC",
+      "sourceUrl": "https://www.rbc.ru/courses/all/skillbox/licnye-finansy-investicii-i-treiding",
+      "tag": "Технологии",
+      "publishedAt": "2026-06-25T20:06:00Z",
+      "likes": 15
+    }
+  ]
+}

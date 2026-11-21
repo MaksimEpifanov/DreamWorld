@@ -1,0 +1,63 @@
+{
+  "planetId": "p_reading",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_reading_news_2231175403",
+      "title": "Новая волна протестов прокатилась по странам Европы",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Первый канал.",
+      "emoji": "📖",
+      "sourceName": "Первый канал",
+      "sourceUrl": "https://www.1tv.ru/news/2026-11-21/559507",
+      "tag": "Книги",
+      "publishedAt": "2026-11-21T02:02:00Z",
+      "likes": 23
+    },
+    {
+      "id": "p_reading_news_4267004099",
+      "title": "Внутри атома нашли возможный ключ к судьбе космоса: новая модель объясняет тёмную энергию",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Правда.Ру.",
+      "emoji": "📖",
+      "sourceName": "Правда.Ру",
+      "sourceUrl": "https://www.pravda.ru/news/science/2446724-dark-energy-quantum-chromodynamics-breakthrough/",
+      "tag": "Книги",
+      "publishedAt": "2026-11-20T15:52:00Z",
+      "likes": 33
+    },
+    {
+      "id": "p_reading_news_1576486817",
+      "title": "Глазьев: Может появиться новая союзная программа для создания лекарств от устойчивых к ...",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Российская газета.",
+      "emoji": "📖",
+      "sourceName": "Российская газета",
+      "sourceUrl": "https://rg.ru/2026/11/20/glazev-mozhet-poiavitsia-novaia-soiuznaia-programma-dlia-sozdaniia-lekarstv-ot-ustojchivyh-k-antibiotikam-bakterij.html",
+      "tag": "Книги",
+      "publishedAt": "2026-11-20T10:31:00Z",
+      "likes": 12
+    },
+    {
+      "id": "p_reading_news_2558429175",
+      "title": "Новая функция \"Госуслуг\" будет запущена в России в начале 2027 года",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Вести.Ru.",
+      "emoji": "📖",
+      "sourceName": "Вести.Ru",
+      "sourceUrl": "https://www.vesti.ru/ns/novaya-funkciya-gosuslug-budet-zapushchena-v-rossii-v-nachale-2027-goda",
+      "tag": "Книги",
+      "publishedAt": "2026-11-20T04:06:00Z",
+      "likes": 50
+    },
+    {
+      "id": "p_reading_news_3262899024",
+      "title": "Новая бронемашина для словацких гор: показан средний танк Karpat",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Военное обозрение.",
+      "emoji": "📖",
+      "sourceName": "Военное обозрение",
+      "sourceUrl": "https://topwar.ru/293876-novaja-bronemashina-dlja-slovackih-gor-pokazan-srednij-tank-karpat.html",
+      "tag": "Книги",
+      "publishedAt": "2026-11-20T03:59:00Z",
+      "likes": 32
+    }
+  ]
+}

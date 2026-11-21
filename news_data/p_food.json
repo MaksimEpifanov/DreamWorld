@@ -1,0 +1,63 @@
+{
+  "planetId": "p_food",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_food_news_2391312198",
+      "title": "Зловещий замок и жестокая фея Мелюзина - хоррор EONA получил новый трейлер",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: PlayGround.ru.",
+      "emoji": "🍜",
+      "sourceName": "PlayGround.ru",
+      "sourceUrl": "https://www.playground.ru/eona/news/zloveschij_zamok_i_zhestokaya_feya_melyuzina_horror_eona_poluchil_novyj_trejler-1892587",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-20T16:29:00Z",
+      "likes": 43
+    },
+    {
+      "id": "p_food_news_82412449",
+      "title": "Новый Джеймс Бонд с вампирским прошлым, спорное возвращение Деппа в Голливуд и электричество из ...",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Газета.Ru.",
+      "emoji": "🍜",
+      "sourceName": "Газета.Ru",
+      "sourceUrl": "https://www.gazeta.ru/twz/krugozor/novyi-dzheims-bond-s-vampirskim-proshlym.htm",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-20T11:00:00Z",
+      "likes": 80
+    },
+    {
+      "id": "p_food_news_3464294993",
+      "title": "Новый тарифный коридор ОСАГО. Кому страховка влетит в копеечку?",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Российская газета.",
+      "emoji": "🍜",
+      "sourceName": "Российская газета",
+      "sourceUrl": "https://rg.ru/2026/11/20/rg-poschitala-skolko-budet-stoit-polis-osago-s-novymi-granicami-tarifov.html",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-20T08:18:00Z",
+      "likes": 50
+    },
+    {
+      "id": "p_food_news_215221927",
+      "title": "Названы песни, которые чаще всего звучат в эфире на Новый год",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Вести.Ru.",
+      "emoji": "🍜",
+      "sourceName": "Вести.Ru",
+      "sourceUrl": "https://www.vesti.ru/ns/nazvany-pesni-kotorye-chashche-vsego-zvuchat-v-ehfire-na-novyj-god",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-20T08:02:00Z",
+      "likes": 41
+    },
+    {
+      "id": "p_food_news_2008302398",
+      "title": "Дилер рассказал, кто будет покупать новый кроссовер Lada Azimut",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Российская газета.",
+      "emoji": "🍜",
+      "sourceName": "Российская газета",
+      "sourceUrl": "https://rg.ru/2026/11/20/diler-rasskazal-kto-budet-pokupat-novyj-krossover-lada-azimut.html",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-20T01:01:00Z",
+      "likes": 47
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "planetId": "p_selfdev",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_selfdev_news_3018203165",
+      "title": "Саморазвитие без токсичности: альтернатива культуре успеха",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: WomanHit.ru.",
+      "emoji": "🚀",
+      "sourceName": "WomanHit.ru",
+      "sourceUrl": "https://www.womanhit.ru/psychology/93224-2026-06-04-samorazvitie-bez-toksichnosti-alternativa-kulture-uspeha/",
+      "tag": "Книги",
+      "publishedAt": "2026-06-04T08:46:00Z",
+      "likes": 78
+    },
+    {
+      "id": "p_selfdev_news_2288468143",
+      "title": "Саморазвитие: Почему оно важнее, чем когда-либо⁠⁠",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: pikabu.",
+      "emoji": "🚀",
+      "sourceName": "pikabu",
+      "sourceUrl": "https://pikabu.ru/story/samorazvitie_pochemu_ono_vazhnee_chem_kogdalibo_12302659",
+      "tag": "Книги",
+      "publishedAt": "2025-01-26T22:51:00Z",
+      "likes": 85
+    },
+    {
+      "id": "p_selfdev_news_2561145541",
+      "title": "Саморазвитие не работает",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: habr.",
+      "emoji": "🚀",
+      "sourceName": "habr",
+      "sourceUrl": "https://habr.com/ru/articles/868722/",
+      "tag": "Книги",
+      "publishedAt": "2024-12-22T03:37:00Z",
+      "likes": 46
+    },
+    {
+      "id": "p_selfdev_news_2553448555",
+      "title": "Саморазвитие. С чего начать?",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: vc.",
+      "emoji": "🚀",
+      "sourceName": "vc",
+      "sourceUrl": "https://vc.ru/opinions/1688027-samorazvitie-s-chego-nachat",
+      "tag": "Книги",
+      "publishedAt": "2024-12-03T00:08:00Z",
+      "likes": 63
+    },
+    {
+      "id": "p_selfdev_news_4197845330",
+      "title": "Саморазвитие: пять способов инвестировать в себя",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Учительская Газета.",
+      "emoji": "🚀",
+      "sourceName": "Учительская Газета",
+      "sourceUrl": "https://ug.ru/samorazvitie-pyat-sposobov-investirovat-v-sebya/",
+      "tag": "Книги",
+      "publishedAt": "2023-11-26T07:32:00Z",
+      "likes": 84
+    }
+  ]
+}

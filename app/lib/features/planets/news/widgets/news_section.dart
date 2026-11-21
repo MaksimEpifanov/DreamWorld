@@ -63,7 +63,7 @@ class NewsSection extends ConsumerWidget {
         ),
         SizedBox(height: spaceXxs),
         Text(
-          'Лента обновляется каждый час ИИ-редакцией',
+          'Лента обновляется раз в день ИИ-редакцией',
           style: compact ? CompactText.caption() : AppTextStyles.caption(),
         ),
         SizedBox(height: spaceSm),

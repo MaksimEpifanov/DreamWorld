@@ -1,0 +1,63 @@
+{
+  "planetId": "p_psychology",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_psychology_news_1927148147",
+      "title": "«Я тебя ненавижу»: психолог объяснил, как реагировать на резкие слова ребенка",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Газета.Ru.",
+      "emoji": "🧠",
+      "sourceName": "Газета.Ru",
+      "sourceUrl": "https://www.gazeta.ru/family/news/2026/11/20/29795413.shtml",
+      "tag": "Книги",
+      "publishedAt": "2026-11-21T04:00:00Z",
+      "likes": 60
+    },
+    {
+      "id": "p_psychology_news_1841380055",
+      "title": "Психолог Мишина: Молчаливое исчезновение говорит об избегании эмоций",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Life.ru.",
+      "emoji": "🧠",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://life.ru/p/ne-otvechaet-i-blokiruet-posle-ssory-psiholog-raskryla-chto-skryvaetsya-za",
+      "tag": "Книги",
+      "publishedAt": "2026-11-13T16:46:00Z",
+      "likes": 32
+    },
+    {
+      "id": "p_psychology_news_3733483328",
+      "title": "Психолог назвала главные различия привязанности и зависимости в отношениях",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Радио 1.",
+      "emoji": "🧠",
+      "sourceName": "Радио 1",
+      "sourceUrl": "https://radio1.ru/news/obschestvo/psiholog-nazvala-glavnie-razlichiya-privyazannosti-i-zavisimosti-v-otnosheniyah/",
+      "tag": "Книги",
+      "publishedAt": "2026-11-10T05:31:00Z",
+      "likes": 39
+    },
+    {
+      "id": "p_psychology_news_966672593",
+      "title": "Нездоровая любовь: как отличить привязанность от созависимости в отношениях",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Пятый канал.",
+      "emoji": "🧠",
+      "sourceName": "Пятый канал",
+      "sourceUrl": "https://www.5-tv.ru/news/5094890/nezdorovaa-lubov-kak-otlicit-privazannost-otsozavisimosti-votnoseniah-aii/",
+      "tag": "Книги",
+      "publishedAt": "2026-11-09T16:00:00Z",
+      "likes": 7
+    },
+    {
+      "id": "p_psychology_news_2535787950",
+      "title": "Психолог объяснила, как распознать зависимость в отношениях и не спутать ее с привязанностью",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
+      "emoji": "🧠",
+      "sourceName": "Здоровье Mail",
+      "sourceUrl": "https://health.mail.ru/news/3956038-psiholog-obyasnila-kak-raspoznat-zavisimost-v-otnosheniyah-i-ne-sputat-ee-s-privyazannostyu/",
+      "tag": "Книги",
+      "publishedAt": "2026-11-09T11:50:00Z",
+      "likes": 88
+    }
+  ]
+}

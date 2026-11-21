@@ -1,0 +1,63 @@
+{
+  "planetId": "p_gardening",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_gardening_news_3026533119",
+      "title": "Сад на стеллажах и в кладовке: как москвич превратил квартиру в огород",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Рамблер/женский.",
+      "emoji": "🌱",
+      "sourceName": "Рамблер/женский",
+      "sourceUrl": "https://woman.rambler.ru/home/57447265-sad-na-stellazhah-i-v-kladovke-kak-moskvich-prevratil-kvartiru-v-ogorod/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-19T08:04:00Z",
+      "likes": 61
+    },
+    {
+      "id": "p_gardening_news_1051417305",
+      "title": "Убираем усы у огурцов: как это влияет на урожай и что выбрать?",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: zur-nn.ru.",
+      "emoji": "🌱",
+      "sourceName": "zur-nn.ru",
+      "sourceUrl": "https://zur-nn.ru/news/article/ubiraem-usy-u-ogurcov-kak-eto-vliyaet-na-urojay-i-chto-vybrat-207567/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-16T23:59:00Z",
+      "likes": 51
+    },
+    {
+      "id": "p_gardening_news_2098113500",
+      "title": "Купили дорогие семена по чужим отзывам, а урожая нет? 3 правила подбора сортов под свой огород",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Правда.Ру.",
+      "emoji": "🌱",
+      "sourceName": "Правда.Ру",
+      "sourceUrl": "https://www.pravda.ru/news/gardening/2443702-seed-selection-strategy-garden-yield/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-16T21:13:00Z",
+      "likes": 22
+    },
+    {
+      "id": "p_gardening_news_1662598926",
+      "title": "Семена хорошие, а урожая нет: почему удачный сорт может подвести именно на вашем участке",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Кубанские новости.",
+      "emoji": "🌱",
+      "sourceName": "Кубанские новости",
+      "sourceUrl": "https://kubnews.ru/obshchestvo/2026/11/16/semena-khoroshie-a-urozhaya-net-pochemu-udachnyy-sort-mozhet-podvesti-imenno-na-vashem-uchastke/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-15T16:00:00Z",
+      "likes": 83
+    },
+    {
+      "id": "p_gardening_news_2549703813",
+      "title": "Мумие для огорода: как простые таблетки увеличивают урожай томатов и огурцов",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: zur-nn.ru.",
+      "emoji": "🌱",
+      "sourceName": "zur-nn.ru",
+      "sourceUrl": "https://zur-nn.ru/news/article/mumie-dlya-ogoroda-kak-prostye-tabletki-uvelichivayut-urojay-tomatov-i-ogurcov-206293/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "likes": 92
+    }
+  ]
+}

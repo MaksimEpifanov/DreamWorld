@@ -1,0 +1,63 @@
+{
+  "planetId": "p_nature",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_nature_news_2529855399",
+      "title": "В Ростове 170 школьников приняли участие в образовательных мероприятиях о Пушкине и экологии",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Коммерсантъ.",
+      "emoji": "🌲",
+      "sourceName": "Коммерсантъ",
+      "sourceUrl": "https://www.kommersant.ru/doc/9113982",
+      "tag": "Природа",
+      "publishedAt": "2026-11-19T09:21:00Z",
+      "likes": 59
+    },
+    {
+      "id": "p_nature_news_2966164513",
+      "title": "Светлана Артемьева",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер.",
+      "emoji": "🌲",
+      "sourceName": "Рамблер",
+      "sourceUrl": "https://www.rambler.ru/eco/experts/svetlana-artem-eva/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-19T05:01:00Z",
+      "likes": 41
+    },
+    {
+      "id": "p_nature_news_4016220442",
+      "title": "Природа фотографии",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Сноб.",
+      "emoji": "🌲",
+      "sourceName": "Сноб",
+      "sourceUrl": "https://snob.ru/tag/ai/85391/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-17T05:27:00Z",
+      "likes": 70
+    },
+    {
+      "id": "p_nature_news_2369229369",
+      "title": "Природа как национальное достояние: курс на бережное развитие",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: МК-Кавказ.",
+      "emoji": "🌲",
+      "sourceName": "МК-Кавказ",
+      "sourceUrl": "https://kavkaz.mk.ru/social/2026/11/17/priroda-kak-nacionalnoe-dostoyanie-kurs-na-berezhnoe-razvitie.html",
+      "tag": "Природа",
+      "publishedAt": "2026-11-16T16:00:00Z",
+      "likes": 89
+    },
+    {
+      "id": "p_nature_news_1537413115",
+      "title": "Природа заперла их в одной точке мира: 10 уникальных животных, которых нигде больше нет",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Правда.Ру.",
+      "emoji": "🌲",
+      "sourceName": "Правда.Ру",
+      "sourceUrl": "https://www.pravda.ru/news/zoo/2442473-rare-endemic-animals/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-13T20:43:00Z",
+      "likes": 77
+    }
+  ]
+}

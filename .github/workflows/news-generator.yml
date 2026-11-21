@@ -1,0 +1,33 @@
+name: Daily Planet News
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: planet-news
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Сборка новостей планет
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python .github/scripts/generate_news.py
+      - name: Публикация
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news_data
+          if git diff --cached --quiet; then
+            echo "Новости не изменились"
+          else
+            git commit -m "chore: ежедневные новости планет"
+            git push
+          fi

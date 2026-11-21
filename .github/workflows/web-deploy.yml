@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'app/**'
+      - 'news_data/**'
       - '.github/workflows/web-deploy.yml'
 permissions:
   contents: read
@@ -28,6 +29,10 @@ jobs:
       - name: Build web
         working-directory: app
         run: flutter build web --release --base-href "/DreamWorld/" --pwa-strategy=none
+      - name: Новости планет
+        run: |
+          mkdir -p app/build/web/news news_data
+          cp news_data/*.json app/build/web/news/ 2>/dev/null || true
       - name: SPA fallback
         run: cp app/build/web/index.html app/build/web/404.html
       - name: Build info

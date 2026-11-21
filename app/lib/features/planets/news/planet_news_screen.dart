@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../core/theme/index.dart';
 import '../../../core/widgets/index.dart';
@@ -66,7 +68,7 @@ class PlanetNewsScreen extends ConsumerWidget {
                       const SizedBox(width: AppSpacing.xs),
                       Expanded(
                         child: Text(
-                          'Лента обновляется каждый час',
+                          'Лента обновляется раз в день',
                           style: AppTextStyles.caption(),
                         ),
                       ),
@@ -165,6 +167,15 @@ Future<void> showNewsSheet(
                     Text('${news.likes}', style: AppTextStyles.caption()),
                   ],
                 ),
+                if (news.sourceUrl.isNotEmpty)
+                  Padding(
+                    padding: const EdgeInsets.only(top: AppSpacing.sm),
+                    child: OutlinedButton.icon(
+                      onPressed: () => _openSource(news.sourceUrl),
+                      icon: const Icon(Icons.open_in_new_rounded, size: 16),
+                      label: const Text('Читать источник'),
+                    ),
+                  ),
                 const SizedBox(height: AppSpacing.md),
               ],
             ),
@@ -173,4 +184,13 @@ Future<void> showNewsSheet(
       );
     },
   );
+}
+
+Future<void> _openSource(String url) async {
+  final Uri uri = Uri.parse(url);
+  if (kIsWeb) {
+    await launchUrl(uri, webOnlyWindowName: '_blank');
+    return;
+  }
+  await launchUrl(uri, mode: LaunchMode.externalApplication);
 }

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/app_user.dart';
@@ -25,6 +26,7 @@ import '../repositories/planet_chat_repository.dart';
 import '../repositories/planet_event_repository.dart';
 import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
+import '../repositories/remote_news_repository.dart';
 import '../repositories/spot_report_repository.dart';
 import '../services/firebase_bootstrap.dart';
 import 'app_providers.dart';
@@ -71,6 +73,13 @@ final Provider<SpotReportRepository> spotReportRepositoryProvider =
 /// Репозиторий новостной ленты планет.
 final Provider<NewsRepository> newsRepositoryProvider =
     Provider<NewsRepository>((Ref ref) => const MockNewsRepository());
+
+final Provider<RemoteNewsRepository> remoteNewsRepositoryProvider =
+    Provider<RemoteNewsRepository>((Ref ref) {
+      final RemoteNewsRepository repository = RemoteNewsRepository();
+      ref.onDispose(repository.dispose);
+      return repository;
+    });
 
 /// Репозиторий общего чата планеты.
 ///
@@ -335,9 +344,9 @@ planetChatMessagesProvider =
       return ref.watch(planetChatRepositoryProvider).watchMessages(planet);
     });
 
-/// Лента новостей планеты с обновлением раз в час.
+/// Лента новостей планеты с загрузкой готового выпуска раз в день.
 ///
-/// Первый выпуск отдаётся сразу, затем лента пересобирается каждый час.
+/// Сначала отдаётся кэш или демонстрационная лента, затем — свежие новости.
 final StreamProviderFamily<List<PlanetNewsItem>, String> planetNewsProvider =
     StreamProvider.family<List<PlanetNewsItem>, String>((Ref ref, String id) {
       final Planet? planet = ref.watch(planetByIdProvider(id));
@@ -346,27 +355,40 @@ final StreamProviderFamily<List<PlanetNewsItem>, String> planetNewsProvider =
       }
 
       final NewsRepository repository = ref.watch(newsRepositoryProvider);
-      return _hourlyNews(repository, planet);
+      final RemoteNewsRepository remote = ref.watch(
+        remoteNewsRepositoryProvider,
+      );
+      return _remoteNews(remote, repository, planet);
     });
 
-/// Бесконечный поток новостей: сразу первая порция, далее раз в час.
-///
-/// Поток отменяет таймер при закрытии подписки (например, при уходе с
-/// экрана), поэтому не оставляет «висящих» таймеров.
-Stream<List<PlanetNewsItem>> _hourlyNews(
-  NewsRepository repository,
+Stream<List<PlanetNewsItem>> _remoteNews(
+  RemoteNewsRepository remote,
+  NewsRepository fallback,
   Planet planet,
 ) {
   StreamController<List<PlanetNewsItem>>? controller;
   Timer? timer;
 
-  void emit() =>
-      controller?.add(repository.newsFor(planet, now: DateTime.now()));
+  void emitFallback() => controller?.add(
+    remote.cached(planet.id) ??
+        fallback.newsFor(planet, now: DateTime.now()),
+  );
+
+  Future<void> load() async {
+    if (!kReleaseMode) return;
+    final List<PlanetNewsItem>? fresh = await remote.fetch(planet);
+    if (fresh != null && controller?.isClosed == false) {
+      controller!.add(fresh);
+    }
+  }
 
   controller = StreamController<List<PlanetNewsItem>>(
     onListen: () {
-      emit();
-      timer = Timer.periodic(const Duration(hours: 1), (_) => emit());
+      emitFallback();
+      unawaited(load());
+      timer = Timer.periodic(const Duration(hours: 1), (_) {
+        unawaited(load());
+      });
     },
     onCancel: () {
       timer?.cancel();

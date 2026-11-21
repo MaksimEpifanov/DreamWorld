@@ -370,7 +370,7 @@ void main() {
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 200));
 
-      expect(find.textContaining('обновляется каждый час'), findsOneWidget);
+      expect(find.textContaining('обновляется раз в день'), findsOneWidget);
       expect(find.byType(NewsCard), findsWidgets);
     });
   });

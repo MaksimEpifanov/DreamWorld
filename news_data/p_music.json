@@ -1,0 +1,41 @@
+{
+  "planetId": "p_music",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_music_news_2243108564",
+      "title": "Концерт победителя шоу «Наша новая музыка» Тома Космоса уже сегодня на Первом канале",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 1tv.",
+      "emoji": "🎵",
+      "sourceName": "1tv",
+      "sourceUrl": "https://www.1tv.ru/news/2026-10-10/555657",
+      "tag": "Музыка",
+      "publishedAt": "2026-10-10T06:07:00Z",
+      "likes": 25
+    },
+    {
+      "id": "p_music_news_1861364582",
+      "title": "Том Космос — «Ангел». Концерт победителя проекта «Наша новая музыка». Фрагмент выпуска от 10.10.2026",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 1tv.",
+      "emoji": "🎵",
+      "sourceName": "1tv",
+      "sourceUrl": "https://www.1tv.ru/shows/koncerty/vystupleniya/tom-kosmos-angel-koncert-pobeditelya-proekta-nasha-novaya-muzyka-fragment-vypuska-ot-10-10-2026",
+      "tag": "Музыка",
+      "publishedAt": "2026-10-09T17:00:00Z",
+      "likes": 15
+    },
+    {
+      "id": "p_music_news_3489363169",
+      "title": "Южнокорейская группа BTS выпустила новый альбом после четырехлетнего перерыва",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: iz.",
+      "emoji": "🎵",
+      "sourceName": "iz",
+      "sourceUrl": "https://iz.ru/2063034/iuzhnokoreiskaia-gruppa-bts-vypustila-novyi-albom-posle-chetyrekhletnego-pereryva-izi",
+      "tag": "Музыка",
+      "publishedAt": "2026-03-20T07:27:00Z",
+      "likes": 80
+    }
+  ]
+}

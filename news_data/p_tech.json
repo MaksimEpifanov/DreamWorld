@@ -1,0 +1,41 @@
+{
+  "planetId": "p_tech",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_tech_news_781014777",
+      "title": "Nothing назвала дату презентации своего ИИ-гаджета без экрана",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: DGL.RU.",
+      "emoji": "💻",
+      "sourceName": "DGL.RU",
+      "sourceUrl": "https://www.dgl.ru/technique/gadgets/ii-gadzhet-nothing-8-dekabrja.html",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-20T18:58:00Z",
+      "likes": 65
+    },
+    {
+      "id": "p_tech_news_2931038811",
+      "title": "Искусственный интеллект и термометрия: представлен новый гаджет для контроля здоровья",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Pravda.",
+      "emoji": "💻",
+      "sourceName": "Pravda",
+      "sourceUrl": "https://www.pravda.ru/news/health/2408266-smart-bra-cancer-detection/",
+      "tag": "Технологии",
+      "publishedAt": "2026-09-14T07:01:00Z",
+      "likes": 43
+    },
+    {
+      "id": "p_tech_news_1973038043",
+      "title": "Совещание по вопросам развития технологий искусственного интеллекта",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Президент России.",
+      "emoji": "💻",
+      "sourceName": "Президент России",
+      "sourceUrl": "http://kremlin.ru/events/president/news/79525",
+      "tag": "Технологии",
+      "publishedAt": "2026-04-10T15:20:00Z",
+      "likes": 67
+    }
+  ]
+}

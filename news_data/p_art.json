@@ -1,0 +1,63 @@
+{
+  "planetId": "p_art",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_art_news_2799795013",
+      "title": "В Ростове-на-Дону откроется выставка о летних воспоминаниях",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: BURO..",
+      "emoji": "🎨",
+      "sourceName": "BURO.",
+      "sourceUrl": "https://www.buro247.ru/news/culture/20-nov-2026-rostov-on-don-exhibition.html",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-20T12:11:00Z",
+      "likes": 86
+    },
+    {
+      "id": "p_art_news_1966980542",
+      "title": "Орхидеи, вечеринки и искусство: чем заняться в выходные в Минске",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Точка.",
+      "emoji": "🎨",
+      "sourceName": "Точка",
+      "sourceUrl": "https://tochka.by/articles/weekend/orkhidei_vecherinki_i_iskusstvo_chem_zanyatsya_v_vykhodnye_v_minske/",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-19T23:40:00Z",
+      "likes": 83
+    },
+    {
+      "id": "p_art_news_3599935757",
+      "title": "Выставка «У них и у нас: образ Запада в советском искусстве 1920–1930-х годов» в Пушкинском музее",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Комсомольская Правда.",
+      "emoji": "🎨",
+      "sourceName": "Комсомольская Правда",
+      "sourceUrl": "https://www.kp.ru/afisha/msk/vistavki/vystavka-u-nih-i-u-nas-obraz-zapada-v-sovetskom-iskusstve-1920-1930-h-godov-v-moskve-2027/",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-19T13:08:00Z",
+      "likes": 35
+    },
+    {
+      "id": "p_art_news_1158600971",
+      "title": "Выставка «Эдуард Штейнберг. К 90-летию со дня рождения мастера» в Пушкинском музее",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Комсомольская Правда.",
+      "emoji": "🎨",
+      "sourceName": "Комсомольская Правда",
+      "sourceUrl": "https://www.kp.ru/afisha/msk/vistavki/vystavka-eduard-shtejnberg-k-90-letiyu-so-dnya-rozhdeniya-mastera-v-moskve-2027/",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-19T13:08:00Z",
+      "likes": 59
+    },
+    {
+      "id": "p_art_news_729518167",
+      "title": "В Калининграде открылась выставка фотографов Роберта Иохансона и Егора Заики",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Российская газета.",
+      "emoji": "🎨",
+      "sourceName": "Российская газета",
+      "sourceUrl": "https://rg.ru/2026/11/19/reg-szfo/v-kaliningrade-otkrylas-vystavka-fotografov-roberta-iohansona-i-egora-zaiki.html",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-19T12:48:00Z",
+      "likes": 25
+    }
+  ]
+}

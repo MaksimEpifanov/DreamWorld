@@ -1,0 +1,63 @@
+{
+  "planetId": "p_travel",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_travel_news_4238129529",
+      "title": "Золотое кольцо празднует день рождения. Какой маршрут выбрать для спокойного отдыха на уикенд",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 360.",
+      "emoji": "✈️",
+      "sourceName": "360",
+      "sourceUrl": "https://360.ru/tekst/puteshestviya/zolotoe-koltso/",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-20T21:00:00Z",
+      "likes": 83
+    },
+    {
+      "id": "p_travel_news_2655408557",
+      "title": "Путешествия будущего: почему популярные города “закрываются” от туристов?",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Smartpress.by.",
+      "emoji": "✈️",
+      "sourceName": "Smartpress.by",
+      "sourceUrl": "https://smartpress.by/news/puteshestviya-budushchego-pochemu-populyarnye-goroda-zakryvayutsya-ot-turistov/",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-18T09:17:00Z",
+      "likes": 78
+    },
+    {
+      "id": "p_travel_news_1515773239",
+      "title": "Брест, Пинск и Барановичи объединит новый туристический маршрут «Золотое кольцо Брестчины»",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: pinskmedia.",
+      "emoji": "✈️",
+      "sourceName": "pinskmedia",
+      "sourceUrl": "https://pinskmedia.by/zolotoe-koltso-brestchiny/",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-17T23:32:00Z",
+      "likes": 53
+    },
+    {
+      "id": "p_travel_news_217744003",
+      "title": "В Малмыжском районе открыли маршрут «Легенды и тайны земли Малмыжской»",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Рамблер/путешествия.",
+      "emoji": "✈️",
+      "sourceName": "Рамблер/путешествия",
+      "sourceUrl": "https://travel.rambler.ru/local/57426641-v-malmyzhskom-rayone-otkryli-marshrut-legendy-i-tayny-zemli-malmyzhskoy/",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-16T10:59:00Z",
+      "likes": 30
+    },
+    {
+      "id": "p_travel_news_3411711989",
+      "title": "Как арендовать авто для путешествия по России: выбор машины, условия проката и новый сервис Rentaca…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: sostav.ru.",
+      "emoji": "✈️",
+      "sourceName": "sostav.ru",
+      "sourceUrl": "https://www.sostav.ru/blogs/288146/116112",
+      "tag": "Путешествия",
+      "publishedAt": "2026-10-24T02:55:00Z",
+      "likes": 78
+    }
+  ]
+}

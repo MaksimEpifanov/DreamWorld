@@ -1,0 +1,63 @@
+{
+  "planetId": "p_other",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_other_news_2797337415",
+      "title": "На Новый год приготовлю салат «Хрустальная снежинка»: нежные слои, сырная начинка и необычное ...",
+      "summary": "Необычные увлечения и темы вне списка. Источник: prokazan.ru.",
+      "emoji": "✨",
+      "sourceName": "prokazan.ru",
+      "sourceUrl": "https://prokazan.ru/kulinaria/view/na-novyj-god-prigotovlu-salat-hrustalnaa-snezinka-neznye-sloi-syrnaa-nacinka-i-neobycnoe-ukrasenie-dla-prazdnicnogo-stola",
+      "tag": "Игры",
+      "publishedAt": "2026-11-19T16:05:00Z",
+      "likes": 28
+    },
+    {
+      "id": "p_other_news_373044308",
+      "title": "В новосибирском аэропорту появилось необычное пространство с авиационной тематикой",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Новости Новосибирска и Новосибирской области.",
+      "emoji": "✨",
+      "sourceName": "Новости Новосибирска и Новосибирской области",
+      "sourceUrl": "https://www.nsk.om1.ru/news/stroitelstvo_i_gorodskaja_sreda/441499-v_novosibirskom_aehroportu_pojavilos_neobychnoe_prostranstvo_s_aviacionnojj_tematikojj/",
+      "tag": "Игры",
+      "publishedAt": "2026-11-19T11:40:00Z",
+      "likes": 17
+    },
+    {
+      "id": "p_other_news_1678862870",
+      "title": "Необычное свидание в Москве: 5 стрелковых клубов для двоих",
+      "summary": "Необычные увлечения и темы вне списка. Источник: vc.ru.",
+      "emoji": "✨",
+      "sourceName": "vc.ru",
+      "sourceUrl": "https://vc.ru/links/3266733-neobychnye-svidaniya-v-moskve-strelkovye-kluby-dlya-romantiki",
+      "tag": "Игры",
+      "publishedAt": "2026-11-19T07:42:00Z",
+      "likes": 87
+    },
+    {
+      "id": "p_other_news_3938413434",
+      "title": "Необычное небесное тело заметили в небе жители Алтайского края",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Комсомольская Правда в Барнауле.",
+      "emoji": "✨",
+      "sourceName": "Комсомольская Правда в Барнауле",
+      "sourceUrl": "https://www.alt.kp.ru/online/news/7280927/",
+      "tag": "Игры",
+      "publishedAt": "2026-11-18T16:01:00Z",
+      "likes": 55
+    },
+    {
+      "id": "p_other_news_3066070665",
+      "title": "Необычное для ноября потепление возвращается на Средний Урал",
+      "summary": "Необычные увлечения и темы вне списка. Источник: МК-Урал.",
+      "emoji": "✨",
+      "sourceName": "МК-Урал",
+      "sourceUrl": "https://eburg.mk.ru/science/2026/11/19/neobychnoe-dlya-noyabrya-poteplenie-vozvrashhaetsya-na-sredniy-ural.html",
+      "tag": "Игры",
+      "publishedAt": "2026-11-18T16:01:00Z",
+      "likes": 91
+    }
+  ]
+}

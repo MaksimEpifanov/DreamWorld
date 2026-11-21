@@ -1,0 +1,63 @@
+{
+  "planetId": "p_animals",
+  "updatedAt": "2026-11-21T12:42:09.592335Z",
+  "source": "bing-rss",
+  "mode": "template",
+  "news": [
+    {
+      "id": "p_animals_news_720140229",
+      "title": "«Их сердца всё ещё верят в добро»: питомцы Бакальского приюта ждут своей семьи",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: govoritsatka.",
+      "emoji": "🐾",
+      "sourceName": "govoritsatka",
+      "sourceUrl": "https://govoritsatka.ru/news/zhivotnye-612/ih-serdtsa-vsyo-eschyo-veryat-v-dobro-pitomtsy-bakalskogo-priyuta-zhdut-svoey-semi",
+      "tag": "Природа",
+      "publishedAt": "2026-11-20T06:55:00Z",
+      "likes": 41
+    },
+    {
+      "id": "p_animals_news_1285342444",
+      "title": "Питомцы Бакальского приюта ищут хозяев",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Mir74.ru.",
+      "emoji": "🐾",
+      "sourceName": "Mir74.ru",
+      "sourceUrl": "https://mir74.ru/36916-pitomtsy-bakalskogo-priyuta-ischut-hozyaev.html",
+      "tag": "Природа",
+      "publishedAt": "2026-11-20T05:39:00Z",
+      "likes": 36
+    },
+    {
+      "id": "p_animals_news_381515699",
+      "title": "В собачьем приюте «Второй шанс» открыли второй теплый вольер для питомцев-инвалидов",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: МР-инфо.",
+      "emoji": "🐾",
+      "sourceName": "МР-инфо",
+      "sourceUrl": "https://mr-info.ru/442970-v-sobachem-priyute-vtoroy-shans-otkryli-vtoroy-teplyy-voler-dlya-pitomtsev-invalidov.html",
+      "tag": "Природа",
+      "publishedAt": "2026-11-19T04:00:00Z",
+      "likes": 76
+    },
+    {
+      "id": "p_animals_news_758340275",
+      "title": "Спасатели снялись с животными из приюта, чтобы найти им хозяев",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: pkzsk.",
+      "emoji": "🐾",
+      "sourceName": "pkzsk",
+      "sourceUrl": "https://pkzsk.info/spasateli-dchs-sko-zhivotnye-priyut-den-dobroty/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-14T09:00:00Z",
+      "likes": 20
+    },
+    {
+      "id": "p_animals_news_2219327986",
+      "title": "В Москве у приютов для животных появились страницы в сервисе поиска питомцев",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: newsroom24.",
+      "emoji": "🐾",
+      "sourceName": "newsroom24",
+      "sourceUrl": "https://newsroom24.ru/moskva/news/zhizn/2026/news_374921/",
+      "tag": "Природа",
+      "publishedAt": "2026-11-12T04:27:00Z",
+      "likes": 57
+    }
+  ]
+}
