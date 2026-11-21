@@ -50,7 +50,7 @@ jobs:
           } > key.properties
       - name: Build APK
         working-directory: app
-        run: flutter build apk --release --build-number=$(( ${{ github.run_number }} + 100 ))
+        run: flutter build apk --release --build-number=$(( ${{ github.run_number }} + 100 )) --dart-define=NEWS_BASE_URL=https://maksimepifanov.github.io/DreamWorld/news
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -59,9 +59,9 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.1.2
-          name: "Dreem World v1.1.2 (Android APK)"
-          body: "Android APK, собранный автоматически через GitHub Actions (mock-режим)."
+          tag_name: v1.1.3
+          name: "Dreem World v1.1.3 (Android APK)"
+          body: "Android APK из GitHub Actions. Новости планет загружаются с GitHub Pages и обновляются раз в день."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
         env:
