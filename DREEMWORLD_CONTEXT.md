@@ -2044,7 +2044,16 @@ File, Note, Idea, Tag, Relation; права, версии, журнал собы
   `test/data/remote_news_repository_test.dart`; `flutter build web --release
   --base-href "/DreamWorld/" --no-pub` — успешно. Локальный сервер отдаёт
   `http://localhost:8085/DreamWorld/news/<planetId>.json` (проверено: 200).
-- **Публикация не выполнялась**: изменения остаются локальными и не
-  закоммичены. Требуется явное разрешение пользователя на коммит/push и
-  запуск `web-deploy.yml`. APK v1.1.2 менять не планируется: обновление
-  новостей подтягивается из JSON без пересборки приложения.
+- Публикация выполнена по разрешению пользователя: перед ней сохранён точный
+  бэкап live-сайта `web_LIVE_80740aa_20261121(.zip)` и снимок исходников в
+  `dreem-backups\news_pending_20261121`. Коммит `ca9a313` с `[skip ci]` запушен
+  в `main`; вручную запущен только `web-deploy.yml`, run `44917374792` —
+  успешно, `android-release.yml` не срабатывал.
+- Live после публикации: `build.json` =
+  `ca9a313d89c542d029d10af2b6fe42469e9a60ba` от `2026-11-21T15:08:04Z`,
+  `main.dart.js` 6 120 061 байт. Проверено, что
+  `https://maksimepifanov.github.io/DreamWorld/news/p_gaming.json` и
+  `news/manifest.json` отдаются с кодом 200.
+- APK остаётся v1.1.2: обновление новостей подтягивается из JSON без пересборки
+  приложения. Дальнейшие ежедневные коммиты `news_data/**` будут сами
+  перезапускать `web-deploy.yml` (это задумано), но не Android-релиз.
