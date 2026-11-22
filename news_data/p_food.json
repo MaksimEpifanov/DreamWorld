@@ -1,41 +1,41 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_1637830885",
-      "title": "Привычные блюда по-новому – приготовить сможет каждый. Смотрите «Народный повар» - ОНТ",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ОНТ.",
+      "id": "p_food_news_2090505842",
+      "title": "На борщ утвердили ГОСТ: как теперь следует варить - сверяем свои рецепты - Городовой",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Городовой.",
       "emoji": "🍜",
-      "sourceName": "ОНТ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSHBQNDdMNXZkdV9HRlNQRDlaSVFvalFkd2MxTE5sWS1uZWdobVhvRG02YW5oa0tJcDNyUnVBWWVXRnJqNkRwbEV0Z3Zwc2pLa0x0QVFVbnE4OGNUczUzc05IV2RoaGxmOHk1V1dXNXJ3R1NELW1SZUFVQS1JQV92UWp1Q0puT3FXdEtwTEF5RjZsdEllLUZnQldJN1M5RWdvajNXOHZYYTVRZElFZnFkRjRoZkZMV0EtbGI2VTJFdFdoelU?oc=5",
+      "sourceName": "Городовой",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHMyb05ibVdsM2pVcklMdXZpNDNOZUFYUmp0dzdHR3EtQmtQa1hwbTNYeTVCX1JsYTRCVWNTZjE5M3Z1azV1SlJDbGVCUElFeEtVVHMxdDczTGcwQXdwVmFLV2luNlBQbm5pak5LTFFjVEYtM3Y2QndER2FTcGRiQno1NEkwZGx2bjVhelFUMEQyX245cnhqek1UY2FXY2RvT1A0dURaOTBEWWxyWWZldU0yNGhuTnBTRHRmdVV4dm12QQ?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T07:41:49Z",
-      "likes": 6
+      "publishedAt": "2026-11-22T10:15:33Z",
+      "likes": 88
     },
     {
-      "id": "p_food_news_1347721369",
-      "title": "Как Хабаровск развивает русскую кухню и гастротуризм - ХабИнфо",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ХабИнфо.",
+      "id": "p_food_news_4293295064",
+      "title": "Похоже не репа главный русский овощ. Что чаще всего встречается в рецептах ГОСТа национальной кухни…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: 47 новостей из Ленинградской области.",
       "emoji": "🍜",
-      "sourceName": "ХабИнфо",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9IOTB1LVJEQndyekNLVWgyZnBhcldacFpPanRMRV90WXVDaG5IRVFFX0w2b2tPTDdiWXhfX19xTjdodnVqbWk1ZHpCU3BVa2U4?oc=5",
+      "sourceName": "47 новостей из Ленинградской области",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ONWJCSlNYYU1YVGM1eVpQYWNZWVJ0VXhNYnp6ZHhyMVpUdTdVeDJwSW1pZ09wXzFKQzNONjg3Qmc3Y0VPQlNOYmVR?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T03:07:27Z",
-      "likes": 68
+      "publishedAt": "2026-11-22T09:55:00Z",
+      "likes": 25
     },
     {
-      "id": "p_food_news_2271811047",
-      "title": "Книгу с рецептами космических блюд планируют выпустить в России - ChitaMedia",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ChitaMedia.",
+      "id": "p_food_news_1621678311",
+      "title": "В отель «Индиго» пришел новый шеф-повар - Новый проспект",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Новый проспект.",
       "emoji": "🍜",
-      "sourceName": "ChitaMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sMkFDb0lxaGRBYzNrVTRIUm5SUUlQeFRvZURqeWVVa1h4eW9aZDJubXU0VVRpSTg2cm1Sd1prNWxlNGY2RUdQZnI4UQ?oc=5",
+      "sourceName": "Новый проспект",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBMmdwM29LN2hDeUtkUXBMZHRVZUZDNHFmUTREc1duVFJicnNiZlBXYnJFVlQ1akJCc0FST0REQnZNQlZuYk1tREUwb2otNnNqUHlhWEppS2o5VDhjZGg4eFJtV3FaM1cydE5aT05rdFdFVlNtUUE?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-21T23:01:00Z",
-      "likes": 56
+      "publishedAt": "2026-11-22T09:44:55Z",
+      "likes": 16
     },
     {
       "id": "p_food_news_1910642656",
@@ -45,19 +45,19 @@
       "sourceName": "Живая Кубань",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObldNTS1WWExacVZzWTJOZlAyOF9vRWN6U2tSU2xQcURsWEZpb09kUDZJNm15RTJfQWlQRFBmTTJIS0lnQjY4ckNsNU5lc2s3Y2VyaGJWMnJQVWd5UVQ4aEVHeGdUTnd3cXM2MHdNMkR5U3VZNXM0Z1Jocnl1VXJfSklxTEpvbWtkdXVBOGtzLWV6MnNudkk2WFBZVVczQkxHRFhmakx1RVgxWkdhZlV2a0lpeDY?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-21T21:45:00Z",
+      "publishedAt": "2026-11-22T08:18:00Z",
       "likes": 20
     },
     {
-      "id": "p_food_news_384116636",
-      "title": "Блюда на открытом огне и непростой выбор: кто надел черные фартуки на МастерШеф Профессионалы-5 - M…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Meta.ua.",
+      "id": "p_food_news_3968309943",
+      "title": "Оливье в тазу, майонезные горы и «потекшая» шуба: Шеф назвал шесть ошибок при подаче новогодних салатов - Здоровье Mail",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Здоровье Mail.",
       "emoji": "🍜",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS0J3YkZjU283d3htSjB3bmhnbkZyS2NUcExQS2R6dlVrWEZfcWpYZEQzOFVncmM2ZVBDY1ZCY0x2enJ3ZlJVT1hEVjlDeUU0N3ZHZmloQlcyZ0FYZ2dOM0lzQ1BJcXNnTTE4TzBZTks2QzZhNXN6Q2o3U2xWM3ZaRTdTUkpFRXprc21ReDFzMnM2cldsQW53bno1VDRiR1oyT2dQUnR1OU51OHJ4X1hBSlNyMXg0ZmY4NXRQYkszeE9VZ0p0VWMtRHIzUVNBZw?oc=5",
+      "sourceName": "Здоровье Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZUtySzdZdFdEeVZCYzFadThzUkE2VXhWdEc5SVZucmRYQi0tRHFJXy1ZS0VPZkNUU045eDVvUlhtVzhTdzBoWldLcmItSmVUcTNkVmxSRk1mYjkwMl9mRWhSM2sxLTZMNU81NUFoMTJsOEpfSUgxcVozcXJ6a3hlb1k4dXJfNUFzWFRIUElpUGdPaThQbmZfREl2Ny1XZHIwZDdVUk8tUWNOU1pDZHNwUWN6dERyVmMwMEw5ZlFLU2d2UnJnMFdIMUNzS0pndGxxOVpwWjZOY2tfenZOSnN2RXVvMm1tS3lQOXFIUjluMHpIZDA?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-21T20:28:00Z",
-      "likes": 65
+      "publishedAt": "2026-11-22T07:57:42Z",
+      "likes": 60
     }
   ]
 }

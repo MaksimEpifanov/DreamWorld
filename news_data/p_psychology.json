@@ -1,9 +1,20 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_psychology_news_3137793331",
+      "title": "У каждого своя тревога. Сосновоборский психолог Алла Асотова — о человеческих отношениях, нейросетя…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: газета «Маяк» (Сосновый Бор).",
+      "emoji": "🧠",
+      "sourceName": "газета «Маяк» (Сосновый Бор)",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ0R5YjdJUW5BUW4wOE9kQnUyOTU3MjJoeHpWVjBFQW83SHF0eTJCYWFxNU85UUhFSjNrYlgzMDFWWVMwbWZVcjZ2ZkRtbmRjZ1NILVNrdk5VQ0JKbXh1WDJ6Y25UV1VGXzB0LUszQzY0MncyR3VCMmZsbXZ1X1pPN1FlelNnOWYtT1VLbFNBaFRhdXpURWpPYjFoTHJiWlMtc00zV3B1ODllckk1V0hLMGpnU1VwZGNZRzRNNFpJclpudng0NGpMUjB6cW9ZNkta?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T09:09:00Z",
+      "likes": 71
+    },
     {
       "id": "p_psychology_news_339784891",
       "title": "Почему больно после коротких отношений: объяснение психологов - Коментарі",
@@ -16,15 +27,15 @@
       "likes": 57
     },
     {
-      "id": "p_psychology_news_1071218069",
+      "id": "p_psychology_news_2197532141",
       "title": "Психолог объяснил, как научить ребёнка справляться с эмоциями - 78.ru",
       "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: 78.ru.",
       "emoji": "🧠",
       "sourceName": "78.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTDJvYXFDZjVkSzdtLTJpRjdEN0dpZ00tamxfQ0Y0VEM2cjU5bUI5cFo3dWRKZnVmTHIySk5RcnozYTktZVc4MndfamRNSzM2LUhPam5XcFVvRzhGVGNpRkwtUVdMVU5OUEpHNndCUlU2b0tEUEhFX3ZIZ0JHb0VmMzBFWjBxSnAxdlBNVlRBanJtM2FTQlgw0gGcAUFVX3lxTE9YdF96dF9JUkNKQ2pXMS1PVWtNUDlmYkpuSzgyQ3M5Q2tGcVRDaXNfX29YbXo0ckJPMTJEZE9LYjhieDczSWlqVG9CQjRsLWZCaDF3WVg0UHR2enZ5dnozZzY1STRCZmpocTQzS2o2NENMNzVhVmZiUzRPRnkxRnE3Rk5KNUJ3VDctcXA5Mk5pci15VnkweVhXX0Q1ag?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTDJvYXFDZjVkSzdtLTJpRjdEN0dpZ00tamxfQ0Y0VEM2cjU5bUI5cFo3dWRKZnVmTHIySk5RcnozYTktZVc4MndfamRNSzM2LUhPam5XcFVvRzhGVGNpRkwtUVdMVU5OUEpHNndCUlU2b0tEUEhFX3ZIZ0JHb0VmMzBFWjBxSnAxdlBNVlRBanJtM2FTQlgw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T07:15:41Z",
-      "likes": 6
+      "publishedAt": "2026-11-22T07:31:39Z",
+      "likes": 88
     },
     {
       "id": "p_psychology_news_3927484803",
@@ -34,7 +45,7 @@
       "sourceName": "ПроОрен",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdG1ydnhTWHpGQnJTOC1wZDZ5Y2FGTk5SVXJEVDBLQXJXOWwwTk03cERxaTVqdUpOTWVVbUpFdkZDVVdRdHVsUlZHMzVYVXBlUHFXVmNka1JGWEdZQnFjb2NuUmRWX2ZMdjF3QzRNd21KMGtGOHhUcDQ1RlhNVFNyQ2lmQVpxd2Z2VVVNcHY2bnB3LUZRTzlmWC1zU2xfanJFdjVWX0hDUlRCZTE5M2ljakZR?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T07:03:20Z",
+      "publishedAt": "2026-11-22T07:04:09Z",
       "likes": 66
     },
     {
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-22T05:13:00Z",
       "likes": 51
-    },
-    {
-      "id": "p_psychology_news_3655085322",
-      "title": "Поколение тревожных или осознанных: почему зумерам так нужны психологи - URA.RU",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: URA.RU.",
-      "emoji": "🧠",
-      "sourceName": "URA.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5tcjBpZGNsR2Nrclc3LThFeFJ2aGltN1RIc1BsYTJheTFJa1NNbm1FdTkwLURLTXhiLWZCakg4X2VuSUNnZ2tQMlFFSnc?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T04:40:00Z",
-      "likes": 31
     }
   ]
 }

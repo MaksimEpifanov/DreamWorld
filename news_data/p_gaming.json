@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_685505378",
-      "title": "А вот и первое обвинение GTA 6 в плагиате: виноваты мерзкие фурри - GoHa.Ru",
+      "id": "p_gaming_news_4255242482",
+      "title": "Обзор Grand Theft Auto 6: это даже не близко к новому поколению игр, но это великолепный финальный…",
       "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
       "emoji": "🎮",
       "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaE1hSXJFakx0T3BFcFl2LV9SQTQ4WHZ6S3hiTkVlVG9kMnBEa3NEUlNjbFZ6Qk9RWDB5SlQ3eFQwM0RZOTRtcGhhc1k0Zml2OTFZLUVicnFCeldLQTlIelRiM0NON3lrUEp6MVVTY0tib3lJT2taQTJhMldTSlNwNm5CME82aVNaMXctUVFKVjJBSmwyVnc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTkJPM2xISEl1TnlzcDVacXdSdEh2YXZDTDR4Ukt6b3FueHhwcy1hWjJJeHZLYjJud3lFaWdWdXNNQTZ0bEdERUJJXzBNYzZNZ2lZcHo3RUNFR3ZpemRCX09YWEJ4Ylc3V2dGcEdiMW9iQkhlenFkSHo5dDZaVmZHZDI2X3h0LWZxRjRqN0xHbHMwTzRpVVU1UTE5QmdlUnN2VV9KWDRRcU4tdVRyc2kxLXBxaEdWQzZiMWpUclh2bzREWXZLVDZISV9lbFR2MmZPdE1fQzAxcnlYRlczQWFpdFRFV1RrQWYz?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T08:34:40Z",
-      "likes": 10
+      "publishedAt": "2026-11-22T14:38:08Z",
+      "likes": 78
     },
     {
-      "id": "p_gaming_news_1940099448",
-      "title": "Команда Белгородской области победила на Всероссийском фестивале чемпионов «Игры ГТО» - belpressa.ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: belpressa.ru.",
+      "id": "p_gaming_news_2985953264",
+      "title": "GTA VI: детализация мира вынудила Rockstar ограничить 30 FPS - Techora.ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Techora.ru.",
       "emoji": "🎮",
-      "sourceName": "belpressa.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDaGk5UDFGSEFaenNsX0RqeXU2Wkx2UVlVZzBfZzVpd2trY2FsaVhvWnFIZlJYVkctVlJVQlV3bl9PbmNYakdLNlV1N3lPX2p4OUJFcEtfVENDTm1SNnc?oc=5",
+      "sourceName": "Techora.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdTZSRnROZmFyRm5wbHM3Rm5kWmdjQjctNkYzRU1qeGNzcGtmUTJpcTlpQ2FFSGVkNVQ2RUE3U1J4dmxZbmFRZWhDcWNncC1YWUVIOHhxZGtxQWM3bXZsVXJEeWZBc2F1T0N2c2FQa1ZNd3hVN2hXREg4N3c2MlIycGlpdjI?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T08:32:00Z",
-      "likes": 49
+      "publishedAt": "2026-11-22T14:20:31Z",
+      "likes": 6
     },
     {
-      "id": "p_gaming_news_588465519",
-      "title": "«Совсем не попал в игру»: Орлов раскритиковал Дивеева за матч с «Рубином» - LiveResult",
-      "summary": "Кооп, рейды и вечерние катки. Источник: LiveResult.",
-      "emoji": "🎮",
-      "sourceName": "LiveResult",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXoxWGctaDZPWHBoTVQ1dUhwM1R6dE04N1pLTGpkenBwRmQxZVJIQWllTmhkbUwxR2d1T2VNcHJoTndJR2hHQ196Xy1pQVF0XzVBRGdYd1pXcDlZRnNwZGxDSXVVeTJRVGpYRTBPZWY1M0QxWWE1RXlDTHYzVnNoTXdnT3AzT3N4QlVpRXVZcl9rZkRhNkh3azNfT2gwNXE4XzJNTXR6azBJdUF3OEZpOF85Tlc?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-22T08:31:31Z",
-      "likes": 81
-    },
-    {
-      "id": "p_gaming_news_1917790570",
-      "title": "Grand Theft Errands: экс-игрок в CS не оценил историю Джейсона и Лусии - CyberMeta",
+      "id": "p_gaming_news_1300030",
+      "title": "«Ради нее стоит купить PS5» – стример Valakas назвал GTA 6 лучшей игрой за последние 20 лет - Cyber…",
       "summary": "Кооп, рейды и вечерние катки. Источник: CyberMeta.",
       "emoji": "🎮",
       "sourceName": "CyberMeta",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmZPM3hNV0E1NnNVTEJ3TDRMbXA0OWM3bHU5WllRM2lGcUxRNndRTzV6MFRRTFo4RzI1UmNqcUVfNmhsOUpHUS1XdGRHaFI5d3d3SGZTNU81QkNPb3hxekJxd0U3OHZuNlk4UmxPMUZSVGhhNjlqT2FpS1J3enV2ZmcyWkJVd2F1R0hud3BvOHJ1d2FTNldBci0tUngtM0d4NVdMSlFLaUlOdG9tMUFkU3ZrTFU?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWEhFWDNXYmE4Y2NVclJBZE1lMzJuMnh0a2JCSHF1MEozakZRakppcjRqU24tRTFiZlJENGM1Wm5hbXFOdjQwaTFMU0RxN1ZvSkhCSnhlNmx6cGdaeW9pdGw2RV9CakxLNWNoaFRGdDVSYmJzaDF5d0JIZWJPYmNWbm5LNEhYOE9FS2RMcDQ3cGtULTRxRlJRR080QWI3Z1psQ0REa2FxNkYwTzZaOC1EVk1BZG5lczNvN1lKa0twZ2ZIZlNmbjhDRnN4V0xKWWtwbGhyZDg5NHc4b3VMd3Y0S2JFeWJ3U2dnOUJaZkln?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T08:22:40Z",
-      "likes": 68
+      "publishedAt": "2026-11-22T14:15:26Z",
+      "likes": 81
     },
     {
-      "id": "p_gaming_news_4003591304",
-      "title": "Релиз GTA 6 почти не сказался на онлайне Steam и Roblox: пиковый онлайн просел лишь на сотни тысяч…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "id": "p_gaming_news_168801798",
+      "title": "Большая игра молодых: в Минске подвели итоги первого республиканского киберфестиваля «NOVA - Горецк…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Горецкие Новости.",
       "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLVBQOV9lS3ZQWWxRVmNiVDFXc3hlblItc0tDVXBrYjJreVFZRzRxOEVvYnBtSWVxUzQwNThUT2F5ZmxGcFhoSkltMXRGb0Q0WTBDS3lxa2xIX3AzeVFRU0JnM295eHhjWXdLbDlhU1pPTWlscmc0bGxkYUR3WXlXOVl2U3Y5UF92eWRWbDU4MWlHT1BLOG9aMmpDTVUtSHB5UU5sVUZ0SGlZaVdkNV93cjAyRzVNU2h5WHF4R05pbmZ2Z08tenJ3?oc=5",
+      "sourceName": "Горецкие Новости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYmx5QjFDbkpRd1dVeVdHazJXQS0xbkdPTHlFLWptSjNKRW5TNzIwb180Q0hpVVdhN1V6WkJPQ1owX3RUQzA5cktod3ZQRXZlYkV0SVk5Nm5GaUJqNU5pMGM2VE44VVB6eHVDYmgzSEhNaXdVMGw4R1pSclB1eVh1UU85Tk80dEVaSnpfWEF1S2ZyVVUzTWp5LWtkZm1XMzdqdTRpcmhTc0pJR3BDanc?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T08:20:41Z",
-      "likes": 65
+      "publishedAt": "2026-11-22T14:09:09Z",
+      "likes": 42
+    },
+    {
+      "id": "p_gaming_news_3002217280",
+      "title": "GTA 6: скрытая система наркораспределения Rockstar - dungen.ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: dungen.ru.",
+      "emoji": "🎮",
+      "sourceName": "dungen.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50dy1ORm9Sc245Nl9Hd0p5VDZreUhoZ3BPRjhPa1FncEQ0SXNpVFltRWhRYnNYZ2QtcUVjakE5c3ZUU2djTE9scC1DOU05QXZVbW1TVVU0WGFpT2RKd3YyVHU5S0llRWM?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T14:01:59Z",
+      "likes": 74
     }
   ]
 }

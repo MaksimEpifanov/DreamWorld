@@ -1,9 +1,42 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_66804116",
+      "title": "Trivium выпустили Crown In The Grave: вернул ли одиннадцатый альбом былое величие группе? - Dead Br…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Dead Brush.",
+      "emoji": "🎵",
+      "sourceName": "Dead Brush",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUlxdnpLYTJJbXhycUg5UE1lS184VTBhUEp1RGYyRXV5NU9EVVU5RkR0TGtjUW1oemwxb3RXUko3NG91emlZZUJCTXdTX3JGNlZiQmZ3TUo1Y1pkdm5tX2wydjMyZEdadFdtMFBpY185SWtlNW1fS3huQjBJMERZMjFLT2NiWkhtSGpYU3RLdlFBUnp5T241QnhKR1ZqWWVxMTdlVEhVcHRuRTMzcTQzZWdZWkh1NHZ1Z3NYcTl3?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T12:02:06Z",
+      "likes": 12
+    },
+    {
+      "id": "p_music_news_3753862822",
+      "title": "«Галя, у нас отмена!» Кто и как мешает проводить концерты рокерам, Канье Уэсту и SHAMAN - 76.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 76.ru.",
+      "emoji": "🎵",
+      "sourceName": "76.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWVUNiZ3EzVGZqV3NQQjVLUHRudEZTSXF4aUd2MmtPMVUtU0JucExUV2t5cE5adVlneHFiUGhHQklaNkN1YWVPdm9CTHlPRWc5QVJHNVhHTTZpWnN2ZUlxRW12OA?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T07:00:25Z",
+      "likes": 13
+    },
+    {
+      "id": "p_music_news_941091565",
+      "title": "Диана Арбенина даст концерт в Чите - ЧИТА.ру",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ЧИТА.ру.",
+      "emoji": "🎵",
+      "sourceName": "ЧИТА.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DMEV6a2Z4aVJyNTlpTzgyQ2Myd3dIajh1NFozSFIzTmM1Y0ZmbkY1QmxVVEtvNmVuOFV0OV9BdlhodWg0bmNfVXNfdVdNSGRlaXBZSUE0Wmh5QmdreU9TeG5kYmw?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T01:01:00Z",
+      "likes": 79
+    },
     {
       "id": "p_music_news_2547947690",
       "title": "Яндекс Музыка подвела итоги «Распаковки 2026» — треком года стал фит Zivert и ICEGERGERT - rb.ru",
@@ -25,39 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-21T16:27:42Z",
       "likes": 76
-    },
-    {
-      "id": "p_music_news_3234775289",
-      "title": "MUSIA TOTIBADZE представила новый альбом «Сон - Maximonline",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Maximonline.",
-      "emoji": "🎵",
-      "sourceName": "Maximonline",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdDZOVXh2SFN6OGs3d3JmMDBXV2Q1cmt6b0dfS2ZXVHdnQk1aREVWem02VEhkV0N1YzA5TmJLa2xpZGd1ek5Id0Q5ekRWQlBmQUJWQ2hleXpzbEZTZmc0Sl9fZWRSRTBxR0pUZk9uVmZKcUdYdFI1ZUp0a2prTHBwLXBDZGJ6VFFvVFJMTWtjTEo0Zw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-21T12:49:35Z",
-      "likes": 79
-    },
-    {
-      "id": "p_music_news_3173764880",
-      "title": "Eartheater анонсировала альбом и представила сингл «Paradise Rains» - DJ.RU",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
-      "emoji": "🎵",
-      "sourceName": "DJ.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2x0YkYyQ1VoMTJoX0FmUlNIRmZuNUcxRUFwUG5wQUgwSl85dWpCVHZGQmJ5MmRMVTJidHNqaHhxOW1wZWxUdnF1WVFSTk5UUWJPY3dQWGpVYUNqRjhsTnkwdWVlM1Y0QUh3azhGbDBqcVRUNHhoTEs5ZkU1OGxlLVFYM1o2ZFpkMEZmR0xQQ1ItaTJCVmZZ?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-21T11:00:11Z",
-      "likes": 67
-    },
-    {
-      "id": "p_music_news_2950100435",
-      "title": "Mary Gu, швец, Aarne, VILLIAN, мамушкина: главные музыкальные новинки этой недели - Forbes.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Forbes.ru.",
-      "emoji": "🎵",
-      "sourceName": "Forbes.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWWw4UFVvR3hyYVoxYzdsakYtOWJEVFZwWWRKaFdPWWF6Nk1zNm5SQlNuWDZqR1ZiblRuLUIyRl9QUWNPYmpjY1hGbWhrVVZzN3BWMU82eFIwXzdrdXZ3Wl9ubmgyNG1Vekt2MjR6MWxqeFpmYTZVQXlxT0Q0U09EQ1BDcHZuYUhXQVhHNkFYS0FEbVJuNTltajR0Um5nSVVmRmdUSWpZVWkxOUFCakh4Vg?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-21T09:00:00Z",
-      "likes": 26
     }
   ]
 }

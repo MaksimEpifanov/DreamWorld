@@ -1,9 +1,53 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_614823583",
+      "title": "Удобрение смородины осенью: рецепт на весь год - mstlife.by",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: mstlife.by.",
+      "emoji": "🌱",
+      "sourceName": "mstlife.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCUjV1eS1paWF1WGotRlVyOU9DNk1UVGFTZWdYWjdhUnV3ajZqTzV1TS1HSmhlODlERHFHUkN2dU5KNEFlY0hyc3pSWVRUTGNNQ3JtbXU0UGctR3JaUEl3SkZUbGRYSnJ3Q0FIeEdGdG5OeXFlTnNZNQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T14:00:52Z",
+      "likes": 18
+    },
+    {
+      "id": "p_gardening_news_3273455590",
+      "title": "Посевной календарь на декабрь 2026 года — какие дни принесут лучший урожай - Главред",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
+      "emoji": "🌱",
+      "sourceName": "Главред",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeUtMMGxwTXV3bXdwVUdISlE4cFJnVDhnM3VuLXpZOTVsaVYxRWx2VGx6LS1ESjFRMEZ5aHdSbkNRYlJ2bFF6WDFQUmJQUE5RMFNDTlBYWUhuM2hVMGRsOUNrenQ0UTVzN2Q2NXJ5SlppY3JTVWRvVFBSdk5SNWV6Sm9lQ1A3UGpkRDM0dUNCUkkxUVBrbEl1dlVpNm1ENUNnVTZRU2ZDTVdaVkd0WTJHdkRtZUVEZW920gG-AUFVX3lxTE05UVJRX21LZnMwdUNvN2NESmdJRV80Rms1ZkJOaHFuSWtvbTExb3lmNU5Yb0c0M2xORmlISHNlSnRJMlg0ZWZXSW5vT2VOUFN5dkFEWFVoS250YlRTSXpVRUMwSjdiWkM0RkZCU1Qxck5OWUtySWtDeE04QmswNVNwNHdfd2tkSF9fMmdCeFpFZ0E3T3BZYkRialQ3aFJCSllRVURydncwVER2c0JqRmcwZkg5Ylo2aHRuaTkzNWc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T11:16:00Z",
+      "likes": 61
+    },
+    {
+      "id": "p_gardening_news_2643356193",
+      "title": "Как посеять укроп и петрушку под зиму: соберете урожай раньше всех - УНИАН",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: УНИАН.",
+      "emoji": "🌱",
+      "sourceName": "УНИАН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQTctemgxOGM2WTFfbFhtRkRLajRKM3hiM2U1VGRKMXhoNEt2OXJWZk9feTNXTDFnZWRYU05YWjNtNy15TWJVS1piMkdOY2c0S3pfY2FKUFF3azV0QjZaeWIyZlZ6WmF2bXV5ODFXajhmWFhtcTNhQW5IU0NrV3N6UFdxa2E2dF9sS2JCdlRBOUc0eXc1ZVlUMXN6R1dYMjA3LWhGYWpXTDFwM19zcGln0gG0AUFVX3lxTE41RnYtYmdWX21nemIyTUtqSmU5WFJ3MmlMZl9aOV83VXl2emJqZ2Y4UmZpRzFTM3F2azZub0JiRDFpUEV5blFZX2psME9vb21xeWYwcHhVQXBJbnVybmVmQ0RSbU5JNUQ2bk5ELUszYWtQUUlyaGVqSlBDbzVkVmdMR1lGN1ZNajRlMi0tUERxN2lxX0JKQ1gyMFVMUzROUXNubmt6cnNjVEF2RGplcHhSUUoyMA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T09:30:00Z",
+      "likes": 13
+    },
+    {
+      "id": "p_gardening_news_1238498534",
+      "title": "Красноярские специалисты рассказали, как вырастить урожай к Новому году - Красраб!",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Красраб!.",
+      "emoji": "🌱",
+      "sourceName": "Красраб!",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UcXhRa0dKZ3R5NmJjLTUxOUdKLXdXcVlxSlVVa0NoM29udmVOb1lSNmlsT3pQZE5heUp1LTZ2QVhET2RQMnVSM2c1ajBrM2xV0gFQQVVfeXFMT1RxeFFrR0pndHk2YmMtNTE5R0otd1dxWXFKVVVrQ2gzb252ZU5vWVI2aWxPelBkTmF5SnUtNnZBWERPZFAydVIzZzVqMGszbFU?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T07:35:00Z",
+      "likes": 3
+    },
     {
       "id": "p_gardening_news_1249760531",
       "title": "Сезон не заканчивается: какие важные дела ждут дачников зимой? - NewGrodno.By",
@@ -14,50 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-22T07:23:47Z",
       "likes": 79
-    },
-    {
-      "id": "p_gardening_news_2367743221",
-      "title": "Лунный календарь садовода и огородника на 22 ноября 2026 года - Погода Mail",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Погода Mail.",
-      "emoji": "🌱",
-      "sourceName": "Погода Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Fb1otSkluSjI5WDlibjBHZGV6VmZ2dnVqUG5FcFZlT3RfMHk3NDVKWVV5WDQtSGxIWUlRdHVYRzhrSmkxbVdUd1FKQ19ndw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T03:00:04Z",
-      "likes": 21
-    },
-    {
-      "id": "p_gardening_news_1582242206",
-      "title": "На старых дачах мяту сажали у порога не ради красоты: забытая хитрость для сезона-2027 - Правда.Ру",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Правда.Ру.",
-      "emoji": "🌱",
-      "sourceName": "Правда.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdURPRHpTN3hpQ1ZPdmtSV0VJTVJrSjFaWldOMXhZMjFNbTd2VHhCdXcwenZkc0hqSU52Q1NVSjZkYXhURHpYcldVSlpMNXZrT3g2RWlqMGt3cGR6cllMUENEakplQW9MVHU0UFdhZ2VMZ1RjTXV6a04yeW1VV2JzcENqa2hZMU0?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T02:41:00Z",
-      "likes": 60
-    },
-    {
-      "id": "p_gardening_news_2582174284",
-      "title": "Лунный календарь для садоводов и огородников с 22 по 24 ноября 2026 года - СБ. Беларусь сегодня",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: СБ. Беларусь сегодня.",
-      "emoji": "🌱",
-      "sourceName": "СБ. Беларусь сегодня",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeExGdWpwc3ExRUp1djcxbk0wMjc2ck1YOWkxOENtWnhFTDFhMUprRjFUMXNmb1BWS0dub1JZMWJaaDdZTlBYSm9IM0ZmenMyYkYwbU9OTDlwejFudDZmeUFtUXR5WlRiTGxSM2poUjExVEZfYTNKOXltQVRYaEJybktWVEg0T2h4UHVGRVhRckVLYmExaG5adkgycVVXWlBQRENCajBrYlNEeGFnRDZQMUZB0gGyAUFVX3lxTE14TEZ1anBzcTFFSnV2NzFuTTAyNzZyTVg5aTE4Q21aeEVMMWExSmtGMVQxc2ZvUFZLR25vUlkxYlpoN1lOUFhKb0gzRmZ6czJiRjBtT05MOXB6MW50NmZ5QW1RdHlaVGJMbFIzamhSMTFURl9hM0o5eW1BVFhoQnJuS1ZUSDRPaHhQdUZFWFFyRUtiYTFoblp2SDJxVVdaUFBEQ0JqMGtiU0R4YWdENlAxRkE?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T20:27:00Z",
-      "likes": 33
-    },
-    {
-      "id": "p_gardening_news_442753839",
-      "title": "Как подготовить саженцы к зимовке в конце осени: советы садовника Кастрицкого - ОНТ",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: ОНТ.",
-      "emoji": "🌱",
-      "sourceName": "ОНТ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcU1pTm5qSUxSeWlqa0NieGdHeEdYLUhsZThkLUktS3RRNzNSQXo1MzJBekRkV3B2RDgyaVVkRXl5YXNwTGM1SmpocFFIcTlvWW9wR24xdnZhdnQtUVdmMmttaDVHTExZZS1vNm5wMHJzalE0anRqM3NfNTQwS2VodmhZeW9obEhVUGZkalN3WjRxaGl1djM3N0Q5c2N2MDFlTzBhU1h5U0gydWhNc1dMX1Y1VXpPT3dBVmJzMVV0a3EzVWM?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T18:28:30Z",
-      "likes": 54
     }
   ]
 }

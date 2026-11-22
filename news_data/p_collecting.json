@@ -1,18 +1,29 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_collecting_news_3210735145",
+      "id": "p_collecting_news_185412912",
+      "title": "Новый магазин коллекционных карточек London Card Cop в Лондоне - futbolpressa.ru",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: futbolpressa.ru.",
+      "emoji": "🧩",
+      "sourceName": "futbolpressa.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUZLM29OanBGQXZtaVRIa0drRVhLR2xRNExCSE4wMjlkbGFDcG9LaXEwRmJoQXo3VW9jN2FXdTFfblJqblhjZkc5T0xZbXhuaUctZ0d5ZUN6WElVTGt4ME8zUWRTellqOHhULXhzMzlzQVpjZndZQ2h0ekE2d08zUVlTVDFFSnFVR1VXMw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T13:02:42Z",
+      "likes": 68
+    },
+    {
+      "id": "p_collecting_news_3714338104",
       "title": "Пополнение в коллекции: в Беларуси выпустят памятные монеты нескольких серий - NewGrodno.By",
       "summary": "Редкости, обмен и полки сокровищ. Источник: NewGrodno.By.",
       "emoji": "🧩",
       "sourceName": "NewGrodno.By",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN0tuTndGTUk2cGhmVjVUM0J6YnNjbGtXUUF4WTB2Y2trU19nOUIxRlhGM3J6MUp0STlHR3ZVbTVUVjBCdXlzV3ZuNmVLM2ZlbEZkODF0elFEMTJpT21HSWZXcVFDNXc2NjFBYjJHdy03NzFvYWdQN1dVaGZkRmdsTjR30gGHAUFVX3lxTE5vVEVvMnVJTlU4eENycXR6aWcwNHZScTAzU0pVbHE2T3FzbXkwWUxoWVJiSmpKRUREbFZKb1lROGxWS3k5NDdSMVRhdGszeGdpbjBNUWliNXZoQ1RVMmJrMjJfRHVGS2VJdjlBNHFTekFoeldBWmtYemcwUXZWTUZVV2xXbVJ6RQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb1RFbzJ1SU5VOHhDcnF0emlnMDR2UnEwM1NKVWxxNk9xc215MFlMaFlSYkpqSkVERGxWSm9ZUThsVkt5OTQ3UjFUYXRrM3hnaW4wTVFpYjV2aENUVTJiazIyX0R1RktlSXY5QTRxU3pBaHpXQVprWHpnMFF2Vk1GVVdsV21SekXSAYcBQVVfeXFMTm9URW8ydUlOVTh4Q3JxdHppZzA0dlJxMDNTSlVscTZPcXNteTBZTGhZUmJKakpFRERsVkpvWVE4bFZLeTk0N1IxVGF0azN4Z2luME1RaWI1dmhDVFUyYmsyMl9EdUZLZUl2OUE0cVN6QWh6V0Faa1h6ZzBRdlZNRlVXbFdtUnpF?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T08:42:03Z",
+      "publishedAt": "2026-11-22T08:38:49Z",
       "likes": 61
     },
     {
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-22T01:12:20Z",
       "likes": 44
-    },
-    {
-      "id": "p_collecting_news_2330329159",
-      "title": "За журналы Крокодил и Мурзилка из бабушкиного шкафа теперь дерутся коллекционеры и предлагают целое…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: KamchatkaMedia.",
-      "emoji": "🧩",
-      "sourceName": "KamchatkaMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04V08zcTNva2xjc3ZzMmE4S1VkMUEyYWJiT0oyOGxDcHFERzZHMHJaRG9ZUnhhLW1udXBBclFiZEtxWFozN2lWcjVUN21IN3V2?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-21T16:30:00Z",
-      "likes": 72
     }
   ]
 }

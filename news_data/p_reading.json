@@ -1,9 +1,53 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_reading_news_1283134782",
+      "title": "Яркие культурные краски провинции Кханьхоа в провинциальной библиотеке. - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
+      "emoji": "📖",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Sc1FCUi1nX0piR1RENHBkOU5NMVdXSHAtcV9wZmZibUdwMHJZaFQtVEVwNEZfS3RWckp5dWxuLTk0ZWJ6aEh2aFU5ZGwwbE5IR2FRelgyZk9Yel93SjA5S2ZnQnBVd25aODVKNXpzZ01jSUZ6dGc?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T12:32:21Z",
+      "likes": 61
+    },
+    {
+      "id": "p_reading_news_3253351649",
+      "title": "Почему белорусы мало покупают книги на белорусском? Андрей Янушкевич — о тысячах книг на складе, пр…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Наша Ніва.",
+      "emoji": "📖",
+      "sourceName": "Наша Ніва",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tTXV4dEhXc3hmZ2hON05IYVpyT1gxbjg0aHVvTTBRUkh0S19MQ2xiMi1GVF9sd2FtbGVYRmxhX3UwNG9VUlVjNmUwNNIBS0FVX3lxTE4tTXV4dEhXc3hmZ2hON05IYVpyT1gxbjg0aHVvTTBRUkh0S19MQ2xiMi1GVF9sd2FtbGVYRmxhX3UwNG9VUlVjNmUwNA?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T11:53:29Z",
+      "likes": 83
+    },
+    {
+      "id": "p_reading_news_1055139121",
+      "title": "Иштван Орос: об оптических иллюзиях, шахматах Ленина и своих романах - Европульс",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Европульс.",
+      "emoji": "📖",
+      "sourceName": "Европульс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUFRuZzNBRkRXQ0F4UTQ3dUN1eXUyemoxQ3RIRy1HWXpXdWVOcUdPVlk2WHRzaXVtSmNjclB0Z1ZpVGgyVlpwYTlRb1FiYzRIMm9ZdlFrTE12T1BHX2xkN3ZHemo5czN2Yy1ITm5SOEVwSWp2M1VkWDN3OHNhMDBUZXdDX0xxV3JrQm56RFMxLU4tOU9wMVNQcW5HRjJJdmRQcTl4enFTUll0S3VqMWVRTkFlRkh2MVU0dEVZcXVR?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T11:43:03Z",
+      "likes": 13
+    },
+    {
+      "id": "p_reading_news_241267541",
+      "title": "Лаишевские читатели могут познакомиться с «Толковым словарем живого великорусского языка» - Новости…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Новости Лаишево.",
+      "emoji": "📖",
+      "sourceName": "Новости Лаишево",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTDFYZVpISWpmdjFKWHZvWVJoRnpqc0FuRkJRRHBzZDJ5MTg3NU14QVdxcklVbTJhVFBPcFphR0pwY1FtRHRNdVRObkdyRVpaRlV6WmJIblNDMDZJb2tFeWRHWG84WG11aGRNUWR1Wmk3OXFYUVctQ1RtR2tQZjBYZ1Exck50MUNXRkRrdG16QndZeEtULVQxUldPRC03d2JkSHdkNmxfbWhDbVFOTEluTFBpLWhpaWVoSTE2UUUzN05WUQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T11:41:07Z",
+      "likes": 37
+    },
     {
       "id": "p_reading_news_2281013149",
       "title": "В библиотеке - говорящий по-литовски робот: он умеет читать и рассказывать истории - LRT",
@@ -14,50 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-22T06:24:00Z",
       "likes": 64
-    },
-    {
-      "id": "p_reading_news_1319426361",
-      "title": "Человек, который связывает литературу с общественной жизнью. - Vietnam.vn",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOSEdOYzNKRWExazhFaVJQX0std0VheWh4Q3hIN1NaZ1U0MFRURE1HYjJrdVh4Q2xiWHZYYXk1aGtaUHd2LVdESlRrWl91c2EtcGdxeFF1VExvU2JpZ0ZRaHplc0lZTVhwOFZMZDBBdWJvNkVFQWhNXzRkOEM1d1U?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T06:03:32Z",
-      "likes": 36
-    },
-    {
-      "id": "p_reading_news_4030858437",
-      "title": "В Кургане модельная библиотека им. С. Маршака отметила 60-летний юбилей - Медиахолдинг Новый мир",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Медиахолдинг Новый мир.",
-      "emoji": "📖",
-      "sourceName": "Медиахолдинг Новый мир",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGdXYzRaaWNVSjVjMWhMdG5iWXJVZ0JzbDNXNEVtSGFfSHEtN2R3OFM0UWo5blN4aWpfOWtlQjI5OVRNZ1h6S3czeXFYdWRiWlh5ME95MHJGQTYyQUhOelhTaWxPSDJhR0FJSjJjNll5Mko4bjJOckZUNVpLb0FpTjJOZEVPOFV6Z19LZWNrREhYUQ?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T06:01:09Z",
-      "likes": 86
-    },
-    {
-      "id": "p_reading_news_2106788591",
-      "title": "«Дети капитана Гранта» и милый детектив. Шесть книг для чтения с детьми / Новости города / Сайт Мос…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Официальный сайт Мэра Москвы.",
-      "emoji": "📖",
-      "sourceName": "Официальный сайт Мэра Москвы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82N3hVN0haT2hQWFRSZ24zcldsSG50UEJLbjZBWUpqWGVaQ0tpWEd4Z0E5OGpYYnhFX1RlaDlTWVNHNDFXelFacTFYOFFUenc?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T06:01:01Z",
-      "likes": 15
-    },
-    {
-      "id": "p_reading_news_261372176",
-      "title": "Кто ещё читает романы Цзинь Юна о боевых искусствах? - Vietnam.vn",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yV3VMU0ZpMnAzMkItMHJ0aHFKazV5elZSMm1RRFdKcktfZnhqZ0JnN0N4Y2VYcEJpQkNDZjUxOGlXU18wbXNKdGM3UVE2SGxCZXRrUGswQlpxbkRvbzNjaDIzLUV4dmtnWDBF?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T01:34:13Z",
-      "likes": 41
     }
   ]
 }

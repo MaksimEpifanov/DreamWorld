@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_1736220890",
-      "title": "Гид с ИИ и новые маршруты. Как молодежные инициативы привлекают туристов в Брестскую область - Ново…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Новости Беларуси | БелТА.",
+      "id": "p_travel_news_1668390012",
+      "title": "Новые промышленные экскурсии в Миассе, Златоусте и Сатке получили экспертное одобрение - mir74.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: mir74.ru.",
       "emoji": "✈️",
-      "sourceName": "Новости Беларуси | БелТА",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV2FZcEtHYk1DdWZvMmVNMkNFdmJSR0RoOHpwVm53VXdtTVkzYkV0SFJRd0NBRE5SRFVxUkl0aU1MT1hVVjMtOEtFUS1pZHRfMVMyYjRPckpGMm1FdWZkYndkOUNIRGx3NUJaLVdNaFI1ZjFYRndOdVZxWXE1cFg3cXdSRWp2VE9qNHlTM1l2dTVDaENFMDlvcEE1NzMwWjduZ2NtR1M3bHZQNXJobGtTcDNFd0x3NzFPTmJvZ2JfRG1RNGpwTWZJc20xOE9BMGFyaXd1QQ?oc=5",
+      "sourceName": "mir74.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlRjUXNpRnlwaERPXzc4dG82amF0bmRvM3FyX1dXMzhrSUZ3Ry05U1hMUTNKUGY1MlMtUHo3SzQtNU1VQ2FiWFpQam55Nk9IZG5mSnhuMDM0bzBIR1gyMko0MjNHcm03OFp0b2lmVzAtbWg2NXNkREVJbzl0RENxQmFFWlpxUVhTSlFVckVKVGlhZFctT25xZXFYZDNleWtQZUpJRVlxeENMY2VFOVlOZkpiZTNSZw?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T07:32:45Z",
-      "likes": 68
+      "publishedAt": "2026-11-22T13:43:13Z",
+      "likes": 4
     },
     {
-      "id": "p_travel_news_3116225443",
-      "title": "Ленобласть представила турмаршруты гостям из Вьетнама, Индии и Китая - Национальные проекты России",
+      "id": "p_travel_news_29863356",
+      "title": "Проект Ленинградской области завоевал Гран-при премии «Маршрут года» - Национальные проекты России",
       "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
       "emoji": "✈️",
       "sourceName": "Национальные проекты России",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX25QNHBxakdLNDZQeWEyaUN1R0poWUp6dXUtWVR6V2tVUGxEeVk3TFZNXzhxVUJ5aE50bG5raElrSXRmTllZbkplcTNRMnl0MG9qamdPajZWelJSaV9wMF9FR1VRMWdHR3loZzQweFlSRTd4d1pXZGtjVGJMeHZsVjNhdmpBV0RnTzVWWlE2YWJVV3RVMFBxUzdBXy0tMl9Xb0VTUHhIQTRtM01xY29XMXRDaXJIZHowYXp1cw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYk1heE5CY2FNdjduT2x6WmRta1k1bHVtZm9GbEh0QXBYeFozTkU3d0RDTnQtclZESlg3YWJhZ1lhaDAtQjhOaFd5elR6UjFPZFVacmF5eFVMRnhaVzF2cmVDeFJ1UlFjWlJQcjJoUUJXTnFxdklTZ3NXYUM3eUVqT2FabFdEY05oWVE5MFoxeGx3Q0RjOWc3dWozRWY0NjZRS2I0UHNCeFN2WHlrZnRjdlBMZURmaE5pWWk4?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T07:22:50Z",
-      "likes": 82
+      "publishedAt": "2026-11-22T12:22:57Z",
+      "likes": 14
     },
     {
-      "id": "p_travel_news_653831442",
-      "title": "Тульские места Толстого объединят в большой маршрут по Центральной России - | ИА “Тульская Пресса”",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: | ИА “Тульская Пресса”.",
+      "id": "p_travel_news_1022914119",
+      "title": "Сколько стоит путешествие к Деду Морозу в 2026 году: рейтинг городов - Эпиграф.инфо",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Эпиграф.инфо.",
       "emoji": "✈️",
-      "sourceName": "| ИА “Тульская Пресса”",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTm9ZTjE3QnRrZExBWnYxeDc1TTFKYnpVdlFlVThfU0lZT1pBUm1aU2ZJQlk3ZXBUa0ludk5vV215TkxiSVZKZ0pwWWZ4RldsQmZTbTcxVHJjeVh5VWhOWnNURDBESm1Sc3d5OUwtSG1NaE51ODFJaWFsS3FkMGhkQ2RRaXdNUElpeE5uOEpzOEZlRC1jRDN5cndONkhKQ2lLT1c0WHBR0gGrAUFVX3lxTFA2LTI5cFhZVDNUTGNhNVM2anRuVThVYTZxaVdGX1VPMGp1U2hCSDVNUFZrak5rRjFBVXBUamQteFZOT1Z4dzVpaDlYUFRiaHkxSjBOU0plc296WS1HTFhhOVczbnhwM3JDVGNuYWUwN09GSzRjSzl6bnF5RkNYS2U1OG9URXhJQTFsSDlBZDRBU3lra3h4Qmxfb1VjbS1VNDlMTEZFU3JYRmJ4TQ?oc=5",
+      "sourceName": "Эпиграф.инфо",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONHI1aGRlTDI3SkJyN1ZPcDAzc1pORDdIWEdrcXhzaUhKQmlWVEQyZjBrX3VRVkxSU3hNWm5QRHNoRGZ1emEzNi1uci1ieDBhNFcxTVgzcWRyek9wTHVvUldHbktpMnI2eTNaU2NvWTQ5T0twZHpxZ3hTdXZTNDZYV2EyYXBIWnpoSlNsWjM2ZVk0VVhySjFIdDd1RWs1eWJFdlVPWFV5UHgyYXE3LTh3dWpxbERjd0VKR0J3VUJzckh0VjNab1psaE5ROTBxWEtkUHJ3OFVkM1Rsb3RVSFE?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T07:21:10Z",
-      "likes": 12
+      "publishedAt": "2026-11-22T11:24:23Z",
+      "likes": 59
     },
     {
-      "id": "p_travel_news_2712646433",
-      "title": "Предприятия туристической отрасли запускают новые стратегии для привлечения клиентов в пиковый сезо…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
+      "id": "p_travel_news_3971982014",
+      "title": "Гид с ИИ. Как молодежные инициативы привлекают туристов в Брестскую область - БрестСИТИ",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: БрестСИТИ.",
       "emoji": "✈️",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdF9LeFhVNjNNdlFUREpGS0RNYm1ZLUlmQ25VOUktbHhtaERsN0p3bzZPWDRXeU5EYVZlTjc5cVB5YnZnelpTNDFnX1VBUjdacS1JWXhVUkJ3N2ppTEJTLVB0OTZvWWNkSU03RGhwV0xZRFJVWFEzRzQ4d3E5T2cwUGxYbTMyb3hmTVRiZ3A0WFNEaGl1aW9ZNQ?oc=5",
+      "sourceName": "БрестСИТИ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RMFBOOEhrb3R2dmllcEFjVmVPN0toaVl6OE1hQndGMmFEQjJaSmdGekpDN2Z2RWJPYVpmQ3ZJRHhIR0ZFd1NQbGVxaXEtdl8yeWxSSTk1ekNlRDA?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T05:54:10Z",
-      "likes": 92
+      "publishedAt": "2026-11-22T10:38:24Z",
+      "likes": 76
     },
     {
-      "id": "p_travel_news_1614348223",
-      "title": "Пора на море! Куда улететь отдыхать напрямую из Екатеринбурга и сколько это стоит - Е1.ру",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Е1.ру.",
+      "id": "p_travel_news_2762864367",
+      "title": "В Бузулуке туристы-пешеходы могут попасть в порталы времени - Южный Урал",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Южный Урал.",
       "emoji": "✈️",
-      "sourceName": "Е1.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jT2xQUVBfRE9xZUZQRHhzWVlrN3dZX3A2dXdBX18xQVJ5R281WWZ5dnpxcjA1SFlHU1U2a05uNm5qc1YxYjdOYUhXdllGV0FHZ2VRQURiNGRWa29GM2c?oc=5",
+      "sourceName": "Южный Урал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNEM3YVc5aDZnUmxHUG5seUc5eXI5MG5VekZBVFhlOU43MWowZGFRS2FNS1Y0SVZMOEhkZ19Ec0RQUDE1Ny1HWk1SUmZ5RHpRYkNnNk5Ta09tcjdicDgwMHl2NXFoYUVFenh4WHlZc3dGUmhOS1hLcGtlZlRrVjZzMnlhbS1NX2RSR3cwdUpLUElOVmQzMDNj?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T05:30:09Z",
-      "likes": 46
+      "publishedAt": "2026-11-22T10:14:29Z",
+      "likes": 87
     }
   ]
 }

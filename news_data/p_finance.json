@@ -1,29 +1,51 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_2743192190",
-      "title": "Не спешите тратить 13-ю зарплату: В Госдуме предложили способ заработать на новогодней премии - Lif…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Life.ru.",
+      "id": "p_finance_news_525813933",
+      "title": "Бюджет Якутии на 2027 год вырос до 375 миллиардов рублей. На что пойдут дополнительные деньги - pro…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
       "emoji": "💰",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTndNZ0F0d1h6eHZ6RzRSUTNhb0owVkFjYkxiU3FsMTljWFZ1RmhTLWh5R2pRYTZYa3lwTVZfOVZZWVczcXNZV0ZSQnJtc213QWhXYlRtOGVFYjFRczdfeERkc0d4TVFIRzJTT015VXRqOWdZblZfMGFtYUlzNEJUY18xd0YxTzk0TmRDTFUzRXN3a212djEwSA?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNkpaOEJBMTBHLWpyalBaV2piRGFwRDVHTXp0UmxseWFMN2wxX1dORy00VHg5c0dyLU84MlJZNmZBMlJCV2NTcTl6b2JLeGhPWlUtblotdGJTSVJZaTBLaWtmMHBqMFdxMFJ1WjlOVDl6QzhldEVza0d1bXR1SmdpMU5YblUxdUtFMnNvTHp5SjJGSFdBY1FIblZhYnE3UU94bF9uUHpFaXU4MmxGaDZWOWg1UURhSTJsR1ZVZDJIVjc5N1ZLcUxwbEhOV2xrWFJx?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T02:11:24Z",
-      "likes": 86
+      "publishedAt": "2026-11-22T12:05:05Z",
+      "likes": 73
     },
     {
-      "id": "p_finance_news_1893846129",
-      "title": "Финансовый гороскоп на 22 ноября 2026 года: кому стоит просить прибавку, а кому лучше не рисковать…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Свободный взгляд.",
+      "id": "p_finance_news_3781453517",
+      "title": "Расходы на переподготовку безработных в Германии выросли на 113%. Куда уходят деньги - prospect.com…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
       "emoji": "💰",
-      "sourceName": "Свободный взгляд",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR0VrRmRtYmJQb002Z01PUDJGTDR2SlhfdUtRdkVXd3RfWVJ5VF9UR05LR2hqMlpOOXJla2FtUUdLcmRCd1ZMNHpHZmJnZU9VVU5iOTl2Y19JZ3lCX0c1VDBEbGlkNlZuTkF0ZTdkQjJSMG82eGJSd0Vsemc2UG5Zb2Jnbm5fRXpDSDF0cFJvMnpoY2hfWGg0RXpoTTJuN2JzSW8tQzQ5b2V0RnM0aVNLU1JwMVdOM0lfY1VaN3l3RktiUHhKeWxMR2o4RmVuUFU?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR2pDODBja0pvMGZUZklIME01eF9EdWkxX1hXdEtjbG1WMTZxSkpjS0ZhQ1U3cE14RTl6ZmhWLXUybXhTMzBGaUNOMVVMT0ZhTVZiUlFzcl9WNEdtWHhabWV2ejVqdzJYaXBtTmUxb1REY2pRMUdCZDFubzlaSUE1X1ZvcjFSeHJvaEtwalVQaWVkUTZFRTRSZ3lDN1FyRGZHSi1UTFNIRG5KNW5tNVJiRFFMS21xbmFfRVA4TjE3R1ZMZw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-21T22:18:51Z",
+      "publishedAt": "2026-11-22T10:34:17Z",
+      "likes": 16
+    },
+    {
+      "id": "p_finance_news_3913725961",
+      "title": "Что станет новым двигателем экономики Кузбасса? Илья Середюк поделился масштабными планами - Сибдеп…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Сибдепо • Журнал о жизни в Кузбассе.",
+      "emoji": "💰",
+      "sourceName": "Сибдепо • Журнал о жизни в Кузбассе",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUWRLbG95N0I1VkM2ejMxaEtqdHRpeERfbDd0YTNzQ3p6bjBDZDBzSXcwMDIxUHpFbFowbHlqQUF4SF9JUU1uQWZERVV1UVpMTmQtU1Q5dnRYcm1tODlhdWlzNGF1WDVzQ1o3YWoxYkF5NS1SOFcxdHZZNi0xdi1YNGY2OGZBejM0T0VodTFVWDhvblQ1RHFjWEt3eTBkdFZQdUxRcW9LR3ZwWGNLazlWajV6VEJ3WDctX1Y3Tk1lRQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T09:04:49Z",
+      "likes": 78
+    },
+    {
+      "id": "p_finance_news_2360861175",
+      "title": "🎁Реферальная программа от Альфа-Банка\"Пригласи друга в Инвестиции\". Личный опыт - Банки.ру",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Банки.ру.",
+      "emoji": "💰",
+      "sourceName": "Банки.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBudVdjQXBkTkdIbjFfVDJ0ZDVjZWpBUGJxRWw1QmxZTzlraXRxMWpieExDMnVWX0F6dkg5UjV5UXhLTDlKWUQwZ21uOWZzVUxvMWtjUG5n?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T08:43:52Z",
       "likes": 45
     },
     {
@@ -36,28 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-21T18:10:36Z",
       "likes": 61
-    },
-    {
-      "id": "p_finance_news_1306477008",
-      "title": "Более 35 тысяч белгородцев проверили финансовую грамотность в онлайн-зачёте - belpressa.ru",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: belpressa.ru.",
-      "emoji": "💰",
-      "sourceName": "belpressa.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Eb3VmMkNxT0lPcjRjMXIzTWtrMUFtSnhoUFIyem5sbzNZOXBaX0lodHIwdXZlcEdVYy1Cakk5dVFhLWxSeWpNSHRlalFqOTJRTVRSenh5dGpJN29Cc2NGSHJWcWw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T16:22:00Z",
-      "likes": 65
-    },
-    {
-      "id": "p_finance_news_1095152868",
-      "title": "Антониу Кошта предложил бюджет ЕС на 2028–2034 годы - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
-      "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQXzl0eFBUcTA3Wm9DNHJHRnlKOEw4dkhWTTVLc3o0LU1tVEQ4SFNBc29CNTdzUkw2X3hJM3F6QXA3bEJLb0N6WVpERk5WWHJHTlMzZ2xfZVVweTlFX1k1NXk2U0xLeHRoNzQ2TjhJR2lMRUEtOG0xZUhPeXJiRHFwVXpUNmhXR2FGTmFNU09yUGZDX3k4VGQ3SkNmTGpmeFJ6SFZGOVplRTg?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T12:57:46Z",
-      "likes": 20
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
@@ -49,15 +49,15 @@
       "likes": 11
     },
     {
-      "id": "p_other_news_1588390584",
-      "title": "«Хочу, чтобы хобби делали меня загадочной»: как зумеры выбирают себе увлечения",
-      "summary": "Необычные увлечения и темы вне списка. Источник: daily.afisha.ru.",
+      "id": "p_other_news_1378910251",
+      "title": "Костюмы животных и забеги на четвереньках: необычные увлечения современных подростков",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Sport Express.",
       "emoji": "✨",
-      "sourceName": "daily.afisha.ru",
-      "sourceUrl": "https://daily.afisha.ru/infoporn/28098-hochu-chtoby-hobbi-delali-menya-zagadochnoy-kak-zumery-vybirayut-sebe-uvlecheniya/",
+      "sourceName": "Sport Express",
+      "sourceUrl": "https://www.sport-express.ru/zozh/hobby/reviews/furri-kvadrobika-i-hobbihorsing-neobychnye-uvlecheniya-podrostkov-2219542/",
       "tag": "Игры",
-      "publishedAt": "2024-10-11T09:30:00Z",
-      "likes": 57
+      "publishedAt": "2024-06-09T22:59:00Z",
+      "likes": 32
     }
   ]
 }

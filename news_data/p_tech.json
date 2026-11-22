@@ -1,30 +1,52 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_617708560",
-      "title": "ИИ обнаружил на обычной ЭКГ ранее неизвестный признак риска внезапной сердечной смерти - Ukr.net",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ukr.net.",
+      "id": "p_tech_news_1111724824",
+      "title": "HMD возрождает PureView: новый смартфон получит четыре камеры и оптику Schneider-Kreuznach - prospe…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
       "emoji": "💻",
-      "sourceName": "Ukr.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByLVZnVXNCZWlab05Fd0hnaF9weGlvdm91SnhKUXhjTDhxeFNzODZ6TlV1UGpjLVpNMl9rTWtkQjNOamM2MnRDS281QkZjRi1wZG9wMS12M0F1aC1EdzNISTJRSzRINnFCY1hmUFd0TkU?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdVNiX2JYbmhWWkZTT3NybG94cjJFMXJIQk9ReGpKX2VHenRCeVhxUEtEOG9CR0xJWWtuN1dvWlZZaWYzaUdEODhXMjZ2azRpV3RjRVNVbXhTVDZSWHhTSUZ2LVVSV1dvTU9qVV9ZLVhmNTFJcndZMmdUTm15NTRLR09lMk9VWENxcjYySU5xOWhNUEZCUGFMdFE1WVJHYUNTSENkMjd5NVZNVW43cE1POGtHa3VJblRqWTZrYndSb1ZJVjZDWUNoRndRYlI?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T08:02:51Z",
-      "likes": 57
+      "publishedAt": "2026-11-22T13:44:48Z",
+      "likes": 23
     },
     {
-      "id": "p_tech_news_2488640065",
-      "title": "Армения и Иран обсудили перспективы сотрудничества в сфере высоких технологий - NEWS.am TECH",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: NEWS.am TECH.",
+      "id": "p_tech_news_3457598462",
+      "title": "Samsung сменила руководителей подразделений смартфонов и памяти на фоне остановки поставок чипов в…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
       "emoji": "💻",
-      "sourceName": "NEWS.am TECH",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fZjBOQ3ZQU0xYdlNCWjFnRklIcnI2RWVmcVJRTUJFOW1lYXZCNnlpNjFiTjdmYXJ4bDQ5Skt5a3Z3dFgyVjB4Ug?oc=5",
+      "sourceName": "iXBT.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY08zNXlsUjhwRF9FV3ZKSG15VVFLdHZUTlBwcGxub3BXZ1ZNMlpMM1gydXZKM0ZQZEtmV0xjQnNTTEtfY3lBeGl3aU41Z0N5X3pzY1M4Q1p4ZTVUMnZqMWUxVDZ4aWhiMDhSbXQwVjc2NVhCaUM4SUtkbDZlNnduNGZwQWh4UzdVSGxlSFd5SVh6TmYzcVhGUUxneFctY1c5cnpzUVR6bWxaTWhSVGxuZ1NMN3RDNE8waG40MDRIaHhmaXkxOFB5X1Z0Tkx0M0poZkUxQ3EtVFgtTHJYLXkycdIB5gFBVV95cUxQTVZhd0RJTmZsTTdwVHFabVdBVE1iNG5NWEZfSmktUGJmSHI5b0hyZ3E2aFNQRHpNNTJyZ090X2ZUVTF1LWp3VWhzSjZPVXltVTZnbkJQZ0hEaHBORGdjbkFodTN2UWRFdWJ0Wk9wU0FjV0N5V011RXY1eERWNHpQQUZGQWlsM1pDcG1xZS1lNDBPSkFiWlRKSDhwSkRXeXUyd185U0F0em9yWUo4QVdUSFJMM3llWDlSWW5DU050d3Uyd19FdzJZQ2lwSXNmcFdBSkRHTGkwSi03VHFITmxhZzlWaFB3QQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T08:02:00Z",
-      "likes": 49
+      "publishedAt": "2026-11-22T13:00:00Z",
+      "likes": 39
+    },
+    {
+      "id": "p_tech_news_1682652835",
+      "title": "Эпоха искусственного интеллекта помогает Вьетнаму совершить скачок вперед в сфере здравоохранения.…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
+      "emoji": "💻",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUJjY19LWWx3bkxTaFhHZWpYNWxhcjZXNUdKLWMyamZaUWhkUzl1Q0hnMENyR3NpMFMyWURyRFBsZTZ0dENVWXBnNEpGa08yYVpVYkdIMEVJMXFzMnBpZWhvZEI0ZkJIMnR2MkliZ25rYjc1b1JBWkU0OFV0U05BaVNUajg?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T10:23:00Z",
+      "likes": 30
+    },
+    {
+      "id": "p_tech_news_2890000103",
+      "title": "vivo выпускает V80 и V80 FE с портретной камерой и поддержкой искусственного интеллекта в фотографи…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
+      "emoji": "💻",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXpHRkZpQ19qQWJRVW1DeEVsUGJBLU8zc2pMWThmZFFkVUQ5MFBiZFVXOTkxWkNjQVg5ZlhZM01IOEt5elM3SXp4LTQxUmpZYzhhQzNiNFZXemhkb2M0TElFNFNTUXpDZy1zdlVpNzB4cFhLV09mMU5KR3FHaFdHZE9tZUtDd3BlQzNGXzNn?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T09:02:21Z",
+      "likes": 13
     },
     {
       "id": "p_tech_news_2358827161",
@@ -36,28 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-22T06:40:56Z",
       "likes": 39
-    },
-    {
-      "id": "p_tech_news_1123900434",
-      "title": "Вьетнамский рынок смартфонов идет вразрез с региональной тенденцией. - Vietnam.vn",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
-      "emoji": "💻",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYVJBaHBNVE44OTg5eGc3eXh1U1A0U2JYYmIxYWRpSmhDQmFDYlBmUURZdldELWZ2YzNsM2ZjNm1QQVRFQzhHSTVrcG9SeWlBbllReHBqQ0FEWnZMZldRM2NnRW52aUdrcEU2LWJvSk9MU3kwYmZKWU9aNElEajVueUNJbDBpeFYzYXVQM0dLblZHa0RuLVE0Qw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T05:54:42Z",
-      "likes": 84
-    },
-    {
-      "id": "p_tech_news_216460646",
-      "title": "В Германии разработали рубашку для защиты от камер - iXBT.com",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
-      "emoji": "💻",
-      "sourceName": "iXBT.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNG5kTWIxTS11UXFLVk04OXh6V2VVZi1qMFBKSFVTZ1U1Z0ViUTE4V2R4QWVxVGtuYnRPaHJOd0NKVHhfMmxqZkp3YU9SUjJVelY5UnRkZlQyakpPZXlzQVI2WndNUnZRbXIxdE4tQkdaQ19CU1RFMll4cUlGNEMxUVREaFM5MEhDd1AzcHdWTlVSb3lOOVAtT192TWEyd19FZ1Rr0gGjAUFVX3lxTE80bmRNYjFNLXVRcUtWTTg5eHpXZVVmLWowUEpIVVNnVTVnRWJRMThXZHhBZXFUa25idE9ock53Q0pUeF8ybGpmSndhT1JSMlV6VjlSdGRmVDJqSk9leXNBUjZad01SdlFtcjF0Ti1CR1pDX0JTVEUyWXhxSUY0QzFRVERoUzkwSEN3UDNwd1ZOVVJveU45UC1PX3ZNYTJ3X0VnVGs?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T05:28:29Z",
-      "likes": 66
     }
   ]
 }

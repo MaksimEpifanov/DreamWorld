@@ -1,9 +1,20 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
-  "source": "google-rss",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_nature_news_97622795",
+      "title": "В лесах под Новороссийском живет крылатый охотник на змей с голосом иволги – Новости Новороссийска…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Новороссийский рабочий.",
+      "emoji": "🌲",
+      "sourceName": "Новороссийский рабочий",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHZMOWQxdF9yM2cxVUlaS2dmdEdDamc2Y2dISkVHTUsxVzhrMk5rNXhvYkJ2Z2tyV3pmNktVTVlqV2JNSHZxbDViMWNndXhJM3djVDI2ZC10NWQ3a2lBTDVfYThfdWhnQUNRUUxqWWJWcnl2Rll1aWZFY2dTeU91XzkwRnFvT2J0anVjWWp3UVdwS2xBVnQyT2w3TUIwRU1mVVBBTVRYZ0Etdw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T13:58:59Z",
+      "likes": 51
+    },
     {
       "id": "p_nature_news_1019935608",
       "title": "Лось попал в объектив фотоловушки в карельском заповеднике - Карелия.Ньюс",
@@ -12,7 +23,7 @@
       "sourceName": "Карелия.Ньюс",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNelJGYzBMTEV2TkFYZUh1SjU2QnFraWt4YXE3c1ptQVB6QU1OTVAybUZGS3ZRMnh0aTA2M2U5YkNiVS1TcEpSSGRnUVFSTWRSWFUzRWM4Z0JzRjZZSXZEVGd3eTlWQWM4TGN0eV8wLVdZeEQ1UVZCMGtTUXN1cTdCY2ExMFJzQ2lGVGhNVFVTMU5mTUhRNWJz?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T05:37:58Z",
+      "publishedAt": "2026-11-22T06:54:58Z",
       "likes": 40
     },
     {
@@ -23,41 +34,19 @@
       "sourceName": "Коммуна",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUFU1YmZzZUpzdDEzMVdnNWJYUTRmd0UzQnl0R3MtMlJoaVl4Ul9qLUxIeGsydGZFR2VWNXlLTVE1ZEJaM2J5SGRqQmhscFNqOC13MkNlcWRjdnlqYzUzSlozQ3hud05vWnd6TzdFdmQ4bVZGZ1ZEYjN1OENaeWpmQUpNWlFzTzEtQmJqQXJ2YW04NlFSeVZ6OGgweDQzOGJIWm1TY1RfWmhiNEdXWDA2V3g1a3JsaUU3Q0VxNW4wOWtTMnBMTWpGME9HYw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T03:30:56Z",
+      "publishedAt": "2026-11-22T06:28:00Z",
       "likes": 3
     },
     {
-      "id": "p_nature_news_2212562166",
-      "title": "В Керженском заповеднике под Нижним Новгородом северный олень сбросил рога - - ГИПОРТ",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: ГИПОРТ.",
+      "id": "p_nature_news_1290409601",
+      "title": "В заповеднике \"Брянский лес\" отметили 15-летие зубра Мефодия",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер/новости.",
       "emoji": "🌲",
-      "sourceName": "ГИПОРТ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNVFXZnc2RW5QTDRnREpzMXhwTmpxMkwzNnVjd20yOUN5blk3NEROVEtzQVY1cWJhclZvMWJ2VXdXSl9iWTVPZXZqTzhhTzRDVVZlVTRqVENvc3lkSHVCM3VWV3ZqZjVTUmJDRjk4bXFTTG9aZ1BwOF95b2w4ekJyQzFhdkQydFdxbHR1amJTSG0zQkstZGNsUXoxaXdka2R3TVd2RXNBTjY3UUFM?oc=5",
+      "sourceName": "Рамблер/новости",
+      "sourceUrl": "https://news.rambler.ru/world/57390900-v-zapovednike-bryanskiy-les-otmetili-15-letie-zubra-mefodiya/",
       "tag": "Природа",
-      "publishedAt": "2026-11-21T12:00:48Z",
-      "likes": 87
-    },
-    {
-      "id": "p_nature_news_3334033230",
-      "title": "Медведь «затуманил» объектив и быстро скрылся в Саяно‑Шушенском заповеднике - Сибирское Агентство Н…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Сибирское Агентство Новостей.",
-      "emoji": "🌲",
-      "sourceName": "Сибирское Агентство Новостей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTHJ5aUJCUkl5VG5LZEdMaUl4cGRqWVFLNEVzbkpXWFNUaTJxaWdId1BPazAtblRhWWp6UTBONGpEbWRNODlreTRnZW80ZGxUb0hpbUFyRFRqR1I3Tndubnk0ejFmRGZWeURnNWE0TTVtRnREdlZRUlh4Y1dSUDBzMDVad2ZKRHI4dkxqQWpvWG1SbHpKcU1lRXBwSm5vX1paMWVyUERB?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T11:37:28Z",
-      "likes": 18
-    },
-    {
-      "id": "p_nature_news_2640496102",
-      "title": "Стратегия-2050: заповедники России переходят на цифровое управление - Выбор Народа",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Выбор Народа.",
-      "emoji": "🌲",
-      "sourceName": "Выбор Народа",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2w0RmU1UVVqcDFMNnhsUG5qWGZGbzl1MVZWZVRZZjR4dUNuckJOTmJVclVhSWpVZGNXS3lTOEJiZ1FSelNvUUZJY184NnpIWXh2SWZhUUpUZFB5VlhiUTA5TDBMd3FKUWZTWmJOUkpCN3ZjbW16aVE4NU8tU1Ztbk1TeXVPbFItZm11Wnk0b1VmV2JpYkNueUFfTXRJSlE4X2IwbFR1eGxEcHRBbnRBQ3dqRnRkWmozYVdj?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T09:02:44Z",
-      "likes": 92
+      "publishedAt": "2026-11-10T08:30:00Z",
+      "likes": 58
     }
   ]
 }

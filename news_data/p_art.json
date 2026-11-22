@@ -1,52 +1,52 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_3091389378",
-      "title": "Проработала неделю. В Минске по «техническим причинам» досрочно закрыли выставку - belsat.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: belsat.ru.",
+      "id": "p_art_news_1650358338",
+      "title": "Афиша Бишкека на неделю: музыкальная классика, выставки и спектакли - 24.KG",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: 24.KG.",
       "emoji": "🎨",
-      "sourceName": "belsat.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05WFR1b1kwb0RpMVhNNDVLUEFuTUlxOHJ3UmVVanpPeFFQXzBzMEhNSkJEdXNFX00tbHJ6NGFVQUswaTY0N0h0NzMtalNORTR4aUJ6cWloeEx6T1E3QkRUOWFIeWFqbDQ?oc=5",
+      "sourceName": "24.KG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13S0RKclhBQ0hVbzNGdHdiVGJFWEx1TTl1M0pGREFiNnhVWkRVNThNcWMtUjRuVGVzY2laVEIxZTFlZkZRMjN5aUtUQ1dpMnhaQUtHVVB3N1NXRUViUy01LTd2TDhSaW8?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T08:12:15Z",
-      "likes": 8
+      "publishedAt": "2026-11-22T13:00:17Z",
+      "likes": 90
     },
     {
-      "id": "p_art_news_2277046584",
-      "title": "У Запорожье открыли выставку с интересным эффектом — фото - Газета МИГ",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Газета МИГ.",
+      "id": "p_art_news_2876970881",
+      "title": "Музей Зеленограда открыл выставку к 85-летию битвы за Москву - The World Inform",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: The World Inform.",
       "emoji": "🎨",
-      "sourceName": "Газета МИГ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTm9vSm9tX0pVdlJIU1dBaXVJckVzcjZibG9hdVIxaXU5U0llZmYwVzVGWDRMYTRWejRSb3BxTnR4RzFxSnlCQy1saFRnbDlwdV9LTlpiQmdvWERuX3JrazIta3c5My0waFRDVEZ4MWN2ZVdiMTJweEs2WXZwZ3E1S3BwNE4?oc=5",
+      "sourceName": "The World Inform",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlNLcjRtZDVLdFdBZlpvRk1xVk1kbTg2d3p4WXVLYTdnX0I3UEdPY2pGMkVSZjlvTDlKeVB0RUstSWR2ZnFrY0pyN1JHNWpTenVhSHNINGJINHZNZ25nOXpWNUdRYW9BMkd2QUFpVGd5YWpaOF82N1pvNk45bDFoQ1lrYW9jazhhZXJkbElSOHRKVjZfSGdkVFUyRU5tV0ZLOVdj?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T06:12:10Z",
-      "likes": 50
+      "publishedAt": "2026-11-22T12:05:13Z",
+      "likes": 3
     },
     {
-      "id": "p_art_news_3219608600",
-      "title": "В Еврейском музее покажут раннего Рембрандта из коллекции Эрмитажа - Москвич Mag",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Москвич Mag.",
+      "id": "p_art_news_3845742302",
+      "title": "Хибины глазами гостей: в Кировске открылась выставка картин художников из Пскова - ИА Nord-News",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: ИА Nord-News.",
       "emoji": "🎨",
-      "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTlZwSFhpV0lXS0RkWGhxSk1ibFNCNDlBTmRjWDdPTEN1M29mVU9nTUpBdi1yNWVyYlJIY2dqaVNFaEktaXpPRkxiMTFfQkpkbUhXYlhSZXctbm5oSjVhTS13NDYzQ1pnME03X01DNmtnR0Y5MEZTVVFUZFA2T1VLTEVmNzV2ekN1X0l4SGhNRHRXOW9PMWtjZ0pULTlkcFhs?oc=5",
+      "sourceName": "ИА Nord-News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mdVh1azJVOFA2LWI0NWZYdnk2YlhHVWxiM2gtUmgxLU9nVDNPN3l5MzJLSDhWZW50TnlFN0FhUUpJSkxOeEtNcE5nWUpTYkRUOEQxTkoxc3FaeEtkeDZ0bg?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T03:25:25Z",
-      "likes": 41
+      "publishedAt": "2026-11-22T11:29:00Z",
+      "likes": 35
     },
     {
-      "id": "p_art_news_1684085794",
-      "title": "В кампусе Уфы открылась выставка «Дома России. История страны. Наука» - prospect.com.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "id": "p_art_news_649584213",
+      "title": "К 85-летию битвы за Москву открылась выставка «Линии памяти. Рубеж 1941» / Новости города / Сайт Мо…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: mos.ru.",
       "emoji": "🎨",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGV2TzQ3WjRyc0NKY2t5X0FSdVZDYVJBS0VGRlMzUVAtTEpleWNPWGdyNTFZZHVhZEl0cll0UEwtald1dzRwTDhXRHFVeVJQaHlIZ1FObG81UEE2ekZqaEpha2ttdFR3T05vMEtxRk5LRm90c1Y2NFNwQ1lFQi1uX2otYXc4aWdMT3JiYmtpa1FFQTVfVlJ6eHV5elUtT05oMFIxc3ZOM3RoLXM?oc=5",
+      "sourceName": "mos.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tUW5EeFR4N25rejV3YjFuM1QzNlM2OGF3RXM2ZmFNeGRtUFd1ODNFOTROOTQ2RUxXWk51aE40U0h4dTNfZ09QbVdBQWRJM2Ni?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T02:45:23Z",
-      "likes": 42
+      "publishedAt": "2026-11-22T11:02:02Z",
+      "likes": 21
     },
     {
       "id": "p_art_news_435454841",
@@ -56,7 +56,7 @@
       "sourceName": "KUDA-SPB",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYjJLYTVCSUViazM5aF9mNFN5WlEzX0g1bkRwSEd4MUpqektya1dtQmFTaGlsS0ZodDBtblk2dVJrNlVVbWFJT1RpNmcxUDBsQ1hFSXpyY3kxcmJEbmxNQzNhWVNwS0xyb0hDcTAyTXVoelcyQ3U0emdJNzFkVWhDa0lVVjNyY01fWC1CcGRtcEZGMHE4aWZTX1c3SlM?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T02:31:48Z",
+      "publishedAt": "2026-11-22T10:40:11Z",
       "likes": 23
     }
   ]

@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3815202018",
-      "title": "Овечкин поздравил московское «Динамо» с 80-летием - Рейтинг Букмекеров",
+      "id": "p_sports_news_1052137652",
+      "title": "«Динамо Минск» одержало волевую победу над «Барысом» в матче КХЛ - Рейтинг Букмекеров",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
       "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQckxNaXRiOWtPQXY4YndaU0g3QTdLRVBhZ1lMOFFqWFl6MUNqVmtOM3ZaUnBzYTNzVld0Vm5nSjZEY2dtdzJHZWE2VmE3TFJwMVZwbGJBTl81Wk95ZlNXOFVSekFSVktWenN4UlpmWV81SVRQdy1zUVJBeHdaMlZPenBXV0VDZ1haUlZJ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU9PakxSM0Jaa2xFRzBERkdheGVuWUxISjVoUjlyeTJVWWpHTi1FM2VmWDlsVm5UaEZMMThOZ0xFeDZfZmd3ckt2UWFOUXVCX1FrV2FXczR5VlcxS3VibVZqc2NMdkh3LWhJSDJxYnFjak1Ib2hQclZRV3hpMm1OMDg2RHNtOUlFd1lfSlBFOWZrX0hEdmd4WjkzVFk0NXc?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T08:28:32Z",
-      "likes": 4
+      "publishedAt": "2026-11-22T14:10:49Z",
+      "likes": 74
     },
     {
-      "id": "p_sports_news_3773611739",
-      "title": "Хоккеист из Кузбасса вошёл в число претендентов на престижный приз НХЛ - НК-ТВ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: НК-ТВ.",
+      "id": "p_sports_news_1516603322",
+      "title": "«Не стоило играть этот сезон». Крикунов — о серии Овечкина - legalbet.ru",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: legalbet.ru.",
       "emoji": "⚽",
-      "sourceName": "НК-ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5xU1AyX0ZqRHdPZkhZekVxUlNZa3oxeUt3Q2FzNG95LUMxemkteXdHbk9zQVlCQ1kyM25XemI5VzhIdjQ?oc=5",
+      "sourceName": "legalbet.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdlBYZkVpWGhJUG12b25YZ3JvRWRCbmp2bGQ4OHdET2NsYjZiSkxWYnhndTI1b3cwanRGaW5lN1diZDVlcWtyc3dSUkEwZWJKVWhDMjhmSUhoTFJ2ZmhqV2hLWnlYZ3NZeXU1azdEREtTXzBhVFBOOG0tTEo4LXdQNHRGd3gwb044MjZ2YmZKSjNHTVNNRlVJ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T08:25:49Z",
-      "likes": 47
-    },
-    {
-      "id": "p_sports_news_3256180193",
-      "title": "Александр Овечкин поздравил московское «Динамо» с 80-летием клуба - Newsroom24",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Newsroom24.",
-      "emoji": "⚽",
-      "sourceName": "Newsroom24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PU3U2aWU2N1dKVzJ5QTBYSjVPaDE1Z1QweGtYVXRaaFF5MUtGcDFseV9hc0pRcGtudjNGTVJYZ2h0dnZUYW5pT2JhZm5wVWYxMk0tbHBGcm9sTmFPNzZhRWtpU1VZX2M4?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T08:04:34Z",
-      "likes": 17
-    },
-    {
-      "id": "p_sports_news_1284146996",
-      "title": "Элиас Линдхольм сделал покер и стал первой звездой матча НХЛ - https://m.nashhockey.ru/",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://m.nashhockey.ru/.",
-      "emoji": "⚽",
-      "sourceName": "https://m.nashhockey.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zUDN2TDRhVEFrc3MwTHNJVnpuWXp2c3kyb2x0WDU0VXRlaHJ6YVpBb0dEUHlVVFB6bHNjRTZpdjVQc05LblJuZlg1LVl4QQ?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T08:02:46Z",
+      "publishedAt": "2026-11-22T14:06:07Z",
       "likes": 69
     },
     {
-      "id": "p_sports_news_3570305555",
-      "title": "Александр Овечкин поздравил хоккейный клуб «Динамо» с 80‑летием - Матч ТВ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
+      "id": "p_sports_news_1580718479",
+      "title": "Крикунов – об Овечкине: «Этот сезон ему не стоило играть» - БО Спорт",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: БО Спорт.",
       "emoji": "⚽",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMm05M3pBTkZtbTdZc3NUbnJaTV95YjlnZF84b0VfM0Qyc3V1aTNRYWxadVpPZG9LVHoyY3ZkUXYxTE1ibVpZWDZkOTBINUhSMzhGYURGRnBkZGZXREpSbnhhV3RiS1NtT2F4ekVvQXlIYjdSWTRmWUZlVU5iZHk3a1YyelBrZ1g3M1VSNFpDU0Noci1oMnR1bGNPaE83Tk1GenFFOXJZMGVWM2pPdkF0MA?oc=5",
+      "sourceName": "БО Спорт",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uVnBSSHNPa01Fdmg2aFdEbmtvSlJLMjJVd0hXczNzTWxrNWgyZ1Zzd2pfdGJfalZORGJ2aVU1Zll5bkpGRVFVVE16RkxJUkdKeHVlQVU5QQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T07:56:40Z",
-      "likes": 61
+      "publishedAt": "2026-11-22T13:47:27Z",
+      "likes": 34
+    },
+    {
+      "id": "p_sports_news_1682450113",
+      "title": "«Настоящая битва». Свечников, Никишин и Подколзин блеснули в матче лидеров НХЛ - sport-express.net",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "emoji": "⚽",
+      "sourceName": "sport-express.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPaFJ5ZjA3LW5BdlFrYzMyYXlncUtLb0hTSVhmb29NbjdxSkhGeTEtNVNLMWRkMzFBZl85OVhTa0dTQ2FWOGFjZjN0TFF2ZjZQSlZMNlhBUFhEX19oN3dFdkNEYVVlRDZPVVMydXBVdi1EanhKb2M3aHIySDNLNzRxa2VOMG4xQk9iampNU3lBa1YzWEZEQjhxVmttdlRoSm54WmdldHp3dlNsUjBlVWtiNTI5UFppWXJPaDl5WTJyaUFVajRsZTViZTcxUXpQMDJ0elhibVE0VktWV2ljZW4zNnFZQWoyaTZRXzJOWUN1Z0p3VDl0RlE?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-22T13:45:01Z",
+      "likes": 41
+    },
+    {
+      "id": "p_sports_news_2925011235",
+      "title": "\"Вашингтон\" Овечкина впервые в XXI веке проиграл 5 матчей подряд, пропустив в каждом минимум 5 голо…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport.ru.",
+      "emoji": "⚽",
+      "sourceName": "Sport.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVBtaXV2bGR6Vm1BTTRSaUVkOXpYempyWU0wUThTd2FkUlVQZmdIU29zbEluaExfY2ZsRmFZMHpnek1mYnFXYTFDQ1N6cmNnTkdmeUx0aGFET1pWaHNoY3hpeHdCektDbFdXaDNHQmpjWU1xZWNMRHFCREhsc0FGcm1vQ0ktVHQ1YW85QnFXbTAxY1RWRzN4WG16MjZtNVJEWU13aUp1cEtuQXhqLVB4M19lcWJCdHdPTUlWbXdKbw?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-22T13:04:04Z",
+      "likes": 57
     }
   ]
 }

@@ -1,9 +1,42 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cars_news_179679813",
+      "title": "LADA Vesta CNG получит цвет от Azimut, недоступный для версии Sport - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXdpR1pkb1NrX3o5OVVTcEFCNE5BTkxKVTVzVVQ0Q1JKOHllUFJnZVk2VDFxVG9xVHJhbjNLV0huLVhsWmk4YWlMQjRkMEt1c1pfdzJ5RTNqUV9ZRlNHY01ZQ2dOY2s1OWtCM0xjeXBQcWNXQUlMNnhad2tyS2ZtM29sZVFNUXNWQ213QTBzTGxzT2ZHRWxXdnFwMTEzeDRxcUw5dWU1TW0?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T10:55:14Z",
+      "likes": 81
+    },
+    {
+      "id": "p_cars_news_3269375311",
+      "title": "Водителям объяснили, как запустить двигатель при севшей батарейке ключа - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGRlX0JFcVREZXRsYzk0SXY3aFduTzZMVC1ZWFBqSFNhXzJZNUM5WTRzMGgybzMxNjdoemFxaVg4NlkxeTRnZXV2RGY5em94QWlGeEN5R0lEb1Y4Q190cEFwQzNEc2Y5cjZfdWhRTkZJRkctOE13a0luUm5TMWdjUk53TkdaN00xRVpvQUkzYWYyLVdrRnBXTjRqNFBUUFFkbXlEck9sZjl0LXJQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T10:38:57Z",
+      "likes": 88
+    },
+    {
+      "id": "p_cars_news_2954213618",
+      "title": "В России предложили новые границы ОСАГО и пересмотр коэффициентов с апреля 2027 года - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1dhYTB3ZmtxdWVBXzNscHBXVW43eVpFS0FxZmpGZ2lqbWloRVA4anFxWEFib2plYzNiQk1TcmV6Q2VqcjRfTVJ6eWFRYkg3NEJjNU1UVlZnRjFTN3doNTV2c2VTSERkX0ZRS09tOURqNXBHMTdpdFpPUVlnRlRkbWlPc1E0aGZyUmxnZ01EbU9ucGVUV05LWi1KSDJSZzdhcTFXeVFOcHUtUVpCTHlWMnBrbWdKZng0aVJZQnk5UXlQdw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T09:26:58Z",
+      "likes": 92
+    },
     {
       "id": "p_cars_news_1595186472",
       "title": "Эксперт рассказал, чем дизельный двигатель отличается от бензинового при разгоне - Tarantas News",
@@ -25,39 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-22T06:26:22Z",
       "likes": 20
-    },
-    {
-      "id": "p_cars_news_2448986105",
-      "title": "Весь транспорт Grand Theft Auto VI: машины, мотоциклы, лодки, самолёты и многое другое - CyberMeta",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: CyberMeta.",
-      "emoji": "🚗",
-      "sourceName": "CyberMeta",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc01CYnBtT2dlODRoTVlHSmx3MmVaUVVzR25tWjZpQnpXQktVZFZydlRPVEtndG1XZE91OFlRbkE1VTIxR1k0ZFk0ZTJJQXdBbjlxVVJfY3dDV1QwUzhCd0MxcVZNbmpSd0hjdkJFMndoSkFWYVNIellja1BueXJ5MWxoeC1WV1ZvRENibkVnY1g1V1BPY2Q4dFh1TXg4YnFTb1V4SGwwQQ?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T15:35:43Z",
-      "likes": 21
-    },
-    {
-      "id": "p_cars_news_255162177",
-      "title": "Адвокат предупредил о рисках покупки автомобилей из Киргизии и Армении - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNczh0UENrVko1eDlpX0liQ01BckgyREx6V0hpUmRNSmxDdHZnZFZjNzlHQksyMkxoMUVIZ3ZjX2lsX2tmdXRJVUxnYW5KMEEzczJBeEUwaF9zREhuV2tVbURnS2JzSzZsV3Q2MEpmMnBISkNfUjJtcDZXaTVPNWhTRHg1azVPTmxGMmJydmFpQmpxVUtwT3lnbkp1dHVzY2hZYmpyVjhwc3hsdw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T14:06:56Z",
-      "likes": 12
-    },
-    {
-      "id": "p_cars_news_2615093964",
-      "title": "Названы шесть необычных заводских спецверсий автомобилей - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0tTTGlsYzE5a3piWlExNmNudHpmb2pQVjY5N1ROYVBHdG03aWFQMF8zb3VoYkJEV1hFX05aT0ZpTklSeVpCSV8wMG44MGMySFFqTkN2TGdITi1YRGE3ZjBCcWkwLWJ0eG1hclVXUW95NEh1dGxQb1ZUTFBJRnpWcXFnUW9kS25oV0hqNnJXTjVOUXFneFlLaXB3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T09:25:51Z",
-      "likes": 50
     }
   ]
 }

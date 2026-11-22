@@ -1,9 +1,20 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_animals_news_236243968",
+      "title": "Спасли собак на Днепропетровщине после месяца без еды | Новости Днепра и области | Днепр Оперативны…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Дніпро Оперативний.",
+      "emoji": "🐾",
+      "sourceName": "Дніпро Оперативний",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUVCSE9DLUktbV84VWhHVU1uWXQtbXJBb0pJZEIyOUtNN01PMGJsRmxUTTlrQmozcFRhbmxLbmVibG1hQ0lPSlVISTdFdEpRQzlSeDlZN2RVOVRBTHl0cm5kcjE3SmlqM1VzZFJ1Mi0tS0VlT05PZ1hhR1ZnSUd1b2NxX0ktS2U1SkU5Q2VwaDRKdzRlMEVtc3NrMEFJQkc1MElCMHVHemtYM1lCcUR6Ym9hUdIBuAFBVV95cUxNaDNpY2VXc1hvZlByMmZHak5KWDEyRVlxS0Znd29LR1BGd3B3NVgzMjAyYXBPLW50NDB6bEZxbjZpamlreHd5TkdEOUhUd1hzSGFLTDVCZm90eEtLYTZwNTJvV19taTQzazFtSjd4UVFHaTJwZVhMb1VXc2tqZ0ZobTRYcVQyXzQ3N1BUNGR4dThxandMTHBKSWxHTzZOb1ZpbXVxeEhEeUh6ZWozV0lIOS15dVAyb21L?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T08:10:00Z",
+      "likes": 19
+    },
     {
       "id": "p_animals_news_1682635062",
       "title": "Енот устроил погром в магазине алкоголя и принес приюту почти 300 тысяч долларов - Grani.lv",
@@ -27,6 +38,17 @@
       "likes": 6
     },
     {
+      "id": "p_animals_news_329008576",
+      "title": "«Главное – ответственность»: в Народном Хурале вновь обсудили проблему безнадзорных животных - Буря…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Буряад Үнэн.",
+      "emoji": "🐾",
+      "sourceName": "Буряад Үнэн",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTVBTM0pEYWpkRmZNLUc4LV9NZU51UlB6MVRXaHEyOUtjR1dIZFhDelY5OHk2bjVWaGxHVk1JdkdOcktKNWhWcDJMcFIwS2V0VUNyN0hBTDdJYWVEeEJ4SXZTT0J6YzUwSUhXOGxMUUZtNFMyaVFvSlRCZnpNbkhOcmNFbTVadnZ0bThOdk1jQUQzeG9OSFVtTHdibndCWkxXU2Q4djM4bG94YV90WjYzMm92cnlxT1JZWlI2VmNpYjV2X3VDVEdlOA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T06:14:35Z",
+      "likes": 14
+    },
+    {
       "id": "p_animals_news_3347004952",
       "title": "В Харьковской области прощаются с военной, которая помогала приютам для животных - dumka.media",
       "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: dumka.media.",
@@ -36,28 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-21T15:43:19Z",
       "likes": 81
-    },
-    {
-      "id": "p_animals_news_1003086609",
-      "title": "Бельцкие школьники собрали 35 кг корма для животных из приюта - СП - Бельцкий независимый портал",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: СП - Бельцкий независимый портал.",
-      "emoji": "🐾",
-      "sourceName": "СП - Бельцкий независимый портал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnFqYkx6TDBjWFBsejJMbXJucHBncExIQVZyYjNGcEFSQ0Q0ZW9FUzZTblVCT1dfU0F0cnp1NlZBa2JnMXFFN0Q2Z0xweXE2OTdkOEIzMnE4STBDWHdoSUtKNjhqb21FQ1JVeTFlYUxPRVhhY3QySzlxdThvY3RHV0NpN2JHazNUZmdJMkMxckRhemhXOVB3YXl3OXdjX25RaFRF?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T14:01:18Z",
-      "likes": 83
-    },
-    {
-      "id": "p_animals_news_240818714",
-      "title": "Власти и волонтеры спасают животных от сильного наводнения на востоке Флориды - Gismeteo",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Gismeteo.",
-      "emoji": "🐾",
-      "sourceName": "Gismeteo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWHNSMG9uRkVVZ1AtMUJWTkg3RmIxV2ZHN1o1ODQyUFVhbnFtanNmMHNmQmVkMmU0ZEVvQmktQkRVVHJxVmRpVFpGRU0xNDVrbWJnMFlOUFIzX1FuUS1sYjcyaG16dDBJaFlBRlFBR0ExTHNDQlJDTFpudEJVeVpYcmtCem9vajZmaDkwbkxrUmt0d3Q5SHNRbi1GaE04NkRLUUJkVTFBNVJNYy1UR1FTZWpIZ0hwQU1VNGg1clJYNzFqR0l0OWc4ZA?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T11:23:01Z",
-      "likes": 92
     }
   ]
 }

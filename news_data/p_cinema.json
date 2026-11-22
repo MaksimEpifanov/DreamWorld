@@ -1,63 +1,63 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cinema_news_4063550963",
-      "title": "Через что прошел Сталлоне: рецензия на фильм «Я — Рокки» - ITC.ua",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: ITC.ua.",
+      "id": "p_cinema_news_2281286725",
+      "title": "Отшлифуем и на показ: СТС сообщил о завершении съемок продолжения сериала «Мистер Ноготь» - tvmag.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: tvmag.ru.",
       "emoji": "🎬",
-      "sourceName": "ITC.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0JZdnFnb1R3X0kxbFFIcld4ZDNjV3oydUxOTkJ3TGNrUHkzQl9ESlBYa2FiUENYZXFmeW1XNmRyb3RERFNjaUJ1M3drdkJhalRwMUF0NXBBdWpocnFjd3hQV0U4MzV0ZnpyS0xFTXU5cXY0eDZxUHlBYi1TUUNHeXo4N1cyamhi0gGOAUFVX3lxTE9hYk1lLUFxc05VRHh6WjA3LUVoY0t3bXFUR1V3NC1ZLVBOMVIwQmc0R1lMWUhhSGFjSUpTWjdKUkFtS1pfNGZCVGQtOVUtZUswX2JRRnlyNEstTmhRdG5vVVVkTmlaRzdPZmEtQmNNc3hoa2cyUFVrc3RHcmhIRml2WmNMUVg2VDJwLUg1OVE?oc=5",
+      "sourceName": "tvmag.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb1VpQ2VQSnVHQlBOUkEyNVZMX0RHeERBdjNyWHM5VDAyMk1tQ1NlLUlZaTQzN1FnWmMzMnNDSDdPbnpsaU90OWJqdVd1ZGJZWHgyazYtVkEydXRBQnVPekZSMWF6ZnBUUVE2MW9JTXBCRnA2cWYzQml0Wm9kaW9hZzdUWHNndVBJSWdJYjNuMW9TWFV4RVVjY1owX0NWLTA?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T08:00:16Z",
-      "likes": 75
+      "publishedAt": "2026-11-22T13:59:08Z",
+      "likes": 15
     },
     {
-      "id": "p_cinema_news_247773878",
-      "title": "Rutube трансформирует просмотр кино и сериалов - Content-Review.com",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Content-Review.com.",
+      "id": "p_cinema_news_416209645",
+      "title": "«На съемках мне было страшно»: 5 «проклятых» советских и российских фильмов - 72.ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: 72.ру.",
       "emoji": "🎬",
-      "sourceName": "Content-Review.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGd2ItZ0poOS1sX0hKTF9uTWd6dTFKNy1mSkxibHpadHhiTEg5a1VabjdkRzljV3JleUJqYkJFSmRkOEJmcGdvd2xEdXduLUZjYzBsaE12SnNXd9IBX0FVX3lxTE1EMF95V3A0aktHcm8xd2l6aWF6Sk5hbVpOendWRlNEa1NuUGNmTF90dzZiLUVtaTlSeXdLVXBVcGMtdE5xdGhENWFEZ3pQMzVLM25GamtCUlM4M2g0NGhr?oc=5",
+      "sourceName": "72.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TaXBKb0pzS1YtZmRldjhvRXJsZkVxbzE0Sm45M2lBWnR6RDdWQU1fNGFGRGpWQUZtWmxkNE1nOTVTSVF6bERGcUM5Rm5pcndmU3oya0c4WWZGa0ZpcjV5VWtUbw?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T05:34:28Z",
-      "likes": 22
+      "publishedAt": "2026-11-22T12:35:12Z",
+      "likes": 57
     },
     {
-      "id": "p_cinema_news_3628284514",
-      "title": "В Самаре в «Художественном» бесплатно покажут фильмы 25 ноября, 2 и 16 декабря - 63.ру",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: 63.ру.",
+      "id": "p_cinema_news_3458192617",
+      "title": "Расписание выхода сериала «Сталин» от режиссёра «Мастера и Маргариты» - Чемпионат",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Чемпионат.",
       "emoji": "🎬",
-      "sourceName": "63.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xbmQ2eWd4R29ra3JnblVtRmFfaVBHcExKakNqNFh4RXh3a1hoblNuR1dySS1YN3REbW1pMXoyT290cWZPbzg4MUNCYTBoVHAzZ1RjbzFsOEtYbmhoQ0VidDBDcWdxeEE?oc=5",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSlBUTURsX2RScmROeHN1VnN1RVVPNTZ3RkcyT1NEWkw0TjlveUVvVlV3Qzc1M3VoVmJ3R3NpMThqN2k1UVdtS05JS0FtUUJxbWxXMGVCTHktLXJvV1ppekhKS3MycWJaQmh4dU1iV3FUOFRUM09kaUJEcXM4QVJ4YmpZMzlUNGtKRGIyejhfZjBfNlh1dlVTQ1htZURvSDFYLVlxX25JSFJVZ0Y3cU00bWM3TGFWR1R6dDNTZk9QMmRLeUoyTnk3WlhvMmE5eTJn?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T04:59:33Z",
-      "likes": 19
+      "publishedAt": "2026-11-22T12:30:13Z",
+      "likes": 67
     },
     {
-      "id": "p_cinema_news_3926176468",
-      "title": "Жду 26 сезон. Замечательный сериал - Кино-Театр.Ру",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
+      "id": "p_cinema_news_2619715285",
+      "title": "«Лучшая часть серии»: зрители в восторге от фильма «Голодные игры: Рассвет Жатвы» - irbis.spb.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: irbis.spb.ru.",
       "emoji": "🎬",
-      "sourceName": "Кино-Театр.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBMNVhxX1JpUnFUd3c1UXVYeDhfV2xzYlJCNDZVbXFaN3JJT0NkdDVzUUxGRlhKLVE0OUQ5ZFdzbk1PU05pV0ZvdlB4Xzc1YjdBamhnSjgwWQ?oc=5",
+      "sourceName": "irbis.spb.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pFdDlFcW54T013N1ltN0dlRnFTVUF0ZWptdmZkRXFOVmh3T0NCdERTMEMyRGlpU0RrRFZ4VU4xMjRweldwRmxGM1ptYzcwQkFPX0N6ZGgzZlJ5Wjc1WkVNMzhEWUgwWHVUM3Y5YVpvS2dTNS1Ib21GWlVoYWNFajN4clE3SktLemJmZ2N4OGV0ZTZ4ZVI2d1J4Rjh0QXhaTmZUN1RucThvRUN2bFh4MldqTlp4Ykk?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T01:52:25Z",
-      "likes": 51
+      "publishedAt": "2026-11-22T12:09:54Z",
+      "likes": 66
     },
     {
-      "id": "p_cinema_news_2396102138",
-      "title": "Wink назвал самые популярные сериалы и фильмы у жителей Челябинской области с начала 2026 года - Ур…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Урал-пресс-информ.",
+      "id": "p_cinema_news_4045681673",
+      "title": "Седьмой сезон сериала «Страйк» выйдет в декабре - prospect.com.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: prospect.com.ru.",
       "emoji": "🎬",
-      "sourceName": "Урал-пресс-информ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb1kxeExCajhWRUZHdFkwanFTbEc1ZFRFWmlkRWdrU2dIX2NDZk1Fc25kZkhramZyWmVFbVA1eUhkVkFQMnE0YkhFYUNJeVY0aEp1dnFsdHhiblg1ckdtZFFfUmtFcnc4QUNNWDBtODFzbTlJMXhSNDZ4TGRfNG1ORVpwS3RkLS1WSnJxdXNnUWJmQXpHSmkxaEVmUDBWQ0dRS1YwSDVaaklCdU5JX1pHb0xkYzdUX0V3TUgw?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGF1RlNEQTI2dU9hY3YySk1lcS1ROVdOWFk5MXZjRVVPaFlFRUtqa2RrUlR6TV9oODNUUUtpUm9TTmpFeUlTMFFYeENfZThjX212b2NrNkJmbGY5M0hVb0EyUjdrTmNzcVRKd2JZMVVZeEJ1aXl3SktYalJGaEdpOW4zMjJVZ0hFdzgxalFxZw?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T00:49:50Z",
-      "likes": 70
+      "publishedAt": "2026-11-22T12:04:10Z",
+      "likes": 20
     }
   ]
 }

@@ -1,9 +1,20 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_selfdev_news_2339968930",
+      "title": "Содействовать внедрению решений, направленных на стимулирование потребительского спроса и развитие…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Vietnam.vn.",
+      "emoji": "🚀",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTExDUHA5bi01ZlA5VzY4Sl9TenVZRlBRMTJVX1o3aFdpcFE4anVwdDN0WnBscmdzS181WjFKY29mejI2c3l4MkhudUVQbVh4MnE0MEswRWNXMDQzdDh3NHAxQW5telZ6b3VYNWxPUzdGT09WWU9vOElsTUR0Y1NMYmg1WTBxc2FhYlowczlxaVZzcXZzWGlLR2FvRjlkQWI5NEFEaWxyc3lmbFI0T0Y4?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T10:12:29Z",
+      "likes": 84
+    },
     {
       "id": "p_selfdev_news_3118836949",
       "title": "Рабочее место на удаленке: как не смешивать дом и офис и сохранить продуктивность - KONKURENT.RU",
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-21T17:55:14Z",
       "likes": 15
-    },
-    {
-      "id": "p_selfdev_news_2668517161",
-      "title": "Психология против к, ДИЕТА с психологической точки зрения | Бархатная Трансформация | Саморазвитие…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Дзен.",
-      "emoji": "🚀",
-      "sourceName": "Дзен",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Lenp2dXlCOW40R3hwaDFVOUhDdnFEbnVFeWdUVkFOa3JmRTJ4M0lVRXRzNmxFRjJjWDRBWmhoNnctdUhjdko0dTQ4NkdoOXB3SUV3cHpaZ3JycWNyYzhnUHZ5UUtzWTdHTXc?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-21T13:49:13Z",
-      "likes": 60
     }
   ]
 }

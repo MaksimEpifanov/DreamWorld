@@ -1,31 +1,9 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-22T08:38:50.892927Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "source": "bing-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_volunteering_news_2626089682",
-      "title": "Добрые дела – круглый год - Донская газета",
-      "summary": "Помощь людям, приютам и природе. Источник: Донская газета.",
-      "emoji": "🤝",
-      "sourceName": "Донская газета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pM2hvczBMUGhXMkd0LUFYZEZzbW1FZjlYTjk4V1pGXzdXT3VaNkQzMnV5WWc1b3hFMTh6RkgtRGZGVjlZb24wNnY4OA?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T12:00:24Z",
-      "likes": 40
-    },
-    {
-      "id": "p_volunteering_news_2775561531",
-      "title": "Ульяновская область присоединилась к акции «#МЫВМЕСТЕ - Месяц добрых дел» - Выбор народа",
-      "summary": "Помощь людям, приютам и природе. Источник: Выбор народа.",
-      "emoji": "🤝",
-      "sourceName": "Выбор народа",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdEd3WXNqWjdwUzh2Y1EwcDY4bzlIbFhQcXVSS3VBZEZLTTBxaUppelZrMDB0dExkQnpRY1RiT25pTmtDUVBlZ0M1UHlQYm5ldTQxbXFuemFwaFlKVk1hYi11QURlTlg0YVRlWUNTVDFVUVRhZ2xkR0J5RXlDVTdDRjd3SnJQWFBRdUI0VWVvN0ZqdnJwQmVvcGl5dE1mYnhxSjFxM285Q0JXcXk0Vi1oWVltTmg2NTBrN29F?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-21T11:06:14Z",
-      "likes": 59
-    },
     {
       "id": "p_volunteering_news_3265919550",
       "title": "Сильная команда и общая миссия: волонтёры Молодежки НФ Хакасии- участники федерального форума",
@@ -58,6 +36,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-13T07:31:00Z",
       "likes": 59
+    },
+    {
+      "id": "p_volunteering_news_674935991",
+      "title": "Пять городов Египта: как российские волонтёры помогали детям и взрослым",
+      "summary": "Помощь людям, приютам и природе. Источник: Добро.Медиа.",
+      "emoji": "🤝",
+      "sourceName": "Добро.Медиа",
+      "sourceUrl": "https://dobro.press/novosti/missiya-dobro-zanyatiya-dlya-bolee-400-chelovek-v-egipte",
+      "tag": "Природа",
+      "publishedAt": "2026-11-10T03:39:00Z",
+      "likes": 58
     }
   ]
 }
