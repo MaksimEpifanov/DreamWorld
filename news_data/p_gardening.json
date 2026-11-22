@@ -1,63 +1,63 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gardening_news_3026533119",
-      "title": "Сад на стеллажах и в кладовке: как москвич превратил квартиру в огород",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Рамблер/женский.",
+      "id": "p_gardening_news_1249760531",
+      "title": "Сезон не заканчивается: какие важные дела ждут дачников зимой? - NewGrodno.By",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: NewGrodno.By.",
       "emoji": "🌱",
-      "sourceName": "Рамблер/женский",
-      "sourceUrl": "https://woman.rambler.ru/home/57447265-sad-na-stellazhah-i-v-kladovke-kak-moskvich-prevratil-kvartiru-v-ogorod/",
+      "sourceName": "NewGrodno.By",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LWm9SQ2t1V0JKLUF1b0ZEUWdFdThwbmRnTE15X05OU0lFZVZ4VHl5Q3d1dnBBWG9xY3pUVkVLQWcxMmNzMW13VFFhdXJsX2M2NTRYLTJUVU52eG83UDNIdU44SkFkbElEbWlqR0t1SWEwTlVQQkNBSVp2UWhZUdIBgwFBVV95cUxNLWhubFdRMVVpNUhQeXlWTlBhUHRaNGg2VW0zMUpFU2RSWGFVVVhQank0UTA4b05wR2pHMXRKYXVOLXdSMmxsMGhUSGZaR3h5ajlKMzc5SFhDcDhnaWhmTEFvbG9PWHUyMnMtMGh6dlJhb0x2WFZuMXYzdGF1WnpldXh4RQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T08:04:00Z",
-      "likes": 61
+      "publishedAt": "2026-11-22T07:23:47Z",
+      "likes": 79
     },
     {
-      "id": "p_gardening_news_1051417305",
-      "title": "Убираем усы у огурцов: как это влияет на урожай и что выбрать?",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: zur-nn.ru.",
+      "id": "p_gardening_news_2367743221",
+      "title": "Лунный календарь садовода и огородника на 22 ноября 2026 года - Погода Mail",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Погода Mail.",
       "emoji": "🌱",
-      "sourceName": "zur-nn.ru",
-      "sourceUrl": "https://zur-nn.ru/news/article/ubiraem-usy-u-ogurcov-kak-eto-vliyaet-na-urojay-i-chto-vybrat-207567/",
+      "sourceName": "Погода Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Fb1otSkluSjI5WDlibjBHZGV6VmZ2dnVqUG5FcFZlT3RfMHk3NDVKWVV5WDQtSGxIWUlRdHVYRzhrSmkxbVdUd1FKQ19ndw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-16T23:59:00Z",
-      "likes": 51
+      "publishedAt": "2026-11-22T03:00:04Z",
+      "likes": 21
     },
     {
-      "id": "p_gardening_news_2098113500",
-      "title": "Купили дорогие семена по чужим отзывам, а урожая нет? 3 правила подбора сортов под свой огород",
+      "id": "p_gardening_news_1582242206",
+      "title": "На старых дачах мяту сажали у порога не ради красоты: забытая хитрость для сезона-2027 - Правда.Ру",
       "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Правда.Ру.",
       "emoji": "🌱",
       "sourceName": "Правда.Ру",
-      "sourceUrl": "https://www.pravda.ru/news/gardening/2443702-seed-selection-strategy-garden-yield/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdURPRHpTN3hpQ1ZPdmtSV0VJTVJrSjFaWldOMXhZMjFNbTd2VHhCdXcwenZkc0hqSU52Q1NVSjZkYXhURHpYcldVSlpMNXZrT3g2RWlqMGt3cGR6cllMUENEakplQW9MVHU0UFdhZ2VMZ1RjTXV6a04yeW1VV2JzcENqa2hZMU0?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-16T21:13:00Z",
-      "likes": 22
+      "publishedAt": "2026-11-22T02:41:00Z",
+      "likes": 60
     },
     {
-      "id": "p_gardening_news_1662598926",
-      "title": "Семена хорошие, а урожая нет: почему удачный сорт может подвести именно на вашем участке",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Кубанские новости.",
+      "id": "p_gardening_news_2582174284",
+      "title": "Лунный календарь для садоводов и огородников с 22 по 24 ноября 2026 года - СБ. Беларусь сегодня",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: СБ. Беларусь сегодня.",
       "emoji": "🌱",
-      "sourceName": "Кубанские новости",
-      "sourceUrl": "https://kubnews.ru/obshchestvo/2026/11/16/semena-khoroshie-a-urozhaya-net-pochemu-udachnyy-sort-mozhet-podvesti-imenno-na-vashem-uchastke/",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeExGdWpwc3ExRUp1djcxbk0wMjc2ck1YOWkxOENtWnhFTDFhMUprRjFUMXNmb1BWS0dub1JZMWJaaDdZTlBYSm9IM0ZmenMyYkYwbU9OTDlwejFudDZmeUFtUXR5WlRiTGxSM2poUjExVEZfYTNKOXltQVRYaEJybktWVEg0T2h4UHVGRVhRckVLYmExaG5adkgycVVXWlBQRENCajBrYlNEeGFnRDZQMUZB0gGyAUFVX3lxTE14TEZ1anBzcTFFSnV2NzFuTTAyNzZyTVg5aTE4Q21aeEVMMWExSmtGMVQxc2ZvUFZLR25vUlkxYlpoN1lOUFhKb0gzRmZ6czJiRjBtT05MOXB6MW50NmZ5QW1RdHlaVGJMbFIzamhSMTFURl9hM0o5eW1BVFhoQnJuS1ZUSDRPaHhQdUZFWFFyRUtiYTFoblp2SDJxVVdaUFBEQ0JqMGtiU0R4YWdENlAxRkE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-15T16:00:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-21T20:27:00Z",
+      "likes": 33
     },
     {
-      "id": "p_gardening_news_2549703813",
-      "title": "Мумие для огорода: как простые таблетки увеличивают урожай томатов и огурцов",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: zur-nn.ru.",
+      "id": "p_gardening_news_442753839",
+      "title": "Как подготовить саженцы к зимовке в конце осени: советы садовника Кастрицкого - ОНТ",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: ОНТ.",
       "emoji": "🌱",
-      "sourceName": "zur-nn.ru",
-      "sourceUrl": "https://zur-nn.ru/news/article/mumie-dlya-ogoroda-kak-prostye-tabletki-uvelichivayut-urojay-tomatov-i-ogurcov-206293/",
+      "sourceName": "ОНТ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcU1pTm5qSUxSeWlqa0NieGdHeEdYLUhsZThkLUktS3RRNzNSQXo1MzJBekRkV3B2RDgyaVVkRXl5YXNwTGM1SmpocFFIcTlvWW9wR24xdnZhdnQtUVdmMmttaDVHTExZZS1vNm5wMHJzalE0anRqM3NfNTQwS2VodmhZeW9obEhVUGZkalN3WjRxaGl1djM3N0Q5c2N2MDFlTzBhU1h5U0gydWhNc1dMX1Y1VXpPT3dBVmJzMVV0a3EzVWM?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-15T00:00:00Z",
-      "likes": 92
+      "publishedAt": "2026-11-21T18:28:30Z",
+      "likes": 54
     }
   ]
 }

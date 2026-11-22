@@ -1,63 +1,63 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_1927148147",
-      "title": "«Я тебя ненавижу»: психолог объяснил, как реагировать на резкие слова ребенка",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Газета.Ru.",
+      "id": "p_psychology_news_339784891",
+      "title": "Почему больно после коротких отношений: объяснение психологов - Коментарі",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Коментарі.",
       "emoji": "🧠",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/family/news/2026/11/20/29795413.shtml",
+      "sourceName": "Коментарі",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVW1RTTY1UUwwTWw4QzRxMFRxSl9rQzM4XzJ5WkgxYUxOTUNfV0NVeHhZd0V3MWZLN0kxQU5zQWhKUHA5aG5CVThoelNsbVd3NmFVdU4xSjFRTXdWVTNQVzZ3cko1dmlPUGZYdEdGZnhmZWRONVFHalQyeHk3amdRekdmdWhHUzVrc09qbTRiSFNqRzEwVW54V3R3clJQZVpVdnNJa0ZONU5ncEtIUUpUNE5oVl9paEI2OTlJMDBpZGlJVHpZRnNVVll3TmhjOVJHcS1ib3p0ZmlzQ3pPaVdza0VrSVpVNkU?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-21T04:00:00Z",
-      "likes": 60
+      "publishedAt": "2026-11-22T08:02:00Z",
+      "likes": 57
     },
     {
-      "id": "p_psychology_news_1841380055",
-      "title": "Психолог Мишина: Молчаливое исчезновение говорит об избегании эмоций",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Life.ru.",
+      "id": "p_psychology_news_1071218069",
+      "title": "Психолог объяснил, как научить ребёнка справляться с эмоциями - 78.ru",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: 78.ru.",
       "emoji": "🧠",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://life.ru/p/ne-otvechaet-i-blokiruet-posle-ssory-psiholog-raskryla-chto-skryvaetsya-za",
+      "sourceName": "78.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTDJvYXFDZjVkSzdtLTJpRjdEN0dpZ00tamxfQ0Y0VEM2cjU5bUI5cFo3dWRKZnVmTHIySk5RcnozYTktZVc4MndfamRNSzM2LUhPam5XcFVvRzhGVGNpRkwtUVdMVU5OUEpHNndCUlU2b0tEUEhFX3ZIZ0JHb0VmMzBFWjBxSnAxdlBNVlRBanJtM2FTQlgw0gGcAUFVX3lxTE9YdF96dF9JUkNKQ2pXMS1PVWtNUDlmYkpuSzgyQ3M5Q2tGcVRDaXNfX29YbXo0ckJPMTJEZE9LYjhieDczSWlqVG9CQjRsLWZCaDF3WVg0UHR2enZ5dnozZzY1STRCZmpocTQzS2o2NENMNzVhVmZiUzRPRnkxRnE3Rk5KNUJ3VDctcXA5Mk5pci15VnkweVhXX0Q1ag?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-13T16:46:00Z",
-      "likes": 32
+      "publishedAt": "2026-11-22T07:15:41Z",
+      "likes": 6
     },
     {
-      "id": "p_psychology_news_2162680903",
-      "title": "Психолог объяснил пользу зависти",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Известия.",
+      "id": "p_psychology_news_3927484803",
+      "title": "«Потерплю, само пройдет»: оренбургский психолог объяснил, когда стоит обратиться за помощью - ПроОр…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ПроОрен.",
       "emoji": "🧠",
-      "sourceName": "Известия",
-      "sourceUrl": "https://iz.ru/2200738/2026-11-12/psikholog-obiasnil-polzu-zavisti",
+      "sourceName": "ПроОрен",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdG1ydnhTWHpGQnJTOC1wZDZ5Y2FGTk5SVXJEVDBLQXJXOWwwTk03cERxaTVqdUpOTWVVbUpFdkZDVVdRdHVsUlZHMzVYVXBlUHFXVmNka1JGWEdZQnFjb2NuUmRWX2ZMdjF3QzRNd21KMGtGOHhUcDQ1RlhNVFNyQ2lmQVpxd2Z2VVVNcHY2bnB3LUZRTzlmWC1zU2xfanJFdjVWX0hDUlRCZTE5M2ljakZR?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-12T14:26:00Z",
-      "likes": 84
+      "publishedAt": "2026-11-22T07:03:20Z",
+      "likes": 66
     },
     {
-      "id": "p_psychology_news_3733483328",
-      "title": "Психолог назвала главные различия привязанности и зависимости в отношениях",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Радио 1.",
+      "id": "p_psychology_news_2329293602",
+      "title": "«Разморозка»: психологи в Норильске рассказали, как Север влияет на нашу жизнь - Новости «Северного…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Новости «Северного Города».",
       "emoji": "🧠",
-      "sourceName": "Радио 1",
-      "sourceUrl": "https://radio1.ru/news/obschestvo/psiholog-nazvala-glavnie-razlichiya-privyazannosti-i-zavisimosti-v-otnosheniyah/",
+      "sourceName": "Новости «Северного Города»",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGl4Y3Z6UzV4QWJBX0RjLVptbThxWFNJbWltdmNHdzZOaUpOTlVpeDVOSXVuQTJuNmhQRVlYUkFzaV9MN05Jb3JhVVJKQ0FmZnpJMWJVb3NPcHR6UGlWT3hVbzlXTThQaVdSbXdfV0pfTUpWb2ZHeldOWXlqbm55aHQyQjhyaktwek0zS05fSlA0c1hwamVzczNQdjBRTTdhTnV2akdEQWE4YXl1UUhjQ09Qdw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-10T05:31:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-22T05:13:00Z",
+      "likes": 51
     },
     {
-      "id": "p_psychology_news_966672593",
-      "title": "Нездоровая любовь: как отличить привязанность от созависимости в отношениях",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Пятый канал.",
+      "id": "p_psychology_news_3655085322",
+      "title": "Поколение тревожных или осознанных: почему зумерам так нужны психологи - URA.RU",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: URA.RU.",
       "emoji": "🧠",
-      "sourceName": "Пятый канал",
-      "sourceUrl": "https://www.5-tv.ru/news/5094890/nezdorovaa-lubov-kak-otlicit-privazannost-otsozavisimosti-votnoseniah-aii/",
+      "sourceName": "URA.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5tcjBpZGNsR2Nrclc3LThFeFJ2aGltN1RIc1BsYTJheTFJa1NNbm1FdTkwLURLTXhiLWZCakg4X2VuSUNnZ2tQMlFFSnc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-09T16:00:00Z",
-      "likes": 7
+      "publishedAt": "2026-11-22T04:40:00Z",
+      "likes": 31
     }
   ]
 }

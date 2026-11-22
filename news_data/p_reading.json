@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_2699210065",
-      "title": "В «Библиотеку Десятилетия науки и технологий» войдут 150 книг",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ОТР - Общественное Телевидение России.",
+      "id": "p_reading_news_2281013149",
+      "title": "В библиотеке - говорящий по-литовски робот: он умеет читать и рассказывать истории - LRT",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: LRT.",
       "emoji": "📖",
-      "sourceName": "ОТР - Общественное Телевидение России",
-      "sourceUrl": "https://otr-online.ru/news/v-biblioteku-desyatiletiya-nauki-i-tehnologii-voidut-knig-336484.html",
+      "sourceName": "LRT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamphVU9JYzY2MmVKV1dJNXFFanNxQi10S0Rza0hUb0Jzd2ktYUhWd2htdXZSTEt0M3hMY2NPWXZ0Q3lYZmRaN3dyck5wSnQ4RTdETEctT3lsUDUtOC1EUFdXZXNTakJid3RBQlR4WGZCR19jUWFfMXpFamt3MmNtZzlWc1FqUTZrNUd5eTFQNlJSUW5La2pvRXFwV19nUk9jalNqRmtucHNHWUl4WmkyaVRPVWkyS0JzdGNMd204Vmw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-18T15:48:00Z",
-      "likes": 71
+      "publishedAt": "2026-11-22T06:24:00Z",
+      "likes": 64
     },
     {
-      "id": "p_reading_news_1602190231",
-      "title": "Около 150 изданий войдут в \"Библиотеку Десятилетия науки и технологий\"",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: SAMARAONLINE24.",
+      "id": "p_reading_news_1319426361",
+      "title": "Человек, который связывает литературу с общественной жизнью. - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
       "emoji": "📖",
-      "sourceName": "SAMARAONLINE24",
-      "sourceUrl": "https://samaraonline24.ru/science/view/okolo-150-izdanij-vojdut-v-biblioteku-desatiletia-nauki-i-tehnologij",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOSEdOYzNKRWExazhFaVJQX0std0VheWh4Q3hIN1NaZ1U0MFRURE1HYjJrdVh4Q2xiWHZYYXk1aGtaUHd2LVdESlRrWl91c2EtcGdxeFF1VExvU2JpZ0ZRaHplc0lZTVhwOFZMZDBBdWJvNkVFQWhNXzRkOEM1d1U?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-18T11:09:00Z",
-      "likes": 47
+      "publishedAt": "2026-11-22T06:03:32Z",
+      "likes": 36
     },
     {
-      "id": "p_reading_news_2495368729",
-      "title": "Книжные новинки и встречи с писателями: как пройдет литературная ярмарка non/fiction",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: TASS.",
+      "id": "p_reading_news_4030858437",
+      "title": "В Кургане модельная библиотека им. С. Маршака отметила 60-летний юбилей - Медиахолдинг Новый мир",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Медиахолдинг Новый мир.",
       "emoji": "📖",
-      "sourceName": "TASS",
-      "sourceUrl": "https://tass.ru/opinions/20411263",
+      "sourceName": "Медиахолдинг Новый мир",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGdXYzRaaWNVSjVjMWhMdG5iWXJVZ0JzbDNXNEVtSGFfSHEtN2R3OFM0UWo5blN4aWpfOWtlQjI5OVRNZ1h6S3czeXFYdWRiWlh5ME95MHJGQTYyQUhOelhTaWxPSDJhR0FJSjJjNll5Mko4bjJOckZUNVpLb0FpTjJOZEVPOFV6Z19LZWNrREhYUQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2024-04-03T17:00:00Z",
-      "likes": 37
-    },
-    {
-      "id": "p_reading_news_164894830",
-      "title": "Директор издательства «Время» Борис Пастернак: Запускаем новые тиражи книг Светланы Алексиевич",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Komsomolskaya Pravda.",
-      "emoji": "📖",
-      "sourceName": "Komsomolskaya Pravda",
-      "sourceUrl": "https://www.kp.ru/daily/26443/3314419/",
-      "tag": "Книги",
-      "publishedAt": "2015-10-08T23:32:00Z",
-      "likes": 38
-    },
-    {
-      "id": "p_reading_news_2049571227",
-      "title": "Книжные издательства. Что предлагают авторам?",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: KM.",
-      "emoji": "📖",
-      "sourceName": "KM",
-      "sourceUrl": "https://www.km.ru/referats/DE63383919F2451CBCFC5AC99BEACFC0",
-      "tag": "Книги",
-      "publishedAt": "2012-06-16T17:00:00Z",
+      "publishedAt": "2026-11-22T06:01:09Z",
       "likes": 86
+    },
+    {
+      "id": "p_reading_news_879849589",
+      "title": "«Дети капитана Гранта» и милый детектив. Шесть книг для чтения с детьми / Новости города / Сайт Мос…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: mos.ru.",
+      "emoji": "📖",
+      "sourceName": "mos.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VRXBvUzVwTVNxQzZxTkJkdS13SmJLMVZERTBQWW5HdjBXWnBGSEd4Y3ZUVWJ3YnlpcHA2Qk1WYVJ3T2xYc2tqSjVwT0VxLVBs?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T06:01:01Z",
+      "likes": 89
+    },
+    {
+      "id": "p_reading_news_261372176",
+      "title": "Кто ещё читает романы Цзинь Юна о боевых искусствах? - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
+      "emoji": "📖",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yV3VMU0ZpMnAzMkItMHJ0aHFKazV5elZSMm1RRFdKcktfZnhqZ0JnN0N4Y2VYcEJpQkNDZjUxOGlXU18wbXNKdGM3UVE2SGxCZXRrUGswQlpxbkRvbzNjaDIzLUV4dmtnWDBF?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T01:34:13Z",
+      "likes": 41
     }
   ]
 }

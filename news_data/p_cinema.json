@@ -1,63 +1,63 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cinema_news_1715832873",
-      "title": "Саша Бортич и Денис Прытков 14 лет не могут быть вместе: обзор сериала «Все в твоих руках»",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Спорт-Экспресс.",
+      "id": "p_cinema_news_247773878",
+      "title": "Rutube трансформирует просмотр кино и сериалов - Content-Review.com",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Content-Review.com.",
       "emoji": "🎬",
-      "sourceName": "Спорт-Экспресс",
-      "sourceUrl": "https://www.sport-express.ru/zozh/movies/serials/reviews/obzor-starta-seriala-vse-v-tvoih-rukah-s-bortich-i-prytkovym-obzor-premery-syuzhet-aktery-i-raspisanie-seriy-2476645/",
+      "sourceName": "Content-Review.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGd2ItZ0poOS1sX0hKTF9uTWd6dTFKNy1mSkxibHpadHhiTEg5a1VabjdkRzljV3JleUJqYkJFSmRkOEJmcGdvd2xEdXduLUZjYzBsaE12SnNXd9IBX0FVX3lxTE1EMF95V3A0aktHcm8xd2l6aWF6Sk5hbVpOendWRlNEa1NuUGNmTF90dzZiLUVtaTlSeXdLVXBVcGMtdE5xdGhENWFEZ3pQMzVLM25GamtCUlM4M2g0NGhr?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-19T12:01:00Z",
-      "likes": 46
+      "publishedAt": "2026-11-22T05:34:28Z",
+      "likes": 22
     },
     {
-      "id": "p_cinema_news_1007807670",
-      "title": "Сериал Всё в твоих руках (2026) — дата выхода, сколько серий, расписание, все серии, где смотреть в…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Чемпионат.",
+      "id": "p_cinema_news_3628284514",
+      "title": "В Самаре в «Художественном» бесплатно покажут фильмы 25 ноября, 2 и 16 декабря - 63.ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: 63.ру.",
       "emoji": "🎬",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://www.championat.com/cybersport/news-6705574-serial-vsyo-v-tvoih-rukah-2026-data-vyhoda-skolko-serij-raspisanie-vse-serii-gde-smotret-v-horoshem-kachestve.html",
+      "sourceName": "63.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xbmQ2eWd4R29ra3JnblVtRmFfaVBHcExKakNqNFh4RXh3a1hoblNuR1dySS1YN3REbW1pMXoyT290cWZPbzg4MUNCYTBoVHAzZ1RjbzFsOEtYbmhoQ0VidDBDcWdxeEE?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-19T05:49:00Z",
-      "likes": 61
+      "publishedAt": "2026-11-22T04:59:33Z",
+      "likes": 19
     },
     {
-      "id": "p_cinema_news_3031674638",
-      "title": "Чем закончился сериал «Адрес нашего дома» (2026) и удалось ли героям раскрыть правду",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: tv.mail.",
+      "id": "p_cinema_news_3926176468",
+      "title": "Жду 26 сезон. Замечательный сериал - Кино-Театр.Ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
       "emoji": "🎬",
-      "sourceName": "tv.mail",
-      "sourceUrl": "https://tv.mail.ru/news/144987-chem-zakonchilsya-serial-adres-nashego-doma-2026/",
+      "sourceName": "Кино-Театр.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBMNVhxX1JpUnFUd3c1UXVYeDhfV2xzYlJCNDZVbXFaN3JJT0NkdDVzUUxGRlhKLVE0OUQ5ZFdzbk1PU05pV0ZvdlB4Xzc1YjdBamhnSjgwWQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-18T03:05:00Z",
-      "likes": 63
+      "publishedAt": "2026-11-22T01:52:25Z",
+      "likes": 51
     },
     {
-      "id": "p_cinema_news_3045510035",
-      "title": "Премьера сериала «Арсеньев» состоится в Okko 28 ноября",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Lenta.ru.",
+      "id": "p_cinema_news_2396102138",
+      "title": "Wink назвал самые популярные сериалы и фильмы у жителей Челябинской области с начала 2026 года - Ур…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Урал-пресс-информ.",
       "emoji": "🎬",
-      "sourceName": "Lenta.ru",
-      "sourceUrl": "https://lenta.ru/news/2026/11/16/premyera-seriala-arsenyev-sostoitsia-v-okko-28-noyabrya/",
+      "sourceName": "Урал-пресс-информ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb1kxeExCajhWRUZHdFkwanFTbEc1ZFRFWmlkRWdrU2dIX2NDZk1Fc25kZkhramZyWmVFbVA1eUhkVkFQMnE0YkhFYUNJeVY0aEp1dnFsdHhiblg1ckdtZFFfUmtFcnc4QUNNWDBtODFzbTlJMXhSNDZ4TGRfNG1ORVpwS3RkLS1WSnJxdXNnUWJmQXpHSmkxaEVmUDBWQ0dRS1YwSDVaaklCdU5JX1pHb0xkYzdUX0V3TUgw?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-16T07:32:00Z",
-      "likes": 66
+      "publishedAt": "2026-11-22T00:49:50Z",
+      "likes": 70
     },
     {
-      "id": "p_cinema_news_3601363912",
-      "title": "Первый отрывок из сериала «Гарри Поттер». Видео",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: РБК.",
+      "id": "p_cinema_news_2272480268",
+      "title": "5 миллионов за отказ: Госдума берётся за фильмы и сериалы, «подрывающие традиционные ценности» - Pr…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Primpress.ru.",
       "emoji": "🎬",
-      "sourceName": "РБК",
-      "sourceUrl": "https://www.rbc.ru/society/15/11/2026/6af955ccacb2a01a5c8b425f",
+      "sourceName": "Primpress.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VTDVsbFlVaHVIekNlWkNpWWFHSXNGcHBCTHBuNEFISTc5ZDAyV214ZUczVWRPZDliSDJfTG91ZVJTaDZvVEFVc0xNRQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-14T23:17:00Z",
-      "likes": 47
+      "publishedAt": "2026-11-22T00:00:40Z",
+      "likes": 4
     }
   ]
 }

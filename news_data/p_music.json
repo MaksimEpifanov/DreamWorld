@@ -1,52 +1,63 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_4054216180",
-      "title": "Вышел альбом с треками GTA 6 — в него вошло 34 песни",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Чемпионат.",
+      "id": "p_music_news_2547947690",
+      "title": "Яндекс Музыка подвела итоги «Распаковки 2026» — треком года стал фит Zivert и ICEGERGERT - rb.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: rb.ru.",
       "emoji": "🎵",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://www.championat.com/cybersport/news-6707016-vyshel-albom-s-trekami-gta-6-v-nego-voshlo-34-pesni.html",
+      "sourceName": "rb.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTEdSVlh6SG5LX3lBVEhKcnpXN1M3NTRMN1E5UzNpOXBpNU1OWkdzSk9wV0tET1R0ZjAyb0hYcjRDYTRDNHNyMk5yb1dPWlVNZy1vSFlxSDNPaG5vYVNpNktSSEJabkdqYm92Zm1oODY5M2YxTzNPSlNxUGhtUU10OGRpX2dPb25SdFRHOW5pT3liaS15ZmhQbnZGUGdBNXo1ZmxCSWhpWEQ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-20T09:01:00Z",
-      "likes": 5
+      "publishedAt": "2026-11-21T19:00:00Z",
+      "likes": 31
     },
     {
-      "id": "p_music_news_936978090",
-      "title": "Брюс Дикинсон выпустил первый сингл из нового сольного альбома",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: InterMedia.",
+      "id": "p_music_news_2308744862",
+      "title": "Для GTA VI выпустили музыкальный альбом с участием мировых звёзд - ANONS.uz",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ANONS.uz.",
       "emoji": "🎵",
-      "sourceName": "InterMedia",
-      "sourceUrl": "https://www.intermedia.ru/news/408215",
+      "sourceName": "ANONS.uz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPelBFeHlkczFFZ28yMlo3VjhJTF9XdzYzVDJ6bUdnVHlsTS1yeU9EREFMS25LN0FtVUhDZnVLdVhveUUyWkMwZ2ttaDVpSkxDZnVYVjVZLTlxRGlYdDBlRlpMd09hNzdUUWkwN1VjdU5oMEptOFUyOENBQ2ZjV3k5d24yN09za1lhRWo5OEF1aUluQzg?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-19T02:32:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-21T16:27:42Z",
+      "likes": 76
     },
     {
-      "id": "p_music_news_3279300276",
-      "title": "Подопечные фонда \"Доброделы\" выпустили второй музыкальный альбом \"Герой начинается с тебя\" при ...",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Metro.",
+      "id": "p_music_news_3234775289",
+      "title": "MUSIA TOTIBADZE представила новый альбом «Сон - Maximonline",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Maximonline.",
       "emoji": "🎵",
-      "sourceName": "Metro",
-      "sourceUrl": "https://www.metronews.ru/novosti/peterbourg/reviews/podopechnye-fonda-dobrodely-vypustili-vtoroy-muzykalnyy-albom-geroy-nachinaetsya-s-tebya-pri-podderzhke-vk-records-2193779/",
+      "sourceName": "Maximonline",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdDZOVXh2SFN6OGs3d3JmMDBXV2Q1cmt6b0dfS2ZXVHdnQk1aREVWem02VEhkV0N1YzA5TmJLa2xpZGd1ek5Id0Q5ekRWQlBmQUJWQ2hleXpzbEZTZmc0Sl9fZWRSRTBxR0pUZk9uVmZKcUdYdFI1ZUp0a2prTHBwLXBDZGJ6VFFvVFJMTWtjTEo0Zw?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-13T08:54:00Z",
-      "likes": 70
+      "publishedAt": "2026-11-21T12:49:35Z",
+      "likes": 79
     },
     {
-      "id": "p_music_news_3575370854",
-      "title": "Музыкальная осень 2026: какие альбомы выпустили украинские артисты и что готовят дальше",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: delo.ua.",
+      "id": "p_music_news_3173764880",
+      "title": "Eartheater анонсировала альбом и представила сингл «Paradise Rains» - DJ.RU",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
       "emoji": "🎵",
-      "sourceName": "delo.ua",
-      "sourceUrl": "https://delo.ua/ru/creative-economy/muzykalnaya-osen-2026-kakie-albomy-vypustili-ukrainskie-artisty-i-cto-gotovyat-dalse-475540/",
+      "sourceName": "DJ.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2x0YkYyQ1VoMTJoX0FmUlNIRmZuNUcxRUFwUG5wQUgwSl85dWpCVHZGQmJ5MmRMVTJidHNqaHhxOW1wZWxUdnF1WVFSTk5UUWJPY3dQWGpVYUNqRjhsTnkwdWVlM1Y0QUh3azhGbDBqcVRUNHhoTEs5ZkU1OGxlLVFYM1o2ZFpkMEZmR0xQQ1ItaTJCVmZZ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-03T04:23:00Z",
-      "likes": 17
+      "publishedAt": "2026-11-21T11:00:11Z",
+      "likes": 67
+    },
+    {
+      "id": "p_music_news_174414657",
+      "title": "Elton John курирует ремикс-альбом на виниле для Record Store Day 2026 - DJ.RU",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
+      "emoji": "🎵",
+      "sourceName": "DJ.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaERQSk5MT08wWUpGc0VrNklweC11U2EtTnZZMVhGLTYyZlh4Q3dQWmo0SDJlRGF6QkI0c3hhTmRuNk9nVUtMdldoU3NKU3BHdktmWDlVVFduREVqbkwzazFoUnp3cGluWmFiV2hBU1RpbGJjcXJUWVF1RU5nUkU0dnFWUFREdjlWZjlVUzJMTUNyWDZYRGhVeGRhWlhIUQ?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-21T09:36:26Z",
+      "likes": 30
     }
   ]
 }

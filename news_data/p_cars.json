@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_264903716",
-      "title": "Забудьте об автосалонах: BMW разрешила покупать авто и записываться на тест-драйв через ChatGPT",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Фокус.",
+      "id": "p_cars_news_1595186472",
+      "title": "Эксперт рассказал, чем дизельный двигатель отличается от бензинового при разгоне - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
-      "sourceName": "Фокус",
-      "sourceUrl": "https://focus.ua/auto/774367-bmw-v-chatgpt-kak-vybrat-avto-i-zapisatsya-na-test-drayv",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNFB0VDYtdEkwblRqbUpGVFhVNVloM2hubXdpZ19lRDBSelNJRXlNWmlQbTRkRk0zM2lmdjVIcDk2dWdGWlFPMnc3N3JIdXpfWGR1UXFPSEpYM2FpVzlHZkNROHR0NFdIQlBXOGh6SFNCSHRxRkxXYnJPc1VQd1BGSXROMHZKY2ptMW1WWm4tc1JfV0RqeXIzZ3RfZ2FjSVRvYTJBaE1fbG43N2dNcmF5aDcyRDlSR28?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-11T06:49:00Z",
+      "publishedAt": "2026-11-22T08:16:21Z",
+      "likes": 47
+    },
+    {
+      "id": "p_cars_news_738680036",
+      "title": "Honda и Toyota отзывают 1,6 млн автомобилей из-за подушек Takata - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZlNpUU9LdGs4eWk3NW1PcU1feUQzbTZrQkRQTWlLd1ViSDROTGZWWUI5RUhYMHNmN0tWYmc5OVZYMEJEVWNkVm5fWkJfZldDbTVNMEtMYk5ndWY4Yld4Z2xDUndpenRxN0FLMGRZTDlwTWdIc0tvVk5aUDY2SEstM2NFVG1vclFENDMtNk5tdkswY3hYZ2ViaXk1RTRXbWRYYnVRTw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T06:26:22Z",
+      "likes": 20
+    },
+    {
+      "id": "p_cars_news_2448986105",
+      "title": "Весь транспорт Grand Theft Auto VI: машины, мотоциклы, лодки, самолёты и многое другое - CyberMeta",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: CyberMeta.",
+      "emoji": "🚗",
+      "sourceName": "CyberMeta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc01CYnBtT2dlODRoTVlHSmx3MmVaUVVzR25tWjZpQnpXQktVZFZydlRPVEtndG1XZE91OFlRbkE1VTIxR1k0ZFk0ZTJJQXdBbjlxVVJfY3dDV1QwUzhCd0MxcVZNbmpSd0hjdkJFMndoSkFWYVNIellja1BueXJ5MWxoeC1WV1ZvRENibkVnY1g1V1BPY2Q4dFh1TXg4YnFTb1V4SGwwQQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-21T15:35:43Z",
       "likes": 21
     },
     {
-      "id": "p_cars_news_3739203604",
-      "title": "Компактный и простой. Есть ли что-то особенное в кроссовере Belgee X50+? Тест-драйв «Ленты.ру»",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Lentaru.",
+      "id": "p_cars_news_255162177",
+      "title": "Адвокат предупредил о рисках покупки автомобилей из Киргизии и Армении - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
-      "sourceName": "Lentaru",
-      "sourceUrl": "https://lenta.ru/articles/2026/09/07/belgeex50plus/",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNczh0UENrVko1eDlpX0liQ01BckgyREx6V0hpUmRNSmxDdHZnZFZjNzlHQksyMkxoMUVIZ3ZjX2lsX2tmdXRJVUxnYW5KMEEzczJBeEUwaF9zREhuV2tVbURnS2JzSzZsV3Q2MEpmMnBISkNfUjJtcDZXaTVPNWhTRHg1azVPTmxGMmJydmFpQmpxVUtwT3lnbkp1dHVzY2hZYmpyVjhwc3hsdw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-09-06T17:01:00Z",
-      "likes": 72
+      "publishedAt": "2026-11-21T14:06:56Z",
+      "likes": 12
     },
     {
-      "id": "p_cars_news_14045465",
-      "title": "Большой автомобиль с маленьким налогом. Чем удивляет гибридный кроссовер GAC S9: тест-драйв «Ленты…",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Lentaru.",
+      "id": "p_cars_news_2615093964",
+      "title": "Названы шесть необычных заводских спецверсий автомобилей - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
-      "sourceName": "Lentaru",
-      "sourceUrl": "https://lenta.ru/articles/2026/08/26/gacs9/",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0tTTGlsYzE5a3piWlExNmNudHpmb2pQVjY5N1ROYVBHdG03aWFQMF8zb3VoYkJEV1hFX05aT0ZpTklSeVpCSV8wMG44MGMySFFqTkN2TGdITi1YRGE3ZjBCcWkwLWJ0eG1hclVXUW95NEh1dGxQb1ZUTFBJRnpWcXFnUW9kS25oV0hqNnJXTjVOUXFneFlLaXB3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-08-25T17:01:00Z",
-      "likes": 25
-    },
-    {
-      "id": "p_cars_news_4281221026",
-      "title": "Большой тест-драйв финалистов «ТОП-5 АВТО»",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Колеса.ру.",
-      "emoji": "🚗",
-      "sourceName": "Колеса.ру",
-      "sourceUrl": "https://www.kolesa.ru/news/bolsoi-test-draiv-finalistov-top-5-avto",
-      "tag": "Технологии",
-      "publishedAt": "2026-07-27T14:16:00Z",
-      "likes": 26
-    },
-    {
-      "id": "p_cars_news_4192379952",
-      "title": "Тест-драйв кроссовера Belgee X70: полный привод за 3 миллиона",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Mail.",
-      "emoji": "🚗",
-      "sourceName": "Mail",
-      "sourceUrl": "https://auto.mail.ru/article/118609-test-drajv-krossovera-belgee-x70-polnyij-privod-za-3-milliona/",
-      "tag": "Технологии",
-      "publishedAt": "2026-02-20T06:17:00Z",
-      "likes": 60
+      "publishedAt": "2026-11-21T09:25:51Z",
+      "likes": 50
     }
   ]
 }

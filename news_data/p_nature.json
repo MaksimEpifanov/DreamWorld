@@ -1,63 +1,63 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_nature_news_1390306163",
-      "title": "Домашняя конка выбрала дикую жизнь в Хоперском заповеднике под Воронежем",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: МК в Воронеже.",
+      "id": "p_nature_news_1019935608",
+      "title": "Лось попал в объектив фотоловушки в карельском заповеднике - Карелия.Ньюс",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Карелия.Ньюс.",
       "emoji": "🌲",
-      "sourceName": "МК в Воронеже",
-      "sourceUrl": "https://vrn.mk.ru/social/2026/11/19/domashnyaya-konka-vybrala-dikuyu-zhizn-v-khoperskom-zapovednike-pod-voronezhem.html",
+      "sourceName": "Карелия.Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNelJGYzBMTEV2TkFYZUh1SjU2QnFraWt4YXE3c1ptQVB6QU1OTVAybUZGS3ZRMnh0aTA2M2U5YkNiVS1TcEpSSGRnUVFSTWRSWFUzRWM4Z0JzRjZZSXZEVGd3eTlWQWM4TGN0eV8wLVdZeEQ1UVZCMGtTUXN1cTdCY2ExMFJzQ2lGVGhNVFVTMU5mTUhRNWJz?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-18T16:01:00Z",
-      "likes": 33
+      "publishedAt": "2026-11-22T05:37:58Z",
+      "likes": 40
     },
     {
-      "id": "p_nature_news_1290409601",
-      "title": "В заповеднике \"Брянский лес\" отметили 15-летие зубра Мефодия",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер/новости.",
+      "id": "p_nature_news_2420329064",
+      "title": "Как в Воронежской области реализуются ключевые направления нацпроекта «Экологическое благополучие»…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Коммуна.",
       "emoji": "🌲",
-      "sourceName": "Рамблер/новости",
-      "sourceUrl": "https://news.rambler.ru/world/57390900-v-zapovednike-bryanskiy-les-otmetili-15-letie-zubra-mefodiya/",
+      "sourceName": "Коммуна",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUFU1YmZzZUpzdDEzMVdnNWJYUTRmd0UzQnl0R3MtMlJoaVl4Ul9qLUxIeGsydGZFR2VWNXlLTVE1ZEJaM2J5SGRqQmhscFNqOC13MkNlcWRjdnlqYzUzSlozQ3hud05vWnd6TzdFdmQ4bVZGZ1ZEYjN1OENaeWpmQUpNWlFzTzEtQmJqQXJ2YW04NlFSeVZ6OGgweDQzOGJIWm1TY1RfWmhiNEdXWDA2V3g1a3JsaUU3Q0VxNW4wOWtTMnBMTWpGME9HYw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-10T08:30:00Z",
-      "likes": 58
+      "publishedAt": "2026-11-22T03:30:56Z",
+      "likes": 3
     },
     {
-      "id": "p_nature_news_4215955094",
-      "title": "Медведи, волки и ласки в Кавказском заповеднике привыкают к соседству с туристами",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: interfax-russia.",
+      "id": "p_nature_news_2212562166",
+      "title": "В Керженском заповеднике под Нижним Новгородом северный олень сбросил рога - - ГИПОРТ",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: ГИПОРТ.",
       "emoji": "🌲",
-      "sourceName": "interfax-russia",
-      "sourceUrl": "https://www.interfax-russia.ru/index.php/tourism/news/medvedi-volki-i-laski-v-kavkazskom-zapovednike-privykayut-k-sosedstvu-s-turistami",
+      "sourceName": "ГИПОРТ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNVFXZnc2RW5QTDRnREpzMXhwTmpxMkwzNnVjd20yOUN5blk3NEROVEtzQVY1cWJhclZvMWJ2VXdXSl9iWTVPZXZqTzhhTzRDVVZlVTRqVENvc3lkSHVCM3VWV3ZqZjVTUmJDRjk4bXFTTG9aZ1BwOF95b2w4ekJyQzFhdkQydFdxbHR1amJTSG0zQkstZGNsUXoxaXdka2R3TVd2RXNBTjY3UUFM?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-09-09T05:12:00Z",
-      "likes": 60
+      "publishedAt": "2026-11-21T12:00:48Z",
+      "likes": 87
     },
     {
-      "id": "p_nature_news_1124699857",
-      "title": "Уникальные кадры тигрят на рыбалке показал российский заповедник",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Lentaru.",
+      "id": "p_nature_news_3334033230",
+      "title": "Медведь «затуманил» объектив и быстро скрылся в Саяно‑Шушенском заповеднике - Сибирское Агентство Н…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Сибирское Агентство Новостей.",
       "emoji": "🌲",
-      "sourceName": "Lentaru",
-      "sourceUrl": "https://lenta.ru/news/2025/06/17/unikalnye-kadry-tigryat-na-rybalke-pokazal-rossiyskiy-zapovednik/",
+      "sourceName": "Сибирское Агентство Новостей",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTHJ5aUJCUkl5VG5LZEdMaUl4cGRqWVFLNEVzbkpXWFNUaTJxaWdId1BPazAtblRhWWp6UTBONGpEbWRNODlreTRnZW80ZGxUb0hpbUFyRFRqR1I3Tndubnk0ejFmRGZWeURnNWE0TTVtRnREdlZRUlh4Y1dSUDBzMDVad2ZKRHI4dkxqQWpvWG1SbHpKcU1lRXBwSm5vX1paMWVyUERB?oc=5",
       "tag": "Природа",
-      "publishedAt": "2025-06-17T13:30:00Z",
+      "publishedAt": "2026-11-21T11:37:28Z",
       "likes": 18
     },
     {
-      "id": "p_nature_news_3100663430",
-      "title": "Мать-природа: как женщины охраняют заповедники и спасают вымирающие виды животных",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Андрей Мовчан.",
+      "id": "p_nature_news_2640496102",
+      "title": "Стратегия-2050: заповедники России переходят на цифровое управление - Выбор Народа",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Выбор Народа.",
       "emoji": "🌲",
-      "sourceName": "Андрей Мовчан",
-      "sourceUrl": "https://www.forbes.ru/forbes-woman/538655-mat-priroda-kak-zensiny-ohranaut-zapovedniki-i-spasaut-vymirausie-vidy-zivotnyh",
+      "sourceName": "Выбор Народа",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2w0RmU1UVVqcDFMNnhsUG5qWGZGbzl1MVZWZVRZZjR4dUNuckJOTmJVclVhSWpVZGNXS3lTOEJiZ1FSelNvUUZJY184NnpIWXh2SWZhUUpUZFB5VlhiUTA5TDBMd3FKUWZTWmJOUkpCN3ZjbW16aVE4NU8tU1Ztbk1TeXVPbFItZm11Wnk0b1VmV2JpYkNueUFfTXRJSlE4X2IwbFR1eGxEcHRBbnRBQ3dqRnRkWmozYVdj?oc=5",
       "tag": "Природа",
-      "publishedAt": "2025-06-05T03:00:00Z",
-      "likes": 87
+      "publishedAt": "2026-11-21T09:02:44Z",
+      "likes": 92
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
   "source": "bing-rss",
   "mode": "template",
   "news": [
@@ -12,7 +12,7 @@
       "sourceName": "RBC",
       "sourceUrl": "https://www.rbc.ru/society/01/11/2026/6ae31bca2fd1a98b116df377",
       "tag": "Игры",
-      "publishedAt": "2026-11-01T03:20:00Z",
+      "publishedAt": "2026-10-31T18:19:00Z",
       "likes": 77
     },
     {

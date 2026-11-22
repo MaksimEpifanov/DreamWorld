@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-21T15:32:43.862254Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_2267156250",
-      "title": "новости: \"Василевский и «Тампа-Бэй» оборвали 23-матчевую серию Макдэвида\" -",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: NHL.RU.",
+      "id": "p_sports_news_3256180193",
+      "title": "Александр Овечкин поздравил московское «Динамо» с 80-летием клуба - Newsroom24",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Newsroom24.",
       "emoji": "⚽",
-      "sourceName": "NHL.RU",
-      "sourceUrl": "https://nhl.ru/news/show/172156.html",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PU3U2aWU2N1dKVzJ5QTBYSjVPaDE1Z1QweGtYVXRaaFF5MUtGcDFseV9hc0pRcGtudjNGTVJYZ2h0dnZUYW5pT2JhZm5wVWYxMk0tbHBGcm9sTmFPNzZhRWtpU1VZX2M4?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-20T16:00:00Z",
-      "likes": 21
+      "publishedAt": "2026-11-22T08:04:34Z",
+      "likes": 17
     },
     {
-      "id": "p_sports_news_4047528037",
-      "title": "Шайба Кучерова помогла «Тампе» обыграть «Эдмонтон» в НХЛ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Газета.Ru.",
+      "id": "p_sports_news_1284146996",
+      "title": "Элиас Линдхольм сделал покер и стал первой звездой матча НХЛ - https://m.nashhockey.ru/",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://m.nashhockey.ru/.",
       "emoji": "⚽",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/sport/news/2026/11/20/29789779.shtml",
+      "sourceName": "https://m.nashhockey.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zUDN2TDRhVEFrc3MwTHNJVnpuWXp2c3kyb2x0WDU0VXRlaHJ6YVpBb0dEUHlVVFB6bHNjRTZpdjVQc05LblJuZlg1LVl4QQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-20T01:51:00Z",
-      "likes": 50
+      "publishedAt": "2026-11-22T08:02:46Z",
+      "likes": 69
     },
     {
-      "id": "p_sports_news_4003987701",
-      "title": "Передача Малкина не помогла «Питтсбургу» избежать поражения в матче НХЛ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Газета.Ru.",
+      "id": "p_sports_news_3570305555",
+      "title": "Александр Овечкин поздравил хоккейный клуб «Динамо» с 80‑летием - Матч ТВ",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
       "emoji": "⚽",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/sport/news/2026/11/20/29789491.shtml",
+      "sourceName": "Матч ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMm05M3pBTkZtbTdZc3NUbnJaTV95YjlnZF84b0VfM0Qyc3V1aTNRYWxadVpPZG9LVHoyY3ZkUXYxTE1ibVpZWDZkOTBINUhSMzhGYURGRnBkZGZXREpSbnhhV3RiS1NtT2F4ekVvQXlIYjdSWTRmWUZlVU5iZHk3a1YyelBrZ1g3M1VSNFpDU0Noci1oMnR1bGNPaE83Tk1GenFFOXJZMGVWM2pPdkF0MA?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-20T00:59:00Z",
-      "likes": 92
+      "publishedAt": "2026-11-22T07:56:40Z",
+      "likes": 61
     },
     {
-      "id": "p_sports_news_3791753294",
-      "title": "Овечкин стал рекордсменом «Вашингтона» по числу голевых передач в НХЛ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Новости Mail.ru.",
+      "id": "p_sports_news_2255466012",
+      "title": "Капризов повторил рекорд «Миннесоты» по продолжительности результативной серии в НХЛ - Gorobzor",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Gorobzor.",
       "emoji": "⚽",
-      "sourceName": "Новости Mail.ru",
-      "sourceUrl": "https://news.mail.ru/society/73170612/",
+      "sourceName": "Gorobzor",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUnRtQmVadU9jUnYzSlpYZjlKUGRxcUEzY181RzQ3c0FxakI0dHgtXzBTYm4yZmgxdzJ1S2M4V2lPclpSdTB2eHhYU244T0VrOThPaVV5dDEzbmNXLVlhZ3MwY09Uc21WMk1TMU54MW1PRDdBV29FcElOTUNTZWtPd0t0dlRSRXBVaWxLNXplMy1sTk84QW5rVkpRVi1jS0dPbnRiODl1bEZITElsSllVemV3MjI4dDRHT2szQTdjeHhRU2pFNzV1cTlB0gHPAUFVX3lxTE5vRDY1aWZWcmkzME03eklqc05lMnZ0LU0zLWhnYURPcWprb0pNU2tDX2hQV2Rscnp1WUd0SFRNblc4bTByamlwdDQtUEk4dlEteGZhdmR3Q0pVRFVwUkNubHJUZGFtLXJWaEJnUUd4dU1EdlF2YlZ2bWx4MTNYT0hVcFBjZWcwMlJFazlobjRNdTlDdkpFNWV3UjhScDNqZHF5YWsyaFhiRGdtd1VnNkZNM1ExV2NublVEZlM5N0VGd2NzZ0lmcF9ROUZadWVLYw?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-19T23:19:00Z",
-      "likes": 75
+      "publishedAt": "2026-11-22T07:52:32Z",
+      "likes": 67
     },
     {
-      "id": "p_sports_news_1492425747",
-      "title": "Овечкин стал лучшим ассистентом в истории \"Вашингтон Кэпиталз\" в НХЛ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Вести.Ru.",
+      "id": "p_sports_news_4119033823",
+      "title": "НХЛ. Сент-Луис забросил 9 шайб в ворота Нью-Джерси, победы Каролины, Флориды, Нэшвилла и Вегаса - S…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sportarena.ua.",
       "emoji": "⚽",
-      "sourceName": "Вести.Ru",
-      "sourceUrl": "https://www.vesti.ru/ns/ovechkin-stal-luchshim-assistentom-v-istorii-vashington-kehpitalz-v-nkhl",
+      "sourceName": "Sportarena.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSTZqRVRTMk5DT3Y1TGpoTXpYWWl3WXRKY0xxRnNzN1JfS0pJZFpJOXd4Tm5wSjVSUlNVcml1WnR4Z0ZkRVlBMEk1TG1sU2JHZWpVUlRMQk1LalJDYWpKVDhYWkIxMGdCY2Vtel9MWktfLUVXTkNRRURoYkRuNm9hR004d0w5N3NTaUtjOHFn?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-19T22:21:00Z",
-      "likes": 74
+      "publishedAt": "2026-11-22T07:33:12Z",
+      "likes": 91
     }
   ]
 }

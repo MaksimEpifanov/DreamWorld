@@ -1,9 +1,53 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_fishing_news_1256725143",
+      "title": "Рыбакам ограничили вылов в четырех областях: за какую рыбу штрафуют - Новини.Live",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новини.Live.",
+      "emoji": "🎣",
+      "sourceName": "Новини.Live",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUEp2UnU3RmtKd1RfY0tWQkYyWEJnRlJuT3FRTnVVdndTTUludlFJYU5LSFYweklZS0ZsUUItb1NyN0RyVWxGZnNqVjVlNnpuZ3JzenA0SWM1Nk5CSlZBLW56eXhVZFRrbG5JNFVGcXh5STVWdEZETEdCUWRxSUpYY3k3WkduUHNfd0g1akVQaHhkRGhSX3JSRUtRQ2FncUN5bUt0SFVaLVppVEJ5bmlPMFljakoycTF30gG-AUFVX3lxTE9DRS1CMVlqOFVPNHBIQXpmNEtfaHNLckg4WFhWRnhsVEtEMmYtNlVieFdrcnloXzhoaXE0Z2hNT2JaVHJTN1Zqbkg4a1Z4cHlZZGpxaEZFdVUzVHRBVU5sSG9peWs4UktXNTRiSkE1S3JuUlVUT3VRdDJGZzRXai0xQjBLUTA5aTd5VnRia2tQQ2RUWjhwN0NBVnhtY2FJVTBvdzIwSEU2SHV3VlJCOUdyb3ROWEVTSmFPYnY5UHc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-21T16:30:57Z",
+      "likes": 84
+    },
+    {
+      "id": "p_fishing_news_2182413831",
+      "title": "Осенний нерест под охраной: рыболовам напоминают о запрете на вылов сига и ряпушки - Горецкие Новос…",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Горецкие Новости.",
+      "emoji": "🎣",
+      "sourceName": "Горецкие Новости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZnFtOTdUTm01UTZuYVNmT1BCYVA2V1BJZGxid2xpbXhTWGdNNzF0MGk0RU9GNjlQTWZlbWQyZ2ZMV2xMTDNERWFwRVhhV1B6czFNSDNUU3hxSUF5ZFl5d3VhQmVQc05od2luYk1lRWk4TjFqX2ptd3FiMmhCOVdsU2lVRnE2Sl9iU3c3TzQ5MU1uVXpxZ0YxWHlDa3VHTTVmZDU1LUJR?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-21T14:04:54Z",
+      "likes": 42
+    },
+    {
+      "id": "p_fishing_news_2492269989",
+      "title": "Привлекательность залива Аранчи: департамент, специализирующийся исключительно на рыболовстве. - L'…",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: L'Unione Sarda.",
+      "emoji": "🎣",
+      "sourceName": "L'Unione Sarda",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gVBVV95cUxOUHE5enM5c0dTeXgxbHQwYm5DY1ZJYnBJaHpkR1pySHpRb251Q2pFLU9mMC1NeVJ6VGJHRGUwam81M3hIa2JUbmZWX3dEOE4takZHLUhDeFhUMmtreFgwZjBiYVlYMEwxZm1nbFIzVGhQa296ODRVTEY2T2JlR0xiSlZKS1ZnMkZSNWRQTDhvMHhNWXB3OXo2aGVBOWxIM3FHSGdpelRqMUhkNDMzM3ZiSGF6Wjh5WUE4QTFyV0VKVTV6OVp5cHBtOEdUU3lCNk1la29RQmJ6b2dsc1Jvd3Fuc0xGUmRwZk41THpOOEZ4am40U2tDQVRVQ1U0THIxQXZxQUhjTU15VHRrbmV1d1pFTTAyVGVpNktiSGJGbnFTZGJ0UmxSZURoZ3Nxc25Sbm81UnQ2TUg5SUV6MS10M0czUVRYd0RSUFVUU1ZfOEZMazl1cHpCUTFHQmdyaEZ5Z2VBbDlMTXozT3dVbDd1ZWdfRElsWXk0UXFxVU9ST0dtazFMV29rTk5WOE54QmszZEtHUVVreW44T0JaZmhrZm9xSW5Kd1NuUVBlOG9BbzM4N2Rxdk1ub3hHcW5ueTNtWU1FTHQ2SGdlX2IwYzJDcWlWM25rTVJXMmpOTkxQOEV2bXBzZ0JWMEtLMHdPRGFxb2tic2tBVFJ3T200b2ZZYTlwVjM1ZkhyUjJxTGhwQ2M5VmVCc1c2WjFBRVlTTUNiQ2Z0V01Cb3lEWnlGNnMwWlVSM0pHNngwTEJ3bzFsSU9IN3RVUnFCRUhRUkJnVVNmbkg3UnlDVXp6RUhZZWxBVmRRaUVyU0hUcTBzMC1BdmRJUm5mTEkzX0o4MDdHXzVvejBWVmZaZzM4a0Z5RDM3eXBfSFlIT1RWYkNOUHJUV2hQdXFFaTNpTnZaUzRPdlR3U20zRGo5czRkc2R4Tjh3alprd2FPVV9hZi14QjY3UTdscVVGYlN3dDhSTWEwLXBob2h6Q2E2T1lUQk9iNlB2a2dJbDB1OGd1cE1uanfSAYIGQVVfeXFMTVlrWXdXYThCZ2xuaGsxU2tPbm1WazJCaGxLRVJwM2ZXVkVQeGQybWFNTU9ZLWY2ZjR5N09aYW5KTmJSM1VnMDFVS0V0TGhJSmZTdWRCQTdvTzEzMWVTUkpGLVFiYWt6ZmRiNlJPeDExT1h5UkNBRVB2YkZIdUJDX2VfakM0TTQ1TU5QNGNiVEJRRHB1RUc5LWZuNzZ2SjdrZmtCUG9nN3diTjJ1ZVNwVG5tdEdJUU9YSmJCajRINmI2YTZpVHRkNnNQYjZCQ0ZZZWNJVTNDNF9iaVlvRUxGRExCNW9Xb05MZ1plcEtMcWx0TWxmemNGQnRJcDdEaUx4VVVGdnl4NWdzVzJ1c2w1TUNEV3hfRmFtQXJJc05tb0s4OWFUTHVYc1Rmekp6V09WLUV2a0xscnY3VzZpVHVqLU9ETS16aDZ5bU1vSXVKUm5aQ0tBTy02ZkxYemtuTkJ6MEE2dms2NVlKWlZxbEJNaUNFQlFkZy1XX3djbDhtX0I3S29xM1QxcUFKMVJySzFQLXhWMnFOM28tVzJpN0UxOFlNUkdtU0FOell6ZkRHeHN5QWFwclY4aFItLVRRYW4yWlZvcjIxaG9wWGtERE5IX1c1ano5VTlKWXRJb0EzVzZSaEpkTGdGenJuZTRKRFZMNWhtUE1JbFZNSkZDY1A1cWlPeXdNVi02bnlqY1RtTG80UHNLWDlELUdxYms5c0tvVF9zVkxOVXZSc3N6R0RnUkFxamk3a0F3czYzWjc0YTZJNmkyVVJyOW5kU2w2SFJfdmtZUGdoWG9mUXBQd2ttQVpDOXptNm9iY294OEtqb2lERmdndm9hNFBxTXk3UnM1YmhXdUF4LXpFWnBEdjZDSGlGb2F5TjI0aFRMRkRqZ21xN3MxekhLczFWb1F4Y216blB4a0NkWnZVbGQxd05NVkdhcjZ0OWtvRUhSNHFfa2lrcDVWMy1Ud3hOZWNqd3BIS2czX2R2dlMyRUl1UXN1TXloRWQ5RVZwMHNJRXBYRTdCOGc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-21T10:10:11Z",
+      "likes": 48
+    },
+    {
+      "id": "p_fishing_news_158121159",
+      "title": "Рыбакам разрешили сети, но лимиты оставили - 24.kz",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: 24.kz.",
+      "emoji": "🎣",
+      "sourceName": "24.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUENnRnF2M0hkZ2tfYWl4UEZkM1BPQWZpeW4xbUJvQndEZGhxWWRwek5mYzBsTjktOW1HbnItUWFHNkF3ZXA3OGx6NnpnbllMaUl3Z2lCLVctLVhzNENjNVh2cFBlYWpVOU1ZOHdKcVZRQlFFZmFXX2ZmMEZmdzlVcktHWnRuU0FlZTRkRjdDSFFtbFlrQWF0b1Rn0gGfAUFVX3lxTFBuZzFQbTFJU19CNnFoNldZWWt1RTEyTEhBOHBKREJEU29OblhJX1lVWUoycV9XeDBsdU1UTVpQZDFIUFd0QVpmOS00Uk1zeWdiR05GV1NJa3lQTnREVmJfOEl5QW0wRTNPbWZGaUJFa0tjMkhFZVJERmtNOWF5d3NPdWRscnJWQ2xPT1ZYMDBEUkc4ZnRKUy1ycU45V1duQQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-21T09:15:34Z",
+      "likes": 39
+    },
     {
       "id": "p_fishing_news_2857271182",
       "title": "Рыбакам рассказали, кого и на что ловить на первом льду",
@@ -14,28 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-20T04:04:00Z",
       "likes": 69
-    },
-    {
-      "id": "p_fishing_news_1926519892",
-      "title": "Бесплатная рыбалка в Подмосковье: 22 секретных места, где рыба клюет всегда",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: REGIONS.RU.",
-      "emoji": "🎣",
-      "sourceName": "REGIONS.RU",
-      "sourceUrl": "https://regions.ru/obschestvo/besplatnaja-rybalka-v-podmoskove-22-sekretnyh-mesta-gde-ryba-kljuet-vsegda",
-      "tag": "Природа",
-      "publishedAt": "2026-11-16T05:14:00Z",
-      "likes": 84
-    },
-    {
-      "id": "p_fishing_news_3861066155",
-      "title": "На глубине. Рыбалка в ноябре 2026: где ловить щуку, окуня и судака",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: oren.aif.",
-      "emoji": "🎣",
-      "sourceName": "oren.aif",
-      "sourceUrl": "https://oren.aif.ru/society/na-glubine-rybalka-v-noyabre-2026-gde-lovit-shchuku-okunya-i-sudaka",
-      "tag": "Природа",
-      "publishedAt": "2026-11-05T10:08:00Z",
-      "likes": 63
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_4238129529",
-      "title": "Золотое кольцо празднует день рождения. Какой маршрут выбрать для спокойного отдыха на уикенд",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 360.",
+      "id": "p_travel_news_1736220890",
+      "title": "Гид с ИИ и новые маршруты. Как молодежные инициативы привлекают туристов в Брестскую область - Ново…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Новости Беларуси | БелТА.",
       "emoji": "✈️",
-      "sourceName": "360",
-      "sourceUrl": "https://360.ru/tekst/puteshestviya/zolotoe-koltso/",
+      "sourceName": "Новости Беларуси | БелТА",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV2FZcEtHYk1DdWZvMmVNMkNFdmJSR0RoOHpwVm53VXdtTVkzYkV0SFJRd0NBRE5SRFVxUkl0aU1MT1hVVjMtOEtFUS1pZHRfMVMyYjRPckpGMm1FdWZkYndkOUNIRGx3NUJaLVdNaFI1ZjFYRndOdVZxWXE1cFg3cXdSRWp2VE9qNHlTM1l2dTVDaENFMDlvcEE1NzMwWjduZ2NtR1M3bHZQNXJobGtTcDNFd0x3NzFPTmJvZ2JfRG1RNGpwTWZJc20xOE9BMGFyaXd1QQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-20T21:00:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-22T07:32:45Z",
+      "likes": 68
     },
     {
-      "id": "p_travel_news_4235451870",
-      "title": "Курорт «Абрау-Дюрсо» представил туристический маршрут «Южное наследие Романовых»",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: rst.",
+      "id": "p_travel_news_3116225443",
+      "title": "Ленобласть представила турмаршруты гостям из Вьетнама, Индии и Китая - Национальные проекты России",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
       "emoji": "✈️",
-      "sourceName": "rst",
-      "sourceUrl": "https://rst.ru/novosti/novosti-kompanii/kurort-abrau-dyurso-predstavil-turisticheskij-marshrut-yuzhnoe-nasledie-romanovyh/",
+      "sourceName": "Национальные проекты России",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX25QNHBxakdLNDZQeWEyaUN1R0poWUp6dXUtWVR6V2tVUGxEeVk3TFZNXzhxVUJ5aE50bG5raElrSXRmTllZbkplcTNRMnl0MG9qamdPajZWelJSaV9wMF9FR1VRMWdHR3loZzQweFlSRTd4d1pXZGtjVGJMeHZsVjNhdmpBV0RnTzVWWlE2YWJVV3RVMFBxUzdBXy0tMl9Xb0VTUHhIQTRtM01xY29XMXRDaXJIZHowYXp1cw?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-20T05:45:00Z",
-      "likes": 10
+      "publishedAt": "2026-11-22T07:22:50Z",
+      "likes": 82
     },
     {
-      "id": "p_travel_news_352780337",
-      "title": "Новый туристический поезд РЖД «Балтийское кольцо» с 27 ноября: маршрут, цены и билеты",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: SecurityLab.ru.",
+      "id": "p_travel_news_653831442",
+      "title": "Тульские места Толстого объединят в большой маршрут по Центральной России - | ИА “Тульская Пресса”",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: | ИА “Тульская Пресса”.",
       "emoji": "✈️",
-      "sourceName": "SecurityLab.ru",
-      "sourceUrl": "https://www.securitylab.ru/blog/personal/Faraway/363675.php",
+      "sourceName": "| ИА “Тульская Пресса”",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTm9ZTjE3QnRrZExBWnYxeDc1TTFKYnpVdlFlVThfU0lZT1pBUm1aU2ZJQlk3ZXBUa0ludk5vV215TkxiSVZKZ0pwWWZ4RldsQmZTbTcxVHJjeVh5VWhOWnNURDBESm1Sc3d5OUwtSG1NaE51ODFJaWFsS3FkMGhkQ2RRaXdNUElpeE5uOEpzOEZlRC1jRDN5cndONkhKQ2lLT1c0WHBR0gGrAUFVX3lxTFA2LTI5cFhZVDNUTGNhNVM2anRuVThVYTZxaVdGX1VPMGp1U2hCSDVNUFZrak5rRjFBVXBUamQteFZOT1Z4dzVpaDlYUFRiaHkxSjBOU0plc296WS1HTFhhOVczbnhwM3JDVGNuYWUwN09GSzRjSzl6bnF5RkNYS2U1OG9URXhJQTFsSDlBZDRBU3lra3h4Qmxfb1VjbS1VNDlMTEZFU3JYRmJ4TQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-19T03:38:00Z",
-      "likes": 48
+      "publishedAt": "2026-11-22T07:21:10Z",
+      "likes": 12
     },
     {
-      "id": "p_travel_news_2655408557",
-      "title": "Путешествия будущего: почему популярные города “закрываются” от туристов?",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Smartpress.by.",
+      "id": "p_travel_news_2712646433",
+      "title": "Предприятия туристической отрасли запускают новые стратегии для привлечения клиентов в пиковый сезо…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
       "emoji": "✈️",
-      "sourceName": "Smartpress.by",
-      "sourceUrl": "https://smartpress.by/news/puteshestviya-budushchego-pochemu-populyarnye-goroda-zakryvayutsya-ot-turistov/",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdF9LeFhVNjNNdlFUREpGS0RNYm1ZLUlmQ25VOUktbHhtaERsN0p3bzZPWDRXeU5EYVZlTjc5cVB5YnZnelpTNDFnX1VBUjdacS1JWXhVUkJ3N2ppTEJTLVB0OTZvWWNkSU03RGhwV0xZRFJVWFEzRzQ4d3E5T2cwUGxYbTMyb3hmTVRiZ3A0WFNEaGl1aW9ZNQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-18T09:17:00Z",
-      "likes": 78
+      "publishedAt": "2026-11-22T05:54:10Z",
+      "likes": 92
     },
     {
-      "id": "p_travel_news_1515773239",
-      "title": "Брест, Пинск и Барановичи объединит новый туристический маршрут «Золотое кольцо Брестчины»",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: pinskmedia.",
+      "id": "p_travel_news_1614348223",
+      "title": "Пора на море! Куда улететь отдыхать напрямую из Екатеринбурга и сколько это стоит - Е1.ру",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Е1.ру.",
       "emoji": "✈️",
-      "sourceName": "pinskmedia",
-      "sourceUrl": "https://pinskmedia.by/zolotoe-koltso-brestchiny/",
+      "sourceName": "Е1.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jT2xQUVBfRE9xZUZQRHhzWVlrN3dZX3A2dXdBX18xQVJ5R281WWZ5dnpxcjA1SFlHU1U2a05uNm5qc1YxYjdOYUhXdllGV0FHZ2VRQURiNGRWa29GM2c?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-17T23:32:00Z",
-      "likes": 53
+      "publishedAt": "2026-11-22T05:30:09Z",
+      "likes": 46
     }
   ]
 }

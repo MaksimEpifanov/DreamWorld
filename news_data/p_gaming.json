@@ -1,41 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-21T15:32:43.862254Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_1975996133",
-      "title": "Игра GTA VI установила исторический рекорд в первый день продаж",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Вести.Ru.",
+      "id": "p_gaming_news_4003591304",
+      "title": "Релиз GTA 6 почти не сказался на онлайне Steam и Roblox: пиковый онлайн просел лишь на сотни тысяч…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
       "emoji": "🎮",
-      "sourceName": "Вести.Ru",
-      "sourceUrl": "https://www.vesti.ru/ns/igra-gta-vi-ustanovila-istoricheskij-rekord-v-pervyj-den-prodazh",
+      "sourceName": "GoHa.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLVBQOV9lS3ZQWWxRVmNiVDFXc3hlblItc0tDVXBrYjJreVFZRzRxOEVvYnBtSWVxUzQwNThUT2F5ZmxGcFhoSkltMXRGb0Q0WTBDS3lxa2xIX3AzeVFRU0JnM295eHhjWXdLbDlhU1pPTWlscmc0bGxkYUR3WXlXOVl2U3Y5UF92eWRWbDU4MWlHT1BLOG9aMmpDTVUtSHB5UU5sVUZ0SGlZaVdkNV93cjAyRzVNU2h5WHF4R05pbmZ2Z08tenJ3?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-20T16:36:00Z",
-      "likes": 18
+      "publishedAt": "2026-11-22T08:20:41Z",
+      "likes": 65
     },
     {
-      "id": "p_gaming_news_299484346",
-      "title": "«Кинопоиск | Игры» переезжает на Игромир. Что это значит?",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Кинопоиск.",
+      "id": "p_gaming_news_152953892",
+      "title": "Орлов разнёс игру Дивеева в провальном матче «Зенита» - Евро-Футбол",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Евро-Футбол.",
       "emoji": "🎮",
-      "sourceName": "Кинопоиск",
-      "sourceUrl": "https://www.kinopoisk.ru/media/news/4013722/",
+      "sourceName": "Евро-Футбол",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM1JQcGN6c3BGWXowLVNpSm9CenBJMnZ4WFlHZTAxOTdiay01TWhvOE5xYzBpSU5rZzFBQ2V5ZTkxbVk0RWxGa2FTTGdfTW02aGRRd2tIRlh1TE5acmtCQm5JUnFLUjB6Y0VLRlhOZ2xocDNtLWpvZ3ZJQ2FMcmdrYUVnQUtkWERndVN3cmdoeFhCUmpiVzN4R1hKMkpzeVVHRFA3aQ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-18T17:19:00Z",
-      "likes": 72
+      "publishedAt": "2026-11-22T08:13:04Z",
+      "likes": 89
     },
     {
-      "id": "p_gaming_news_254678773",
-      "title": "Ultima и другие классические игры EA получили переиздание для современных систем",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Ferra Ru.",
+      "id": "p_gaming_news_882807720",
+      "title": "ИИ оставит геймеров без доступной памяти? Samsung уже получила заказы на годы вперёд - iXBT.games",
+      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
       "emoji": "🎮",
-      "sourceName": "Ferra Ru",
-      "sourceUrl": "https://www.ferra.ru/news/games/ultima-i-drugie-klassicheskie-igry-ea-poluchili-pereizdanie-dlya-sovremennykh-sistem-06-11-2026.htm",
+      "sourceName": "iXBT.games",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORnNKVXZCcl9ad1hZc1VqZ3JGNTZRX0Y2a2YyUlU1NU9XSkR6ODVGOXdnbzNPNTlodzlCMzBhV196WEpQbzBFQ0Y3QkJrVnlKWmhBa05hckw2NEZ0Y2xXbnBuVWdrTlJ5RlVXWDJXZHlIT0F2YTZqQXVxb2Uyck45Um05R1dsTEtWN0FWQmVDR0RRdHpvT2ctbE1jSVV5TFN2Vk1aS1ZfSlhXTEVwcWZSRVBLMDlqVjBFNmx1LTZUa2lLZ9IBxwFBVV95cUxQNUdfRW1mUTJwd2FoWHJqT3R4UVdFbHlRcElhaVBMQXFiazgyUDZpR0x2SlNETExEcFBmUkkxVUJ2c3FSd0dLY0tCZnVpX0FRRVVjOEw4SV96bkFmYnFFQnZDOTVzckI1Z3k4OVFwMFowVVAxR0NNODljRllqeklfNmVQSHBJZVF4dWZvY3VjbWdFOXVVVmF3VmhuNWxrZWlUZnRDN1VWUVNGTkJydzRUZVVmejN2d0JxUVp1SGFZb0ZBaGZQdHlJ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-07T06:01:00Z",
-      "likes": 5
+      "publishedAt": "2026-11-22T08:13:00Z",
+      "likes": 14
+    },
+    {
+      "id": "p_gaming_news_3076379544",
+      "title": "Русская речь в Леониде: героиня GTA 6 заговорила голосом чемпионки по фитнесу - CyberMeta",
+      "summary": "Кооп, рейды и вечерние катки. Источник: CyberMeta.",
+      "emoji": "🎮",
+      "sourceName": "CyberMeta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEVZUlByVERCWV9vQ3Nya1ZWUk1HNmhjSEtGbmtjcFBNX1U2M1pBcVZDSlZjRm9SM2JWSkNkcjhuSkhCWXo2Wm90WW05cWZ0cTFNUGp6LXN6aWZoVHZTSnQ4UmhxbkhYM3A0dHJ4cjUyeHlySDFmZzZ0MjRNOHRoTlpRRGpJMHZScjZGZVVEQVFwbnZq?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:10:08Z",
+      "likes": 83
+    },
+    {
+      "id": "p_gaming_news_3509035594",
+      "title": "Парализованный геймер сыграл в GTA 6 силой мысли благодаря Neuralink — видео - GoHa.Ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "emoji": "🎮",
+      "sourceName": "GoHa.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDF0ZDF3bTg2UnNPLUNvdVdQMG5BRlJCME5nd1pwbkVkNU5qWkZuTm5hSnVHREVFR045M2VJTkJueWl5aEF4NDE1WEV1Z2NGeHdZeHVmWUpiZERsWV9ONWJCX2E0TnpyWjdLd05sTDF0VS1sdGxqdDl3Zk0wcE52T0dhQmo2MVlrMF9jZ2tCN3JlZFdUeEtZWXdsREozX2ZNMWJlMw?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:05:40Z",
+      "likes": 85
     }
   ]
 }

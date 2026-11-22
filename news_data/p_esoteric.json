@@ -1,63 +1,63 @@
 {
   "planetId": "p_esoteric",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_esoteric_news_3807979289",
-      "title": "Первый успех еще не финал: прогноз Таро на 17 ноября обозначил важные ориентиры для каждого знака",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Правда.Ру.",
+      "id": "p_esoteric_news_2966158680",
+      "title": "Гороскоп Таро на 22 ноября: Стрельцы решатся на новое, а Близнецы выйдут за привычные рамки - Meta.…",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
       "emoji": "🔮",
-      "sourceName": "Правда.Ру",
-      "sourceUrl": "https://www.pravda.ru/news/horoscope/2444033-tarot-horoscope-november/",
+      "sourceName": "Meta.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkxHd2VvZG5DNGdxMVRjUlNvRDE4Q00tam1FR295YVZvUmJ4VFlITHRDS2duSG5QaVhpV1NJOVZVdTJXbEpBb0VMbHJkQlRsQ2I0NG5zR2F4c3k5T1dza3IxZU5rX2dncG1ldGgwNEt1eU92bnBQUDBrVC16RElsZ0lXSFlUajdiWXFvX2NUMUZndjhJMVlleUdZWGx4ZUN0SnlrT0N2c0pvTGVKWjRQTWtJalVLb0dUbWNTZnFYTFJjbGJoYXF4M1lpSGw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-16T09:10:00Z",
-      "likes": 27
+      "publishedAt": "2026-11-22T08:25:00Z",
+      "likes": 16
     },
     {
-      "id": "p_esoteric_news_903411793",
-      "title": "Гороскоп Таро на сегодня 13 ноября: Овнам - финансовый прорыв, Львам - перемены",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Главред.",
+      "id": "p_esoteric_news_1804813613",
+      "title": "Расклад Таро на 22 ноября 2026 года для каждого знака зодиака - Балаково 24",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Балаково 24.",
       "emoji": "🔮",
-      "sourceName": "Главред",
-      "sourceUrl": "https://horoscope.glavred.info/goroskop-taro-na-zavtra-13-noyabrya-ovnam-finansovyy-proryv-lvam-peremeny-10811432.html",
+      "sourceName": "Балаково 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXlOTTNxTXJiMGFxdDZsSXhPZVVwQVA3R25hMkJGRWtMODhtQmwtUjNDRHpPU0VFN2haZkJKV1MzUDFUOGFBWEl6YjZ4eE5LUmdtbkp2NHd5Rm5wMm1DTUhRZzdPN0ZMTkhuUGJERnc2cGhaZWtwSHZqQjBuOThZSld6R09jWGltNExoSWdfVFc?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-12T09:00:00Z",
-      "likes": 13
+      "publishedAt": "2026-11-22T07:38:20Z",
+      "likes": 65
     },
     {
-      "id": "p_esoteric_news_1718624253",
-      "title": "«Литрес» и RuStore: интерес к книгам по Таро и астрологии снижается, а популярность ИИ-приложений .…",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: cnews.ru.",
+      "id": "p_esoteric_news_3895934450",
+      "title": "Гороскоп на 22 ноября по картам Таро: Водолеям - проявить внимательность, Весам - новая роль - УНИАН",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: УНИАН.",
       "emoji": "🔮",
-      "sourceName": "cnews.ru",
-      "sourceUrl": "https://www.cnews.ru/news/line/2026-08-14_litres_i_rustore_interes_k",
+      "sourceName": "УНИАН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSzFSSzZHdG0xZTU5SklyWWE1OEJUNG9OQXQ5UHNMeERBSUVGTTR6T0YyN1BOQTJqV3BQRmVyNE1MV0NfYkp0Y05uWlFSLS1Wd1MxX0FITk96SlFEWEpoV1BXWFlzLXBoekxrZW8tdC0tX2xjcFF6Q2ptSFhISXV2cGdUb3dnOTFZNG95aU5GV2R3YWJQVGxfUHFGd0I5b2RTY3VBLWljUnUtZmRCalpnLWdmSHZ2ZUlVbTRXcEhn0gHDAUFVX3lxTE4wVk4wUWNLWVQ5WnBNZEg0XzVTdTVSeEZRLXhQMTFVMUZJVjNXU2pycVlHYXRCbUpyMXpZWXliSHcwVXNpZjhjLVRkeWx6SHRCc2xLMzZpalBFZFlhSlJHem5FdGo2aFRLcGlzWl9ZZkdtTUF1VjVzNzBST01FZE1td2VVUFB6cnluUW5QM3I1WkZsRXN5aGFBQ2ppR0JSTjUwZTg1WTRpQ1FGTDdINHBFTjVtMUVLUW1CbDBOdkROVEF2aw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-08-14T08:35:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-22T06:20:00Z",
+      "likes": 3
     },
     {
-      "id": "p_esoteric_news_568529116",
-      "title": "Астрология и таро: как звезды и карты создают вашу судьбу",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Клерк.Ру.",
+      "id": "p_esoteric_news_4014189510",
+      "title": "Гороскоп на воскресенье 22 ноября 2026 для всех знаков Зодиака - Cursorinfo",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Cursorinfo.",
       "emoji": "🔮",
-      "sourceName": "Клерк.Ру",
-      "sourceUrl": "https://www.klerk.ru/user/2637241/676640/",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcEdkdk5CTlM3c0dNOTloNEpfcmpsU21xcVZ6VnFqRlFvaEpjS1NEMmc5MnJyNlRHU2VNclFhcWJmSHRkVlM2OGtWc2gxUUM1MHRuMVZyYS1XMjloMG5TRndCSG11NGN0WVk2dFhPOXBuZThYOERQRTdTeWZ4d1k4SldTeU5nZzkxNlBBTnNPOFdCbkU3VVJfOE82Ung5X21COEd6N3Q5ONIBpwFBVV95cUxOcEdkdk5CTlM3c0dNOTloNEpfcmpsU21xcVZ6VnFqRlFvaEpjS1NEMmc5MnJyNlRHU2VNclFhcWJmSHRkVlM2OGtWc2gxUUM1MHRuMVZyYS1XMjloMG5TRndCSG11NGN0WVk2dFhPOXBuZThYOERQRTdTeWZ4d1k4SldTeU5nZzkxNlBBTnNPOFdCbkU3VVJfOE82Ung5X21COEd6N3Q5OA?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-01-25T00:42:00Z",
-      "likes": 57
+      "publishedAt": "2026-11-22T05:01:25Z",
+      "likes": 3
     },
     {
-      "id": "p_esoteric_news_4039324103",
-      "title": "К тарологу или все же к астрологу: как связаны эти практики и в чем отличие",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: 5-tv.",
+      "id": "p_esoteric_news_735017562",
+      "title": "Год красной Козы: твой классный гороскоп на новый 2027 - prospect.com.ru",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: prospect.com.ru.",
       "emoji": "🔮",
-      "sourceName": "5-tv",
-      "sourceUrl": "https://www.5-tv.ru/tabloid/5028804/taro-protiv-astrologii/",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVlZQVHBRT2twaVY3REI5V2taU1dONjhaOEZQb1BCZ2IyT1lXakdrYlZCSE8wNFdtVlUzRWJOc1BlMzBVUTZERzUxZURHQ2IzRGlBRmpXb0xWblQzZmdvSTYwMXFqWGdVLVgtdVVBUUpKaGNUazFucXZhOXRTdzFaQ0VwWnVSOGMxeGF1ck44SjdreC1vMTZRS3Vscw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2025-08-25T02:11:00Z",
-      "likes": 23
+      "publishedAt": "2026-11-22T04:10:53Z",
+      "likes": 42
     }
   ]
 }

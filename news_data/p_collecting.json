@@ -1,63 +1,63 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-21T15:32:43.862254Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_collecting_news_2112636760",
-      "title": "Советская живопись: картины СССР, история и коллекционирование",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: БИЗНЕС Online.",
+      "id": "p_collecting_news_980404043",
+      "title": "Ваза за 55 тысяч, а конфетница — дешевле карамельки: какой советский хрусталь ищут коллекционеры -…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Day.ru.",
       "emoji": "🧩",
-      "sourceName": "БИЗНЕС Online",
-      "sourceUrl": "https://www.business-gazeta.ru/article/716336",
+      "sourceName": "Day.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSFhuTlQtYkJVNFdvQmVRWHBtSDVDYjJqdVQ1Mkttd1RCMHk0THZHaVZwcjYyNzlPUjFHcHpmZmdLNmxfa3JZdUNFSngxNzRlSTJxVzVHUzJVdEN1SU4zR1pVdS1xQW5Gak85VHV1WUJFRmRqZURZT3RSTlotcFhUOUhWT05FUEtxQjlOajVWYUptZEp2V2ZUa0dDV2c4Q0ZWenRSVGpWZWlNdUNSb3NPWXViTlVHUjkyR2I4OHd2d1BmTmJyRm5pMzlsRTFmbWp0TW53?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-20T03:07:00Z",
+      "publishedAt": "2026-11-22T05:00:00Z",
+      "likes": 18
+    },
+    {
+      "id": "p_collecting_news_3217007308",
+      "title": "Картину Марка Шагала, почти 50 лет находившуюся в частной коллекции, выставят на аукцион - NEWSru.c…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: NEWSru.co.il.",
+      "emoji": "🧩",
+      "sourceName": "NEWSru.co.il",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ndllxQW1sY1ZpLWVTeG5rTC1nYk9ObTk3NG1FVG80RGNIMTM4T29ZMHNzNEVZdHlGOFk5TlJBOVdvZVFuV20tUVZJU1o0V0dqbC1XSlNkVWxnWkxtVE9DamhmcnBEcmPSAW5BVV95cUxOTlJ1Z1VSQjdlUUlxQk5la1NKdmc0Z01paGZJdlprbWVUQlUwRlEzbm5nODY5WkYzQllkSTMyUng3ZEVETGJ2Q1JNb0VNMjdKSW9oZnNFQ05WQ2JJLUxkUlFYRVlHOHhSU3dGMHR1dw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T04:45:18Z",
       "likes": 12
     },
     {
-      "id": "p_collecting_news_3419741269",
-      "title": "Коллекционирование искусства вошло в топ увлечений покупательниц премиальных квартир",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Газета.Ru.",
+      "id": "p_collecting_news_854612072",
+      "title": "Он пожертвовал своей 30-летней коллекцией, чтобы его студенты могли получить практический опыт в на…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Vietnam.vn.",
       "emoji": "🧩",
-      "sourceName": "Газета.Ru",
-      "sourceUrl": "https://www.gazeta.ru/family/news/2026/11/17/29768743.shtml",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc0p6SDBMdG52OWpDb2o1RnlvRnVNSVZiT2lNWll0MWRNLXBia2lBTWgzQ0Nsc2QyQW1YcGZUd0ZWbEg0VWV6UEpfelFaVDM5aW5qdW43U1dfb1RXM0dKVjUybjRfSHFGVTZ4bFk2TW5BNXVNTWZyUzJJVWtYQTA3RzF6NmJudVV6SjNieG8wYw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-16T16:00:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-22T01:12:20Z",
+      "likes": 44
     },
     {
-      "id": "p_collecting_news_3112079578",
-      "title": "Искусство как членский билет. Почему поколение без ипотеки выбирает коллекционирование?",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: snob.",
+      "id": "p_collecting_news_2330329159",
+      "title": "За журналы Крокодил и Мурзилка из бабушкиного шкафа теперь дерутся коллекционеры и предлагают целое…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: KamchatkaMedia.",
       "emoji": "🧩",
-      "sourceName": "snob",
-      "sourceUrl": "https://snob.ru/art/iskusstvo-kak-chlenskii-bilet-pochemu-pokolenie-bez-ipoteki-vybiraet-kollektsionirovanie/",
+      "sourceName": "KamchatkaMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04V08zcTNva2xjc3ZzMmE4S1VkMUEyYWJiT0oyOGxDcHFERzZHMHJaRG9ZUnhhLW1udXBBclFiZEtxWFozN2lWcjVUN21IN3V2?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-03-24T01:41:00Z",
-      "likes": 16
+      "publishedAt": "2026-11-21T16:30:00Z",
+      "likes": 72
     },
     {
-      "id": "p_collecting_news_201691124",
-      "title": "Коллекционирование — это настоящая пытка: собиратели поделились опытом",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Московский Комсомолец.",
+      "id": "p_collecting_news_3750081120",
+      "title": "В фонтане Треви в Риме стало меньше монет: в 2026 году недосчитались 238 тысяч евро - ФОКУС",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: ФОКУС.",
       "emoji": "🧩",
-      "sourceName": "Московский Комсомолец",
-      "sourceUrl": "https://www.mk.ru/social/2024/07/03/kollekcionirovanie-eto-nastoyashhaya-pytka-sobirateli-podelilis-opytom.html",
+      "sourceName": "ФОКУС",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzE1Mm1MWmRrN3NUaFpXVV9nZ0w0bVBDX29pRXVQQXQ4WDhuRFJXZWpwV0QtRl9USjlYYzY0U1A2UmpHWGQ0V3J3WUFvNFh6M1NXUjBIQWNKcGZQM2x0N3VBZjFUTzhoNEEtN0xpZEU3aFFBTmRGVG1qcndqWmhPaHR4Rmd0b2xiNFAyb1dPZHJaU3pZWUVqUk1DSTJ1T0RU0gGgAUFVX3lxTE53MTUybUxaZGs3c1RoWldVX2dnTDRtUENfb2lFdVBBdDhYOG5EUldlanBXRC1GX1RKOVhjNjRTUDZSakdYZDRXcndZQW80WHozU1dSMEhBY0pwZlAzbHQ3dUFmMVRPOGg0QS03TGlkRTdoUUFOZEZUbWpyd2paaE9odHhGZ3RvbGI0UDJvV09kclpTellZRWpSTUNJMnVPRFQ?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2024-07-03T12:25:00Z",
-      "likes": 25
-    },
-    {
-      "id": "p_collecting_news_1889764157",
-      "title": "Лекторий: Коллекционирование",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Афиша.",
-      "emoji": "🧩",
-      "sourceName": "Афиша",
-      "sourceUrl": "https://www.afisha.ru/exhibition/lektoriy-kollekcionirovanie-290142/",
-      "tag": "Искусство",
-      "publishedAt": "2024-03-14T17:00:00Z",
-      "likes": 5
+      "publishedAt": "2026-11-21T15:52:16Z",
+      "likes": 41
     }
   ]
 }

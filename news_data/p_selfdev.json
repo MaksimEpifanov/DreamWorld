@@ -1,63 +1,63 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-21T15:32:43.862254Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_selfdev_news_3018203165",
-      "title": "Саморазвитие без токсичности: альтернатива культуре успеха",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: WomanHit.ru.",
+      "id": "p_selfdev_news_3118836949",
+      "title": "Рабочее место на удаленке: как не смешивать дом и офис и сохранить продуктивность - KONKURENT.RU",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: KONKURENT.RU.",
       "emoji": "🚀",
-      "sourceName": "WomanHit.ru",
-      "sourceUrl": "https://www.womanhit.ru/psychology/93224-2026-06-04-samorazvitie-bez-toksichnosti-alternativa-kulture-uspeha/",
+      "sourceName": "KONKURENT.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82Wl9JeFhQRTJmZFBnZ1lwcWpzcXdfZGt5ZTdXSUtuM0REN2NYSjgwUks5eUgyaFJWRWRUV0xoTVVuNGNLOU04U29n?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-06-04T08:46:00Z",
-      "likes": 78
+      "publishedAt": "2026-11-22T05:30:11Z",
+      "likes": 73
     },
     {
-      "id": "p_selfdev_news_2288468143",
-      "title": "Саморазвитие: Почему оно важнее, чем когда-либо⁠⁠",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: pikabu.",
+      "id": "p_selfdev_news_4008956556",
+      "title": "Названа музыка, которая может повысить продуктивность на работе - adi19.ru",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: adi19.ru.",
       "emoji": "🚀",
-      "sourceName": "pikabu",
-      "sourceUrl": "https://pikabu.ru/story/samorazvitie_pochemu_ono_vazhnee_chem_kogdalibo_12302659",
+      "sourceName": "adi19.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcWR5aTFOVFBCTUtSZXp3QzU1U0plQzlLNnNORGp3Q1F6TXcteC1HUFhOWlpNTGI0cWVWRGpONUlNdUZQSWR5Tld6dzg3blF1ZFFHMkhvRV9PSHBGVUUwcUtFVDFway1PMWFBdHE3THc1VzFvczk4bkNXOFBNd2Z5YkdvSjNtTVZtbkhoUnBJamo4b2s?oc=5",
       "tag": "Книги",
-      "publishedAt": "2025-01-26T22:51:00Z",
-      "likes": 85
+      "publishedAt": "2026-11-21T21:12:33Z",
+      "likes": 79
     },
     {
-      "id": "p_selfdev_news_2561145541",
-      "title": "Саморазвитие не работает",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: habr.",
+      "id": "p_selfdev_news_436679826",
+      "title": "Продуктивность коров в племенных хозяйствах Башкортостана выросла на 10% в 2026 году - Стерлеград",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Стерлеград.",
       "emoji": "🚀",
-      "sourceName": "habr",
-      "sourceUrl": "https://habr.com/ru/articles/868722/",
+      "sourceName": "Стерлеград",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQWRHMlhFVU1VdjhOdVNtWDFRYTZ3WlpQY2VMc0V6NWhiN3E3LUs0WGxDQUMxTUZHbGpubE5tUjRkbElzeUtRN3prVFJZVTA3SEwzSEpUeUYxQlNXNGRCclBKUXpVR0RsbGVkdXYxSG9sRE90aGp3aTN4YllRaTV3RTd4OWtPOFFpOVpYTzQ4aFJhY25WV0dtNDhrWFROa1hkMFM3THh1UnZKRm54Qzg1dDkwNzFTenVyOXlaWWpCQ29zbUFt?oc=5",
       "tag": "Книги",
-      "publishedAt": "2024-12-22T03:37:00Z",
-      "likes": 46
+      "publishedAt": "2026-11-21T18:25:38Z",
+      "likes": 88
     },
     {
-      "id": "p_selfdev_news_4197845330",
-      "title": "Саморазвитие: пять способов инвестировать в себя",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Учительская Газета.",
+      "id": "p_selfdev_news_3500699510",
+      "title": "\"Двое против одного?\". Эксперт о необходимой конфигурации сторон для продуктивности переговоров по…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Новости Беларуси | БелТА.",
       "emoji": "🚀",
-      "sourceName": "Учительская Газета",
-      "sourceUrl": "https://ug.ru/samorazvitie-pyat-sposobov-investirovat-v-sebya/",
+      "sourceName": "Новости Беларуси | БелТА",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaGVTc2I2elVfUVEteVgtbjk1OFY1bTR1UEtGc2ktcVlKbV9USlhudEhTdzJFYXlQaTNsUWlSNHRSSWxLN19zbUtiU2ozeF8zQ3N5T0lpLTZoRWtwYmQ0Y1Q2T3BJTEZDeUw3UXQ4YnUzRV8zclhwOHBDRmdmNklvLUlVM1NTaTJ3aWZ0TEFjbkY2UGNXcG1wMk9pcnA1QUhGclEzd3RYMF9LVWo0QmIxSFJiWVdEMXlhZFhKb2lub1BiNE9ka1U5UTVPanV5SUxhZThra1liOThRd2M?oc=5",
       "tag": "Книги",
-      "publishedAt": "2023-11-26T07:32:00Z",
-      "likes": 84
+      "publishedAt": "2026-11-21T17:55:14Z",
+      "likes": 15
     },
     {
-      "id": "p_selfdev_news_2409537725",
-      "title": "Что такое саморазвитие личности",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: woman.rambler.",
+      "id": "p_selfdev_news_2668517161",
+      "title": "Психология против к, ДИЕТА с психологической точки зрения | Бархатная Трансформация | Саморазвитие…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Дзен.",
       "emoji": "🚀",
-      "sourceName": "woman.rambler",
-      "sourceUrl": "https://woman.rambler.ru/love/51683663-chto-takoe-samorazvitie-lichnosti/",
+      "sourceName": "Дзен",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Lenp2dXlCOW40R3hwaDFVOUhDdnFEbnVFeWdUVkFOa3JmRTJ4M0lVRXRzNmxFRjJjWDRBWmhoNnctdUhjdko0dTQ4NkdoOXB3SUV3cHpaZ3JycWNyYzhnUHZ5UUtzWTdHTXc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2023-10-30T07:53:00Z",
-      "likes": 61
+      "publishedAt": "2026-11-21T13:49:13Z",
+      "likes": 60
     }
   ]
 }

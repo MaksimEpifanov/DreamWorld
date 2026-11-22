@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_3100926812",
-      "title": "Кабмин внес в Госдуму законопроект о возврате остатков бюджетных инвестиций",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Рамблер Финансы.",
+      "id": "p_finance_news_4027760668",
+      "title": "Министр финансов США Бессент: европейцы избегают контактов с Путиным - prospect.com.ru",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
       "emoji": "💰",
-      "sourceName": "Рамблер Финансы",
-      "sourceUrl": "https://finance.rambler.ru/business/57441617-kabmin-vnes-v-gosdumu-zakonoproekt-o-vozvrate-ostatkov-byudzhetnyh-investitsiy/",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmM2UmRobmVuSlpyeUZTblJsRml5TlhlVmt4YXh0cUJOSUx0dHFuSC1iS2Q1cEgybnNELUZDanozcE5CeXFJbWFJLWo0TGRoTVFEYkxDVXdERzFVSjMyLWxqaE5lWXVDZGhNOW5CZWk1VnZjUk9PcllBTlhsbnpLMXA0Z05zZ0F0eTRUWkNraFI0WVhFc2ZLaHA0STAxRUNkaXM1bXBCODNWLUV3R0Y4d1VB?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-18T12:31:00Z",
-      "likes": 21
+      "publishedAt": "2026-11-22T05:02:13Z",
+      "likes": 65
     },
     {
-      "id": "p_finance_news_3886610544",
-      "title": "Бюджет региона, сложности логистики, транзит в ЕС и запрет вейпов. Итоги",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Рамблер Финансы.",
+      "id": "p_finance_news_2743192190",
+      "title": "Не спешите тратить 13-ю зарплату: В Госдуме предложили способ заработать на новогодней премии - Lif…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Life.ru.",
       "emoji": "💰",
-      "sourceName": "Рамблер Финансы",
-      "sourceUrl": "https://finance.rambler.ru/economics/57441478-byudzhet-regiona-slozhnosti-logistiki-tranzit-v-es-i-zapret-veypov-itogi/",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTndNZ0F0d1h6eHZ6RzRSUTNhb0owVkFjYkxiU3FsMTljWFZ1RmhTLWh5R2pRYTZYa3lwTVZfOVZZWVczcXNZV0ZSQnJtc213QWhXYlRtOGVFYjFRczdfeERkc0d4TVFIRzJTT015VXRqOWdZblZfMGFtYUlzNEJUY18xd0YxTzk0TmRDTFUzRXN3a212djEwSA?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-18T12:00:00Z",
-      "likes": 79
+      "publishedAt": "2026-11-22T02:11:24Z",
+      "likes": 86
     },
     {
-      "id": "p_finance_news_3259106824",
-      "title": "Почему бюджет может не работать: когда нужен внешний взгляд на личные финансы",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: sostav.ru.",
+      "id": "p_finance_news_3065797207",
+      "title": "76% жителей Британской Колумбии не чувствуют финансовой защищённости - Наш Ванкувер",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Наш Ванкувер.",
       "emoji": "💰",
-      "sourceName": "sostav.ru",
-      "sourceUrl": "https://www.sostav.ru/blogs/293004/112475",
+      "sourceName": "Наш Ванкувер",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaVQyOHF1ZkVuekJrakZXY0FCdWZESkxMVDNKaS1aODhpQ0hHZTVsOEcxaldJYjEwU3B3Vm1iREExaXVDNTF6ekpzSWtZWDFNUGtHejZybHpaREJneGNFTXpzeEFLb1lnWkZRZXB6end1QjdRcWwtNm9TclQxNER0TVdES3lSb0NEZkFuNkhn?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-10-02T08:44:00Z",
-      "likes": 6
+      "publishedAt": "2026-11-21T18:10:36Z",
+      "likes": 61
     },
     {
-      "id": "p_finance_news_1363398639",
-      "title": "Когда личные финансы требуют внешнего взгляда: как выбрать специалиста и навести порядок",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: sostav.ru.",
+      "id": "p_finance_news_1306477008",
+      "title": "Более 35 тысяч белгородцев проверили финансовую грамотность в онлайн-зачёте - belpressa.ru",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: belpressa.ru.",
       "emoji": "💰",
-      "sourceName": "sostav.ru",
-      "sourceUrl": "https://www.sostav.ru/blogs/293004/111162",
+      "sourceName": "belpressa.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Eb3VmMkNxT0lPcjRjMXIzTWtrMUFtSnhoUFIyem5sbzNZOXBaX0lodHIwdXZlcEdVYy1Cakk5dVFhLWxSeWpNSHRlalFqOTJRTVRSenh5dGpJN29Cc2NGSHJWcWw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-09-25T08:51:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-21T16:22:00Z",
+      "likes": 65
     },
     {
-      "id": "p_finance_news_1740240958",
-      "title": "Личные финансы: инвестиции и трейдинг от Skillbox",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: RBC.",
+      "id": "p_finance_news_1095152868",
+      "title": "Антониу Кошта предложил бюджет ЕС на 2028–2034 годы - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
       "emoji": "💰",
-      "sourceName": "RBC",
-      "sourceUrl": "https://www.rbc.ru/courses/all/skillbox/licnye-finansy-investicii-i-treiding",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQXzl0eFBUcTA3Wm9DNHJHRnlKOEw4dkhWTTVLc3o0LU1tVEQ4SFNBc29CNTdzUkw2X3hJM3F6QXA3bEJLb0N6WVpERk5WWHJHTlMzZ2xfZVVweTlFX1k1NXk2U0xLeHRoNzQ2TjhJR2lMRUEtOG0xZUhPeXJiRHFwVXpUNmhXR2FGTmFNU09yUGZDX3k4VGQ3SkNmTGpmeFJ6SFZGOVplRTg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-06-25T20:06:00Z",
-      "likes": 15
+      "publishedAt": "2026-11-21T12:57:46Z",
+      "likes": 20
     }
   ]
 }

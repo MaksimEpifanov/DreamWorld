@@ -1,63 +1,63 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-21T15:30:58.430583Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_animals_news_720140229",
-      "title": "«Их сердца всё ещё верят в добро»: питомцы Бакальского приюта ждут своей семьи",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: govoritsatka.",
+      "id": "p_animals_news_1682635062",
+      "title": "Енот устроил погром в магазине алкоголя и принес приюту почти 300 тысяч долларов - Grani.lv",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Grani.lv.",
       "emoji": "🐾",
-      "sourceName": "govoritsatka",
-      "sourceUrl": "https://govoritsatka.ru/news/zhivotnye-612/ih-serdtsa-vsyo-eschyo-veryat-v-dobro-pitomtsy-bakalskogo-priyuta-zhdut-svoey-semi",
+      "sourceName": "Grani.lv",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2JTRVFYSHF3WjZHelRxNG85VEh0bDl3bUlZQS16SUVGck9Xek1mYmhYYUVCUk1HT3NFRFVXSTlFbnFiNy05ZFZLa2c4OHhWVkVWRnVrNkVkZEFvS2paa05GTmo5aTNPNFFpd0oyR2M3VWhBRERoeldLUExLQU5yalVBYUM2dktpSlJCZGYxZ3EtU3JLdDJyZmVQN3N1SU1VTnRuMWNpcnRURmZ1ZGxzSUYxX0xfbXpiQ29YSUswekRFUQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-20T06:55:00Z",
-      "likes": 41
-    },
-    {
-      "id": "p_animals_news_1285342444",
-      "title": "Питомцы Бакальского приюта ищут хозяев",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Mir74.ru.",
-      "emoji": "🐾",
-      "sourceName": "Mir74.ru",
-      "sourceUrl": "https://mir74.ru/36916-pitomtsy-bakalskogo-priyuta-ischut-hozyaev.html",
-      "tag": "Природа",
-      "publishedAt": "2026-11-20T05:39:00Z",
+      "publishedAt": "2026-11-22T06:34:00Z",
       "likes": 36
     },
     {
-      "id": "p_animals_news_381515699",
-      "title": "В собачьем приюте «Второй шанс» открыли второй теплый вольер для питомцев-инвалидов",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: МР-инфо.",
+      "id": "p_animals_news_2021400395",
+      "title": "В тульском «Созвездии» стартовала акция помощи приюту «Лапы в ладони» - ТулаСМИ",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: ТулаСМИ.",
       "emoji": "🐾",
-      "sourceName": "МР-инфо",
-      "sourceUrl": "https://mr-info.ru/442970-v-sobachem-priyute-vtoroy-shans-otkryli-vtoroy-teplyy-voler-dlya-pitomtsev-invalidov.html",
+      "sourceName": "ТулаСМИ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBOUHR2Q2xTR0xLLUlhLTNPaXNsUUVxWTFORW0yd01hb2ltYUxjRkZ0SEVlYnNKSVZkNWZvOV9Tb1JmcmlG?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T04:00:00Z",
-      "likes": 76
+      "publishedAt": "2026-11-22T06:21:26Z",
+      "likes": 6
     },
     {
-      "id": "p_animals_news_758340275",
-      "title": "Спасатели снялись с животными из приюта, чтобы найти им хозяев",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: pkzsk.",
+      "id": "p_animals_news_3347004952",
+      "title": "В Харьковской области прощаются с военной, которая помогала приютам для животных - dumka.media",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: dumka.media.",
       "emoji": "🐾",
-      "sourceName": "pkzsk",
-      "sourceUrl": "https://pkzsk.info/spasateli-dchs-sko-zhivotnye-priyut-den-dobroty/",
+      "sourceName": "dumka.media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU3hpMGFMUzdFamhrMFRYeWcyMUszUExKQnhndDNOTlVIRzNXMEdUeEVVQVk3Rl9xVHBEY2lBdHk1dVBXcm5yN2F2ZFh6YzdEbDhCRWh6dEl6RlUyZDhYV05fNW44UW9MNjJGX0M1OWZwY19fdDZrWDdHVFA3OEE1ZmlfZUJYdy1KRms4cDBmeFd6bUY2ODZ1ZU1hZmxwZ183Q1I5RFZNbENwSkJBaVdweDk0M000cDJqUTZfcnlTZG9RN0F4?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-14T09:00:00Z",
-      "likes": 20
+      "publishedAt": "2026-11-21T15:43:19Z",
+      "likes": 81
     },
     {
-      "id": "p_animals_news_2219327986",
-      "title": "В Москве у приютов для животных появились страницы в сервисе поиска питомцев",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: newsroom24.",
+      "id": "p_animals_news_1003086609",
+      "title": "Бельцкие школьники собрали 35 кг корма для животных из приюта - СП - Бельцкий независимый портал",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: СП - Бельцкий независимый портал.",
       "emoji": "🐾",
-      "sourceName": "newsroom24",
-      "sourceUrl": "https://newsroom24.ru/moskva/news/zhizn/2026/news_374921/",
+      "sourceName": "СП - Бельцкий независимый портал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnFqYkx6TDBjWFBsejJMbXJucHBncExIQVZyYjNGcEFSQ0Q0ZW9FUzZTblVCT1dfU0F0cnp1NlZBa2JnMXFFN0Q2Z0xweXE2OTdkOEIzMnE4STBDWHdoSUtKNjhqb21FQ1JVeTFlYUxPRVhhY3QySzlxdThvY3RHV0NpN2JHazNUZmdJMkMxckRhemhXOVB3YXl3OXdjX25RaFRF?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-12T04:27:00Z",
-      "likes": 57
+      "publishedAt": "2026-11-21T14:01:18Z",
+      "likes": 83
+    },
+    {
+      "id": "p_animals_news_240818714",
+      "title": "Власти и волонтеры спасают животных от сильного наводнения на востоке Флориды - Gismeteo",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Gismeteo.",
+      "emoji": "🐾",
+      "sourceName": "Gismeteo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWHNSMG9uRkVVZ1AtMUJWTkg3RmIxV2ZHN1o1ODQyUFVhbnFtanNmMHNmQmVkMmU0ZEVvQmktQkRVVHJxVmRpVFpGRU0xNDVrbWJnMFlOUFIzX1FuUS1sYjcyaG16dDBJaFlBRlFBR0ExTHNDQlJDTFpudEJVeVpYcmtCem9vajZmaDkwbkxrUmt0d3Q5SHNRbi1GaE04NkRLUUJkVTFBNVJNYy1UR1FTZWpIZ0hwQU1VNGg1clJYNzFqR0l0OWc4ZA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-21T11:23:01Z",
+      "likes": 92
     }
   ]
 }

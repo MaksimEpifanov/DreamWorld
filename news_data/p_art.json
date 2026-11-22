@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-21T15:20:37.741911Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_2799795013",
-      "title": "В Ростове-на-Дону откроется выставка о летних воспоминаниях",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: BURO..",
+      "id": "p_art_news_3326365011",
+      "title": "Снег, сани и немного абсурда: зимняя подборка искусства на ярмарке Catalog - Большой город",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Большой город.",
       "emoji": "🎨",
-      "sourceName": "BURO.",
-      "sourceUrl": "https://www.buro247.ru/news/culture/20-nov-2026-rostov-on-don-exhibition.html",
+      "sourceName": "Большой город",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1seGY4dVVTNVAtTWh6ZDRMazhMd3ZuRDRZNHhrcTNWVFdfaUlFYlJTNjRIZ0xGZVZRLXhmZUtrV3JHSTNseDA0Y1RRc29GdnZOTkhXLUN2bUhXS3Z5NF9KYXdBcVJZSzlreXltcW85WWI?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-20T12:11:00Z",
-      "likes": 86
+      "publishedAt": "2026-11-22T08:08:04Z",
+      "likes": 54
     },
     {
-      "id": "p_art_news_3239171269",
-      "title": "В парке «Зарядье» откроется выставка керамики Пабло Пикассо",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Пятый канал.",
+      "id": "p_art_news_2277046584",
+      "title": "У Запорожье открыли выставку с интересным эффектом — фото - Газета МИГ",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Газета МИГ.",
       "emoji": "🎨",
-      "sourceName": "Пятый канал",
-      "sourceUrl": "https://www.5-tv.ru/news/5096368/vparke-zarade-otkroetsa-vystavka-keramiki-pablo-pikasso/",
+      "sourceName": "Газета МИГ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTm9vSm9tX0pVdlJIU1dBaXVJckVzcjZibG9hdVIxaXU5U0llZmYwVzVGWDRMYTRWejRSb3BxTnR4RzFxSnlCQy1saFRnbDlwdV9LTlpiQmdvWERuX3JrazIta3c5My0waFRDVEZ4MWN2ZVdiMTJweEs2WXZwZ3E1S3BwNE4?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-20T01:49:00Z",
-      "likes": 92
+      "publishedAt": "2026-11-22T06:12:10Z",
+      "likes": 50
     },
     {
-      "id": "p_art_news_3599935757",
-      "title": "Выставка «У них и у нас: образ Запада в советском искусстве 1920–1930-х годов» в Пушкинском музее",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Комсомольская Правда.",
+      "id": "p_art_news_3219608600",
+      "title": "В Еврейском музее покажут раннего Рембрандта из коллекции Эрмитажа - Москвич Mag",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Москвич Mag.",
       "emoji": "🎨",
-      "sourceName": "Комсомольская Правда",
-      "sourceUrl": "https://www.kp.ru/afisha/msk/vistavki/vystavka-u-nih-i-u-nas-obraz-zapada-v-sovetskom-iskusstve-1920-1930-h-godov-v-moskve-2027/",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTlZwSFhpV0lXS0RkWGhxSk1ibFNCNDlBTmRjWDdPTEN1M29mVU9nTUpBdi1yNWVyYlJIY2dqaVNFaEktaXpPRkxiMTFfQkpkbUhXYlhSZXctbm5oSjVhTS13NDYzQ1pnME03X01DNmtnR0Y5MEZTVVFUZFA2T1VLTEVmNzV2ekN1X0l4SGhNRHRXOW9PMWtjZ0pULTlkcFhs?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-19T13:08:00Z",
-      "likes": 35
+      "publishedAt": "2026-11-22T03:25:25Z",
+      "likes": 41
     },
     {
-      "id": "p_art_news_631384581",
-      "title": "Между Пьеро и Арлекином: судьба художника Владимира Дмитриева",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Art Newspaper Russia.",
+      "id": "p_art_news_1684085794",
+      "title": "В кампусе Уфы открылась выставка «Дома России. История страны. Наука» - prospect.com.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
       "emoji": "🎨",
-      "sourceName": "The Art Newspaper Russia",
-      "sourceUrl": "https://www.theartnewspaper.ru/posts/20261119-xilb/",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGV2TzQ3WjRyc0NKY2t5X0FSdVZDYVJBS0VGRlMzUVAtTEpleWNPWGdyNTFZZHVhZEl0cll0UEwtald1dzRwTDhXRHFVeVJQaHlIZ1FObG81UEE2ekZqaEpha2ttdFR3T05vMEtxRk5LRm90c1Y2NFNwQ1lFQi1uX2otYXc4aWdMT3JiYmtpa1FFQTVfVlJ6eHV5elUtT05oMFIxc3ZOM3RoLXM?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-19T08:44:00Z",
-      "likes": 67
+      "publishedAt": "2026-11-22T02:45:23Z",
+      "likes": 42
     },
     {
-      "id": "p_art_news_144701626",
-      "title": "Пушкинский музей представит первую в России выставку о маркизе де Помпадур",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Российская газета.",
+      "id": "p_art_news_435454841",
+      "title": "Выставка «Сюрреализм в Каталонии. Художники Ампурдана и Сальвадор Дали» - KUDA-SPB",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: KUDA-SPB.",
       "emoji": "🎨",
-      "sourceName": "Российская газета",
-      "sourceUrl": "https://rg.ru/2026/11/17/pushkinskij-muzej-predstavit-pervuiu-v-rossii-vystavku-o-markize-de-pompadur.html",
+      "sourceName": "KUDA-SPB",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYjJLYTVCSUViazM5aF9mNFN5WlEzX0g1bkRwSEd4MUpqektya1dtQmFTaGlsS0ZodDBtblk2dVJrNlVVbWFJT1RpNmcxUDBsQ1hFSXpyY3kxcmJEbmxNQzNhWVNwS0xyb0hDcTAyTXVoelcyQ3U0emdJNzFkVWhDa0lVVjNyY01fWC1CcGRtcEZGMHE4aWZTX1c3SlM?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-17T11:00:00Z",
-      "likes": 82
+      "publishedAt": "2026-11-22T02:31:48Z",
+      "likes": 23
     }
   ]
 }
