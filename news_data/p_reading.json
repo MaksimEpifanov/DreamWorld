@@ -1,6 +1,6 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -38,15 +38,15 @@
       "likes": 86
     },
     {
-      "id": "p_reading_news_879849589",
+      "id": "p_reading_news_2106788591",
       "title": "«Дети капитана Гранта» и милый детектив. Шесть книг для чтения с детьми / Новости города / Сайт Мос…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: mos.ru.",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Официальный сайт Мэра Москвы.",
       "emoji": "📖",
-      "sourceName": "mos.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VRXBvUzVwTVNxQzZxTkJkdS13SmJLMVZERTBQWW5HdjBXWnBGSEd4Y3ZUVWJ3YnlpcHA2Qk1WYVJ3T2xYc2tqSjVwT0VxLVBs?oc=5",
+      "sourceName": "Официальный сайт Мэра Москвы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82N3hVN0haT2hQWFRSZ24zcldsSG50UEJLbjZBWUpqWGVaQ0tpWEd4Z0E5OGpYYnhFX1RlaDlTWVNHNDFXelFacTFYOFFUenc?oc=5",
       "tag": "Книги",
       "publishedAt": "2026-11-22T06:01:01Z",
-      "likes": 89
+      "likes": 15
     },
     {
       "id": "p_reading_news_261372176",

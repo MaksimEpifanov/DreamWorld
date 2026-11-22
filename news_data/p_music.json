@@ -1,6 +1,6 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -49,15 +49,15 @@
       "likes": 67
     },
     {
-      "id": "p_music_news_174414657",
-      "title": "Elton John курирует ремикс-альбом на виниле для Record Store Day 2026 - DJ.RU",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
+      "id": "p_music_news_2950100435",
+      "title": "Mary Gu, швец, Aarne, VILLIAN, мамушкина: главные музыкальные новинки этой недели - Forbes.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Forbes.ru.",
       "emoji": "🎵",
-      "sourceName": "DJ.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaERQSk5MT08wWUpGc0VrNklweC11U2EtTnZZMVhGLTYyZlh4Q3dQWmo0SDJlRGF6QkI0c3hhTmRuNk9nVUtMdldoU3NKU3BHdktmWDlVVFduREVqbkwzazFoUnp3cGluWmFiV2hBU1RpbGJjcXJUWVF1RU5nUkU0dnFWUFREdjlWZjlVUzJMTUNyWDZYRGhVeGRhWlhIUQ?oc=5",
+      "sourceName": "Forbes.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWWw4UFVvR3hyYVoxYzdsakYtOWJEVFZwWWRKaFdPWWF6Nk1zNm5SQlNuWDZqR1ZiblRuLUIyRl9QUWNPYmpjY1hGbWhrVVZzN3BWMU82eFIwXzdrdXZ3Wl9ubmgyNG1Vekt2MjR6MWxqeFpmYTZVQXlxT0Q0U09EQ1BDcHZuYUhXQVhHNkFYS0FEbVJuNTltajR0Um5nSVVmRmdUSWpZVWkxOUFCakh4Vg?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-21T09:36:26Z",
-      "likes": 30
+      "publishedAt": "2026-11-21T09:00:00Z",
+      "likes": 26
     }
   ]
 }

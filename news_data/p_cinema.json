@@ -1,9 +1,20 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cinema_news_4063550963",
+      "title": "Через что прошел Сталлоне: рецензия на фильм «Я — Рокки» - ITC.ua",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: ITC.ua.",
+      "emoji": "🎬",
+      "sourceName": "ITC.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV0JZdnFnb1R3X0kxbFFIcld4ZDNjV3oydUxOTkJ3TGNrUHkzQl9ESlBYa2FiUENYZXFmeW1XNmRyb3RERFNjaUJ1M3drdkJhalRwMUF0NXBBdWpocnFjd3hQV0U4MzV0ZnpyS0xFTXU5cXY0eDZxUHlBYi1TUUNHeXo4N1cyamhi0gGOAUFVX3lxTE9hYk1lLUFxc05VRHh6WjA3LUVoY0t3bXFUR1V3NC1ZLVBOMVIwQmc0R1lMWUhhSGFjSUpTWjdKUkFtS1pfNGZCVGQtOVUtZUswX2JRRnlyNEstTmhRdG5vVVVkTmlaRzdPZmEtQmNNc3hoa2cyUFVrc3RHcmhIRml2WmNMUVg2VDJwLUg1OVE?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-22T08:00:16Z",
+      "likes": 75
+    },
     {
       "id": "p_cinema_news_247773878",
       "title": "Rutube трансформирует просмотр кино и сериалов - Content-Review.com",
@@ -47,17 +58,6 @@
       "tag": "Кино",
       "publishedAt": "2026-11-22T00:49:50Z",
       "likes": 70
-    },
-    {
-      "id": "p_cinema_news_2272480268",
-      "title": "5 миллионов за отказ: Госдума берётся за фильмы и сериалы, «подрывающие традиционные ценности» - Pr…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Primpress.ru.",
-      "emoji": "🎬",
-      "sourceName": "Primpress.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VTDVsbFlVaHVIekNlWkNpWWFHSXNGcHBCTHBuNEFISTc5ZDAyV214ZUczVWRPZDliSDJfTG91ZVJTaDZvVEFVc0xNRQ?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-22T00:00:40Z",
-      "likes": 4
     }
   ]
 }

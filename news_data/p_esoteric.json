@@ -1,9 +1,20 @@
 {
   "planetId": "p_esoteric",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_esoteric_news_1073428795",
+      "title": "Новый этап и невероятное везение: один знак Зодиака 22 ноября окажется под защитой Вселенной - Meta…",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
+      "emoji": "🔮",
+      "sourceName": "Meta.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlZRMHFvc2ZRZ2l5OFJ2S1FYRTh6NjlpSDVfZEowRllQc1FzV1A1UndkdWJ4M1h2cUJ1bFhDejBITFhqX3BqQlE5cWVLYVNqc1N5ODdiRXRUNGpZMF9tOFctWDBEN0FuRDNXZ2FzM3RpWm5STjBrMUdzM2NQb0JzTE9GY1h3WXhvQm1OemZRcUotZ0tQUzVxcVRWdnRBRVJBaTR3X29kemdyTWlUNVRmZTd6OHVCQ2Q3QnU4MjF5RFN0VE5sNHJDcnluNDlrbzNYSVo0?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T08:45:00Z",
+      "likes": 22
+    },
     {
       "id": "p_esoteric_news_2966158680",
       "title": "Гороскоп Таро на 22 ноября: Стрельцы решатся на новое, а Близнецы выйдут за привычные рамки - Meta.…",
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-22T05:01:25Z",
       "likes": 3
-    },
-    {
-      "id": "p_esoteric_news_735017562",
-      "title": "Год красной Козы: твой классный гороскоп на новый 2027 - prospect.com.ru",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: prospect.com.ru.",
-      "emoji": "🔮",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVlZQVHBRT2twaVY3REI5V2taU1dONjhaOEZQb1BCZ2IyT1lXakdrYlZCSE8wNFdtVlUzRWJOc1BlMzBVUTZERzUxZURHQ2IzRGlBRmpXb0xWblQzZmdvSTYwMXFqWGdVLVgtdVVBUUpKaGNUazFucXZhOXRTdzFaQ0VwWnVSOGMxeGF1ck44SjdreC1vMTZRS3Vscw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T04:10:53Z",
-      "likes": 42
     }
   ]
 }

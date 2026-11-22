@@ -1,9 +1,31 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_sports_news_3815202018",
+      "title": "Овечкин поздравил московское «Динамо» с 80-летием - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
+      "emoji": "⚽",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQckxNaXRiOWtPQXY4YndaU0g3QTdLRVBhZ1lMOFFqWFl6MUNqVmtOM3ZaUnBzYTNzVld0Vm5nSjZEY2dtdzJHZWE2VmE3TFJwMVZwbGJBTl81Wk95ZlNXOFVSekFSVktWenN4UlpmWV81SVRQdy1zUVJBeHdaMlZPenBXV0VDZ1haUlZJ?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-22T08:28:32Z",
+      "likes": 4
+    },
+    {
+      "id": "p_sports_news_3773611739",
+      "title": "Хоккеист из Кузбасса вошёл в число претендентов на престижный приз НХЛ - НК-ТВ",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: НК-ТВ.",
+      "emoji": "⚽",
+      "sourceName": "НК-ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5xU1AyX0ZqRHdPZkhZekVxUlNZa3oxeUt3Q2FzNG95LUMxemkteXdHbk9zQVlCQ1kyM25XemI5VzhIdjQ?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-22T08:25:49Z",
+      "likes": 47
+    },
     {
       "id": "p_sports_news_3256180193",
       "title": "Александр Овечкин поздравил московское «Динамо» с 80-летием клуба - Newsroom24",
@@ -36,28 +58,6 @@
       "tag": "Спорт",
       "publishedAt": "2026-11-22T07:56:40Z",
       "likes": 61
-    },
-    {
-      "id": "p_sports_news_2255466012",
-      "title": "Капризов повторил рекорд «Миннесоты» по продолжительности результативной серии в НХЛ - Gorobzor",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Gorobzor.",
-      "emoji": "⚽",
-      "sourceName": "Gorobzor",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUnRtQmVadU9jUnYzSlpYZjlKUGRxcUEzY181RzQ3c0FxakI0dHgtXzBTYm4yZmgxdzJ1S2M4V2lPclpSdTB2eHhYU244T0VrOThPaVV5dDEzbmNXLVlhZ3MwY09Uc21WMk1TMU54MW1PRDdBV29FcElOTUNTZWtPd0t0dlRSRXBVaWxLNXplMy1sTk84QW5rVkpRVi1jS0dPbnRiODl1bEZITElsSllVemV3MjI4dDRHT2szQTdjeHhRU2pFNzV1cTlB0gHPAUFVX3lxTE5vRDY1aWZWcmkzME03eklqc05lMnZ0LU0zLWhnYURPcWprb0pNU2tDX2hQV2Rscnp1WUd0SFRNblc4bTByamlwdDQtUEk4dlEteGZhdmR3Q0pVRFVwUkNubHJUZGFtLXJWaEJnUUd4dU1EdlF2YlZ2bWx4MTNYT0hVcFBjZWcwMlJFazlobjRNdTlDdkpFNWV3UjhScDNqZHF5YWsyaFhiRGdtd1VnNkZNM1ExV2NublVEZlM5N0VGd2NzZ0lmcF9ROUZadWVLYw?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T07:52:32Z",
-      "likes": 67
-    },
-    {
-      "id": "p_sports_news_4119033823",
-      "title": "НХЛ. Сент-Луис забросил 9 шайб в ворота Нью-Джерси, победы Каролины, Флориды, Нэшвилла и Вегаса - S…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sportarena.ua.",
-      "emoji": "⚽",
-      "sourceName": "Sportarena.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSTZqRVRTMk5DT3Y1TGpoTXpYWWl3WXRKY0xxRnNzN1JfS0pJZFpJOXd4Tm5wSjVSUlNVcml1WnR4Z0ZkRVlBMEk1TG1sU2JHZWpVUlRMQk1LalJDYWpKVDhYWkIxMGdCY2Vtel9MWktfLUVXTkNRRURoYkRuNm9hR004d0w5N3NTaUtjOHFn?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T07:33:12Z",
-      "likes": 91
     }
   ]
 }

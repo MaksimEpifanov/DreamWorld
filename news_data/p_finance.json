@@ -1,20 +1,9 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_finance_news_4027760668",
-      "title": "Министр финансов США Бессент: европейцы избегают контактов с Путиным - prospect.com.ru",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
-      "emoji": "💰",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmM2UmRobmVuSlpyeUZTblJsRml5TlhlVmt4YXh0cUJOSUx0dHFuSC1iS2Q1cEgybnNELUZDanozcE5CeXFJbWFJLWo0TGRoTVFEYkxDVXdERzFVSjMyLWxqaE5lWXVDZGhNOW5CZWk1VnZjUk9PcllBTlhsbnpLMXA0Z05zZ0F0eTRUWkNraFI0WVhFc2ZLaHA0STAxRUNkaXM1bXBCODNWLUV3R0Y4d1VB?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T05:02:13Z",
-      "likes": 65
-    },
     {
       "id": "p_finance_news_2743192190",
       "title": "Не спешите тратить 13-ю зарплату: В Госдуме предложили способ заработать на новогодней премии - Lif…",
@@ -25,6 +14,17 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-22T02:11:24Z",
       "likes": 86
+    },
+    {
+      "id": "p_finance_news_1893846129",
+      "title": "Финансовый гороскоп на 22 ноября 2026 года: кому стоит просить прибавку, а кому лучше не рисковать…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Свободный взгляд.",
+      "emoji": "💰",
+      "sourceName": "Свободный взгляд",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR0VrRmRtYmJQb002Z01PUDJGTDR2SlhfdUtRdkVXd3RfWVJ5VF9UR05LR2hqMlpOOXJla2FtUUdLcmRCd1ZMNHpHZmJnZU9VVU5iOTl2Y19JZ3lCX0c1VDBEbGlkNlZuTkF0ZTdkQjJSMG82eGJSd0Vsemc2UG5Zb2Jnbm5fRXpDSDF0cFJvMnpoY2hfWGg0RXpoTTJuN2JzSW8tQzQ5b2V0RnM0aVNLU1JwMVdOM0lfY1VaN3l3RktiUHhKeWxMR2o4RmVuUFU?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-21T22:18:51Z",
+      "likes": 45
     },
     {
       "id": "p_finance_news_3065797207",

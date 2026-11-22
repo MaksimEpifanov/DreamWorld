@@ -1,9 +1,31 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_tech_news_617708560",
+      "title": "ИИ обнаружил на обычной ЭКГ ранее неизвестный признак риска внезапной сердечной смерти - Ukr.net",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ukr.net.",
+      "emoji": "💻",
+      "sourceName": "Ukr.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByLVZnVXNCZWlab05Fd0hnaF9weGlvdm91SnhKUXhjTDhxeFNzODZ6TlV1UGpjLVpNMl9rTWtkQjNOamM2MnRDS281QkZjRi1wZG9wMS12M0F1aC1EdzNISTJRSzRINnFCY1hmUFd0TkU?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T08:02:51Z",
+      "likes": 57
+    },
+    {
+      "id": "p_tech_news_2488640065",
+      "title": "Армения и Иран обсудили перспективы сотрудничества в сфере высоких технологий - NEWS.am TECH",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: NEWS.am TECH.",
+      "emoji": "💻",
+      "sourceName": "NEWS.am TECH",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fZjBOQ3ZQU0xYdlNCWjFnRklIcnI2RWVmcVJRTUJFOW1lYXZCNnlpNjFiTjdmYXJ4bDQ5Skt5a3Z3dFgyVjB4Ug?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T08:02:00Z",
+      "likes": 49
+    },
     {
       "id": "p_tech_news_2358827161",
       "title": "Персонализированный прогноз погоды появится на смартфонах Galaxy: Samsung готовит новую функцию в O…",
@@ -36,28 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-22T05:28:29Z",
       "likes": 66
-    },
-    {
-      "id": "p_tech_news_844564141",
-      "title": "Huawei выпускает OSTA O1 Pro: новый AI-смартфон с необычным экраном и знакомым дизайном - Carexpo.r…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Carexpo.ru_ все авто на одном сайте.",
-      "emoji": "💻",
-      "sourceName": "Carexpo.ru_ все авто на одном сайте",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYkRxR3YtRXJ6UTRNVnlVUEE3NGI4azJVWEV6bGhrQ2ZGMGdDSnUwc0Rjby13bFZwNjlLRGhobHpPSXFPbFdDQ040YkJPTl9PRHktcVNlRTgwNW5VNENsd0RFZGJMRllEV1ViMGxoV240SGo3dFVOUDI4QUVqY0VZODV1Q1hqYTV2MHFFSGJGT01NbEY0LXNjMHhwZG54dnBNTnNvWlR4ZFRZSThQYTJxdE9VVDZTRmRzYUE?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T05:16:41Z",
-      "likes": 20
-    },
-    {
-      "id": "p_tech_news_2379097033",
-      "title": "Южная Корея проводит полную модернизацию своей системы экзаменов после 111 скандалов, связанных с использованием искусс…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
-      "emoji": "💻",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS29HbF9rZUNaa2d3YmdRZmtBZ2I4cnk0dTEwRWtIeWk2QzhlWWV3ZnIwbmM0b3dNZzE1V1VSbmpSUkw4YkNQdkRNeVIxcURUbTQ2VjlLN2RieXZIR2E1VHhRRkFhN2hRWjN2bndtcEJmODhjU21QZlc1bzB5dF9jclNIN3B5MU1HckhBQ3BoZUk?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T04:21:46Z",
-      "likes": 90
     }
   ]
 }

@@ -1,9 +1,20 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_collecting_news_3210735145",
+      "title": "Пополнение в коллекции: в Беларуси выпустят памятные монеты нескольких серий - NewGrodno.By",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: NewGrodno.By.",
+      "emoji": "🧩",
+      "sourceName": "NewGrodno.By",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN0tuTndGTUk2cGhmVjVUM0J6YnNjbGtXUUF4WTB2Y2trU19nOUIxRlhGM3J6MUp0STlHR3ZVbTVUVjBCdXlzV3ZuNmVLM2ZlbEZkODF0elFEMTJpT21HSWZXcVFDNXc2NjFBYjJHdy03NzFvYWdQN1dVaGZkRmdsTjR30gGHAUFVX3lxTE5vVEVvMnVJTlU4eENycXR6aWcwNHZScTAzU0pVbHE2T3FzbXkwWUxoWVJiSmpKRUREbFZKb1lROGxWS3k5NDdSMVRhdGszeGdpbjBNUWliNXZoQ1RVMmJrMjJfRHVGS2VJdjlBNHFTekFoeldBWmtYemcwUXZWTUZVV2xXbVJ6RQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T08:42:03Z",
+      "likes": 61
+    },
     {
       "id": "p_collecting_news_980404043",
       "title": "Ваза за 55 тысяч, а конфетница — дешевле карамельки: какой советский хрусталь ищут коллекционеры -…",
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-21T16:30:00Z",
       "likes": 72
-    },
-    {
-      "id": "p_collecting_news_3750081120",
-      "title": "В фонтане Треви в Риме стало меньше монет: в 2026 году недосчитались 238 тысяч евро - ФОКУС",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: ФОКУС.",
-      "emoji": "🧩",
-      "sourceName": "ФОКУС",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzE1Mm1MWmRrN3NUaFpXVV9nZ0w0bVBDX29pRXVQQXQ4WDhuRFJXZWpwV0QtRl9USjlYYzY0U1A2UmpHWGQ0V3J3WUFvNFh6M1NXUjBIQWNKcGZQM2x0N3VBZjFUTzhoNEEtN0xpZEU3aFFBTmRGVG1qcndqWmhPaHR4Rmd0b2xiNFAyb1dPZHJaU3pZWUVqUk1DSTJ1T0RU0gGgAUFVX3lxTE53MTUybUxaZGs3c1RoWldVX2dnTDRtUENfb2lFdVBBdDhYOG5EUldlanBXRC1GX1RKOVhjNjRTUDZSakdYZDRXcndZQW80WHozU1dSMEhBY0pwZlAzbHQ3dUFmMVRPOGg0QS03TGlkRTdoUUFOZEZUbWpyd2paaE9odHhGZ3RvbGI0UDJvV09kclpTellZRWpSTUNJMnVPRFQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-21T15:52:16Z",
-      "likes": 41
     }
   ]
 }

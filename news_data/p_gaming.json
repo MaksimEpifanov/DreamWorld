@@ -1,9 +1,53 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gaming_news_685505378",
+      "title": "А вот и первое обвинение GTA 6 в плагиате: виноваты мерзкие фурри - GoHa.Ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "emoji": "🎮",
+      "sourceName": "GoHa.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaE1hSXJFakx0T3BFcFl2LV9SQTQ4WHZ6S3hiTkVlVG9kMnBEa3NEUlNjbFZ6Qk9RWDB5SlQ3eFQwM0RZOTRtcGhhc1k0Zml2OTFZLUVicnFCeldLQTlIelRiM0NON3lrUEp6MVVTY0tib3lJT2taQTJhMldTSlNwNm5CME82aVNaMXctUVFKVjJBSmwyVnc?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:34:40Z",
+      "likes": 10
+    },
+    {
+      "id": "p_gaming_news_1940099448",
+      "title": "Команда Белгородской области победила на Всероссийском фестивале чемпионов «Игры ГТО» - belpressa.ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: belpressa.ru.",
+      "emoji": "🎮",
+      "sourceName": "belpressa.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDaGk5UDFGSEFaenNsX0RqeXU2Wkx2UVlVZzBfZzVpd2trY2FsaVhvWnFIZlJYVkctVlJVQlV3bl9PbmNYakdLNlV1N3lPX2p4OUJFcEtfVENDTm1SNnc?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:32:00Z",
+      "likes": 49
+    },
+    {
+      "id": "p_gaming_news_588465519",
+      "title": "«Совсем не попал в игру»: Орлов раскритиковал Дивеева за матч с «Рубином» - LiveResult",
+      "summary": "Кооп, рейды и вечерние катки. Источник: LiveResult.",
+      "emoji": "🎮",
+      "sourceName": "LiveResult",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXoxWGctaDZPWHBoTVQ1dUhwM1R6dE04N1pLTGpkenBwRmQxZVJIQWllTmhkbUwxR2d1T2VNcHJoTndJR2hHQ196Xy1pQVF0XzVBRGdYd1pXcDlZRnNwZGxDSXVVeTJRVGpYRTBPZWY1M0QxWWE1RXlDTHYzVnNoTXdnT3AzT3N4QlVpRXVZcl9rZkRhNkh3azNfT2gwNXE4XzJNTXR6azBJdUF3OEZpOF85Tlc?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:31:31Z",
+      "likes": 81
+    },
+    {
+      "id": "p_gaming_news_1917790570",
+      "title": "Grand Theft Errands: экс-игрок в CS не оценил историю Джейсона и Лусии - CyberMeta",
+      "summary": "Кооп, рейды и вечерние катки. Источник: CyberMeta.",
+      "emoji": "🎮",
+      "sourceName": "CyberMeta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmZPM3hNV0E1NnNVTEJ3TDRMbXA0OWM3bHU5WllRM2lGcUxRNndRTzV6MFRRTFo4RzI1UmNqcUVfNmhsOUpHUS1XdGRHaFI5d3d3SGZTNU81QkNPb3hxekJxd0U3OHZuNlk4UmxPMUZSVGhhNjlqT2FpS1J3enV2ZmcyWkJVd2F1R0hud3BvOHJ1d2FTNldBci0tUngtM0d4NVdMSlFLaUlOdG9tMUFkU3ZrTFU?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-22T08:22:40Z",
+      "likes": 68
+    },
     {
       "id": "p_gaming_news_4003591304",
       "title": "Релиз GTA 6 почти не сказался на онлайне Steam и Roblox: пиковый онлайн просел лишь на сотни тысяч…",
@@ -14,50 +58,6 @@
       "tag": "Игры",
       "publishedAt": "2026-11-22T08:20:41Z",
       "likes": 65
-    },
-    {
-      "id": "p_gaming_news_152953892",
-      "title": "Орлов разнёс игру Дивеева в провальном матче «Зенита» - Евро-Футбол",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Евро-Футбол.",
-      "emoji": "🎮",
-      "sourceName": "Евро-Футбол",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM1JQcGN6c3BGWXowLVNpSm9CenBJMnZ4WFlHZTAxOTdiay01TWhvOE5xYzBpSU5rZzFBQ2V5ZTkxbVk0RWxGa2FTTGdfTW02aGRRd2tIRlh1TE5acmtCQm5JUnFLUjB6Y0VLRlhOZ2xocDNtLWpvZ3ZJQ2FMcmdrYUVnQUtkWERndVN3cmdoeFhCUmpiVzN4R1hKMkpzeVVHRFA3aQ?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-22T08:13:04Z",
-      "likes": 89
-    },
-    {
-      "id": "p_gaming_news_882807720",
-      "title": "ИИ оставит геймеров без доступной памяти? Samsung уже получила заказы на годы вперёд - iXBT.games",
-      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
-      "emoji": "🎮",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORnNKVXZCcl9ad1hZc1VqZ3JGNTZRX0Y2a2YyUlU1NU9XSkR6ODVGOXdnbzNPNTlodzlCMzBhV196WEpQbzBFQ0Y3QkJrVnlKWmhBa05hckw2NEZ0Y2xXbnBuVWdrTlJ5RlVXWDJXZHlIT0F2YTZqQXVxb2Uyck45Um05R1dsTEtWN0FWQmVDR0RRdHpvT2ctbE1jSVV5TFN2Vk1aS1ZfSlhXTEVwcWZSRVBLMDlqVjBFNmx1LTZUa2lLZ9IBxwFBVV95cUxQNUdfRW1mUTJwd2FoWHJqT3R4UVdFbHlRcElhaVBMQXFiazgyUDZpR0x2SlNETExEcFBmUkkxVUJ2c3FSd0dLY0tCZnVpX0FRRVVjOEw4SV96bkFmYnFFQnZDOTVzckI1Z3k4OVFwMFowVVAxR0NNODljRllqeklfNmVQSHBJZVF4dWZvY3VjbWdFOXVVVmF3VmhuNWxrZWlUZnRDN1VWUVNGTkJydzRUZVVmejN2d0JxUVp1SGFZb0ZBaGZQdHlJ?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-22T08:13:00Z",
-      "likes": 14
-    },
-    {
-      "id": "p_gaming_news_3076379544",
-      "title": "Русская речь в Леониде: героиня GTA 6 заговорила голосом чемпионки по фитнесу - CyberMeta",
-      "summary": "Кооп, рейды и вечерние катки. Источник: CyberMeta.",
-      "emoji": "🎮",
-      "sourceName": "CyberMeta",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEVZUlByVERCWV9vQ3Nya1ZWUk1HNmhjSEtGbmtjcFBNX1U2M1pBcVZDSlZjRm9SM2JWSkNkcjhuSkhCWXo2Wm90WW05cWZ0cTFNUGp6LXN6aWZoVHZTSnQ4UmhxbkhYM3A0dHJ4cjUyeHlySDFmZzZ0MjRNOHRoTlpRRGpJMHZScjZGZVVEQVFwbnZq?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-22T08:10:08Z",
-      "likes": 83
-    },
-    {
-      "id": "p_gaming_news_3509035594",
-      "title": "Парализованный геймер сыграл в GTA 6 силой мысли благодаря Neuralink — видео - GoHa.Ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
-      "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDF0ZDF3bTg2UnNPLUNvdVdQMG5BRlJCME5nd1pwbkVkNU5qWkZuTm5hSnVHREVFR045M2VJTkJueWl5aEF4NDE1WEV1Z2NGeHdZeHVmWUpiZERsWV9ONWJCX2E0TnpyWjdLd05sTDF0VS1sdGxqdDl3Zk0wcE52T0dhQmo2MVlrMF9jZ2tCN3JlZFdUeEtZWXdsREozX2ZNMWJlMw?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-22T08:05:40Z",
-      "likes": 85
     }
   ]
 }

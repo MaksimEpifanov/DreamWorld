@@ -1,19 +1,19 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-22T08:18:37.188940Z",
+  "updatedAt": "2026-11-22T08:38:50.892927Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_3326365011",
-      "title": "Снег, сани и немного абсурда: зимняя подборка искусства на ярмарке Catalog - Большой город",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Большой город.",
+      "id": "p_art_news_3091389378",
+      "title": "Проработала неделю. В Минске по «техническим причинам» досрочно закрыли выставку - belsat.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: belsat.ru.",
       "emoji": "🎨",
-      "sourceName": "Большой город",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1seGY4dVVTNVAtTWh6ZDRMazhMd3ZuRDRZNHhrcTNWVFdfaUlFYlJTNjRIZ0xGZVZRLXhmZUtrV3JHSTNseDA0Y1RRc29GdnZOTkhXLUN2bUhXS3Z5NF9KYXdBcVJZSzlreXltcW85WWI?oc=5",
+      "sourceName": "belsat.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05WFR1b1kwb0RpMVhNNDVLUEFuTUlxOHJ3UmVVanpPeFFQXzBzMEhNSkJEdXNFX00tbHJ6NGFVQUswaTY0N0h0NzMtalNORTR4aUJ6cWloeEx6T1E3QkRUOWFIeWFqbDQ?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T08:08:04Z",
-      "likes": 54
+      "publishedAt": "2026-11-22T08:12:15Z",
+      "likes": 8
     },
     {
       "id": "p_art_news_2277046584",
