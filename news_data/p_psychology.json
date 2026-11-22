@@ -1,9 +1,53 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_psychology_news_3097930598",
+      "title": "Тюменский психолог рассказала, как маме не потерять связь с ребенком по выходу из декрета - Вслух.ru",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Вслух.ru.",
+      "emoji": "🧠",
+      "sourceName": "Вслух.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzQzakh2Ql9ZQWdMRU1EY0RuNy1EcVFWVE5sZEtmT0g1V0Fva0ozalFId2pFMHA2NzhRbXdTYmx0ZjVTQ2xORjd6MTVUZW9uSHVtRXNkLXA0UlVkV0RMaDktMlhGbXpqTlZxNGJsay04R3g3TWl0US1NTWdfNjRXY1RXS0lKWXpZeWdwYjFOUExhUU5SelFTYlQ1MGJnVTdEYUczMWFIX2dIV0d1TGFfekhqVzlwLUgtbzZUbnlMZnNpck1nM096MlFBS00yUGNOenc?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T15:08:06Z",
+      "likes": 40
+    },
+    {
+      "id": "p_psychology_news_1266168385",
+      "title": "Молчание в отношениях может быть опасным: что выяснили психологи - Cursorinfo",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Cursorinfo.",
+      "emoji": "🧠",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc3BBS0NzX0kwR1R4N1lGUE9PRDR4S1h2SXB1aTRBRVpZVGRvU19jSVVWLW1kNGtwU2czTVpndjVjQ25LYVZjQzRfMXhyWUw5ekpvWjdQTkFOanZyYXlDUGZPOGsyVUhlN0dWeXJ3a2J5OUVES0w2RnBXTjVuQ1VObmZ3dUxRZ1NsYWZZZHlWd0d1SFFaMnVlNExteTByRjhySU42V1J30gGrAUFVX3lxTE43UDFPRGR2M0dnZUZUSEJ6VFpXWUlSbHRjTE5JUUhDR0wwR2p5V0Q1RUtNY3luMUx5RG5yS1hvUjNnYVc5ZVJLVnVjQ3VxRFZoS0JyNmF3Z3g5bHREWEZyQS1nYTQtWVRwLVN3ZHFlbEVBblNob1ppUHh6bUZwVnVvbmdJb0ZmU1pkN3NqbjJ6R09HYTMzUE9WSDlZVDllc0NGYUpZZEtreHJhUQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T15:02:05Z",
+      "likes": 63
+    },
+    {
+      "id": "p_psychology_news_1869953326",
+      "title": "Дарья Данилова: Как предупредить большой скандал и что такое эмоциональный банковский вклад - СБ. Б…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
+      "emoji": "🧠",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaGEwQk00REd1M0FsNkFHOWJRVTBHeGtzZGFPWmRjSmUyb3NMaG8wa19tYV9KWXRwZUVaU3JRcU91NU5VTVJlQnAyM2hJZGVMLTcxSFNGNnVycDlocTZFbzA0REo1VWdBYzg4bm8wdHUzN2M2cUpGMkw1cmZmY0g1adIBgAFBVV95cUxPaGEwQk00REd1M0FsNkFHOWJRVTBHeGtzZGFPWmRjSmUyb3NMaG8wa19tYV9KWXRwZUVaU3JRcU91NU5VTVJlQnAyM2hJZGVMLTcxSFNGNnVycDlocTZFbzA0REo1VWdBYzg4bm8wdHUzN2M2cUpGMkw1cmZmY0g1aQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T15:00:00Z",
+      "likes": 37
+    },
+    {
+      "id": "p_psychology_news_612537415",
+      "title": "Что на самом деле делает отношения справедливыми, объяснили психологи - новости Израиля и мира - Cu…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Cursorinfo.",
+      "emoji": "🧠",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSlJLcVhHaGpMQVB0QTNZTTV4WExDYU80SHhMTUJhWXBFYVVyNWJibHJGcU8zWEIxRDNkQWhnenRqdXBIRTVPU0U0N3RzZnZ5QUtkTDg3aUgzejJrVUJhZ1ExZzcwRENmNWlGbHNqbl9EUHZiN05IcmlwX3lNM0NkWjBmVVFVeGhPQkhiX3Q0UGtSdWlVRXU3OVZiMjE0andWY3kxeGRtTVplRXd0Qm5B0gGvAUFVX3lxTE1KUktxWEdoakxBUHRBM1lNNXhYTENhTzRIeExNQmFZcEVhVXI1YmJsckZxTzNYQjFEM2RBaGd6dGp1cEhFNU9TRTQ3dHNmdnlBS2RMODdpSDN6MmtVQmFnUTFnNzBEQ2Y1aUZsc2puX0RQdmI3TkhyaXBfeU0zQ2RaMGZVUVV4aE9CSGJfdDRQa1J1aVVFdTc5VmIyMTRqd1ZjeTF4ZG1NWmVFd3RCbkE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T14:30:48Z",
+      "likes": 14
+    },
     {
       "id": "p_psychology_news_3137793331",
       "title": "У каждого своя тревога. Сосновоборский психолог Алла Асотова — о человеческих отношениях, нейросетя…",
@@ -14,50 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-22T09:09:00Z",
       "likes": 71
-    },
-    {
-      "id": "p_psychology_news_339784891",
-      "title": "Почему больно после коротких отношений: объяснение психологов - Коментарі",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Коментарі.",
-      "emoji": "🧠",
-      "sourceName": "Коментарі",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVW1RTTY1UUwwTWw4QzRxMFRxSl9rQzM4XzJ5WkgxYUxOTUNfV0NVeHhZd0V3MWZLN0kxQU5zQWhKUHA5aG5CVThoelNsbVd3NmFVdU4xSjFRTXdWVTNQVzZ3cko1dmlPUGZYdEdGZnhmZWRONVFHalQyeHk3amdRekdmdWhHUzVrc09qbTRiSFNqRzEwVW54V3R3clJQZVpVdnNJa0ZONU5ncEtIUUpUNE5oVl9paEI2OTlJMDBpZGlJVHpZRnNVVll3TmhjOVJHcS1ib3p0ZmlzQ3pPaVdza0VrSVpVNkU?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T08:02:00Z",
-      "likes": 57
-    },
-    {
-      "id": "p_psychology_news_2197532141",
-      "title": "Психолог объяснил, как научить ребёнка справляться с эмоциями - 78.ru",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: 78.ru.",
-      "emoji": "🧠",
-      "sourceName": "78.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTDJvYXFDZjVkSzdtLTJpRjdEN0dpZ00tamxfQ0Y0VEM2cjU5bUI5cFo3dWRKZnVmTHIySk5RcnozYTktZVc4MndfamRNSzM2LUhPam5XcFVvRzhGVGNpRkwtUVdMVU5OUEpHNndCUlU2b0tEUEhFX3ZIZ0JHb0VmMzBFWjBxSnAxdlBNVlRBanJtM2FTQlgw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T07:31:39Z",
-      "likes": 88
-    },
-    {
-      "id": "p_psychology_news_3927484803",
-      "title": "«Потерплю, само пройдет»: оренбургский психолог объяснил, когда стоит обратиться за помощью - ПроОр…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ПроОрен.",
-      "emoji": "🧠",
-      "sourceName": "ПроОрен",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdG1ydnhTWHpGQnJTOC1wZDZ5Y2FGTk5SVXJEVDBLQXJXOWwwTk03cERxaTVqdUpOTWVVbUpFdkZDVVdRdHVsUlZHMzVYVXBlUHFXVmNka1JGWEdZQnFjb2NuUmRWX2ZMdjF3QzRNd21KMGtGOHhUcDQ1RlhNVFNyQ2lmQVpxd2Z2VVVNcHY2bnB3LUZRTzlmWC1zU2xfanJFdjVWX0hDUlRCZTE5M2ljakZR?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T07:04:09Z",
-      "likes": 66
-    },
-    {
-      "id": "p_psychology_news_2329293602",
-      "title": "«Разморозка»: психологи в Норильске рассказали, как Север влияет на нашу жизнь - Новости «Северного…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Новости «Северного Города».",
-      "emoji": "🧠",
-      "sourceName": "Новости «Северного Города»",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGl4Y3Z6UzV4QWJBX0RjLVptbThxWFNJbWltdmNHdzZOaUpOTlVpeDVOSXVuQTJuNmhQRVlYUkFzaV9MN05Jb3JhVVJKQ0FmZnpJMWJVb3NPcHR6UGlWT3hVbzlXTThQaVdSbXdfV0pfTUpWb2ZHeldOWXlqbm55aHQyQjhyaktwek0zS05fSlA0c1hwamVzczNQdjBRTTdhTnV2akdEQWE4YXl1UUhjQ09Qdw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T05:13:00Z",
-      "likes": 51
     }
   ]
 }

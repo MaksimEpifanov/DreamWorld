@@ -1,12 +1,56 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
+      "id": "p_music_news_1330835399",
+      "title": "Саундтрек GTA 6 побил рекорд Spotify среди игровых альбомов - почти 30 млн прослушиваний за первые…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: PlayGround.ru.",
+      "emoji": "🎵",
+      "sourceName": "PlayGround.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc0lhcWU3angxck5RY3FVb0JVLVZsWnU5ckNmSUdhZHN1ZndEWXhuWml1VHhWcGZZalNPcUdaWFZsSlRoekwxQ1Axc1FjMkFxQ3JVbjZKVlBHWHZMS0tPR2NleXMycHpfNC1TUXVvMmJfRkwzMnlSSk9jSXJLS21vZzZVbUZRdTZIVDd5SkNwd2JndGtJdGx6MnpkUmk4UGVCMEZSZDFFcFhCc2l3cE1GMzZCb2R4T2h5UUNuZ0lCdm5DSU1kNkM4SHJ1aVZkdndYV1hVS2kxNDhaT2xjOEFTQjhn?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T15:27:48Z",
+      "likes": 10
+    },
+    {
+      "id": "p_music_news_298185032",
+      "title": "Разработчик создал лёгкий клиент Яндекс Музыки на Rust — он использует в 13 раз меньше памяти - pro…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOUtIOUFxQVpPb2Z1X1gyNmRyZHBhU1ZtSVdCOVZhUlZGSVdqZ0ZCOHl0dlh6M2I3WWxoM2hCLUpwT19JeU5HaW5rYnJxX2ExSG5WNmh0WnhEREVkci1sYnBxVzdtRE9YaE44bU43Wm5vUngtMXEtZzVmVERKTkNtM0J2cHFJNWpETEt1cVkzM1VaN180VjFZdTJTdW9veU04UFZlY25sUGZCZjBhRHlKaDEteTFaN0JKWG9vREdkSHZoT284Z1FHb3I5SjNmTl9T?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T15:05:33Z",
+      "likes": 59
+    },
+    {
+      "id": "p_music_news_3771467913",
+      "title": "Баста выпустил «Шлак»: обзор на новый альбом Ноггано с ростовским вайбом - 161.ру",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 161.ру.",
+      "emoji": "🎵",
+      "sourceName": "161.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qUkhXdG53NGhVZjNwcHZtRkxjM3dwQ1FRNjNzTzBweDhRLTM5RkY1LVFxQ09XZWR5dmZGcFQwLXNuVmdvMGo0MzFCMTZlZEpHNmM2ZTU4TnBteVFH?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T15:01:00Z",
+      "likes": 53
+    },
+    {
+      "id": "p_music_news_113133721",
+      "title": "«Отава Ё» выпустили новый клип и альбом и анонсировали рождественские концерты - prospect.com.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkNFT0JWV1JhOXlaTFo5T0NJVW52bFFmMUxiRV9PdFhQMnA5TXc0YjU1N0lxcUNJcDl6ZEhyR1FIeGdReEhqTjVQdnVCRTgxWmg1NGNTaWhyVlVEYV81MWVuVm1yNWJ5bUVMOHl4N3FEems0ZmtXZDIzVm1QdVpxUXRUVkdLbm0zaGJ3QVVUME1yNXlERlZzbHU0WlNMcktLTWFDVVFTenF1RmhZWThyaXZkVEVwRk1BUVE?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-22T14:44:53Z",
+      "likes": 81
+    },
+    {
       "id": "p_music_news_66804116",
-      "title": "Trivium выпустили Crown In The Grave: вернул ли одиннадцатый альбом былое величие группе? - Dead Br…",
+      "title": "Trivium Crown In The Grave: разбор альбома 2026 и возвращение к истокам I Dead Brush - Dead Brush",
       "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Dead Brush.",
       "emoji": "🎵",
       "sourceName": "Dead Brush",
@@ -14,50 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-22T12:02:06Z",
       "likes": 12
-    },
-    {
-      "id": "p_music_news_3753862822",
-      "title": "«Галя, у нас отмена!» Кто и как мешает проводить концерты рокерам, Канье Уэсту и SHAMAN - 76.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 76.ru.",
-      "emoji": "🎵",
-      "sourceName": "76.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWVUNiZ3EzVGZqV3NQQjVLUHRudEZTSXF4aUd2MmtPMVUtU0JucExUV2t5cE5adVlneHFiUGhHQklaNkN1YWVPdm9CTHlPRWc5QVJHNVhHTTZpWnN2ZUlxRW12OA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-22T07:00:25Z",
-      "likes": 13
-    },
-    {
-      "id": "p_music_news_941091565",
-      "title": "Диана Арбенина даст концерт в Чите - ЧИТА.ру",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ЧИТА.ру.",
-      "emoji": "🎵",
-      "sourceName": "ЧИТА.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DMEV6a2Z4aVJyNTlpTzgyQ2Myd3dIajh1NFozSFIzTmM1Y0ZmbkY1QmxVVEtvNmVuOFV0OV9BdlhodWg0bmNfVXNfdVdNSGRlaXBZSUE0Wmh5QmdreU9TeG5kYmw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-22T01:01:00Z",
-      "likes": 79
-    },
-    {
-      "id": "p_music_news_2547947690",
-      "title": "Яндекс Музыка подвела итоги «Распаковки 2026» — треком года стал фит Zivert и ICEGERGERT - rb.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: rb.ru.",
-      "emoji": "🎵",
-      "sourceName": "rb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTEdSVlh6SG5LX3lBVEhKcnpXN1M3NTRMN1E5UzNpOXBpNU1OWkdzSk9wV0tET1R0ZjAyb0hYcjRDYTRDNHNyMk5yb1dPWlVNZy1vSFlxSDNPaG5vYVNpNktSSEJabkdqYm92Zm1oODY5M2YxTzNPSlNxUGhtUU10OGRpX2dPb25SdFRHOW5pT3liaS15ZmhQbnZGUGdBNXo1ZmxCSWhpWEQ?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-21T19:00:00Z",
-      "likes": 31
-    },
-    {
-      "id": "p_music_news_2308744862",
-      "title": "Для GTA VI выпустили музыкальный альбом с участием мировых звёзд - ANONS.uz",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ANONS.uz.",
-      "emoji": "🎵",
-      "sourceName": "ANONS.uz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPelBFeHlkczFFZ28yMlo3VjhJTF9XdzYzVDJ6bUdnVHlsTS1yeU9EREFMS25LN0FtVUhDZnVLdVhveUUyWkMwZ2ttaDVpSkxDZnVYVjVZLTlxRGlYdDBlRlpMd09hNzdUUWkwN1VjdU5oMEptOFUyOENBQ2ZjV3k5d24yN09za1lhRWo5OEF1aUluQzg?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-21T16:27:42Z",
-      "likes": 76
     }
   ]
 }

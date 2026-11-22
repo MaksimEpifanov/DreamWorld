@@ -1,9 +1,20 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cars_news_792469294",
+      "title": "Российские автомобили на базе китайских моделей: список и производители - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckZmWjA4dkE1VUI1VFhUMDFXQ1JSMncwVzdlZ2lEMmtubkprajV5U1pYTzFETFJDRXlxRGJfUnp4d2xENWpWZTZnLVFwNUxZSzJCR0ZEYlF4Tk9qdkZpNGk0eDhkbnA3Q1RHSFk3c1Y1aThHREpNdHdINkRxQUdXSm5lNG03LWlscjFtT3RNQTZxRTdTZmRQcXRIMTB6dkJGRWRKLXVwV3NvUQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T19:31:26Z",
+      "likes": 87
+    },
     {
       "id": "p_cars_news_179679813",
       "title": "LADA Vesta CNG получит цвет от Azimut, недоступный для версии Sport - Tarantas News",
@@ -47,17 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-22T08:16:21Z",
       "likes": 47
-    },
-    {
-      "id": "p_cars_news_738680036",
-      "title": "Honda и Toyota отзывают 1,6 млн автомобилей из-за подушек Takata - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZlNpUU9LdGs4eWk3NW1PcU1feUQzbTZrQkRQTWlLd1ViSDROTGZWWUI5RUhYMHNmN0tWYmc5OVZYMEJEVWNkVm5fWkJfZldDbTVNMEtMYk5ndWY4Yld4Z2xDUndpenRxN0FLMGRZTDlwTWdIc0tvVk5aUDY2SEstM2NFVG1vclFENDMtNk5tdkswY3hYZ2ViaXk1RTRXbWRYYnVRTw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T06:26:22Z",
-      "likes": 20
     }
   ]
 }

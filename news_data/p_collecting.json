@@ -1,9 +1,20 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_collecting_news_2899836675",
+      "title": "Коллекционер из Дорогобужа рассказал, как нашел редкую пуговицу на рынке в Санкт-Петербурге - SmolN…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: SmolNarod.ru.",
+      "emoji": "🧩",
+      "sourceName": "SmolNarod.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSF9iYTM5d2tEMWFjVWFzTmVBVGo2emNsMTZ1OGhUamJGTmZWNjBSX3pKcVJsY01PbDlJa3NScUxLVnJfb2dkQ2NXOHhFTG04d2xYTnpTbkd2UWJmWUJlWFpxYVBYeTdIanVKSnlaZXNhZVhHekFsNmRPbnB4YzFZaGtPVWtTS3hxRGcxVmRhOVpPVnJYTTN0YkhoUV92VXd5?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T16:12:56Z",
+      "likes": 50
+    },
     {
       "id": "p_collecting_news_185412912",
       "title": "Новый магазин коллекционных карточек London Card Cop в Лондоне - futbolpressa.ru",
@@ -14,6 +25,17 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-22T13:02:42Z",
       "likes": 68
+    },
+    {
+      "id": "p_collecting_news_170564343",
+      "title": "Прядь волос Джорджа Вашингтона продали на аукционе за $4 тысячи - Интерфакс",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Интерфакс.",
+      "emoji": "🧩",
+      "sourceName": "Интерфакс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94YnVvY1FJSFFtdTR0SjRjX1huaW9KWDdad3pFbFFuOFRQVTZlWVc3WHlLRUdDbUNWa05QejE3ZjdMSXdhSEZHczBKMNIBS0FVX3lxTE94YnVvY1FJSFFtdTR0SjRjX1huaW9KWDdad3pFbFFuOFRQVTZlWVc3WHlLRUdDbUNWa05QejE3ZjdMSXdhSEZHczBKMA?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T11:50:00Z",
+      "likes": 59
     },
     {
       "id": "p_collecting_news_3714338104",
@@ -36,28 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-22T05:00:00Z",
       "likes": 18
-    },
-    {
-      "id": "p_collecting_news_3217007308",
-      "title": "Картину Марка Шагала, почти 50 лет находившуюся в частной коллекции, выставят на аукцион - NEWSru.c…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: NEWSru.co.il.",
-      "emoji": "🧩",
-      "sourceName": "NEWSru.co.il",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ndllxQW1sY1ZpLWVTeG5rTC1nYk9ObTk3NG1FVG80RGNIMTM4T29ZMHNzNEVZdHlGOFk5TlJBOVdvZVFuV20tUVZJU1o0V0dqbC1XSlNkVWxnWkxtVE9DamhmcnBEcmPSAW5BVV95cUxOTlJ1Z1VSQjdlUUlxQk5la1NKdmc0Z01paGZJdlprbWVUQlUwRlEzbm5nODY5WkYzQllkSTMyUng3ZEVETGJ2Q1JNb0VNMjdKSW9oZnNFQ05WQ2JJLUxkUlFYRVlHOHhSU3dGMHR1dw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T04:45:18Z",
-      "likes": 12
-    },
-    {
-      "id": "p_collecting_news_854612072",
-      "title": "Он пожертвовал своей 30-летней коллекцией, чтобы его студенты могли получить практический опыт в на…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Vietnam.vn.",
-      "emoji": "🧩",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc0p6SDBMdG52OWpDb2o1RnlvRnVNSVZiT2lNWll0MWRNLXBia2lBTWgzQ0Nsc2QyQW1YcGZUd0ZWbEg0VWV6UEpfelFaVDM5aW5qdW43U1dfb1RXM0dKVjUybjRfSHFGVTZ4bFk2TW5BNXVNTWZyUzJJVWtYQTA3RzF6NmJudVV6SjNieG8wYw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T01:12:20Z",
-      "likes": 44
     }
   ]
 }

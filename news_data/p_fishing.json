@@ -1,19 +1,41 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
-  "source": "google-rss",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_497513889",
+      "id": "p_fishing_news_722684316",
+      "title": "Эксперт из Ростовской области назвал 5 частых ошибок рыболовов зимой - rostov.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: rostov.ru.",
+      "emoji": "🎣",
+      "sourceName": "rostov.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUUp5bEN1Y21jN0tSS0R5MjdPQUFKaWVMaE5DdGZUMkl6OE9SaU9oQXYwN3c3YVpraDMxLVhUM2pvdUVvZ0RKdUlvem01ZHhhNFhVNi1GeWJUMl9SRlF0WkFKM2NqaVNiZ1Q1a2R4TEJHLXNrSFpnWTd3OHNoWlhOaXBKTEtwZVNabkl2d0wyVTN6d2JITnlQSW41RGo4YjIwTnhjeA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T17:50:37Z",
+      "likes": 88
+    },
+    {
+      "id": "p_fishing_news_3152915656",
+      "title": "Рыбак из Ростовской области назвал пять ошибок во время зимней рыбалки - DonDay",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: DonDay.",
+      "emoji": "🎣",
+      "sourceName": "DonDay",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ1ByTUZBNFkxSTRBR3ZXT0xzNGhOcGFhZlpCaDNsaExkN1VWbE1IWEQ4V2doeE5Rc3dnSTlwSmczWFpYTW1NVlpXVHpMc2U3T3pYQS1BU3lYRE02QVFvc3gyMl90WnV1VHlldzRpd3ZmMmxpTFFGbnc3dVlXTHh1eGlOcXB4S3ZXNXRCQkFUYWNmZTBrUURYeFR6ZlpDcnM0ak5QWGRoWEhRZGxqSkphS1Jldw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T17:30:53Z",
+      "likes": 91
+    },
+    {
+      "id": "p_fishing_news_2174563544",
       "title": "Рыболовный календарь на декабрь 2026 года — когда рыба лучше всего клюет - Главред",
       "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Главред.",
       "emoji": "🎣",
       "sourceName": "Главред",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3RPdjRpdWZWWmtKTWJ1S1JUUUhnNHAtUTFDVlZHcHhSbEdmYjg2RG1KX2xxWVRDUEk1bjJ0eE52elNpSUlHeTBXc2dQUEg1eng2SkQySVRlUzBhTkttX1k0VllDMFhWcWlIdFBGMzNOSWNxdk9uMTA0NE0xU0dBV3A1VGlDSmlIT1NZbVJzRmI1bTJ4VzREc1RDc0NxOHpzZjcyRklySlpvclRq0gGsAUFVX3lxTE8zdE92NGl1ZlZaa0pNYnVLUlRRSGc0cC1RMUNWVkdweFJsR2ZiODZEbUpfbHFZVENQSTVuMnR4TnZ6U2lJSUd5MFdzZ1BQSDV6eDZKRDJJVGVTMGFOS21fWTRWWUMwWFZxaUh0UEYzM05JY3F2T24xMDQ0TTFTR0FXcDVUaUNKaUhPU1ltUnNGYjVtMnhXNERzVENzQ3E4enNmNzJGSXJKWm9yVGo?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1ZtVVl1cGxqZU40cVpyYjNYZnJLZGpXZnUzNWZaY2h3Nk1JT2tZT3lGdmJhSlNob0NTdjEtLV8tTGM5OWhMNUNfdXh0LU5XSWwzcnR1dDFqVndrWGRUamVzaWFFb0NtT3dpamNnck50enNkNm5wQTdHVEpZRUhmYlppUENycms2MVFRUmtfRVhMdURhc3lyUnJaaVc0RFdqOWVwSnlHWdIBrAFBVV95cUxPM3RPdjRpdWZWWmtKTWJ1S1JUUUhnNHAtUTFDVlZHcHhSbEdmYjg2RG1KX2xxWVRDUEk1bjJ0eE52elNpSUlHeTBXc2dQUEg1eng2SkQySVRlUzBhTkttX1k0VllDMFhWcWlIdFBGMzNOSWNxdk9uMTA0NE0xU0dBV3A1VGlDSmlIT1NZbVJzRmI1bTJ4VzREc1RDc0NxOHpzZjcyRklySlpvclRq?oc=5",
       "tag": "Природа",
       "publishedAt": "2026-11-22T10:45:00Z",
-      "likes": 10
+      "likes": 33
     },
     {
       "id": "p_fishing_news_838132980",
@@ -27,15 +49,15 @@
       "likes": 74
     },
     {
-      "id": "p_fishing_news_1256725143",
-      "title": "Рыбакам ограничили вылов в четырех областях: за какую рыбу штрафуют - Новини.Live",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новини.Live.",
+      "id": "p_fishing_news_2857271182",
+      "title": "Рыбакам рассказали, кого и на что ловить на первом льду",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Радио 1.",
       "emoji": "🎣",
-      "sourceName": "Новини.Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUEp2UnU3RmtKd1RfY0tWQkYyWEJnRlJuT3FRTnVVdndTTUludlFJYU5LSFYweklZS0ZsUUItb1NyN0RyVWxGZnNqVjVlNnpuZ3JzenA0SWM1Nk5CSlZBLW56eXhVZFRrbG5JNFVGcXh5STVWdEZETEdCUWRxSUpYY3k3WkduUHNfd0g1akVQaHhkRGhSX3JSRUtRQ2FncUN5bUt0SFVaLVppVEJ5bmlPMFljakoycTF30gG-AUFVX3lxTE9DRS1CMVlqOFVPNHBIQXpmNEtfaHNLckg4WFhWRnhsVEtEMmYtNlVieFdrcnloXzhoaXE0Z2hNT2JaVHJTN1Zqbkg4a1Z4cHlZZGpxaEZFdVUzVHRBVU5sSG9peWs4UktXNTRiSkE1S3JuUlVUT3VRdDJGZzRXai0xQjBLUTA5aTd5VnRia2tQQ2RUWjhwN0NBVnhtY2FJVTBvdzIwSEU2SHV3VlJCOUdyb3ROWEVTSmFPYnY5UHc?oc=5",
+      "sourceName": "Радио 1",
+      "sourceUrl": "https://radio1.ru/articles/obschestvo/ribakam-rasskazali-kogo-i-na-chto-lovit-na-pervom-ldu/",
       "tag": "Природа",
-      "publishedAt": "2026-11-21T16:30:57Z",
-      "likes": 84
+      "publishedAt": "2026-11-20T04:04:00Z",
+      "likes": 69
     }
   ]
 }

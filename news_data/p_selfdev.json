@@ -1,9 +1,20 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
-  "source": "google-rss",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_selfdev_news_528971541",
+      "title": "Безногий боец Зайон Кларк: тяжёлое детство, мотивация окру... - Fight.ru",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Fight.ru.",
+      "emoji": "🚀",
+      "sourceName": "Fight.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVzcwellJRExJd2FEUGY2MUNER0NNSzNKN2txRXo2aXQ3M2ZwcEVZeHZXb1lvWExfZ3c3LUk0ZDRIU240LXlIanVUTHRHTncyYkJsaFNpbUtQeEQweUM2Q1NPcDVaQXRhMGhHZTIwMFlVRmJSUjRaVUhNaW9IQlNBaHB5Mkp6OUFhQmhXYzhBd2FxVFZ0VFZwYVY0aUpXQjhhaUlXSnVFaTZibmprTkJmLVFrbkdNYmdrcERUNWRDNjRRSjJzUng4MVlmS2w3V04tdHZFV2I3ZVJkX1ZvXzlvLTQyLWXSAeoBQVVfeXFMT3ppT2dzdnA0SGhKcEdFSVVoNzU4TF83bm9KVndjWkJMNGZsNWFtTHhqdDZUVlFRY2xrUlFVT3FEaURxcTFwbnF3VTVYZV9Cd21nRF9xT096ZG5SeVRvcGs0OFg1SWdnYlJCaTNidzU3bEtZSXdTR3NLVEhWMEhtZ1FFNTIyUjJ2OGxYNXVLQU5UUkZjeXdHLTlQRWZ3aFREYlp6ZmpiNXMwOWxBZ1M4V2RRc19oWWNTVlRTMlVFb2tlVWk4QXdOLUM0aUhBcEd2RnF3RFZPdmhLYWlqNFVybWlGS3FlSF8yMk1n?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T19:02:21Z",
+      "likes": 87
+    },
     {
       "id": "p_selfdev_news_2339968930",
       "title": "Содействовать внедрению решений, направленных на стимулирование потребительского спроса и развитие…",
@@ -36,28 +47,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-21T21:12:33Z",
       "likes": 79
-    },
-    {
-      "id": "p_selfdev_news_436679826",
-      "title": "Продуктивность коров в племенных хозяйствах Башкортостана выросла на 10% в 2026 году - Стерлеград",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Стерлеград.",
-      "emoji": "🚀",
-      "sourceName": "Стерлеград",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQWRHMlhFVU1VdjhOdVNtWDFRYTZ3WlpQY2VMc0V6NWhiN3E3LUs0WGxDQUMxTUZHbGpubE5tUjRkbElzeUtRN3prVFJZVTA3SEwzSEpUeUYxQlNXNGRCclBKUXpVR0RsbGVkdXYxSG9sRE90aGp3aTN4YllRaTV3RTd4OWtPOFFpOVpYTzQ4aFJhY25WV0dtNDhrWFROa1hkMFM3THh1UnZKRm54Qzg1dDkwNzFTenVyOXlaWWpCQ29zbUFt?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-21T18:25:38Z",
-      "likes": 88
-    },
-    {
-      "id": "p_selfdev_news_3500699510",
-      "title": "\"Двое против одного?\". Эксперт о необходимой конфигурации сторон для продуктивности переговоров по…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Новости Беларуси | БелТА.",
-      "emoji": "🚀",
-      "sourceName": "Новости Беларуси | БелТА",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaGVTc2I2elVfUVEteVgtbjk1OFY1bTR1UEtGc2ktcVlKbV9USlhudEhTdzJFYXlQaTNsUWlSNHRSSWxLN19zbUtiU2ozeF8zQ3N5T0lpLTZoRWtwYmQ0Y1Q2T3BJTEZDeUw3UXQ4YnUzRV8zclhwOHBDRmdmNklvLUlVM1NTaTJ3aWZ0TEFjbkY2UGNXcG1wMk9pcnA1QUhGclEzd3RYMF9LVWo0QmIxSFJiWVdEMXlhZFhKb2lub1BiNE9ka1U5UTVPanV5SUxhZThra1liOThRd2M?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-21T17:55:14Z",
-      "likes": 15
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_1111724824",
-      "title": "HMD возрождает PureView: новый смартфон получит четыре камеры и оптику Schneider-Kreuznach - prospe…",
+      "id": "p_tech_news_3506516036",
+      "title": "Министр образования Южной Кореи подал в отставку из-за скандала со вступительными экзаменами и ИИ -…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Судово-юридична газета.",
+      "emoji": "💻",
+      "sourceName": "Судово-юридична газета",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVUlULWlBblRtS1NpZzRFbWV0S2FsemZvNWRITVhZUmJqQmd2WldwdEZBNmxBRmo3b2xoUWRFdktRdHlkOFJqSS03Z0MtM3lPYXF3TEcyMEFVY0RyWDhNbTFLYmx4aVZDZFNTMXU0RW5XNDRpSEljTGp0a0NHVWlDemxrMzhyNlFjUjhXMi1RWFZ1dDgxRjBzTjRkV0VVRVpYNXY0N2JQUmJwVFB4U1c0OVdHb2hZSGpWSkh4WnozbllVcVFKWWpVQg?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T19:26:00Z",
+      "likes": 67
+    },
+    {
+      "id": "p_tech_news_921783763",
+      "title": "Способен ли ИИ разработать лекарство? OpenAI представила MedChemBench — тест из 99 задач по медицин…",
       "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
       "emoji": "💻",
       "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdVNiX2JYbmhWWkZTT3NybG94cjJFMXJIQk9ReGpKX2VHenRCeVhxUEtEOG9CR0xJWWtuN1dvWlZZaWYzaUdEODhXMjZ2azRpV3RjRVNVbXhTVDZSWHhTSUZ2LVVSV1dvTU9qVV9ZLVhmNTFJcndZMmdUTm15NTRLR09lMk9VWENxcjYySU5xOWhNUEZCUGFMdFE1WVJHYUNTSENkMjd5NVZNVW43cE1POGtHa3VJblRqWTZrYndSb1ZJVjZDWUNoRndRYlI?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQTg2UHhZeWtJTldsMVZrYnFZaWNIS1MyY190eGQ1WnZ1N3VZU0hYQW1nV3RtcEUtOEhSMmwyOEVHZzBGZmJud19ETTVadnF6ME9vLUp4Y25BdnJKWmlvWHJBTFJVVlFvZ0pHcG95OFJGUlMzWFVyX3pxaVkwcWk5VHdzc25aZWhNUDVCZEMwZXZCdHVxb3FZNEpjeXY3dU9NT1gtTW5nZlp3RWZ5TllVYS0zSmp5THZabngzUnBjTXNOQmRIMmpsWjlMWUYwSFFRdjFOci1sbXdwUQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T13:44:48Z",
-      "likes": 23
+      "publishedAt": "2026-11-22T19:21:59Z",
+      "likes": 5
     },
     {
-      "id": "p_tech_news_3457598462",
-      "title": "Samsung сменила руководителей подразделений смартфонов и памяти на фоне остановки поставок чипов в…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
+      "id": "p_tech_news_3905456396",
+      "title": "Шесть AI-гаджетов, которые помогут сделать домашний офис умнее - 24 Канал",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 24 Канал.",
       "emoji": "💻",
-      "sourceName": "iXBT.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY08zNXlsUjhwRF9FV3ZKSG15VVFLdHZUTlBwcGxub3BXZ1ZNMlpMM1gydXZKM0ZQZEtmV0xjQnNTTEtfY3lBeGl3aU41Z0N5X3pzY1M4Q1p4ZTVUMnZqMWUxVDZ4aWhiMDhSbXQwVjc2NVhCaUM4SUtkbDZlNnduNGZwQWh4UzdVSGxlSFd5SVh6TmYzcVhGUUxneFctY1c5cnpzUVR6bWxaTWhSVGxuZ1NMN3RDNE8waG40MDRIaHhmaXkxOFB5X1Z0Tkx0M0poZkUxQ3EtVFgtTHJYLXkycdIB5gFBVV95cUxQTVZhd0RJTmZsTTdwVHFabVdBVE1iNG5NWEZfSmktUGJmSHI5b0hyZ3E2aFNQRHpNNTJyZ090X2ZUVTF1LWp3VWhzSjZPVXltVTZnbkJQZ0hEaHBORGdjbkFodTN2UWRFdWJ0Wk9wU0FjV0N5V011RXY1eERWNHpQQUZGQWlsM1pDcG1xZS1lNDBPSkFiWlRKSDhwSkRXeXUyd185U0F0em9yWUo4QVdUSFJMM3llWDlSWW5DU050d3Uyd19FdzJZQ2lwSXNmcFdBSkRHTGkwSi03VHFITmxhZzlWaFB3QQ?oc=5",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUS1DT2t2a0N4T2czVWUta2Yzc1hTX0Fqb1g0WUFsTzExT0pWTHQ5NEFIR0JiUmlnTGdPUGRtT0k4aXE2YWMwdHZLd3Rqc1VvelhCMjBjOVFvMTBlVE8xNkZVQklrYkcyQ2szRkMwWG13VEVfMTM2RDZ4RXBic2JybTl6RWZRZllrYmJZclE0SUllVC1BQ0ZydnVZbzM3QdIBowFBVV95cUxNeTNoVUUtdm0zYXdkMGdKN3dMQnpoS2xwb0JUeEUxaWFYak11QUNKNWJvTERSZEtHVUtzUVpDNXktZm1oMGtGZG1VVjN3eDVCWTdROXI2M0o4VXBaVjZ0c2Y1Z2ViVmlGQVRuRFJXMFZtV0lBTk9NWWpqeXlrZ29mTEFZYnhrTjlUd2dTRGFJSkszd0p3bkdtZVMyTGFVemFpMlpV?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T13:00:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-22T19:00:00Z",
+      "likes": 34
     },
     {
-      "id": "p_tech_news_1682652835",
-      "title": "Эпоха искусственного интеллекта помогает Вьетнаму совершить скачок вперед в сфере здравоохранения.…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
+      "id": "p_tech_news_654685551",
+      "title": "Эксклюзив: Ханна рассказала, как относится к искусственному интеллекту в творчестве - Peopletalk",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Peopletalk.",
       "emoji": "💻",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUJjY19LWWx3bkxTaFhHZWpYNWxhcjZXNUdKLWMyamZaUWhkUzl1Q0hnMENyR3NpMFMyWURyRFBsZTZ0dENVWXBnNEpGa08yYVpVYkdIMEVJMXFzMnBpZWhvZEI0ZkJIMnR2MkliZ25rYjc1b1JBWkU0OFV0U05BaVNUajg?oc=5",
+      "sourceName": "Peopletalk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMzBDNUZCdVM2QndEMGlpdmpvMkdfNWJ3M25lV2FBYV9seFMxWjdVWDFpeEUweHZsbHBMY2h0bDl0OGRDNWh2MDFNSW5RdTVqc3dBWEt6bUMwMWFmT0ctNHFjamRYM3ItME9lZFh3alNBck1qczc1SXlQLXg0VGhGZ3Z5TWsycWhiNGwzZ3FPRDVNTE9pc3R0ZkdqSGFGaUNSOGNqd0REYjRvS2R0T0U1M0JIdDktQdIBuwFBVV95cUxQOWdEcHF1aURUVVN1S1M0SGpEZ2tJTzkxOUlIRHhaTXdVNkpzeVJLU3V1MWFwbGpJblB1WFhOTTVPMWRac1VESVQ0WjFZaGJOVC1RNW5JVGs2cU1PWHdJQ25obVNDTjAwVjRYbjlXUFpUMGRrMHdCWVMwTU0ya0VaYzlVbUJmVmVuYWx6WkdkNWRpOEJ6V3FxUWZkbnpLMnFteFZHUGJtNmZrdUt4S0lGTjgzc2gtWWtDd0dz?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T10:23:00Z",
-      "likes": 30
+      "publishedAt": "2026-11-22T18:35:49Z",
+      "likes": 3
     },
     {
-      "id": "p_tech_news_2890000103",
-      "title": "vivo выпускает V80 и V80 FE с портретной камерой и поддержкой искусственного интеллекта в фотографи…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Vietnam.vn.",
+      "id": "p_tech_news_4224823294",
+      "title": "ИИ довел министра до отставки: в Южной Корее разгорелся скандал на экзаменах - Ulysmedia.kz",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ulysmedia.kz.",
       "emoji": "💻",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXpHRkZpQ19qQWJRVW1DeEVsUGJBLU8zc2pMWThmZFFkVUQ5MFBiZFVXOTkxWkNjQVg5ZlhZM01IOEt5elM3SXp4LTQxUmpZYzhhQzNiNFZXemhkb2M0TElFNFNTUXpDZy1zdlVpNzB4cFhLV09mMU5KR3FHaFdHZE9tZUtDd3BlQzNGXzNn?oc=5",
+      "sourceName": "Ulysmedia.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDhic3JiZ1p2VXlEdUF1S1pqV2tiNDEzRTVtNl80cUFHVFBBakhldU94M3hsVjBUdmtLN2RpSkpvaTZpZ0hOdVE5aGJ0ZnRMb3Q1LXRNYk4zaUYxMFN3VU9HeUowU2N4Q0p2aldrZUM0M2JkYU90OV9mNEJXNlNfOXR3SjRoVmFEcWVrOWg1RjlzZ1paOTZyaUg4LXY5SFZoX0N5MkstTGthblVfUDNPUkV30gG2AUFVX3lxTE8yU3Q2SXNvSm1MUk8tR3pXWlllTE5qdlUwU05aR2JlbWF3NzFsV3VxdWRBRHphRXZZVHY3anNUUFBxSldkY043UkEwdmhhcGhBXzJkR19vNGtHX3J1VG41X2JWMmsyNU9tMXQ3YUdHb0M2dnFmZHJ6SU5xbzBOY0RNYm9GS1hjUjFsRHFROTBQMXNmU2VaZE5IS25LT2pOSnBaVzZZbUIyb3YwTG83T3psMHplRE9B?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T09:02:21Z",
-      "likes": 13
-    },
-    {
-      "id": "p_tech_news_2358827161",
-      "title": "Персонализированный прогноз погоды появится на смартфонах Galaxy: Samsung готовит новую функцию в O…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
-      "emoji": "💻",
-      "sourceName": "iXBT.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTDdBZ3ZQY3VOWEFzdEdlOG95aTB5Wkt5UTFiMllPY053ZkZ6TldDMjZkUndMVzJpNWEtWUtDeWozTXRWUDl2bGVRWnZPaXhnOXVvamszVm1ScjFQVUQ1U3VFakFiLWtWbGJDOWlPa3h2MnNqdGlueFJ2SUxtbWlpRVM4dVZsQUtnN25BWEROV2I5ZE9LMkR6M0VNTE16ajBMMHVvRnpfemdfX0JMWDNERG9TUzZKcDRTcjFkbzQ1SE5tLUtsNXR0N0NWUHhyNjBWS0tzMjcwOGg1cmJpNXkxWjBEZm4yTkHSAecBQVVfeXFMUEw3QWd2UGN1TlhBc3RHZThveWkweVpLeVExYjJZT2NOd2ZGek5XQzI2ZFJ3TFcyaTVhLVlLQ3lqM010VlA5dmxlUVp2T2l4Zzl1b2prM1ZtUnIxUFVENVN1RWpBYi1rVmxiQzlpT2t4djJzanRpbnhSdklMbW1paUVTOHVWbEFLZzduQVhETldiOWRPSzJEejNFTUxNemowTDB1b0Z6X3pnX19CTFgzRERvU1M2SnA0U3IxZG80NUhObS1LbDV0dDdDVlB4cjYwVktLczI3MDhoNXJiaTV5MVowRGZuMk5B?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T06:40:56Z",
-      "likes": 39
+      "publishedAt": "2026-11-22T18:33:00Z",
+      "likes": 80
     }
   ]
 }

@@ -1,9 +1,53 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_art_news_2432099771",
+      "title": "В Музее истории Обнинска открылась выставка художника Юрия Шерова [+видео] - Obninsk.Name",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Obninsk.Name.",
+      "emoji": "🎨",
+      "sourceName": "Obninsk.Name",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBXTkd1N0MtNjY1QU1RQW82cTZ5czVtZzlvQ01QbGUxalhTS1NDb2dvM2tkUmRlWTNNdWJPVUo2LXBkTGNUV0FCWDN3?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T18:57:09Z",
+      "likes": 55
+    },
+    {
+      "id": "p_art_news_1927338817",
+      "title": "Выставка бурят-монгольской каллиграфии пройдет в Музее истории Бурятии - AsiaRussia",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: AsiaRussia.",
+      "emoji": "🎨",
+      "sourceName": "AsiaRussia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3enRyY0dmdmxPQ1p1TXdXcWJ4LUJ5TEdxbEU5M1BSNjktUTRFUU80Z2ZacnpZQWxudmdBTlg3WThVa2hzc3J0Yw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T17:00:09Z",
+      "likes": 14
+    },
+    {
+      "id": "p_art_news_212448927",
+      "title": "В Калининграде открылась фотовыставка «Художник в объективе» - kaliningradnews.online",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: kaliningradnews.online.",
+      "emoji": "🎨",
+      "sourceName": "kaliningradnews.online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5THBKZGVMQWJoWHRCNzFOVm1FMk82Vm50Nl9Nc2ZKc3REeUl6SDFwUm9DcGplbkJ4REY3VTdXLUQwSnZPMFBKekRuZmM0WEd3VXZjX1F1MTd4UQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T15:34:58Z",
+      "likes": 69
+    },
+    {
+      "id": "p_art_news_2921074291",
+      "title": "Известный художник Анатолий Басин в 90 лет прошел обряд \"брит-мила\" - NEWSru.co.il - NEWSru.co.il",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: NEWSru.co.il.",
+      "emoji": "🎨",
+      "sourceName": "NEWSru.co.il",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nWTRTeFFGM0p3OFJPZWVMamk0QVEwLXM1SGo4a0d1b1J2OGdPYVl0N3YwX3VlV3A4T01JMklEamd5RlBfWldpLTQ4TUJZUXVmQlBzd19kNl9SZ2NZR1ZPQTMtX2k3dFFVMjNj0gFyQVVfeXFMT2tMcHY3OG1naXRvVHZlY0xXbWFvTUZxaGxrU3dWbEN6dnVHd29XcG5SbXVlZ0JCZXJjMkMwdDh0RE1hWUU4eDl4OVhsNjduWW4xNGNIVmk1ZmlNSTR4RjB4dzFOQkZVWEdNVFRKWDlaVTN3?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T13:15:19Z",
+      "likes": 67
+    },
     {
       "id": "p_art_news_1650358338",
       "title": "Афиша Бишкека на неделю: музыкальная классика, выставки и спектакли - 24.KG",
@@ -14,50 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-22T13:00:17Z",
       "likes": 90
-    },
-    {
-      "id": "p_art_news_2876970881",
-      "title": "Музей Зеленограда открыл выставку к 85-летию битвы за Москву - The World Inform",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: The World Inform.",
-      "emoji": "🎨",
-      "sourceName": "The World Inform",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlNLcjRtZDVLdFdBZlpvRk1xVk1kbTg2d3p4WXVLYTdnX0I3UEdPY2pGMkVSZjlvTDlKeVB0RUstSWR2ZnFrY0pyN1JHNWpTenVhSHNINGJINHZNZ25nOXpWNUdRYW9BMkd2QUFpVGd5YWpaOF82N1pvNk45bDFoQ1lrYW9jazhhZXJkbElSOHRKVjZfSGdkVFUyRU5tV0ZLOVdj?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T12:05:13Z",
-      "likes": 3
-    },
-    {
-      "id": "p_art_news_3845742302",
-      "title": "Хибины глазами гостей: в Кировске открылась выставка картин художников из Пскова - ИА Nord-News",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: ИА Nord-News.",
-      "emoji": "🎨",
-      "sourceName": "ИА Nord-News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mdVh1azJVOFA2LWI0NWZYdnk2YlhHVWxiM2gtUmgxLU9nVDNPN3l5MzJLSDhWZW50TnlFN0FhUUpJSkxOeEtNcE5nWUpTYkRUOEQxTkoxc3FaeEtkeDZ0bg?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T11:29:00Z",
-      "likes": 35
-    },
-    {
-      "id": "p_art_news_649584213",
-      "title": "К 85-летию битвы за Москву открылась выставка «Линии памяти. Рубеж 1941» / Новости города / Сайт Мо…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: mos.ru.",
-      "emoji": "🎨",
-      "sourceName": "mos.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tUW5EeFR4N25rejV3YjFuM1QzNlM2OGF3RXM2ZmFNeGRtUFd1ODNFOTROOTQ2RUxXWk51aE40U0h4dTNfZ09QbVdBQWRJM2Ni?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T11:02:02Z",
-      "likes": 21
-    },
-    {
-      "id": "p_art_news_435454841",
-      "title": "Выставка «Сюрреализм в Каталонии. Художники Ампурдана и Сальвадор Дали» - KUDA-SPB",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: KUDA-SPB.",
-      "emoji": "🎨",
-      "sourceName": "KUDA-SPB",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYjJLYTVCSUViazM5aF9mNFN5WlEzX0g1bkRwSEd4MUpqektya1dtQmFTaGlsS0ZodDBtblk2dVJrNlVVbWFJT1RpNmcxUDBsQ1hFSXpyY3kxcmJEbmxNQzNhWVNwS0xyb0hDcTAyTXVoelcyQ3U0emdJNzFkVWhDa0lVVjNyY01fWC1CcGRtcEZGMHE4aWZTX1c3SlM?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T10:40:11Z",
-      "likes": 23
     }
   ]
 }

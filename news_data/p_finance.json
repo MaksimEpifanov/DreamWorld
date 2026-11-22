@@ -1,19 +1,30 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_525813933",
-      "title": "Бюджет Якутии на 2027 год вырос до 375 миллиардов рублей. На что пойдут дополнительные деньги - pro…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
+      "id": "p_finance_news_1989061271",
+      "title": "Жителям придется затянуть пояса, но государство займет 2 млрд евро на инвестиции - rus tvnet",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: rus tvnet.",
       "emoji": "💰",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNkpaOEJBMTBHLWpyalBaV2piRGFwRDVHTXp0UmxseWFMN2wxX1dORy00VHg5c0dyLU84MlJZNmZBMlJCV2NTcTl6b2JLeGhPWlUtblotdGJTSVJZaTBLaWtmMHBqMFdxMFJ1WjlOVDl6QzhldEVza0d1bXR1SmdpMU5YblUxdUtFMnNvTHp5SjJGSFdBY1FIblZhYnE3UU94bF9uUHpFaXU4MmxGaDZWOWg1UURhSTJsR1ZVZDJIVjc5N1ZLcUxwbEhOV2xrWFJx?oc=5",
+      "sourceName": "rus tvnet",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkpXalR0bnp5MVUzblV3ODJUZEZyLUpyblI0bmZESjlsQm0zUzdmV2JTdWZ5dms5QTdqalZrbXVuWE9mZFdGQzRzcWFrRVk5MFZfb2lNRVFlYW9nWVRNZ2FIU0FaVnZ2a0pOdkZ5NjNOLWl6VkdweWpDanpwU3FPbzJ5NHdPMnUzNWxoc3l6WnV4b2VJVDkwOVk2cmZRN0wtVEgycENzOHlsTnJnNXV3X0VR?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T12:05:05Z",
-      "likes": 73
+      "publishedAt": "2026-11-22T18:20:00Z",
+      "likes": 62
+    },
+    {
+      "id": "p_finance_news_3002228700",
+      "title": "Рынок не верит саммиту Путина, Трампа и Си! Что происходит с экономикой? - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "emoji": "💰",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbW5VbFNhMlhEU2lBWHRIazFybzZOOFl0N19wTjliWDF4ZmRQeGdKMVdwVE05cXJDaEpPYTh3UlUtWmpDczdLbzNDaUZqOVRjemdlT1lpNHdTSUZtUFF5UkRpSVRPY0tIZjZBTno3R0lPeDJ2LTRSN09UY3N4dGJsay1rZVgtdzBpaHFzSl9DMGdpYnBLVi1jUm96YU5HV0p5eGJKTTVMUQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-22T15:55:47Z",
+      "likes": 76
     },
     {
       "id": "p_finance_news_3781453517",
@@ -23,41 +34,30 @@
       "sourceName": "prospect.com.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR2pDODBja0pvMGZUZklIME01eF9EdWkxX1hXdEtjbG1WMTZxSkpjS0ZhQ1U3cE14RTl6ZmhWLXUybXhTMzBGaUNOMVVMT0ZhTVZiUlFzcl9WNEdtWHhabWV2ejVqdzJYaXBtTmUxb1REY2pRMUdCZDFubzlaSUE1X1ZvcjFSeHJvaEtwalVQaWVkUTZFRTRSZ3lDN1FyRGZHSi1UTFNIRG5KNW5tNVJiRFFMS21xbmFfRVA4TjE3R1ZMZw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T10:34:17Z",
+      "publishedAt": "2026-11-22T14:04:48Z",
       "likes": 16
     },
     {
-      "id": "p_finance_news_3913725961",
-      "title": "Что станет новым двигателем экономики Кузбасса? Илья Середюк поделился масштабными планами - Сибдеп…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Сибдепо • Журнал о жизни в Кузбассе.",
+      "id": "p_finance_news_1672083174",
+      "title": "Ручные прайс-кэпы делают новые инвестиции в генерацию нерентабельными, - эксперт - РБК-Україна",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: РБК-Україна.",
       "emoji": "💰",
-      "sourceName": "Сибдепо • Журнал о жизни в Кузбассе",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUWRLbG95N0I1VkM2ejMxaEtqdHRpeERfbDd0YTNzQ3p6bjBDZDBzSXcwMDIxUHpFbFowbHlqQUF4SF9JUU1uQWZERVV1UVpMTmQtU1Q5dnRYcm1tODlhdWlzNGF1WDVzQ1o3YWoxYkF5NS1SOFcxdHZZNi0xdi1YNGY2OGZBejM0T0VodTFVWDhvblQ1RHFjWEt3eTBkdFZQdUxRcW9LR3ZwWGNLazlWajV6VEJ3WDctX1Y3Tk1lRQ?oc=5",
+      "sourceName": "РБК-Україна",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUlUQ1NXYUVlS19SRVVELWpPUURTaDUwVEV2MWYyN1VNbGFOQTY4RV9iOFRJai0wd3oxZWdBSXJwak5RQ3NjajlDN2gtOHNvSDZ2MXZVZ2IxejJoa011UjUxeXg0WUk3MFBhN2tDNjduNDBVQWtQSWdyazBraDNkTDRGTEw3WHc2ZjktZ2VWSTJXUkpIcnfSAZYBQVVfeXFMTTVJVENTV2FFZUtfUkVVRC1qT1FEU2g1MFRFdjFmMjdVTWxhTkE2OEVfYjhUSWotMHd6MWVnQUlycGpOUUNzY2o5QzdoLThzb0g2djF2VWdiMXoyaGtNdVI1MXl4NFlJNzBQYTdrQzY3bjQwVUFrUElncmswa2gzZEw0RkxMN1h3NmY5LWdlVkkyV1JKSHJ3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T09:04:49Z",
-      "likes": 78
+      "publishedAt": "2026-11-22T12:35:40Z",
+      "likes": 66
     },
     {
-      "id": "p_finance_news_2360861175",
-      "title": "🎁Реферальная программа от Альфа-Банка\"Пригласи друга в Инвестиции\". Личный опыт - Банки.ру",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Банки.ру.",
+      "id": "p_finance_news_3114077528",
+      "title": "Деньги как эликсир молодости: почему финансовая стабильность замедляет старение - Веселовские Вести",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Веселовские Вести.",
       "emoji": "💰",
-      "sourceName": "Банки.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBudVdjQXBkTkdIbjFfVDJ0ZDVjZWpBUGJxRWw1QmxZTzlraXRxMWpieExDMnVWX0F6dkg5UjV5UXhLTDlKWUQwZ21uOWZzVUxvMWtjUG5n?oc=5",
+      "sourceName": "Веселовские Вести",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVNfWUprcjZIRjVPTlVxbHF2NDBOTDNoZkNiVDJpNnRCSEl5cU01SjhWcHRBaHFweWdCSE1SSC1kZTlZMkdyaGdTX1JNNmYzTGg3b3dUZlRoenFucVVEU25aVUJrUkhjb0NOOFdGUVdlMWpQRXBxaVB6NnVoYzd4Sm80X2NXSEg5ZW0zdE1LYXZMU2lQWUduNjBvQjZCRnRwTUE?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T08:43:52Z",
-      "likes": 45
-    },
-    {
-      "id": "p_finance_news_3065797207",
-      "title": "76% жителей Британской Колумбии не чувствуют финансовой защищённости - Наш Ванкувер",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Наш Ванкувер.",
-      "emoji": "💰",
-      "sourceName": "Наш Ванкувер",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaVQyOHF1ZkVuekJrakZXY0FCdWZESkxMVDNKaS1aODhpQ0hHZTVsOEcxaldJYjEwU3B3Vm1iREExaXVDNTF6ekpzSWtZWDFNUGtHejZybHpaREJneGNFTXpzeEFLb1lnWkZRZXB6end1QjdRcWwtNm9TclQxNER0TVdES3lSb0NEZkFuNkhn?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-21T18:10:36Z",
-      "likes": 61
+      "publishedAt": "2026-11-22T10:20:00Z",
+      "likes": 9
     }
   ]
 }

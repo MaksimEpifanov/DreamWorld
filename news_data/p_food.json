@@ -1,9 +1,42 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_food_news_3759471056",
+      "title": "Торт \"Вивальди\": Евгений Клопотенко посвятил новый рецепт операции Третьего армейского корпуса - Ін…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Інтерфакс-Україна.",
+      "emoji": "🍜",
+      "sourceName": "Інтерфакс-Україна",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xNDBYTnFjckwyRTJsVFJYVS1lcHhFOEhMbU1DcHlFck5qeG5WMzF5NDlMUzlJNmc1aU52dmRkeHBuYUVNUzc1aW9ONl9hcHpTQno4MldWRkdJUm5XdFNaYWdmZ0txY1XSAWdBVV95cUxOcTQwWE5xY3JMMkUybFRSWFUtZXB4RThITG1NQ3B5RXJOanhuVjMxeTQ5TFM5STZnNWlOdnZkZHhwbmFFTVM3NWlvTjZfYXB6U0J6ODJXVkZHSVJuV3RTWmFnZmdLcWNV?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-22T17:56:17Z",
+      "likes": 48
+    },
+    {
+      "id": "p_food_news_1639743785",
+      "title": "На ManaBalss.lv открыт сбор подписей за обязательное указание калорийности блюд в ресторанах - Mixn…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Mixnews.",
+      "emoji": "🍜",
+      "sourceName": "Mixnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORVFKb2h0dWUzT1k0UU9mUFdQZEh3dTNMMXlDT2hmdHRObl9UakRBQUtyODBOWngtaHNNVFlLZDFGSkRqXzRMd0tRanVGYnk5MWxKUW5VSFpQSzBOMkpzMjl5RXZLYmppbG5UOWd4ejNnaldkTGlWeEJzcFJwZnRQYkhaWUVyRnFWek8taE9OSTQ2NU9CWmJxT2tUSkJiZWxRSDZod083QlVILXNyWThmZWhZTDdOUFlJcmtLVjZfT3RTVk1CSThqLW8tQkE?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-22T16:20:37Z",
+      "likes": 32
+    },
+    {
+      "id": "p_food_news_1514675139",
+      "title": "В Латвии хотят заставить кафе и рестораны раскрывать калорийность блюд: что изменится для посетител…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: BB.LV.",
+      "emoji": "🍜",
+      "sourceName": "BB.LV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT2doLTlBcmdieHBabUpxRGsyTDVGVjV0QTVXWHJEWUFYbzJkaVp0aVo2UXVLbjlNcTgxN2o4SkRWRkNaSG9pbEVSajQ5LTc2LS02bFp4Sk1xQld0T2s3SEpkd0pMMGQtY0x4SW9sNmM2c1pJdEx4UFpvU181RWwzTi1WbUtZMWRjb3lHaWRDY1pUSDhhZFJNa0YtcFB4YmtEZUpiS1JyalVIeWJvSXlkemZaV1U0Uk1maFlBTmpiTi02N2ZBdnZoREdYb1BwclV1cUE3VWNVaTd0MElaSktWQnF6aVBWUdIB5gFBVV95cUxNT2doLTlBcmdieHBabUpxRGsyTDVGVjV0QTVXWHJEWUFYbzJkaVp0aVo2UXVLbjlNcTgxN2o4SkRWRkNaSG9pbEVSajQ5LTc2LS02bFp4Sk1xQld0T2s3SEpkd0pMMGQtY0x4SW9sNmM2c1pJdEx4UFpvU181RWwzTi1WbUtZMWRjb3lHaWRDY1pUSDhhZFJNa0YtcFB4YmtEZUpiS1JyalVIeWJvSXlkemZaV1U0Uk1maFlBTmpiTi02N2ZBdnZoREdYb1BwclV1cUE3VWNVaTd0MElaSktWQnF6aVBWUQ?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-22T14:26:03Z",
+      "likes": 40
+    },
     {
       "id": "p_food_news_2090505842",
       "title": "На борщ утвердили ГОСТ: как теперь следует варить - сверяем свои рецепты - Городовой",
@@ -17,7 +50,7 @@
     },
     {
       "id": "p_food_news_4293295064",
-      "title": "Похоже не репа главный русский овощ. Что чаще всего встречается в рецептах ГОСТа национальной кухни…",
+      "title": "Похоже, не репа главный русский овощ. Что чаще всего встречается в рецептах ГОСТа национальной кухн…",
       "summary": "Рецепты, вкусы и уютные ужины. Источник: 47 новостей из Ленинградской области.",
       "emoji": "🍜",
       "sourceName": "47 новостей из Ленинградской области",
@@ -25,39 +58,6 @@
       "tag": "Кулинария",
       "publishedAt": "2026-11-22T09:55:00Z",
       "likes": 25
-    },
-    {
-      "id": "p_food_news_1621678311",
-      "title": "В отель «Индиго» пришел новый шеф-повар - Новый проспект",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Новый проспект.",
-      "emoji": "🍜",
-      "sourceName": "Новый проспект",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBMmdwM29LN2hDeUtkUXBMZHRVZUZDNHFmUTREc1duVFJicnNiZlBXYnJFVlQ1akJCc0FST0REQnZNQlZuYk1tREUwb2otNnNqUHlhWEppS2o5VDhjZGg4eFJtV3FaM1cydE5aT05rdFdFVlNtUUE?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-22T09:44:55Z",
-      "likes": 16
-    },
-    {
-      "id": "p_food_news_1910642656",
-      "title": "Какой салат «съест» больше денег перед Новым годом: сравнили цены на оливье и шубу - Живая Кубань",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Живая Кубань.",
-      "emoji": "🍜",
-      "sourceName": "Живая Кубань",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObldNTS1WWExacVZzWTJOZlAyOF9vRWN6U2tSU2xQcURsWEZpb09kUDZJNm15RTJfQWlQRFBmTTJIS0lnQjY4ckNsNU5lc2s3Y2VyaGJWMnJQVWd5UVQ4aEVHeGdUTnd3cXM2MHdNMkR5U3VZNXM0Z1Jocnl1VXJfSklxTEpvbWtkdXVBOGtzLWV6MnNudkk2WFBZVVczQkxHRFhmakx1RVgxWkdhZlV2a0lpeDY?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-22T08:18:00Z",
-      "likes": 20
-    },
-    {
-      "id": "p_food_news_3968309943",
-      "title": "Оливье в тазу, майонезные горы и «потекшая» шуба: Шеф назвал шесть ошибок при подаче новогодних салатов - Здоровье Mail",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Здоровье Mail.",
-      "emoji": "🍜",
-      "sourceName": "Здоровье Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZUtySzdZdFdEeVZCYzFadThzUkE2VXhWdEc5SVZucmRYQi0tRHFJXy1ZS0VPZkNUU045eDVvUlhtVzhTdzBoWldLcmItSmVUcTNkVmxSRk1mYjkwMl9mRWhSM2sxLTZMNU81NUFoMTJsOEpfSUgxcVozcXJ6a3hlb1k4dXJfNUFzWFRIUElpUGdPaThQbmZfREl2Ny1XZHIwZDdVUk8tUWNOU1pDZHNwUWN6dERyVmMwMEw5ZlFLU2d2UnJnMFdIMUNzS0pndGxxOVpwWjZOY2tfenZOSnN2RXVvMm1tS3lQOXFIUjluMHpIZDA?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-22T07:57:42Z",
-      "likes": 60
     }
   ]
 }

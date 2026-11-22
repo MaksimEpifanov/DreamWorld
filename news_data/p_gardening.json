@@ -1,9 +1,31 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_935696190",
+      "title": "Эти караси удивляют своей окраской! Рыбки в настоящем дачном пруду - Новости Беларуси | БелТА",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Новости Беларуси | БелТА.",
+      "emoji": "🌱",
+      "sourceName": "Новости Беларуси | БелТА",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaTg3RWsyX1lEN0Mwb0h4Zl95SmVHdTNlNnNlNDEwX2FLSkdlQmxieDdYRW9wTnRwR0NQMmc4ZUx2THJjdFFRTlFYNzdQWmpzc3JGSGtkTDBlNEdxd0Yxc2I0NE5wS1VmVXlBeEhLdk5lSDBwUXdGaVVhLWw1N2dyX1lDOXZhcEl3Y2haNQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T17:16:46Z",
+      "likes": 28
+    },
+    {
+      "id": "p_gardening_news_1860526385",
+      "title": "Мини-огород на подоконнике: разбираемся, что успеет вырасти к новогоднему столу - IrkutskMedia",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: IrkutskMedia.",
+      "emoji": "🌱",
+      "sourceName": "IrkutskMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XZ05uNjI3ZzV3QTV2dnFLTVBfMGpIbTIxRURpYTJrTzhBMkFTNzRuSXpDNGJndTBJSXRTbzdET1dMdnNqVlhib1dyR0FyUQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T14:50:00Z",
+      "likes": 87
+    },
     {
       "id": "p_gardening_news_614823583",
       "title": "Удобрение смородины осенью: рецепт на весь год - mstlife.by",
@@ -16,6 +38,17 @@
       "likes": 18
     },
     {
+      "id": "p_gardening_news_1701409599",
+      "title": "Ни парши, ни мучнистой росы: всего одна лейка на яблоню в ноябре — урожай собираю ящиками, а не пош…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: pgn21.",
+      "emoji": "🌱",
+      "sourceName": "pgn21",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBEQzVVem5Xa1BCN2M2MWIxVi12cXdYQzh2djAxQnJ3VUpScHNueWFWWFdFOHFqcGhrd2RlYlVwU09hUQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T13:41:46Z",
+      "likes": 56
+    },
+    {
       "id": "p_gardening_news_3273455590",
       "title": "Посевной календарь на декабрь 2026 года — какие дни принесут лучший урожай - Главред",
       "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
@@ -25,39 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-22T11:16:00Z",
       "likes": 61
-    },
-    {
-      "id": "p_gardening_news_2643356193",
-      "title": "Как посеять укроп и петрушку под зиму: соберете урожай раньше всех - УНИАН",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: УНИАН.",
-      "emoji": "🌱",
-      "sourceName": "УНИАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQTctemgxOGM2WTFfbFhtRkRLajRKM3hiM2U1VGRKMXhoNEt2OXJWZk9feTNXTDFnZWRYU05YWjNtNy15TWJVS1piMkdOY2c0S3pfY2FKUFF3azV0QjZaeWIyZlZ6WmF2bXV5ODFXajhmWFhtcTNhQW5IU0NrV3N6UFdxa2E2dF9sS2JCdlRBOUc0eXc1ZVlUMXN6R1dYMjA3LWhGYWpXTDFwM19zcGln0gG0AUFVX3lxTE41RnYtYmdWX21nemIyTUtqSmU5WFJ3MmlMZl9aOV83VXl2emJqZ2Y4UmZpRzFTM3F2azZub0JiRDFpUEV5blFZX2psME9vb21xeWYwcHhVQXBJbnVybmVmQ0RSbU5JNUQ2bk5ELUszYWtQUUlyaGVqSlBDbzVkVmdMR1lGN1ZNajRlMi0tUERxN2lxX0JKQ1gyMFVMUzROUXNubmt6cnNjVEF2RGplcHhSUUoyMA?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T09:30:00Z",
-      "likes": 13
-    },
-    {
-      "id": "p_gardening_news_1238498534",
-      "title": "Красноярские специалисты рассказали, как вырастить урожай к Новому году - Красраб!",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Красраб!.",
-      "emoji": "🌱",
-      "sourceName": "Красраб!",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UcXhRa0dKZ3R5NmJjLTUxOUdKLXdXcVlxSlVVa0NoM29udmVOb1lSNmlsT3pQZE5heUp1LTZ2QVhET2RQMnVSM2c1ajBrM2xV0gFQQVVfeXFMT1RxeFFrR0pndHk2YmMtNTE5R0otd1dxWXFKVVVrQ2gzb252ZU5vWVI2aWxPelBkTmF5SnUtNnZBWERPZFAydVIzZzVqMGszbFU?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T07:35:00Z",
-      "likes": 3
-    },
-    {
-      "id": "p_gardening_news_1249760531",
-      "title": "Сезон не заканчивается: какие важные дела ждут дачников зимой? - NewGrodno.By",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: NewGrodno.By.",
-      "emoji": "🌱",
-      "sourceName": "NewGrodno.By",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LWm9SQ2t1V0JKLUF1b0ZEUWdFdThwbmRnTE15X05OU0lFZVZ4VHl5Q3d1dnBBWG9xY3pUVkVLQWcxMmNzMW13VFFhdXJsX2M2NTRYLTJUVU52eG83UDNIdU44SkFkbElEbWlqR0t1SWEwTlVQQkNBSVp2UWhZUdIBgwFBVV95cUxNLWhubFdRMVVpNUhQeXlWTlBhUHRaNGg2VW0zMUpFU2RSWGFVVVhQank0UTA4b05wR2pHMXRKYXVOLXdSMmxsMGhUSGZaR3h5ajlKMzc5SFhDcDhnaWhmTEFvbG9PWHUyMnMtMGh6dlJhb0x2WFZuMXYzdGF1WnpldXh4RQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T07:23:47Z",
-      "likes": 79
     }
   ]
 }

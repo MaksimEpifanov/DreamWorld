@@ -1,9 +1,42 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_travel_news_1208704589",
+      "title": "«Поезд наследия» — путешествие-открытие по чайному региону. - Vietnam.vn",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
+      "emoji": "✈️",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVFqX0FOZUdLbTNQYW9UYklKSTQ5UUVYTXdZNllzTXFsY3hwaXRoNFhlWEhNb2M1bE82UU80aUVvMTVxSHEwTUJYZ1E2WXd1Ym83ZHdWZl9pdmZla1c3SGp1Z3VQLW54TlpJSjUxZmpaVERVanBNNFBHbXA3ak1FVmxGQ2Q?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-22T17:48:29Z",
+      "likes": 87
+    },
+    {
+      "id": "p_travel_news_1553272880",
+      "title": "«Сириус» и Чехов стали лидерами по бронированиям отелей для осеннего отдыха - Bk55.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Bk55.ru.",
+      "emoji": "✈️",
+      "sourceName": "Bk55.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xekluTnh2UEVocC0taVFEZGpxRC0xYlI1R0ZXVWVtc3BDc3VUazNuNVBjTmxmc3VCNHZyRExYVGZDcFcxcDJPMlpMdw?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-22T16:25:00Z",
+      "likes": 91
+    },
+    {
+      "id": "p_travel_news_314729481",
+      "title": "Дубай на семейной волне: путешествие, в котором каждый найдет свое - شبكة تواصل الإخبارية",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: شبكة تواصل الإخبارية.",
+      "emoji": "✈️",
+      "sourceName": "شبكة تواصل الإخبارية",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83OVVLX0dabkR4YXhnMnE2M2RSZG1TMlBrejZmNmNBbi15X3hOY0g3WWFGV0dib25KQ0doOERmeVUyY1ZSVk9TN0Z2dnBObWhPMGEw?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-22T16:07:53Z",
+      "likes": 79
+    },
     {
       "id": "p_travel_news_1668390012",
       "title": "Новые промышленные экскурсии в Миассе, Златоусте и Сатке получили экспертное одобрение - mir74.ru",
@@ -25,39 +58,6 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-22T12:22:57Z",
       "likes": 14
-    },
-    {
-      "id": "p_travel_news_1022914119",
-      "title": "Сколько стоит путешествие к Деду Морозу в 2026 году: рейтинг городов - Эпиграф.инфо",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Эпиграф.инфо.",
-      "emoji": "✈️",
-      "sourceName": "Эпиграф.инфо",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONHI1aGRlTDI3SkJyN1ZPcDAzc1pORDdIWEdrcXhzaUhKQmlWVEQyZjBrX3VRVkxSU3hNWm5QRHNoRGZ1emEzNi1uci1ieDBhNFcxTVgzcWRyek9wTHVvUldHbktpMnI2eTNaU2NvWTQ5T0twZHpxZ3hTdXZTNDZYV2EyYXBIWnpoSlNsWjM2ZVk0VVhySjFIdDd1RWs1eWJFdlVPWFV5UHgyYXE3LTh3dWpxbERjd0VKR0J3VUJzckh0VjNab1psaE5ROTBxWEtkUHJ3OFVkM1Rsb3RVSFE?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T11:24:23Z",
-      "likes": 59
-    },
-    {
-      "id": "p_travel_news_3971982014",
-      "title": "Гид с ИИ. Как молодежные инициативы привлекают туристов в Брестскую область - БрестСИТИ",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: БрестСИТИ.",
-      "emoji": "✈️",
-      "sourceName": "БрестСИТИ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RMFBOOEhrb3R2dmllcEFjVmVPN0toaVl6OE1hQndGMmFEQjJaSmdGekpDN2Z2RWJPYVpmQ3ZJRHhIR0ZFd1NQbGVxaXEtdl8yeWxSSTk1ekNlRDA?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T10:38:24Z",
-      "likes": 76
-    },
-    {
-      "id": "p_travel_news_2762864367",
-      "title": "В Бузулуке туристы-пешеходы могут попасть в порталы времени - Южный Урал",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Южный Урал.",
-      "emoji": "✈️",
-      "sourceName": "Южный Урал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNEM3YVc5aDZnUmxHUG5seUc5eXI5MG5VekZBVFhlOU43MWowZGFRS2FNS1Y0SVZMOEhkZ19Ec0RQUDE1Ny1HWk1SUmZ5RHpRYkNnNk5Ta09tcjdicDgwMHl2NXFoYUVFenh4WHlZc3dGUmhOS1hLcGtlZlRrVjZzMnlhbS1NX2RSR3cwdUpLUElOVmQzMDNj?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T10:14:29Z",
-      "likes": 87
     }
   ]
 }

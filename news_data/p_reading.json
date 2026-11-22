@@ -1,9 +1,31 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_reading_news_3017622198",
+      "title": "Журналистика, литература, ИИ: в ИФиЖ встретились с главредом «Молодой гвардии» - СГУ",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: СГУ.",
+      "emoji": "📖",
+      "sourceName": "СГУ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS1hHVHpaZDVNSlBsZmpyQ1c5NW1rVHVQU1YwUXZBZ2ZfOEVmLUplV3ZPYjVfTXZCZmIxbEVPbzVMVzFCaW52Z2RQUDR5UklHWXNHTVRiWGM1ckV6OW43aU91c3NXYXQ2Z2Npdy1RZXVlZnBKamhwZjQ2NzBkYnB3RHJBQXlzNzk0NHRpZEdUWUFWTVZuMVM5ZEtvZDFUSFE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T18:15:49Z",
+      "likes": 24
+    },
+    {
+      "id": "p_reading_news_3808555189",
+      "title": "Областной семинар детских библиотекарей - МТРК",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: МТРК.",
+      "emoji": "📖",
+      "sourceName": "МТРК",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QNEZrQUk4SG1qMmpjMXgwbThZZklWSzlNWEVHX1EzTlVVRkZ5bC1oZG9wa2FJYzF6UF9hWHpwWmdLLUduRl9Cd21IMGlsYkdBd214WU81Y1lhOElGWWFzZG54OFlncVRlaDEwLXNfTkNLNnRnTkE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-22T16:04:17Z",
+      "likes": 86
+    },
     {
       "id": "p_reading_news_1283134782",
       "title": "Яркие культурные краски провинции Кханьхоа в провинциальной библиотеке. - Vietnam.vn",
@@ -36,28 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-22T11:43:03Z",
       "likes": 13
-    },
-    {
-      "id": "p_reading_news_241267541",
-      "title": "Лаишевские читатели могут познакомиться с «Толковым словарем живого великорусского языка» - Новости…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Новости Лаишево.",
-      "emoji": "📖",
-      "sourceName": "Новости Лаишево",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTDFYZVpISWpmdjFKWHZvWVJoRnpqc0FuRkJRRHBzZDJ5MTg3NU14QVdxcklVbTJhVFBPcFphR0pwY1FtRHRNdVRObkdyRVpaRlV6WmJIblNDMDZJb2tFeWRHWG84WG11aGRNUWR1Wmk3OXFYUVctQ1RtR2tQZjBYZ1Exck50MUNXRkRrdG16QndZeEtULVQxUldPRC03d2JkSHdkNmxfbWhDbVFOTEluTFBpLWhpaWVoSTE2UUUzN05WUQ?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T11:41:07Z",
-      "likes": 37
-    },
-    {
-      "id": "p_reading_news_2281013149",
-      "title": "В библиотеке - говорящий по-литовски робот: он умеет читать и рассказывать истории - LRT",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: LRT.",
-      "emoji": "📖",
-      "sourceName": "LRT",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamphVU9JYzY2MmVKV1dJNXFFanNxQi10S0Rza0hUb0Jzd2ktYUhWd2htdXZSTEt0M3hMY2NPWXZ0Q3lYZmRaN3dyck5wSnQ4RTdETEctT3lsUDUtOC1EUFdXZXNTakJid3RBQlR4WGZCR19jUWFfMXpFamt3MmNtZzlWc1FqUTZrNUd5eTFQNlJSUW5La2pvRXFwV19nUk9jalNqRmtucHNHWUl4WmkyaVRPVWkyS0JzdGNMd204Vmw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T06:24:00Z",
-      "likes": 64
     }
   ]
 }

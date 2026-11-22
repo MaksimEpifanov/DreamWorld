@@ -1,19 +1,41 @@
 {
   "planetId": "p_esoteric",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_esoteric_news_2239066629",
+      "id": "p_esoteric_news_411337074",
+      "title": "Гороскоп на 23 ноября по картам Таро: Овнам - учиться, Стрельцам - новое начало - УНИАН",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: УНИАН.",
+      "emoji": "🔮",
+      "sourceName": "УНИАН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0RGQW5oVkRXLS10WjhyMnUtUTEtYndyZFZFdHlJUDhFdXVEN1JFQjNWVmx4NVNNM2l2d0NBWDdXNWpvWjd1QVI2TnFNUUNNeC1MM3l0SEUxT1l5S0ZTYUZYOHg0RWgwNmFfZGVuV1pJM2dpdmZQT1dZM3BvWVEyRUNRc0VUVTFDNWJ1a2dRWmpaUmFmRzlEbTgyWExaRmJFWEg2NFdhYXZETm9hRVJuWVFJTGY3ZkpxR19XVjVQa3FaUHZkYVZLQUJETHVNZGVt0gHWAUFVX3lxTE1xaUNOdmc5VjhDZG5mNzlRdV81VmpOaklTbE43MUpINkt5VERiSlZWal9BLU42UWZ5XzkybE5OVFljdHF5RkR2UFFJdDl2M1FHMmduZjBHekZEcWQtNVhWa3QxX2VScnhoSGdLUFlySFhKZU56b0dFMTdPVzloYTlYYVE5NldKNnd2VDRPUmJHYmJIU2VDN0hLaFFSdkhQUk80aUNON2hTTk1oSmIyeGlBMDBiRUlVdUl2UzBSUXNYS2lKanFzOHlNMGQ3eFJrTWFzbzltOUE?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T16:00:00Z",
+      "likes": 21
+    },
+    {
+      "id": "p_esoteric_news_2553366497",
+      "title": "Гороскоп на 23 ноября 2026 г. Тельцам — завершить дела, Близнецам — не терять концентрацию - Meta.ua",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
+      "emoji": "🔮",
+      "sourceName": "Meta.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNejZmR1pqZTlaaV9OMUN5S2NSUEFGZVQxN1VBeF9JQnljaUxuYk5fTU9JNkU5MHZqejVDSTgwTnpQS2cxb0s1WlBXSThnTGh3SWlOVzFXRXJDR0V3eEJQaWJwZUdYR0NrcW1scF9pSjJlTy05S0wtU1o0X2JTM0czTlhMRnRzMEJWTFlXbm5JcHBnbko1U28tY3FwRXdoUnZpS0NVWUpvMnlSMk93MlZDdnM4eUpPN1ZhQ2Zqc09pRWQ4WEtCelNTRU5VNGs?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-22T15:30:00Z",
+      "likes": 17
+    },
+    {
+      "id": "p_esoteric_news_3205803246",
       "title": "Таропрогноз с 23 по 29 ноября 2026 года: конец старого этапа и начало неожиданных поворотов судьбы…",
       "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: ТСН.",
       "emoji": "🔮",
       "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX2pfV3phbkFCTEZLQ3QyV3ZqWjl0cTR1MVBnVGJIRWIzNXgxWFNiUHJDbVNZa0d3cGU5Mmx1UXRNTFZjY1pja2xKd1ZaNmNFTFdKRUV4QW93a2VxMUVic2YzeUtaalFqdXE5d2xKU2czaWt3YmpkcTh6YVpybnpUNUdYZ3ZSazZJZWNSUDNFMmpSY1oya1VJWGtrMmxaTjcxVlRya2N2b0JIZE0zZm9BSWN1b2hfZXM3Zmo1N2trYlZxd0RhWl9sajZfM3ZNbmdITVhFRzJUa0hmT1QxX0FFckV2b2NhSzB50gHoAUFVX3lxTE5fal9XemFuQUJMRktDdDJXdmpaOXRxNHUxUGdUYkhFYjM1eDFYU2JQckNtU1lrR3dwZTkybHVRdE1MVmNjWmNrbEp3Vlo2Y0VMV0pFRXhBb3drZXExRWJzZjN5S1pqUWp1cTl3bEpTZzNpa3diamRxOHphWnJuelQ1R1hndlJrNkllY1JQM0UyalJjWjJrVUlYa2sybFpONzFWVHJrY3ZvQkhkTTNmb0FJY3VvaF9lczdmajU3a2tiVnF3RGFaX2xqNl8zdk1uZ0hNWEVHMlRrSGZPVDFfQUVyRXZvY2FLMHk?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNY05sZnUwd3ZVY0hGT1dGZDFrTmpyRlRmb1JJU2QyV3EteFpOLUJ5cHM3NXVDS2thd3JyRG5tUGRUWFctTWhraDl5ekMzRnE3eVNGaVBTanNwMWFjdUFJWlA0SmlfT2liU0tIbXRqNF9Hd1A0a2NwN2FjNDJhYmF1LWJfVFk4THEyejlmWmI2U1d2V2pyYUxkdTM0cjVlVGttczBoMl9vQldnU2ExRnJmYVFLaDk5TGVRZ2RqTVlSRjlNRmVYNlBQQm1hWW9GY2RDUEJyZlFpZ25abnRiQm1OUWF5b9IB6AFBVV95cUxOX2pfV3phbkFCTEZLQ3QyV3ZqWjl0cTR1MVBnVGJIRWIzNXgxWFNiUHJDbVNZa0d3cGU5Mmx1UXRNTFZjY1pja2xKd1ZaNmNFTFdKRUV4QW93a2VxMUVic2YzeUtaalFqdXE5d2xKU2czaWt3YmpkcTh6YVpybnpUNUdYZ3ZSazZJZWNSUDNFMmpSY1oya1VJWGtrMmxaTjcxVlRya2N2b0JIZE0zZm9BSWN1b2hfZXM3Zmo1N2trYlZxd0RhWl9sajZfM3ZNbmdITVhFRzJUa0hmT1QxX0FFckV2b2NhSzB5?oc=5",
       "tag": "Искусство",
       "publishedAt": "2026-11-22T11:14:20Z",
-      "likes": 55
+      "likes": 87
     },
     {
       "id": "p_esoteric_news_1073428795",
@@ -35,28 +57,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkxHd2VvZG5DNGdxMVRjUlNvRDE4Q00tam1FR295YVZvUmJ4VFlITHRDS2duSG5QaVhpV1NJOVZVdTJXbEpBb0VMbHJkQlRsQ2I0NG5zR2F4c3k5T1dza3IxZU5rX2dncG1ldGgwNEt1eU92bnBQUDBrVC16RElsZ0lXSFlUajdiWXFvX2NUMUZndjhJMVlleUdZWGx4ZUN0SnlrT0N2c0pvTGVKWjRQTWtJalVLb0dUbWNTZnFYTFJjbGJoYXF4M1lpSGw?oc=5",
       "tag": "Искусство",
       "publishedAt": "2026-11-22T08:25:00Z",
-      "likes": 16
-    },
-    {
-      "id": "p_esoteric_news_3895934450",
-      "title": "Гороскоп на 22 ноября по картам Таро: Водолеям - проявить внимательность, Весам - новая роль - УНИАН",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: УНИАН.",
-      "emoji": "🔮",
-      "sourceName": "УНИАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSzFSSzZHdG0xZTU5SklyWWE1OEJUNG9OQXQ5UHNMeERBSUVGTTR6T0YyN1BOQTJqV3BQRmVyNE1MV0NfYkp0Y05uWlFSLS1Wd1MxX0FITk96SlFEWEpoV1BXWFlzLXBoekxrZW8tdC0tX2xjcFF6Q2ptSFhISXV2cGdUb3dnOTFZNG95aU5GV2R3YWJQVGxfUHFGd0I5b2RTY3VBLWljUnUtZmRCalpnLWdmSHZ2ZUlVbTRXcEhn0gHDAUFVX3lxTE4wVk4wUWNLWVQ5WnBNZEg0XzVTdTVSeEZRLXhQMTFVMUZJVjNXU2pycVlHYXRCbUpyMXpZWXliSHcwVXNpZjhjLVRkeWx6SHRCc2xLMzZpalBFZFlhSlJHem5FdGo2aFRLcGlzWl9ZZkdtTUF1VjVzNzBST01FZE1td2VVUFB6cnluUW5QM3I1WkZsRXN5aGFBQ2ppR0JSTjUwZTg1WTRpQ1FGTDdINHBFTjVtMUVLUW1CbDBOdkROVEF2aw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T06:20:00Z",
-      "likes": 3
-    },
-    {
-      "id": "p_esoteric_news_2172760871",
-      "title": "Гороскоп на 22 ноября 2026 г. Рыбам забыть о суете, Козерогам — точно расслабиться - Meta.ua",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
-      "emoji": "🔮",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU3FGeFh0ek10MWIyM2JqVGRRLW9BXy1RalZ6eDFwNVdiYmxySHNKcVZnQnBrbExITnRyTXJZTTBnQWdaeF9seUx1RGgyYTgweHBKQTdyYWJwMV9ILTlLOTNwTUxGdUZndUZGS1h1d0FkX2dqek11QlZlV3hfX282OWF2S1BMek5ucXFFczJDa3BjYkt5VmNjOEpWOUNtemRaZDFvdEduZzY1V01aa3J5bWRGVUZZUGtxUDd0RXdqaw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-21T15:30:00Z",
       "likes": 16
     }
   ]

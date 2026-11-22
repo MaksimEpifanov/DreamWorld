@@ -1,9 +1,20 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_volunteering_news_2286947257",
+      "title": "В Ярославле во второй раз комитет семей воинов Отечества организовывает благотворительную ярмарку -…",
+      "summary": "Помощь людям, приютам и природе. Источник: Телеканал ЯПервый.",
+      "emoji": "🤝",
+      "sourceName": "Телеканал ЯПервый",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTkzamp0Q0c5dkZ2M25BV3NsNW9LMEQ3UWo0SzhJREpBZjNHbkJhV2R2ZVduZHZGbGJGbk82OFRDTlFyekVveXZsMEF6NlVneXlYWFB6T3BKUVhtZGh0V3Jva0ZGMGlKYnJ6WGVzaG5LU2RyQXVrNzYwamlmc2FIaTVKdkpVMVQtZmljWTNHS2JTeHFXY2djVktHcWtNUnVzV29YUXB0Mk00aC1lRnlheFRaWGtBSHVTWm5QNUx6ODZGdw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-22T17:57:54Z",
+      "likes": 51
+    },
     {
       "id": "p_volunteering_news_3265919550",
       "title": "Сильная команда и общая миссия: волонтёры Молодежки НФ Хакасии- участники федерального форума",
@@ -14,6 +25,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-19T16:00:00Z",
       "likes": 34
+    },
+    {
+      "id": "p_volunteering_news_1448107599",
+      "title": "Волонтёры «Мучкап. Рука помощи» передали штурмовикам очередную гуманитарку",
+      "summary": "Помощь людям, приютам и природе. Источник: gazetamuchkap.",
+      "emoji": "🤝",
+      "sourceName": "gazetamuchkap",
+      "sourceUrl": "https://gazetamuchkap.ru/news/society/2026-11-19/volontyory-muchkap-ruka-pomoschi-peredali-shturmovikam-ocherednuyu-gumanitarku-352192",
+      "tag": "Природа",
+      "publishedAt": "2026-11-19T01:15:00Z",
+      "likes": 9
     },
     {
       "id": "p_volunteering_news_1370779313",
@@ -36,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-13T07:31:00Z",
       "likes": 59
-    },
-    {
-      "id": "p_volunteering_news_674935991",
-      "title": "Пять городов Египта: как российские волонтёры помогали детям и взрослым",
-      "summary": "Помощь людям, приютам и природе. Источник: Добро.Медиа.",
-      "emoji": "🤝",
-      "sourceName": "Добро.Медиа",
-      "sourceUrl": "https://dobro.press/novosti/missiya-dobro-zanyatiya-dlya-bolee-400-chelovek-v-egipte",
-      "tag": "Природа",
-      "publishedAt": "2026-11-10T03:39:00Z",
-      "likes": 58
     }
   ]
 }

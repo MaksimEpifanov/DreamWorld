@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-22T14:37:17.106480Z",
+  "updatedAt": "2026-11-22T19:31:42.625259Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_1052137652",
-      "title": "«Динамо Минск» одержало волевую победу над «Барысом» в матче КХЛ - Рейтинг Букмекеров",
+      "id": "p_sports_news_3059412620",
+      "title": "Карлос Алькарас стал победителем Итогового турнира ATP в Турине - Рейтинг Букмекеров",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
       "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU9PakxSM0Jaa2xFRzBERkdheGVuWUxISjVoUjlyeTJVWWpHTi1FM2VmWDlsVm5UaEZMMThOZ0xFeDZfZmd3ckt2UWFOUXVCX1FrV2FXczR5VlcxS3VibVZqc2NMdkh3LWhJSDJxYnFjak1Ib2hQclZRV3hpMm1OMDg2RHNtOUlFd1lfSlBFOWZrX0hEdmd4WjkzVFk0NXc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTF9ERzN4cVlPekRJekNScmc0UjBOUEh3bWxNUVg1TUhsR1NldGh2RDNmRVdDY3FDRmIwN19VcGZod081TmZZZEM5cy1sUlFLQ0llRW54X21IN2RZOWRoaTVkeXVHX3dHdkdtM01HUldBejNjWEhVcHczSmpCSFRGRHhnMUQ0RHFyb0xXcHdzX3J3VGxXR0xTdUFuYzRmUQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T14:10:49Z",
-      "likes": 74
+      "publishedAt": "2026-11-22T19:20:40Z",
+      "likes": 12
     },
     {
-      "id": "p_sports_news_1516603322",
-      "title": "«Не стоило играть этот сезон». Крикунов — о серии Овечкина - legalbet.ru",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: legalbet.ru.",
+      "id": "p_sports_news_2327153520",
+      "title": "Ванкувер Кэнакс — Миннесота Уайлд | Сезон НХЛ 2026/27 | 22.11.2026 - Rusbiathlon",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Rusbiathlon.",
       "emoji": "⚽",
-      "sourceName": "legalbet.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdlBYZkVpWGhJUG12b25YZ3JvRWRCbmp2bGQ4OHdET2NsYjZiSkxWYnhndTI1b3cwanRGaW5lN1diZDVlcWtyc3dSUkEwZWJKVWhDMjhmSUhoTFJ2ZmhqV2hLWnlYZ3NZeXU1azdEREtTXzBhVFBOOG0tTEo4LXdQNHRGd3gwb044MjZ2YmZKSjNHTVNNRlVJ?oc=5",
+      "sourceName": "Rusbiathlon",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjampqdExvUUQ2THJRZkE4aXFtWGJvdl94ZGE4dmc2LThZVHZvZURxRTVqOUo5aFFJVnZHd2VBalBTdWNBZXJVQVNCY1ZHVnRwVUlpdHNXdHo?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T14:06:07Z",
-      "likes": 69
+      "publishedAt": "2026-11-22T19:10:22Z",
+      "likes": 87
     },
     {
-      "id": "p_sports_news_1580718479",
-      "title": "Крикунов – об Овечкине: «Этот сезон ему не стоило играть» - БО Спорт",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: БО Спорт.",
+      "id": "p_sports_news_2258677223",
+      "title": "Генеральный менеджер «Ванкувера» – о Никите Толопило: я чувствовал, что он заслужил свой шанс - Хоккей Беларуси",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Хоккей Беларуси.",
       "emoji": "⚽",
-      "sourceName": "БО Спорт",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uVnBSSHNPa01Fdmg2aFdEbmtvSlJLMjJVd0hXczNzTWxrNWgyZ1Zzd2pfdGJfalZORGJ2aVU1Zll5bkpGRVFVVE16RkxJUkdKeHVlQVU5QQ?oc=5",
+      "sourceName": "Хоккей Беларуси",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VZFpDR292Ul93SDFjNFBTRldqSzlIVnFEX1ZUbXJNYTBrQzNtckJfZjEtZjhUbTI4ZFphMTlNc2hJSWFsbklnczRpT1pJTFktbV9YR0RIcmRLM0U?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T13:47:27Z",
-      "likes": 34
+      "publishedAt": "2026-11-22T18:32:54Z",
+      "likes": 33
     },
     {
-      "id": "p_sports_news_1682450113",
-      "title": "«Настоящая битва». Свечников, Никишин и Подколзин блеснули в матче лидеров НХЛ - sport-express.net",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "id": "p_sports_news_3480975812",
+      "title": "Овечкин рассказал о везении «Вашингтона» при победе в Кубке Стэнли - StavkiPrognozy.ru",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: StavkiPrognozy.ru.",
       "emoji": "⚽",
-      "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPaFJ5ZjA3LW5BdlFrYzMyYXlncUtLb0hTSVhmb29NbjdxSkhGeTEtNVNLMWRkMzFBZl85OVhTa0dTQ2FWOGFjZjN0TFF2ZjZQSlZMNlhBUFhEX19oN3dFdkNEYVVlRDZPVVMydXBVdi1EanhKb2M3aHIySDNLNzRxa2VOMG4xQk9iampNU3lBa1YzWEZEQjhxVmttdlRoSm54WmdldHp3dlNsUjBlVWtiNTI5UFppWXJPaDl5WTJyaUFVajRsZTViZTcxUXpQMDJ0elhibVE0VktWV2ljZW4zNnFZQWoyaTZRXzJOWUN1Z0p3VDl0RlE?oc=5",
+      "sourceName": "StavkiPrognozy.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMkVhUWlVS3V6d2gyZU1iMzA4REdEZElUYUdNZF9RZm5KenU4Vkx5U0xEdHJPTWJHUmo3YUhjeVgtd2F3YUdJd1lRRzZwNDdVNEh1b3RYR1B6TzdXZWtEeENIY09xSWcteXNDcE54Rkg2MWZxYWRHWk92UFZGdEdIc2M4OHlMYld0R0NaR0tGbDZnNEE4VDRIRm1QdnNyOUxJX0h0NnA5cWxlYW8?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T13:45:01Z",
-      "likes": 41
+      "publishedAt": "2026-11-22T18:21:51Z",
+      "likes": 10
     },
     {
-      "id": "p_sports_news_2925011235",
-      "title": "\"Вашингтон\" Овечкина впервые в XXI веке проиграл 5 матчей подряд, пропустив в каждом минимум 5 голо…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport.ru.",
+      "id": "p_sports_news_3650351876",
+      "title": "«Вашингтон» пропустил 30 шайб за пять матчей и продолжает падение в таблице НХЛ - Новости Хоккея Бе…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Новости Хоккея Беларуси.",
       "emoji": "⚽",
-      "sourceName": "Sport.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVBtaXV2bGR6Vm1BTTRSaUVkOXpYempyWU0wUThTd2FkUlVQZmdIU29zbEluaExfY2ZsRmFZMHpnek1mYnFXYTFDQ1N6cmNnTkdmeUx0aGFET1pWaHNoY3hpeHdCektDbFdXaDNHQmpjWU1xZWNMRHFCREhsc0FGcm1vQ0ktVHQ1YW85QnFXbTAxY1RWRzN4WG16MjZtNVJEWU13aUp1cEtuQXhqLVB4M19lcWJCdHdPTUlWbXdKbw?oc=5",
+      "sourceName": "Новости Хоккея Беларуси",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR05TbXNzWlJKMXg4Z05oOXkzMG9wYndSNjRJemRwOHJTaEZEaFhmS3VhOUFoTGtIQVk3QVAwYUFhc2ZXZUhPeXlCcGxrTV9JcDl6cUx3OTNXalh2bFAxbFZwMHVLRmt2ZkQ1Zjc1aGJXc212eTdtemJmSGJKVHN6U0dZVUJKR1lsY3kzQ1gyUEkxeGhyYnZQZVozUThDM0JseXhpOElwMERFTmZYMHl6SWdsTXdHS25iQzBma3dGSDJKYml1WTljOVdFM2o?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T13:04:04Z",
-      "likes": 57
+      "publishedAt": "2026-11-22T17:44:30Z",
+      "likes": 85
     }
   ]
 }
