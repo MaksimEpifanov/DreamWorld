@@ -182,6 +182,9 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
                   : compactLayout
                   ? 34
                   : 40);
+          final double layoutNodeHeight = width < 700
+              ? maxNodeHeight + planetSize * 0.12 * 1.13
+              : nodeHeight;
           final double motionX = width * 0.002;
           final double motionY = height * 0.003;
           final Offset? position = _findPlanetPosition(
@@ -191,7 +194,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             orbitWidth: orbitWidth,
             orbitHeight: orbitHeight,
             nodeWidth: nodeWidth,
-            nodeHeight: nodeHeight,
+            nodeHeight: layoutNodeHeight,
             sceneWidth: width,
             sceneHeight: availableHeight,
             occupied: occupied,
@@ -206,7 +209,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             Rect.fromCenter(
               center: position,
               width: nodeWidth,
-              height: nodeHeight,
+              height: layoutNodeHeight,
             ).inflate((width < 700 ? 2 : 3) + math.max(motionX, motionY)),
           );
           layers.add(
@@ -330,13 +333,27 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
     final double maxX = sceneWidth - nodeWidth / 2 - paddingX;
     final double minY = nodeHeight / 2 + paddingY;
     final double maxY = sceneHeight - nodeHeight / 2 - paddingY;
-    final double stepX = nodeWidth + math.max(paddingX, paddingY) * 2 + 4;
-    final double stepY = nodeHeight + math.max(paddingX, paddingY) * 2 + 4;
+    final bool evenGrid = sceneWidth < 700;
+    final double stepX =
+        nodeWidth + math.max(paddingX, paddingY) * 2 + (evenGrid ? 2 : 4);
+    final double stepY =
+        nodeHeight + math.max(paddingX, paddingY) * 2 + (evenGrid ? 2 : 4);
     final List<Offset> slots = <Offset>[];
     for (double y = minY; y <= maxY; y += stepY) {
-      final bool stagger = ((y - minY) / stepY).round().isOdd;
+      final bool stagger = !evenGrid && ((y - minY) / stepY).round().isOdd;
       for (double x = minX + (stagger ? stepX / 2 : 0); x <= maxX; x += stepX) {
         slots.add(Offset(x, y));
+      }
+    }
+    if (evenGrid) {
+      for (final Offset candidate in slots) {
+        final Rect bounds = Rect.fromCenter(
+          center: candidate,
+          width: nodeWidth,
+          height: nodeHeight,
+        ).inflate(math.max(paddingX, paddingY));
+        if (bounds.overlaps(protectedBounds)) continue;
+        if (!occupied.any(bounds.overlaps)) return candidate;
       }
     }
     slots.sort((Offset a, Offset b) {
