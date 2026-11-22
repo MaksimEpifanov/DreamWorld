@@ -2,9 +2,11 @@ name: Daily Planet News
 on:
   schedule:
     - cron: '17 6 * * *'
+    - cron: '17 12 * * *'
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: planet-news
   cancel-in-progress: false
@@ -21,13 +23,21 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python .github/scripts/generate_news.py
       - name: Публикация
+        id: publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add news_data
           if git diff --cached --quiet; then
             echo "Новости не изменились"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: ежедневные новости планет"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Обновить сайт
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run web-deploy.yml --ref main
