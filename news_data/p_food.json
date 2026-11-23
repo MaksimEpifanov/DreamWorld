@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_3759471056",
-      "title": "Торт \"Вивальди\": Евгений Клопотенко посвятил новый рецепт операции Третьего армейского корпуса - Ін…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Інтерфакс-Україна.",
+      "id": "p_food_news_1108323014",
+      "title": "В Минске открылось необычное кафе беларусской кухни / Мой BY - Moyby.Com",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Moyby.Com.",
       "emoji": "🍜",
-      "sourceName": "Інтерфакс-Україна",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xNDBYTnFjckwyRTJsVFJYVS1lcHhFOEhMbU1DcHlFck5qeG5WMzF5NDlMUzlJNmc1aU52dmRkeHBuYUVNUzc1aW9ONl9hcHpTQno4MldWRkdJUm5XdFNaYWdmZ0txY1XSAWdBVV95cUxOcTQwWE5xY3JMMkUybFRSWFUtZXB4RThITG1NQ3B5RXJOanhuVjMxeTQ5TFM5STZnNWlOdnZkZHhwbmFFTVM3NWlvTjZfYXB6U0J6ODJXVkZHSVJuV3RTWmFnZmdLcWNV?oc=5",
+      "sourceName": "Moyby.Com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAzalFVZlJwYnpVZ0llUkF4c1R0TGoxMHZmYktpNGJWejltNENMdE5nNGJZTEtuS1FZaEFwTzZBVV85MTdV?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T17:56:17Z",
-      "likes": 48
+      "publishedAt": "2026-11-23T15:37:06Z",
+      "likes": 36
     },
     {
-      "id": "p_food_news_1639743785",
-      "title": "На ManaBalss.lv открыт сбор подписей за обязательное указание калорийности блюд в ресторанах - Mixn…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Mixnews.",
+      "id": "p_food_news_95964041",
+      "title": "Гастрономическая история Киева и детектив с вином. 12 гастрономических книг 2026 года, которые стои…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: NV.",
       "emoji": "🍜",
-      "sourceName": "Mixnews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORVFKb2h0dWUzT1k0UU9mUFdQZEh3dTNMMXlDT2hmdHRObl9UakRBQUtyODBOWngtaHNNVFlLZDFGSkRqXzRMd0tRanVGYnk5MWxKUW5VSFpQSzBOMkpzMjl5RXZLYmppbG5UOWd4ejNnaldkTGlWeEJzcFJwZnRQYkhaWUVyRnFWek8taE9OSTQ2NU9CWmJxT2tUSkJiZWxRSDZod083QlVILXNyWThmZWhZTDdOUFlJcmtLVjZfT3RTVk1CSThqLW8tQkE?oc=5",
+      "sourceName": "NV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMmg0QmtpQmpGQWFEMjBISHYxc0V1eXczVHJQWjJXYl9VZjMxcEtRT2EyQzU1eVRNV1lLaDVldFhCMjM1b0Z1dzA4ZjZWTy16Y3JsWGI5SVlTa1k4VmNyamlCXzQ2Ulc1dDZRT015TVR0QWh0Ykk3aDNfcU52emFPZXpZRFRDYWZhNWZ0eG5WZWtHWUVMWFlvMEhPakFfdDJ1WHZOTEJ6YXp3SUpfcko4Q2JWY9IBogFBVV95cUxPVkYwV0k2bDAyY2V0dlhpTDJCYjhZM2hiUHlycnVBckxDbEtadGpTeElpZG82QmJXNFBjMHJBSkdsTnpPdGpkNU5EcWhfeG43bE5abzhrbjI4TTFtd3hqSm0tN1dsRzlRM1pVNHlNSHQwbTgwcVpaR2FkQ3J5ZjBHVXVkQkFEM3BYRFJNck9CNUdxSjZHLVNXRENUVHBzUUxna0E?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T16:20:37Z",
-      "likes": 32
+      "publishedAt": "2026-11-23T15:14:29Z",
+      "likes": 22
     },
     {
-      "id": "p_food_news_1514675139",
-      "title": "В Латвии хотят заставить кафе и рестораны раскрывать калорийность блюд: что изменится для посетител…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: BB.LV.",
+      "id": "p_food_news_4080777787",
+      "title": "«Хочу всё сразу!»: где в Екатеринбурге попробовать классику грузинской кухни в новой интерпретации…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Е1.ру.",
       "emoji": "🍜",
-      "sourceName": "BB.LV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT2doLTlBcmdieHBabUpxRGsyTDVGVjV0QTVXWHJEWUFYbzJkaVp0aVo2UXVLbjlNcTgxN2o4SkRWRkNaSG9pbEVSajQ5LTc2LS02bFp4Sk1xQld0T2s3SEpkd0pMMGQtY0x4SW9sNmM2c1pJdEx4UFpvU181RWwzTi1WbUtZMWRjb3lHaWRDY1pUSDhhZFJNa0YtcFB4YmtEZUpiS1JyalVIeWJvSXlkemZaV1U0Uk1maFlBTmpiTi02N2ZBdnZoREdYb1BwclV1cUE3VWNVaTd0MElaSktWQnF6aVBWUdIB5gFBVV95cUxNT2doLTlBcmdieHBabUpxRGsyTDVGVjV0QTVXWHJEWUFYbzJkaVp0aVo2UXVLbjlNcTgxN2o4SkRWRkNaSG9pbEVSajQ5LTc2LS02bFp4Sk1xQld0T2s3SEpkd0pMMGQtY0x4SW9sNmM2c1pJdEx4UFpvU181RWwzTi1WbUtZMWRjb3lHaWRDY1pUSDhhZFJNa0YtcFB4YmtEZUpiS1JyalVIeWJvSXlkemZaV1U0Uk1maFlBTmpiTi02N2ZBdnZoREdYb1BwclV1cUE3VWNVaTd0MElaSktWQnF6aVBWUQ?oc=5",
+      "sourceName": "Е1.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qTlM1cWJSMmhOeEs2bVE4ZFZtU2k0eDNkV0lycUktbmVic0tUdnNSNy1Hc0xyUzlrZWNFWmxwRnNZVzJxMmttWXZ6aWVTZ3B0NGJESmI1TzdCTWFWS3EweEZmaTIxNlVSaGxIaDBMZ0VTZW8?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T14:26:03Z",
-      "likes": 40
+      "publishedAt": "2026-11-23T13:00:36Z",
+      "likes": 51
     },
     {
-      "id": "p_food_news_2090505842",
-      "title": "На борщ утвердили ГОСТ: как теперь следует варить - сверяем свои рецепты - Городовой",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Городовой.",
+      "id": "p_food_news_1496485083",
+      "title": "Не просто каша: как слепая старушка и ее дочь сохранили традиционное блюдо Воронежской области - Бл…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Блокнот Воронеж.",
       "emoji": "🍜",
-      "sourceName": "Городовой",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHMyb05ibVdsM2pVcklMdXZpNDNOZUFYUmp0dzdHR3EtQmtQa1hwbTNYeTVCX1JsYTRCVWNTZjE5M3Z1azV1SlJDbGVCUElFeEtVVHMxdDczTGcwQXdwVmFLV2luNlBQbm5pak5LTFFjVEYtM3Y2QndER2FTcGRiQno1NEkwZGx2bjVhelFUMEQyX245cnhqek1UY2FXY2RvT1A0dURaOTBEWWxyWWZldU0yNGhuTnBTRHRmdVV4dm12QQ?oc=5",
+      "sourceName": "Блокнот Воронеж",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWlZ6NXBCTjhDVHdHQi1UcXdWYjdCTktiOVJfZGMwMkd3ZGM4NkpfYnhNX1JRM1p1Rk5LWnpkRVM3Vk1ZZzJXeDYxa0ZpVlk2MTRXZ2xkaHRMY3RfQUdpbGZiVTB4SjlLLW5nQURsZVBsZXBxbFVkT1ZrWW1BUFZWeERHZEgtSXdDc0xMeElPbG8xc2l1amc?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T10:15:33Z",
-      "likes": 88
+      "publishedAt": "2026-11-23T11:57:01Z",
+      "likes": 17
     },
     {
-      "id": "p_food_news_4293295064",
-      "title": "Похоже, не репа главный русский овощ. Что чаще всего встречается в рецептах ГОСТа национальной кухн…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: 47 новостей из Ленинградской области.",
+      "id": "p_food_news_3683684923",
+      "title": "Колбаса или мясо в оливье – вот в чем вопрос - Gastronom.ru",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Gastronom.ru.",
       "emoji": "🍜",
-      "sourceName": "47 новостей из Ленинградской области",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ONWJCSlNYYU1YVGM1eVpQYWNZWVJ0VXhNYnp6ZHhyMVpUdTdVeDJwSW1pZ09wXzFKQzNONjg3Qmc3Y0VPQlNOYmVR?oc=5",
+      "sourceName": "Gastronom.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6ZzF1Wldyc3ZBQ0RsSHN3RzdRWFFlMEZ1b1cyOWptbTJWdnpJbTRUT0VKRExpRW55R0NsdjdpWG9hQm44RTgzQnlrSlBYTjFsM0dN0gFTQVVfeXFMUHpnMXVaV3JzdkFDRGxIc3dHN1FYUWUwRnVvVzI5am1tMlZ2ekltNFRPRUpETGlFbnlHQ2x2N2lYb2FCbjhFODNCeWtKUFhOMWwzR00?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-22T09:55:00Z",
-      "likes": 25
+      "publishedAt": "2026-11-23T10:48:31Z",
+      "likes": 54
     }
   ]
 }

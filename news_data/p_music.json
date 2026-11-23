@@ -1,63 +1,63 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_1330835399",
-      "title": "Саундтрек GTA 6 побил рекорд Spotify среди игровых альбомов - почти 30 млн прослушиваний за первые…",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: PlayGround.ru.",
+      "id": "p_music_news_553924533",
+      "title": "Концерт певицы Славы в Китае закончился приездом полиции - Леди Mail",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Леди Mail.",
       "emoji": "🎵",
-      "sourceName": "PlayGround.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc0lhcWU3angxck5RY3FVb0JVLVZsWnU5ckNmSUdhZHN1ZndEWXhuWml1VHhWcGZZalNPcUdaWFZsSlRoekwxQ1Axc1FjMkFxQ3JVbjZKVlBHWHZMS0tPR2NleXMycHpfNC1TUXVvMmJfRkwzMnlSSk9jSXJLS21vZzZVbUZRdTZIVDd5SkNwd2JndGtJdGx6MnpkUmk4UGVCMEZSZDFFcFhCc2l3cE1GMzZCb2R4T2h5UUNuZ0lCdm5DSU1kNkM4SHJ1aVZkdndYV1hVS2kxNDhaT2xjOEFTQjhn?oc=5",
+      "sourceName": "Леди Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVdQaEtJNEliLWJGOVBhdWpZTFg4QjFQYlV5MXl2MDZIREQ3SWxZTmpwcFh0c09Gblk1dUp3NEw1UDhKU2toTE1kYXRfU21MYVVuZjhhTkRzY2Nhc0lvZjkxRVVPNEFhRE1nMWt5Tm4zblg5V2ZUanZEVE9nQWJXNjJLeHN5OEVpekZwMTVwamltbUpPbjhQQnQzMA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-22T15:27:48Z",
-      "likes": 10
+      "publishedAt": "2026-11-23T16:02:41Z",
+      "likes": 87
     },
     {
-      "id": "p_music_news_298185032",
-      "title": "Разработчик создал лёгкий клиент Яндекс Музыки на Rust — он использует в 13 раз меньше памяти - pro…",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "id": "p_music_news_2843558803",
+      "title": "Рок-группа Cheap Trick сыграла последний концерт перед бессрочной паузой — Rolling Stone - UA.NEWS",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: UA.NEWS.",
       "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOUtIOUFxQVpPb2Z1X1gyNmRyZHBhU1ZtSVdCOVZhUlZGSVdqZ0ZCOHl0dlh6M2I3WWxoM2hCLUpwT19JeU5HaW5rYnJxX2ExSG5WNmh0WnhEREVkci1sYnBxVzdtRE9YaE44bU43Wm5vUngtMXEtZzVmVERKTkNtM0J2cHFJNWpETEt1cVkzM1VaN180VjFZdTJTdW9veU04UFZlY25sUGZCZjBhRHlKaDEteTFaN0JKWG9vREdkSHZoT284Z1FHb3I5SjNmTl9T?oc=5",
+      "sourceName": "UA.NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTRmLVZEVkdSY3RjekVFNnZZM25kSEJna3RVR3lXeE95V0k1bTdwaHpnZW13X201c0FscjhtWG9KZXNnN0lENjZYVDZhMzJ3NGhqMlJhSTRnVzRKNmlqMk0yY3RSU09GRTk4ZThLUlQtMTBVaWQ1N29wUU05T0dlUkxLNDBfV2EteXA3eTU0R1VmNW5WNGJKVzlGbDBxUXRwQ1NPaG9FRmFGbnBpLTlkeUx0YXdJdDgwX1JMWVB4NA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-22T15:05:33Z",
-      "likes": 59
+      "publishedAt": "2026-11-23T16:00:13Z",
+      "likes": 18
     },
     {
-      "id": "p_music_news_3771467913",
-      "title": "Баста выпустил «Шлак»: обзор на новый альбом Ноггано с ростовским вайбом - 161.ру",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 161.ру.",
+      "id": "p_music_news_2714639876",
+      "title": "Группа «Мельница» выступит в Челябинске с юбилейным концертом - mir74.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: mir74.ru.",
       "emoji": "🎵",
-      "sourceName": "161.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qUkhXdG53NGhVZjNwcHZtRkxjM3dwQ1FRNjNzTzBweDhRLTM5RkY1LVFxQ09XZWR5dmZGcFQwLXNuVmdvMGo0MzFCMTZlZEpHNmM2ZTU4TnBteVFH?oc=5",
+      "sourceName": "mir74.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnRoeEw0MzF5cWJVYXlPaml3R2p1RFNDTk1RRUJrcU1xV3dSMnY1eXBDdHIwTTlSM3pGWWJRc2pkTHRnVHhEMjhHbG9qWjBCLTJJMV9mbER0VWU0aVRJUGxwWmhXSXhSZzNmSUxCLXFtT3hwMkR3bi1SN2dQMzJvQjQ3MWpaRVFXSWZCeGRBa2pWNEJZalE?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-22T15:01:00Z",
-      "likes": 53
+      "publishedAt": "2026-11-23T15:24:03Z",
+      "likes": 40
     },
     {
-      "id": "p_music_news_113133721",
-      "title": "«Отава Ё» выпустили новый клип и альбом и анонсировали рождественские концерты - prospect.com.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "id": "p_music_news_1188856972",
+      "title": "Концерт Славы в чайхане на китайском острове Хайнань: реакция местных жителей и полиции - ТВ Mail",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ТВ Mail.",
       "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkNFT0JWV1JhOXlaTFo5T0NJVW52bFFmMUxiRV9PdFhQMnA5TXc0YjU1N0lxcUNJcDl6ZEhyR1FIeGdReEhqTjVQdnVCRTgxWmg1NGNTaWhyVlVEYV81MWVuVm1yNWJ5bUVMOHl4N3FEems0ZmtXZDIzVm1QdVpxUXRUVkdLbm0zaGJ3QVVUME1yNXlERlZzbHU0WlNMcktLTWFDVVFTenF1RmhZWThyaXZkVEVwRk1BUVE?oc=5",
+      "sourceName": "ТВ Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FGUm5NY0J5X3dQOTYxem83UHhhR011Q3N0RUNqNUdqRFQ0RnAtcmRWdHRMTTNFZFU0MVpVeS0tbldSOFQ4LUFpakNLcVREUHZIQWdnSFVDbG9qZ1hVdmR6MkhKa0k2Nm9YNlhYMHk1Y3hNdHR3NzAtZ25yYm5CVHNrSFI2YWdEVHFpRDgxR0RaVlVzMUI5WDl6WFFnRzVlMXhRR2s5MFk3Zw?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-22T14:44:53Z",
-      "likes": 81
+      "publishedAt": "2026-11-23T15:15:00Z",
+      "likes": 20
     },
     {
-      "id": "p_music_news_66804116",
-      "title": "Trivium Crown In The Grave: разбор альбома 2026 и возвращение к истокам I Dead Brush - Dead Brush",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Dead Brush.",
+      "id": "p_music_news_1721657751",
+      "title": "Группа НА-НА: как прошел сольный концерт и премьера сингла «Живой» - «Русская Теленеделя»",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: «Русская Теленеделя».",
       "emoji": "🎵",
-      "sourceName": "Dead Brush",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUlxdnpLYTJJbXhycUg5UE1lS184VTBhUEp1RGYyRXV5NU9EVVU5RkR0TGtjUW1oemwxb3RXUko3NG91emlZZUJCTXdTX3JGNlZiQmZ3TUo1Y1pkdm5tX2wydjMyZEdadFdtMFBpY185SWtlNW1fS3huQjBJMERZMjFLT2NiWkhtSGpYU3RLdlFBUnp5T241QnhKR1ZqWWVxMTdlVEhVcHRuRTMzcTQzZWdZWkh1NHZ1Z3NYcTl3?oc=5",
+      "sourceName": "«Русская Теленеделя»",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN19SZEt5UExMSGZjZmdCVWdHM3hwT3dhOGpBdEpvTUJQdTlaYmtWMmZDblJkSDk5SVpxdWd5MFhhbjlfMGJLVzVjaTN5bkVFbTUwMFgtLVhHdTY4V3FDekUxMy05WExCZmZ6VG82WWlUeXNTVnFuR0daeHdvOUFEeUJ1S2lod0hnbVBqenphSEQyNjhsb0JCWnUta2tzel9yZDlj0gGjAUFVX3lxTE83X1JkS3lQTExIZmNmZ0JVZ0czeHBPd2E4akF0Sm9NQlB1OVpia1YyZkNuUmRIOTlJWnF1Z3kwWGFuOV8wYktXNWNpM3luRUVtNTAwWC0tWEd1NjhXcUN6RTEzLTlYTEJmZnpUbzZZaVR5c1NWcW5HR1p4d285QUR5QnVLaWh3SGdtUGp6emFIRDI2OGxvQkJadS1ra3N6X3JkOWM?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-22T12:02:06Z",
-      "likes": 12
+      "publishedAt": "2026-11-23T15:03:32Z",
+      "likes": 62
     }
   ]
 }

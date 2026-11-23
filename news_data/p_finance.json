@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_1989061271",
-      "title": "Жителям придется затянуть пояса, но государство займет 2 млрд евро на инвестиции - rus tvnet",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: rus tvnet.",
+      "id": "p_finance_news_1335631138",
+      "title": "Будут ли отслеживаться повседневные расходы казахстанцев для начисления пособий? - Forbes.kz",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Forbes.kz.",
       "emoji": "💰",
-      "sourceName": "rus tvnet",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkpXalR0bnp5MVUzblV3ODJUZEZyLUpyblI0bmZESjlsQm0zUzdmV2JTdWZ5dms5QTdqalZrbXVuWE9mZFdGQzRzcWFrRVk5MFZfb2lNRVFlYW9nWVRNZ2FIU0FaVnZ2a0pOdkZ5NjNOLWl6VkdweWpDanpwU3FPbzJ5NHdPMnUzNWxoc3l6WnV4b2VJVDkwOVk2cmZRN0wtVEgycENzOHlsTnJnNXV3X0VR?oc=5",
+      "sourceName": "Forbes.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObHVRVmxsYXVTdmFmOUliQmZaWEh0akJfbGFuLS11a3BiV0lnQ3NsS0JfTF9UbWhzZy1wZ0wyTXVpSXM5NWJRYnRBQ0xjTmk0cWJBN09WWV9xeWY1MHMzbDdBS3c5bXhrLXNINTlRcG1tRE8zcThqRlM4YmM2NGhoV2VCY2ZVcm5tNng0SzhHbFNxZlVOdVdWNjN6U0g0OXMtXzJfb3hReXN5WWFha0l2Uw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T18:20:00Z",
-      "likes": 62
+      "publishedAt": "2026-11-23T17:43:35Z",
+      "likes": 59
     },
     {
-      "id": "p_finance_news_3002228700",
-      "title": "Рынок не верит саммиту Путина, Трампа и Си! Что происходит с экономикой? - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "id": "p_finance_news_2632080628",
+      "title": "Викторина «Финансы через призму искусства» в Москве 25 ноября 2026 - Мои финансы",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Мои финансы.",
       "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbW5VbFNhMlhEU2lBWHRIazFybzZOOFl0N19wTjliWDF4ZmRQeGdKMVdwVE05cXJDaEpPYTh3UlUtWmpDczdLbzNDaUZqOVRjemdlT1lpNHdTSUZtUFF5UkRpSVRPY0tIZjZBTno3R0lPeDJ2LTRSN09UY3N4dGJsay1rZVgtdzBpaHFzSl9DMGdpYnBLVi1jUm96YU5HV0p5eGJKTTVMUQ?oc=5",
+      "sourceName": "Мои финансы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFp0VDBjR2JYZXNLUmplUV9MaFNOY0NNZi1pVnNyYzl4M1JEZ1M0ZFhXcDdzMzV1cmx4SWZqaUVmQzk5eVR5S2tLUEtjampnb096dnQxazRPSXY5SFM3YldlY3RnVDVNX1pVbzI5cGxvME50d2JkRVpJMEFuR3pER0ZrLXhzRWxpNmlHMG9TYzlOMUVVTGNaUGpXZFhGTVBheGtESXpRNlF4VkNiM3c?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T15:55:47Z",
-      "likes": 76
+      "publishedAt": "2026-11-23T17:29:52Z",
+      "likes": 17
     },
     {
-      "id": "p_finance_news_3781453517",
-      "title": "Расходы на переподготовку безработных в Германии выросли на 113%. Куда уходят деньги - prospect.com…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: prospect.com.ru.",
+      "id": "p_finance_news_2058542972",
+      "title": "Акрон улучшил финансовые результаты за девять месяцев 2026 года но оценка акций остается высокой -…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Marketpower.pro.",
       "emoji": "💰",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR2pDODBja0pvMGZUZklIME01eF9EdWkxX1hXdEtjbG1WMTZxSkpjS0ZhQ1U3cE14RTl6ZmhWLXUybXhTMzBGaUNOMVVMT0ZhTVZiUlFzcl9WNEdtWHhabWV2ejVqdzJYaXBtTmUxb1REY2pRMUdCZDFubzlaSUE1X1ZvcjFSeHJvaEtwalVQaWVkUTZFRTRSZ3lDN1FyRGZHSi1UTFNIRG5KNW5tNVJiRFFMS21xbmFfRVA4TjE3R1ZMZw?oc=5",
+      "sourceName": "Marketpower.pro",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUk15eHJQNzdDZ092enpjNkpnN09UWWlsU09DbGR6Y29Nb0JDUThQbmQ4YzhRRXY5czBreVgwYzBCbW1LQ1ExcDlnSTdmc2swZEtoM2w4bC1qMFkwYTZaLWdkLTBjdVBuOTd0Sl9FbWtOYU1KV2dlWVdBRjZVQ3pDbUdjRjdNdkUzTzNYYVVBSWU5d1U5ZnVYRFRNSWNMTU5tVGlxQTdqUTZNUFY2VXc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T14:04:48Z",
-      "likes": 16
+      "publishedAt": "2026-11-23T14:56:26Z",
+      "likes": 35
     },
     {
-      "id": "p_finance_news_1672083174",
-      "title": "Ручные прайс-кэпы делают новые инвестиции в генерацию нерентабельными, - эксперт - РБК-Україна",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: РБК-Україна.",
+      "id": "p_finance_news_2800391847",
+      "title": "Среди угольных бизнесменов России числится экс-премьер Беларуси. Посмотрели, как обстоят финансовые…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Zerkalo.",
       "emoji": "💰",
-      "sourceName": "РБК-Україна",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUlUQ1NXYUVlS19SRVVELWpPUURTaDUwVEV2MWYyN1VNbGFOQTY4RV9iOFRJai0wd3oxZWdBSXJwak5RQ3NjajlDN2gtOHNvSDZ2MXZVZ2IxejJoa011UjUxeXg0WUk3MFBhN2tDNjduNDBVQWtQSWdyazBraDNkTDRGTEw3WHc2ZjktZ2VWSTJXUkpIcnfSAZYBQVVfeXFMTTVJVENTV2FFZUtfUkVVRC1qT1FEU2g1MFRFdjFmMjdVTWxhTkE2OEVfYjhUSWotMHd6MWVnQUlycGpOUUNzY2o5QzdoLThzb0g2djF2VWdiMXoyaGtNdVI1MXl4NFlJNzBQYTdrQzY3bjQwVUFrUElncmswa2gzZEw0RkxMN1h3NmY5LWdlVkkyV1JKSHJ3?oc=5",
+      "sourceName": "Zerkalo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jczRlT0RGMHN2V3JXUUIySld5N3RGbFE4Q0U0d292cDg1aUNpX3FxdUFXWXBDYTVkQXd5WGpaS2FiT0FLT2NqSXBrOVVhZkZ5XzFaSmg0QTFaLW9rN3c?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T12:35:40Z",
-      "likes": 66
+      "publishedAt": "2026-11-23T12:31:00Z",
+      "likes": 75
     },
     {
-      "id": "p_finance_news_3114077528",
-      "title": "Деньги как эликсир молодости: почему финансовая стабильность замедляет старение - Веселовские Вести",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Веселовские Вести.",
+      "id": "p_finance_news_2282779204",
+      "title": "Саудовская Аравия установила цель саудизации 50% для 17 финансовых профессий к маю 2027 года - Inde…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: IndexBox.",
       "emoji": "💰",
-      "sourceName": "Веселовские Вести",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVNfWUprcjZIRjVPTlVxbHF2NDBOTDNoZkNiVDJpNnRCSEl5cU01SjhWcHRBaHFweWdCSE1SSC1kZTlZMkdyaGdTX1JNNmYzTGg3b3dUZlRoenFucVVEU25aVUJrUkhjb0NOOFdGUVdlMWpQRXBxaVB6NnVoYzd4Sm80X2NXSEg5ZW0zdE1LYXZMU2lQWUduNjBvQjZCRnRwTUE?oc=5",
+      "sourceName": "IndexBox",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX3FYelRDVVBQM25YT2VjbzRnTkE2V284dTFOVjYzVHpaZjV2SWxzRkhBY1JNNW43NXdYaW9xREF6NG9weVo1Tko1bDk3R3B4bWo5TjUwUkpFc1c2Wm5jWDBwRHdQYkFXVElnNklBZ0lpXzBuak1DT2I0cnlxMDBYT1RSZFNqNGJBa3I2OExrSTlRRWF5SGZvUEtnR2F3MXFPX3lVRTlkWUdKTXhpV1FxdkowYw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T10:20:00Z",
-      "likes": 9
+      "publishedAt": "2026-11-23T11:20:55Z",
+      "likes": 13
     }
   ]
 }

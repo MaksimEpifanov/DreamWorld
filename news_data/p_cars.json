@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_792469294",
-      "title": "Российские автомобили на базе китайских моделей: список и производители - Tarantas News",
+      "id": "p_cars_news_2843255939",
+      "title": "Сергей Целиков допустил падение авторынка России на 5–7% в 2027 году - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckZmWjA4dkE1VUI1VFhUMDFXQ1JSMncwVzdlZ2lEMmtubkprajV5U1pYTzFETFJDRXlxRGJfUnp4d2xENWpWZTZnLVFwNUxZSzJCR0ZEYlF4Tk9qdkZpNGk0eDhkbnA3Q1RHSFk3c1Y1aThHREpNdHdINkRxQUdXSm5lNG03LWlscjFtT3RNQTZxRTdTZmRQcXRIMTB6dkJGRWRKLXVwV3NvUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0Qxa2lUeVhtSkVHZE1aVnEwZUhUQWtCdWI3dnpGM21CMERHMDc5a01ZYmtjRFRaUnlFb3ZnbU5malEtOHB3VS15Vzhvd19GSFZkMUI0aERpNGNKN1FQNVNWZ3RnbndkcUZPcVBCc0MyYjNNbW8zV3dmamJhN2JmejRzckt4bnUyaENCcGZSeHlrUjE1MTFDNTk3bEQwX3RTMXBwVWZR?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T19:31:26Z",
-      "likes": 87
-    },
-    {
-      "id": "p_cars_news_179679813",
-      "title": "LADA Vesta CNG получит цвет от Azimut, недоступный для версии Sport - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXdpR1pkb1NrX3o5OVVTcEFCNE5BTkxKVTVzVVQ0Q1JKOHllUFJnZVk2VDFxVG9xVHJhbjNLV0huLVhsWmk4YWlMQjRkMEt1c1pfdzJ5RTNqUV9ZRlNHY01ZQ2dOY2s1OWtCM0xjeXBQcWNXQUlMNnhad2tyS2ZtM29sZVFNUXNWQ213QTBzTGxzT2ZHRWxXdnFwMTEzeDRxcUw5dWU1TW0?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-22T10:55:14Z",
+      "publishedAt": "2026-11-23T13:48:38Z",
       "likes": 81
     },
     {
-      "id": "p_cars_news_3269375311",
-      "title": "Водителям объяснили, как запустить двигатель при севшей батарейке ключа - Tarantas News",
+      "id": "p_cars_news_4183223602",
+      "title": "Dongfeng eπ EP7 представят 27 ноября на автосалоне в Гуанчжоу - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGRlX0JFcVREZXRsYzk0SXY3aFduTzZMVC1ZWFBqSFNhXzJZNUM5WTRzMGgybzMxNjdoemFxaVg4NlkxeTRnZXV2RGY5em94QWlGeEN5R0lEb1Y4Q190cEFwQzNEc2Y5cjZfdWhRTkZJRkctOE13a0luUm5TMWdjUk53TkdaN00xRVpvQUkzYWYyLVdrRnBXTjRqNFBUUFFkbXlEck9sZjl0LXJQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaXlQVmswQjVCMTJUeWg3TE0teEtIcEFaWlk3SXlTOHhyTTVtX3oxRm9oU210QmhBUXp3Qy1VTW5ZTzcwcTRhay1iUVlzc1pGaXNCenkyT2ZNX0IySU94U2N1ZG55Umx0d3V3MEE2ZVN6TXBqbWN6YWwyV1RiMFdxTDFOYlk2RkQ3bjI1WFFxRGNaQ0p2QlA2R1dac2ZiTnVfdVpV?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T10:38:57Z",
-      "likes": 88
+      "publishedAt": "2026-11-23T11:40:21Z",
+      "likes": 34
     },
     {
-      "id": "p_cars_news_2954213618",
-      "title": "В России предложили новые границы ОСАГО и пересмотр коэффициентов с апреля 2027 года - Tarantas News",
+      "id": "p_cars_news_139709103",
+      "title": "Замена кузова Toyota Land Cruiser 200 обойдётся минимум в 850 тысяч рублей - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ1dhYTB3ZmtxdWVBXzNscHBXVW43eVpFS0FxZmpGZ2lqbWloRVA4anFxWEFib2plYzNiQk1TcmV6Q2VqcjRfTVJ6eWFRYkg3NEJjNU1UVlZnRjFTN3doNTV2c2VTSERkX0ZRS09tOURqNXBHMTdpdFpPUVlnRlRkbWlPc1E0aGZyUmxnZ01EbU9ucGVUV05LWi1KSDJSZzdhcTFXeVFOcHUtUVpCTHlWMnBrbWdKZng0aVJZQnk5UXlQdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWG1tVU14ZVBuWFhnc18tSHgzZ2czWnRacWd0MWp0Q2ZVVll4aVNKSFJmZ2VraGVFMjdOc3dYYzhpcWhRRFZxRW5PLWxLeF9BNDkzSVZYSEwwTjRNWENHNE9OYUljOUFkdlFiSGZHbl9nN0ROVmhLb21lYXVRZlMzRS1hOUEwWWY4RlRfNXN0eFZ6bnRKU2FNMDB6aFVzWkZON2djNHZDam1PdkxULVJYa2hXNA?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T09:26:58Z",
-      "likes": 92
+      "publishedAt": "2026-11-23T10:07:20Z",
+      "likes": 16
     },
     {
-      "id": "p_cars_news_1595186472",
-      "title": "Эксперт рассказал, чем дизельный двигатель отличается от бензинового при разгоне - Tarantas News",
+      "id": "p_cars_news_1919943111",
+      "title": "В Европе заказы ограничили, а в США продолжают продавать: Mercedes сохранил два электрокара - Taran…",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNFB0VDYtdEkwblRqbUpGVFhVNVloM2hubXdpZ19lRDBSelNJRXlNWmlQbTRkRk0zM2lmdjVIcDk2dWdGWlFPMnc3N3JIdXpfWGR1UXFPSEpYM2FpVzlHZkNROHR0NFdIQlBXOGh6SFNCSHRxRkxXYnJPc1VQd1BGSXROMHZKY2ptMW1WWm4tc1JfV0RqeXIzZ3RfZ2FjSVRvYTJBaE1fbG43N2dNcmF5aDcyRDlSR28?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMUZQOWJ4bWJLbXo2MzBHejM2a3NTcVFyNmJvc21CVkpxVVRseE1zMkE5WU5WS19EaDlpQlNSYmR5d3ZjeW1qSW1nUUNxOWFzRzJzdDR0Q2pyRkI5YmxubG9VbkQ0dGhGS1E1Y2tGTkc4VGtJb1FtZ1NUSkxITWNBRVUtZmo0WmZLcWhmSG1hdWt3OWdVdUtHNHQtSjFjZ0lyMFlQRmNWNk9qVFNWa0VTZjcxVlhwWlgteFpLYlVSRGc3TmREX09z?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T08:16:21Z",
-      "likes": 47
+      "publishedAt": "2026-11-23T09:05:52Z",
+      "likes": 7
+    },
+    {
+      "id": "p_cars_news_2864059751",
+      "title": "Аналитики назвали автомобили с самым долгим сроком продажи в Москве - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY3FmZEhoekZ4TkxEZk1XZ2U0b0VLRnp3UVBJaDQ1X2JCaXhvbWJLT0NtMk42UFcycGxRVE1GdGFEenByVWpubWNiZlk3TWJITEstdkIydnRqZC1fN2wxaXhsQnpVMlJQeXF4ekgwOFdCX1lpUmJxR0lSb01YZ2lYaDBqZDFndlNFSVBoOXpSSDZNUGw3ZUFhWl9IY0MtMmZ5dTBaMHVPNA?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-23T08:09:16Z",
+      "likes": 75
     }
   ]
 }

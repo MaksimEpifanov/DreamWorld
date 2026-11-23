@@ -1,63 +1,63 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_volunteering_news_2286947257",
-      "title": "В Ярославле во второй раз комитет семей воинов Отечества организовывает благотворительную ярмарку -…",
-      "summary": "Помощь людям, приютам и природе. Источник: Телеканал ЯПервый.",
+      "id": "p_volunteering_news_3774290381",
+      "title": "Добровольцы Псковской области принимают участие в акции «#МЫВМЕСТЕ — Месяц добрых дел» - Правительс…",
+      "summary": "Помощь людям, приютам и природе. Источник: Правительство Псковской области.",
       "emoji": "🤝",
-      "sourceName": "Телеканал ЯПервый",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTkzamp0Q0c5dkZ2M25BV3NsNW9LMEQ3UWo0SzhJREpBZjNHbkJhV2R2ZVduZHZGbGJGbk82OFRDTlFyekVveXZsMEF6NlVneXlYWFB6T3BKUVhtZGh0V3Jva0ZGMGlKYnJ6WGVzaG5LU2RyQXVrNzYwamlmc2FIaTVKdkpVMVQtZmljWTNHS2JTeHFXY2djVktHcWtNUnVzV29YUXB0Mk00aC1lRnlheFRaWGtBSHVTWm5QNUx6ODZGdw?oc=5",
+      "sourceName": "Правительство Псковской области",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzZDZDQWdSdzJ2U1NyZ3ZUbFloVDFxTTN5Mm9DNUJkbm1zWXBHT0J6S2kxbkZiaTJtX0MzOUh6Y2dwLWN0dUJ5WFFEYV95VDZtY3dv?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T17:57:54Z",
-      "likes": 51
+      "publishedAt": "2026-11-23T14:43:08Z",
+      "likes": 81
     },
     {
-      "id": "p_volunteering_news_3265919550",
-      "title": "Сильная команда и общая миссия: волонтёры Молодежки НФ Хакасии- участники федерального форума",
-      "summary": "Помощь людям, приютам и природе. Источник: Абакан 24.",
+      "id": "p_volunteering_news_669775849",
+      "title": "V Форум фонда «Онкологика» - Агентство социальной информации",
+      "summary": "Помощь людям, приютам и природе. Источник: Агентство социальной информации.",
       "emoji": "🤝",
-      "sourceName": "Абакан 24",
-      "sourceUrl": "https://abakan-news.ru/%d1%81%d0%b8%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%ba%d0%be%d0%bc%d0%b0%d0%bd%d0%b4%d0%b0-%d0%b8-%d0%be%d0%b1%d1%89%d0%b0%d1%8f-%d0%bc%d0%b8%d1%81%d1%81%d0%b8%d1%8f-%d0%b2%d0%be%d0%bb%d0%be%d0%bd%d1%82/",
+      "sourceName": "Агентство социальной информации",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RZWx3SzhvZnBRcVlmODZMOUtUWVJ4VVg4LUNKNVVBcmFicXgwYmlxME1BbnZBVk5DejFxMmcxSi05b3Fvck16cmRrTXdOY3p1V3hsMmNBdi1IbjJJaHRHMVhMX1pQSU11U280cjhn?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T16:00:00Z",
-      "likes": 34
+      "publishedAt": "2026-11-23T14:21:06Z",
+      "likes": 84
     },
     {
-      "id": "p_volunteering_news_1448107599",
-      "title": "Волонтёры «Мучкап. Рука помощи» передали штурмовикам очередную гуманитарку",
-      "summary": "Помощь людям, приютам и природе. Источник: gazetamuchkap.",
+      "id": "p_volunteering_news_2792618863",
+      "title": "Мордовия присоединилась к всероссийской акции «#МЫВМЕСТЕ – Месяц добрых дел» - Известия Мордовии",
+      "summary": "Помощь людям, приютам и природе. Источник: Известия Мордовии.",
       "emoji": "🤝",
-      "sourceName": "gazetamuchkap",
-      "sourceUrl": "https://gazetamuchkap.ru/news/society/2026-11-19/volontyory-muchkap-ruka-pomoschi-peredali-shturmovikam-ocherednuyu-gumanitarku-352192",
+      "sourceName": "Известия Мордовии",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmJPRGE0Y2l3NE9xaVhLaHlSVkRsY1hYNTY0VGRLVnlEMmtkSDJLRF9nMy1fNUlKcDVNNHozV1JjUU5MdDQwRk1mWFNjSldJUy1zaTFydVEyMUk5WmZNUXY5U0thdVEzX0NFUGwzVXBqUngySWxieFN1UDZmVHlGbmFKZ2ZieDB4RFMtUDU4eGxJTWRCaUhNR3E3NGpzZ0UwRk5iOENfS0FLekxHcFlUeGc2TQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-19T01:15:00Z",
-      "likes": 9
+      "publishedAt": "2026-11-23T14:20:00Z",
+      "likes": 64
     },
     {
-      "id": "p_volunteering_news_1370779313",
-      "title": "Сумка «Ангел», помощь раненым и тысячи добровольцев: чем запомнился форум в Калининграде",
-      "summary": "Помощь людям, приютам и природе. Источник: Страна Калининград.",
+      "id": "p_volunteering_news_2493353866",
+      "title": "Крым присоединился к всероссийской акции «Месяц добрых дел» - Новости Крыма | КИА",
+      "summary": "Помощь людям, приютам и природе. Источник: Новости Крыма | КИА.",
       "emoji": "🤝",
-      "sourceName": "Страна Калининград",
-      "sourceUrl": "https://strana39.ru/news/2026-11-16/395002-sumka-angel-pomosch-ranenym-i-tysyachi-dobrovoltsev-chem-zapomnilsya-forum-v-kaliningrade",
+      "sourceName": "Новости Крыма | КИА",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWnpXLW5jdWQwUDE5c1FYSnJZY0JfdXJUQWstLTcxbHM2MnpvcVZ1N1poWUw3U0tzWlBTUXFuUGFHT1RMUmdncW1fTTlac3RCd2ZxcFNZZ0NHc3p6UVQyRDJqTzNZVUUxWW1lR2JFS19WYlI0Uy05X2N6eXo2ckhtXzlTQ3llZHlzRGxqOVZ4RWs3WjA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-16T07:56:00Z",
-      "likes": 30
+      "publishedAt": "2026-11-23T11:53:30Z",
+      "likes": 68
     },
     {
-      "id": "p_volunteering_news_1864852649",
-      "title": "В Ульяновске прошёл II Международный форум волонтёров «Солидарность»",
-      "summary": "Помощь людям, приютам и природе. Источник: Коммерсантъ.",
+      "id": "p_volunteering_news_3783879573",
+      "title": "Волонтёры Тавелей приняли мамадышских коллег и поделились опытом помощи СВО - Нократ (Вятка)",
+      "summary": "Помощь людям, приютам и природе. Источник: Нократ (Вятка).",
       "emoji": "🤝",
-      "sourceName": "Коммерсантъ",
-      "sourceUrl": "https://www.kommersant.ru/doc/9108924",
+      "sourceName": "Нократ (Вятка)",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS2x1SDIwdnpvZnhkaW1yQTFRalNrZWlLcVBYMmdBY290SkY1XzlPS1ZuVFBORjAxUVFnV3pmaDk4LTZvZXc1MEU1VWNZSEZ3VTM5M2dlcHF6OHlNcEhQckhldUYyYldCbkxVQkVLUUwxVjR5bFFhZTk3YktfYV9wdmZpUDRZZlRzV0Y1eDhWUW5sTDdNbEhuTTFuRkoxTjRGTnUwR09vb25fVmpYMzVJaDh3THdRajI4?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-13T07:31:00Z",
-      "likes": 59
+      "publishedAt": "2026-11-23T06:12:00Z",
+      "likes": 71
     }
   ]
 }

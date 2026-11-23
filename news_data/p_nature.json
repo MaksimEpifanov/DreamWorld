@@ -1,63 +1,63 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_nature_news_1804617986",
-      "title": "Рязанцам показали лесных жителей с фотоловушек Окского заповедника - РИА «7 новостей»",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: РИА «7 новостей».",
+      "id": "p_nature_news_2112639624",
+      "title": "«Лес. Хранитель жизни»: документальный фильм о жизни в северных лесах - 23 ноября 2026 | 29.ру - 29…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: 29.ru.",
       "emoji": "🌲",
-      "sourceName": "РИА «7 новостей»",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMXEyeU8wdEwxTGl4LV9ROEJ5Q2JkSHpoRmFkOTFBTFFKdV91blMtd3R6UnlERlVaa0Jab0g1MUY0LXU0Q2NfOEloNHVpb0dKQWlmTXY3Y3prSENxYWk3d21jT19mWTNkSGQwd1pJRWxIeDF2Q1VWaW1CU2l0eFYtaDNuQUNHeGR1V2FyR2FQemdwcW9hZ3RZeGNyVTQ2S0ZjcF9HRW5xUktWUQ?oc=5",
+      "sourceName": "29.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hU0h0QTlSRVlROXFEVWRBdGVzTzUyeEpYYjEtYzNoLTRYOUFTX3ZubGdScW90S2o0NWFvOVVuN1R3T3lvZE5TcnRvVENsdG9uaTRqZlJ3NFFJZ1U?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T18:22:16Z",
-      "likes": 36
+      "publishedAt": "2026-11-23T14:25:00Z",
+      "likes": 47
     },
     {
-      "id": "p_nature_news_97622795",
-      "title": "В лесах под Новороссийском живет крылатый охотник на змей с голосом иволги – Новости Новороссийска…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Новороссийский рабочий.",
+      "id": "p_nature_news_3609363353",
+      "title": "Гиена бродила по Модиину и загрызла собаку: сколько диких животных в городах и насколько они опасны…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Vesty.co.il.",
       "emoji": "🌲",
-      "sourceName": "Новороссийский рабочий",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHZMOWQxdF9yM2cxVUlaS2dmdEdDamc2Y2dISkVHTUsxVzhrMk5rNXhvYkJ2Z2tyV3pmNktVTVlqV2JNSHZxbDViMWNndXhJM3djVDI2ZC10NWQ3a2lBTDVfYThfdWhnQUNRUUxqWWJWcnl2Rll1aWZFY2dTeU91XzkwRnFvT2J0anVjWWp3UVdwS2xBVnQyT2w3TUIwRU1mVVBBTVRYZ0Etdw?oc=5",
+      "sourceName": "Vesty.co.il",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBES0pyREpvWkd6M1RyeFpjTDNFd0VpaEl3TmxkUzBCenUzeXN4MDIxT3V3VksyMkY5SGpaMWRsNE1NS056cEp2TFdzVDNlODZSWDY1VmVuTFNDWDhz?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T13:58:59Z",
-      "likes": 51
+      "publishedAt": "2026-11-23T14:05:07Z",
+      "likes": 32
     },
     {
-      "id": "p_nature_news_1019935608",
-      "title": "Лось попал в объектив фотоловушки в карельском заповеднике - Карелия.Ньюс",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Карелия.Ньюс.",
+      "id": "p_nature_news_3899483272",
+      "title": "После серии популярных роликов. В Карпатском биосферном заповеднике рассказали, можно ли кататься н…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: NV.",
       "emoji": "🌲",
-      "sourceName": "Карелия.Ньюс",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNelJGYzBMTEV2TkFYZUh1SjU2QnFraWt4YXE3c1ptQVB6QU1OTVAybUZGS3ZRMnh0aTA2M2U5YkNiVS1TcEpSSGRnUVFSTWRSWFUzRWM4Z0JzRjZZSXZEVGd3eTlWQWM4TGN0eV8wLVdZeEQ1UVZCMGtTUXN1cTdCY2ExMFJzQ2lGVGhNVFVTMU5mTUhRNWJz?oc=5",
+      "sourceName": "NV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVBMVJ5N2pLZzgzSlZHcXhiNHppMzMzVTRndlBXNjZaaW9NVVJ2ckg1RGQ3eVJKSGgxbHBCNk56Wkxfd0YxaXkwRWRsSk1BcUFPbjZtXzYxeUEzRzJsNm8zRktfb3AyRDNfaXlFUXotWkdhTWJXdTd4UFZGLUxCRFZTelItcnU1SjRFTld4NVp2UWdXczI2Q21DTGNwRXg1NlF6SEVFeUtnTDgt0gGoAUFVX3lxTE5Zc2VOeWFfSWs0UnFfUVA2UEk5d0I0SDhEWDY2NENsNDJ4ZThlQUdEazhUUjFDa0VtOFZiaXB1azVfOUpDLWJaLThJUXctTG9xZHNNSm42bWQzemdpMDNacGZQd1NyMnVlVXdCTDI4YjdqUW9pNWxZQUZSZjNHRElDaV9YS1MtOThEaW9WUDZKQ1Jrby1oWUs1TUtYZkFlaEpDMUlZeU9wSQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T06:54:58Z",
-      "likes": 40
+      "publishedAt": "2026-11-23T13:39:00Z",
+      "likes": 17
     },
     {
-      "id": "p_nature_news_2420329064",
-      "title": "Как в Воронежской области реализуются ключевые направления нацпроекта «Экологическое благополучие»…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Коммуна.",
+      "id": "p_nature_news_3003729753",
+      "title": "Фотоловушки Государственного заповедника «Хосровский лес» зафиксировали безоаровых коз - NEWS.am",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: NEWS.am.",
       "emoji": "🌲",
-      "sourceName": "Коммуна",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUFU1YmZzZUpzdDEzMVdnNWJYUTRmd0UzQnl0R3MtMlJoaVl4Ul9qLUxIeGsydGZFR2VWNXlLTVE1ZEJaM2J5SGRqQmhscFNqOC13MkNlcWRjdnlqYzUzSlozQ3hud05vWnd6TzdFdmQ4bVZGZ1ZEYjN1OENaeWpmQUpNWlFzTzEtQmJqQXJ2YW04NlFSeVZ6OGgweDQzOGJIWm1TY1RfWmhiNEdXWDA2V3g1a3JsaUU3Q0VxNW4wOWtTMnBMTWpGME9HYw?oc=5",
+      "sourceName": "NEWS.am",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83NlYwLVNQX3JURlU1cEk0ZUdSMVZmWWo2dmRRWXdURFZCbUVrOGx0azJKZGtyQlV0MWM4TlYya1F1a2I1aVE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T06:28:00Z",
-      "likes": 3
+      "publishedAt": "2026-11-23T13:25:24Z",
+      "likes": 62
     },
     {
-      "id": "p_nature_news_1290409601",
-      "title": "В заповеднике \"Брянский лес\" отметили 15-летие зубра Мефодия",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Рамблер/новости.",
+      "id": "p_nature_news_787833347",
+      "title": "В приморском заповеднике заметили редкую выдру-призрака - Мел",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Мел.",
       "emoji": "🌲",
-      "sourceName": "Рамблер/новости",
-      "sourceUrl": "https://news.rambler.ru/world/57390900-v-zapovednike-bryanskiy-les-otmetili-15-letie-zubra-mefodiya/",
+      "sourceName": "Мел",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORjZDUTBSZUhleUktLWlSVzNacVhRalJFLTF2M0JLVG9nTzZGdzB5T0xLNmxHRWpfdlhDX0ZTY25pbEk1Y0thVEhUbnptbUZ4QV9NclB2MXFLWUtnWXdSSnFsLXRyVC04ZW10QmhVYnF1QjhpOU1LTUZrUGpDRzd5YlI3WGxSREFjTGd0RGJ1bFZLMTItT2fSAZYBQVVfeXFMTkY2Q1EwUmVIZXlJLS1pUlczWnFYUWpSRS0xdjNCS1RvZ082RncweU9MSzZsR0VqX3ZYQ19GU2NuaWxJNWNLYVRIVG56bW1GeEFfTXJQdjFxS1lLZ1l3UkpxbC10clQtOGVtdEJoVWJxdUI4aTlNS01Ga1BqQ0c3eWJSN1hsUkRBY0xndERidWxWSzEyLU9n?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-10T08:30:00Z",
-      "likes": 58
+      "publishedAt": "2026-11-23T08:27:03Z",
+      "likes": 54
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_3339072889",
-      "title": "Wardens of Avalon: вышел первый геймплейный обзор ролевой игры по артуровским легендам - GoHa.Ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "id": "p_gaming_news_2532425680",
+      "title": "[Объявления] Номинация на премию Steam Awards 2026 - 펄어비스 공식 홈페이지",
+      "summary": "Кооп, рейды и вечерние катки. Источник: 펄어비스 공식 홈페이지.",
       "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGhtMEg5SWNiYVV4ZEdNTnBsVU9nbkpUMjdpWFFEb0J3Nm1jZlJtVEkxZWZ1WUt4Y0NkR3h1THo1NUM4OXhZbkhNX2s2RWlyazFpNzJSNlF6ZGhqRGJ0c2Q0d1ZQTlNsU1g1WEpnVlQtcnNrQ0VvWlNZU2hqYU5XdEU0SDNnc21YbkN4ZWRPZUlrOE5mTGhnNElHQzJRZ1AxTjdDQU1UUTc2MFk5Y0ZEOWswOA?oc=5",
+      "sourceName": "펄어비스 공식 홈페이지",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90MDRWaXNGZzNDVlJmNjd6NnZHT1ZuM2s0Z2dfd01ua2NTUEt1Wk9nM3VvVjFBNUVwalI5X1pHU1FzdGNVY2s3UlRrbFc5MHFqUlZWU2ZHcVNTLXduZWk3NjhabWx6YjEySU1rR2VkYVlFT05tQXI1bnVZNmI1NDQ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T19:33:37Z",
-      "likes": 24
+      "publishedAt": "2026-11-23T18:00:00Z",
+      "likes": 50
     },
     {
-      "id": "p_gaming_news_2780428437",
-      "title": "Спортдир «Локомотива»: «Клуб ведет подбор тренеров. Овчинникову дали четыре игры» - Sport24.ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Sport24.ru.",
+      "id": "p_gaming_news_2551079888",
+      "title": "«Лучше, чем The Sims»: жена забрала у мужа GTA VI и теперь ходит по магазинам, наряжает героев и кр…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
       "emoji": "🎮",
-      "sourceName": "Sport24.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTHpKa05lY1pnY051T3gyT00tc2Q1NlR3bGdvanlEUUxhVjgyYmY2NndVSGlnRXZ6MFdkZElqaG5wRXZrbXlIYXBrYll5S3pISEo3aGJYT0tHQkxJcWs2V2xSZllnSzdleGRadnNvMGRFMnBHb0ppaTVuNDNVQW50ekZicVQwYlpzLUszM0hhTzI4YVJmSHBIVlNJVExKSXB2bGR5MDdMdFMzUkJWc0ZXNVpZT2UwWlNQ0gG-AUFVX3lxTE1lNmF1MW1ocmgwTDRlazlvNUxKLVMtQ3djZU55YmstaGVkYU5ubVM0R293X3IzM2czNWRxVW1SUXhNRUp2eWhVN2NnYmJibFpTXzk3Wmhqb25JdC00SDVybmFLOHBVdm1XUms5QW9oNXZLcTN2Z1FWWVRFczVhY1ZzbmxZOTEyZTRjWlZ5QUo0N2w3cnVkcnVIdUZfQW1MSkRpd2pZS1RJalgtQjZma0hJZTA5WHc5LXZsWE8zVUE?oc=5",
+      "sourceName": "iXBT.games",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcVV4UzdFeFJPZlZHWmFCR1hobWxNV1l3cGpYWlZrckdDbTkyV1dlYVpSNkZmRkVTSWQtZGRKaXFtT29Zc2xrVDNiYnVwZ2xkUHBhY0hnRldjMEptUF8wRlJHTlg3MGtwWm8wd0ZxWmoycEFLOEVhd1RrWWdhQUtueEh3THRYdmJ2cUZpNDE0azdjSUdTSkExd1dmZFF0Z3VJYUhjSGhRX0F5cksxNThBa1VzWGFMNzZxSVllRzBaV1BzeTVXenUzNGhoU0dkWlIzOVNZcHRUdGVnSmhh0gHiAUFVX3lxTFBkcnFHd3hwYlltekloSnRYUmRoaDhVa3J0YVVUOE85V0JrR0d0a0c4VGZoU3NER2ctcnVGQm9HaXoySTRzZHpuaXRvV1JWeVRrb1hDYVF1bHhzYVluZTAyVkcxbnkzZ1VRSm1BNnVMMHpiRHZpa0xJcnRhS0lscjJ4eW1lb3lQdzQtMjhGUS1iZW1BSll5dmRJSmp4aXRtdHJyWUgxY29Ta0ZXZDJuZEtqdGxjNjc3b3F6U290YWlWTWotNG51Q1dkb01fS3U3eWs2QWgyalZoRVVaTVVqNUMwaHc?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T19:28:09Z",
-      "likes": 17
+      "publishedAt": "2026-11-23T17:58:00Z",
+      "likes": 92
     },
     {
-      "id": "p_gaming_news_2459206862",
-      "title": "CD Projekt RED не собирается копировать GTA 6 в Cyberpunk 2, несмотря на масштаб игры Rockstar - Pl…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: PlayGround.ru.",
+      "id": "p_gaming_news_3390897851",
+      "title": "В GTA 6 вернулся герой одной из прошлых частей серии - Soyuz.Ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Soyuz.Ru.",
       "emoji": "🎮",
-      "sourceName": "PlayGround.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0ktWjIzTnRBZ1J2dTNGd2t1aTNfT0Qyd2hfZlktbVFsR01pOERQRFNZV0ZITEVfaEFzeUpGR2ROVWg2YXl3c2NLT3BzVC1QZmR6LUJzWTF1NE82TzZSam5FSlR1R1pvczVucU9lQXk1aVNKV2FFdURRSFRZZzQ1SXItR296Q2swMHh6aXVHWXdQTlAtQlRQaVEzdXY2NF9mLW1CZlp5Qi1FSW9qWkJrX2pXQ1BvZThQSjdLU1JqLXpsNmpIUkpVX1Y1UThiQjdpeU0wazdpVllKTnRpazVV?oc=5",
+      "sourceName": "Soyuz.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUp3SkFNQmhlNndYRHZodkp3T0tVd3pNSVZVdjloZldkM1BHcGs2UmZaUjA4bXh3RVB2TExFQWN0QlJfT1UyZ0dGdXNWSmRGOEpDUzZXMEd3aHlYUl9VR0hxcFBEZEFIb1VCMEhxN3hGYjRyaHlWU0dOdTVUV1RxNEhyU2dzZGEx?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T19:12:01Z",
-      "likes": 79
+      "publishedAt": "2026-11-23T17:52:58Z",
+      "likes": 7
     },
     {
-      "id": "p_gaming_news_1381666891",
-      "title": "Сценаристы GTA 6 объяснили человечность Джейсона и Люсии: «Каждый из нас в паре неудач от того, что…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "id": "p_gaming_news_1042845165",
+      "title": "Идентификация железа пользователей в Steam показывает абсурдность негативных оценок – негативный от…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR2dUTldIUExGQ1ZCTjItUlBqa0piNzFnYldZdjZqUmVvRU9SUXJldGowSWo0eGZqSHpsRGVCcUN0Q2NWOEp0Y1RaYTJZY2pUdlpiY0xuLXgtc25CSEUySVZIcF9yQThvZTNhT2ZraU1pX01GNTU5T3hUTUZrbTNSc0d4Vk9zY2llM1JBS01GalJrVmJZSnRUcmc1NWJCc2N5SnhGaDBwNHdjRzEtMGE2eElJOE5tWmJwZkxKaDBHQjJDNWdPbTZfOWFkSkVOa0g2QTBRTmhWTTI?oc=5",
+      "sourceName": "Shazoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQVDh5dW5scG9pdUNfTFk2clB1aWdKN0t2ODc2MTRQLVE2OGVnYWM1djhrUm96dkFiS2xPTVkzaVlkYmFWcl9mTWRoQjQ3S1FPa2JlX1g5R1pnTFRrUVNWbjJhblRhU1hUcW9RbFUyWDRsN1A0V24wUnBNLXNMXzVtY1J5X1U2enVaNTZFV2RCR0I0aUVXUmdFcVdwQnQ0R0RPWjdYSWtnaE9nUFVlME1TQjU1cWdlTXZsaUJPMUZPYzRnWXd2ZTRlUGx0cjZhWDA2NmZsQVhRUmdMWE1FSFhPdnFsLVR4eC05bEpRZnAxZngxVXhWTFRoemRITXNpcURRTmxPVDVoVnFYTTVUVjRKTmVNY2tjZw?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T19:00:43Z",
-      "likes": 30
+      "publishedAt": "2026-11-23T17:40:00Z",
+      "likes": 77
     },
     {
-      "id": "p_gaming_news_2163837336",
-      "title": "Тренер «Родины» Альба о поражении от «Локомотива»: «Очень понравилась игра. Ни одной претензии к фу…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Матч ТВ.",
+      "id": "p_gaming_news_872708657",
+      "title": "Энтузиаст сгенерировал игру с помощью ИИ и заработал миллион долларов в Steam — новинка получила по…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
       "emoji": "🎮",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYlpBMmpfck5ZaWtpUmMyNU9IcGsxem9vb3dYWGxUY1p0WGF1bV9hRWdtQXU5WklFcENOam1QSlB3c2FGWl96OE1QamczTU8xNV9TNGprRXhZbi1ra2dSWkZWZXZfN0otWmphTXh1VUNLelVTMC1aMGZPYmRnOTcxUGMweDM0eVluYWxjb0NBMERKeDZjVlczdE0zb1pGcXNBeVZNTTcxN1RZZzMtc0R0M2VtQ1U2a24xRi0wNXo3ODIwRnloWFRpVW5JVUM1bmNNbjY1RTg2Qkd0ckhGS0pOMVloWXlrRVdmWlE?oc=5",
+      "sourceName": "iXBT.games",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdHlvN0NCRkp6Yk0xMmhvSkE5elhmMXlEQks3clloRGtZbEJhMjNIYTFPZS0wUEN3bDNQU2thU1hhelFGcXF5cmRIa0lZeHFGZW9FOU45SVctM0VjX0FmcFNBazNXMEJ0Mllxc0ltSEFIRmQxNk13dDB0d0UtZlJ3NXZQUGQxZE42ZUNEM19qcEs4ejN2ZFV0LThTQTBkRERtVUFnY1FhcW5xSXgzd1JMQnUxWWJaR1ZmeUV6ak05akM1S0xwb21BSXpGc2o4UEw4TEJLVzNWdFVRODNySUY3Ylg4NHh3aXN4S0Zla9IB8gFBVV95cUxQei1qWnhqUEhLT0lPSTBWdG5UMzExT0gyWEVTSlB1aFZ0RU5tdzR5V3lETnhtUGVyOXUyM1lCTmZKc1ByWC1KSzlZSjY0OHlWd01kU0RvbmJxZzRiR082d0hVUlprWEFZcTRxRTQwRF9uRUN4OTV6OGE5R05lX3pfQXZLRGhObkhWbXFKYzFmS29UTkRYYk1YWHY4eFZCN09wSmwtZ1hoLUJYOG5iSEdkS1VfQWlrdnZUMzhtSDFzRzZQZWQ3UHhSOVBtTnNfYndvbEJiSEtzaGtyUEFfbkFtZHRuT0NZMGUyeEZ6LW5xaHhYUQ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-22T18:41:21Z",
-      "likes": 54
+      "publishedAt": "2026-11-23T17:36:00Z",
+      "likes": 85
     }
   ]
 }

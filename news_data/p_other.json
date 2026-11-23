@@ -1,9 +1,42 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_other_news_2066562766",
+      "title": "Коллекционера антиквариата и макетов оружия задержали в Алматы - Kursiv Media",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Kursiv Media.",
+      "emoji": "✨",
+      "sourceName": "Kursiv Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLUV1cV9UOFV2SGk0NXlvNjRPZUdWeWl1OFplaFNVUi1YbTZ0LXNqb0hIdWRsZnRXSjJxc0hNLWtja0xadmx1cG1VNHlKOXRTVlRJS056SjJ2UU05RVMzSmJiOGFEQkw1Ukw4Uk1ablhab1lldnp2clBuWVNBaG5IVGVOQ0xOSloyOExlenFEV3JQNHJ6cEpiOUt3UTc1UDM0VW51Um1OaVdIQ2c?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-23T12:45:03Z",
+      "likes": 45
+    },
+    {
+      "id": "p_other_news_3690370576",
+      "title": "Необычное детское хобби в сюжете «Школа юных дизайнеров» - 1obl.ru",
+      "summary": "Необычные увлечения и темы вне списка. Источник: 1obl.ru.",
+      "emoji": "✨",
+      "sourceName": "1obl.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZHg4Uy1ZR04tYUZmbjVqbFBtVlVxeWRSRWFlSDcxbGdKNEtMU2YxYm43S2o1a2ZoT2hlS3BIZ1FLb2R3TXlDMU1KZ3NRUkNiX2JIZlVyLXd0c2VmWDJyYkkwMjlCY1NFMEMxa3h0TFJNQ0dPTWo2OWxVTlFPM0FKUEJuR2hKR0xDWUJScTdULXhHdw?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-23T12:20:36Z",
+      "likes": 92
+    },
+    {
+      "id": "p_other_news_3625713527",
+      "title": "«1 500 рублей за досочку». Заглянули к белорусу с очень необычной коллекцией - Onlíner",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Onlíner.",
+      "emoji": "✨",
+      "sourceName": "Onlíner",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LcGhZeHhCMk5ma0ZTZmFKeGRISmp3ZmctWU0yeGRmTjFJdGZ2N2ZoNm5ZS1Q0R1I5bGNVSmR6dUhBREJYUGQwXy1KT25NN2ZwR1hIaFFobi1CbnN2WEk4c1VOdnlLWk9iYUQ1blZpSnppdw?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-23T05:00:55Z",
+      "likes": 61
+    },
     {
       "id": "p_other_news_533308097",
       "title": "Забота о кирпичах. Какие необычные хобби появляются у молодежи в мире",
@@ -14,50 +47,6 @@
       "tag": "Игры",
       "publishedAt": "2026-10-31T18:19:00Z",
       "likes": 77
-    },
-    {
-      "id": "p_other_news_1240198456",
-      "title": "«Хобби — это социальный лифт»: почему бизнес выбирает падел и триатлон",
-      "summary": "Необычные увлечения и темы вне списка. Источник: RBC.",
-      "emoji": "✨",
-      "sourceName": "RBC",
-      "sourceUrl": "https://www.rbc.ru/radio/25/06/2026/6a3d88fa9a7947749da019b8",
-      "tag": "Игры",
-      "publishedAt": "2026-06-25T13:04:00Z",
-      "likes": 65
-    },
-    {
-      "id": "p_other_news_1886400431",
-      "title": "Чем заняться в свободное время? Хобби в домашних условиях",
-      "summary": "Необычные увлечения и темы вне списка. Источник: myJane.",
-      "emoji": "✨",
-      "sourceName": "myJane",
-      "sourceUrl": "https://www.myjane.ru/articles/text/?id=25059",
-      "tag": "Игры",
-      "publishedAt": "2025-09-22T01:00:00Z",
-      "likes": 17
-    },
-    {
-      "id": "p_other_news_2063185312",
-      "title": "Лера Кудрявцева показала необычное увлечение 6-летней дочери",
-      "summary": "Необычные увлечения и темы вне списка. Источник: muz-tv.",
-      "emoji": "✨",
-      "sourceName": "muz-tv",
-      "sourceUrl": "https://muz-tv.ru/news/lera-kudryavceva-pokazala-neobychnoe-uvlechenie-6-letney-docheri/",
-      "tag": "Игры",
-      "publishedAt": "2025-07-18T23:49:00Z",
-      "likes": 11
-    },
-    {
-      "id": "p_other_news_1588390584",
-      "title": "«Хочу, чтобы хобби делали меня загадочной»: как зумеры выбирают себе увлечения",
-      "summary": "Необычные увлечения и темы вне списка. Источник: daily.afisha.ru.",
-      "emoji": "✨",
-      "sourceName": "daily.afisha.ru",
-      "sourceUrl": "https://daily.afisha.ru/infoporn/28098-hochu-chtoby-hobbi-delali-menya-zagadochnoy-kak-zumery-vybirayut-sebe-uvlecheniya/",
-      "tag": "Игры",
-      "publishedAt": "2024-10-11T09:30:00Z",
-      "likes": 57
     }
   ]
 }

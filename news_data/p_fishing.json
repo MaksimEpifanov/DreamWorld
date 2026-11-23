@@ -1,52 +1,41 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_722684316",
-      "title": "Эксперт из Ростовской области назвал 5 частых ошибок рыболовов зимой - rostov.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: rostov.ru.",
+      "id": "p_fishing_news_1016303159",
+      "title": "Календарь рыбака на декабрь 2026: лучшие дни для клевания и правила зимней рыбалки - Главком",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Главком.",
       "emoji": "🎣",
-      "sourceName": "rostov.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUUp5bEN1Y21jN0tSS0R5MjdPQUFKaWVMaE5DdGZUMkl6OE9SaU9oQXYwN3c3YVpraDMxLVhUM2pvdUVvZ0RKdUlvem01ZHhhNFhVNi1GeWJUMl9SRlF0WkFKM2NqaVNiZ1Q1a2R4TEJHLXNrSFpnWTd3OHNoWlhOaXBKTEtwZVNabkl2d0wyVTN6d2JITnlQSW41RGo4YjIwTnhjeA?oc=5",
+      "sourceName": "Главком",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNU1hTVU4UGlNaDRYTC1VQjZKaFVMbHM5anR0Q1BEVWI1ZC0wekNTWTZGbm9xamNPMGEzYXFKYlJYOXMwamFGWXdjYVJrckdfZ0otRTJiVUlHOEJGWjRjZHF3eWhaTWwzYWEwSEJoUlZSbHYxVDVoR2ZadVJ0dEF0S2YyY1gxR1FTX2tBUFhCRXc5R0o4YlhoekoxdHZSR0M0amJOYWxsVHNvX0RRWXdZR2JFUjRKY1NSeHhKZVFxNDDSAcYBQVVfeXFMT09zTThpa1I1NHhBbU13UmV4eE1fRFNxQjJXd1RzdHg2MUR4ZUE3N045ZkJ1TTJzWUk5NmpYeTZDalV4WGxEY2tNbDk1VDFIMGdYa09HQVg5czVBaDhyQVl0VmkyR25YazkyNnVfTUtSbVpVLTA3bEthU3dqYlFKZGFvX3J3OVhkSHR2Ul9ZdW5ZSVN5bHZyTkZreU9CUEpxM3hTSWV0Rm5rZ0RraFpnY3FHeU5mUm1ic3hZNFdFc2Y4dFZCOW13?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T17:50:37Z",
-      "likes": 88
+      "publishedAt": "2026-11-23T18:00:00Z",
+      "likes": 42
     },
     {
-      "id": "p_fishing_news_3152915656",
-      "title": "Рыбак из Ростовской области назвал пять ошибок во время зимней рыбалки - DonDay",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: DonDay.",
+      "id": "p_fishing_news_1733848393",
+      "title": "Зимняя рыбалка на Волге в Чувашии: запрет на налима, норма улова и границы возле ГЭС - Чебоксары Li…",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Чебоксары Live.",
       "emoji": "🎣",
-      "sourceName": "DonDay",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ1ByTUZBNFkxSTRBR3ZXT0xzNGhOcGFhZlpCaDNsaExkN1VWbE1IWEQ4V2doeE5Rc3dnSTlwSmczWFpYTW1NVlpXVHpMc2U3T3pYQS1BU3lYRE02QVFvc3gyMl90WnV1VHlldzRpd3ZmMmxpTFFGbnc3dVlXTHh1eGlOcXB4S3ZXNXRCQkFUYWNmZTBrUURYeFR6ZlpDcnM0ak5QWGRoWEhRZGxqSkphS1Jldw?oc=5",
+      "sourceName": "Чебоксары Live",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0xzU2ROdmx0WHhWNTBZb0t1Nkg5RkV6SWw0QnhMS1ZBSGExLUVOcHpDZXJHWnhkUjh5NV90M01oSjVUMzZSaHp0ZjJuUDVNN2oycFFTenJnNFRXS2VFbGpKUWN5VDBGcGlPdzFtNlZsV2wxSUxRUl9RaEFVazJodVJB?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T17:30:53Z",
-      "likes": 91
+      "publishedAt": "2026-11-23T16:01:00Z",
+      "likes": 30
     },
     {
-      "id": "p_fishing_news_2174563544",
-      "title": "Рыболовный календарь на декабрь 2026 года — когда рыба лучше всего клюет - Главред",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Главред.",
+      "id": "p_fishing_news_617824607",
+      "title": "Лунный календарь рыбака на декабрь 2026: когда рыба будет клевать лучше всего - URA.RU",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: URA.RU.",
       "emoji": "🎣",
-      "sourceName": "Главред",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU1ZtVVl1cGxqZU40cVpyYjNYZnJLZGpXZnUzNWZaY2h3Nk1JT2tZT3lGdmJhSlNob0NTdjEtLV8tTGM5OWhMNUNfdXh0LU5XSWwzcnR1dDFqVndrWGRUamVzaWFFb0NtT3dpamNnck50enNkNm5wQTdHVEpZRUhmYlppUENycms2MVFRUmtfRVhMdURhc3lyUnJaaVc0RFdqOWVwSnlHWdIBrAFBVV95cUxPM3RPdjRpdWZWWmtKTWJ1S1JUUUhnNHAtUTFDVlZHcHhSbEdmYjg2RG1KX2xxWVRDUEk1bjJ0eE52elNpSUlHeTBXc2dQUEg1eng2SkQySVRlUzBhTkttX1k0VllDMFhWcWlIdFBGMzNOSWNxdk9uMTA0NE0xU0dBV3A1VGlDSmlIT1NZbVJzRmI1bTJ4VzREc1RDc0NxOHpzZjcyRklySlpvclRq?oc=5",
+      "sourceName": "URA.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQTFWb3lsYmxhZklPSTNKSk5fWGRZXzJqMVBrSnppeHNwN1NxMmV4Z2hxQ2hXcHpkQTNWdnVCVS1SemtJVlRid2hES0s?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T10:45:00Z",
-      "likes": 33
-    },
-    {
-      "id": "p_fishing_news_838132980",
-      "title": "Рыбалка на 6475 рублей: кто и за что заплатит - mstlife.by",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: mstlife.by.",
-      "emoji": "🎣",
-      "sourceName": "mstlife.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iUS0xS0JGQzMzdTJQOHFuTVZzOThCRWpDRUNHcW42UVhsaUpQRFk2a2htVTNtMGlnWERhdno4Sk1xQ0JCZWhOaGhBNHRDWERxNTZGMWVhY1p5bE56WEprSVR0TVR1aFE1QlgwMUtaaTBEVVVkaUpBNg?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-22T10:00:01Z",
-      "likes": 74
+      "publishedAt": "2026-11-23T11:55:00Z",
+      "likes": 39
     },
     {
       "id": "p_fishing_news_2857271182",
@@ -58,6 +47,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-20T04:04:00Z",
       "likes": 69
+    },
+    {
+      "id": "p_fishing_news_1926519892",
+      "title": "Бесплатная рыбалка в Подмосковье: 22 секретных места, где рыба клюет всегда",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: REGIONS.RU.",
+      "emoji": "🎣",
+      "sourceName": "REGIONS.RU",
+      "sourceUrl": "https://regions.ru/obschestvo/besplatnaja-rybalka-v-podmoskove-22-sekretnyh-mesta-gde-ryba-kljuet-vsegda",
+      "tag": "Природа",
+      "publishedAt": "2026-11-16T05:14:00Z",
+      "likes": 84
     }
   ]
 }

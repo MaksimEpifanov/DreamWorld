@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_2432099771",
-      "title": "В Музее истории Обнинска открылась выставка художника Юрия Шерова [+видео] - Obninsk.Name",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Obninsk.Name.",
+      "id": "p_art_news_4183199877",
+      "title": "Onemizer открывает свой временный музей в департаменте Сена-и-Марна - Sortir à Paris",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Sortir à Paris.",
       "emoji": "🎨",
-      "sourceName": "Obninsk.Name",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBXTkd1N0MtNjY1QU1RQW82cTZ5czVtZzlvQ01QbGUxalhTS1NDb2dvM2tkUmRlWTNNdWJPVUo2LXBkTGNUV0FCWDN3?oc=5",
+      "sourceName": "Sortir à Paris",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNEgybWRwb2U0OVgzYTVSRGx5S0RCXzU4NmJjQjdjeVJSQmdOS2tlT2tObGM1ZGVpOUdnbVF4UGRnTVhKUjU0R2JJM2lUR2EyY3N3UEhtSFhaSTZ2NEhuclphNGNrTWdzTDNWS1RUQWJMQTVXLUc0R2hkX0FlNnZXNFJoOFdRZ09NOF84bGpEZHZ3b1VqLVB3VmM4SHBWWk1sSGVLNlJNRnE0N2FvaWtGLW1ZVkt6ZVNSeUdBdGF6c0JCc2wxSTBKd3gzZDNUVUxER1Zjc29WbjVvRWVhRVlvbWhqWnA0MFNPaUV2Snd3S1owWTl6dTloMw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T18:57:09Z",
+      "publishedAt": "2026-11-23T17:30:39Z",
+      "likes": 49
+    },
+    {
+      "id": "p_art_news_3822551956",
+      "title": "Ван Гог — инфлюенсер: выставка об исследовании наследия художника в Château d'Auvers-sur-Oise - Sor…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Sortir à Paris.",
+      "emoji": "🎨",
+      "sourceName": "Sortir à Paris",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZ3JHOFM4OE5zdXJ4WHdYWWVwT184UG8wTVplNG9QN09keU0tWGhERG9heXVEQkU5akdhbDdwdEIxZUI2X3ZfdHR1QTN1a2tNYWw2LW1adHlUTlBVU2xYajRXalMtSS1CRW9HcXg0SzFZMWp1aU1SQy1GQzNiQkozcU95cTZvQkVVV3pfbER4SkV4NlV3MGdsZFV3QXZjUWZSVXZ4Yk9rZWx3ODd1QVRyeUVPYmhHWnRlUWdyQ21ISnFfbzBjaDQtTHBhYUZxdFkzYkxhMVpmWG9zcThDd1B0NUI3X2JVcDFwMXJRSmxmaWNPaFdYYWc?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-23T16:58:48Z",
+      "likes": 81
+    },
+    {
+      "id": "p_art_news_1394035351",
+      "title": "Выставка «Кавказ как теменос: пространство и время» открылась в Ставрополе - prospect.com.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "emoji": "🎨",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDM2ejVGTlNzMkpSd0FKeE5CM0NnMFRpMUgwSXdkcHRKRzRRMDlHQnlLQzNwMUxxcHI4SURZUXdJbXIxVjNIblFHcjZUWHQ1bTk4dmFRSk9sTFpheFoxelZVV2dpS2w4TjVQbTRZbmk1R1RxMUxYOGhtVHg3ZklLWFhUZldSSHFvZ1JXMmpqQ3lfY0Z3Q1dLVjVyRjFFalNfN180VXdZSGFqQTdzUEhUMlJPVQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-23T15:30:24Z",
+      "likes": 25
+    },
+    {
+      "id": "p_art_news_71797126",
+      "title": "В археологическом музее Новомосковска открылась выставка творческих работ Марины Кондрашовой - НОВО…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: НОВОМОСКОВСКАЯ ПРАВДА.",
+      "emoji": "🎨",
+      "sourceName": "НОВОМОСКОВСКАЯ ПРАВДА",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IajZEc09EMUpya2plNk9fOTc4WmxKMGw3Yk1MTGdOMmkzN25hSXR4WkdEYmc3bV9xaGhBVkV3Nkk1T1FiZGpFdHppZw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-23T14:03:44Z",
       "likes": 55
     },
     {
-      "id": "p_art_news_1927338817",
-      "title": "Выставка бурят-монгольской каллиграфии пройдет в Музее истории Бурятии - AsiaRussia",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: AsiaRussia.",
+      "id": "p_art_news_1496569406",
+      "title": "В Музее нумизматики впервые пройдет выставка об истории религии на монетах - prospect.com.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
       "emoji": "🎨",
-      "sourceName": "AsiaRussia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3enRyY0dmdmxPQ1p1TXdXcWJ4LUJ5TEdxbEU5M1BSNjktUTRFUU80Z2ZacnpZQWxudmdBTlg3WThVa2hzc3J0Yw?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ3AtcGZOMUpVMkUyZi1qT3hKWXhMWlFMZ0xpaXUxOFN5bGQ3U3NMVFZRaUNSVkR3blE0alNBRmo1VkFRQTc4Tk5KT1FJOE1FaDVvRGxENVlVSUVoNnZkUjY4dGpJM0lvZUhoV0pEZlpqTVpSQnBQMUhSRU9aTEJud25qVER3Y01HVzZ1dXg5Tnk5cVlYU1FjdjBRQWxROXlXdlprOWdZYXkwUmVISTB5clc5NFU5ZjA?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-22T17:00:09Z",
-      "likes": 14
-    },
-    {
-      "id": "p_art_news_212448927",
-      "title": "В Калининграде открылась фотовыставка «Художник в объективе» - kaliningradnews.online",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: kaliningradnews.online.",
-      "emoji": "🎨",
-      "sourceName": "kaliningradnews.online",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5THBKZGVMQWJoWHRCNzFOVm1FMk82Vm50Nl9Nc2ZKc3REeUl6SDFwUm9DcGplbkJ4REY3VTdXLUQwSnZPMFBKekRuZmM0WEd3VXZjX1F1MTd4UQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T15:34:58Z",
-      "likes": 69
-    },
-    {
-      "id": "p_art_news_2921074291",
-      "title": "Известный художник Анатолий Басин в 90 лет прошел обряд \"брит-мила\" - NEWSru.co.il - NEWSru.co.il",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: NEWSru.co.il.",
-      "emoji": "🎨",
-      "sourceName": "NEWSru.co.il",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nWTRTeFFGM0p3OFJPZWVMamk0QVEwLXM1SGo4a0d1b1J2OGdPYVl0N3YwX3VlV3A4T01JMklEamd5RlBfWldpLTQ4TUJZUXVmQlBzd19kNl9SZ2NZR1ZPQTMtX2k3dFFVMjNj0gFyQVVfeXFMT2tMcHY3OG1naXRvVHZlY0xXbWFvTUZxaGxrU3dWbEN6dnVHd29XcG5SbXVlZ0JCZXJjMkMwdDh0RE1hWUU4eDl4OVhsNjduWW4xNGNIVmk1ZmlNSTR4RjB4dzFOQkZVWEdNVFRKWDlaVTN3?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T13:15:19Z",
-      "likes": 67
-    },
-    {
-      "id": "p_art_news_1650358338",
-      "title": "Афиша Бишкека на неделю: музыкальная классика, выставки и спектакли - 24.KG",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: 24.KG.",
-      "emoji": "🎨",
-      "sourceName": "24.KG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13S0RKclhBQ0hVbzNGdHdiVGJFWEx1TTl1M0pGREFiNnhVWkRVNThNcWMtUjRuVGVzY2laVEIxZTFlZkZRMjN5aUtUQ1dpMnhaQUtHVVB3N1NXRUViUy01LTd2TDhSaW8?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-22T13:00:17Z",
-      "likes": 90
+      "publishedAt": "2026-11-23T13:54:29Z",
+      "likes": 63
     }
   ]
 }

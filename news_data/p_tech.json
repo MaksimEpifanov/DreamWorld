@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_3506516036",
-      "title": "Министр образования Южной Кореи подал в отставку из-за скандала со вступительными экзаменами и ИИ -…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Судово-юридична газета.",
+      "id": "p_tech_news_662124337",
+      "title": "Смартфон Samsung Galaxy S27 Ultra: Shorts и ИИ - DGL.RU",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: DGL.RU.",
       "emoji": "💻",
-      "sourceName": "Судово-юридична газета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVUlULWlBblRtS1NpZzRFbWV0S2FsemZvNWRITVhZUmJqQmd2WldwdEZBNmxBRmo3b2xoUWRFdktRdHlkOFJqSS03Z0MtM3lPYXF3TEcyMEFVY0RyWDhNbTFLYmx4aVZDZFNTMXU0RW5XNDRpSEljTGp0a0NHVWlDemxrMzhyNlFjUjhXMi1RWFZ1dDgxRjBzTjRkV0VVRVpYNXY0N2JQUmJwVFB4U1c0OVdHb2hZSGpWSkh4WnozbllVcVFKWWpVQg?oc=5",
+      "sourceName": "DGL.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCbmVFQWtyWmIwNU5rb0hBRTlZc0lmc0N6WkduMFZQSkduS0ozekZ1LVJaRFhhVEZ2Qm9Zb0ZxQ0kteUtpcUU3S3RHcDRIcm5TZjJBZWxDSDA2U2FTU3BFSkhEVFc2b2VTYkpTZ0g5Ri1NN2RpelNDR1l6S2Qydw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T19:26:00Z",
-      "likes": 67
+      "publishedAt": "2026-11-23T17:33:45Z",
+      "likes": 8
     },
     {
-      "id": "p_tech_news_921783763",
-      "title": "Способен ли ИИ разработать лекарство? OpenAI представила MedChemBench — тест из 99 задач по медицин…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_2187080847",
+      "title": "Воронежская область расширяет применение искусственного интеллекта в медицине и городском хозяйстве…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: De Facto.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQTg2UHhZeWtJTldsMVZrYnFZaWNIS1MyY190eGQ1WnZ1N3VZU0hYQW1nV3RtcEUtOEhSMmwyOEVHZzBGZmJud19ETTVadnF6ME9vLUp4Y25BdnJKWmlvWHJBTFJVVlFvZ0pHcG95OFJGUlMzWFVyX3pxaVkwcWk5VHdzc25aZWhNUDVCZEMwZXZCdHVxb3FZNEpjeXY3dU9NT1gtTW5nZlp3RWZ5TllVYS0zSmp5THZabngzUnBjTXNOQmRIMmpsWjlMWUYwSFFRdjFOci1sbXdwUQ?oc=5",
+      "sourceName": "De Facto",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYXg1dFZxMGtsODEtcmFFYkVvS3ZhaGdxRUpPY0VSVWc4LVhoNXoxTXZwYXhBY1d5bVBBcGFEY1lvR1k0dUJ3MDNMSFFYNHM0eWR6amhGdi0wU2FyQ2gteVpLRWtXd1B4b0pqWkVXUWxoVGlkUUFyQzVia2NZbnQxc1haSEExenl4M2tZM0N4X3RaTmEwak93aksxZ1gtdFNjWmlIaDh4Z0xucmh3SHlFZVMxdUJWcEp3MGFXU0Yxei1lWGZBanlOaVB5Y0Z5b1FnbW5palQ3Y1FYMDlFSkRZOEwwOFM?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T19:21:59Z",
-      "likes": 5
+      "publishedAt": "2026-11-23T15:29:08Z",
+      "likes": 52
     },
     {
-      "id": "p_tech_news_3905456396",
-      "title": "Шесть AI-гаджетов, которые помогут сделать домашний офис умнее - 24 Канал",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 24 Канал.",
+      "id": "p_tech_news_174041413",
+      "title": "Infobar Zero: телефон без интернета от KDDI в стиле Nokia - Daily Beirut",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Daily Beirut.",
       "emoji": "💻",
-      "sourceName": "24 Канал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUS1DT2t2a0N4T2czVWUta2Yzc1hTX0Fqb1g0WUFsTzExT0pWTHQ5NEFIR0JiUmlnTGdPUGRtT0k4aXE2YWMwdHZLd3Rqc1VvelhCMjBjOVFvMTBlVE8xNkZVQklrYkcyQ2szRkMwWG13VEVfMTM2RDZ4RXBic2JybTl6RWZRZllrYmJZclE0SUllVC1BQ0ZydnVZbzM3QdIBowFBVV95cUxNeTNoVUUtdm0zYXdkMGdKN3dMQnpoS2xwb0JUeEUxaWFYak11QUNKNWJvTERSZEtHVUtzUVpDNXktZm1oMGtGZG1VVjN3eDVCWTdROXI2M0o4VXBaVjZ0c2Y1Z2ViVmlGQVRuRFJXMFZtV0lBTk9NWWpqeXlrZ29mTEFZYnhrTjlUd2dTRGFJSkszd0p3bkdtZVMyTGFVemFpMlpV?oc=5",
+      "sourceName": "Daily Beirut",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPd2FJTFNjZ19hNlFiWXZudmhwbVNvd1NBYVhLNWlkQkM1UzlPQVdCYk00NnI0ZDlGTUIzOGJiZUZzakhYeU1NOUpaSkNNRUNQVy13V0VHUHNvcUV3ckp2MTlJUnRnOTZKdWJQbEotYkMyRXpJVUFOcXdZVURjdVpBblRrbWgtZWJIdzVPMERHMEdIUGxfTTZVZUdFbEJISGhCcm1jdlRoTWZTX2VOdEh6Y0k4VEVQc2dDanVtVEFZNUdHVzFIY0xHXzFCdldPeHhLN2trTC04QWdFOTBhR3I4TzRyZ29LZjhjX1RMZjJkcDQwTklxV2RIOVlzbzk0RzJmNVFuWEM2N3VGRW81MTRHNFdOT25nRnM3cnZjVFBURTNDWjktQlBuU3B4TFJZYnF2WkR4RWwzWVdVb0oyVERkU2l1eTV4dUNOZkdDQ093VUhuM2VRRjN5VVhTSngwdnQ4UWM4YWhJMTc0SFdYUFBmX01fTzZJVVhoSjZ0b1cxcm84WU5nUTR3U292TWNiZElMbzZoenB4Tm82WmdnMmVhMnVHYkNyVVNWaUVfSmNxeVVCX2RVVjdoZFhYSS1VY3RZd29US3ZVNFZJRUt0dk5INktTYzRVaHViZ1RrOFpaeFp2UVhrckdqUzVxOVFQSXV4eVhZN2QxTFJOUmRKSXk0YzJiLVY5cnJiZWJLSWdvSEJaQTNmc3c?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T19:00:00Z",
-      "likes": 34
+      "publishedAt": "2026-11-23T15:16:27Z",
+      "likes": 44
     },
     {
-      "id": "p_tech_news_654685551",
-      "title": "Эксклюзив: Ханна рассказала, как относится к искусственному интеллекту в творчестве - Peopletalk",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Peopletalk.",
+      "id": "p_tech_news_550740747",
+      "title": "Вместо красивых фото — пустой счёт: МВД предупредило о новой ловушке с ИИ - www1.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: www1.ru.",
       "emoji": "💻",
-      "sourceName": "Peopletalk",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMzBDNUZCdVM2QndEMGlpdmpvMkdfNWJ3M25lV2FBYV9seFMxWjdVWDFpeEUweHZsbHBMY2h0bDl0OGRDNWh2MDFNSW5RdTVqc3dBWEt6bUMwMWFmT0ctNHFjamRYM3ItME9lZFh3alNBck1qczc1SXlQLXg0VGhGZ3Z5TWsycWhiNGwzZ3FPRDVNTE9pc3R0ZkdqSGFGaUNSOGNqd0REYjRvS2R0T0U1M0JIdDktQdIBuwFBVV95cUxQOWdEcHF1aURUVVN1S1M0SGpEZ2tJTzkxOUlIRHhaTXdVNkpzeVJLU3V1MWFwbGpJblB1WFhOTTVPMWRac1VESVQ0WjFZaGJOVC1RNW5JVGs2cU1PWHdJQ25obVNDTjAwVjRYbjlXUFpUMGRrMHdCWVMwTU0ya0VaYzlVbUJmVmVuYWx6WkdkNWRpOEJ6V3FxUWZkbnpLMnFteFZHUGJtNmZrdUt4S0lGTjgzc2gtWWtDd0dz?oc=5",
+      "sourceName": "www1.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWmkwNmVBS1hKRGhnWTgwX0lqWkpVa1lfUUgwRzBySVhsZy1IUHY4dlNFYzIxT0NMOG14b2p4U2pFaXk5NjRma2J0Y0RKQUQ2MFMyODhtY3BjdlFXTlZYTllwdlRJUTBLdGtucElvbjhpXy1wNEUyRG1KRkxYMWZ0LXNYa01fcG5CaDlEeFgyWEpRVW4yUS10NFRCUGFiTmtoZTRmUlFLcDlaU1nSAbABQVVfeXFMT0VKUENYelJJc043dElPUWxvTV9YeGZ2T2VyT19jWlNVMDY2SG1zcEQxNnpXTl85OWtwMWlhMHFQTFlydE9wamtKekxHRWtrb1Vnd0lRRmVGTWYxMTBRSmNpN3l6Y181QUxQYVpCM0hkZkJjUWFYbDNERkdYS1l0ci16Qy1QZW5pNzlrWWstelEzMjlNS1BLYldJWl8xa2xWZF9RZjJNaWpFbjlCVzd1VDk?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T18:35:49Z",
-      "likes": 3
+      "publishedAt": "2026-11-23T14:45:00Z",
+      "likes": 53
     },
     {
-      "id": "p_tech_news_4224823294",
-      "title": "ИИ довел министра до отставки: в Южной Корее разгорелся скандал на экзаменах - Ulysmedia.kz",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ulysmedia.kz.",
+      "id": "p_tech_news_1131820721",
+      "title": "Дешево и сердито: подборка бюджетных смартфонов 2026 - Компьютерра",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Компьютерра.",
       "emoji": "💻",
-      "sourceName": "Ulysmedia.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDhic3JiZ1p2VXlEdUF1S1pqV2tiNDEzRTVtNl80cUFHVFBBakhldU94M3hsVjBUdmtLN2RpSkpvaTZpZ0hOdVE5aGJ0ZnRMb3Q1LXRNYk4zaUYxMFN3VU9HeUowU2N4Q0p2aldrZUM0M2JkYU90OV9mNEJXNlNfOXR3SjRoVmFEcWVrOWg1RjlzZ1paOTZyaUg4LXY5SFZoX0N5MkstTGthblVfUDNPUkV30gG2AUFVX3lxTE8yU3Q2SXNvSm1MUk8tR3pXWlllTE5qdlUwU05aR2JlbWF3NzFsV3VxdWRBRHphRXZZVHY3anNUUFBxSldkY043UkEwdmhhcGhBXzJkR19vNGtHX3J1VG41X2JWMmsyNU9tMXQ3YUdHb0M2dnFmZHJ6SU5xbzBOY0RNYm9GS1hjUjFsRHFROTBQMXNmU2VaZE5IS25LT2pOSnBaVzZZbUIyb3YwTG83T3psMHplRE9B?oc=5",
+      "sourceName": "Компьютерра",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ccm15Y0tOWUMwOElURDBkMUlXQmVNQ3YxYVFIMGhrMDlOVjhUUElaM09rM09NekdmN2pWY2VLcHJ6Q3d6NExVSDJabmxoNzNxN1V4Z1NtLUZNNG5PY1lhSzZnWkJJMkdiTjlKVQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-22T18:33:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-23T13:48:42Z",
+      "likes": 65
     }
   ]
 }

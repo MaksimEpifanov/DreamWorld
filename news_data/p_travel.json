@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_1208704589",
-      "title": "«Поезд наследия» — путешествие-открытие по чайному региону. - Vietnam.vn",
+      "id": "p_travel_news_3955887333",
+      "title": "За 9 дней преодолела столько километров, сколько обычно за год: жительница Урала прошла паломнический маршрут по кукуру…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Хорошие новости Челябинской области.",
+      "emoji": "✈️",
+      "sourceName": "Хорошие новости Челябинской области",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUk1vN1hRclNUekhVVGNSeXV0Y25POHFwa19wSG81d2liLUN1ZVV1TjE3WDRic2FpTEN2MlB6QlRXMEpSOHgwNUx5d2wxZlRfcElMalNzMmdQd3hDRW9rdTFUdW84VEpzVVZvT1VLbG4zcXFHVVE2aGEzcjRIUkRyb1BaWUxFemdIZ1BnLWotTW1ZVEswMVlqT2hWUjY2bXdObmpVMUUyZk1yVkdoRmk3RE1CRlpUa2dKR3NETjZvRE01eFRaUnBvWlBnODF6MThfaVdtMlhEY1pZZnhpOXpEWkpQa1lIYi0xRjFwUy1xUHRvMzdOT0R4eTFnLU53cGFK?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-23T17:08:56Z",
+      "likes": 69
+    },
+    {
+      "id": "p_travel_news_337882636",
+      "title": "Казань глазами туриста: что посмотреть в столице Татарстана - inkazan.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: inkazan.ru.",
+      "emoji": "✈️",
+      "sourceName": "inkazan.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbllNcWpmdUJyYU55VDZndks2SVhoaldNVEhDMXpiaFkxZnZLRTdfT204OHdES09OalVsdU1FWjBsaEVTb3I5MDZvVXNGOFJUOC12eEhJcWI0Y1lURHpTbXpYNE5MSWFwemRSTnJaRGxtcnVFcmdtcmdnRkpoRTdLV3FWQ2dxYml2VE1rd2VBMW9wN1RIb0xmNGc2cXZTNG50dWE0?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-23T16:56:54Z",
+      "likes": 50
+    },
+    {
+      "id": "p_travel_news_2518153026",
+      "title": "Деньги ушли в город: как Стамбул стал магнитом для туристов, а пляжные курорты теряют позиции - irb…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "emoji": "✈️",
+      "sourceName": "irbis.spb.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGpTUTZ0dUc5S1NpbVBDbmlOa2lhSUlMZTZ0RDctV2x3OFdNUFFCbTdGX3k3T1J1ZmM3aEIzMHZZR0FKaFNjSnBiWjRKTmlnYnFJUmRZWlNWSnJTSUdteWwxLXNDUnR1aEJPZXprT01oQUlXTklLSXo3WHBLLTZjQ0lVUTNlZlhpRUNvZVlIZU10aXZCVUFGOUc2U3hRMm1kNkVRelo2eVpIeUhaQWdnSHhxcGdIM3Bwb2VWelYwMWhmeHNCckZqWGVWaHJIMEQ0?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-23T15:53:31Z",
+      "likes": 69
+    },
+    {
+      "id": "p_travel_news_2583300539",
+      "title": "Ближе к теплу: спрос на поездки в города с термальными источниками вырос почти в 3 раза - Российски…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Российский союз туриндустрии (РСТ).",
+      "emoji": "✈️",
+      "sourceName": "Российский союз туриндустрии (РСТ)",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQnV0Q1Rpa0hDZUV5ODBVUmFNZ2FJbFZQYWxLYUdfNkFZZnN5ZHh4MWJMMWZxenJ6OEJDMlhzaXpQOHo1RWZPblF6NEU4SWpOTTVVX0VXMUZJYnFQTVVFVl91TFFQRzJtNFlqZFBVc2NPeXNiNzZSa056bF9rVHFXbHNQR3FFQWl5WXJ4UGhMWjBpdTE3dlNUNVIxWlBENDZxLTA4QVE2U0lLa2dyUGFiYXAyMDhJaTJVczlmZzhJUV95V0F6aE1XVA?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-23T14:55:00Z",
+      "likes": 12
+    },
+    {
+      "id": "p_travel_news_471732838",
+      "title": "Авиакомпания Sun PhuQuoc Airways запускает свой первый международный маршрут из Дананга, обеспечива…",
       "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
       "emoji": "✈️",
       "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVFqX0FOZUdLbTNQYW9UYklKSTQ5UUVYTXdZNllzTXFsY3hwaXRoNFhlWEhNb2M1bE82UU80aUVvMTVxSHEwTUJYZ1E2WXd1Ym83ZHdWZl9pdmZla1c3SGp1Z3VQLW54TlpJSjUxZmpaVERVanBNNFBHbXA3ak1FVmxGQ2Q?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFpUTFJ5aDJUMU5UcHEydVlZbndqOUtrUGZEb1hYM01rVlNjVFdBd3RidXRvMmZ1OFhEYzcwenpnYW9tZWRQMXFaM0FTRENjUFVuWlVpXzdjVVZYZ18tbXptMmpzSm11WGhKWlpRSGQyQVlvX09pbThnUEc4bmg2VHZUWjJ2MmFuM2Q5M3djZ3YwcDdGSUNHQ29WOWJzdkNUdnpITzFWUVZlNnFTc1FWUHJuMTRhV3JE?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-22T17:48:29Z",
-      "likes": 87
-    },
-    {
-      "id": "p_travel_news_1553272880",
-      "title": "«Сириус» и Чехов стали лидерами по бронированиям отелей для осеннего отдыха - Bk55.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Bk55.ru.",
-      "emoji": "✈️",
-      "sourceName": "Bk55.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xekluTnh2UEVocC0taVFEZGpxRC0xYlI1R0ZXVWVtc3BDc3VUazNuNVBjTmxmc3VCNHZyRExYVGZDcFcxcDJPMlpMdw?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T16:25:00Z",
-      "likes": 91
-    },
-    {
-      "id": "p_travel_news_314729481",
-      "title": "Дубай на семейной волне: путешествие, в котором каждый найдет свое - شبكة تواصل الإخبارية",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: شبكة تواصل الإخبارية.",
-      "emoji": "✈️",
-      "sourceName": "شبكة تواصل الإخبارية",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83OVVLX0dabkR4YXhnMnE2M2RSZG1TMlBrejZmNmNBbi15X3hOY0g3WWFGV0dib25KQ0doOERmeVUyY1ZSVk9TN0Z2dnBObWhPMGEw?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T16:07:53Z",
-      "likes": 79
-    },
-    {
-      "id": "p_travel_news_1668390012",
-      "title": "Новые промышленные экскурсии в Миассе, Златоусте и Сатке получили экспертное одобрение - mir74.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: mir74.ru.",
-      "emoji": "✈️",
-      "sourceName": "mir74.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlRjUXNpRnlwaERPXzc4dG82amF0bmRvM3FyX1dXMzhrSUZ3Ry05U1hMUTNKUGY1MlMtUHo3SzQtNU1VQ2FiWFpQam55Nk9IZG5mSnhuMDM0bzBIR1gyMko0MjNHcm03OFp0b2lmVzAtbWg2NXNkREVJbzl0RENxQmFFWlpxUVhTSlFVckVKVGlhZFctT25xZXFYZDNleWtQZUpJRVlxeENMY2VFOVlOZkpiZTNSZw?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T13:43:13Z",
-      "likes": 4
-    },
-    {
-      "id": "p_travel_news_29863356",
-      "title": "Проект Ленинградской области завоевал Гран-при премии «Маршрут года» - Национальные проекты России",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
-      "emoji": "✈️",
-      "sourceName": "Национальные проекты России",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYk1heE5CY2FNdjduT2x6WmRta1k1bHVtZm9GbEh0QXBYeFozTkU3d0RDTnQtclZESlg3YWJhZ1lhaDAtQjhOaFd5elR6UjFPZFVacmF5eFVMRnhaVzF2cmVDeFJ1UlFjWlJQcjJoUUJXTnFxdklTZ3NXYUM3eUVqT2FabFdEY05oWVE5MFoxeGx3Q0RjOWc3dWozRWY0NjZRS2I0UHNCeFN2WHlrZnRjdlBMZURmaE5pWWk4?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-22T12:22:57Z",
-      "likes": 14
+      "publishedAt": "2026-11-23T14:40:12Z",
+      "likes": 46
     }
   ]
 }

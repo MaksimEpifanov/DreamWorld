@@ -1,63 +1,63 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_animals_news_704931431",
-      "title": "Все началось с трех кошек: за 20 лет Астра из Саласпилса спасла 90 животных / Статья - LSM",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: LSM.",
+      "id": "p_animals_news_2483451027",
+      "title": "Не нужен из-за слепоты: в Шахтах спасают брошенного под забор приюта щенка овчарки - donday-shakhty…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: donday-shakhty.ru.",
       "emoji": "🐾",
-      "sourceName": "LSM",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN3Z1cmg1cEJjQzVLZG85RElnVjRFT3ZreU02aENNa1g0cHhhX2V2TVkxNl8wVmpQUU5YeEk0bXRIVEJBTkR3ZTREdzVhZ0N4OGRhUUFaYjBqMEhNYTRyWGhDV0tnZFR5U0xGT0lZX21VeV8zeGRzakgtREM2bEw5Q1BlOE1VdjB4VTVMUW1Ta3A3bWJ2NFJyUG5tQXBlNlpNXzN3QTN6UmpiWS1aaWs5ZHpnQTdES09jYy1FSzhMZ2ZXS0FMemIzQ1c1eWZkN0RfRjROaw?oc=5",
+      "sourceName": "donday-shakhty.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWhveWM4ekRCSkwzM0hBNW1TX0VNRXFHX3lkOVRXTG93djBKajU2LTExNnBZcjJweTZfQ09oRGZxV01uWDJXc3VfX2hfY3FjbGpsX3NMMmZtZWNZNGRnQURUZ1l2WHdyYVpfdmtOWHJESE1HOHhnc1VDWW50SDZSNnM2Mksxc29rOXZ4WmpUY3lkN2FYa0dsZUNpTXVkSXZqM2FJd2M0dHBPdjhkR3p1SUhISmo5c2t2WFpFRA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T18:27:53Z",
-      "likes": 61
+      "publishedAt": "2026-11-23T15:45:00Z",
+      "likes": 69
     },
     {
-      "id": "p_animals_news_3948203541",
-      "title": "Омичей просят проверять машины перед поездкой — под капотом могут быть животные - Вечерний Омск",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Вечерний Омск.",
+      "id": "p_animals_news_2050441153",
+      "title": "«Я назвал компанию в честь своего кота»: создатель наполнителя «Дорожник» Дмитрий Смороков - Москви…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Москвич Mag.",
       "emoji": "🐾",
-      "sourceName": "Вечерний Омск",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmkwVVM4UmdTZ0NLTC1zbi1RTjlFbFZEa3JhaUZpczQxZTdLdTI0eXlvUnl0MzNlaERNNmk3dk9JdFdxSU9vSmtxN1VDZUxCd09OZ25xbWRWbkpjYTZqbTF1WmZCcUI1bTAxbThram5UVVNJZzc0WkMxbkg3RUtNZGlEZTNoU0ZldUxJeWdTWXVxTzlsckQtYmtleXNIb0I5ZkVPbWszZjE5TWpYTm5JRXhjWdIBuAFBVV95cUxQNHJ5SEk1clo0NlozVnpJZE9wQVR2WmFNRVBOMmUxWjk4b1RQMEh5Tmw5ODFiandoVnVnaDYtY19POXc1Y3llVFgzUFpmVGJXWWRyYkhUX2Jtbi1IV1B0ZnU4ZVZ1RVRtQVI5dk84Sm5uRlMzMUxrVTlnVHI2eEprRU5JcWJpejVtSWo1dUd2UG9ld0RWUUQ4SW9KQl95a0dvZUdNdVdsQmVBR2hWQlpsRjEzRkNEOG5k?oc=5",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLVlPNnVlZ2NhYW1sb3FEbTI1OEUzcmFYX1h4VmFfSncxdFNONHlVR1lXWDdLZF93a3RGRzZmSjdvbGJ6UmtTbDBRNS1wN2NseWdac3hqWG9ab0l2c2ZlOU01UGJEQzYzWE5FVFdaVGNHSVZMVlN0T3hfSGU5VnpGSldycW1zcjhCcy1GNF9zckhnX3BOUWJxRDdNTm1fWXJnei1yb1N0dDBMWU5xR1MzZW9pZUNwWXpab1E?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T10:10:39Z",
-      "likes": 6
+      "publishedAt": "2026-11-23T15:21:18Z",
+      "likes": 90
     },
     {
-      "id": "p_animals_news_1682635062",
-      "title": "Енот устроил погром в магазине алкоголя и принес приюту почти 300 тысяч долларов - Grani.lv",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Grani.lv.",
+      "id": "p_animals_news_3735747518",
+      "title": "«Каждый грамм имеет значение»: Как учащиеся Боровской школы помогают животным - DZR.BY",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: DZR.BY.",
       "emoji": "🐾",
-      "sourceName": "Grani.lv",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2JTRVFYSHF3WjZHelRxNG85VEh0bDl3bUlZQS16SUVGck9Xek1mYmhYYUVCUk1HT3NFRFVXSTlFbnFiNy05ZFZLa2c4OHhWVkVWRnVrNkVkZEFvS2paa05GTmo5aTNPNFFpd0oyR2M3VWhBRERoeldLUExLQU5yalVBYUM2dktpSlJCZGYxZ3EtU3JLdDJyZmVQN3N1SU1VTnRuMWNpcnRURmZ1ZGxzSUYxX0xfbXpiQ29YSUswekRFUQ?oc=5",
+      "sourceName": "DZR.BY",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlZ1cllQVEFZMFFEOERzeEtUSUkyNzZkb2tRbG5PbHd2dUliOVpQMnpFWkpqVElJZVBTWHVVX3MxeHdVVG1hOU5EUVlqbWYzMmdhYzBTcGJjMzBpX1lleHNLTFJHMzZudVZZWUJlZ04tcFdzRkVmQTJWc3cyWnhfWnlsN0pKODNBXzNxTnoyVnZWZ0JJbWE0Y2hHNFdDUTFtM3J4d0ZuS2xFamV3WlE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T06:34:00Z",
-      "likes": 36
+      "publishedAt": "2026-11-23T14:16:35Z",
+      "likes": 72
     },
     {
-      "id": "p_animals_news_415687524",
-      "title": "Собаки любят не слова, а ваш тон: как интонация управляет вниманием собаки и почему это работает -…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Правда.Ру.",
+      "id": "p_animals_news_3299865687",
+      "title": "Слепого щенка овчарки подкинули к приюту для бездомных животных в Шахтах - Блокнот Шахты",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Блокнот Шахты.",
       "emoji": "🐾",
-      "sourceName": "Правда.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iVXhjY0J6eUVubm1VQ0laek1xb3JyRGVHZlBYVlFDcXgtVmttemhYai16Q0dBcC1nbjk5RUg0d0hIRVZ0b3V2WUZLNlpNd1RKNHUxSm5nMTYwQmZZWlVJWlBndjVkczFhTkVUMlBQWGZUTlpvSnNZTDlwOA?oc=5",
+      "sourceName": "Блокнот Шахты",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGFrc0gtQ29ReUd2OEVjalRXNnpTMjdZNmVMcTZfbmpSSF81dm9yNnhrYXFBY0V0ZUR5enEwNGVoaW81RXFnMGRyanhjMll3RjR0VDh5SFI0eTk5NF9BSXBKZnBPUW5TYlVLZTVvSlh5MllMQ1FKaUpuSnNNclE0YkJzcWxwVDBkdHc?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T06:29:00Z",
-      "likes": 75
+      "publishedAt": "2026-11-23T14:02:20Z",
+      "likes": 4
     },
     {
-      "id": "p_animals_news_2021400395",
-      "title": "В тульском «Созвездии» стартовала акция помощи приюту «Лапы в ладони» - ТулаСМИ",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: ТулаСМИ.",
+      "id": "p_animals_news_3885993289",
+      "title": "Собака бывает кусачей: в Костанае растёт число нападений бродячих животных - BAQ.KZ",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: BAQ.KZ.",
       "emoji": "🐾",
-      "sourceName": "ТулаСМИ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBOUHR2Q2xTR0xLLUlhLTNPaXNsUUVxWTFORW0yd01hb2ltYUxjRkZ0SEVlYnNKSVZkNWZvOV9Tb1JmcmlG?oc=5",
+      "sourceName": "BAQ.KZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNESDlmdkJJeWVrOXZxYTJpR0UwWkRFVDFiUUtHOWJVbGd6TWMzdUx0Y2hmVmtCZmE5VWhvSmxGRkI1cHdZaTQ1UTFYRTdoME44dEs5NHNDclRWUWtWblRYZzRVcUhNMV9rM2hnSVJKUGRKSUtZWklxSXVnUUpPdWxlNHhpM3YyR3lTMHRHOVFYQjVzT0t5WGRkQnpOeUdJVERQZkxvN0pMNWdKampYbGQ0Mzd1YlNxU1HSAboBQVVfeXFMUGEzREg5ZnZCSXllazl2cWEyaUdFMFpERVQxYlFLRzliVWxnek1jM3VMdGNoZlZrQmZhOVVob0psRkZCNXB3WWk0NVExWEU3aDBOOHRLOTRzQ3JUVlFrVm5UWGc0VXFITTFfazNoZ0lSSlBkSklLWVpJcUl1Z1FKT3VsZTR4aTN2Mkd5UzB0RzlRWEI1c09LeVhkZEJ6TnlHSVREUGZMbzdKTDVnSmpqWGxkNDM3dWJTcVNR?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-22T06:21:26Z",
-      "likes": 6
+      "publishedAt": "2026-11-23T13:02:00Z",
+      "likes": 72
     }
   ]
 }

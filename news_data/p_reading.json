@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_3017622198",
-      "title": "Журналистика, литература, ИИ: в ИФиЖ встретились с главредом «Молодой гвардии» - СГУ",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: СГУ.",
+      "id": "p_reading_news_3329047636",
+      "title": "Нью-Йоркская библиотека назвала лучшие книги 2026 года: в список вошли более 250 произведений - For…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ForumDaily New York.",
       "emoji": "📖",
-      "sourceName": "СГУ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS1hHVHpaZDVNSlBsZmpyQ1c5NW1rVHVQU1YwUXZBZ2ZfOEVmLUplV3ZPYjVfTXZCZmIxbEVPbzVMVzFCaW52Z2RQUDR5UklHWXNHTVRiWGM1ckV6OW43aU91c3NXYXQ2Z2Npdy1RZXVlZnBKamhwZjQ2NzBkYnB3RHJBQXlzNzk0NHRpZEdUWUFWTVZuMVM5ZEtvZDFUSFE?oc=5",
+      "sourceName": "ForumDaily New York",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUtod1EtdXdEM2xjOUhOa2Z2ZmVFWEx5VUhIX2JRS0JMWWhtQXJvLXdtdG9PUTVCTjV0aTJxVkZLUWI5M3BJbWFQR2Z2TFl0QzRPTTRLU1dkNUxPeGFtclQ5X2pDOU02NktOZmtsWU1oRkFwcWlpVnNJcDc0YTlMYUFYYWV2VElxeExr?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T18:15:49Z",
-      "likes": 24
+      "publishedAt": "2026-11-23T15:35:04Z",
+      "likes": 22
     },
     {
-      "id": "p_reading_news_3808555189",
-      "title": "Областной семинар детских библиотекарей - МТРК",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: МТРК.",
-      "emoji": "📖",
-      "sourceName": "МТРК",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QNEZrQUk4SG1qMmpjMXgwbThZZklWSzlNWEVHX1EzTlVVRkZ5bC1oZG9wa2FJYzF6UF9hWHpwWmdLLUduRl9Cd21IMGlsYkdBd214WU81Y1lhOElGWWFzZG54OFlncVRlaDEwLXNfTkNLNnRnTkE?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-22T16:04:17Z",
-      "likes": 86
-    },
-    {
-      "id": "p_reading_news_1283134782",
-      "title": "Яркие культурные краски провинции Кханьхоа в провинциальной библиотеке. - Vietnam.vn",
+      "id": "p_reading_news_3184997491",
+      "title": "Интерактивная презентация книги возвращает читателей к концерту «Родина в моем сердце». - Vietnam.vn",
       "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
       "emoji": "📖",
       "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Sc1FCUi1nX0piR1RENHBkOU5NMVdXSHAtcV9wZmZibUdwMHJZaFQtVEVwNEZfS3RWckp5dWxuLTk0ZWJ6aEh2aFU5ZGwwbE5IR2FRelgyZk9Yel93SjA5S2ZnQnBVd25aODVKNXpzZ01jSUZ6dGc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONlpYcWZBaTZNSXU0b2JZT1hHRE1jcmFILXEzdHZES0lkWWdvN1BmSTJ3MlotWGxqLVg5eXBRSU9HYTFSR3hnajl5MldES3QtYXZsYXpzX3B4R1JYZ1RIVk9WblFTdG1NUUVSWC1QWVRldW9Oc3FaVEd1azdGeHJDM2F5SXBYc0xRZ2hMeUIzTUc4dlBTQ25RZF9oeTg2dEk?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T12:32:21Z",
-      "likes": 61
+      "publishedAt": "2026-11-23T15:33:47Z",
+      "likes": 41
     },
     {
-      "id": "p_reading_news_3253351649",
-      "title": "Почему белорусы мало покупают книги на белорусском? Андрей Янушкевич — о тысячах книг на складе, пр…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Наша Ніва.",
+      "id": "p_reading_news_1339978547",
+      "title": "В рамках проекта «Читающая нация» открыт раздел электронных книг - GOV.KZ",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: GOV.KZ.",
       "emoji": "📖",
-      "sourceName": "Наша Ніва",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tTXV4dEhXc3hmZ2hON05IYVpyT1gxbjg0aHVvTTBRUkh0S19MQ2xiMi1GVF9sd2FtbGVYRmxhX3UwNG9VUlVjNmUwNNIBS0FVX3lxTE4tTXV4dEhXc3hmZ2hON05IYVpyT1gxbjg0aHVvTTBRUkh0S19MQ2xiMi1GVF9sd2FtbGVYRmxhX3UwNG9VUlVjNmUwNA?oc=5",
+      "sourceName": "GOV.KZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcnRGcXVrOU5ybERNQ1ZuVDV0VHVlYVFfVGg0TzBlUUhRRll6elc0c1lHOWRZRkV3THlodlFFcEcwVUFXNi1PU1ZCajcyZTlHZkM2a1pfWmUxVW44cDVRUFpQd1lqYjZXSHNHZzBFOUw4TEFUMHFxTlU0OXhqWGM?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T11:53:29Z",
-      "likes": 83
+      "publishedAt": "2026-11-23T14:54:14Z",
+      "likes": 70
     },
     {
-      "id": "p_reading_news_1055139121",
-      "title": "Иштван Орос: об оптических иллюзиях, шахматах Ленина и своих романах - Европульс",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Европульс.",
+      "id": "p_reading_news_1881284529",
+      "title": "Читатели могут заказать интерактивную книгу с иллюстрациями «Родина в моем сердце» через кошелек Mo…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
       "emoji": "📖",
-      "sourceName": "Европульс",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUFRuZzNBRkRXQ0F4UTQ3dUN1eXUyemoxQ3RIRy1HWXpXdWVOcUdPVlk2WHRzaXVtSmNjclB0Z1ZpVGgyVlpwYTlRb1FiYzRIMm9ZdlFrTE12T1BHX2xkN3ZHemo5czN2Yy1ITm5SOEVwSWp2M1VkWDN3OHNhMDBUZXdDX0xxV3JrQm56RFMxLU4tOU9wMVNQcW5HRjJJdmRQcTl4enFTUll0S3VqMWVRTkFlRkh2MVU0dEVZcXVR?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekZRLXB0MXZGOFROakNaNGxBeW5VMzNwTXktMHJiLTAweE5MdHpJNllyWjRSSVFRNVI1Yzl2VHdvaE1aVzI3NTRuVy1xZEF5WEZvSjRpd0c0OVJET25ZSjBtcm5PbFlXVVBpeklJdTNSVTQ0NEp6VTZCeVFLVVhMZnNzclc0d0ZMOUxMbFN2Qi1zd0EzVmlBU0NBTFdkTEgtZWphQnRjVQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T11:43:03Z",
-      "likes": 13
+      "publishedAt": "2026-11-23T14:28:57Z",
+      "likes": 32
+    },
+    {
+      "id": "p_reading_news_2592484632",
+      "title": "«Родина в моем сердце» — уникальная интерактивная книга с произведениями искусства. - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
+      "emoji": "📖",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWd3TUw0OG5rNlJjenNDYnlHZXpWU1F4TFlJd0ZKZXNqeFpuWXVkdDRMRDBfOUVqVzlWLWZtMHcxTENRZ0JfcjJjNW1GeDNHX2xnV2g4NWxtVURtbGRjX1hYWjFrWDlYaFFON3NZcndWMVNnN0JNZUU5cC1BUVlETlQ0MU53WFZvY0E?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-23T13:47:50Z",
+      "likes": 64
     }
   ]
 }

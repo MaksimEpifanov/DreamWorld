@@ -1,63 +1,63 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cinema_news_960369055",
-      "title": "Гангстерленд 3 сезон: что известно о продолжении сериала с Томом Харди - Вікна-новини",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Вікна-новини.",
+      "id": "p_cinema_news_521688646",
+      "title": "Готический Миркурбанов, величественная Судзиловская, оживленный Сухоруков, еще сильнее похудевший Семчев: премьера «Ста…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: StarHit.",
       "emoji": "🎬",
-      "sourceName": "Вікна-новини",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmVUbUlrU19IMVI2c1ctQmdjd1JLTWtvQVVteExhVl9WTjhRVkRxS0hyazU3VlBTVHY1YjlkN1AyOWl1cnZydHJ6OUNDQ1gwcWJ2ME5JZG1GNzdzSzgzRDZUSXBNdkZBSzVINW0wS3ZEejJrN2dvUnFqU2dJVFNVZmFFeU5kazZoTGxVLXBBVHBwS1JiTFEzZS1MeXJObEI1LU9XM2JzZHZzc09zenozU0VqcEHSAboBQVVfeXFMUG5NYjlkNE1GZ0lHTFZwM25GR2NUcUpDdDlzcFRZYWhCREc2cTdhNnZWR1d5TEFGZmwza2tZQWVlTkU1OFlqNDRmNElFTGtzZXpiZ3p2aTB1SS1Bdmlycm9XWE9TOVBaSjRUcGNMSE5KTDItbWhldHVqX1pIMXVya0FCeWlpN21oc1V0VU4xMkxhdzU4R2tRVTl0bEZFTXhNYngtVTZSbzNWbzZ4dmNKVzdtdUFia2QzUi1R?oc=5",
+      "sourceName": "StarHit",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOelpXMTJzZjBub2pDSzF5eDZiMXRuM3hxaFFXbGF1cDhTN2RLbU1QSWdhUml2V3ZYZXRxTG1vSUJBUEZuM0JTbXFGYUZWMDlRMHc0bW9aVWp5SnJVWGs2NGxRaTB6NjBRM1N3VUVLRmtLZ0NsOThRbm1SZFhVS3ZjX3NvM2d6aDJQUkZwc2t6YzN0UUcxcEdYTExwM3FyUDJjeGpNMTR6THFTTWlVVGhhTlNVcVFJNGhWS0F1OC1SbkdCc1hXczlyUHdlS0dvRS0yMDR4cFhKLWEtUUhGZUstanNVQk5aRjNfYUZyNTgyMGxVR2tOVjJQQg?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T18:30:00Z",
-      "likes": 35
+      "publishedAt": "2026-11-23T17:42:00Z",
+      "likes": 41
     },
     {
-      "id": "p_cinema_news_2619715285",
-      "title": "«Лучшая часть серии»: зрители в восторге от фильма «Голодные игры: Рассвет Жатвы» - irbis.spb.ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: irbis.spb.ru.",
+      "id": "p_cinema_news_1317901348",
+      "title": "В Москве в Колонном зале Дома Союзов состоялась премьера сериала «Тайный город» - Пресс-релиз.ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Пресс-релиз.ру.",
       "emoji": "🎬",
-      "sourceName": "irbis.spb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pFdDlFcW54T013N1ltN0dlRnFTVUF0ZWptdmZkRXFOVmh3T0NCdERTMEMyRGlpU0RrRFZ4VU4xMjRweldwRmxGM1ptYzcwQkFPX0N6ZGgzZlJ5Wjc1WkVNMzhEWUgwWHVUM3Y5YVpvS2dTNS1Ib21GWlVoYWNFajN4clE3SktLemJmZ2N4OGV0ZTZ4ZVI2d1J4Rjh0QXhaTmZUN1RucThvRUN2bFh4MldqTlp4Ykk?oc=5",
+      "sourceName": "Пресс-релиз.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FUTRwRlhGZnJmUEhDTXl4QmxvMmk2ZHJrWTllU2toWUFzWTJSTHUzUlB3UzM3Y1JRcmw0UUE0amI1cVRSUTliVk9IU3dKeThoRjNJbjZpWFJiVGdMWUQwWVJwNEtOVjBlV0F6ZXUzNndyTFE?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T17:31:02Z",
-      "likes": 66
+      "publishedAt": "2026-11-23T16:18:56Z",
+      "likes": 31
     },
     {
-      "id": "p_cinema_news_3784444161",
-      "title": "Стейнбек на новый лад - Кино-Театр.Ру",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
-      "emoji": "🎬",
-      "sourceName": "Кино-Театр.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE14NDBzWi12X3lVeU1pMDlHWEZqQ3hOSWNzejhKem1wY0NwOHJCeEF2a1FEUmVTTUtrMlcwRGo2X0pTYzNmV0VKSFZ5QlBnMzRmczE5WC01RQ?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-22T15:28:38Z",
-      "likes": 22
-    },
-    {
-      "id": "p_cinema_news_3656287789",
-      "title": "7 самых ожидаемых сериалов декабря 2026 года: что смотреть зимними вечерами - Otkrito.lv",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Otkrito.lv.",
-      "emoji": "🎬",
-      "sourceName": "Otkrito.lv",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZWx1bVk0bzQ1bE9EeTRvT1M1bHEtS0czZEtXNDMwMldVY1FCcGxTX0RZb1VDc2gxWGZtMGpVQnozOGNsV2d1YVZPWUJCTGRGdVNPX0tPT1JCTWpHWTNsNjdmT2xadGkxazRFdmIyTTNQd0VJTFBvemVDdUxpRGFEUEtJclNSejVHV0d3UGlFbHZiWHo3NXF2VVBmZFNtYkxzcGVVNFJvQS1IWEdUel9CMWk0ZThTRkpCVnVqRw?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-22T15:20:15Z",
-      "likes": 62
-    },
-    {
-      "id": "p_cinema_news_2281286725",
-      "title": "Отшлифуем и на показ: СТС сообщил о завершении съемок продолжения сериала «Мистер Ноготь» - http://…",
+      "id": "p_cinema_news_4181310174",
+      "title": "Все не то, чем кажется: на ТНТ выходит мистический сериал «Тайный город» о скрытой стороне Москвы -…",
       "summary": "Киновечер, громкие премьеры и споры о классике. Источник: http://tricolortvmag.ru.",
       "emoji": "🎬",
       "sourceName": "http://tricolortvmag.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb1VpQ2VQSnVHQlBOUkEyNVZMX0RHeERBdjNyWHM5VDAyMk1tQ1NlLUlZaTQzN1FnWmMzMnNDSDdPbnpsaU90OWJqdVd1ZGJZWHgyazYtVkEydXRBQnVPekZSMWF6ZnBUUVE2MW9JTXBCRnA2cWYzQml0Wm9kaW9hZzdUWHNndVBJSWdJYjNuMW9TWFV4RVVjY1owX0NWLTA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3ptOHNqRnRpSUM3QXgyZmlMQVdVOFFzbU1sQ005ME5SbHhLNVdEM1Z1NVI5V0lXTjE1OUJUUS1kcVRydVhaVnEyLTZrSkdSY2JBNmNCUDNmN3d4b0otRC1lLWE0MUtEZEU2NXZmQU1VSUdXTWYzS25ZSk01dlFBRHp4Zmt3MHAteEVlTUd0aS1vbHpSaDdfdjFDemxGaFo4STgzSEd5ajVwS2lnWEFCdVF3RUVjSDlJdEE?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-22T13:59:08Z",
-      "likes": 15
+      "publishedAt": "2026-11-23T15:39:52Z",
+      "likes": 16
+    },
+    {
+      "id": "p_cinema_news_1750521710",
+      "title": "«Бегущий по лезвию 2099» — дата выхода, сюжет и актёры сериала - Канобу",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Канобу.",
+      "emoji": "🎬",
+      "sourceName": "Канобу",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNazk5Xy1sUVRWM2xIYnlJTW05RE1kY1NqSDhWNmtyUkdxOXo0eUdBTnNRb1lRdGZNMms3Rm04MlV3LWxhT2ppakp6dDNvWEQ2LVRhaTA5V05DRGJ6emhfekNja2FiMVlaRWNiRkpwT0Z6Q2E1SDk5QmFWQUo5Q0dRVlRKQmotbjZLM0xqSXkzR0xsVVdjbTZSOS1ORUtMSGw5ZDE0LUstUFFTMm1ldkd2THY5SEhjM19hMjlXOFRDeFA3eHM?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-23T15:31:19Z",
+      "likes": 19
+    },
+    {
+      "id": "p_cinema_news_3459260157",
+      "title": "В финальном трейлере \"Мстителей\" показали много Криса Эванса (видео) - УНИАН",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: УНИАН.",
+      "emoji": "🎬",
+      "sourceName": "УНИАН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT1BDc0JTWER5RTZVUi1ucUJOT25PSnJsT0gxRU4xcjh6QjMxakNFVmw0bXhJSVFpUlhVSW9xUGlfWlNQWTBxVERMbGNHTzFBb3A5a3BHNXYyWTVlOVozakJFM2hhNDEzc1JMS2JVS0Q1aDZ4RHoycU1NcEIwTDhEa2E4U0YyejN3d3gxSW5ycXlfcEdHRmhDenE4cHZVN2xNUUZDLW5nOXpSd9IBrwFBVV95cUxORUZHcVV5WkZrVm5CaHNmdFZqSDhsN0ZtQUNibFFjM2pEVDh5b09YdkdIeTFPQk16ZUptVFhOallSdjVET3lmMTRmNElMX3hVZE1GMm0yb0xfY051MmtVXzZjemtjRjFaLVpDSUYzUlhHT0FLaXhZdEREWlFwY3NrSVViaVczOC1aLVlaakM5VktfTnhLak1tSktfbmRFVzYwclNjM3lIVWtWb1Z5ck1F?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-23T15:29:00Z",
+      "likes": 24
     }
   ]
 }

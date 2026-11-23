@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-11-22T19:31:42.625259Z",
+  "generatedAt": "2026-11-23T18:12:25.487501Z",
   "planets": 21,
   "news": 104,
   "modes": [
     "template"
   ],
   "sources": [
-    "bing-rss",
     "google-rss",
     "google-rss+bing-rss"
   ]

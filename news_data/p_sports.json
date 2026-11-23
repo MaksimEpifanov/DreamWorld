@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3059412620",
-      "title": "Карлос Алькарас стал победителем Итогового турнира ATP в Турине - Рейтинг Букмекеров",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
+      "id": "p_sports_news_3796852767",
+      "title": "Ларкин дебютирует за «Монреаль» в матче с «Лос-Анджелесом» спустя день после обмена - Чемпионат",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
-      "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTF9ERzN4cVlPekRJekNScmc0UjBOUEh3bWxNUVg1TUhsR1NldGh2RDNmRVdDY3FDRmIwN19VcGZod081TmZZZEM5cy1sUlFLQ0llRW54X21IN2RZOWRoaTVkeXVHX3dHdkdtM01HUldBejNjWEhVcHczSmpCSFRGRHhnMUQ0RHFyb0xXcHdzX3J3VGxXR0xTdUFuYzRmUQ?oc=5",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMk8yX2xLcG9YZ2xvWVd3ZHZjZmoxU3ZBa1h0cVpsdXpRMm00b3ppUFM3T1ZudWstaXVlY3BORlpTelB4b2g5VmlWUzNsNTZ4aDBPODFYYjY5Q3RjTkxmTjgzMV9uTFdSODhlalBXNUV0eUY3SF9tMFMxQWdwU1FMZXZ4ZVVDTDItb2dfMF9YU0xIaTJKMXBHcnkzVjVqXzh2UjNlWl9VZU9PNWdDWlA5c2QzUEZEUU92dVFXMzFkYWFWT1FjNmJtMVp1OVg?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T19:20:40Z",
-      "likes": 12
+      "publishedAt": "2026-11-23T17:52:10Z",
+      "likes": 14
     },
     {
-      "id": "p_sports_news_2327153520",
-      "title": "Ванкувер Кэнакс — Миннесота Уайлд | Сезон НХЛ 2026/27 | 22.11.2026 - Rusbiathlon",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Rusbiathlon.",
-      "emoji": "⚽",
-      "sourceName": "Rusbiathlon",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjampqdExvUUQ2THJRZkE4aXFtWGJvdl94ZGE4dmc2LThZVHZvZURxRTVqOUo5aFFJVnZHd2VBalBTdWNBZXJVQVNCY1ZHVnRwVUlpdHNXdHo?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T19:10:22Z",
-      "likes": 87
-    },
-    {
-      "id": "p_sports_news_2258677223",
-      "title": "Генеральный менеджер «Ванкувера» – о Никите Толопило: я чувствовал, что он заслужил свой шанс - Хоккей Беларуси",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Хоккей Беларуси.",
-      "emoji": "⚽",
-      "sourceName": "Хоккей Беларуси",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VZFpDR292Ul93SDFjNFBTRldqSzlIVnFEX1ZUbXJNYTBrQzNtckJfZjEtZjhUbTI4ZFphMTlNc2hJSWFsbklnczRpT1pJTFktbV9YR0RIcmRLM0U?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T18:32:54Z",
-      "likes": 33
-    },
-    {
-      "id": "p_sports_news_3480975812",
-      "title": "Овечкин рассказал о везении «Вашингтона» при победе в Кубке Стэнли - StavkiPrognozy.ru",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: StavkiPrognozy.ru.",
-      "emoji": "⚽",
-      "sourceName": "StavkiPrognozy.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMkVhUWlVS3V6d2gyZU1iMzA4REdEZElUYUdNZF9RZm5KenU4Vkx5U0xEdHJPTWJHUmo3YUhjeVgtd2F3YUdJd1lRRzZwNDdVNEh1b3RYR1B6TzdXZWtEeENIY09xSWcteXNDcE54Rkg2MWZxYWRHWk92UFZGdEdIc2M4OHlMYld0R0NaR0tGbDZnNEE4VDRIRm1QdnNyOUxJX0h0NnA5cWxlYW8?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-22T18:21:51Z",
-      "likes": 10
-    },
-    {
-      "id": "p_sports_news_3650351876",
-      "title": "«Вашингтон» пропустил 30 шайб за пять матчей и продолжает падение в таблице НХЛ - Новости Хоккея Бе…",
+      "id": "p_sports_news_1405272021",
+      "title": "«Ванкувер» отправил Никиту Толопило в АХЛ после неудачного матча с «Чикаго» - Новости Хоккея Белару…",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Новости Хоккея Беларуси.",
       "emoji": "⚽",
       "sourceName": "Новости Хоккея Беларуси",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR05TbXNzWlJKMXg4Z05oOXkzMG9wYndSNjRJemRwOHJTaEZEaFhmS3VhOUFoTGtIQVk3QVAwYUFhc2ZXZUhPeXlCcGxrTV9JcDl6cUx3OTNXalh2bFAxbFZwMHVLRmt2ZkQ1Zjc1aGJXc212eTdtemJmSGJKVHN6U0dZVUJKR1lsY3kzQ1gyUEkxeGhyYnZQZVozUThDM0JseXhpOElwMERFTmZYMHl6SWdsTXdHS25iQzBma3dGSDJKYml1WTljOVdFM2o?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQkttUTVhYzVNaV9hZzdJVUZMOHpyMy1wM01HR3FXMWF6M2lxQW9idThBSXpaNFB0a2w2eFVuVlN5RzZsMUtvbDlScjc2VXQwUEpZUW12NmtmSlhzd3lMU1ZPODhVbDNHTWh6cDN2cy15ZWkyLWtRSjVyOUFtUks1Q1lKUmJGR2hnT2JUak94SHBNYmZKRFpIcjRzeW1YOEVPWlJEUUYwVlNMRFpjZ042Z2taYkN0MFVyeE9qNmdWdG1PdE0?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-22T17:44:30Z",
-      "likes": 85
+      "publishedAt": "2026-11-23T16:47:13Z",
+      "likes": 90
+    },
+    {
+      "id": "p_sports_news_1776803497",
+      "title": "Обе-Кюбель об Овечкине: его бросок – лучший в истории хоккея - Allhockey.ru",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Allhockey.ru.",
+      "emoji": "⚽",
+      "sourceName": "Allhockey.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY0E4c1ZadEctVnFjdDNXLUI5TngtUUgwZjdLbTJOTXhwTDBxdlVXeExLcmhwSnlHZGszMTdzSmFNV3lRUFRnUmFvMnpqYVQ0YlNNbUx5bEpIZUhYQXM5aDdNempJV1UwTVJHZ2haU3YwVkZOdDZDVGJHRW95QUVza0FNYWU1UEgtR1RzUmpFdEsyVHBJZ0o4WExPbW8yZkRk0gGfAUFVX3lxTE5EMkFmaE8wNlU1dnpaZUV3QXFHZDVVQWdmTWdYNUx2UzRlOGNYMWNBWUdVbXlSZEV2RkRoRjA0YUltX3oxU0t3NlBlRVNlMEJ0R2FoMmdpanVDYWZNUGgtR3pkYmxhYUNPNkpFRTZjNDFZSDBBR0N2V0hmQWUxbmpqSXIwdTJsUGRpNGpVanJUX3dGRXVKZklfXzJ1NVFPRQ?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-23T16:37:00Z",
+      "likes": 81
+    },
+    {
+      "id": "p_sports_news_4012868900",
+      "title": "Канадец объяснил, почему у Овечкина лучший бросок в истории хоккея - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "emoji": "⚽",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcHRyWEY4dGxnZ2ZUR0s3V0xZUnJKV1lKWkNKUXp6dm1QRHNhZG83V2ZEMkZKZm9idXZBT0xwWTFJXzVTRmFhdExXZnd5SUdaOEtyMnVjSE1nd2lRV3Y2dGl0cEdDUEtzbGIwVF9pbGxpTzl6WkR6V1hBVS1nWlByRHNxYkhzeEhLQm9YQTZac282TDRhWjJOZUw1NTZoci1q?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-23T16:09:46Z",
+      "likes": 13
+    },
+    {
+      "id": "p_sports_news_2174951130",
+      "title": "Легенда НХЛ выступил против позиции своей страны по российским хоккеистам - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "emoji": "⚽",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlhmSnRvSnBnWXEwWmdoOWFNWHVEeUFETWFlWkRmMjdYaURlcGd6SlBsWTJ4Q2FqQ21HZDJ2Y2RQQ2JCZjZQQzBYSi1UMVNvd0NPeXRJc2tCUkpZZXhUNi1YdkstNW5xZVBXTjcxWXJPc2h6TGY4ektBRDdiUTA3dnozZ2NFaE5DWGdQeDJnWUlfQ1RlUUZ6Wkl3SThTZ2ZhZ0hlNEp3?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-23T16:08:52Z",
+      "likes": 9
     }
   ]
 }

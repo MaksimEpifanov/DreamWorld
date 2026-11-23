@@ -1,52 +1,63 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-22T19:31:42.625259Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_selfdev_news_528971541",
-      "title": "Безногий боец Зайон Кларк: тяжёлое детство, мотивация окру... - Fight.ru",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Fight.ru.",
+      "id": "p_selfdev_news_413645709",
+      "title": "В Нахчыване обсудили меры по развитию сельского хозяйства и аквакультуры на 2026–2030 годы - Media.…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Media.az.",
       "emoji": "🚀",
-      "sourceName": "Fight.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVzcwellJRExJd2FEUGY2MUNER0NNSzNKN2txRXo2aXQ3M2ZwcEVZeHZXb1lvWExfZ3c3LUk0ZDRIU240LXlIanVUTHRHTncyYkJsaFNpbUtQeEQweUM2Q1NPcDVaQXRhMGhHZTIwMFlVRmJSUjRaVUhNaW9IQlNBaHB5Mkp6OUFhQmhXYzhBd2FxVFZ0VFZwYVY0aUpXQjhhaUlXSnVFaTZibmprTkJmLVFrbkdNYmdrcERUNWRDNjRRSjJzUng4MVlmS2w3V04tdHZFV2I3ZVJkX1ZvXzlvLTQyLWXSAeoBQVVfeXFMT3ppT2dzdnA0SGhKcEdFSVVoNzU4TF83bm9KVndjWkJMNGZsNWFtTHhqdDZUVlFRY2xrUlFVT3FEaURxcTFwbnF3VTVYZV9Cd21nRF9xT096ZG5SeVRvcGs0OFg1SWdnYlJCaTNidzU3bEtZSXdTR3NLVEhWMEhtZ1FFNTIyUjJ2OGxYNXVLQU5UUkZjeXdHLTlQRWZ3aFREYlp6ZmpiNXMwOWxBZ1M4V2RRc19oWWNTVlRTMlVFb2tlVWk4QXdOLUM0aUhBcEd2RnF3RFZPdmhLYWlqNFVybWlGS3FlSF8yMk1n?oc=5",
+      "sourceName": "Media.az",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSDN2ZFRUbEs5TzJRWFAtZ1gxVU5pQkVHaFFSV3BGNHpXbmpuYm5rN0l6cTFiT2FCcVhIUDNMbzNSN0VtcmlCVlFaTTZXRlpYY3R6OVVTLUlVN1ptMVhLa0pEanZfM1JPRGxrUy02cGg1dkZGb1dRVDBiZVB1b0lDaGtQZ01TWUQtVkxaZGZKTFhRMTZBOUpVVjdlc1B4ZHpLSHl0NXlfV1ROaFZwTUZaSEJ3ek1jM00?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T19:02:21Z",
-      "likes": 87
+      "publishedAt": "2026-11-23T17:20:00Z",
+      "likes": 90
     },
     {
-      "id": "p_selfdev_news_2339968930",
-      "title": "Содействовать внедрению решений, направленных на стимулирование потребительского спроса и развитие…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Vietnam.vn.",
+      "id": "p_selfdev_news_1058131059",
+      "title": "Наука против магии: 5 доказанных способов повысить продуктивность офиса, которые налоговая примет к…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Klerk.ru.",
       "emoji": "🚀",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTExDUHA5bi01ZlA5VzY4Sl9TenVZRlBRMTJVX1o3aFdpcFE4anVwdDN0WnBscmdzS181WjFKY29mejI2c3l4MkhudUVQbVh4MnE0MEswRWNXMDQzdDh3NHAxQW5telZ6b3VYNWxPUzdGT09WWU9vOElsTUR0Y1NMYmg1WTBxc2FhYlowczlxaVZzcXZzWGlLR2FvRjlkQWI5NEFEaWxyc3lmbFI0T0Y4?oc=5",
+      "sourceName": "Klerk.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDWHVpc1RQMVFkV0pyVzhCdC0tQkdjZE1TRzM4dDYwTWxfRG1lbHk4dF9XMU5DWU9SV3J4TzRnOHMzNkNzSGhYQmdYV0ZtM3d1Q0RZ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T10:12:29Z",
-      "likes": 84
+      "publishedAt": "2026-11-23T11:47:44Z",
+      "likes": 29
     },
     {
-      "id": "p_selfdev_news_3118836949",
-      "title": "Рабочее место на удаленке: как не смешивать дом и офис и сохранить продуктивность - KONKURENT.RU",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: KONKURENT.RU.",
+      "id": "p_selfdev_news_114406995",
+      "title": "Россия поднялась с 30 на 17 место в мировом рейтинге продуктивности коров - Milknews",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Milknews.",
       "emoji": "🚀",
-      "sourceName": "KONKURENT.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82Wl9JeFhQRTJmZFBnZ1lwcWpzcXdfZGt5ZTdXSUtuM0REN2NYSjgwUks5eUgyaFJWRWRUV0xoTVVuNGNLOU04U29n?oc=5",
+      "sourceName": "Milknews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GOVE1RnFpNGVqb1FyaXJteTJ0Um12M3V3SzcwYkJTQldkY2FFWkFIeFJFeTkydWt3Sm43eDhUSFlFTTRwd0twaTNpdnlMSFVINkNvYlFCTVhlaThPUjNaeXRuV3FEVzNablQ0M3B1S2pldll5TURQM0Q1LU9JZw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-22T05:30:11Z",
-      "likes": 73
+      "publishedAt": "2026-11-23T08:48:08Z",
+      "likes": 36
     },
     {
-      "id": "p_selfdev_news_4008956556",
-      "title": "Названа музыка, которая может повысить продуктивность на работе - adi19.ru",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: adi19.ru.",
+      "id": "p_selfdev_news_3850659350",
+      "title": "Молочная отрасль Индии: как профилактика заболеваний скота может повысить продуктивность и доходы ф…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Dairy News Today.",
       "emoji": "🚀",
-      "sourceName": "adi19.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcWR5aTFOVFBCTUtSZXp3QzU1U0plQzlLNnNORGp3Q1F6TXcteC1HUFhOWlpNTGI0cWVWRGpONUlNdUZQSWR5Tld6dzg3blF1ZFFHMkhvRV9PSHBGVUUwcUtFVDFway1PMWFBdHE3THc1VzFvczk4bkNXOFBNd2Z5YkdvSjNtTVZtbkhoUnBJamo4b2s?oc=5",
+      "sourceName": "Dairy News Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYl9uajhSZV9ONG1jbnRuM25LWjJYNDJNeGdwTlJUWlpNZlo2dVVOVW9pZm91TUtpOEUzSUE0YWxDalBzZWsxaVZqTFgtTXp0LVVyVzJHQ0lEc3N1WWNpVHJkYkVuWkkxZ0prUWtuTEFSeUFQWGJFYVlYWktnaWpIa3dtakRHUF9ETTlxYVM3bUNlRWhiRTFBdlRKM0NBT0xMNEREcV9vVWxjRXpHcnc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-21T21:12:33Z",
-      "likes": 79
+      "publishedAt": "2026-11-23T07:01:42Z",
+      "likes": 90
+    },
+    {
+      "id": "p_selfdev_news_3800188617",
+      "title": "Продуктивность коров в племенных хозяйствах Башкортостана выросла на 10% - Панорама",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Панорама.",
+      "emoji": "🚀",
+      "sourceName": "Панорама",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSHVTS1ZUUVBoOWg4NURUTU9hczJ5WDBSdnBKSnpYb3E0Tm16M05mTUZXSEJLRW05emY4NnpPQ25qQU5GVG9ZRU5CNHpBNDEzZlB3SHNhNVpUNjJDZ01nbnl0eWtJajdtdG9xS2tsRXZhMjlnOU1NRmdlTXpvNE5va0xZWVhmbHR1YTQtMXJkc2hrT183UE4ySHBlZWIzODFUSmJRRGVmdmlTREVNbXhhYk5VY2NiQ2xIcU9fYnJMTjV3U0xuN0lBelRLS3RuRVBZLTJvTHB5bG9BelhkTUE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-23T05:50:23Z",
+      "likes": 27
     }
   ]
 }
