@@ -72,7 +72,9 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
         final List<Planet> visible = widget.planets.take(21).toList();
         final double maxNodeHeight =
             planetSize * (width < 1200 ? 1.13 : 1.48) +
-            (width < 700
+            (width < 380
+                ? 35
+                : width < 700
                 ? 38
                 : compactLayout
                 ? 34
@@ -168,7 +170,9 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
           final double angle = planet.id == 'p_cars' ? -0.18 : orbitalAngle;
           final double labelWidth = math.min(
             width * 0.28,
-            width < 700
+            width < 380
+                ? 58
+                : width < 700
                 ? 64
                 : compactLayout
                 ? 104
@@ -177,14 +181,13 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
           final double nodeWidth = math.max(size * 1.55, labelWidth);
           final double nodeHeight =
               size * (width < 1200 ? 1.13 : 1.48) +
-              (width < 700
+              (width < 380
+                  ? 35
+                  : width < 700
                   ? 38
                   : compactLayout
                   ? 34
                   : 40);
-          final double layoutNodeHeight = width < 700
-              ? maxNodeHeight + planetSize * 0.12 * 1.13
-              : nodeHeight;
           final double motionX = width * 0.002;
           final double motionY = height * 0.003;
           final Offset? position = _findPlanetPosition(
@@ -194,7 +197,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             orbitWidth: orbitWidth,
             orbitHeight: orbitHeight,
             nodeWidth: nodeWidth,
-            nodeHeight: layoutNodeHeight,
+            nodeHeight: nodeHeight,
             sceneWidth: width,
             sceneHeight: availableHeight,
             occupied: occupied,
@@ -209,7 +212,7 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
             Rect.fromCenter(
               center: position,
               width: nodeWidth,
-              height: layoutNodeHeight,
+              height: nodeHeight,
             ).inflate((width < 700 ? 2 : 3) + math.max(motionX, motionY)),
           );
           layers.add(
@@ -326,34 +329,23 @@ class _GalacticHomeSystemState extends State<GalacticHomeSystem>
       1 => <double>[0.88, 0.82, 0.94, 0.76, 1.0, 0.70, 1.04],
       _ => <double>[1.0, 0.94, 0.88, 0.82, 0.76, 0.70, 1.06, 1.12],
     };
-    final double edgePadding = sceneWidth < 700 ? 2 : 3;
+    final bool narrowScene = sceneWidth < 700;
+    final double edgePadding = narrowScene ? 0 : 3;
     final double paddingX = motionPadding.dx + edgePadding;
     final double paddingY = motionPadding.dy + edgePadding;
     final double minX = nodeWidth / 2 + paddingX;
     final double maxX = sceneWidth - nodeWidth / 2 - paddingX;
     final double minY = nodeHeight / 2 + paddingY;
     final double maxY = sceneHeight - nodeHeight / 2 - paddingY;
-    final bool evenGrid = sceneWidth < 700;
-    final double stepX =
-        nodeWidth + math.max(paddingX, paddingY) * 2 + (evenGrid ? 2 : 4);
+    final double slotGap = narrowScene ? 3 : 4;
+    final double stepX = nodeWidth + math.max(paddingX, paddingY) * 2 + slotGap;
     final double stepY =
-        nodeHeight + math.max(paddingX, paddingY) * 2 + (evenGrid ? 2 : 4);
+        nodeHeight + math.max(paddingX, paddingY) * 2 + slotGap;
     final List<Offset> slots = <Offset>[];
     for (double y = minY; y <= maxY; y += stepY) {
-      final bool stagger = !evenGrid && ((y - minY) / stepY).round().isOdd;
+      final bool stagger = ((y - minY) / stepY).round().isOdd;
       for (double x = minX + (stagger ? stepX / 2 : 0); x <= maxX; x += stepX) {
         slots.add(Offset(x, y));
-      }
-    }
-    if (evenGrid) {
-      for (final Offset candidate in slots) {
-        final Rect bounds = Rect.fromCenter(
-          center: candidate,
-          width: nodeWidth,
-          height: nodeHeight,
-        ).inflate(math.max(paddingX, paddingY));
-        if (bounds.overlaps(protectedBounds)) continue;
-        if (!occupied.any(bounds.overlaps)) return candidate;
       }
     }
     slots.sort((Offset a, Offset b) {

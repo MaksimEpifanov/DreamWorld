@@ -59,9 +59,9 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.1.5
-          name: "Dreem World v1.1.5 (Android APK)"
-          body: "Android APK из GitHub Actions. Планеты на главном экране расставлены равномерной сеткой без пересечений с подписями."
+          tag_name: v1.1.6
+          name: "Dreem World v1.1.6 (Android APK)"
+          body: "Android APK из GitHub Actions. Хаотичное расположение планет вокруг Солнца без наложений, исправлен вечный индикатор на экране подбора."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
         env:

@@ -479,6 +479,9 @@ void main() {
   for (final Size viewport in <Size>[
     const Size(1920, 795),
     const Size(390, 844),
+    const Size(360, 800),
+    const Size(393, 851),
+    const Size(412, 915),
   ]) {
     testWidgets(
       'узлы галактики не пересекаются при размере ${viewport.width}x${viewport.height}',
@@ -615,79 +618,4 @@ void main() {
       },
     );
   }
-
-  testWidgets(
-    'на телефоне галактика образует ровную сетку и планеты нажимаются',
-    (WidgetTester tester) async {
-      tester.view.physicalSize = const Size(390, 844);
-      tester.view.devicePixelRatio = 1;
-      addTearDown(tester.view.resetPhysicalSize);
-      addTearDown(tester.view.resetDevicePixelRatio);
-
-      final List<Planet> planets = const MockPlanetRepository().getPlanets();
-      Planet? tapped;
-      await tester.pumpWidget(
-        MaterialApp(
-          theme: AppTheme.of(AppThemeName.neonViolet),
-          home: Scaffold(
-            body: GalacticHomeSystem(
-              planets: planets,
-              bottomReservedSpace: 132,
-              onPlanetTap: (Planet planet) => tapped = planet,
-            ),
-          ),
-        ),
-      );
-      await tester.pump(const Duration(milliseconds: 300));
-
-      final List<Rect> nodes = <Rect>[
-        for (final Planet planet in planets.take(21))
-          tester.getRect(
-            find.byKey(ValueKey<String>('galaxy-planet-${planet.id}')),
-          ),
-      ];
-
-      List<double> gridLines(List<double> values) {
-        final List<double> sorted = List<double>.of(values)..sort();
-        final List<double> lines = <double>[];
-        for (final double value in sorted) {
-          if (lines.isEmpty || (value - lines.last).abs() > 3) {
-            lines.add(value);
-          }
-        }
-        return lines;
-      }
-
-      final List<double> columns = gridLines(
-        nodes.map((Rect node) => node.center.dx).toList(),
-      );
-      final List<double> rows = gridLines(
-        nodes.map((Rect node) => node.center.dy).toList(),
-      );
-
-      expect(columns.length, greaterThanOrEqualTo(3));
-      expect(rows.length, greaterThanOrEqualTo(4));
-      for (int index = 2; index < columns.length; index++) {
-        expect(
-          (columns[index] - columns[index - 1] - (columns[1] - columns[0]))
-              .abs(),
-          lessThan(1),
-          reason: 'Колонки галактики должны быть равноудалены',
-        );
-      }
-      for (int index = 2; index < rows.length; index++) {
-        expect(
-          (rows[index] - rows[index - 1] - (rows[1] - rows[0])).abs(),
-          lessThan(1),
-          reason: 'Ряды галактики должны быть равноудалены',
-        );
-      }
-
-      await tester.tap(
-        find.byKey(ValueKey<String>('galaxy-planet-${planets.first.id}')),
-      );
-      await tester.pump();
-      expect(tapped?.id, planets.first.id);
-    },
-  );
 }

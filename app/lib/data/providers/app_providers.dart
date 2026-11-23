@@ -299,39 +299,33 @@ final StreamProvider<List<Profile>> discoveryProfilesProvider =
           .watchDiscoveryProfiles(limit: 200),
     );
 
-final StreamProvider<List<ScoredProfile>> rankedDiscoveryProfilesProvider =
-    StreamProvider<List<ScoredProfile>>((Ref ref) {
-  final ScoringService scoring = ref.watch(scoringServiceProvider);
-  final StreamController<List<ScoredProfile>> controller =
-      StreamController<List<ScoredProfile>>();
-  Profile? me;
-  List<Profile> candidates = const <Profile>[];
-
-  void emit() {
-    if (controller.isClosed) return;
-    controller.add(
-      me == null
-          ? const <ScoredProfile>[]
-          : scoring.rank(me!, candidates),
+final Provider<AsyncValue<List<ScoredProfile>>>
+rankedDiscoveryProfilesProvider = Provider<AsyncValue<List<ScoredProfile>>>((
+  Ref ref,
+) {
+  final AsyncValue<Profile?> meAsync = ref.watch(currentProfileProvider);
+  final AsyncValue<List<Profile>> candidatesAsync = ref.watch(
+    discoveryProfilesProvider,
+  );
+  final Object? error = meAsync.error ?? candidatesAsync.error;
+  if (error != null) {
+    return AsyncValue<List<ScoredProfile>>.error(
+      error,
+      meAsync.stackTrace ?? candidatesAsync.stackTrace ?? StackTrace.empty,
     );
   }
-
-  ref.listen<AsyncValue<Profile?>>(
-    currentProfileProvider,
-    (_, AsyncValue<Profile?> next) {
-      me = next.asData?.value;
-      emit();
-    },
+  if (meAsync.isLoading || candidatesAsync.isLoading) {
+    return const AsyncValue<List<ScoredProfile>>.loading();
+  }
+  final Profile? me = meAsync.valueOrNull;
+  if (me == null) {
+    return const AsyncValue<List<ScoredProfile>>.data(<ScoredProfile>[]);
+  }
+  return AsyncValue<List<ScoredProfile>>.data(
+    ref
+        .watch(scoringServiceProvider)
+        .rank(me, candidatesAsync.valueOrNull ?? const <Profile>[]),
   );
-  ref.listen<AsyncValue<List<Profile>>>(
-    discoveryProfilesProvider,
-    (_, AsyncValue<List<Profile>> next) {
-      candidates = next.asData?.value ?? const <Profile>[];
-      emit();
-    },
-  );
-  ref.onDispose(controller.close);
-  return controller.stream;
 });
 
 /// Поиск анкет по публичному ID пользователя (`DW-XXXX-XXXX`).
