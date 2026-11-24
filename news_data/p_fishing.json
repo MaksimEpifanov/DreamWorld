@@ -1,63 +1,63 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_2798535034",
-      "title": "Календарь рыбака на декабрь 2026: лучшие дни для клевания и правила зимней рыбалки - Главком",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Главком.",
+      "id": "p_fishing_news_2657622402",
+      "title": "Поехал на зимнюю рыбалку — схватил штраф: за что накажут рыбаков в сезоне 2026-2027 - PrimaMedia.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: PrimaMedia.ru.",
       "emoji": "🎣",
-      "sourceName": "Главком",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3NNOGlrUjU0eEFtTXdSZXh4TV9EU3FCMld3VHN0eDYxRHhlQTc3TjlmQnVNMnNZSTk2alh5NkNqVXhYbERja01sOTVUMUgwZ1hrT0dBWDlzNUFoOHJBWXRWaTJHblhrOTI2dV9NS1JtWlUtMDdsS2FTd2piUUpkYW9fcnc5WGRIdHZSX1l1bllJU3lsdnJORmt5T0JQSnEzeFNJZXRGbmtnRGtoWmdjcUd5TmZSbWJzeFk0V0VzZjh0VkI5bXfSAcYBQVVfeXFMT09zTThpa1I1NHhBbU13UmV4eE1fRFNxQjJXd1RzdHg2MUR4ZUE3N045ZkJ1TTJzWUk5NmpYeTZDalV4WGxEY2tNbDk1VDFIMGdYa09HQVg5czVBaDhyQVl0VmkyR25YazkyNnVfTUtSbVpVLTA3bEthU3dqYlFKZGFvX3J3OVhkSHR2Ul9ZdW5ZSVN5bHZyTkZreU9CUEpxM3hTSWV0Rm5rZ0RraFpnY3FHeU5mUm1ic3hZNFdFc2Y4dFZCOW13?oc=5",
+      "sourceName": "PrimaMedia.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xbFQ3WjNXX0t3UUp4VUZXRV9aekJ6WEM2VkRIRG5tQjNnVHpPNk1NTWlaUW1VLVFnSC1CQ0N4c04zek53dk9PYmlSQQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T18:10:50Z",
-      "likes": 23
+      "publishedAt": "2026-11-24T17:04:20Z",
+      "likes": 46
     },
     {
-      "id": "p_fishing_news_1733848393",
-      "title": "Зимняя рыбалка на Волге в Чувашии: запрет на налима, норма улова и границы возле ГЭС - Чебоксары Li…",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Чебоксары Live.",
+      "id": "p_fishing_news_1090434645",
+      "title": "Килограмм рыбы может стать проблемой: сколько улова разрешено выносить из водоема - ФОКУС",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: ФОКУС.",
       "emoji": "🎣",
-      "sourceName": "Чебоксары Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0xzU2ROdmx0WHhWNTBZb0t1Nkg5RkV6SWw0QnhMS1ZBSGExLUVOcHpDZXJHWnhkUjh5NV90M01oSjVUMzZSaHp0ZjJuUDVNN2oycFFTenJnNFRXS2VFbGpKUWN5VDBGcGlPdzFtNlZsV2wxSUxRUl9RaEFVazJodVJB?oc=5",
+      "sourceName": "ФОКУС",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcFFLVDc3Z04tbnRBUVRlbzVaeTJySWlUYWFnZ01EbmVFU1B4Q0JDVTBEZ2xVZTBlQS1KbFF6dlVaWS1NUmVMaUUxNzliVThsNEU1cjhKMkl2bHMtQkhWQ1FKYjhBS2xmZFR4YUJZNjdsSXd5c1JEaXFwMm1jNnVOMVViY09rOEpHQ0F1YU5DbHZIVTJ3b3hzZzh30gGfAUFVX3lxTE9QQnhDVXB4TGJuYVR6VWsySE9oQzJhVWR3VkhHQ2pfVTZmaFVuM081QXBtRnFEekoza0xTeElsZWdLcmVUbmt2bktJeUJMY3lXNWZDODNJdllqMkFNYXRGdjRkS01DOFp5UDlhaXdyTFQ4WFFabXZkZk9VbTNOWGRpeF9LX180S0RCN1ZFdmV3bkY5R3NxY1dqcEZwNE9hZw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T16:01:00Z",
-      "likes": 30
+      "publishedAt": "2026-11-24T16:56:13Z",
+      "likes": 17
     },
     {
-      "id": "p_fishing_news_617824607",
-      "title": "Лунный календарь рыбака на декабрь 2026: когда рыба будет клевать лучше всего - URA.RU",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: URA.RU.",
+      "id": "p_fishing_news_3219796952",
+      "title": "Жителя Старокорсунской осудили за незаконный вылов рыбы на Краснодарском водохранилище - Новая Куба…",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новая Кубань.",
       "emoji": "🎣",
-      "sourceName": "URA.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQTFWb3lsYmxhZklPSTNKSk5fWGRZXzJqMVBrSnppeHNwN1NxMmV4Z2hxQ2hXcHpkQTNWdnVCVS1SemtJVlRid2hES0s?oc=5",
+      "sourceName": "Новая Кубань",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5WTTRpLXBiX1BmaXM0RzhXakdBN19pb1pfalMtZVRNaUpPdmhPSG1rMmZtWFBFZG5ORDVQY1lYUmgtTnRsWTZPdEU4OA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T11:55:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-24T15:01:18Z",
+      "likes": 76
     },
     {
-      "id": "p_fishing_news_2857271182",
-      "title": "Рыбакам рассказали, кого и на что ловить на первом льду",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Радио 1.",
+      "id": "p_fishing_news_674083455",
+      "title": "Рыбаки имеют право на трофей: сколько рыбы можно забрать домой без штрафа - Новини.Live",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новини.Live.",
       "emoji": "🎣",
-      "sourceName": "Радио 1",
-      "sourceUrl": "https://radio1.ru/articles/obschestvo/ribakam-rasskazali-kogo-i-na-chto-lovit-na-pervom-ldu/",
+      "sourceName": "Новини.Live",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOTREdUktRnloV2o3TmNtb1VGQy1FVzVSVnNNZ25qdlJaNjZVQXIxYzNlUEE5Y1pGWnJWbVpRa1Y5RDVIOUFwMjlEeGNjSE9oNjd6cklCNEVhSzFTUGRzclFHcTdZYWdxalBRaFh0cW1wZnEwZ0FiWUZtYndLZkZrVGlIMkg1d0Z5eTdaZElIa2FFNlFobnpMSy05Mm5QOHJtWGpZdTNPV0dIZHFVWVotcFFUS1c2eWPSAbwBQVVfeXFMUFJHZ3ZKUDQyWjZyYUNHZXIzODRMSkk3d1dNOUlybTNvbXo4N2xjV0EzT0t6NmJITHUzWUZDNG41OFFZZUU3bVZpMzM1ZkpqOEg3d0l5YW5tRDFoRnVuYUR4c1VKN09OM2pFTkI0OVNiTFdtXzdxeHlUVTNTUlFGaldXeFRJV3NIamRKUW9vZjFjT3FtX3BSTjhwWlItVTUxM0RLVHJ3R2Z5VUI2Z2ZQREJLeGZDQXRQbEpHVmg?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-20T04:04:00Z",
-      "likes": 69
+      "publishedAt": "2026-11-24T14:14:46Z",
+      "likes": 20
     },
     {
-      "id": "p_fishing_news_1926519892",
-      "title": "Бесплатная рыбалка в Подмосковье: 22 секретных места, где рыба клюет всегда",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: REGIONS.RU.",
+      "id": "p_fishing_news_2864672797",
+      "title": "ЕС требует упростить правила рыболовства и снизить бюрократию - io.ua",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: io.ua.",
       "emoji": "🎣",
-      "sourceName": "REGIONS.RU",
-      "sourceUrl": "https://regions.ru/obschestvo/besplatnaja-rybalka-v-podmoskove-22-sekretnyh-mesta-gde-ryba-kljuet-vsegda",
+      "sourceName": "io.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE43NnpmZE5admdFQ0ZmRlhoYXdoYmE2M3pxWVNQeC1Lai1lZUxzX1lrZlRZQnFaZDVVejFfamVRQ0o4aU5OakFEQ2lOVnhpSE4tUEQtZUlmNzY0YjZSelU5emFVWmU1em1lR3pzamxuQ1lUdw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-16T05:14:00Z",
-      "likes": 84
+      "publishedAt": "2026-11-24T04:33:44Z",
+      "likes": 26
     }
   ]
 }

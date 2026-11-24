@@ -1,63 +1,63 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_nature_news_2112639624",
-      "title": "«Лес. Хранитель жизни»: документальный фильм о жизни в северных лесах - 23 ноября 2026 | 29.ру - 29…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: 29.ru.",
+      "id": "p_nature_news_205563373",
+      "title": "Президентский фонд природы презентует мультсериал «Заповедные каникулы» для телеканала «Карусель» -…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Общественная служба новостей.",
       "emoji": "🌲",
-      "sourceName": "29.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hU0h0QTlSRVlROXFEVWRBdGVzTzUyeEpYYjEtYzNoLTRYOUFTX3ZubGdScW90S2o0NWFvOVVuN1R3T3lvZE5TcnRvVENsdG9uaTRqZlJ3NFFJZ1U?oc=5",
+      "sourceName": "Общественная служба новостей",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRE85SkNlYWo1b3Vmb3hrWHhwQkh3Z2ZqRTZBbzdvMHdvWUNPOWk5ZFZRME50OTR3NlpVb3FxSVpBTmszQ0VEVXB5V0p2cTJ2ZXVoU3A0YU9EMUVXWGpBalZNYUFZN1JtYzZRZlNWb2preGVIRFlpbGEyU1RSR3pQeHdCTjN6WWpKTlVNU2VHbmZTRjZFUktQZGxpVVRnSU5hekx6SXYwdy12X3hmUmllS0QwUlVSS2U4ejNDaUtsSXpSeTE2OVJvWG1vRWE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T14:25:00Z",
-      "likes": 47
+      "publishedAt": "2026-11-24T16:49:46Z",
+      "likes": 59
     },
     {
-      "id": "p_nature_news_3609363353",
-      "title": "Гиена бродила по Модиину и загрызла собаку: сколько диких животных в городах и насколько они опасны…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Vesty.co.il.",
+      "id": "p_nature_news_512283831",
+      "title": "Краснокнижные обитатели нацпарка \"Буйратау\" попали в фотоловушку (ВИДЕО) - Liter.kz",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Liter.kz.",
       "emoji": "🌲",
-      "sourceName": "Vesty.co.il",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBES0pyREpvWkd6M1RyeFpjTDNFd0VpaEl3TmxkUzBCenUzeXN4MDIxT3V3VksyMkY5SGpaMWRsNE1NS056cEp2TFdzVDNlODZSWDY1VmVuTFNDWDhz?oc=5",
+      "sourceName": "Liter.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR3JPRWVSTEJ1OUptdjlITUg1azliZmlDNkozYzdsaDhGQ3VVYTBlMXVZV1FLejZNRkRRVlZXQXdZdUFlMXVZbGJPR1gtM3owQzBWM2NVWEIwYnJFM1F6OUZLdDdnYmJLaW1LMm1obHRxd3V4TUUya1ZqbFctQ2pSNEM1TXEybmpXVnJoTE9BR0wtQ0VyY19WYlk1MmhvQjhFeHVpaWdFZWg1TndySDhlNTMtUdIBuAFBVV95cUxOYnFmTUd2M251eG5LQ0lwOC1semRydXIwYl9QLVdBSW5sQ3NvNmRDODRBZnJYY3RFME0tdlRqaGs3aWtLTWhxeHlvcHlLdk5Xa2VFbktiaUFHY0txUlo3YWJCZENSZkRHdjI1R290M0U1M0twbXVoUFdwT1pvOGJRam9yM0hIU2REOGVZcUlSMG9yVXBkMFN2aTJnLU1uUUs3QU9IR2ppd2o2MGphZmpMZVFxV3RHemJN?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T14:05:07Z",
-      "likes": 32
+      "publishedAt": "2026-11-24T06:40:00Z",
+      "likes": 43
     },
     {
-      "id": "p_nature_news_3899483272",
-      "title": "После серии популярных роликов. В Карпатском биосферном заповеднике рассказали, можно ли кататься н…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: NV.",
+      "id": "p_nature_news_189266073",
+      "title": "Учёные выяснили, почему Плещеево озеро продолжает загрязняться изнутри - НИА «Экология",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: НИА «Экология.",
       "emoji": "🌲",
-      "sourceName": "NV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnVBMVJ5N2pLZzgzSlZHcXhiNHppMzMzVTRndlBXNjZaaW9NVVJ2ckg1RGQ3eVJKSGgxbHBCNk56Wkxfd0YxaXkwRWRsSk1BcUFPbjZtXzYxeUEzRzJsNm8zRktfb3AyRDNfaXlFUXotWkdhTWJXdTd4UFZGLUxCRFZTelItcnU1SjRFTld4NVp2UWdXczI2Q21DTGNwRXg1NlF6SEVFeUtnTDgt0gGoAUFVX3lxTE5Zc2VOeWFfSWs0UnFfUVA2UEk5d0I0SDhEWDY2NENsNDJ4ZThlQUdEazhUUjFDa0VtOFZiaXB1azVfOUpDLWJaLThJUXctTG9xZHNNSm42bWQzemdpMDNacGZQd1NyMnVlVXdCTDI4YjdqUW9pNWxZQUZSZjNHRElDaV9YS1MtOThEaW9WUDZKQ1Jrby1oWUs1TUtYZkFlaEpDMUlZeU9wSQ?oc=5",
+      "sourceName": "НИА «Экология",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5oakE3amJobzFMMk1sTjlEZ2JEOVRXT1hMT1VCWXRRbDRRSkswYWZqekU5SGdmd0hTMEVlSE5ldDFCQ1JsSGhYNk9B?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T13:39:00Z",
-      "likes": 17
+      "publishedAt": "2026-11-24T04:13:29Z",
+      "likes": 36
     },
     {
-      "id": "p_nature_news_3003729753",
-      "title": "Фотоловушки Государственного заповедника «Хосровский лес» зафиксировали безоаровых коз - NEWS.am",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: NEWS.am.",
+      "id": "p_nature_news_45766379",
+      "title": "Фотовыставка, лекции, аудиогиды: в столице открылся эколого-просветительский фестиваль - mos.ru",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: mos.ru.",
       "emoji": "🌲",
-      "sourceName": "NEWS.am",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83NlYwLVNQX3JURlU1cEk0ZUdSMVZmWWo2dmRRWXdURFZCbUVrOGx0azJKZGtyQlV0MWM4TlYya1F1a2I1aVE?oc=5",
+      "sourceName": "mos.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10dlVlNGtBVUF3c3pOMGszRE9fV2p1djkzcUpkZ1UxU3VnSW8wZjdLSWNyRVVwUWZNU3lrMXhIYlFNelgxd2pCY0VSeC16SkJW?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T12:14:00Z",
-      "likes": 62
+      "publishedAt": "2026-11-24T04:01:00Z",
+      "likes": 73
     },
     {
-      "id": "p_nature_news_787833347",
-      "title": "В приморском заповеднике заметили редкую выдру-призрака - Мел",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Мел.",
+      "id": "p_nature_news_2413227623",
+      "title": "Шэньчжэнь показывает странам АТР пример гармоничного сосуществования человека и природы - SteppeNew…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: SteppeNews.kz.",
       "emoji": "🌲",
-      "sourceName": "Мел",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORjZDUTBSZUhleUktLWlSVzNacVhRalJFLTF2M0JLVG9nTzZGdzB5T0xLNmxHRWpfdlhDX0ZTY25pbEk1Y0thVEhUbnptbUZ4QV9NclB2MXFLWUtnWXdSSnFsLXRyVC04ZW10QmhVYnF1QjhpOU1LTUZrUGpDRzd5YlI3WGxSREFjTGd0RGJ1bFZLMTItT2fSAZYBQVVfeXFMTkY2Q1EwUmVIZXlJLS1pUlczWnFYUWpSRS0xdjNCS1RvZ082RncweU9MSzZsR0VqX3ZYQ19GU2NuaWxJNWNLYVRIVG56bW1GeEFfTXJQdjFxS1lLZ1l3UkpxbC10clQtOGVtdEJoVWJxdUI4aTlNS01Ga1BqQ0c3eWJSN1hsUkRBY0xndERidWxWSzEyLU9n?oc=5",
+      "sourceName": "SteppeNews.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWU95bFBZUTM1RXZFTFQ1dHQ3bzNwcVJsQWt0aG5PTk44eHgtN0Iya1huLTRHYTRwMjBOSWRFYnVhOG55SnR0RGVDYzlKZE4tXzcwYnJqWHg5YmdZMjRaSXd6Q0ExcWNKZ3FlX1A2em1jY3U3aWIzZWFPemM2eGFBOVNLVVNmNG1yZ3RsSDB4SVBJS2d6dkdwbXNFSGQ4eDdIalFSVjctbGUwOS1kaVdKWWg3U3owMnpJMU5peHY0dktyQVdu?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T08:27:03Z",
-      "likes": 54
+      "publishedAt": "2026-11-24T02:53:35Z",
+      "likes": 18
     }
   ]
 }

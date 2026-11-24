@@ -1,63 +1,63 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_2264228354",
-      "title": "«Думал, что не дотяну до конца»: Валерий Кипелов на концерте в Ярославле рассказал о болезни - 76.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 76.ru.",
+      "id": "p_music_news_3925188495",
+      "title": "Легендарная GTA VI собрала звезд мировой музыки: полный список из 34 треков - 24 Канал",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 24 Канал.",
       "emoji": "🎵",
-      "sourceName": "76.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NeEN2VVpzd2lXaWEzbi1Ic1NIa3N0TGZ0RFc4TE9lYlVnOXNrZEF1bjVIZXhrRE84bl9acXJJV2JzZnFRMzhQY2JRcGxtVko0NFlKTmtYbVp5VUZHSF9XbFV2QQ?oc=5",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN25wTVljMlMtNWFEUl9ScUdwZTR3Wm5oa01acnYwSTBPMTMxMmFjcUExSm85Y3JCTW93cnU0UG5sY1Nud2x2d3hKbWlkaTl6eXpzZnhmc0RaZVZTcm1zTTJmNk1nUERrQWJqVFJSUUo4dXB0dWFkNF95WEJEdzlWejQ3M0JsNVBLWDJ5dmJtRW5SYlc0aFVDbzNMaTJ0U2Z3MjllNVoyc3pnWmJ3MkRJc3dmdUo1U2MtTFHSAb8BQVVfeXFMTW5WdFFoMFBWX3IyZHYxVFBZWGVrT3hDM2JTMWl4eXk2bXBHcHV0ZkFITVdRSzVVMS1xZXhobTVVck83dVlpeUVtakpkejI4WDF4bFM5WE5zbXBGTjVnUm42LU9WbUVHd1BqcHV2RGpjVEt4MmE1OWpqcUYtQ1p3REs1bFpwbkhvSENrV1pCRXBpZ3k3NndXQWx1QW5UcFNHLWJTVlRXVmdFTUZ4OXlTWC1yMGNwOVIxUTQwZ24tdEU?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-23T19:42:13Z",
-      "likes": 27
+      "publishedAt": "2026-11-24T14:04:00Z",
+      "likes": 63
     },
     {
-      "id": "p_music_news_1881317561",
-      "title": "В Иране высекли певицу Парасту Ахмади за концерт без хиджаба - Euronews.com",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Euronews.com.",
+      "id": "p_music_news_3314394512",
+      "title": "«Новые казачьи песни»: Денис Майданов и Сергей Войтенко выпустили совместный альбом - Татарстан 24",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Татарстан 24.",
       "emoji": "🎵",
-      "sourceName": "Euronews.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSnpXM2R2QXJ5ZjRnT3FIVEVyTWFJQXVFYVBKZHlVcXJoN01rVFpUVGRXNmRWdUVoREVKcHU0WGZhWFgxbjVBbjlVR3B3b2hLNmtOOUVIWGQ2LUNvSDlYanBSZUR6dlpWd3hSYkplUGRtd3ROUzhIZEszdlhHR0s2VXFWYU1GcEw2blRVVkw3UEd4Z0RwMFpIX091NnRwNThsRFhLbVJ5OUhQZEE1?oc=5",
+      "sourceName": "Татарстан 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2h0OWZmSFRycFhSTC1LeG5TckdYZXA4MV9Ta2FSR2ptQUxFY2wtOVRPSlpISGhkc1otRHhNRGZSdFFXS3pMcFdob1ZDZ1BxSjNhOTJEYWwwdW1wM0RoOVFxNDNvcnhvQ2pCdElWRFowcGVoOW5wNzJzWjRZSW55bmVwTWtiNTZnMlp6T3hTZl9aeGdKNWRNWTFHNlVGQjRoSXVEZzlDNGVyenJPNnp6dThOOA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-23T19:38:19Z",
-      "likes": 27
+      "publishedAt": "2026-11-24T13:45:00Z",
+      "likes": 36
     },
     {
-      "id": "p_music_news_1358821381",
-      "title": "Иран: певицу Парасту Ахмади высекли за концерт без хиджаба - airpress.kz",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: airpress.kz.",
+      "id": "p_music_news_1037161437",
+      "title": "Maneskin в 2027-м вернутся с новым альбомом - Soyuz.Ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Soyuz.Ru.",
       "emoji": "🎵",
-      "sourceName": "airpress.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWFKM21mcTdjMmFQMERlcG1SRFZCOFBhQ18yOHNaNF9oaTRZWnd3TlRpaW5kbFRqMWoxdVNLcXRsY0FUWC1NS2kwdkVSblpQd3ZoWF9UcVJGb1lwVW9xLVBqc3ppeXJoYmdzWkRIOS1XSU5idzd5ZnRfc0tFazBrVGwtX28?oc=5",
+      "sourceName": "Soyuz.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wMl9ST01uQWJnek5sU01nZFV6emdGN04wbExfNGJvWDB2ZG8teDF1RUoxSERKMFpKZldNY3VfMjBFY0YzMVFrcGk4b3hGQ2dfQXJGV29fSks1WG1GM1VQSVo2a05sVnl5S2ZSTnhhUmZOWWwzNDNJRA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-23T19:18:58Z",
-      "likes": 74
+      "publishedAt": "2026-11-24T09:38:21Z",
+      "likes": 33
     },
     {
-      "id": "p_music_news_2841025237",
-      "title": "Концерт Дениса Майданова - Улпресса - все новости Ульяновска",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Улпресса - все новости Ульяновска.",
+      "id": "p_music_news_3152511426",
+      "title": "Группа 1VERSE запускает предрелиз своего первого мини-альбома «Uncharted». - Vietnam.vn",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
       "emoji": "🎵",
-      "sourceName": "Улпресса - все новости Ульяновска",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KTWs1V3doY2ZWdWY3amNBSVNUQWk2Y19ic3hRQmpFV29JbG12eWtzOFdFX29Zbmlja1VmQ0Q1MFNMc3RScHhBVEw0U1d4QjRwXzNFam1lV0JETEpKTlVUd1JtZGs0d3JLakFLUm9Zc2U?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGYyZlIzalI0ODhBQ3hVX2l5NFdQNktHZXRzY0t0MDZVMmRscTh6SWdKT0Nib01JTlJIRDBMLVJRSERoUlpfT2FxWF9KY2JadHFueTloOFBGbEFxWHVDRlBZS21qN2c3b0dycm1xODVBTTZkVnNiZDNQQ21EcUYyZXFIbVdlRDYxMWc?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-23T18:21:49Z",
-      "likes": 70
+      "publishedAt": "2026-11-24T08:47:28Z",
+      "likes": 14
     },
     {
-      "id": "p_music_news_553924533",
-      "title": "Концерт певицы Славы в Китае закончился приездом полиции - Леди Mail",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Леди Mail.",
+      "id": "p_music_news_257967449",
+      "title": "ATREYU записали песню на немецком - castlerock.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: castlerock.ru.",
       "emoji": "🎵",
-      "sourceName": "Леди Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVdQaEtJNEliLWJGOVBhdWpZTFg4QjFQYlV5MXl2MDZIREQ3SWxZTmpwcFh0c09Gblk1dUp3NEw1UDhKU2toTE1kYXRfU21MYVVuZjhhTkRzY2Nhc0lvZjkxRVVPNEFhRE1nMWt5Tm4zblg5V2ZUanZEVE9nQWJXNjJLeHN5OEVpekZwMTVwamltbUpPbjhQQnQzMA?oc=5",
+      "sourceName": "castlerock.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmdxUVdNMkNlQ0lIMzItdmhVb0J2SVZlcEZNU2hoSGtIMk1DZXV1d1JQMmNLemVPZ0hnUG4wSGxVaFRQaEtvVktUNEZxaGxBWVloSTl0ZmZyaWJtMjkzejI4ZTB4bzVveUx0QkY2Qi1adzkzdzFGQzYwWjFPVDZJOUgwdmh4SHZ3WlpxTA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-23T16:02:41Z",
-      "likes": 87
+      "publishedAt": "2026-11-23T20:38:50Z",
+      "likes": 6
     }
   ]
 }

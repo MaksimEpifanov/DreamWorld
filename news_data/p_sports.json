@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_2172360036",
-      "title": "«Айлендерс» — «Торонто»: во сколько начало матча НХЛ - sport-express.net",
+      "id": "p_sports_news_2400304661",
+      "title": "Малкин возобновил тренировки с «Питтсбургом» после травмы - Советский спорт",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Советский спорт.",
+      "emoji": "⚽",
+      "sourceName": "Советский спорт",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN2hmaWJCWmNhWjZWbW1BdkNDeEc1R2RVQkpNdVc5SGdoV25wclpuSC12UDR1R29vNkl6RHVoYUZmM1hSVENEWWd2emxKUjNEdEEwR2k2ZV9nZW9JMGVUV0s0TUJneTNaYnFoZTZFYWhUYWttOWd2ZDh3bnlqNDlsR3AwV1JtVXdpZ2lmczlHdkZ5YVJzMmc?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-24T17:22:00Z",
+      "likes": 82
+    },
+    {
+      "id": "p_sports_news_1453576788",
+      "title": "Нападающий «Тампа-Бэй» выбыл из строя на пять месяцев из-за травмы плеча - Чемпионат",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "emoji": "⚽",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc2ZTcHpyaUhqWkg3ZGF5VW9udWktUk12OXNiZWVkSVB0ZF9tWjl1MkR6X1g5TEZOV0ZlSmtVbDFSc21xVjB4VUlqWWp2Zk9QZUxoaVBBOGg2QnVKWTJOdWtlUEZfNTdoc1VELXNJVm1Tb2Njb3JvcHFjdndQa1N0czhFM0hWcDZWM04tb1dzU0Q2M3Jsbmc0YXVDd2o2Vi0tb1RRcnZ3VERmNW5MNjdoeHhOUjg4Q1JDTTJnRTBJUld5bERTcWc?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-24T16:50:05Z",
+      "likes": 3
+    },
+    {
+      "id": "p_sports_news_1415967207",
+      "title": "Малкин вернулся к тренировкам с «Питтсбургом», Чинахов пропускает занятие - Матч ТВ",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
+      "emoji": "⚽",
+      "sourceName": "Матч ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZkYyUFlra2tWcWdxRG9jdGh5bXV2MlRCUnlKaWRYczFrMnVHbTZTQUVpQnhFMW9DOXJvM0pBM3p5TGRYLUpsUlZqWTFwa3VZLU5tVTJTb1J5TW5qMjRuWlFmNGZ1RjlvZlliaDdaM2FFMEpWMHRSUzFWdmJYZDA1cUFYTDZNY2h2WVVpNDRYUFVCNVFDZ2pkaGNlYkFkNjk2VGRzRkRsY1AtNGFoMGtYSE5BbE9CUlRfMlZwRllR?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-24T16:44:13Z",
+      "likes": 34
+    },
+    {
+      "id": "p_sports_news_2959569297",
+      "title": "Купер о Макдэвиде, Кросби и Маккинноне: «Они знают статистику других хоккеистов, следят за тем, что…",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
       "emoji": "⚽",
       "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN2h1Tk1iTlZkenlwczN1Q1ZmSm81YUp4cDZYazAzbW1GRnk3R1BNcU5ScE84Q2EwZVNJTkhMcWNTSFRvQWpnN2xOblFNYWNaaWxHdmJPbXMwVlkxeE81NU5GN3BTU1JTbGZtVlNLLU9QcE9QdldkZ2ZsQml0R19DOS02b3I1V1hvMU9sZEFxd1o1ejQyMkxKX3VuZU1rYlVFbXlfYWZjdXpJRWEzMFdEZzZaSno0RFBSV3VUXzA1NTZhcUNKTmFjVGJiRmxGdTNVRUhQLXh3?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZk1HSEZ1djd0UWZ2OTk0cjRPb3NLbV9lWkQ1enNGQWRjWWZMVHVwRGxxbFVRV19tSXQ5QnhwVERtSnNmak1tZnpEeGtRTDlMOFpmb01sNE5BbkhnbFBnWkxjMUtSTG5KeVJNdUxiSzAwVzZGR2MzRHE1ZGtyeXNzQW9pVXowcF9FSkJmTUR4OGE4LTNrem5sUDZFMzlKQWJnRkVYUUlWQnB3UEZWM1QyZEI2V3VGcmFYYWRhSXE0TUlIVkpya1V6MVhVSmlTQzVxYzAtc2dlY1Q2SUcwNmNuZjM5UWlhLTRibzFwMjNmVnZZOU43MlJGZFBjSzM?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-23T22:30:00Z",
-      "likes": 72
+      "publishedAt": "2026-11-24T16:38:00Z",
+      "likes": 74
     },
     {
-      "id": "p_sports_news_417038339",
-      "title": "«Монреаль» — «Лос-Анджелес»: во сколько начало матча НХЛ - sport-express.net",
+      "id": "p_sports_news_816220985",
+      "title": "Кросби считает: только Макдэвид способен приблизиться к отметке 200 очков за сезон НХЛ - sport-expr…",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
       "emoji": "⚽",
       "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTVBTaUJuOGpuTThkNXJTNktvektBNWlhQldFUG84M2ZOVVRQSjNFN08wUGhaS1l2ZmZXY2VfSDA3SWJjZ2NsWUpvcHJLMG9jRno3bWZsbmNhXzhWT3l6NWNHdjh3UHUwaGVQTC0zeGRBMkpGYzZ6OXp2cTMzRVh0Rjc0bThJeDk4LUthZTJxUzJqcVBaR0FGRTJRZHVNTkV1WVNwYkx5OE1zRk1raUtKWk1mTWl5RkRJV0Z5c0F6ZURzUXQ0VmozWHBfOS1FdW5sbm9YejRzNUZMeVU?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONGdKQjRJVlNrS2VRUDhacFF2Sm1JcmhoalNob0hfd2RzSzI1Nkl5a0dkaTg1dEZrY1MwQU1LWFp1ME9oZUFlQjNjVExHWi04VllYOVlIRWlFRW05S2RhRGhORnRuSlk3NlRjR0RwbmVlT1EwTE1zYTVYaUVXemhEZXJMd3NGQlA5UnBXOWpQTUZMdlNjZ1VBTTVVQUtnUGFxVFhGMDhnbGNGNHNlN0JHdWllbzVXSWI3bUx0eGhxT1FYZTRGbVk3dGZrelR6anpkZGFwR0lXUHlrVHhpSmhWeVBqcWkxZXRBMXp3SUtUS2F5UVVjaGJ0MUJaYkg1QWtk?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-23T22:00:00Z",
-      "likes": 23
-    },
-    {
-      "id": "p_sports_news_1317298825",
-      "title": "Матч Нью-Джерси - Коламбус 24 ноября 2026 - Рейтинг Букмекеров",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
-      "emoji": "⚽",
-      "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUmFTdDFsSVdxMnZhcFJrYTU2LXhIZDUxYjBKSGNRSm1oOTlLZlJYc2FfdnlOdi02VU93bmZLMTF3X25LQjBXdi1uZE9RQkN1OFpqNFdfQmlDWmJMM21TZ21CakE3Z1M2Z0V1TnZJMTZaVTk1blhpSkt6X2Z1Y1RUNHI3dktKMlA2Rjc5d3F5TDZRN2t2WnRCRURGdXR5dw?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-23T21:59:59Z",
-      "likes": 33
-    },
-    {
-      "id": "p_sports_news_2018184790",
-      "title": "Монсон обвинил Гретцки в лицемерии из-за позиции по российским хоккеистам - Спорт Mail",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Спорт Mail.",
-      "emoji": "⚽",
-      "sourceName": "Спорт Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04TjJzd2I4ZzlNTE9JajF6SVNYdVhFSWk4eDNnQkcya1N3dTJ1VTgxNEFNRXM1NEJxR2V0X3pRd2ZLc3dwb1hZcjBlUlZCYjcybDJPUDQzenZ5VFE1RjllNnlxbHY?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-23T21:28:49Z",
-      "likes": 80
-    },
-    {
-      "id": "p_sports_news_616016245",
-      "title": "НХЛ: расписание матчей сегодня, 24 ноября 2026 года - Allhockey.ru",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Allhockey.ru.",
-      "emoji": "⚽",
-      "sourceName": "Allhockey.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGZiVmpZVHdHQjJNTXNRb2l6UXFpNHplRHE0czVlZEowbnVXYUd1RjNVZWJkeGtFSmNlYmVCVlljdDBySE94MXd2dXgtUEJVYWVWU1FkV1RHVWpqaTFaczAwSjRqdjcxU19PSjNaWGF4TVozNU5YOEpCVXR3OHJIdXBBWi1RUk10QTRaVW5GSGFfUDV3elHSAZQBQVVfeXFMUEkzb2lPSnRjRjFSUlQ5U21DOG8td3RYMVd0TlRtRFlaUWhLb0toTW80NnZ3YmVuWWhKNzFWa1pyUktJU3o5OXVPd3Y0VU1KT3ZwVkY2OVVJdXpKdlZHdXlhWS10S0thVDFPNmJabi1wNEJTTWNyNVFucjdsajExWHAwdHVHSjNIQnJZdUU3UUNCaWlscQ?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-23T21:27:00Z",
-      "likes": 45
+      "publishedAt": "2026-11-24T16:27:01Z",
+      "likes": 41
     }
   ]
 }

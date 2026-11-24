@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_3650617297",
-      "title": "27 ноября в ММОМА открывается масштабная выставка «Искусство жизни» к 150-летию Петра Кончаловского…",
+      "id": "p_art_news_2202850935",
+      "title": "26 ноября в Музее Востока откроется выставка к столетию 1-й экспедиции археологов в Среднюю Азию -…",
       "summary": "Краски, свет, вдохновение и новые работы. Источник: Москвич Mag.",
       "emoji": "🎨",
       "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPem9BbUdQdjhNclFKclB2a1dkbUVVekpEOERIYnYyWk05YUxhUmRWU2FwYl9Ua2tjTDNsWWY2UjRKSUpoREhfbmFYcHR1WTNyeVRnM3N4OTVZZ19qMlJhRXJCR1hacFlPMllTNS1qVHhVb01rWXZjblNIZnBxbTlHalFwcFZ4ZFlTZ1p5eFIxSURFVFVMSm1IUFkzdHJ6SC1GZGt5Vkc4TmVnN0Z4NzNFVlF2N0dudWhOWXlaMUNiTmZWYk1ObnVISHl5RGRRRTA2?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV1VWT1NvRjRsdnRQZmtrbkNnUjQyVmUyWF81S2VCQVh6aEJ3My1kbEREQnJuVDFfWVVrU2FPLUpkdWZqNWVOdXBpRFpSVEJTeDhGT3VTdXRXMmdaWVc3RnlXdkRPbDg3d3V1VmdweUtYN2poV05mMlZCVnhVYk1jMUw3MW5OdUYzc0QxS0pzQUR0QklvVVJtckI0dEtLUGJDeXpRWnhpWkhkdndyaG91SVJFUTlrQXNoUHRjWFZQTkNzajU0OEdTdHA4QkJNc0k?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-23T18:04:01Z",
-      "likes": 37
+      "publishedAt": "2026-11-24T17:50:01Z",
+      "likes": 9
     },
     {
-      "id": "p_art_news_4183199877",
-      "title": "Onemizer открывает свой временный музей в департаменте Сена-и-Марна - Sortir à Paris",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Sortir à Paris.",
+      "id": "p_art_news_3138078696",
+      "title": "Выставка «Пабло Пикассо: игра в графику» - Куда сходить в Москве",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Куда сходить в Москве.",
       "emoji": "🎨",
-      "sourceName": "Sortir à Paris",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNEgybWRwb2U0OVgzYTVSRGx5S0RCXzU4NmJjQjdjeVJSQmdOS2tlT2tObGM1ZGVpOUdnbVF4UGRnTVhKUjU0R2JJM2lUR2EyY3N3UEhtSFhaSTZ2NEhuclphNGNrTWdzTDNWS1RUQWJMQTVXLUc0R2hkX0FlNnZXNFJoOFdRZ09NOF84bGpEZHZ3b1VqLVB3VmM4SHBWWk1sSGVLNlJNRnE0N2FvaWtGLW1ZVkt6ZVNSeUdBdGF6c0JCc2wxSTBKd3gzZDNUVUxER1Zjc29WbjVvRWVhRVlvbWhqWnA0MFNPaUV2Snd3S1owWTl6dTloMw?oc=5",
+      "sourceName": "Куда сходить в Москве",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oa1dkMWxNOTRhdlpWb0pBRi1fbDlOWFFpaU9HMEdiWmctTXFNeHBKMXhXLVRBbzEzR3puN2luTzVlcVd2T3R5WmlpeWRDUzNQYURIYTBTdE9rNmgxai1HNkhxTmhCVVJYLWNVNmpaMkdhYURZ?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-23T17:30:39Z",
-      "likes": 49
+      "publishedAt": "2026-11-24T16:49:02Z",
+      "likes": 21
     },
     {
-      "id": "p_art_news_1394035351",
-      "title": "Выставка «Кавказ как теменос: пространство и время» открылась в Ставрополе - prospect.com.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "id": "p_art_news_659867422",
+      "title": "Нонконформизм и искусство жизни: чем заняться с 24 по 30 ноября - The Symbol",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Symbol.",
       "emoji": "🎨",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDM2ejVGTlNzMkpSd0FKeE5CM0NnMFRpMUgwSXdkcHRKRzRRMDlHQnlLQzNwMUxxcHI4SURZUXdJbXIxVjNIblFHcjZUWHQ1bTk4dmFRSk9sTFpheFoxelZVV2dpS2w4TjVQbTRZbmk1R1RxMUxYOGhtVHg3ZklLWFhUZldSSHFvZ1JXMmpqQ3lfY0Z3Q1dLVjVyRjFFalNfN180VXdZSGFqQTdzUEhUMlJPVQ?oc=5",
+      "sourceName": "The Symbol",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmt2RmxOYmtLMGZlc3lOZ21xWGtRc3Iyb0RtU0dpQUhDbE8zWW1RajNSeE9YbXJlcS1iR2I5WTZEbUNyblhNbU1BcC1oZXNwXzdlZ1dPdzBOMm4zY3ZPc01peXA0QVhCeUNoX21RXy01NWJ4SFptTFBmaG13MDd0aDNOUGNkdWtoRm1oSVg1dmlIOEI3NUh5a0xPVjR5RzNLdnE4Mg?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-23T17:01:02Z",
-      "likes": 25
+      "publishedAt": "2026-11-24T16:00:00Z",
+      "likes": 13
     },
     {
-      "id": "p_art_news_3822551956",
-      "title": "Ван Гог — инфлюенсер: выставка об исследовании наследия художника в Château d'Auvers-sur-Oise - Sor…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Sortir à Paris.",
+      "id": "p_art_news_3760085516",
+      "title": "В музее Калмыкии пройдет выставка работ Олега Цаганова - Степные вести",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Степные вести.",
       "emoji": "🎨",
-      "sourceName": "Sortir à Paris",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZ3JHOFM4OE5zdXJ4WHdYWWVwT184UG8wTVplNG9QN09keU0tWGhERG9heXVEQkU5akdhbDdwdEIxZUI2X3ZfdHR1QTN1a2tNYWw2LW1adHlUTlBVU2xYajRXalMtSS1CRW9HcXg0SzFZMWp1aU1SQy1GQzNiQkozcU95cTZvQkVVV3pfbER4SkV4NlV3MGdsZFV3QXZjUWZSVXZ4Yk9rZWx3ODd1QVRyeUVPYmhHWnRlUWdyQ21ISnFfbzBjaDQtTHBhYUZxdFkzYkxhMVpmWG9zcThDd1B0NUI3X2JVcDFwMXJRSmxmaWNPaFdYYWc?oc=5",
+      "sourceName": "Степные вести",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE83NS1MSDEycjhjbVplWUJtVG02a3ZlYlNpaDNvX0tTMlZRandlU21zcmRQandJSXpaa0w4Y25OZW1yTU5OM2c4?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-23T16:58:48Z",
-      "likes": 81
+      "publishedAt": "2026-11-24T15:52:51Z",
+      "likes": 42
     },
     {
-      "id": "p_art_news_71797126",
-      "title": "В археологическом музее Новомосковска открылась выставка творческих работ Марины Кондрашовой - НОВО…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: НОВОМОСКОВСКАЯ ПРАВДА.",
+      "id": "p_art_news_356472959",
+      "title": "Картины Кандинского в музеях России: где увидеть в 2026–2027 годах - RUSSPASS Журнал",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: RUSSPASS Журнал.",
       "emoji": "🎨",
-      "sourceName": "НОВОМОСКОВСКАЯ ПРАВДА",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IajZEc09EMUpya2plNk9fOTc4WmxKMGw3Yk1MTGdOMmkzN25hSXR4WkdEYmc3bV9xaGhBVkV3Nkk1T1FiZGpFdHppZw?oc=5",
+      "sourceName": "RUSSPASS Журнал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaENQeFl1aXZiV2JIeGN3OFZENk9PcUdqQXc4OE1yZEVGVGw1VDVUSVppZkFyMUFQQlZHUW1kdzFpc0NDSS1WcF96T3M1TVVYVWp6MXFKLTRwOEt6Y3lZR0hRZng1bHVscmR4Z3pOMG40eEllc3dNRzF6UVh1OG9UWVFoUWdWdmc?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-23T14:03:44Z",
-      "likes": 55
+      "publishedAt": "2026-11-24T15:07:24Z",
+      "likes": 40
     }
   ]
 }

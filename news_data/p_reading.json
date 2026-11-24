@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_3329047636",
-      "title": "Нью-Йоркская библиотека назвала лучшие книги 2026 года: в список вошли более 250 произведений - For…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ForumDaily New York.",
+      "id": "p_reading_news_1049621957",
+      "title": "Объявлен шорт-лист первой в истории Детской Букеровской премии: какие книги вошли в список финалист…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Mixnews.",
       "emoji": "📖",
-      "sourceName": "ForumDaily New York",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUtod1EtdXdEM2xjOUhOa2Z2ZmVFWEx5VUhIX2JRS0JMWWhtQXJvLXdtdG9PUTVCTjV0aTJxVkZLUWI5M3BJbWFQR2Z2TFl0QzRPTTRLU1dkNUxPeGFtclQ5X2pDOU02NktOZmtsWU1oRkFwcWlpVnNJcDc0YTlMYUFYYWV2VElxeExr?oc=5",
+      "sourceName": "Mixnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3ltMUw5UWtBV1JYdmpwQ2FieUVFM2M4WHhSdXc4dkxHdDRCZ0kxQUV4b3otcHRSOUtPNTBPTE5McmJVRmRHS1lHVmc3T1NLRkFhUHc3aHY4YzRTTWR6MHlSVGo5bU53bi15SWVQcWRPU1dlek14SEw3Y09PQ1Y5LU02NUZzNHc0NExuZ1JfU2JWa3FDdHZrazBabjZhMHJrMW1ZLWNwbWQxQVV2OFRPRkNmYXZucnByT2owNG9RTjhRaUg0QklESi1Gdw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T16:33:00Z",
+      "publishedAt": "2026-11-24T17:44:18Z",
+      "likes": 65
+    },
+    {
+      "id": "p_reading_news_2371392485",
+      "title": "«Как будто сериал посмотрела»: собрали книги писателей Башкирии, которые заставят вас рыдать и ужас…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ufa1.ru.",
+      "emoji": "📖",
+      "sourceName": "ufa1.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnaUwxMm9zTUJPUFktZzEyRXNZMkxVYjNCVXRETFNUUGxpQzNMSC02b1UwQkF1bFFiSUNaaFFiU3VDYUZyXzk3MUpvZDJ5ZUxCQlVNSHpFbmhlYUY4Qnc?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T15:30:00Z",
+      "likes": 39
+    },
+    {
+      "id": "p_reading_news_4005617953",
+      "title": "Сборник стихов старооскольской поэтессы появился в библиотеках округа - Fonar.tv",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Fonar.tv.",
+      "emoji": "📖",
+      "sourceName": "Fonar.tv",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEdBSTF5WFhtaVpXaGRCMjJGWWppUDNUMmdJSE5oeXd3TkNiSVRRSGlNXzYxbXhzb19GOEJIZ1B0b1pPWlFSZkpSRm5rV2pJZ0J1ZEY0eENTR2hQZ0pCNVV5REpwUHNmMEhCNEhjNnlWZ09yWHVpSzNnMHk2WUwxbExHOXVabnVVS1VLMTdpLV9Ia2ZRSlppVTFCVml1dWNOMWdVeGRn?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T15:05:37Z",
       "likes": 22
     },
     {
-      "id": "p_reading_news_3184997491",
-      "title": "Интерактивная презентация книги возвращает читателей к концерту «Родина в моем сердце». - Vietnam.vn",
+      "id": "p_reading_news_2456412706",
+      "title": "На Невском проспекте представили новые издания романов Юрия Слепухина - Всеволожские вести",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Всеволожские вести.",
+      "emoji": "📖",
+      "sourceName": "Всеволожские вести",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY01BMlBtY2F5WnpqdUN3d0R2WGxXeThRZXB4UzVMcWZKOXo5ZDBrWU16OVZJRHFTbnRTWEF5QVBzVDZ5WDhhVXBLb2hCWUl2dGJVaTdydWtXOVlhZ3lhR09TbFdZc1gxTDZMaHlBV0IwY1pVVEVIOHRnSmFvc0loYW5HMnBMLUpiRllUc3NsSk5odktWd21pRndXVUlxRE1HUTF5VTV2Y0M?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T14:32:01Z",
+      "likes": 9
+    },
+    {
+      "id": "p_reading_news_1710171747",
+      "title": "Влияние метаданных на выбор книг читателями. - Vietnam.vn",
       "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
       "emoji": "📖",
       "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONlpYcWZBaTZNSXU0b2JZT1hHRE1jcmFILXEzdHZES0lkWWdvN1BmSTJ3MlotWGxqLVg5eXBRSU9HYTFSR3hnajl5MldES3QtYXZsYXpzX3B4R1JYZ1RIVk9WblFTdG1NUUVSWC1QWVRldW9Oc3FaVEd1azdGeHJDM2F5SXBYc0xRZ2hMeUIzTUc4dlBTQ25RZF9oeTg2dEk?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTFhUb3MyQVkyZlQxX2k1NzA4YlVfOXZ2T0J1SUtRcVdzUVdmcDg1TUE5bHVrcTRSRGFFMnpyMDNaWEdYZ2U3STAxdHU4WjR1WURwMmpRSkNJWDU0VEdmWTFSaUt4cWU0ck1LcDBEa2hfd2pvT3J0ampmQUpHYjJvQlJFbS0yYnhC?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T15:33:47Z",
-      "likes": 41
-    },
-    {
-      "id": "p_reading_news_1339978547",
-      "title": "В рамках проекта «Читающая нация» открыт раздел электронных книг - GOV.KZ",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: GOV.KZ.",
-      "emoji": "📖",
-      "sourceName": "GOV.KZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIcnRGcXVrOU5ybERNQ1ZuVDV0VHVlYVFfVGg0TzBlUUhRRll6elc0c1lHOWRZRkV3THlodlFFcEcwVUFXNi1PU1ZCajcyZTlHZkM2a1pfWmUxVW44cDVRUFpQd1lqYjZXSHNHZzBFOUw4TEFUMHFxTlU0OXhqWGM?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-23T14:54:14Z",
-      "likes": 70
-    },
-    {
-      "id": "p_reading_news_1881284529",
-      "title": "Читатели могут заказать интерактивную книгу с иллюстрациями «Родина в моем сердце» через кошелек Mo…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekZRLXB0MXZGOFROakNaNGxBeW5VMzNwTXktMHJiLTAweE5MdHpJNllyWjRSSVFRNVI1Yzl2VHdvaE1aVzI3NTRuVy1xZEF5WEZvSjRpd0c0OVJET25ZSjBtcm5PbFlXVVBpeklJdTNSVTQ0NEp6VTZCeVFLVVhMZnNzclc0d0ZMOUxMbFN2Qi1zd0EzVmlBU0NBTFdkTEgtZWphQnRjVQ?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-23T14:28:57Z",
-      "likes": 32
-    },
-    {
-      "id": "p_reading_news_2592484632",
-      "title": "«Родина в моем сердце» — уникальная интерактивная книга с произведениями искусства. - Vietnam.vn",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWd3TUw0OG5rNlJjenNDYnlHZXpWU1F4TFlJd0ZKZXNqeFpuWXVkdDRMRDBfOUVqVzlWLWZtMHcxTENRZ0JfcjJjNW1GeDNHX2xnV2g4NWxtVURtbGRjX1hYWjFrWDlYaFFON3NZcndWMVNnN0JNZUU5cC1BUVlETlQ0MU53WFZvY0E?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-23T13:47:50Z",
-      "likes": 64
+      "publishedAt": "2026-11-24T13:40:22Z",
+      "likes": 15
     }
   ]
 }

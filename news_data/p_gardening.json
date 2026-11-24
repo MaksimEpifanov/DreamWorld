@@ -1,63 +1,63 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gardening_news_1697109838",
-      "title": "«Герман» больше не сажаю: выбираю новый сорт – и урожай сладких зеленцов гребу до самой осени - Гор…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Городовой.",
+      "id": "p_gardening_news_3910249371",
+      "title": "«Посев» семян доверия в чистом огороде Тхань Тана. - Vietnam.vn",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Vietnam.vn.",
       "emoji": "🌱",
-      "sourceName": "Городовой",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWjFvSkRBNVlEcFJQdHpMcWRtYXM5X29CNi1ZT0lJc1BfZHZKT0x2UjdZVnBvMVlicGpqQjYtQzVMS3U1S0l0MzRNQ2pQeUR1Z1BvQUZObGc5QW5SSU02ZHBoR1NCVmhMei1PUm1Qa1lZSUZhSFlVNm5rTTBPTEsxTXh4d0lDazhXbzdzV0RySnl2TkJnMjRPRGlkcl9PR1FPVDQ1Nl9ONXo4NWVJZThob3ROTGI3RzMtZVZibmkwOXctSjY0Zy1WVUxPbXhtV3l4Umkwc0lTYTlZZFliR3FWdTZkSkF1TU0?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BcjlWZjctRGdYZkFlTG05UDI1YklnWklNanpxYWdhVHZ4VmVqTFMwdVJiSFVOTGFaY1JxWjhmX2xCZ1czYTVuZ3VHZExiaGd2TEx2WFVXWG9lSVJMR2c4ekQxV09uM3k5Ui1GeDcyM2x5TFdFU1VQZQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T21:12:00Z",
-      "likes": 84
+      "publishedAt": "2026-11-24T13:40:19Z",
+      "likes": 46
     },
     {
-      "id": "p_gardening_news_3749608182",
-      "title": "В «Аптекарском огороде» созревает урожай дикого банана - МосИнформ",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: МосИнформ.",
+      "id": "p_gardening_news_2814815148",
+      "title": "«Бычье сердце» и «Де Барао» больше не фаворе: на сезон-2027 покупаю другой сорт — грядки превращают…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Usolie.Info.",
       "emoji": "🌱",
-      "sourceName": "МосИнформ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc203WlB3NFQtNWZMbE1veDlsZ1JTanZmUkdHVHp6TEpIOTY4Qk9YcUtSY2NqaGN0ODhtWGhUZGZVRzc3ZGN1aG1ERld0dUZKeDNxZXdVSzEycXZRVnBvbjRiSHlCSVozR3FfdGdQZUhrV3R2SzZHS1NaWmhaYkNUam5zNEFlekYzdk5nd0R2NU9MeG9Da244?oc=5",
+      "sourceName": "Usolie.Info",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyRHpsLWFrTzZCQUtzRVhwNDJZLWxrS2lRcUtEVHlMZndUZU9NaGJQTlpoTTlub0hVa1hESGVESVJrdG9KY3c?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T18:56:04Z",
-      "likes": 34
+      "publishedAt": "2026-11-24T10:14:36Z",
+      "likes": 12
     },
     {
-      "id": "p_gardening_news_2053560453",
-      "title": "Помидоры по 1,5 кг: семена этого томата скупают уже сейчас — плодоносит до октября - Городовой",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Городовой.",
+      "id": "p_gardening_news_3484006801",
+      "title": "Какие экзотические культуры скоро станут обычными на белорусских огородах? - Smartpress.by",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Smartpress.by.",
       "emoji": "🌱",
-      "sourceName": "Городовой",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQjUteFRlQkRHa0wwM1pWYklyQzVTRl8tZ1p6aW9aeWNsY1dVM2FIcjFsRk1WVHpYSXpKdXVtOGpuVjlTRUNPa3JKdnpjeHlURlRKZEJiX0ZxR1BCMV9FX2l1WnVPYy0taUZBLV9iVVczX0dSUVlBTlo4cXpFU0NpeGZEc1E2aGhVT1VwY1lzSGZrdFQ4Zi1iLVdOdG1sU0ZlQlZTVFNOTWNFRU1NWTg3d19FOGxrTzZzOGY0Mkh6UWZmNExNQWI1Y2QxbE1WMmtSbWc?oc=5",
+      "sourceName": "Smartpress.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONkowaG1fSlJKSlYtcEJNdF9EMnRodmlCY0lJZ2N5N1FfMUZXVkpPN2Rib0J1OUljamFXcGY4X25IQV9Nbi1tTUJXNWJZUHhvSkNaU0s0aWxsM2RPeEJfLTBNbnRhbU9RaEFldmNZS3BKX3hLSzdlWlowdllJRVNOMWM1NW1aT0NkdmhpTnJqbmVKYmM2THM0XzV0RjlZejdST2hiWkJuZ2t4ZWQydGtHNlRGQ1lrYld1TldELXBOZDYtSzRVS0pTWmFZUm5ZZlpEeGpMQi1R?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T16:17:00Z",
-      "likes": 67
+      "publishedAt": "2026-11-24T03:00:00Z",
+      "likes": 10
     },
     {
-      "id": "p_gardening_news_1151215134",
-      "title": "\"Герман\" пролетает: 10 лет сажаем один сорт огурцов - урожай в любую погоду, на любой почве - Chita…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: ChitaMedia.",
+      "id": "p_gardening_news_3500906913",
+      "title": "Смородина растёт кистями, словно чёрный жемчуг: не сорт, а ягодная сокровищница – крупная, сладкая,…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Vluki.ru.",
       "emoji": "🌱",
-      "sourceName": "ChitaMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAydUlwS0VfandhU05yeHhFbGR2ZVJXYURQZXdpaHNvT2VrV21ScnR3WEhfTFlSRDV1dEtraEJyMy00ZUVLdm81RldjOA?oc=5",
+      "sourceName": "Vluki.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9NLWx0LXNSX2ItcENvbmR4V1ZwTU1oeWtVaW9Hc2FTbFlnR2otQThMOGdvd2RNTUE0QW5DaF9OX01pdw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T13:24:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-24T02:27:27Z",
+      "likes": 60
     },
     {
-      "id": "p_gardening_news_1815789044",
-      "title": "Мини-огород на подоконнике: что нужно знать, если хотите получить хороший урожай - Новости Беларуси…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Новости Беларуси | БелТА.",
+      "id": "p_gardening_news_3220413029",
+      "title": "Как превратить тяжелую глинистую землю в рыхлую и плодородную почву: проверенный способ - Главред",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
       "emoji": "🌱",
-      "sourceName": "Новости Беларуси | БелТА",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVlJLMHUyUnlsNHBqcDcxTkR5XzRzS2xWLWJudkY4YVE0MkZkMkttZDBMNlk0VWZqd01wb3V2c3FpdUJqTlFuU21yLUZBUEFodXNUc2kxbm0yNVFQMzZmc0ZVcC1qd2RRN0ZwemsxSXhVbGhJQ1BYakVFc3pUQlpfRzAyQUR6dw?oc=5",
+      "sourceName": "Главред",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcXZUZFdhMkhPWVFSLUxZV0p1cmV1aHh6SU5ZQ1pTck5MeXZWT2JlZi1udFp5RnpQQXdzaVM4YlljOHA1ei0wUUY0WDljRzdJNGVya0FnRUlFNTlMTU5tOUpsTVJ2TmZoM2lnREZQQ04yMXJSSHRLUEFMTUZycWR6b1lsbFFCMTdIWEFKX2ppdkVHb2xzdExKcDBhQUozYXE3cjNlX0s1Y3I3blN1RmRrZWl3WmFRdEQ0VUhBWFU2NjA5MjcyRnRtM2cwNEpOczMtaGhjenV30gHbAUFVX3lxTE9DaXFybHNfOUxfUy1aQkl1NWZ6a2NiMnJHdFBvOV9PTnNsTnE3OTJBNm5fRVl2eGstNjBjSkVLdDBRQXVHc19ZWkpianEtUjJodTJWdnVIR2FVZ1dBTWNzNWE3WnJlQmUwMURVWVFLN1BUSTYtbVhOa2w2cjItTWg5NEtTWkFGcXgyQWxNVjlFcVUtOXRkdm16VDZjUWRMR24xMUJ0YU91RGV0N2JfQWJ1SDFIRzRvOTJJWVdKUUJ3dWk4TDd4RjdrMUUwYUZpaGhQSHlMZUJQdXRZRQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T12:13:15Z",
-      "likes": 16
+      "publishedAt": "2026-11-24T01:09:00Z",
+      "likes": 55
     }
   ]
 }

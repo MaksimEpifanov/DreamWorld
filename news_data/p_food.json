@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_890500116",
-      "title": "13 часов на кухне, потом — в такси до двух ночи. Как иркутянка стала лучшим шефом Сибири - ircity.ru",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ircity.ru.",
+      "id": "p_food_news_786390072",
+      "title": "10 онлайн курсов повара для начинающих и профи с получением диплома - Sostav.ru",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Sostav.ru.",
       "emoji": "🍜",
-      "sourceName": "ircity.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHaUJ4MlROMkJaa2FxWV9MUGxUN19sYlRza3RsRU5nT3pKLUg5ZTZDODlvdWxqTm85YkRrRVNnU0RNWkx6LXVVZXRLbVgyUVJaeWdmamFiT2FwX3E5OWN1WA?oc=5",
+      "sourceName": "Sostav.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90eUVTaEZMTGlZN0lTTGhTQ1dnM2Q2ZEx3VFB1Ul9KWVVQNWJTVk1rWm5UY2NWZUNDbkpSN3dmUFQtcUFwZUdDVkI0YWphX08wLTln?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-23T23:00:00Z",
-      "likes": 18
+      "publishedAt": "2026-11-24T15:48:15Z",
+      "likes": 86
     },
     {
-      "id": "p_food_news_96466068",
-      "title": "В Перми выбрали победителя гастрономического проекта «Народный шеф» - The World Inform",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: The World Inform.",
+      "id": "p_food_news_1069195125",
+      "title": "Как украинская интеллигенция праздновала Рождество 100 лет назад: забытые традиции и блюда, которые…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: ТСН.",
       "emoji": "🍜",
-      "sourceName": "The World Inform",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLS1YdS1jTmZMNW1nZkNQaG1Rc0JaQkV5N0xXMDVBZVpxb3pEanZkcU9namFWb3hkQlFoaHJSVkJsSWVsY3dhRzhOMnZiUWFkTHdDU05nVXJ1aXgxOTJVLUlsMFJBZXktUVdCNWRNd1c5U2p4VkxoWEY3cmxVVDdkUnVCNXNaX1RxclhBeFlQTTE5UDI0NXMzSlZ6WVEzV25IM1ZLZ3d1N1ZiUjEz?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORHFJd0tnYnFPVC1fNE9xZUF1TmxtdUgyNmZYUUUwSnZNZURzLTNLLUl6dFMyMGJlUEZBRXh1OHhJM1ZmR2NGVXZmMXkxbGxTT084bFlKaVdwZTZTamZuNl9XSmJHZGdXVEJiWjhBcHZQVzhEZEJpQmNnRXRvTTRZXy1lRDdNOEw4eFZjMUxHeDBGTmplRnVQd2dydkthc1pPMmxia3Vmcld2RHpOdGV2MFRLRlMtLUVfWFhRSDV3NjlpVlZlbjBKNUNEZldNRmFnZVltTktSa3VIWnFKRW00NUI1NEQwZE3SAewBQVVfeXFMTl80c3BDZXNCZmpPZlpnSGlVck9wUE5zT0ljOGF2MWpyRFJyQldkMm9Ta3lLV2U2NUxOTk1tVi1TalNjYmRkOE9Eb2pXNkJwZHNrSGpWb1o2bVJ6bnZXR2hGa1BSLTVWTnZvS3NIT0ZnZ1gyTmFqeU5lNUxyYlE5S3laSWJ0LUdVS3JkaUdwZjU2YV8tUERQYWt5QWk3bU5DUDQxSDFrQnVzRHBSdGtVdkFERG5rUjdMd3hWMHJnSUxxc2djMUpvdlU0OU5aVHIwekp4MzJpS3RKeXFKMzFRaFpFZkl5Z25iNTVrX3c?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-23T20:05:45Z",
-      "likes": 42
+      "publishedAt": "2026-11-24T12:41:53Z",
+      "likes": 15
     },
     {
-      "id": "p_food_news_1108323014",
-      "title": "В Минске открылось необычное кафе беларусской кухни / Мой BY - Moyby.Com",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Moyby.Com.",
+      "id": "p_food_news_1041449925",
+      "title": "Ко Дню матери «ВкусВилл» повторил завтраки из детства - Лайфхакер",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Лайфхакер.",
       "emoji": "🍜",
-      "sourceName": "Moyby.Com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAzalFVZlJwYnpVZ0llUkF4c1R0TGoxMHZmYktpNGJWejltNENMdE5nNGJZTEtuS1FZaEFwTzZBVV85MTdV?oc=5",
+      "sourceName": "Лайфхакер",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1leUdJYWlWX1MxaklFN1BoWFozX1JKd1ZmWVFhQi1MS0c5djJrX05qT0NkeFNPY2s5Wks0dkphSFlXdmc1UWMyQWtWMnFtOVRFc0s1M3pxTEVTYmxlWXA2WtIBZkFVX3lxTE1SZTZ3ZlROTlVnbWFoSHh2QzU2Ujl3SmptNURyTkJyWk9mWkJpUklFcDdJNGxOMlFMTmZSVlJ5NE4yc21uTHFxdlh2Q2Rjbm5GYno0d012YjVPbmN3Z1VYSmJ4RmNNdw?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-23T15:37:06Z",
-      "likes": 36
+      "publishedAt": "2026-11-24T11:30:00Z",
+      "likes": 90
     },
     {
-      "id": "p_food_news_95964041",
-      "title": "Гастрономическая история Киева и детектив с вином. 12 гастрономических книг 2026 года, которые стои…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: NV.",
+      "id": "p_food_news_1575106649",
+      "title": "В России утвердили ГОСТ на исторический рецепт оливье с рябчиками - Твой Иркутск",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Твой Иркутск.",
       "emoji": "🍜",
-      "sourceName": "NV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMmg0QmtpQmpGQWFEMjBISHYxc0V1eXczVHJQWjJXYl9VZjMxcEtRT2EyQzU1eVRNV1lLaDVldFhCMjM1b0Z1dzA4ZjZWTy16Y3JsWGI5SVlTa1k4VmNyamlCXzQ2Ulc1dDZRT015TVR0QWh0Ykk3aDNfcU52emFPZXpZRFRDYWZhNWZ0eG5WZWtHWUVMWFlvMEhPakFfdDJ1WHZOTEJ6YXp3SUpfcko4Q2JWY9IBogFBVV95cUxPVkYwV0k2bDAyY2V0dlhpTDJCYjhZM2hiUHlycnVBckxDbEtadGpTeElpZG82QmJXNFBjMHJBSkdsTnpPdGpkNU5EcWhfeG43bE5abzhrbjI4TTFtd3hqSm0tN1dsRzlRM1pVNHlNSHQwbTgwcVpaR2FkQ3J5ZjBHVXVkQkFEM3BYRFJNck9CNUdxSjZHLVNXRENUVHBzUUxna0E?oc=5",
+      "sourceName": "Твой Иркутск",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tcGJPT2QtU1dMdEhZRGpqUWhab3JoV2VUbDZ4SDI0U1dQamZ2V2JPdno0Z2RCMlJYbG9NYmc2S2VybzJuRjEzMU14Qk9neDdE?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-23T15:14:29Z",
-      "likes": 22
+      "publishedAt": "2026-11-24T11:27:00Z",
+      "likes": 58
     },
     {
-      "id": "p_food_news_4259071951",
-      "title": "«Хочу всё сразу!»: где в Екатеринбурге попробовать классику грузинской кухни в новой интерпретации…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Е1.ру.",
+      "id": "p_food_news_279855537",
+      "title": "Что приготовить на Новый год 2027, чтобы привлечь счастье и удачу - МегаТюмень",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: МегаТюмень.",
       "emoji": "🍜",
-      "sourceName": "Е1.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ReFZlY0VSRllNZHZlazFOVm5vc3JPQUtJNmtWT0U1emJQSUo5T2pOOE5DalVZNXFUU2tXek9ScHE4WEN4S1FiMTZheEM4aTFRbmJzZ3dQUi0tS05X?oc=5",
+      "sourceName": "МегаТюмень",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXVyaWoyVlpCRmhBSFJqNHVUM1hteEpnbkZNZ3llR3JSRTE1MFdxNVQ5d1FHR2QxUzRYSl94OGVnVW55a0t0SDRzTmszeVF0dmJ3SWo0dE0tN2NCNnUxU3N1Wm5PT3RWbE01TlMxanIwRTdaT1ZZLWsxRGVMVjFqWVRTby0taEhmSTdCVmlHU2NJbjlINXZaQjdaWjZzZ3hXcFVRelNVS3BUclBWcTJyTUphS0d3dmw5S0lB?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-23T13:00:36Z",
-      "likes": 50
+      "publishedAt": "2026-11-24T10:08:00Z",
+      "likes": 5
     }
   ]
 }

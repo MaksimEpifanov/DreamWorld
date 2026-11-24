@@ -1,63 +1,63 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_1482523894",
-      "title": "Психолог раскрыла причины тревоги из-за успехов других людей в соцсетях - Здоровье Mail",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
+      "id": "p_psychology_news_3174135315",
+      "title": "Жених расплакался, увидев мать на свадьбе - почему его эмоции вызвали споры в Казнете - TengriNews",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: TengriNews.",
       "emoji": "🧠",
-      "sourceName": "Здоровье Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVA2b3p5LXVnVDhzOWtCZmJWTW90VVVBdzN5allKcEw3cDl3TU9GMUd0d1ZmTV9TeW8xdFFzY2Fha2VLc2NfeVlJTWJRSjRxblRCeHpxQVZDdWptNGxXSW5ibGhtQjBKZGxGTGd3ZnhkR3hZYWJldWQ1QVZLU3BPZ19zSDE5Nmp2T21KNGhPMGJNV1A0dmlBMVE3VDQwWXRRRjhiWEdtRTRJN0MzeTYtcQ?oc=5",
+      "sourceName": "TengriNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmtlcDhkaDJKYTIyZ0JjTGh2Zkx2azk2Uy1WNENQOWhXQ3hvSHpqUVdjSjl0WXdWWG5RZFVpeUpIR3NDdDRJMGRqY3VIMGZIZHRzNTJPei1FZC0ydkVqRzV0UnlBQzN0RmtFTjJnWHI3LXlXd0twclIycDN5VDlnUDZaYm9WNWdSemptcldDRUd5UGNO?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T20:53:14Z",
-      "likes": 5
+      "publishedAt": "2026-11-24T15:25:25Z",
+      "likes": 39
     },
     {
-      "id": "p_psychology_news_3936942589",
-      "title": "Какие фразы выдают человека, скрывающего свои эмоции - новости Израиля и мира - Cursorinfo",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Cursorinfo.",
+      "id": "p_psychology_news_2691562506",
+      "title": "32 года разницы в возрасте, 11 лет вместе и жизнь порознь: Сара Полсон рассказала о секрете отношен…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ТСН.",
       "emoji": "🧠",
-      "sourceName": "Cursorinfo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcmJNUUEtdkF2Q2VEeHIwcUprVkZpazd0bldodld2TWhLbnJXZGVGUFVTY0tLcGhfNGFuSjJjVllEbEtRUVNwNXduenNseHFhS19KSTlTZGlUcnZFaE5pVkx5ODNhN3lubDdQWlJrTjA3aFF1Mi0tODBpVTV4MHhmTHZhR2Z1X3FzUFZCSlJDOHg4b0NaZ21v0gGcAUFVX3lxTFBYV1dwemVoLVEyTlB5djFtX3NZYkFMTk5vdGdBeEFZSEdxT1JqdUsyWC13R1YxZTFDRGJIRFdvMEF2b3lrN0ZYSlRDUFJxaXNzYmVTdUVSS2RJRmcyWEhBd0dsOXRvSUo4WEtYXzFrcW1jS1RmYXFVWElCZ2dHUUhQVXR4UkVxOXVlMTBEZ01mY3VqSHhTTmMtUXJNUw?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWjI4b2lSaFBrSGJ0cEVnVHJOWUpFUnR0ZE9Mek02RXRrMkdBRWloY3Atc093bHozdWxiSmx0cWZrRFpKTU9oOEdwQ3RUSm9NRHhVT3ZCNVhSSjYwZkZybmNFRFNla2cxYlVaSWV6Y0IzMVVFaVFLaHJrRTVRdmF2M25NcUNsM1p5QS1VMlBxcFlhVmhya3dtTUZWSXVsdklfTmh6YTRFdkQ2SmVjOUdrUDlYVEh6dDZza2ZXbmlaUUFuWVdLM1UyUy13Rnp3TWJMUUxDMDR2a2F6dDNRWGl5ODZkWW1ZNkthNnBoVFZnYTJaV2hKN25ER1RJRdIBgAJBVV95cUxOcHJIWnZDeGp4Wi1kYTlBNXYxeDM0T2ZFYThpWXN4djVjRUVSV3BaeWJRNHEtTnRwQ1BEdFMtdWtSVlJsWjhkLS16M0FmTmhyZzdSSkI1cjZ5NXFlbjNSOE13NHVtOWlYZlFKQS1JVTBzdVQ0OFRFOHNCeEZoVGg3WnpsblE2amNkU3NSZ295cWx0UjBVWm9HNkd3eUdKSVhMTnotZjlRMU5tNWRyMWFKSTVQNTlnT2d4akxaS2E0Z2VINXhNQlNiYl9sWGYzOW8zRUN4OW1NdTVJRUVXUDdPUHJDc0hoMVNaSHFuMzJiMFFpSFJYZnJ5enU0bkRQd0N1?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T10:51:42Z",
-      "likes": 4
+      "publishedAt": "2026-11-24T13:57:33Z",
+      "likes": 63
     },
     {
-      "id": "p_psychology_news_2348188772",
-      "title": "Психологи выяснили, что мешает интимной жизни после 70 лет - Naked Science",
+      "id": "p_psychology_news_2342095349",
+      "title": "Психологи проверили, что важнее для любви — реальное сходство партнеров или вера в него - Naked Sci…",
       "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Naked Science.",
       "emoji": "🧠",
       "sourceName": "Naked Science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hbnE1MXM3aXhIWWlULWlmUVBqaG9WclM1bnEwcFFpSXFWR0M0R1B3OTQ3V1NCdXIxS1FzSVRHcmZYQTZqazhPZk5JY1NHYmp4U2ZhS05JdXp1aWs4Z3NUaUpqTWJRd3d2TGpocUxqUjJNbzg?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uekx0OVg2RGV1RHRtY3dWM1ZEWTg5eDhBVmlXdlZWR0xNQWNYRGdrOGR2UXBtQWlINFhnc3hUdUlSYU5aVWpBcGg1elVrMzJqNnNrNjd1dXo4cEFvYmZ0clZ5NVAwT2pxcGUwYlJ3?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T09:47:04Z",
-      "likes": 74
+      "publishedAt": "2026-11-24T12:14:04Z",
+      "likes": 91
     },
     {
-      "id": "p_psychology_news_2975393428",
-      "title": "Анастасия Лебеденко рассказывает, почему тревога о деньгах не про цифры - Журнал PERSONO",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Журнал PERSONO.",
+      "id": "p_psychology_news_2642479891",
+      "title": "Мама-подружка, или Что такое отношения по вертикали - Островецкая правда",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Островецкая правда.",
       "emoji": "🧠",
-      "sourceName": "Журнал PERSONO",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OMHdjOTBmRUtWb2FNZDVDNDVjMVpqNnZpRG9lc1J6OXROV004aDY0OWFneklTWEZCR1BmNXZ4VndpZ25TV2lNOU9FLUp1aDc1LVhvdXFDMWVEZkpRYS1WU0JhTjNiTi1k?oc=5",
+      "sourceName": "Островецкая правда",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeU5mZ2FFU2VGUDdRdC1nenRZUVhYanBCbE81MDA2UlpnNXJaZ2c4eTB6R1RSR19LeGVFZktoakM3RUJBekdvZlEzcVhsNnVmY0IwMkFYVG1HWnBydF9sOE9qREZKYWt1MzFoS0l0TXVRMlUwcDJ5Yy1NTGFIT1JBRGMwYV9yVkVQWGRwck83WU5RYWtremdvTGVBbENlZzQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T09:20:35Z",
-      "likes": 53
+      "publishedAt": "2026-11-24T09:08:59Z",
+      "likes": 60
     },
     {
-      "id": "p_psychology_news_395751878",
-      "title": "Психолог объяснил, как избежать конфликтов в начале совместной жизни - https://zur-ufa.ru/",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: https://zur-ufa.ru/.",
+      "id": "p_psychology_news_891529505",
+      "title": "Психология отношений | Не в себе - Дзен",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Дзен.",
       "emoji": "🧠",
-      "sourceName": "https://zur-ufa.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbkt4ZGstOWFEVjd3LWw3RmRfZkJybDMyUUhZS3JJWmJDZV9pdkhsdzBtWGE2U2NTWWFpOGxCcFktLVppR3FRNmQwZVFuUngzTGdaR2NFcnF2QjlabFcxZkdzUko0ZEltOG5HMnRXYXhiZDkwLVI5ZEVEYldCZU5Kamp4TmdCNGliRDNLU0hVbWpSZU9SeGRNRzJPOVpHaDhvbVJlbzlqSi1WZE0?oc=5",
+      "sourceName": "Дзен",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjNXRjRHFDZjczN0hGOE1LLXJEQlgtZXNaSkVXLTYtU0RaUUhJZ0xoTXBqWGxsanAySlRUM0h5R3lGQl9fMHc1MlNSZzRFWC02YXgyTW1USGJjOEFHR3JTakJEVTd3WHAycVE?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T04:28:53Z",
-      "likes": 21
+      "publishedAt": "2026-11-24T06:59:27Z",
+      "likes": 41
     }
   ]
 }

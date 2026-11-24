@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_2033409940",
-      "title": "Apple не торопится с новыми функциями ИИ - DGL.RU",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: DGL.RU.",
+      "id": "p_tech_news_3298962461",
+      "title": "Смартфоны под прицелом RatHat: Как искусственный интеллект усилил возможности вирусов - Life.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
       "emoji": "💻",
-      "sourceName": "DGL.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2b2psbzZEa1pCX3dRcEY4SUYxQmNGSnp1MXdzS3JqYldheGpmbFFOaW1aY3FOMjRGOHlJdWl2ZVpNdTBSRVZlUHY5dnJLbzdlX2FpQlRPUU5XRWhNZUNIUFZDMjZUM254eWE3NW5tYVFaZ041NjYxVEZDVnhzTGs?oc=5",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQblZWR2dKNXZueEhBbnM4TVVTR3FTRnBNZTZKckxOX2Z5Smppc3k1RXI3OTRacExuWHo2N2JzY3ZBRXNDTHp6WVJlQ05GMXEzQXZQWlhPZUxUVFF1dnZseEhHQXhUVVRna3EzeDhjVDhtR1JMVnd3MTBMYlUxWWxoeVNUR2haQ1U1VFc3dXluVGZmeWR3d3pwR2p5b0U?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T22:49:17Z",
-      "likes": 60
+      "publishedAt": "2026-11-24T15:02:21Z",
+      "likes": 21
     },
     {
-      "id": "p_tech_news_447379480",
-      "title": "Аймачным больницам переданы портативные цифровые рентген-аппараты Fujifilm с искусственным интеллек…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: open.kg.",
+      "id": "p_tech_news_3432123767",
+      "title": "От смартфонов до нейросетей: В Рунете стартовало голосование за лучшие гаджеты 2026 года - Life.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
       "emoji": "💻",
-      "sourceName": "open.kg",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTEtrYmd3eVYyV19xN2U2VzVvM3pYNXVTcHRHajMxSUlXSHZOVFNUbU8tSDVpVG5SSlpxTzVWSVdSdnNUTFM3N2s1REx3QWQ0SkZSazZYOXE2aEViRjRKRV9XSnFmTkJRYzYySUE3d0VVaEFHQXpjczQ3eG4xSWdFZ3hSZGQyLXRDOHNsTHdrRXRXenYwX2VpTFBLVG5UZTctNnhtZG5NNXdaSXFoT29iQmdick91T25DWjRrcHVmM3ZXcnlpSjA2aGY2UUhubmZIRkliT0hJSU1ueFEzVFNhcEZB?oc=5",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQUhCVHhoekFPaE0takUwRWpxUkc2dHo4bTdIMlV4WHd4UlFXNjF5NnEwWFY4TFQyV3IyWGJxTEZVM25kcUJaQmdVOEtzSW5Ba0x1ZXpIQzJiVEF5X09nSGNXeUlnMk11TFhMOTVGMkpzdDhUb2xrUzBLTWtfVmJHb1F3UjNMRlJiSUw4X3I2Tko1SUU?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T22:18:25Z",
-      "likes": 62
+      "publishedAt": "2026-11-24T13:08:11Z",
+      "likes": 47
     },
     {
-      "id": "p_tech_news_311751366",
-      "title": "Стало известно, что из себя представляет загадочный ИИ-гаджет Nothing — его представят 8 декабря -…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 3DNews.",
+      "id": "p_tech_news_1730021489",
+      "title": "Компания Nothing 8 декабря представит наушники Ear (note) с функцией записи звонков - Mobile-review…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Mobile-review.com.",
       "emoji": "💻",
-      "sourceName": "3DNews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBnTlJSNGQzaDc2UXU1SXhGOURnbmNHbTVKRnZPbUlfNFNMeE5TRzBjRlBXSHNsZ1BsZ1JJc25n?oc=5",
+      "sourceName": "Mobile-review.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc0dXc2RRSV9rdHl5b3RPTHJNaURodHVUVFkyblhuZHRKY0RkUkR3OWp3WUd1Qk9pZ0xEOWtWd1plX2FyUGhMREJwX0lBclBkc3ZGc2pFRU9OLVVkZ240MDdZTzdqc2FNWkR0cHkwLUZ5ZzVnUXdEaS1ZZ3BpcHhkdmFuTlphSG5iTmd3c2xHYkx1cXQ2YU85S2FCU05veVJXTzh3bURIUGxUNWs4Zk1WcERteExBcG92eVFZcmt3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T21:08:00Z",
-      "likes": 90
+      "publishedAt": "2026-11-24T13:01:37Z",
+      "likes": 32
     },
     {
-      "id": "p_tech_news_1131820721",
-      "title": "Дешево и сердито: подборка бюджетных смартфонов 2026 - Компьютерра",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Компьютерра.",
+      "id": "p_tech_news_2667242769",
+      "title": "В России стартовало голосование за лучшие гаджеты 2026 года - ФедералПресс",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: ФедералПресс.",
       "emoji": "💻",
-      "sourceName": "Компьютерра",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ccm15Y0tOWUMwOElURDBkMUlXQmVNQ3YxYVFIMGhrMDlOVjhUUElaM09rM09NekdmN2pWY2VLcHJ6Q3d6NExVSDJabmxoNzNxN1V4Z1NtLUZNNG5PY1lhSzZnWkJJMkdiTjlKVQ?oc=5",
+      "sourceName": "ФедералПресс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuaVY1UW5EanhDb1RPQmxSR0MzTkRyZmdpWGN5R2FHVXRRYklidXB3SGRaZTFNd2JDd0hwR2FLVjhBX00xYzJDTE40OFFLNXAzUXRCWmFB?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T20:28:46Z",
-      "likes": 65
+      "publishedAt": "2026-11-24T13:00:00Z",
+      "likes": 50
     },
     {
-      "id": "p_tech_news_3136947898",
-      "title": "Z.ai представила ИИ-модель GLM-5.4, которая повторно использует одни и те же слои для более глубоки…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_1030737064",
+      "title": "От складных айфонов до ИИ-очков: Россияне выберут лучшие гаджеты 2026 года - Постньюс",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Постньюс.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbGdybVRfQmhTY29ueGtGbHE1UjRzU2V3SXhHNFUtd05mcFVtdGlSYmRaQlBRaUhiMHlxWEFfUTF2LWdhSW5WcnZBc1FZdFJYMnloNnVWTzBQeFJtU2VHWTlyVFVQSm1PRnB1Z1dlSnpPSGhmQkZDYmRfanJhUDktcWkwamFqWURoUHU4dkl4WXpaSl9tM0VVZkNHdTFteXV1SHNueHlNVS01ejN5SFZJOEZocGZiQnB6RF9YaHpjMzM0RXJOaS1YZVQteVV0Z2Y2TXBLNlBnaTJYdw?oc=5",
+      "sourceName": "Постньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9fOC04LXV5Zk9qZy1IVWNJVVFkUUR5WWZZcFhMVGRJSXFQWXNoZHoyVUJwY0hJaFhWcHlHcUswU08?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T18:01:26Z",
-      "likes": 84
+      "publishedAt": "2026-11-24T12:56:05Z",
+      "likes": 48
     }
   ]
 }

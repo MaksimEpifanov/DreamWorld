@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_2460706776",
-      "title": "Кроссоверы с пробегом до 2,5 млн: какие коробки стоит проверять - Tarantas News",
+      "id": "p_cars_news_4163384000",
+      "title": "LADA Niva Legend заметили в Москве в ливрее каршеринга - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS05VanV1Z1E0V293b2EtZXBkN3NjdG5ELVlSYjY4QW13RjdTLXdMVWgzUGptVUJaN3RzODBEUXVSNzZVRGZMeTEwbUkzRE1ncW9iMXZDVEFULU1hQ2gwalNvWWZoZkREWGhKTGNkR0d2YVdVMjZUQU9rbi1oX0xvVGZTemU1RHdDNkJWX2ZwR1hPUjZXQm9Vam0xRHdKbms?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHVNb2pxalA2MFNMQ3RzS0hJVXdRSFpBbEdib3h1cW5Qb3dhR0IwTTZydmU3NGI3ZXBfNnR1cjF4VGZsdDlFbjFrMUZrRkx1RVlHei0zVmVHeFdQTy1oanBnd2JWZGVwem5sNXl0OVdCTVpLY3J4eS1PMFJfYW1lTVRXVXlLWUFTZ1FmNjRfTU5iQjg4Z1E?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T18:45:13Z",
-      "likes": 73
+      "publishedAt": "2026-11-24T14:43:48Z",
+      "likes": 19
     },
     {
-      "id": "p_cars_news_2843255939",
-      "title": "Сергей Целиков допустил падение авторынка России на 5–7% в 2027 году - Tarantas News",
+      "id": "p_cars_news_4072962042",
+      "title": "Hyundai зафиксировала рост спроса на седаны в США на фоне дорогих SUV - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0Qxa2lUeVhtSkVHZE1aVnEwZUhUQWtCdWI3dnpGM21CMERHMDc5a01ZYmtjRFRaUnlFb3ZnbU5malEtOHB3VS15Vzhvd19GSFZkMUI0aERpNGNKN1FQNVNWZ3RnbndkcUZPcVBCc0MyYjNNbW8zV3dmamJhN2JmejRzckt4bnUyaENCcGZSeHlrUjE1MTFDNTk3bEQwX3RTMXBwVWZR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZndRQUl1dEU2ejV3N1hpTTdsdHBkUUNhTXhfUVRvR2pONTNkVl91NW1PbWdOTWM1YmwyckZFOHQ3Z3JUNTljcjFhUHRqNGxVaEp2OTFxVUtJT1VKQS1xLV85SFRxX2NtcnZ6UkV6VXF3NFRtbFRrRlVHVldVaEZhYWZnWENwUmhoVW9CdTE1cGttaDZsZVhnYjhYTXpneVg4Y1o4dDRyS3dlUQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T13:48:38Z",
-      "likes": 81
+      "publishedAt": "2026-11-24T14:20:07Z",
+      "likes": 43
     },
     {
-      "id": "p_cars_news_2894116781",
-      "title": "В Москве дилер АВТОДОМ объявил о начале продаж нового Li Auto L8 - Tarantas News",
+      "id": "p_cars_news_3004568768",
+      "title": "Китайские автогруппы заняли 14,8% рынка Европы в октябре - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjRzY3VORDRGQndIWUh4bGFxNVVMWE95bXI3VlpmOHIzd3lKanRPZEVlcUU2dXA2ZUZZNk1XOWUzcmxOaWFTUjZNLWc5YzN4cC1FWW90bW9naTJWZWktM1VOejRGUFNNVFhWYzBSejduZmVKV0ZQU2U5LXluMm1YcG9LUEdCY1p5eWlRREM5Y2RXZmd6LVdyMnRiLXBNd2MwbTlheQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkVyY0JaQ2F6eUgzNUhqZXFFeEZBQWd4YWYyTngxMURyaHp2TEdjVXpxVXdVM1k1VkVPdDRmV0djT1JMUnIzWXowWlFsWWQtT05DU203OV9QNU03b1NwUG5Iem4tR1JmSXljVHYwQ1ZFZkJLRmtwZ0R3OUNRZFZTUFAySnVtSDNiQWRTYU8xVGZUNEdrR2dEZw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T12:28:15Z",
-      "likes": 63
+      "publishedAt": "2026-11-24T12:42:17Z",
+      "likes": 86
     },
     {
-      "id": "p_cars_news_4183223602",
-      "title": "Dongfeng eπ EP7 представят 27 ноября на автосалоне в Гуанчжоу - Tarantas News",
+      "id": "p_cars_news_1150726464",
+      "title": "ЕС с 1 декабря ограничит импорт гибридов: Китаю дали квоту 86,3 тыс. машин - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaXlQVmswQjVCMTJUeWg3TE0teEtIcEFaWlk3SXlTOHhyTTVtX3oxRm9oU210QmhBUXp3Qy1VTW5ZTzcwcTRhay1iUVlzc1pGaXNCenkyT2ZNX0IySU94U2N1ZG55Umx0d3V3MEE2ZVN6TXBqbWN6YWwyV1RiMFdxTDFOYlk2RkQ3bjI1WFFxRGNaQ0p2QlA2R1dac2ZiTnVfdVpV?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdVhNbTA1RUpTSFNZa3dUek5HUzlUc1UzUGpaTzVTeERJMlpRS05VZGZKSnJIZWdPVFVVSFk0bWcwUUdpSXRweHBUSHFiT0NsRmhuYnZRYnp4ZTZGTHFiRHhsWWUzaVFoRzhVbExKVW9IVWhpRU9UYVBpZHBTT19wdWRHVjNmbk9XOV95WjBmc0I0bmJiWkJLMmpzVEdIR1RHTzFEd0prN3d5MGtub2JaS2F3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T11:40:21Z",
-      "likes": 34
+      "publishedAt": "2026-11-24T11:59:48Z",
+      "likes": 57
     },
     {
-      "id": "p_cars_news_139709103",
-      "title": "Замена кузова Toyota Land Cruiser 200 обойдётся минимум в 850 тысяч рублей - Tarantas News",
+      "id": "p_cars_news_3053554259",
+      "title": "Завод Audi в Китае работает два-три дня в месяц — Handelsblatt - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWG1tVU14ZVBuWFhnc18tSHgzZ2czWnRacWd0MWp0Q2ZVVll4aVNKSFJmZ2VraGVFMjdOc3dYYzhpcWhRRFZxRW5PLWxLeF9BNDkzSVZYSEwwTjRNWENHNE9OYUljOUFkdlFiSGZHbl9nN0ROVmhLb21lYXVRZlMzRS1hOUEwWWY4RlRfNXN0eFZ6bnRKU2FNMDB6aFVzWkZON2djNHZDam1PdkxULVJYa2hXNA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbm9wNWt2WXEyY21qRXptQ1Z6SkpHVENOblg0dXFlMXIxUjBjakc1UXN5eDFWdnl0bTVMRm8zTUJWbHMxT2FkcWhDMUZ2dUR0QlRVSXpDVlZha0tTcUJjQjYxM3VrSENmWUJOMGtZLTN1bHVfNzhqQWF2WHFZZkZvSklRbTN5TmVxUkZYN1c0bE1meS1yeHE3SHJ3TksxeGZS?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T10:07:20Z",
-      "likes": 16
+      "publishedAt": "2026-11-24T10:59:05Z",
+      "likes": 11
     }
   ]
 }

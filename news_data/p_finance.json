@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_2632080628",
-      "title": "Викторина «Финансы через призму искусства» в Москве 25 ноября 2026 - Мои финансы",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Мои финансы.",
+      "id": "p_finance_news_543903268",
+      "title": "Замглавы Минфина Колычев назвал федеральный бюджет страны сильным - Newsroom24",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
       "emoji": "💰",
-      "sourceName": "Мои финансы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaFp0VDBjR2JYZXNLUmplUV9MaFNOY0NNZi1pVnNyYzl4M1JEZ1M0ZFhXcDdzMzV1cmx4SWZqaUVmQzk5eVR5S2tLUEtjampnb096dnQxazRPSXY5SFM3YldlY3RnVDVNX1pVbzI5cGxvME50d2JkRVpJMEFuR3pER0ZrLXhzRWxpNmlHMG9TYzlOMUVVTGNaUGpXZFhGTVBheGtESXpRNlF4VkNiM3c?oc=5",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBER0xMcl9GYVpmeVl2ZHVSNVo4QWJDVmNwM05FLUJSUWJVdnhTT0FKMnJNai1xUk8zS29FWUM2bnAxQW5uNUhIdTMxbnhHdHVNYWdMQ3ZrTGVJZkpfWlRv?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T19:02:06Z",
-      "likes": 17
+      "publishedAt": "2026-11-24T16:47:31Z",
+      "likes": 51
     },
     {
-      "id": "p_finance_news_2319457217",
-      "title": "Цифровизация, долги и НДС: глава ФНС рассказал о росте поступлений в бюджет - Ведомости",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
+      "id": "p_finance_news_2426546727",
+      "title": "С 2027 года в Калининградской области изменится налог на доходы - Newsroom24",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
       "emoji": "💰",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaEptWkJoZEtOQ3JiSEpTM0FDY2NsdnZYR2RKUHV3OTQxaHI1bG9CSndfTUU1VDBZcGZTcnktOEdFTVFOWVJzOWotaEppa1R1V3llZVVDdldMUTMwblVURkRtRDJlSndGV3IxeU9sTHdfWlpKSlVvajVUbGI2SnhVZThreVVrbFE?oc=5",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00VTZ5MXpCMTA5cEktOXc0blJ0UnppTlh5NEV4YkdhZksyMUt6dEpXMUt6M0RqWU1nMWsxTjlnOWE3Mnhtd182RXZHVkhaR3Bpci1ES1dXOVRLSnA3d1NVMW5fcWdVdEJXYzlvZzhwTQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T12:20:14Z",
-      "likes": 19
+      "publishedAt": "2026-11-24T16:31:55Z",
+      "likes": 22
     },
     {
-      "id": "p_finance_news_1983335252",
-      "title": "От «Богатыря» до дата-центра: какие проекты спасут бюджет Новосибирской области в 2027 году - RuNew…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: RuNews24.",
+      "id": "p_finance_news_3663551230",
+      "title": "Госдума одобрила бюджет на 2027–2029 годы - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
       "emoji": "💰",
-      "sourceName": "RuNews24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaURzMXo3TzQtaGJIN2JSMGNlMVcyemdwMzJjZU1pUS1RZVRnclplOXkweU1tVzFVcXc5T0MybThhc1RkeEwtVFZYSW5nVlhHSDJkOG9QVGJWVS1ZczFZNjZieHN4RjN6TVVHdk5fRWxJMElBa1JwbkY1N2ZwUzZ1a1VCNXVWOTBYYUVvYTZpY3hpU1NFUlB3YXZ3QlBTMzMwTEdNOUdJVmhLcEZMSEduTHBuUWlRMU5uSURhWi1ZMXpTRC0zdlVZWUEyQkFXelo5bHZZ?oc=5",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU14a2ZYOFlaeEE4SllobDlLWTE2cGcxYmtKSEJmVmdscERxS0M3QWk3eTc2VTdfOWtOak1PUGpMVTh6VnZzWkpfdEU3N1lvVTNWaVBkb3JwZG41eUhwVk9aWUhZWWJia0lIR29hX0Z2c1JpUlV6SHFGZXFxd05XZUpkQmJxd1htbXJydzRwamxNSTlyZjBDWmMteWpnOWc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T09:27:00Z",
-      "likes": 25
+      "publishedAt": "2026-11-24T16:15:13Z",
+      "likes": 16
     },
     {
-      "id": "p_finance_news_2417890207",
-      "title": "Найти путь к финансовой стабильности смогут Знаки Зодиака на неделе с 23 по 29 ноября - EAOMedia",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: EAOMedia.",
+      "id": "p_finance_news_1280930581",
+      "title": "Госдума решила считать налог на доходы в Мурманске по единой шкале - Newsroom24",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
       "emoji": "💰",
-      "sourceName": "EAOMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5cGFPQ2NWVlp3ZUJtbWhKSWpESnc2RWhTbzBHZzZwTjhJYlU4SjJCc0EzdmNvYkdHcnV0N1FnN0d3cXM2ai1lNA?oc=5",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaWlo4aVhjTF8yemhBQnVBVjFQb3pCemZXRG5HRnZvYkE0a3gwX0xZcnpTYTBEVTRqcnUzcF8ybXl3emhFR1ZWZnV5Z1dodHVtSkdORjNYakdBM01XalRDVmp3eU1RWjRTNWtn?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T06:00:00Z",
-      "likes": 41
+      "publishedAt": "2026-11-24T14:53:46Z",
+      "likes": 49
     },
     {
-      "id": "p_finance_news_2869732056",
-      "title": "Смольный сократит инвестиции в капитал Центра доступного жилья - dp.ru",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: dp.ru.",
+      "id": "p_finance_news_3957778542",
+      "title": "Рост НЕнефтегазовых доходов в России. Сладость или гадость? - Smart-lab",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Smart-lab.",
       "emoji": "💰",
-      "sourceName": "dp.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFT1FNMjRtTlMyTzlkU00zQWZYbWh5akFUSDBMZjZBWllTclpVMUNVajUtLTFHX2hWUDlIVnhuUm1kOXlneEVNblBuMkZILUYxYXhEenJxaU1sTGlueTFKcUJqeXhXRnJqemNFZ3NUT2tKMHI00gF0QVVfeXFMUEVPUU0yNG1OUzJPOWRTTTNBZlhtaHlqQVRIMExmNkFaWVNyWlUxQ1VqNS0tMUdfaFZQOUhWeG5SbWQ5eWd4RU1uUG4yRkgtRjFheER6cnFpTWxMaW55MUpxQmp5eFdGcmp6Y0Vnc1RPa0owcjQ?oc=5",
+      "sourceName": "Smart-lab",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Fai1jWkVBeDFoOEczNWFnSW5BMzFxMnprY1FabVdWeFVyRFhVUzd3Y0FsYkxHNkx4RldXQ1ZoenpobjdsSnNwMy04UENhQQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T04:00:00Z",
-      "likes": 48
+      "publishedAt": "2026-11-24T14:15:05Z",
+      "likes": 43
     }
   ]
 }

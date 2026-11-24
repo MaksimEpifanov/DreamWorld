@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_1822159355",
-      "title": "Москва за 5 дней: пять маршрутов по разным районам - Куда сходить в Москве",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Куда сходить в Москве.",
+      "id": "p_travel_news_4027496030",
+      "title": "Организация поездки с целью распространения образа национального флага и продвижения туризма в Као…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
       "emoji": "✈️",
-      "sourceName": "Куда сходить в Москве",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zS2FNNkY0ZVVZMUVKVDBRbWltMno5VWc1ZHEwcGxzM1NCeHVLRDVtcGxOUUU0U0dQbTRGdjludDhDM0cwWTZla3UzNW5FSDM5WEJOLTYzZjZRUERlY0tCdS1GUllDMU5LdnM3OVM3X0s0dlU?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWoyOEVZQi1xZDZkZUsxLVNfb0JTSDM4QVg5UHdDSFJ4dHQ1N0lTMVUtRmZlaWY1X2pDbnJtU2IxTzVNR2Rvdkc5VXAtZkN1ZGJWdG8tcG9Iejd6OThBTlNQTFhrUGp1YmtMaFBLYzBCWDhBNDlVaHJ1MDhnS1NONDFfanpFLTlRa2NmQjdPVkV5S2pCcGVBVVY4cVhpQ1U?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T18:37:02Z",
-      "likes": 56
+      "publishedAt": "2026-11-24T16:54:31Z",
+      "likes": 24
     },
     {
-      "id": "p_travel_news_2518153026",
-      "title": "Деньги ушли в город: как Стамбул стал магнитом для туристов, а пляжные курорты теряют позиции - irb…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "id": "p_travel_news_2155801161",
+      "title": "Круиз в неизвестность: новая мода в туристическом бизнесе Европы - Vesty.co.il",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vesty.co.il.",
       "emoji": "✈️",
-      "sourceName": "irbis.spb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGpTUTZ0dUc5S1NpbVBDbmlOa2lhSUlMZTZ0RDctV2x3OFdNUFFCbTdGX3k3T1J1ZmM3aEIzMHZZR0FKaFNjSnBiWjRKTmlnYnFJUmRZWlNWSnJTSUdteWwxLXNDUnR1aEJPZXprT01oQUlXTklLSXo3WHBLLTZjQ0lVUTNlZlhpRUNvZVlIZU10aXZCVUFGOUc2U3hRMm1kNkVRelo2eVpIeUhaQWdnSHhxcGdIM3Bwb2VWelYwMWhmeHNCckZqWGVWaHJIMEQ0?oc=5",
+      "sourceName": "Vesty.co.il",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qYVcyV3EwQ0l4bGJXc3lWdEZtb0czZXpScHUtM1o4MkRIQWVJRUxScHYzWXpqOFo1eEtCUzlfUzFMdWI0XzZ6U2ZTaUFfVDhTal93VzRabFAxMlk?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T17:54:42Z",
-      "likes": 69
+      "publishedAt": "2026-11-24T16:16:01Z",
+      "likes": 91
     },
     {
-      "id": "p_travel_news_337882636",
-      "title": "Казань глазами туриста: что посмотреть в столице Татарстана - inkazan.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: inkazan.ru.",
+      "id": "p_travel_news_2895382409",
+      "title": "Работает ли карта «Мир» в Казахстане и чем расплачиваться туристу - Полис 812",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Полис 812.",
       "emoji": "✈️",
-      "sourceName": "inkazan.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbllNcWpmdUJyYU55VDZndks2SVhoaldNVEhDMXpiaFkxZnZLRTdfT204OHdES09OalVsdU1FWjBsaEVTb3I5MDZvVXNGOFJUOC12eEhJcWI0Y1lURHpTbXpYNE5MSWFwemRSTnJaRGxtcnVFcmdtcmdnRkpoRTdLV3FWQ2dxYml2VE1rd2VBMW9wN1RIb0xmNGc2cXZTNG50dWE0?oc=5",
+      "sourceName": "Полис 812",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZE1tRktvVkZHcVQtTENlemhydjRzelNjTmt2LTBUMkdNVXRaN0hBOGtfcEtPS0N4NW9sX1dvSDcxSVFKR1VBRXRxR29mQmt2VzZqQXBELTJqSWsxd3ByZ3RwY1p1U0Y1a1hxUElzbjZaMnd4bWRNOXltd3RSYXBmaHRtbVduSzV3V0JmNUN2cERFczluYkE?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T16:56:54Z",
-      "likes": 50
+      "publishedAt": "2026-11-24T13:25:20Z",
+      "likes": 24
     },
     {
-      "id": "p_travel_news_1798489135",
-      "title": "Министр туризма Псковской области Марина Егорова: \"туристы хотят проводить в регионе больше времени…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Интерфакс Россия.",
+      "id": "p_travel_news_3274278225",
+      "title": "Фестиваль \"Усадьбы Москвы\" подготовил зимний маршрут по 18 площадкам - Газета Metro Москва",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Газета Metro Москва.",
       "emoji": "✈️",
-      "sourceName": "Интерфакс Россия",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWGZHcGNPcG5HbGNDcGpERWZGUkZLeldCbXctR1QzbDVtVlR6RlMtY2ZybVhfek5wNndsdkM0ZVQxLVVmWFBUc1Z3RDFkSjZWV1VUMkNPREtRbkhyTnVBY1Y5Nmc4NkNtSVlVZDMxbmR6S3QzMEcwN2tOX0lqNDZlSEIxS0NyS0hIZEtJdVViSmQ2TXdnVVZvVU83eTJWMThmUjJUSi1ZU2dxR25qd29XTEVDY3djQmlaTElrYm9zZXpGRERXd3UtMzdsb1RybGFJS09neE83aG5SZXprbmlZ?oc=5",
+      "sourceName": "Газета Metro Москва",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVR5QThsdzE2czJqR3ZXMFFRUTQ2RFh6U2JPeU81RVFiVk9xTlhBWWhqTTBsNU5IQVlNb290blZfM19RV3h6MF9kUF9YOHp4SlF4bHFWTHJtR2hoZi1fWktMMTdCTmlOWko1d0dRUnJXN0M4Z0lFYlpHanBCb1k1SlRHTEZrdVl6dWNzaVFxRkE3Ymd2dHliT25aRHU3bUNIMW5oVmFfb0dER3lCU0pNSFdMOTI?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T15:26:00Z",
-      "likes": 36
+      "publishedAt": "2026-11-24T10:38:22Z",
+      "likes": 10
     },
     {
-      "id": "p_travel_news_2583300539",
-      "title": "Ближе к теплу: спрос на поездки в города с термальными источниками вырос почти в 3 раза - Российски…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Российский союз туриндустрии (РСТ).",
+      "id": "p_travel_news_378898377",
+      "title": "Благовещенск переключает туристический фокус на самостоятельных туристов из Китая - NewsInfo.Ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: NewsInfo.Ru.",
       "emoji": "✈️",
-      "sourceName": "Российский союз туриндустрии (РСТ)",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQnV0Q1Rpa0hDZUV5ODBVUmFNZ2FJbFZQYWxLYUdfNkFZZnN5ZHh4MWJMMWZxenJ6OEJDMlhzaXpQOHo1RWZPblF6NEU4SWpOTTVVX0VXMUZJYnFQTVVFVl91TFFQRzJtNFlqZFBVc2NPeXNiNzZSa056bF9rVHFXbHNQR3FFQWl5WXJ4UGhMWjBpdTE3dlNUNVIxWlBENDZxLTA4QVE2U0lLa2dyUGFiYXAyMDhJaTJVczlmZzhJUV95V0F6aE1XVA?oc=5",
+      "sourceName": "NewsInfo.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEdxeGFUWHQteVVOcTNmeXU0dUhTdG1NRnJsZUtCVnN4QXZiUlZKNklwNEZ2SDBpM09IVW9tUGFyUGRCYklQQ2dZcy14R1VCcHVfS25GVHVNTWhxZjVTenJfLVg1UE9EcmFlSGtadDdEYUtSRkdXaWcwMnZ0VzY3dmNGdndIVTjSAYwBQVVfeXFMTnpVSWhNeTZxb0tYRlRPVnRPb2VPcGJSR1J5cWpyMDB6UWVsbndtblNOQ3hfX1B0Vl9WaWVEOTUzNHQ1UEo2SjNOMjZQSzNfOHBSSDM2YnRWeXhlREJUbEVhbnNkQmJiOEktTlhVYTZFek5BclpkZWs0S0VLN3FnX0dJd1F1Qi1FWVJnMzY?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T14:55:00Z",
-      "likes": 12
+      "publishedAt": "2026-11-24T10:06:49Z",
+      "likes": 89
     }
   ]
 }

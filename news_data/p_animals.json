@@ -1,63 +1,63 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-23T23:49:20.355153Z",
+  "updatedAt": "2026-11-24T17:47:59.521984Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_animals_news_3428863165",
-      "title": "Единая платформа донорской помощи животным стала доступна в Хабаровском крае - Хабаровский край сег…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Хабаровский край сегодня.",
+      "id": "p_animals_news_612115277",
+      "title": "Прогноз рынка усилителей вкуса для кормов для домашних животных до 2035 года: гуманизация питомцев…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: IndexBox.",
       "emoji": "🐾",
-      "sourceName": "Хабаровский край сегодня",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hal92Vk5UelBCOWJqaTJUazdlUmFPejExbEpjQUtiV0R3RnVTblBIeWpSVFZIWXN0dXBUeU0yaUFIaVBqakJJTEt2RGdDV1dx?oc=5",
+      "sourceName": "IndexBox",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY2FUYWdLSFVlbXBXZHRJRU10czUyaVI3QjRwTXF2dHMyTTRsS0VKM0ZYaEdJNERWclFRU1BxMXFXWW1QandDOUlSRDZLaVRYY3BuaUpQZ2ZCRlFRSnRqRFYtUk1oaEcwWXZlMkVjbmw5RzZhbkRidkJOdk5TUEpUOGRtbUpiYlpzNU9paG5TN3M2LTIyU25sSUY3bVBFcF9uTFdxR0t2WnBGMFVNQ2dYbEFGdTRwZGhwMTJxSjFWTlV1cHY5MXA4?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T23:31:29Z",
-      "likes": 35
+      "publishedAt": "2026-11-24T16:31:06Z",
+      "likes": 67
     },
     {
-      "id": "p_animals_news_3735747518",
-      "title": "«Каждый грамм имеет значение»: Как учащиеся Боровской школы помогают животным - DZR.BY",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: DZR.BY.",
+      "id": "p_animals_news_185415764",
+      "title": "Токарёвские школьники собрали 100 килограммов корма для приюта «Доброе сердце» - Тамбовская жизнь",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Тамбовская жизнь.",
       "emoji": "🐾",
-      "sourceName": "DZR.BY",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlZ1cllQVEFZMFFEOERzeEtUSUkyNzZkb2tRbG5PbHd2dUliOVpQMnpFWkpqVElJZVBTWHVVX3MxeHdVVG1hOU5EUVlqbWYzMmdhYzBTcGJjMzBpX1lleHNLTFJHMzZudVZZWUJlZ04tcFdzRkVmQTJWc3cyWnhfWnlsN0pKODNBXzNxTnoyVnZWZ0JJbWE0Y2hHNFdDUTFtM3J4d0ZuS2xFamV3WlE?oc=5",
+      "sourceName": "Тамбовская жизнь",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUnhJdFQ2X2EzcmppbmJLc0xZTW14Q1ZHZ0FySmx3T3p6RkFNYWpSSUo5ZXFFYkY4TnVUTmhyV2Z5X1Bwd3JTb21nLUlmdkVlZlZPVTJ0dm9QTjA2Wi16bUxBRDR4RHdBUk5pdElrZEx4T3BvaDA0azRNOHVKQzFXRER0ZUNDMEZycmk0UFJWblBpRl9iUjE3ckd5QTQ4N191dWFYbmpNdDJBNldLd1Y1VnpyVTdvby1yTndpLUV5OWhwTkJqb2ZVbjhB?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T16:23:38Z",
-      "likes": 72
+      "publishedAt": "2026-11-24T14:06:13Z",
+      "likes": 66
     },
     {
-      "id": "p_animals_news_2483451027",
-      "title": "Не нужен из-за слепоты: в Шахтах спасают брошенного под забор приюта щенка овчарки - donday-shakhty…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: donday-shakhty.ru.",
+      "id": "p_animals_news_532973854",
+      "title": "Помощь тем, кто не может о ней попросить: на Копыльщине проходит акция в поддержку животных - Слава…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Слава працы.",
       "emoji": "🐾",
-      "sourceName": "donday-shakhty.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWhveWM4ekRCSkwzM0hBNW1TX0VNRXFHX3lkOVRXTG93djBKajU2LTExNnBZcjJweTZfQ09oRGZxV01uWDJXc3VfX2hfY3FjbGpsX3NMMmZtZWNZNGRnQURUZ1l2WHdyYVpfdmtOWHJESE1HOHhnc1VDWW50SDZSNnM2Mksxc29rOXZ4WmpUY3lkN2FYa0dsZUNpTXVkSXZqM2FJd2M0dHBPdjhkR3p1SUhISmo5c2t2WFpFRA?oc=5",
+      "sourceName": "Слава працы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMFhVZ0FqNFBPVHRnWktZUEVXcnFYZVBWMWl1aTNtVExSaDZnd3dkd0xnZ1JKaW1EMF83SEJPMUxYUHUxanhZQzhtc016cmNHZERNMHhkdWxJVktCZlY4Ymw2Y1V3OVFydmdMR29LY2pkUHdsQnduWS1vbFZMR0wzYmM4UGFQdVYzQ2F4dUlJaHloLWVOUW9NNlpUSkF6cEdVdkh0TnBQczY0cl9pV3g0emd1SGlhMDF1ZE9WeEVPX0x1WVZFOWV0S214SWFVZTBzN1R5SmVhSU9Mb1U?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T15:45:00Z",
-      "likes": 69
+      "publishedAt": "2026-11-24T12:17:16Z",
+      "likes": 3
     },
     {
-      "id": "p_animals_news_2050441153",
-      "title": "«Я назвал компанию в честь своего кота»: создатель наполнителя «Дорожник» Дмитрий Смороков - Москви…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Москвич Mag.",
+      "id": "p_animals_news_2515761102",
+      "title": "Всемирный день домашних животных - Восход Сураж 32",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Восход Сураж 32.",
       "emoji": "🐾",
-      "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLVlPNnVlZ2NhYW1sb3FEbTI1OEUzcmFYX1h4VmFfSncxdFNONHlVR1lXWDdLZF93a3RGRzZmSjdvbGJ6UmtTbDBRNS1wN2NseWdac3hqWG9ab0l2c2ZlOU01UGJEQzYzWE5FVFdaVGNHSVZMVlN0T3hfSGU5VnpGSldycW1zcjhCcy1GNF9zckhnX3BOUWJxRDdNTm1fWXJnei1yb1N0dDBMWU5xR1MzZW9pZUNwWXpab1E?oc=5",
+      "sourceName": "Восход Сураж 32",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeXpuOThNRktPUUVpalhOZVRfUExUVjRhREZ0YlNZVmlpY1plMFBMLXdzVnFQQ0pZaDVvbnpmVEQwaEtKTWtnQU9FY00xWkwyaHJfQW5YbkRLQ0JGeGNZOWlzRzR4RWNyaDVUME5NTGJsSnBxbHNLa2xnMHNvVFd4X0t5SQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T15:22:16Z",
-      "likes": 90
+      "publishedAt": "2026-11-24T11:53:56Z",
+      "likes": 36
     },
     {
-      "id": "p_animals_news_3885993289",
-      "title": "Собака бывает кусачей: в Костанае растёт число нападений бродячих животных - BAQ.KZ",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: BAQ.KZ.",
+      "id": "p_animals_news_2241999637",
+      "title": "«В ужасном состоянии ее нашла почтальон»: истощённая пенсионерка жила в квартире с кошками - KazanF…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: KazanFirst.",
       "emoji": "🐾",
-      "sourceName": "BAQ.KZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNESDlmdkJJeWVrOXZxYTJpR0UwWkRFVDFiUUtHOWJVbGd6TWMzdUx0Y2hmVmtCZmE5VWhvSmxGRkI1cHdZaTQ1UTFYRTdoME44dEs5NHNDclRWUWtWblRYZzRVcUhNMV9rM2hnSVJKUGRKSUtZWklxSXVnUUpPdWxlNHhpM3YyR3lTMHRHOVFYQjVzT0t5WGRkQnpOeUdJVERQZkxvN0pMNWdKampYbGQ0Mzd1YlNxU1HSAboBQVVfeXFMUGEzREg5ZnZCSXllazl2cWEyaUdFMFpERVQxYlFLRzliVWxnek1jM3VMdGNoZlZrQmZhOVVob0psRkZCNXB3WWk0NVExWEU3aDBOOHRLOTRzQ3JUVlFrVm5UWGc0VXFITTFfazNoZ0lSSlBkSklLWVpJcUl1Z1FKT3VsZTR4aTN2Mkd5UzB0RzlRWEI1c09LeVhkZEJ6TnlHSVREUGZMbzdKTDVnSmpqWGxkNDM3dWJTcVNR?oc=5",
+      "sourceName": "KazanFirst",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWnZ6ZkRRMWRPbXZqMEd4VnYzY0VkU0FHYUhfMkNObXNMems2MmJlMHdESC00V1JxWENoU1lhWWtjd2pxaTJ0eXFwdEpYYVRzS0Zza2NTZ1YybjFfR1RDV0d1MzdEVkdCdWItX0JMa1lIN1BrSkg1WUpudFRsZ0hvS0ZRelZiZ1ZOcEJOOEpjaU9meVNYeWJ2VUNpOURXSHZqSm50NnduQUJKYzhMYzZPV1RnYWtBZ1BFaWVCT2lpdXrSAcgBQVVfeXFMUGVRS1ltSXJ2T2VhV09kX2VPQjdxTFJEaGxTSVdZLURfM0ZFMlBDSmNENThEVFpBLW9WODlhaGVDWHU2TWU5eE5xZmtwdDI4WHhrZ1ZYb19Ja2tHNDhsZEhjSkRpalU1SmJIOHlyVmFrQ0swazdKNkIyc0lWVFlvWHpvaW90OWlZR3Z5Q1QzcExybUNjNHJUTHFEOGx6SmV3YVp3bFJzM3RhVDM1TEVDdnJxYzYxU0VnRWZEaE1fR1NLZW5WY2NLODU?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T13:02:00Z",
-      "likes": 72
+      "publishedAt": "2026-11-24T11:49:22Z",
+      "likes": 57
     }
   ]
 }
