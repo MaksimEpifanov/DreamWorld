@@ -1,9 +1,31 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_food_news_890500116",
+      "title": "13 часов на кухне, потом — в такси до двух ночи. Как иркутянка стала лучшим шефом Сибири - ircity.ru",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: ircity.ru.",
+      "emoji": "🍜",
+      "sourceName": "ircity.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHaUJ4MlROMkJaa2FxWV9MUGxUN19sYlRza3RsRU5nT3pKLUg5ZTZDODlvdWxqTm85YkRrRVNnU0RNWkx6LXVVZXRLbVgyUVJaeWdmamFiT2FwX3E5OWN1WA?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-23T23:00:00Z",
+      "likes": 18
+    },
+    {
+      "id": "p_food_news_96466068",
+      "title": "В Перми выбрали победителя гастрономического проекта «Народный шеф» - The World Inform",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: The World Inform.",
+      "emoji": "🍜",
+      "sourceName": "The World Inform",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLS1YdS1jTmZMNW1nZkNQaG1Rc0JaQkV5N0xXMDVBZVpxb3pEanZkcU9namFWb3hkQlFoaHJSVkJsSWVsY3dhRzhOMnZiUWFkTHdDU05nVXJ1aXgxOTJVLUlsMFJBZXktUVdCNWRNd1c5U2p4VkxoWEY3cmxVVDdkUnVCNXNaX1RxclhBeFlQTTE5UDI0NXMzSlZ6WVEzV25IM1ZLZ3d1N1ZiUjEz?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-23T20:05:45Z",
+      "likes": 42
+    },
     {
       "id": "p_food_news_1108323014",
       "title": "В Минске открылось необычное кафе беларусской кухни / Мой BY - Moyby.Com",
@@ -27,37 +49,15 @@
       "likes": 22
     },
     {
-      "id": "p_food_news_4080777787",
+      "id": "p_food_news_4259071951",
       "title": "«Хочу всё сразу!»: где в Екатеринбурге попробовать классику грузинской кухни в новой интерпретации…",
       "summary": "Рецепты, вкусы и уютные ужины. Источник: Е1.ру.",
       "emoji": "🍜",
       "sourceName": "Е1.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qTlM1cWJSMmhOeEs2bVE4ZFZtU2k0eDNkV0lycUktbmVic0tUdnNSNy1Hc0xyUzlrZWNFWmxwRnNZVzJxMmttWXZ6aWVTZ3B0NGJESmI1TzdCTWFWS3EweEZmaTIxNlVSaGxIaDBMZ0VTZW8?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ReFZlY0VSRllNZHZlazFOVm5vc3JPQUtJNmtWT0U1emJQSUo5T2pOOE5DalVZNXFUU2tXek9ScHE4WEN4S1FiMTZheEM4aTFRbmJzZ3dQUi0tS05X?oc=5",
       "tag": "Кулинария",
       "publishedAt": "2026-11-23T13:00:36Z",
-      "likes": 51
-    },
-    {
-      "id": "p_food_news_1496485083",
-      "title": "Не просто каша: как слепая старушка и ее дочь сохранили традиционное блюдо Воронежской области - Бл…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Блокнот Воронеж.",
-      "emoji": "🍜",
-      "sourceName": "Блокнот Воронеж",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWlZ6NXBCTjhDVHdHQi1UcXdWYjdCTktiOVJfZGMwMkd3ZGM4NkpfYnhNX1JRM1p1Rk5LWnpkRVM3Vk1ZZzJXeDYxa0ZpVlk2MTRXZ2xkaHRMY3RfQUdpbGZiVTB4SjlLLW5nQURsZVBsZXBxbFVkT1ZrWW1BUFZWeERHZEgtSXdDc0xMeElPbG8xc2l1amc?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-23T11:57:01Z",
-      "likes": 17
-    },
-    {
-      "id": "p_food_news_3683684923",
-      "title": "Колбаса или мясо в оливье – вот в чем вопрос - Gastronom.ru",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Gastronom.ru.",
-      "emoji": "🍜",
-      "sourceName": "Gastronom.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6ZzF1Wldyc3ZBQ0RsSHN3RzdRWFFlMEZ1b1cyOWptbTJWdnpJbTRUT0VKRExpRW55R0NsdjdpWG9hQm44RTgzQnlrSlBYTjFsM0dN0gFTQVVfeXFMUHpnMXVaV3JzdkFDRGxIc3dHN1FYUWUwRnVvVzI5am1tMlZ2ekltNFRPRUpETGlFbnlHQ2x2N2lYb2FCbjhFODNCeWtKUFhOMWwzR00?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-23T10:48:31Z",
-      "likes": 54
+      "likes": 50
     }
   ]
 }

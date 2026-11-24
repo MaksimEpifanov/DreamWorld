@@ -1,9 +1,20 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_psychology_news_1482523894",
+      "title": "Психолог раскрыла причины тревоги из-за успехов других людей в соцсетях - Здоровье Mail",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
+      "emoji": "🧠",
+      "sourceName": "Здоровье Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVA2b3p5LXVnVDhzOWtCZmJWTW90VVVBdzN5allKcEw3cDl3TU9GMUd0d1ZmTV9TeW8xdFFzY2Fha2VLc2NfeVlJTWJRSjRxblRCeHpxQVZDdWptNGxXSW5ibGhtQjBKZGxGTGd3ZnhkR3hZYWJldWQ1QVZLU3BPZ19zSDE5Nmp2T21KNGhPMGJNV1A0dmlBMVE3VDQwWXRRRjhiWEdtRTRJN0MzeTYtcQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-23T20:53:14Z",
+      "likes": 5
+    },
     {
       "id": "p_psychology_news_3936942589",
       "title": "Какие фразы выдают человека, скрывающего свои эмоции - новости Израиля и мира - Cursorinfo",
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-23T04:28:53Z",
       "likes": 21
-    },
-    {
-      "id": "p_psychology_news_2891273661",
-      "title": "Психолог назвал главные причины кризиса сожительства » Новости Уфы и Республики Башкортостан - UfaT…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: UfaTime.ru.",
-      "emoji": "🧠",
-      "sourceName": "UfaTime.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcUdOWHJ6QUQ4MXRvZkd2SXY5OS1xdDJNS2N5UTJrOEdQLURma013dWw3S3FxRkN2Q2hYNm5BWVlSWWhQd1hXUnBWVGR2YWJDeFZFYW42U3ZtdzVKbTRrR3BuLUxqOUlES0sxWDdLT0VFcFV6eml6VXhkbVZFRnFjRXRWMTl2OTZSM1hNOW5EdG1rWVE?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-23T02:52:52Z",
-      "likes": 43
     }
   ]
 }

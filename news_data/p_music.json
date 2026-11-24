@@ -1,9 +1,53 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_2264228354",
+      "title": "«Думал, что не дотяну до конца»: Валерий Кипелов на концерте в Ярославле рассказал о болезни - 76.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 76.ru.",
+      "emoji": "🎵",
+      "sourceName": "76.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NeEN2VVpzd2lXaWEzbi1Ic1NIa3N0TGZ0RFc4TE9lYlVnOXNrZEF1bjVIZXhrRE84bl9acXJJV2JzZnFRMzhQY2JRcGxtVko0NFlKTmtYbVp5VUZHSF9XbFV2QQ?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-23T19:42:13Z",
+      "likes": 27
+    },
+    {
+      "id": "p_music_news_1881317561",
+      "title": "В Иране высекли певицу Парасту Ахмади за концерт без хиджаба - Euronews.com",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Euronews.com.",
+      "emoji": "🎵",
+      "sourceName": "Euronews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSnpXM2R2QXJ5ZjRnT3FIVEVyTWFJQXVFYVBKZHlVcXJoN01rVFpUVGRXNmRWdUVoREVKcHU0WGZhWFgxbjVBbjlVR3B3b2hLNmtOOUVIWGQ2LUNvSDlYanBSZUR6dlpWd3hSYkplUGRtd3ROUzhIZEszdlhHR0s2VXFWYU1GcEw2blRVVkw3UEd4Z0RwMFpIX091NnRwNThsRFhLbVJ5OUhQZEE1?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-23T19:38:19Z",
+      "likes": 27
+    },
+    {
+      "id": "p_music_news_1358821381",
+      "title": "Иран: певицу Парасту Ахмади высекли за концерт без хиджаба - airpress.kz",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: airpress.kz.",
+      "emoji": "🎵",
+      "sourceName": "airpress.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWFKM21mcTdjMmFQMERlcG1SRFZCOFBhQ18yOHNaNF9oaTRZWnd3TlRpaW5kbFRqMWoxdVNLcXRsY0FUWC1NS2kwdkVSblpQd3ZoWF9UcVJGb1lwVW9xLVBqc3ppeXJoYmdzWkRIOS1XSU5idzd5ZnRfc0tFazBrVGwtX28?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-23T19:18:58Z",
+      "likes": 74
+    },
+    {
+      "id": "p_music_news_2841025237",
+      "title": "Концерт Дениса Майданова - Улпресса - все новости Ульяновска",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Улпресса - все новости Ульяновска.",
+      "emoji": "🎵",
+      "sourceName": "Улпресса - все новости Ульяновска",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KTWs1V3doY2ZWdWY3amNBSVNUQWk2Y19ic3hRQmpFV29JbG12eWtzOFdFX29Zbmlja1VmQ0Q1MFNMc3RScHhBVEw0U1d4QjRwXzNFam1lV0JETEpKTlVUd1JtZGs0d3JLakFLUm9Zc2U?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-23T18:21:49Z",
+      "likes": 70
+    },
     {
       "id": "p_music_news_553924533",
       "title": "Концерт певицы Славы в Китае закончился приездом полиции - Леди Mail",
@@ -14,50 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-23T16:02:41Z",
       "likes": 87
-    },
-    {
-      "id": "p_music_news_2843558803",
-      "title": "Рок-группа Cheap Trick сыграла последний концерт перед бессрочной паузой — Rolling Stone - UA.NEWS",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: UA.NEWS.",
-      "emoji": "🎵",
-      "sourceName": "UA.NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVTRmLVZEVkdSY3RjekVFNnZZM25kSEJna3RVR3lXeE95V0k1bTdwaHpnZW13X201c0FscjhtWG9KZXNnN0lENjZYVDZhMzJ3NGhqMlJhSTRnVzRKNmlqMk0yY3RSU09GRTk4ZThLUlQtMTBVaWQ1N29wUU05T0dlUkxLNDBfV2EteXA3eTU0R1VmNW5WNGJKVzlGbDBxUXRwQ1NPaG9FRmFGbnBpLTlkeUx0YXdJdDgwX1JMWVB4NA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-23T16:00:13Z",
-      "likes": 18
-    },
-    {
-      "id": "p_music_news_2714639876",
-      "title": "Группа «Мельница» выступит в Челябинске с юбилейным концертом - mir74.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: mir74.ru.",
-      "emoji": "🎵",
-      "sourceName": "mir74.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnRoeEw0MzF5cWJVYXlPaml3R2p1RFNDTk1RRUJrcU1xV3dSMnY1eXBDdHIwTTlSM3pGWWJRc2pkTHRnVHhEMjhHbG9qWjBCLTJJMV9mbER0VWU0aVRJUGxwWmhXSXhSZzNmSUxCLXFtT3hwMkR3bi1SN2dQMzJvQjQ3MWpaRVFXSWZCeGRBa2pWNEJZalE?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-23T15:24:03Z",
-      "likes": 40
-    },
-    {
-      "id": "p_music_news_1188856972",
-      "title": "Концерт Славы в чайхане на китайском острове Хайнань: реакция местных жителей и полиции - ТВ Mail",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ТВ Mail.",
-      "emoji": "🎵",
-      "sourceName": "ТВ Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FGUm5NY0J5X3dQOTYxem83UHhhR011Q3N0RUNqNUdqRFQ0RnAtcmRWdHRMTTNFZFU0MVpVeS0tbldSOFQ4LUFpakNLcVREUHZIQWdnSFVDbG9qZ1hVdmR6MkhKa0k2Nm9YNlhYMHk1Y3hNdHR3NzAtZ25yYm5CVHNrSFI2YWdEVHFpRDgxR0RaVlVzMUI5WDl6WFFnRzVlMXhRR2s5MFk3Zw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-23T15:15:00Z",
-      "likes": 20
-    },
-    {
-      "id": "p_music_news_1721657751",
-      "title": "Группа НА-НА: как прошел сольный концерт и премьера сингла «Живой» - «Русская Теленеделя»",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: «Русская Теленеделя».",
-      "emoji": "🎵",
-      "sourceName": "«Русская Теленеделя»",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN19SZEt5UExMSGZjZmdCVWdHM3hwT3dhOGpBdEpvTUJQdTlaYmtWMmZDblJkSDk5SVpxdWd5MFhhbjlfMGJLVzVjaTN5bkVFbTUwMFgtLVhHdTY4V3FDekUxMy05WExCZmZ6VG82WWlUeXNTVnFuR0daeHdvOUFEeUJ1S2lod0hnbVBqenphSEQyNjhsb0JCWnUta2tzel9yZDlj0gGjAUFVX3lxTE83X1JkS3lQTExIZmNmZ0JVZ0czeHBPd2E4akF0Sm9NQlB1OVpia1YyZkNuUmRIOTlJWnF1Z3kwWGFuOV8wYktXNWNpM3luRUVtNTAwWC0tWEd1NjhXcUN6RTEzLTlYTEJmZnpUbzZZaVR5c1NWcW5HR1p4d285QUR5QnVLaWh3SGdtUGp6emFIRDI2OGxvQkJadS1ra3N6X3JkOWM?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-23T15:03:32Z",
-      "likes": 62
     }
   ]
 }

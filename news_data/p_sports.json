@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3796852767",
-      "title": "Ларкин дебютирует за «Монреаль» в матче с «Лос-Анджелесом» спустя день после обмена - Чемпионат",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "id": "p_sports_news_2172360036",
+      "title": "«Айлендерс» — «Торонто»: во сколько начало матча НХЛ - sport-express.net",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
       "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMk8yX2xLcG9YZ2xvWVd3ZHZjZmoxU3ZBa1h0cVpsdXpRMm00b3ppUFM3T1ZudWstaXVlY3BORlpTelB4b2g5VmlWUzNsNTZ4aDBPODFYYjY5Q3RjTkxmTjgzMV9uTFdSODhlalBXNUV0eUY3SF9tMFMxQWdwU1FMZXZ4ZVVDTDItb2dfMF9YU0xIaTJKMXBHcnkzVjVqXzh2UjNlWl9VZU9PNWdDWlA5c2QzUEZEUU92dVFXMzFkYWFWT1FjNmJtMVp1OVg?oc=5",
+      "sourceName": "sport-express.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN2h1Tk1iTlZkenlwczN1Q1ZmSm81YUp4cDZYazAzbW1GRnk3R1BNcU5ScE84Q2EwZVNJTkhMcWNTSFRvQWpnN2xOblFNYWNaaWxHdmJPbXMwVlkxeE81NU5GN3BTU1JTbGZtVlNLLU9QcE9QdldkZ2ZsQml0R19DOS02b3I1V1hvMU9sZEFxd1o1ejQyMkxKX3VuZU1rYlVFbXlfYWZjdXpJRWEzMFdEZzZaSno0RFBSV3VUXzA1NTZhcUNKTmFjVGJiRmxGdTNVRUhQLXh3?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-23T17:52:10Z",
-      "likes": 14
+      "publishedAt": "2026-11-23T22:30:00Z",
+      "likes": 72
     },
     {
-      "id": "p_sports_news_1405272021",
-      "title": "«Ванкувер» отправил Никиту Толопило в АХЛ после неудачного матча с «Чикаго» - Новости Хоккея Белару…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Новости Хоккея Беларуси.",
+      "id": "p_sports_news_417038339",
+      "title": "«Монреаль» — «Лос-Анджелес»: во сколько начало матча НХЛ - sport-express.net",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
       "emoji": "⚽",
-      "sourceName": "Новости Хоккея Беларуси",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQkttUTVhYzVNaV9hZzdJVUZMOHpyMy1wM01HR3FXMWF6M2lxQW9idThBSXpaNFB0a2w2eFVuVlN5RzZsMUtvbDlScjc2VXQwUEpZUW12NmtmSlhzd3lMU1ZPODhVbDNHTWh6cDN2cy15ZWkyLWtRSjVyOUFtUks1Q1lKUmJGR2hnT2JUak94SHBNYmZKRFpIcjRzeW1YOEVPWlJEUUYwVlNMRFpjZ042Z2taYkN0MFVyeE9qNmdWdG1PdE0?oc=5",
+      "sourceName": "sport-express.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTVBTaUJuOGpuTThkNXJTNktvektBNWlhQldFUG84M2ZOVVRQSjNFN08wUGhaS1l2ZmZXY2VfSDA3SWJjZ2NsWUpvcHJLMG9jRno3bWZsbmNhXzhWT3l6NWNHdjh3UHUwaGVQTC0zeGRBMkpGYzZ6OXp2cTMzRVh0Rjc0bThJeDk4LUthZTJxUzJqcVBaR0FGRTJRZHVNTkV1WVNwYkx5OE1zRk1raUtKWk1mTWl5RkRJV0Z5c0F6ZURzUXQ0VmozWHBfOS1FdW5sbm9YejRzNUZMeVU?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-23T16:47:13Z",
-      "likes": 90
+      "publishedAt": "2026-11-23T22:00:00Z",
+      "likes": 23
     },
     {
-      "id": "p_sports_news_1776803497",
-      "title": "Обе-Кюбель об Овечкине: его бросок – лучший в истории хоккея - Allhockey.ru",
+      "id": "p_sports_news_1317298825",
+      "title": "Матч Нью-Джерси - Коламбус 24 ноября 2026 - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
+      "emoji": "⚽",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUmFTdDFsSVdxMnZhcFJrYTU2LXhIZDUxYjBKSGNRSm1oOTlLZlJYc2FfdnlOdi02VU93bmZLMTF3X25LQjBXdi1uZE9RQkN1OFpqNFdfQmlDWmJMM21TZ21CakE3Z1M2Z0V1TnZJMTZaVTk1blhpSkt6X2Z1Y1RUNHI3dktKMlA2Rjc5d3F5TDZRN2t2WnRCRURGdXR5dw?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-23T21:59:59Z",
+      "likes": 33
+    },
+    {
+      "id": "p_sports_news_2018184790",
+      "title": "Монсон обвинил Гретцки в лицемерии из-за позиции по российским хоккеистам - Спорт Mail",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Спорт Mail.",
+      "emoji": "⚽",
+      "sourceName": "Спорт Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04TjJzd2I4ZzlNTE9JajF6SVNYdVhFSWk4eDNnQkcya1N3dTJ1VTgxNEFNRXM1NEJxR2V0X3pRd2ZLc3dwb1hZcjBlUlZCYjcybDJPUDQzenZ5VFE1RjllNnlxbHY?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-23T21:28:49Z",
+      "likes": 80
+    },
+    {
+      "id": "p_sports_news_616016245",
+      "title": "НХЛ: расписание матчей сегодня, 24 ноября 2026 года - Allhockey.ru",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Allhockey.ru.",
       "emoji": "⚽",
       "sourceName": "Allhockey.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY0E4c1ZadEctVnFjdDNXLUI5TngtUUgwZjdLbTJOTXhwTDBxdlVXeExLcmhwSnlHZGszMTdzSmFNV3lRUFRnUmFvMnpqYVQ0YlNNbUx5bEpIZUhYQXM5aDdNempJV1UwTVJHZ2haU3YwVkZOdDZDVGJHRW95QUVza0FNYWU1UEgtR1RzUmpFdEsyVHBJZ0o4WExPbW8yZkRk0gGfAUFVX3lxTE5EMkFmaE8wNlU1dnpaZUV3QXFHZDVVQWdmTWdYNUx2UzRlOGNYMWNBWUdVbXlSZEV2RkRoRjA0YUltX3oxU0t3NlBlRVNlMEJ0R2FoMmdpanVDYWZNUGgtR3pkYmxhYUNPNkpFRTZjNDFZSDBBR0N2V0hmQWUxbmpqSXIwdTJsUGRpNGpVanJUX3dGRXVKZklfXzJ1NVFPRQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGZiVmpZVHdHQjJNTXNRb2l6UXFpNHplRHE0czVlZEowbnVXYUd1RjNVZWJkeGtFSmNlYmVCVlljdDBySE94MXd2dXgtUEJVYWVWU1FkV1RHVWpqaTFaczAwSjRqdjcxU19PSjNaWGF4TVozNU5YOEpCVXR3OHJIdXBBWi1RUk10QTRaVW5GSGFfUDV3elHSAZQBQVVfeXFMUEkzb2lPSnRjRjFSUlQ5U21DOG8td3RYMVd0TlRtRFlaUWhLb0toTW80NnZ3YmVuWWhKNzFWa1pyUktJU3o5OXVPd3Y0VU1KT3ZwVkY2OVVJdXpKdlZHdXlhWS10S0thVDFPNmJabi1wNEJTTWNyNVFucjdsajExWHAwdHVHSjNIQnJZdUU3UUNCaWlscQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-23T16:37:00Z",
-      "likes": 81
-    },
-    {
-      "id": "p_sports_news_4012868900",
-      "title": "Канадец объяснил, почему у Овечкина лучший бросок в истории хоккея - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
-      "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcHRyWEY4dGxnZ2ZUR0s3V0xZUnJKV1lKWkNKUXp6dm1QRHNhZG83V2ZEMkZKZm9idXZBT0xwWTFJXzVTRmFhdExXZnd5SUdaOEtyMnVjSE1nd2lRV3Y2dGl0cEdDUEtzbGIwVF9pbGxpTzl6WkR6V1hBVS1nWlByRHNxYkhzeEhLQm9YQTZac282TDRhWjJOZUw1NTZoci1q?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-23T16:09:46Z",
-      "likes": 13
-    },
-    {
-      "id": "p_sports_news_2174951130",
-      "title": "Легенда НХЛ выступил против позиции своей страны по российским хоккеистам - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
-      "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlhmSnRvSnBnWXEwWmdoOWFNWHVEeUFETWFlWkRmMjdYaURlcGd6SlBsWTJ4Q2FqQ21HZDJ2Y2RQQ2JCZjZQQzBYSi1UMVNvd0NPeXRJc2tCUkpZZXhUNi1YdkstNW5xZVBXTjcxWXJPc2h6TGY4ektBRDdiUTA3dnozZ2NFaE5DWGdQeDJnWUlfQ1RlUUZ6Wkl3SThTZ2ZhZ0hlNEp3?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-23T16:08:52Z",
-      "likes": 9
+      "publishedAt": "2026-11-23T21:27:00Z",
+      "likes": 45
     }
   ]
 }

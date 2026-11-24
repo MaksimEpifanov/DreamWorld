@@ -1,18 +1,29 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_3955887333",
-      "title": "За 9 дней преодолела столько километров, сколько обычно за год: жительница Урала прошла паломнический маршрут по кукуру…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Хорошие новости Челябинской области.",
+      "id": "p_travel_news_1822159355",
+      "title": "Москва за 5 дней: пять маршрутов по разным районам - Куда сходить в Москве",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Куда сходить в Москве.",
       "emoji": "✈️",
-      "sourceName": "Хорошие новости Челябинской области",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUk1vN1hRclNUekhVVGNSeXV0Y25POHFwa19wSG81d2liLUN1ZVV1TjE3WDRic2FpTEN2MlB6QlRXMEpSOHgwNUx5d2wxZlRfcElMalNzMmdQd3hDRW9rdTFUdW84VEpzVVZvT1VLbG4zcXFHVVE2aGEzcjRIUkRyb1BaWUxFemdIZ1BnLWotTW1ZVEswMVlqT2hWUjY2bXdObmpVMUUyZk1yVkdoRmk3RE1CRlpUa2dKR3NETjZvRE01eFRaUnBvWlBnODF6MThfaVdtMlhEY1pZZnhpOXpEWkpQa1lIYi0xRjFwUy1xUHRvMzdOT0R4eTFnLU53cGFK?oc=5",
+      "sourceName": "Куда сходить в Москве",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zS2FNNkY0ZVVZMUVKVDBRbWltMno5VWc1ZHEwcGxzM1NCeHVLRDVtcGxOUUU0U0dQbTRGdjludDhDM0cwWTZla3UzNW5FSDM5WEJOLTYzZjZRUERlY0tCdS1GUllDMU5LdnM3OVM3X0s0dlU?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T17:08:56Z",
+      "publishedAt": "2026-11-23T18:37:02Z",
+      "likes": 56
+    },
+    {
+      "id": "p_travel_news_2518153026",
+      "title": "Деньги ушли в город: как Стамбул стал магнитом для туристов, а пляжные курорты теряют позиции - irb…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "emoji": "✈️",
+      "sourceName": "irbis.spb.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGpTUTZ0dUc5S1NpbVBDbmlOa2lhSUlMZTZ0RDctV2x3OFdNUFFCbTdGX3k3T1J1ZmM3aEIzMHZZR0FKaFNjSnBiWjRKTmlnYnFJUmRZWlNWSnJTSUdteWwxLXNDUnR1aEJPZXprT01oQUlXTklLSXo3WHBLLTZjQ0lVUTNlZlhpRUNvZVlIZU10aXZCVUFGOUc2U3hRMm1kNkVRelo2eVpIeUhaQWdnSHhxcGdIM3Bwb2VWelYwMWhmeHNCckZqWGVWaHJIMEQ0?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-23T17:54:42Z",
       "likes": 69
     },
     {
@@ -27,15 +38,15 @@
       "likes": 50
     },
     {
-      "id": "p_travel_news_2518153026",
-      "title": "Деньги ушли в город: как Стамбул стал магнитом для туристов, а пляжные курорты теряют позиции - irb…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "id": "p_travel_news_1798489135",
+      "title": "Министр туризма Псковской области Марина Егорова: \"туристы хотят проводить в регионе больше времени…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Интерфакс Россия.",
       "emoji": "✈️",
-      "sourceName": "irbis.spb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGpTUTZ0dUc5S1NpbVBDbmlOa2lhSUlMZTZ0RDctV2x3OFdNUFFCbTdGX3k3T1J1ZmM3aEIzMHZZR0FKaFNjSnBiWjRKTmlnYnFJUmRZWlNWSnJTSUdteWwxLXNDUnR1aEJPZXprT01oQUlXTklLSXo3WHBLLTZjQ0lVUTNlZlhpRUNvZVlIZU10aXZCVUFGOUc2U3hRMm1kNkVRelo2eVpIeUhaQWdnSHhxcGdIM3Bwb2VWelYwMWhmeHNCckZqWGVWaHJIMEQ0?oc=5",
+      "sourceName": "Интерфакс Россия",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWGZHcGNPcG5HbGNDcGpERWZGUkZLeldCbXctR1QzbDVtVlR6RlMtY2ZybVhfek5wNndsdkM0ZVQxLVVmWFBUc1Z3RDFkSjZWV1VUMkNPREtRbkhyTnVBY1Y5Nmc4NkNtSVlVZDMxbmR6S3QzMEcwN2tOX0lqNDZlSEIxS0NyS0hIZEtJdVViSmQ2TXdnVVZvVU83eTJWMThmUjJUSi1ZU2dxR25qd29XTEVDY3djQmlaTElrYm9zZXpGRERXd3UtMzdsb1RybGFJS09neE83aG5SZXprbmlZ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-23T15:53:31Z",
-      "likes": 69
+      "publishedAt": "2026-11-23T15:26:00Z",
+      "likes": 36
     },
     {
       "id": "p_travel_news_2583300539",
@@ -47,17 +58,6 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-23T14:55:00Z",
       "likes": 12
-    },
-    {
-      "id": "p_travel_news_471732838",
-      "title": "Авиакомпания Sun PhuQuoc Airways запускает свой первый международный маршрут из Дананга, обеспечива…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
-      "emoji": "✈️",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONFpUTFJ5aDJUMU5UcHEydVlZbndqOUtrUGZEb1hYM01rVlNjVFdBd3RidXRvMmZ1OFhEYzcwenpnYW9tZWRQMXFaM0FTRENjUFVuWlVpXzdjVVZYZ18tbXptMmpzSm11WGhKWlpRSGQyQVlvX09pbThnUEc4bmg2VHZUWjJ2MmFuM2Q5M3djZ3YwcDdGSUNHQ29WOWJzdkNUdnpITzFWUVZlNnFTc1FWUHJuMTRhV3JE?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-23T14:40:12Z",
-      "likes": 46
     }
   ]
 }

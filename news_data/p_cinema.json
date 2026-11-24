@@ -1,9 +1,31 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cinema_news_3213835011",
+      "title": "В Москве прошла премьера сериала Владимира Бортко о советском вожде - Newsroom24",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Newsroom24.",
+      "emoji": "🎬",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CU1Q5czcxM2RGc0xvalg1QmpwejdLaXk0bk9lcjBzS3BhMl91TUt5a0doQ1o0YXN4eTE2S01mOWFsZXlrbnJzOXNxbkpYMjBJWHBKSUhKcml0YWM1NndIdXc5YzFHQQ?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-23T22:07:42Z",
+      "likes": 40
+    },
+    {
+      "id": "p_cinema_news_3573336103",
+      "title": "Сериал «Террикон» (2026) - сюжет, актеры и роли, кадры из сериала - Штуки-Дрюки",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Штуки-Дрюки.",
+      "emoji": "🎬",
+      "sourceName": "Штуки-Дрюки",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zSHRQV3hrNVgxaGYzTElsZnN3WGd0cHJHdVBkbUNtdDZsT0NJZEphRzZ3WXBhV2wzWl94d0dHT2hlb3M4THcyaTg3ZTZQZklDRTRBRVhLUWVfT3pG?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-23T20:19:42Z",
+      "likes": 75
+    },
     {
       "id": "p_cinema_news_521688646",
       "title": "Готический Миркурбанов, величественная Судзиловская, оживленный Сухоруков, еще сильнее похудевший Семчев: премьера «Ста…",
@@ -16,6 +38,17 @@
       "likes": 41
     },
     {
+      "id": "p_cinema_news_3227952656",
+      "title": "РУССКИЕ ФИЛЬМЫ • Сериалы 2026 • Наше Кино - MAX",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: MAX.",
+      "emoji": "🎬",
+      "sourceName": "MAX",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB3SFNRaDllOTQ1Y2ZVbE5fVUVOMndKRTUtM05UUTFQUlk0QURBVW9hSFd2UE1IS3RJZF83U0pCOWVQd2ctb210Zmw2SQ?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-23T17:21:57Z",
+      "likes": 42
+    },
+    {
       "id": "p_cinema_news_1317901348",
       "title": "В Москве в Колонном зале Дома Союзов состоялась премьера сериала «Тайный город» - Пресс-релиз.ру",
       "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Пресс-релиз.ру.",
@@ -25,39 +58,6 @@
       "tag": "Кино",
       "publishedAt": "2026-11-23T16:18:56Z",
       "likes": 31
-    },
-    {
-      "id": "p_cinema_news_4181310174",
-      "title": "Все не то, чем кажется: на ТНТ выходит мистический сериал «Тайный город» о скрытой стороне Москвы -…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: http://tricolortvmag.ru.",
-      "emoji": "🎬",
-      "sourceName": "http://tricolortvmag.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3ptOHNqRnRpSUM3QXgyZmlMQVdVOFFzbU1sQ005ME5SbHhLNVdEM1Z1NVI5V0lXTjE1OUJUUS1kcVRydVhaVnEyLTZrSkdSY2JBNmNCUDNmN3d4b0otRC1lLWE0MUtEZEU2NXZmQU1VSUdXTWYzS25ZSk01dlFBRHp4Zmt3MHAteEVlTUd0aS1vbHpSaDdfdjFDemxGaFo4STgzSEd5ajVwS2lnWEFCdVF3RUVjSDlJdEE?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-23T15:39:52Z",
-      "likes": 16
-    },
-    {
-      "id": "p_cinema_news_1750521710",
-      "title": "«Бегущий по лезвию 2099» — дата выхода, сюжет и актёры сериала - Канобу",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Канобу.",
-      "emoji": "🎬",
-      "sourceName": "Канобу",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNazk5Xy1sUVRWM2xIYnlJTW05RE1kY1NqSDhWNmtyUkdxOXo0eUdBTnNRb1lRdGZNMms3Rm04MlV3LWxhT2ppakp6dDNvWEQ2LVRhaTA5V05DRGJ6emhfekNja2FiMVlaRWNiRkpwT0Z6Q2E1SDk5QmFWQUo5Q0dRVlRKQmotbjZLM0xqSXkzR0xsVVdjbTZSOS1ORUtMSGw5ZDE0LUstUFFTMm1ldkd2THY5SEhjM19hMjlXOFRDeFA3eHM?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-23T15:31:19Z",
-      "likes": 19
-    },
-    {
-      "id": "p_cinema_news_3459260157",
-      "title": "В финальном трейлере \"Мстителей\" показали много Криса Эванса (видео) - УНИАН",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: УНИАН.",
-      "emoji": "🎬",
-      "sourceName": "УНИАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT1BDc0JTWER5RTZVUi1ucUJOT25PSnJsT0gxRU4xcjh6QjMxakNFVmw0bXhJSVFpUlhVSW9xUGlfWlNQWTBxVERMbGNHTzFBb3A5a3BHNXYyWTVlOVozakJFM2hhNDEzc1JMS2JVS0Q1aDZ4RHoycU1NcEIwTDhEa2E4U0YyejN3d3gxSW5ycXlfcEdHRmhDenE4cHZVN2xNUUZDLW5nOXpSd9IBrwFBVV95cUxORUZHcVV5WkZrVm5CaHNmdFZqSDhsN0ZtQUNibFFjM2pEVDh5b09YdkdIeTFPQk16ZUptVFhOallSdjVET3lmMTRmNElMX3hVZE1GMm0yb0xfY051MmtVXzZjemtjRjFaLVpDSUYzUlhHT0FLaXhZdEREWlFwY3NrSVViaVczOC1aLVlaakM5VktfTnhLak1tSktfbmRFVzYwclNjM3lIVWtWb1Z5ck1F?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-23T15:29:00Z",
-      "likes": 24
     }
   ]
 }

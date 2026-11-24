@@ -1,52 +1,41 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_662124337",
-      "title": "Смартфон Samsung Galaxy S27 Ultra: Shorts и ИИ - DGL.RU",
+      "id": "p_tech_news_2033409940",
+      "title": "Apple не торопится с новыми функциями ИИ - DGL.RU",
       "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: DGL.RU.",
       "emoji": "💻",
       "sourceName": "DGL.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCbmVFQWtyWmIwNU5rb0hBRTlZc0lmc0N6WkduMFZQSkduS0ozekZ1LVJaRFhhVEZ2Qm9Zb0ZxQ0kteUtpcUU3S3RHcDRIcm5TZjJBZWxDSDA2U2FTU3BFSkhEVFc2b2VTYkpTZ0g5Ri1NN2RpelNDR1l6S2Qydw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2b2psbzZEa1pCX3dRcEY4SUYxQmNGSnp1MXdzS3JqYldheGpmbFFOaW1aY3FOMjRGOHlJdWl2ZVpNdTBSRVZlUHY5dnJLbzdlX2FpQlRPUU5XRWhNZUNIUFZDMjZUM254eWE3NW5tYVFaZ041NjYxVEZDVnhzTGs?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T17:33:45Z",
-      "likes": 8
+      "publishedAt": "2026-11-23T22:49:17Z",
+      "likes": 60
     },
     {
-      "id": "p_tech_news_2187080847",
-      "title": "Воронежская область расширяет применение искусственного интеллекта в медицине и городском хозяйстве…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: De Facto.",
+      "id": "p_tech_news_447379480",
+      "title": "Аймачным больницам переданы портативные цифровые рентген-аппараты Fujifilm с искусственным интеллек…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: open.kg.",
       "emoji": "💻",
-      "sourceName": "De Facto",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYXg1dFZxMGtsODEtcmFFYkVvS3ZhaGdxRUpPY0VSVWc4LVhoNXoxTXZwYXhBY1d5bVBBcGFEY1lvR1k0dUJ3MDNMSFFYNHM0eWR6amhGdi0wU2FyQ2gteVpLRWtXd1B4b0pqWkVXUWxoVGlkUUFyQzVia2NZbnQxc1haSEExenl4M2tZM0N4X3RaTmEwak93aksxZ1gtdFNjWmlIaDh4Z0xucmh3SHlFZVMxdUJWcEp3MGFXU0Yxei1lWGZBanlOaVB5Y0Z5b1FnbW5palQ3Y1FYMDlFSkRZOEwwOFM?oc=5",
+      "sourceName": "open.kg",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTEtrYmd3eVYyV19xN2U2VzVvM3pYNXVTcHRHajMxSUlXSHZOVFNUbU8tSDVpVG5SSlpxTzVWSVdSdnNUTFM3N2s1REx3QWQ0SkZSazZYOXE2aEViRjRKRV9XSnFmTkJRYzYySUE3d0VVaEFHQXpjczQ3eG4xSWdFZ3hSZGQyLXRDOHNsTHdrRXRXenYwX2VpTFBLVG5UZTctNnhtZG5NNXdaSXFoT29iQmdick91T25DWjRrcHVmM3ZXcnlpSjA2aGY2UUhubmZIRkliT0hJSU1ueFEzVFNhcEZB?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T15:29:08Z",
-      "likes": 52
+      "publishedAt": "2026-11-23T22:18:25Z",
+      "likes": 62
     },
     {
-      "id": "p_tech_news_174041413",
-      "title": "Infobar Zero: телефон без интернета от KDDI в стиле Nokia - Daily Beirut",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Daily Beirut.",
+      "id": "p_tech_news_311751366",
+      "title": "Стало известно, что из себя представляет загадочный ИИ-гаджет Nothing — его представят 8 декабря -…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 3DNews.",
       "emoji": "💻",
-      "sourceName": "Daily Beirut",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPd2FJTFNjZ19hNlFiWXZudmhwbVNvd1NBYVhLNWlkQkM1UzlPQVdCYk00NnI0ZDlGTUIzOGJiZUZzakhYeU1NOUpaSkNNRUNQVy13V0VHUHNvcUV3ckp2MTlJUnRnOTZKdWJQbEotYkMyRXpJVUFOcXdZVURjdVpBblRrbWgtZWJIdzVPMERHMEdIUGxfTTZVZUdFbEJISGhCcm1jdlRoTWZTX2VOdEh6Y0k4VEVQc2dDanVtVEFZNUdHVzFIY0xHXzFCdldPeHhLN2trTC04QWdFOTBhR3I4TzRyZ29LZjhjX1RMZjJkcDQwTklxV2RIOVlzbzk0RzJmNVFuWEM2N3VGRW81MTRHNFdOT25nRnM3cnZjVFBURTNDWjktQlBuU3B4TFJZYnF2WkR4RWwzWVdVb0oyVERkU2l1eTV4dUNOZkdDQ093VUhuM2VRRjN5VVhTSngwdnQ4UWM4YWhJMTc0SFdYUFBmX01fTzZJVVhoSjZ0b1cxcm84WU5nUTR3U292TWNiZElMbzZoenB4Tm82WmdnMmVhMnVHYkNyVVNWaUVfSmNxeVVCX2RVVjdoZFhYSS1VY3RZd29US3ZVNFZJRUt0dk5INktTYzRVaHViZ1RrOFpaeFp2UVhrckdqUzVxOVFQSXV4eVhZN2QxTFJOUmRKSXk0YzJiLVY5cnJiZWJLSWdvSEJaQTNmc3c?oc=5",
+      "sourceName": "3DNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBnTlJSNGQzaDc2UXU1SXhGOURnbmNHbTVKRnZPbUlfNFNMeE5TRzBjRlBXSHNsZ1BsZ1JJc25n?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T15:16:27Z",
-      "likes": 44
-    },
-    {
-      "id": "p_tech_news_550740747",
-      "title": "Вместо красивых фото — пустой счёт: МВД предупредило о новой ловушке с ИИ - www1.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: www1.ru.",
-      "emoji": "💻",
-      "sourceName": "www1.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWmkwNmVBS1hKRGhnWTgwX0lqWkpVa1lfUUgwRzBySVhsZy1IUHY4dlNFYzIxT0NMOG14b2p4U2pFaXk5NjRma2J0Y0RKQUQ2MFMyODhtY3BjdlFXTlZYTllwdlRJUTBLdGtucElvbjhpXy1wNEUyRG1KRkxYMWZ0LXNYa01fcG5CaDlEeFgyWEpRVW4yUS10NFRCUGFiTmtoZTRmUlFLcDlaU1nSAbABQVVfeXFMT0VKUENYelJJc043dElPUWxvTV9YeGZ2T2VyT19jWlNVMDY2SG1zcEQxNnpXTl85OWtwMWlhMHFQTFlydE9wamtKekxHRWtrb1Vnd0lRRmVGTWYxMTBRSmNpN3l6Y181QUxQYVpCM0hkZkJjUWFYbDNERkdYS1l0ci16Qy1QZW5pNzlrWWstelEzMjlNS1BLYldJWl8xa2xWZF9RZjJNaWpFbjlCVzd1VDk?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-23T14:45:00Z",
-      "likes": 53
+      "publishedAt": "2026-11-23T21:08:00Z",
+      "likes": 90
     },
     {
       "id": "p_tech_news_1131820721",
@@ -56,8 +45,19 @@
       "sourceName": "Компьютерра",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ccm15Y0tOWUMwOElURDBkMUlXQmVNQ3YxYVFIMGhrMDlOVjhUUElaM09rM09NekdmN2pWY2VLcHJ6Q3d6NExVSDJabmxoNzNxN1V4Z1NtLUZNNG5PY1lhSzZnWkJJMkdiTjlKVQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-23T13:48:42Z",
+      "publishedAt": "2026-11-23T20:28:46Z",
       "likes": 65
+    },
+    {
+      "id": "p_tech_news_3136947898",
+      "title": "Z.ai представила ИИ-модель GLM-5.4, которая повторно использует одни и те же слои для более глубоки…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbGdybVRfQmhTY29ueGtGbHE1UjRzU2V3SXhHNFUtd05mcFVtdGlSYmRaQlBRaUhiMHlxWEFfUTF2LWdhSW5WcnZBc1FZdFJYMnloNnVWTzBQeFJtU2VHWTlyVFVQSm1PRnB1Z1dlSnpPSGhmQkZDYmRfanJhUDktcWkwamFqWURoUHU4dkl4WXpaSl9tM0VVZkNHdTFteXV1SHNueHlNVS01ejN5SFZJOEZocGZiQnB6RF9YaHpjMzM0RXJOaS1YZVQteVV0Z2Y2TXBLNlBnaTJYdw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-23T18:01:26Z",
+      "likes": 84
     }
   ]
 }

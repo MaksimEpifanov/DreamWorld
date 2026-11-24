@@ -1,9 +1,20 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_art_news_3650617297",
+      "title": "27 ноября в ММОМА открывается масштабная выставка «Искусство жизни» к 150-летию Петра Кончаловского…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Москвич Mag.",
+      "emoji": "🎨",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPem9BbUdQdjhNclFKclB2a1dkbUVVekpEOERIYnYyWk05YUxhUmRWU2FwYl9Ua2tjTDNsWWY2UjRKSUpoREhfbmFYcHR1WTNyeVRnM3N4OTVZZ19qMlJhRXJCR1hacFlPMllTNS1qVHhVb01rWXZjblNIZnBxbTlHalFwcFZ4ZFlTZ1p5eFIxSURFVFVMSm1IUFkzdHJ6SC1GZGt5Vkc4TmVnN0Z4NzNFVlF2N0dudWhOWXlaMUNiTmZWYk1ObnVISHl5RGRRRTA2?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-23T18:04:01Z",
+      "likes": 37
+    },
     {
       "id": "p_art_news_4183199877",
       "title": "Onemizer открывает свой временный музей в департаменте Сена-и-Марна - Sortir à Paris",
@@ -14,6 +25,17 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-23T17:30:39Z",
       "likes": 49
+    },
+    {
+      "id": "p_art_news_1394035351",
+      "title": "Выставка «Кавказ как теменос: пространство и время» открылась в Ставрополе - prospect.com.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "emoji": "🎨",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDM2ejVGTlNzMkpSd0FKeE5CM0NnMFRpMUgwSXdkcHRKRzRRMDlHQnlLQzNwMUxxcHI4SURZUXdJbXIxVjNIblFHcjZUWHQ1bTk4dmFRSk9sTFpheFoxelZVV2dpS2w4TjVQbTRZbmk1R1RxMUxYOGhtVHg3ZklLWFhUZldSSHFvZ1JXMmpqQ3lfY0Z3Q1dLVjVyRjFFalNfN180VXdZSGFqQTdzUEhUMlJPVQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-23T17:01:02Z",
+      "likes": 25
     },
     {
       "id": "p_art_news_3822551956",
@@ -27,17 +49,6 @@
       "likes": 81
     },
     {
-      "id": "p_art_news_1394035351",
-      "title": "Выставка «Кавказ как теменос: пространство и время» открылась в Ставрополе - prospect.com.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
-      "emoji": "🎨",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDM2ejVGTlNzMkpSd0FKeE5CM0NnMFRpMUgwSXdkcHRKRzRRMDlHQnlLQzNwMUxxcHI4SURZUXdJbXIxVjNIblFHcjZUWHQ1bTk4dmFRSk9sTFpheFoxelZVV2dpS2w4TjVQbTRZbmk1R1RxMUxYOGhtVHg3ZklLWFhUZldSSHFvZ1JXMmpqQ3lfY0Z3Q1dLVjVyRjFFalNfN180VXdZSGFqQTdzUEhUMlJPVQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-23T15:30:24Z",
-      "likes": 25
-    },
-    {
       "id": "p_art_news_71797126",
       "title": "В археологическом музее Новомосковска открылась выставка творческих работ Марины Кондрашовой - НОВО…",
       "summary": "Краски, свет, вдохновение и новые работы. Источник: НОВОМОСКОВСКАЯ ПРАВДА.",
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-23T14:03:44Z",
       "likes": 55
-    },
-    {
-      "id": "p_art_news_1496569406",
-      "title": "В Музее нумизматики впервые пройдет выставка об истории религии на монетах - prospect.com.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
-      "emoji": "🎨",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ3AtcGZOMUpVMkUyZi1qT3hKWXhMWlFMZ0xpaXUxOFN5bGQ3U3NMVFZRaUNSVkR3blE0alNBRmo1VkFRQTc4Tk5KT1FJOE1FaDVvRGxENVlVSUVoNnZkUjY4dGpJM0lvZUhoV0pEZlpqTVpSQnBQMUhSRU9aTEJud25qVER3Y01HVzZ1dXg5Tnk5cVlYU1FjdjBRQWxROXlXdlprOWdZYXkwUmVISTB5clc5NFU5ZjA?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-23T13:54:29Z",
-      "likes": 63
     }
   ]
 }

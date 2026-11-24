@@ -1,9 +1,20 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cars_news_2460706776",
+      "title": "Кроссоверы с пробегом до 2,5 млн: какие коробки стоит проверять - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS05VanV1Z1E0V293b2EtZXBkN3NjdG5ELVlSYjY4QW13RjdTLXdMVWgzUGptVUJaN3RzODBEUXVSNzZVRGZMeTEwbUkzRE1ncW9iMXZDVEFULU1hQ2gwalNvWWZoZkREWGhKTGNkR0d2YVdVMjZUQU9rbi1oX0xvVGZTemU1RHdDNkJWX2ZwR1hPUjZXQm9Vam0xRHdKbms?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-23T18:45:13Z",
+      "likes": 73
+    },
     {
       "id": "p_cars_news_2843255939",
       "title": "Сергей Целиков допустил падение авторынка России на 5–7% в 2027 году - Tarantas News",
@@ -14,6 +25,17 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-23T13:48:38Z",
       "likes": 81
+    },
+    {
+      "id": "p_cars_news_2894116781",
+      "title": "В Москве дилер АВТОДОМ объявил о начале продаж нового Li Auto L8 - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjRzY3VORDRGQndIWUh4bGFxNVVMWE95bXI3VlpmOHIzd3lKanRPZEVlcUU2dXA2ZUZZNk1XOWUzcmxOaWFTUjZNLWc5YzN4cC1FWW90bW9naTJWZWktM1VOejRGUFNNVFhWYzBSejduZmVKV0ZQU2U5LXluMm1YcG9LUEdCY1p5eWlRREM5Y2RXZmd6LVdyMnRiLXBNd2MwbTlheQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-23T12:28:15Z",
+      "likes": 63
     },
     {
       "id": "p_cars_news_4183223602",
@@ -36,28 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-23T10:07:20Z",
       "likes": 16
-    },
-    {
-      "id": "p_cars_news_1919943111",
-      "title": "В Европе заказы ограничили, а в США продолжают продавать: Mercedes сохранил два электрокара - Taran…",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMUZQOWJ4bWJLbXo2MzBHejM2a3NTcVFyNmJvc21CVkpxVVRseE1zMkE5WU5WS19EaDlpQlNSYmR5d3ZjeW1qSW1nUUNxOWFzRzJzdDR0Q2pyRkI5YmxubG9VbkQ0dGhGS1E1Y2tGTkc4VGtJb1FtZ1NUSkxITWNBRVUtZmo0WmZLcWhmSG1hdWt3OWdVdUtHNHQtSjFjZ0lyMFlQRmNWNk9qVFNWa0VTZjcxVlhwWlgteFpLYlVSRGc3TmREX09z?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-23T09:05:52Z",
-      "likes": 7
-    },
-    {
-      "id": "p_cars_news_2864059751",
-      "title": "Аналитики назвали автомобили с самым долгим сроком продажи в Москве - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY3FmZEhoekZ4TkxEZk1XZ2U0b0VLRnp3UVBJaDQ1X2JCaXhvbWJLT0NtMk42UFcycGxRVE1GdGFEenByVWpubWNiZlk3TWJITEstdkIydnRqZC1fN2wxaXhsQnpVMlJQeXF4ekgwOFdCX1lpUmJxR0lSb01YZ2lYaDBqZDFndlNFSVBoOXpSSDZNUGw3ZUFhWl9IY0MtMmZ5dTBaMHVPNA?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-23T08:09:16Z",
-      "likes": 75
     }
   ]
 }

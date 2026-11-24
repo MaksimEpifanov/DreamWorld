@@ -1,26 +1,26 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_selfdev_news_413645709",
-      "title": "В Нахчыване обсудили меры по развитию сельского хозяйства и аквакультуры на 2026–2030 годы - Media.…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Media.az.",
+      "id": "p_selfdev_news_74326818",
+      "title": "Продуктивные и некапризные: топ 5 пород уток для фермы - Своё Фермерство",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Своё Фермерство.",
       "emoji": "🚀",
-      "sourceName": "Media.az",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSDN2ZFRUbEs5TzJRWFAtZ1gxVU5pQkVHaFFSV3BGNHpXbmpuYm5rN0l6cTFiT2FCcVhIUDNMbzNSN0VtcmlCVlFaTTZXRlpYY3R6OVVTLUlVN1ptMVhLa0pEanZfM1JPRGxrUy02cGg1dkZGb1dRVDBiZVB1b0lDaGtQZ01TWUQtVkxaZGZKTFhRMTZBOUpVVjdlc1B4ZHpLSHl0NXlfV1ROaFZwTUZaSEJ3ek1jM00?oc=5",
+      "sourceName": "Своё Фермерство",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHBVLVRRQVh2M3ZRZVJmSk0xSFByOEhPcmp2RXBSVGo3RXdRUkpkem51RmRKQ0dYcUg0WWlLTUhZQVpMRG5meFBSdjBDX0hjbGpxc1lhS3lRNm9qVE1adXlxYzhYTGUyU2dPRDR3eDdpd1ltMER0ck8tdlNkRWVMQnctTVdGY3N2Zlhzd0M3d1JpUXBYaTJDRzFvTzJZVzhGYTdZ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T17:20:00Z",
-      "likes": 90
+      "publishedAt": "2026-11-23T23:33:46Z",
+      "likes": 31
     },
     {
       "id": "p_selfdev_news_1058131059",
       "title": "Наука против магии: 5 доказанных способов повысить продуктивность офиса, которые налоговая примет к…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Klerk.ru.",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Клерк.ру.",
       "emoji": "🚀",
-      "sourceName": "Klerk.ru",
+      "sourceName": "Клерк.ру",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDWHVpc1RQMVFkV0pyVzhCdC0tQkdjZE1TRzM4dDYwTWxfRG1lbHk4dF9XMU5DWU9SV3J4TzRnOHMzNkNzSGhYQmdYV0ZtM3d1Q0RZ?oc=5",
       "tag": "Книги",
       "publishedAt": "2026-11-23T11:47:44Z",

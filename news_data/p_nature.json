@@ -1,6 +1,6 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -45,7 +45,7 @@
       "sourceName": "NEWS.am",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83NlYwLVNQX3JURlU1cEk0ZUdSMVZmWWo2dmRRWXdURFZCbUVrOGx0azJKZGtyQlV0MWM4TlYya1F1a2I1aVE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T13:25:24Z",
+      "publishedAt": "2026-11-23T12:14:00Z",
       "likes": 62
     },
     {

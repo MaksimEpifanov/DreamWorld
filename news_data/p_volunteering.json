@@ -1,6 +1,6 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -12,19 +12,8 @@
       "sourceName": "Правительство Псковской области",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzZDZDQWdSdzJ2U1NyZ3ZUbFloVDFxTTN5Mm9DNUJkbm1zWXBHT0J6S2kxbkZiaTJtX0MzOUh6Y2dwLWN0dUJ5WFFEYV95VDZtY3dv?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T14:43:08Z",
+      "publishedAt": "2026-11-23T19:21:33Z",
       "likes": 81
-    },
-    {
-      "id": "p_volunteering_news_669775849",
-      "title": "V Форум фонда «Онкологика» - Агентство социальной информации",
-      "summary": "Помощь людям, приютам и природе. Источник: Агентство социальной информации.",
-      "emoji": "🤝",
-      "sourceName": "Агентство социальной информации",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RZWx3SzhvZnBRcVlmODZMOUtUWVJ4VVg4LUNKNVVBcmFicXgwYmlxME1BbnZBVk5DejFxMmcxSi05b3Fvck16cmRrTXdOY3p1V3hsMmNBdi1IbjJJaHRHMVhMX1pQSU11U280cjhn?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-23T14:21:06Z",
-      "likes": 84
     },
     {
       "id": "p_volunteering_news_2792618863",
@@ -49,15 +38,26 @@
       "likes": 68
     },
     {
-      "id": "p_volunteering_news_3783879573",
-      "title": "Волонтёры Тавелей приняли мамадышских коллег и поделились опытом помощи СВО - Нократ (Вятка)",
-      "summary": "Помощь людям, приютам и природе. Источник: Нократ (Вятка).",
+      "id": "p_volunteering_news_669775849",
+      "title": "V Форум фонда «Онкологика» - Агентство социальной информации",
+      "summary": "Помощь людям, приютам и природе. Источник: Агентство социальной информации.",
       "emoji": "🤝",
-      "sourceName": "Нократ (Вятка)",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS2x1SDIwdnpvZnhkaW1yQTFRalNrZWlLcVBYMmdBY290SkY1XzlPS1ZuVFBORjAxUVFnV3pmaDk4LTZvZXc1MEU1VWNZSEZ3VTM5M2dlcHF6OHlNcEhQckhldUYyYldCbkxVQkVLUUwxVjR5bFFhZTk3YktfYV9wdmZpUDRZZlRzV0Y1eDhWUW5sTDdNbEhuTTFuRkoxTjRGTnUwR09vb25fVmpYMzVJaDh3THdRajI4?oc=5",
+      "sourceName": "Агентство социальной информации",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RZWx3SzhvZnBRcVlmODZMOUtUWVJ4VVg4LUNKNVVBcmFicXgwYmlxME1BbnZBVk5DejFxMmcxSi05b3Fvck16cmRrTXdOY3p1V3hsMmNBdi1IbjJJaHRHMVhMX1pQSU11U280cjhn?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-23T06:12:00Z",
-      "likes": 71
+      "publishedAt": "2026-11-23T08:22:35Z",
+      "likes": 84
+    },
+    {
+      "id": "p_volunteering_news_1085479766",
+      "title": "ХК «Амур» проведёт благотворительную акцию «Клыки и лапы» - Хабаровский край сегодня",
+      "summary": "Помощь людям, приютам и природе. Источник: Хабаровский край сегодня.",
+      "emoji": "🤝",
+      "sourceName": "Хабаровский край сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DUnRXM0hxdjVYdXliSGdfaDFjSWY3V2hVZU9aemFKbWxYT180OGJpMnNzWWZrVWd5VDJrWHVVYldlX0ZHSV84eHJnRG02Tzd4?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-23T04:33:39Z",
+      "likes": 34
     }
   ]
 }

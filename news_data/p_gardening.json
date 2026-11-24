@@ -1,9 +1,31 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_1697109838",
+      "title": "«Герман» больше не сажаю: выбираю новый сорт – и урожай сладких зеленцов гребу до самой осени - Гор…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Городовой.",
+      "emoji": "🌱",
+      "sourceName": "Городовой",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWjFvSkRBNVlEcFJQdHpMcWRtYXM5X29CNi1ZT0lJc1BfZHZKT0x2UjdZVnBvMVlicGpqQjYtQzVMS3U1S0l0MzRNQ2pQeUR1Z1BvQUZObGc5QW5SSU02ZHBoR1NCVmhMei1PUm1Qa1lZSUZhSFlVNm5rTTBPTEsxTXh4d0lDazhXbzdzV0RySnl2TkJnMjRPRGlkcl9PR1FPVDQ1Nl9ONXo4NWVJZThob3ROTGI3RzMtZVZibmkwOXctSjY0Zy1WVUxPbXhtV3l4Umkwc0lTYTlZZFliR3FWdTZkSkF1TU0?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-23T21:12:00Z",
+      "likes": 84
+    },
+    {
+      "id": "p_gardening_news_3749608182",
+      "title": "В «Аптекарском огороде» созревает урожай дикого банана - МосИнформ",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: МосИнформ.",
+      "emoji": "🌱",
+      "sourceName": "МосИнформ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc203WlB3NFQtNWZMbE1veDlsZ1JTanZmUkdHVHp6TEpIOTY4Qk9YcUtSY2NqaGN0ODhtWGhUZGZVRzc3ZGN1aG1ERld0dUZKeDNxZXdVSzEycXZRVnBvbjRiSHlCSVozR3FfdGdQZUhrV3R2SzZHS1NaWmhaYkNUam5zNEFlekYzdk5nd0R2NU9MeG9Da244?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-23T18:56:04Z",
+      "likes": 34
+    },
     {
       "id": "p_gardening_news_2053560453",
       "title": "Помидоры по 1,5 кг: семена этого томата скупают уже сейчас — плодоносит до октября - Городовой",
@@ -27,17 +49,6 @@
       "likes": 80
     },
     {
-      "id": "p_gardening_news_3749608182",
-      "title": "В «Аптекарском огороде» созревает урожай дикого банана - МосИнформ",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: МосИнформ.",
-      "emoji": "🌱",
-      "sourceName": "МосИнформ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc203WlB3NFQtNWZMbE1veDlsZ1JTanZmUkdHVHp6TEpIOTY4Qk9YcUtSY2NqaGN0ODhtWGhUZGZVRzc3ZGN1aG1ERld0dUZKeDNxZXdVSzEycXZRVnBvbjRiSHlCSVozR3FfdGdQZUhrV3R2SzZHS1NaWmhaYkNUam5zNEFlekYzdk5nd0R2NU9MeG9Da244?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-23T13:07:00Z",
-      "likes": 34
-    },
-    {
       "id": "p_gardening_news_1815789044",
       "title": "Мини-огород на подоконнике: что нужно знать, если хотите получить хороший урожай - Новости Беларуси…",
       "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Новости Беларуси | БелТА.",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-23T12:13:15Z",
       "likes": 16
-    },
-    {
-      "id": "p_gardening_news_2364944469",
-      "title": "Как выращивать грибы дома всю зиму: какой сорт даст урожай даже в коробке - Главред",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
-      "emoji": "🌱",
-      "sourceName": "Главред",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNalBXdHNzeVhKRWpQTXkzQ2RlLXl3V1QzRl9MUm1PUTZYTkVLcExfdjFtMTBIck1fSS1BbzVDMEw2Z3dWV0FlNkdDWktVZHhmUmJEODlkVWhpU0JRTVpPMS1IZ0kxSUxIWW0zdzhqeWdOOEdGTEJNZldIQ0pFNGZFNnI1czhoR0hERGdsMXktRi0xcUFDRmxSZWZTanBIUElMM3d4OXc4WG12bmxC0gGyAUFVX3lxTE0yT0NVRVJsdU9CWVRISGRuN01kUmhMY3JJSEQ5TGhSSGtwa1h1XzJfR1FxWmVTVEhmOW5US2Uxb3h5WmM1VzN0MFFoOHdqbFFKUWtqdlFzYnVlLTg0RjBsNFl5ck85bmx1czZSQzNSaXVrUnNLazBsUFJGTU0zeE9Kc3F0TFZSOF9qVU4wRi1yUEJhN3pDLXJVUV9EUXhGeHJJRDQ0dng0bU5jUmpoVEZMaUE?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-23T09:43:00Z",
-      "likes": 64
     }
   ]
 }

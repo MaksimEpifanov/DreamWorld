@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_2532425680",
-      "title": "[Объявления] Номинация на премию Steam Awards 2026 - 펄어비스 공식 홈페이지",
-      "summary": "Кооп, рейды и вечерние катки. Источник: 펄어비스 공식 홈페이지.",
+      "id": "p_gaming_news_818663542",
+      "title": "Фарид Гаибов принял участие в обсуждении подготовки к IV Европейским играм в Стамбуле - Вестник Кав…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Вестник Кавказа.",
       "emoji": "🎮",
-      "sourceName": "펄어비스 공식 홈페이지",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90MDRWaXNGZzNDVlJmNjd6NnZHT1ZuM2s0Z2dfd01ua2NTUEt1Wk9nM3VvVjFBNUVwalI5X1pHU1FzdGNVY2s3UlRrbFc5MHFqUlZWU2ZHcVNTLXduZWk3NjhabWx6YjEySU1rR2VkYVlFT05tQXI1bnVZNmI1NDQ?oc=5",
+      "sourceName": "Вестник Кавказа",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlFvVldkVXRiOWx4clRvem5HQzB2b3picHJ1TEVGOFZnaTBEazFsb0NsNFhxMzgxbXYyclYyM0R3bXdYT2RxcFRHX05SN3dURGt1MERXMExKR1VrdkVZTURaRko2M2t4b2JTQmFEMHZiYWdJN3dEaGhqWDZ1RVp5OVB5YzI4LVdLM2lTUnlOSkZtdEFsSmcwZlZGVWEyVWpmcVhXWnRvZnhWSnVuWUV2TnkzbzJ2Rjd5OFJR0gFKQVVfeXFMTmlaVmVqSTdWRGxOOXI5eWxhSGg2VDNLZTZVNXpTTVAyOHJVVnZTc0FmdDl6bFpIZnRTT2VuVHQzVUZjWV92OTdRbUE?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-23T18:00:00Z",
-      "likes": 50
+      "publishedAt": "2026-11-23T22:58:56Z",
+      "likes": 84
     },
     {
-      "id": "p_gaming_news_2551079888",
-      "title": "«Лучше, чем The Sims»: жена забрала у мужа GTA VI и теперь ходит по магазинам, наряжает героев и кр…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
+      "id": "p_gaming_news_4284205502",
+      "title": "💰 Житель Курской области выиграл 1,5 млн рублей в игре «Пятерочки» - Челны-ТВ",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Челны-ТВ.",
       "emoji": "🎮",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcVV4UzdFeFJPZlZHWmFCR1hobWxNV1l3cGpYWlZrckdDbTkyV1dlYVpSNkZmRkVTSWQtZGRKaXFtT29Zc2xrVDNiYnVwZ2xkUHBhY0hnRldjMEptUF8wRlJHTlg3MGtwWm8wd0ZxWmoycEFLOEVhd1RrWWdhQUtueEh3THRYdmJ2cUZpNDE0azdjSUdTSkExd1dmZFF0Z3VJYUhjSGhRX0F5cksxNThBa1VzWGFMNzZxSVllRzBaV1BzeTVXenUzNGhoU0dkWlIzOVNZcHRUdGVnSmhh0gHiAUFVX3lxTFBkcnFHd3hwYlltekloSnRYUmRoaDhVa3J0YVVUOE85V0JrR0d0a0c4VGZoU3NER2ctcnVGQm9HaXoySTRzZHpuaXRvV1JWeVRrb1hDYVF1bHhzYVluZTAyVkcxbnkzZ1VRSm1BNnVMMHpiRHZpa0xJcnRhS0lscjJ4eW1lb3lQdzQtMjhGUS1iZW1BSll5dmRJSmp4aXRtdHJyWUgxY29Ta0ZXZDJuZEtqdGxjNjc3b3F6U290YWlWTWotNG51Q1dkb01fS3U3eWs2QWgyalZoRVVaTVVqNUMwaHc?oc=5",
+      "sourceName": "Челны-ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUi12NGV4UzRiZ3hqTWVUZU5EWVZFUVBweXZQT1R2WExMU0QzaTZ5emQtYldFR0dnbklEVUJhR3lTNGUybzNvaDJSZ2NvT05kd2diSHVBTFZVZmpnS2pkQ2FudWNDSDY5MENxQU5taFVIbVFSajRnei1JTFV3dEZIc1lqdDlfTm9rZVRtMEh2ckpKVk56TkdKZnozRUtXQTNqaFJWMklB?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-23T17:58:00Z",
-      "likes": 92
+      "publishedAt": "2026-11-23T22:00:33Z",
+      "likes": 54
     },
     {
-      "id": "p_gaming_news_3390897851",
-      "title": "В GTA 6 вернулся герой одной из прошлых частей серии - Soyuz.Ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Soyuz.Ru.",
-      "emoji": "🎮",
-      "sourceName": "Soyuz.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUp3SkFNQmhlNndYRHZodkp3T0tVd3pNSVZVdjloZldkM1BHcGs2UmZaUjA4bXh3RVB2TExFQWN0QlJfT1UyZ0dGdXNWSmRGOEpDUzZXMEd3aHlYUl9VR0hxcFBEZEFIb1VCMEhxN3hGYjRyaHlWU0dOdTVUV1RxNEhyU2dzZGEx?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-23T17:52:58Z",
-      "likes": 7
-    },
-    {
-      "id": "p_gaming_news_1042845165",
-      "title": "Идентификация железа пользователей в Steam показывает абсурдность негативных оценок – негативный от…",
+      "id": "p_gaming_news_1773600534",
+      "title": "17 часов в GTA 6 и всего 19% сюжета – игроки не спешат на миссии и просто изучают мир - Shazoo",
       "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
       "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQVDh5dW5scG9pdUNfTFk2clB1aWdKN0t2ODc2MTRQLVE2OGVnYWM1djhrUm96dkFiS2xPTVkzaVlkYmFWcl9mTWRoQjQ3S1FPa2JlX1g5R1pnTFRrUVNWbjJhblRhU1hUcW9RbFUyWDRsN1A0V24wUnBNLXNMXzVtY1J5X1U2enVaNTZFV2RCR0I0aUVXUmdFcVdwQnQ0R0RPWjdYSWtnaE9nUFVlME1TQjU1cWdlTXZsaUJPMUZPYzRnWXd2ZTRlUGx0cjZhWDA2NmZsQVhRUmdMWE1FSFhPdnFsLVR4eC05bEpRZnAxZngxVXhWTFRoemRITXNpcURRTmxPVDVoVnFYTTVUVjRKTmVNY2tjZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOUFJcElGNVhPVlRlb1ZkSHNoNEdYUEpUYm44ODdUZUFtUHRYM1lzWDBJbFpTTDdMTU9GQXBHcmsxZTUxTVo1eW8yQVBwR2xhZ1Vkb1Jya2NBc3Jmc0RfUHJJZTNPdFNZSC1DWGlVNHMtSHdGRUVEc1gxTjZYQW9MX09FNktZQ2xzM1ZxOEM2NkJUNnBJdURNSFkydy1BZkJJRlNVSmkzbkx6TTFvbTh5S3FfZ2hHcDlacktJYg?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-23T17:40:00Z",
-      "likes": 77
+      "publishedAt": "2026-11-23T20:40:00Z",
+      "likes": 82
     },
     {
-      "id": "p_gaming_news_872708657",
-      "title": "Энтузиаст сгенерировал игру с помощью ИИ и заработал миллион долларов в Steam — новинка получила по…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
+      "id": "p_gaming_news_1667722309",
+      "title": "Resident Evil Requiem засыпали нулями на Metacritic из-за GTA 6 - Shazoo",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdHlvN0NCRkp6Yk0xMmhvSkE5elhmMXlEQks3clloRGtZbEJhMjNIYTFPZS0wUEN3bDNQU2thU1hhelFGcXF5cmRIa0lZeHFGZW9FOU45SVctM0VjX0FmcFNBazNXMEJ0Mllxc0ltSEFIRmQxNk13dDB0d0UtZlJ3NXZQUGQxZE42ZUNEM19qcEs4ejN2ZFV0LThTQTBkRERtVUFnY1FhcW5xSXgzd1JMQnUxWWJaR1ZmeUV6ak05akM1S0xwb21BSXpGc2o4UEw4TEJLVzNWdFVRODNySUY3Ylg4NHh3aXN4S0Zla9IB8gFBVV95cUxQei1qWnhqUEhLT0lPSTBWdG5UMzExT0gyWEVTSlB1aFZ0RU5tdzR5V3lETnhtUGVyOXUyM1lCTmZKc1ByWC1KSzlZSjY0OHlWd01kU0RvbmJxZzRiR082d0hVUlprWEFZcTRxRTQwRF9uRUN4OTV6OGE5R05lX3pfQXZLRGhObkhWbXFKYzFmS29UTkRYYk1YWHY4eFZCN09wSmwtZ1hoLUJYOG5iSEdkS1VfQWlrdnZUMzhtSDFzRzZQZWQ3UHhSOVBtTnNfYndvbEJiSEtzaGtyUEFfbkFtZHRuT0NZMGUyeEZ6LW5xaHhYUQ?oc=5",
+      "sourceName": "Shazoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdzVzUGk0NDltV0t6Z2E1VzBLWUs4b0EzcWtmYlJWOVVpWnlGWkg3cHotNXFKVDlXTTB0U3ROdVg2ZWlHZklsRkZ4UDlzejhDQTN4dGtBM3VFUV9TZ2hfX2Q3b0hvWWpScUJZTzZvaW9Ka0tGdHJuRXdBenlxU01oZUdlUTRZbmdpNHFvY0Y4d1hQLTJ1Q0JIa0EtZnVET3dPR2c?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-23T17:36:00Z",
-      "likes": 85
+      "publishedAt": "2026-11-23T20:20:00Z",
+      "likes": 33
+    },
+    {
+      "id": "p_gaming_news_3382474074",
+      "title": "GTA VI запретят в Иордании, а в Японии из игры убрали наготу и часть сцен насилия - belsat.ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: belsat.ru.",
+      "emoji": "🎮",
+      "sourceName": "belsat.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YU0xwSWVic1lNSk84a0RfZVhVTl9WRmJpSXJud0hFc0gwbGx3WUR1NzRGUVZmVXpHVk5kZUtYNksxTXRMeWpPdDMwRzIzN3hPa0E?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-23T20:11:00Z",
+      "likes": 82
     }
   ]
 }

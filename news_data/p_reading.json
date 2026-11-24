@@ -1,6 +1,6 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -12,7 +12,7 @@
       "sourceName": "ForumDaily New York",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUtod1EtdXdEM2xjOUhOa2Z2ZmVFWEx5VUhIX2JRS0JMWWhtQXJvLXdtdG9PUTVCTjV0aTJxVkZLUWI5M3BJbWFQR2Z2TFl0QzRPTTRLU1dkNUxPeGFtclQ5X2pDOU02NktOZmtsWU1oRkFwcWlpVnNJcDc0YTlMYUFYYWV2VElxeExr?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-23T15:35:04Z",
+      "publishedAt": "2026-11-23T16:33:00Z",
       "likes": 22
     },
     {

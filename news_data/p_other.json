@@ -1,6 +1,6 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-23T18:12:25.487501Z",
+  "updatedAt": "2026-11-23T23:49:20.355153Z",
   "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
@@ -16,17 +16,6 @@
       "likes": 45
     },
     {
-      "id": "p_other_news_3690370576",
-      "title": "Необычное детское хобби в сюжете «Школа юных дизайнеров» - 1obl.ru",
-      "summary": "Необычные увлечения и темы вне списка. Источник: 1obl.ru.",
-      "emoji": "✨",
-      "sourceName": "1obl.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZHg4Uy1ZR04tYUZmbjVqbFBtVlVxeWRSRWFlSDcxbGdKNEtMU2YxYm43S2o1a2ZoT2hlS3BIZ1FLb2R3TXlDMU1KZ3NRUkNiX2JIZlVyLXd0c2VmWDJyYkkwMjlCY1NFMEMxa3h0TFJNQ0dPTWo2OWxVTlFPM0FKUEJuR2hKR0xDWUJScTdULXhHdw?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-23T12:20:36Z",
-      "likes": 92
-    },
-    {
       "id": "p_other_news_3625713527",
       "title": "«1 500 рублей за досочку». Заглянули к белорусу с очень необычной коллекцией - Onlíner",
       "summary": "Необычные увлечения и темы вне списка. Источник: Onlíner.",
@@ -36,6 +25,17 @@
       "tag": "Игры",
       "publishedAt": "2026-11-23T05:00:55Z",
       "likes": 61
+    },
+    {
+      "id": "p_other_news_3690370576",
+      "title": "Необычное детское хобби в сюжете «Школа юных дизайнеров» - 1obl.ru",
+      "summary": "Необычные увлечения и темы вне списка. Источник: 1obl.ru.",
+      "emoji": "✨",
+      "sourceName": "1obl.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZHg4Uy1ZR04tYUZmbjVqbFBtVlVxeWRSRWFlSDcxbGdKNEtMU2YxYm43S2o1a2ZoT2hlS3BIZ1FLb2R3TXlDMU1KZ3NRUkNiX2JIZlVyLXd0c2VmWDJyYkkwMjlCY1NFMEMxa3h0TFJNQ0dPTWo2OWxVTlFPM0FKUEJuR2hKR0xDWUJScTdULXhHdw?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-23T02:00:00Z",
+      "likes": 92
     },
     {
       "id": "p_other_news_533308097",
