@@ -1,9 +1,31 @@
 {
   "planetId": "p_esoteric",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_esoteric_news_1097659129",
+      "title": "Три знака Зодиака ждут важные изменения на этой неделе - Cursorinfo",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Cursorinfo.",
+      "emoji": "🔮",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUy11RnhwTDdPakpJb0tCNHozV2tzX2xRSG8tMG9QV0dKOFZUb2pWLWVPSE40NlpGLUZJcFNVSUw5VWkzOUkxclZ4TW45a3dwWGpzS2EyYTdkQko3UVB6dnJfUHExeWh2V0lVZW9fdE1qVFdmbHJjai0xb3I1Z3Y3Uk9RVDl6SkJTLTY2dDU3YkJQNHpHakNjaEpyUnc0Z9IBngFBVV95cUxNUy11RnhwTDdPakpJb0tCNHozV2tzX2xRSG8tMG9QV0dKOFZUb2pWLWVPSE40NlpGLUZJcFNVSUw5VWkzOUkxclZ4TW45a3dwWGpzS2EyYTdkQko3UVB6dnJfUHExeWh2V0lVZW9fdE1qVFdmbHJjai0xb3I1Z3Y3Uk9RVDl6SkJTLTY2dDU3YkJQNHpHakNjaEpyUnc0Zw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-24T19:01:46Z",
+      "likes": 69
+    },
+    {
+      "id": "p_esoteric_news_2536511082",
+      "title": "Судьба вознаградит их за терпение: для трёх знаков зодиака 24 ноября станет особенным днём - ТСН",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: ТСН.",
+      "emoji": "🔮",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTGNDWjNyVkJBNEpQZmx3Y2xpQ0lZY3U4R0xGRTg5SEdOa2xrSzdkWng0S1EtdktlcC1iMEc4dUx4SUo1Mnd0QURkeG5MbnAxX0tiWU9wb1BWb2ZwRTNSM09HeEtvc0FGYmlWUzBOemhpLURCbUdYUXAtMXNDY2dxOEZFZDZjQ1pIQmUzTFFYR081djNvSTV5RjYzSWZBM0daZl9PTlRZN0hVLVVoS2N5UTZOX0Jza3BFd0NxUW1hTUlJbFU2bnVqNTJ2WlFWNm15QjRQaVJ2b9IB1wFBVV95cUxOTGNDWjNyVkJBNEpQZmx3Y2xpQ0lZY3U4R0xGRTg5SEdOa2xrSzdkWng0S1EtdktlcC1iMEc4dUx4SUo1Mnd0QURkeG5MbnAxX0tiWU9wb1BWb2ZwRTNSM09HeEtvc0FGYmlWUzBOemhpLURCbUdYUXAtMXNDY2dxOEZFZDZjQ1pIQmUzTFFYR081djNvSTV5RjYzSWZBM0daZl9PTlRZN0hVLVVoS2N5UTZOX0Jza3BFd0NxUW1hTUlJbFU2bnVqNTJ2WlFWNm15QjRQaVJ2bw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-24T19:00:00Z",
+      "likes": 87
+    },
     {
       "id": "p_esoteric_news_2916310346",
       "title": "Гороскоп на 25 ноября по картам Таро: Овнам - перемены, Стрельцам - ревность - УНИАН",
@@ -16,26 +38,15 @@
       "likes": 69
     },
     {
-      "id": "p_esoteric_news_1428339305",
-      "title": "Лучшие гороскопы до 29 ноября только у 5 знаков Зодиака. Тельцам пора забыть прошлое - Meta.ua",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
-      "emoji": "🔮",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcVd5S0ItRGhiaV9obWtfa3UtWGRhQ1B3Q0FmaERJcnF0QmtIT01zNUQwWWxGUVdZSFQtUUJwWFVjbFlWeEI2V2I2VHgzVkpzTW9jSlJQcW9QbWd1N25RWWhsc0EwdVNMek1rUXdBWEdXN2dLb2tJRlpmREcxN2FMNGVqV2FvSjZsSnZnaW4wd1JITVRGRUphMDZzRE44a3o4T1pTRG1nbk1HLWFpZFRETUliTVRBNHZDdXRPaHhDdlYtbzA?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T10:35:00Z",
-      "likes": 18
-    },
-    {
-      "id": "p_esoteric_news_542421244",
-      "title": "Китайский гороскоп на завтра, 25 ноября: Лошадям - поучения, Драконам - вызов - MY.UA",
+      "id": "p_esoteric_news_2303939981",
+      "title": "Любовный гороскоп на декабрь: Овнам — испытания, Тельцам — новая любовь - MY.UA",
       "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: MY.UA.",
       "emoji": "🔮",
       "sourceName": "MY.UA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVzNlZnIwYUhFdmh2eVNidExtTXV3WDRCV0trTm5CSy11Uy0xU3AtT193bGJTdE1teVNwZWh2WVVzTUliQ1pvazZRdmk1dl9vZGsydHF2ZjBDTE1UTTBEZ05aWUs2TnNGMGZLcEZidmlfelZrX0o5TUx6dGxUZGlMVkdQWkNPa2tVS1BSTFZyMExRRUNFQXp2V1RXcTdNNmZQd3JielV4d1VpQlhMeE12b2FRUFF0N3N6NllydWY5aHJURFJkT3ZsZFZBbWNtZ2xBZnVYQTBxYlQ3NXYyNVdCR21Ma1PSAeoBQVVfeXFMT0JGd2pKMl9Yc3YyR19RMUNUVGdJT2RCSkU1dG9hOUIzRTBlQVNrc1ZFMWZ6clIwT3VoTm1yY2JvNkFSa1oybmg1SGZ6Y05QZHJ5TDhXNGlPRVVlTWNScWk1aUJmOHktOGliVkVhX0pCSmZZQ2gxU09OS2o1QUFmNVczM3BSTVdxOEVYYnpRalRHMzN1a3NYa0xFTEpvWEt4MFpTWVZXeG12RmNTVGZ6OVdZNHdBQ2paNWV3ckhleUtBbVhEeVdVQkI0Ri1IV1dFdFJZb3BIdGJ4VDRiYUl0Q09JaHhFTGpJTkRR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZEVUY1prUVlEU3FwSVMzS3BGUUZCWmRTLWVLTHNkaEU4ZzZITTdjNzBpZUtGMjVUTnpibVhZU2piVnZqaVc3c0hOTXlmX3d3TkhhaFJSUVlERGxVYXZ1bnA2WklxZTJndkpOTTQyTkZHLUZ4d2JsQUhYaXFiUHhnSUViSUZpUTl0VDU1a0RINTdSRVI4ODhOemxUbTl0WDdsRXBxSkhic2HSAa4BQVVfeXFMT2hQXzZnSWlhbEw3aE5hZTlpS08xMVYzcXdDRUx4bnN5MEhaQ1JnUFAxaXRTTmp1ZktOYVFrS2NDUXI2TVZaM3BwVkFEMzhCQUkzYUtYNkp6cFh0T3BsYVVaaS1LeVB5THE5Njc4UFBncjlwV0owdDdjS2MyYUJlYUNmRHRKSmpkVWJrUjdSYU9IMmZwdDVIWXk0UWEyZGFFeTV1S1JzTlRzRFZsYjd3?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-24T09:42:17Z",
-      "likes": 13
+      "publishedAt": "2026-11-24T14:45:18Z",
+      "likes": 23
     },
     {
       "id": "p_esoteric_news_3841525876",
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-24T09:36:00Z",
       "likes": 76
-    },
-    {
-      "id": "p_esoteric_news_817871724",
-      "title": "Сезон Стрельца станет непредсказуемым для 4 знаков Зодиака. Близнецам — переосмыслить отношения - M…",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
-      "emoji": "🔮",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSkdUVmQ2ODN6Q1JvN1E3djd0NkNDMHlXVjhfR2d0bTdXLXNtUURKRmQ5N2k5MEkydDFZd1R2cHVEOUpqTmY4N1ZDU1ZvNlR3VlU3T2FoeWxzUVhQXzhaNmhYOV9Sb2VuU05pYTRZVDNNaTdXTS1RRzB0X3dqSEtwMGhXUjBCYVA1N0toZmZISmFTeFNTMEtQR3JqZlBWcTAxaGFza3hkb2lXMnlaODNEaGt2U1lLdnh4MjNJRmstMHJVNnZsSnNDX2taOEVNTlk?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T08:46:00Z",
-      "likes": 77
     }
   ]
 }

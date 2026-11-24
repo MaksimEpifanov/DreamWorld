@@ -1,6 +1,6 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -34,7 +34,7 @@
       "sourceName": "InvestFuture",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU14a2ZYOFlaeEE4SllobDlLWTE2cGcxYmtKSEJmVmdscERxS0M3QWk3eTc2VTdfOWtOak1PUGpMVTh6VnZzWkpfdEU3N1lvVTNWaVBkb3JwZG41eUhwVk9aWUhZWWJia0lIR29hX0Z2c1JpUlV6SHFGZXFxd05XZUpkQmJxd1htbXJydzRwamxNSTlyZjBDWmMteWpnOWc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T16:15:13Z",
+      "publishedAt": "2026-11-24T16:18:47Z",
       "likes": 16
     },
     {
@@ -49,15 +49,15 @@
       "likes": 49
     },
     {
-      "id": "p_finance_news_3957778542",
-      "title": "Рост НЕнефтегазовых доходов в России. Сладость или гадость? - Smart-lab",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Smart-lab.",
+      "id": "p_finance_news_58176323",
+      "title": "Государственная дума приняла закон о бюджете Соцфонда - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
       "emoji": "💰",
-      "sourceName": "Smart-lab",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Fai1jWkVBeDFoOEczNWFnSW5BMzFxMnprY1FabVdWeFVyRFhVUzd3Y0FsYkxHNkx4RldXQ1ZoenpobjdsSnNwMy04UENhQQ?oc=5",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdlNxdDNxc2VxZEJMTVNlcEtkZVNZaUtadFY5cjgtcS1XaEhFeVNNaS1HcTBKSnNPSmRneV9kV2FrNFhBbGd2YU9Wb2lrcjFNeDhrejZuWlpYYWlma1hzbFQ3cE40S3J6bTFXeXVPUVlFMGMwYWE2dngzU0RmaVdEeUh5Z3kwRWNOZnRkQ1ZXUTNUMVlxREhtWUtURGdvRXAxZGQ0YUctUVZDeTA?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T14:15:05Z",
-      "likes": 43
+      "publishedAt": "2026-11-24T14:08:05Z",
+      "likes": 64
     }
   ]
 }

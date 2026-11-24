@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_2400304661",
-      "title": "Малкин возобновил тренировки с «Питтсбургом» после травмы - Советский спорт",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Советский спорт.",
-      "emoji": "⚽",
-      "sourceName": "Советский спорт",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN2hmaWJCWmNhWjZWbW1BdkNDeEc1R2RVQkpNdVc5SGdoV25wclpuSC12UDR1R29vNkl6RHVoYUZmM1hSVENEWWd2emxKUjNEdEEwR2k2ZV9nZW9JMGVUV0s0TUJneTNaYnFoZTZFYWhUYWttOWd2ZDh3bnlqNDlsR3AwV1JtVXdpZ2lmczlHdkZ5YVJzMmc?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T17:22:00Z",
-      "likes": 82
-    },
-    {
-      "id": "p_sports_news_1453576788",
-      "title": "Нападающий «Тампа-Бэй» выбыл из строя на пять месяцев из-за травмы плеча - Чемпионат",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
-      "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc2ZTcHpyaUhqWkg3ZGF5VW9udWktUk12OXNiZWVkSVB0ZF9tWjl1MkR6X1g5TEZOV0ZlSmtVbDFSc21xVjB4VUlqWWp2Zk9QZUxoaVBBOGg2QnVKWTJOdWtlUEZfNTdoc1VELXNJVm1Tb2Njb3JvcHFjdndQa1N0czhFM0hWcDZWM04tb1dzU0Q2M3Jsbmc0YXVDd2o2Vi0tb1RRcnZ3VERmNW5MNjdoeHhOUjg4Q1JDTTJnRTBJUld5bERTcWc?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T16:50:05Z",
-      "likes": 3
-    },
-    {
-      "id": "p_sports_news_1415967207",
-      "title": "Малкин вернулся к тренировкам с «Питтсбургом», Чинахов пропускает занятие - Матч ТВ",
+      "id": "p_sports_news_1912191404",
+      "title": "Пропустивший более полутора месяцев Демидов вернулся в общую группу «Монреаля» - Матч ТВ",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
       "emoji": "⚽",
       "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZkYyUFlra2tWcWdxRG9jdGh5bXV2MlRCUnlKaWRYczFrMnVHbTZTQUVpQnhFMW9DOXJvM0pBM3p5TGRYLUpsUlZqWTFwa3VZLU5tVTJTb1J5TW5qMjRuWlFmNGZ1RjlvZlliaDdaM2FFMEpWMHRSUzFWdmJYZDA1cUFYTDZNY2h2WVVpNDRYUFVCNVFDZ2pkaGNlYkFkNjk2VGRzRkRsY1AtNGFoMGtYSE5BbE9CUlRfMlZwRllR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3RJY0g3TUxJNFRaelFmNlNIZUFvUjFQXy11a1pCdmlBeGQtZ3BXRXJPei1VdjhjQ2hoN2dnWHJoaHdZUWdrLS1rZjRMN0RZcEJJTHFvMTdFRGliczYzbE9DVWVVdzF0TVpLMEVNQWNnZ0kxMHRCSDNPZkY4T0pMT3dLYmpEV2U4V0RPeEVOM3MxSy1LVGNYRWJMc2k3SU50dkdGS3pndEJrTi1hX1E3ZzJMWlNwTWFoa2Z6WlBxeU41anlSbjNVcg?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-24T16:44:13Z",
+      "publishedAt": "2026-11-24T21:27:14Z",
+      "likes": 11
+    },
+    {
+      "id": "p_sports_news_2412526444",
+      "title": "Нападающий «Тампы» Гики перенес операцию на плече и пропустит минимум четыре месяца - Матч ТВ",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
+      "emoji": "⚽",
+      "sourceName": "Матч ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTUhxbHVFWm9TclIzZDc5ZmItb3pfWmFDMm0yaUlWT2dQa043RTh0cUlrTTdsaGdHMkNYTkhRSGczcmRiWjVTRUU1QTlOTkdYSW5rMzhlMG1PdGNONzRRUGxBd2tSengtMnZvaEpRcU50QTZJQ2dJSDY1YUFpaEYzR1k3NmkxZm5mMTBtN2RieGZxdTZvSW5Zakp1RlVac3Q2UFFNdVhzLUZMWnN6QmhPTGJ6aGROeG45Q1B2TlAxR1ctQkFJdjBhRDA4QWxFUDFl?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-24T21:09:42Z",
+      "likes": 41
+    },
+    {
+      "id": "p_sports_news_2158368820",
+      "title": "Миннесота Уайлд установила новый рекорд клуба - UA-Football",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: UA-Football.",
+      "emoji": "⚽",
+      "sourceName": "UA-Football",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVURrTHdmUWpKcTF2bXd6MURSWkprd05aTE9PWUJmUFpEQmY2XzFoSHVMNjZvUDloWlhzcHpDN3AzeXlYNXYzbHVkcmhNRDVubjYwWi15MC1YdFBCTF85RVJIMG1ZZ05jTDQ2a0RvcnhpQUVuek4tZkUxcVZPTFlRS3ZXRWZMeW8wc2JVTUxZQUE5NVpkNUZkTkRzVDBqVXBzUk9ZWNIBqgFBVV95cUxOdWhwMFBXLXkzZGZFYmt5dFpBNTRqWlU0SzE5aTcwVTVWbWMyeTVxWmRwZFJpMzRDVkw1M1ktTC00allIZ2szYXZmV1R6bFo2MTFmdGt1MHNoOE9VUWpxdlA1cjc1eDUtY0VmX0RhZUxPQUpIaExtOWU0c2lKZWlYS3FpdUhiU1JzUDJ3Q2FQOWtLQVlIckVfWF9QUGlWQi1pd3NXU1lRVEZqQQ?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-24T20:56:00Z",
       "likes": 34
     },
     {
-      "id": "p_sports_news_2959569297",
-      "title": "Купер о Макдэвиде, Кросби и Маккинноне: «Они знают статистику других хоккеистов, следят за тем, что…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "id": "p_sports_news_3424569605",
+      "title": "«Вашингтон» изменил звено Овечкина после 16 матчей без голов - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
       "emoji": "⚽",
-      "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZk1HSEZ1djd0UWZ2OTk0cjRPb3NLbV9lWkQ1enNGQWRjWWZMVHVwRGxxbFVRV19tSXQ5QnhwVERtSnNmak1tZnpEeGtRTDlMOFpmb01sNE5BbkhnbFBnWkxjMUtSTG5KeVJNdUxiSzAwVzZGR2MzRHE1ZGtyeXNzQW9pVXowcF9FSkJmTUR4OGE4LTNrem5sUDZFMzlKQWJnRkVYUUlWQnB3UEZWM1QyZEI2V3VGcmFYYWRhSXE0TUlIVkpya1V6MVhVSmlTQzVxYzAtc2dlY1Q2SUcwNmNuZjM5UWlhLTRibzFwMjNmVnZZOU43MlJGZFBjSzM?oc=5",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOEFWM19lRVA1Vk5EVXE0WTdLU3NTeWxDdmpJVjcwUGM0SE53dHoxUDMzYnltVkhNUWwyZlhCaWp1R3Fpd3ExWTNXNGNvbjE1a3FBc0JDdTJQa3k1V3lST0l0R1FDcnZ0Vm9uaU5rc1hyQ29NeXVBdEpCWllJUk9ULXhqd21WS1lmN04wMDZvOHRPZw?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-24T16:38:00Z",
-      "likes": 74
+      "publishedAt": "2026-11-24T20:51:00Z",
+      "likes": 28
     },
     {
-      "id": "p_sports_news_816220985",
-      "title": "Кросби считает: только Макдэвид способен приблизиться к отметке 200 очков за сезон НХЛ - sport-expr…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "id": "p_sports_news_2122987954",
+      "title": "«Олсон травмирован, начал кататься». Кудашов — о новичке «Автомобилиста» - Чемпионат",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
-      "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONGdKQjRJVlNrS2VRUDhacFF2Sm1JcmhoalNob0hfd2RzSzI1Nkl5a0dkaTg1dEZrY1MwQU1LWFp1ME9oZUFlQjNjVExHWi04VllYOVlIRWlFRW05S2RhRGhORnRuSlk3NlRjR0RwbmVlT1EwTE1zYTVYaUVXemhEZXJMd3NGQlA5UnBXOWpQTUZMdlNjZ1VBTTVVQUtnUGFxVFhGMDhnbGNGNHNlN0JHdWllbzVXSWI3bUx0eGhxT1FYZTRGbVk3dGZrelR6anpkZGFwR0lXUHlrVHhpSmhWeVBqcWkxZXRBMXp3SUtUS2F5UVVjaGJ0MUJaYkg1QWtk?oc=5",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVktfdlF5YmJHVGxSclVVbTlHYW8wMER4VGw1OEt2NXo1S0paNEZIamc1RVkxT3NGZnFpUGpLTWNRZHo1YUw4NkJBcDVpLU0xZjdSc2xuVXJZMldrczVzLXJUWWFHUmhBb0JXaThJM2dMSU5FSkFVM21IdWVhSHU1MDJVbnl4MzY5aEhsUHJGQzJyaVE4TkFLUndXaWczMHpXRmlVd3pscFQtV2VGZ2ZNOExVdnRpY0dQamc?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-24T16:27:01Z",
-      "likes": 41
+      "publishedAt": "2026-11-24T20:15:05Z",
+      "likes": 4
     }
   ]
 }

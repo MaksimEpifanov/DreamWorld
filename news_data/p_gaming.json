@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_2404854658",
-      "title": "Город игрока в чате Overwatch нашли за 20 секунд через Steam – будьте осторожны с открытыми данными…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
-      "emoji": "🎮",
-      "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN1pLRUs2R0xDbjZXaGJ6d3F5LWpiWmhJdm1CODlZUXh2TS00LTRPY2pRNEZWVXdBRGk1ZnFrUWstcjVRVXVFU0RETG5WU3FTZlg0OFJmcmlJellNYVUya2xZU3lKeTlrUUdzN1d2ckkxMkF3WXVOSkU1Wm1ObFRlbHlkR2tSSzNlekJHTDQ5WEs4MlJzdHpGeFhJU0tScWFCbVZraFFVaExZYm4weGZvdE1CZ2hqV2lyYzRNbXdvbHV3UTRCcGtHa3hSdDk?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-24T17:40:00Z",
-      "likes": 14
-    },
-    {
-      "id": "p_gaming_news_483530754",
-      "title": "Тренер «Акрона» Благоевич — о поражении от ЦСКА: «Решения в определенных эпизодах игры не позволяют…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Матч ТВ.",
-      "emoji": "🎮",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYjN6OURzeHhOeERyMjFMUkE3V0tKUTJDSmJHNFkyMGFKSXlKblBCZGZCY2xFTDZFVVdYRkM2eWVsVW5icXBtNVJ3Q25Fa205M3pTVDBGWU90Yms4djZGSE5uXzJNc2FpaXY4UmFOWTc0YkRuOE92UVVCSThlVVR3VzhibUtaVG1NdlBsdzhsbHN5bFhVVVJsazR1ak1sU2pyZUlhdUhUZXk5VVB0MmpUcUdRcFVpdUQxMU56VTRxdWdFUTVfelkzODJxR09CUXFubFFiUmoxYnFEUHhXdUMxU1ZRQkRYUzlvVm9ycWZMS050bm1VUks4WFJOOUo?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-24T17:35:20Z",
-      "likes": 22
-    },
-    {
-      "id": "p_gaming_news_3269275566",
-      "title": "Создатели Atomic Heart показали тизер MMO The Cube — игру переименовали - iXBT.games",
+      "id": "p_gaming_news_3746641285",
+      "title": "Пастор запустил GTA VI прямо во время проповеди, чтобы научить прихожан терпению - iXBT.games",
       "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
       "emoji": "🎮",
       "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU1VIN0ExT3MxVXk5QXZvRU9aaHRNd0F5c28xVVg2T0F6dHZNYXl6NnZtR0t1QnF4RzVYTmRnbHdOSkVTUE1TTmtaMFFpSXN4bDlxc2RhZHR3UUh3d3lnVWJwdmhLeDBFWWtSUnV5ajQ1aDVqN2xzRnAxd09YZmE4RF8zWlI1QnB3NG5kMk02WmV0Tm9vWmNKNGl2YXg1R25faXdDclVvM3NhVmJyWkHSAbMBQVVfeXFMT2ZUSVkxd3puZVZxbTVuRWRnSHBDMTNWSUkzNWs4XzdtSU1vU3VFOWtWeXRRQkNOcDNUZVdMNmppTG9aaUVvM2U5dDB6Q0txMWdGYTNDV1VlTEluZ3RWS2lEbG85eEo0WVg1bWpESFRtTklEX0I4MU9tYW8yUlJnTDBmSUM4VUdOekV0U3BVOGpxZXNNcmxrU3lCeEZPazFiZnlFWDlUbDZmUGdRMVk1cGowVm8?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNm5fYVpfOHNPN0t2eXdLdEVGRUxDU083ZzNDemZ3dmVLMGJGZFZ5ZDdBcGRFem0xQjVHS2pLbllRbGxLcGEtNnN4cEhjSXVGYlcwbXFZb0FlRnhWdF8tTENoY0FWNHp2WlNkU1NaZ19TZWhZWXg0OGZUZ2dSOC02VkYwSll5YWprT01UbWFjamhlb0pvQmtZY2NYazBvOGdJWTR0aFRzalNyYkZsQkVHaUNzMm03QktFd0FSWDZ30gHDAUFVX3lxTFBiLXBuWnMyci1pM2JRenJPb2VVcy1yWXJxaVdGQXlIcmhodVNPQmg4TmdUa2ZhSmlsbkRwd1dnZlFWN214dXBvS1pYWHM5NFFKZE9xeHdMMkY5NkRlM3RoSGJqQVctZFVYYVc2RHROTEcwem1BTWxUd0pGeXVVczdnQWJSa0xYVHg0UWV3MXlVVV9hYzM2anY3eHphMG1BUWdPVWxWbVAwMV9mVHBOMEJxMXFKakU5d0xuSFdqbnVuV0JfYw?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-24T17:11:00Z",
-      "likes": 21
+      "publishedAt": "2026-11-24T20:57:00Z",
+      "likes": 13
     },
     {
-      "id": "p_gaming_news_3998875766",
-      "title": "В Steam с играми так грустно, что первой в чарте продаж стала EA Sports FC 27 - GoHa.Ru",
+      "id": "p_gaming_news_1240107594",
+      "title": "Скачок между The Witcher 3 и The Witcher 4 будет похож на переход от GTA V к GTA VI, заверила CDPR…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
+      "emoji": "🎮",
+      "sourceName": "iXBT.games",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMTZLMU5UVDBnZ2tyVE55SHJyRnVhRmFrT2xDOVBjMl92UHlZSjFNZWxiVFZNdy1YcEl6RXBUc0drUzN3dzNzOS1VV3lvS3JCVVJWZzc5STkyVGotMGVtR1RhTHBoVmt2S1dXTVFCTnFJMERZOXFjMkNFZ2dlNVF1NHJhN3FiQXpTYTRhLWE2TlI4WUJyVHM1SnNaS29aZ2ZKZWR5Z1FyZi1aOElGM1NheFFqazlkVGlUTElvbkgzajBNZGlKSEhwUUxNTEJyazhIRzVN0gHYAUFVX3lxTE9DbjFNWlNvYkdlSERrc042S0ZlSHhvWTI2N0dEYmc2Rm1jMW8tVzIwRDIyNWc5TzFoWHFya0E0SlpQbzFSODViMEZnS0ZrUWZXT2dsZXZCRDV3WktsbGs3V3N4TFlhRmJIWFpGdjE2VW8zOFNXdE1nRzVEN1kyRkNSUXdyeUhReEc1RENQNWlTY3NHd29YMlFPVG16TWJZMTNZSXdKQ3pubEdsbkwzTWRQbFJuRWFPTkp6TzFyMnIxeHlyMFBodG5WZzhzZFU1d29MWDVzdlBuZw?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-24T20:30:00Z",
+      "likes": 52
+    },
+    {
+      "id": "p_gaming_news_115705473",
+      "title": "Оно боится: Зельник с косой жнеца пробежался по GitHub и почистил все следы ПК-порта GTA 6 Project…",
       "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
       "emoji": "🎮",
       "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObE5BbnpvLWtnaFpSSkdTUzdaeWEyUi1mbUM3OWQyV3g4ZHdtY3p6eUZYMTFWalp5REJnQTFhVDVjMVpWOTl5eTFBYnYwQ3RSMTJveW1mYzZGNkJ6S0M3UnROWWp0V3ItNk9waTg0TVlHbjhhZURYYlYtS1A4MWpHN28yVzRST3I0OU9sTW8yWWFXNl9lSmJvVGdMR0d6NlpwMHFsN212dVp4QQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSGJuMnlSQ0RvVWxuckk5ZVhmb2R6M0VGal9XdTFGWVh3VWxhUXA2Ty01SS04elhsMUtQN0ZxaUdNM1NkNV9NNVQxVFRpMmdrQlROTXBjNHJySXhtOG9QYkRJa1BoZzk0S3lRYnEyODlyQzRNYUFVWkxDZUhxVlBvb3BEQVVGTmY4R3laZWZ3ZFFxNUE5UnZvQnN0ZXQ0dGwtVDNGS1FmVjQ5dzJUOFl4YjAwaXlEYUxNVTNETDRLLTJtcjlyMk9JSk1SVk1sY0F3UlE?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-24T17:09:23Z",
-      "likes": 83
+      "publishedAt": "2026-11-24T20:14:26Z",
+      "likes": 57
     },
     {
-      "id": "p_gaming_news_280492984",
-      "title": "Игроки просят Valve ввести возможность загрузки шейдеров в Steam до запуска игры, чтобы два часа до…",
+      "id": "p_gaming_news_704398033",
+      "title": "Linux почти достиг полной совместимости с играми, но мешает античит - Компьютерра",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Компьютерра.",
+      "emoji": "🎮",
+      "sourceName": "Компьютерра",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaXpZdzBvRy1yeDZ2aXpCWnVWXzd5VzBibHVvQWxwMVNDRDctTVFPcHpoQWt4NGhMSUtsYS1JOVJHQ1pYOG1pbUUyZlJpLXhmZ2lqcjg3bXRZYXh1SUZGVWhMYmdxNjNfYldEOUJwVFJsOXRlYndjTjhPM3luWGNsejhwZEduOHdrNW9lUWtVOUx6aE9Xc2JIRDA2b2hUTFhCcDBVMGpR?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-24T19:52:26Z",
+      "likes": 39
+    },
+    {
+      "id": "p_gaming_news_585829302",
+      "title": "Пациент Neuralink играет в GTA 6 одной силой мысли и показал, как устроено управление - Shazoo",
       "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
       "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOS0NpNjN5R3RoakpNdFR0Q1YwUGJ2b1VIMFRqZlhFcXJqSUFxY2VmOWdCa2ljODJIVExPZUpBb1FxZzBTUUVFUkdUN0VWYW01LUlrNGR2MldSejFuSXNnakRxNG1hX3g0U3MtcXdvbEE1bmQzMGdmc21TMzg0NHROclh1S2FyaDJ4UklHc05XMHpKNk53VFowajRzd3R3V3BrXzgwVTdUeEQwa0lRMDhoYUxyckhDdmNLODhfa1NwZTF6dnlHZ3ZIV1RzOUk1d2ZzWVhmY0IzX2VTVG9fbEZrckRhbC00TkJ4TGdGNnhVbWR4UFBVbUpabXJQc1d5a3RKNVVPWQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdHhQUGFNX1UwRUJvbDlja25Eb2hGLXhpSXZZNVlZUGlOVmRJajF0a2N1WlljeTVrcnJoS0daZ0pHY1BjQmJYYk5HeXhPMFpKYnpzS0pUckFZZnFvdHBQYWRRQUpCc1JTT2M5TjE5bXRuckRBQ201SENuNnQtUURLVlFFX0xVLU9xOGo1SEFLbGJ5d3VGQU1FQ1ZlWGtKOEd5aU5DbHNRZ0JCa3lUOVk2SEU3N0tNSlVyWFZhbA?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-24T17:00:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-24T19:40:00Z",
+      "likes": 48
     }
   ]
 }

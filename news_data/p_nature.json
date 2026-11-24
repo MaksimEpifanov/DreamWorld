@@ -1,6 +1,6 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -16,6 +16,17 @@
       "likes": 59
     },
     {
+      "id": "p_nature_news_89501569",
+      "title": "В Саяно-Шушенском заповеднике у снежного барса Муси родилось трое котят - 47Channel.",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: 47Channel..",
+      "emoji": "🌲",
+      "sourceName": "47Channel.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU9OMzYxdVBzamlZdDdLM2R5bHBNd2dDWktJQUh1RU1qc0VTX014NGxkU0FUUkFDY1VMNUJacVhDTkxwbkdKT0RlR3EzOXV5TTY3WVNseWZhRC1RVXh3ZUw3MlNDNk1kb214Y0N4UVdvRDhhSTFHYzNlNFZES3Q5WG9yRlFfSnY0SDMtaW1ZX0trU19XVVJpSVhVc1IzOG9WaVpZTUEwbVNxZw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T08:59:45Z",
+      "likes": 9
+    },
+    {
       "id": "p_nature_news_512283831",
       "title": "Краснокнижные обитатели нацпарка \"Буйратау\" попали в фотоловушку (ВИДЕО) - Liter.kz",
       "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Liter.kz.",
@@ -25,17 +36,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-24T06:40:00Z",
       "likes": 43
-    },
-    {
-      "id": "p_nature_news_189266073",
-      "title": "Учёные выяснили, почему Плещеево озеро продолжает загрязняться изнутри - НИА «Экология",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: НИА «Экология.",
-      "emoji": "🌲",
-      "sourceName": "НИА «Экология",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5oakE3amJobzFMMk1sTjlEZ2JEOVRXT1hMT1VCWXRRbDRRSkswYWZqekU5SGdmd0hTMEVlSE5ldDFCQ1JsSGhYNk9B?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T04:13:29Z",
-      "likes": 36
     },
     {
       "id": "p_nature_news_45766379",

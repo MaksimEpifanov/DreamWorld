@@ -1,9 +1,53 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_tech_news_324265595",
+      "title": "Эксперт Бедеров: Мобильные трояны стали более угрожающими благодаря ИИ - Самара онлайн 24",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Самара онлайн 24.",
+      "emoji": "💻",
+      "sourceName": "Самара онлайн 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMzVPcXA3MHBOZ3lJVjA3TUdyQ3VZVTVyWWhKUFRDUzJvdXlmcjNMOEpwOWJYazBkZVJQcnNXX0JNbjlYX1hjQlduNEI5dG9PUjFnRDJ6RGpDcU5qZmpyRmhfQTNBem5Ld0FBNGJ1WmxFVEVLYzFVT2hHeE03V19QcEhudG5DVUNkLUNxUlpXOWRwREpheE0zaVdsQktVWEVLREpNdTdwbFZNdDNEWHpzRVJ3?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-24T21:30:19Z",
+      "likes": 73
+    },
+    {
+      "id": "p_tech_news_3092278737",
+      "title": "#381 Osta O1 Pro, конкуренты и разница в философии ИИ-агентов - Mobile-review.com",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Mobile-review.com.",
+      "emoji": "💻",
+      "sourceName": "Mobile-review.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHdXUGlwQ0lSdUdkeFNoR3J4RkhHSzUtN3JXdm40UnMxWEF3QnNWS1l4Vmk2UUJCT1FXLVNMSkxDS0VXcnNldjVlWG9BWS1DQmVFSHJKNzVxNkZBSFU1S2N1SHVENkhTM285SVljZkdwTG56NU5uZ1ZrN0UzQ3JQUjdLZjFVSHc1bHhfUG1xbG1tTUNGelJXRGMwSE5SVmdZSTVFVU1wVmc?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-24T21:01:00Z",
+      "likes": 46
+    },
+    {
+      "id": "p_tech_news_1645077019",
+      "title": "Личный секретарь на воротнике: Яндекс представил ИИ-гаджет «Пин» с «Алисой AI» - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUDVmNldxUVNnTUMwSDliazEzN1B4TWdrV05vVmNBbS05WnRqWUttR01FY2hEN2I3WWZHc0dGOEVDaWRqblFZZUNUU2xQcmtqS3NPTHU5QUJPZXJSYUFMMWZmQUY2VWREN3NXR0dNS3lIQUNzdGxtSXkwZFNKVE1veXF2TTdKQ2JDelpOX2hwaXVfRFBSalBDbTZHcm4zZFJuZ0ZKZGthbDdqb3lDeVdBbHZuemtSdw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-24T20:31:17Z",
+      "likes": 30
+    },
+    {
+      "id": "p_tech_news_87658675",
+      "title": "Смартфон под контролем мошенников: в России тестируют ИИ-троян RatHat - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSnhVQ1BVdDQxaHZ2QzQtc3ZTYjdKSWFKSlR3N0NMUzJlSEtXTXYwRHQ4MTNyalJlek9wLTI1OVB6MHdWYjJ6RTRodHlIUUVtY2pURnoxNVc1SldJamVEbkd3VlBGay1aU2RfSFNab0RZNzFvNF9Xb3BTcTgxWmV6VUlJdnZnMFRNZUZmX1VSVldtSHRYcE5XMGFOTE4wWG9HNk1JMHB1VzdSVDdEOFlBUENB?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-24T19:00:33Z",
+      "likes": 47
+    },
     {
       "id": "p_tech_news_3298962461",
       "title": "Смартфоны под прицелом RatHat: Как искусственный интеллект усилил возможности вирусов - Life.ru",
@@ -14,50 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-24T15:02:21Z",
       "likes": 21
-    },
-    {
-      "id": "p_tech_news_3432123767",
-      "title": "От смартфонов до нейросетей: В Рунете стартовало голосование за лучшие гаджеты 2026 года - Life.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
-      "emoji": "💻",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQUhCVHhoekFPaE0takUwRWpxUkc2dHo4bTdIMlV4WHd4UlFXNjF5NnEwWFY4TFQyV3IyWGJxTEZVM25kcUJaQmdVOEtzSW5Ba0x1ZXpIQzJiVEF5X09nSGNXeUlnMk11TFhMOTVGMkpzdDhUb2xrUzBLTWtfVmJHb1F3UjNMRlJiSUw4X3I2Tko1SUU?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T13:08:11Z",
-      "likes": 47
-    },
-    {
-      "id": "p_tech_news_1730021489",
-      "title": "Компания Nothing 8 декабря представит наушники Ear (note) с функцией записи звонков - Mobile-review…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Mobile-review.com.",
-      "emoji": "💻",
-      "sourceName": "Mobile-review.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc0dXc2RRSV9rdHl5b3RPTHJNaURodHVUVFkyblhuZHRKY0RkUkR3OWp3WUd1Qk9pZ0xEOWtWd1plX2FyUGhMREJwX0lBclBkc3ZGc2pFRU9OLVVkZ240MDdZTzdqc2FNWkR0cHkwLUZ5ZzVnUXdEaS1ZZ3BpcHhkdmFuTlphSG5iTmd3c2xHYkx1cXQ2YU85S2FCU05veVJXTzh3bURIUGxUNWs4Zk1WcERteExBcG92eVFZcmt3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T13:01:37Z",
-      "likes": 32
-    },
-    {
-      "id": "p_tech_news_2667242769",
-      "title": "В России стартовало голосование за лучшие гаджеты 2026 года - ФедералПресс",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: ФедералПресс.",
-      "emoji": "💻",
-      "sourceName": "ФедералПресс",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuaVY1UW5EanhDb1RPQmxSR0MzTkRyZmdpWGN5R2FHVXRRYklidXB3SGRaZTFNd2JDd0hwR2FLVjhBX00xYzJDTE40OFFLNXAzUXRCWmFB?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T13:00:00Z",
-      "likes": 50
-    },
-    {
-      "id": "p_tech_news_1030737064",
-      "title": "От складных айфонов до ИИ-очков: Россияне выберут лучшие гаджеты 2026 года - Постньюс",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Постньюс.",
-      "emoji": "💻",
-      "sourceName": "Постньюс",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9fOC04LXV5Zk9qZy1IVWNJVVFkUUR5WWZZcFhMVGRJSXFQWXNoZHoyVUJwY0hJaFhWcHlHcUswU08?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T12:56:05Z",
-      "likes": 48
     }
   ]
 }

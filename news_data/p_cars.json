@@ -1,9 +1,20 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cars_news_2183825753",
+      "title": "АвтоВАЗ раскрыл систему защиты LADA Azimut от коррозии - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGJLN2dNUExZUE1zdGJ6RHpFQlpVQVFibUR0bFpwSldwMzVKNEhWS3RETklFNEVtZUZNX1d0eFhoWG5QcXJtNjhnYnEzMFpxXzRyZzd0VjNsSVpIN1Jub3kxN1psRGNGWF9RMU9XMDdNcTFOSFlsdWM1Wk43Q3FDSUJGN0kwXzRsMW05eXB3SEt0bjdfUGw0?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-24T19:28:37Z",
+      "likes": 27
+    },
     {
       "id": "p_cars_news_4163384000",
       "title": "LADA Niva Legend заметили в Москве в ливрее каршеринга - Tarantas News",
@@ -47,17 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-24T11:59:48Z",
       "likes": 57
-    },
-    {
-      "id": "p_cars_news_3053554259",
-      "title": "Завод Audi в Китае работает два-три дня в месяц — Handelsblatt - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbm9wNWt2WXEyY21qRXptQ1Z6SkpHVENOblg0dXFlMXIxUjBjakc1UXN5eDFWdnl0bTVMRm8zTUJWbHMxT2FkcWhDMUZ2dUR0QlRVSXpDVlZha0tTcUJjQjYxM3VrSENmWUJOMGtZLTN1bHVfNzhqQWF2WHFZZkZvSklRbTN5TmVxUkZYN1c0bE1meS1yeHE3SHJ3TksxeGZS?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T10:59:05Z",
-      "likes": 11
     }
   ]
 }

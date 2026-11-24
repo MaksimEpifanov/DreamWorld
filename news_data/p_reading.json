@@ -1,30 +1,19 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_1049621957",
-      "title": "Объявлен шорт-лист первой в истории Детской Букеровской премии: какие книги вошли в список финалист…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Mixnews.",
+      "id": "p_reading_news_3583548458",
+      "title": "5–6 декабря 26 независимых издателей проведут в Москве новый литературный фестиваль - Москвич Mag",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Москвич Mag.",
       "emoji": "📖",
-      "sourceName": "Mixnews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3ltMUw5UWtBV1JYdmpwQ2FieUVFM2M4WHhSdXc4dkxHdDRCZ0kxQUV4b3otcHRSOUtPNTBPTE5McmJVRmRHS1lHVmc3T1NLRkFhUHc3aHY4YzRTTWR6MHlSVGo5bU53bi15SWVQcWRPU1dlek14SEw3Y09PQ1Y5LU02NUZzNHc0NExuZ1JfU2JWa3FDdHZrazBabjZhMHJrMW1ZLWNwbWQxQVV2OFRPRkNmYXZucnByT2owNG9RTjhRaUg0QklESi1Gdw?oc=5",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXM4UGRnemNMSkVIbF8xREtmU0VhRnZZYTcwVjJtenpfZVhoNU9aM18wUmlDb1RuV1lHMmQ3TGFJQ3lHbGNJMzdEYnBzcEtxOEtYUm5tdE1LYjBzdXAwRkNjOV9wM2FwemQ1dy1GekxRYjRlUHdlYW5SaWxVSWx5WUFwWlFOVndnVERIeTk4SFZqYzFfMXRjeHIyRWpzeEV4Vk9BVDVaM25IdG03UndaQ2Jqcw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T17:44:18Z",
-      "likes": 65
-    },
-    {
-      "id": "p_reading_news_2371392485",
-      "title": "«Как будто сериал посмотрела»: собрали книги писателей Башкирии, которые заставят вас рыдать и ужас…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ufa1.ru.",
-      "emoji": "📖",
-      "sourceName": "ufa1.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnaUwxMm9zTUJPUFktZzEyRXNZMkxVYjNCVXRETFNUUGxpQzNMSC02b1UwQkF1bFFiSUNaaFFiU3VDYUZyXzk3MUpvZDJ5ZUxCQlVNSHpFbmhlYUY4Qnc?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-24T15:30:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-24T17:55:01Z",
+      "likes": 92
     },
     {
       "id": "p_reading_news_4005617953",
@@ -47,6 +36,17 @@
       "tag": "Книги",
       "publishedAt": "2026-11-24T14:32:01Z",
       "likes": 9
+    },
+    {
+      "id": "p_reading_news_3429252761",
+      "title": "Белорусы не покупают книги на белорусском. Кто виноват? - Наша Ніва",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Наша Ніва.",
+      "emoji": "📖",
+      "sourceName": "Наша Ніва",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WNTBQQU5Ud19NSG9CaC1ERFVfeWh3VXBKejd5R2FlMDZUZ3ZxZGRGVmRTUW5oWERJSTU1dE9zdE9EZGt6VlY3RlBra9IBS0FVX3lxTE9WNTBQQU5Ud19NSG9CaC1ERFVfeWh3VXBKejd5R2FlMDZUZ3ZxZGRGVmRTUW5oWERJSTU1dE9zdE9EZGt6VlY3RlBraw?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T14:14:52Z",
+      "likes": 77
     },
     {
       "id": "p_reading_news_1710171747",

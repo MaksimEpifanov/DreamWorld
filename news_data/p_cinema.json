@@ -1,9 +1,53 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cinema_news_4242748616",
+      "title": "Статьи - В Москве состоялась премьера сериала «Сталин». Исторические факты в основе сюжета - РЕВИЗО…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: РЕВИЗОР.РУ.",
+      "emoji": "🎬",
+      "sourceName": "РЕВИЗОР.РУ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY1dpVVd5Z1c4clhpazFWSGx0ZUw5SHl0elZIZWNmRDBqWmFFVGs1blZmd081c2pGUy15MkRHMlAxbDJGcU9sb0VkYzRpUGp2ZGFwQ3Jxb19LRmZqVU5Hc0VlVVR5UnVZOUE5NFN4cmJvVUdMcEFkczlMLUhJeEc1WVFvRFc4WVdEdFZUV1NjMTN2QQ?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-24T20:50:59Z",
+      "likes": 77
+    },
+    {
+      "id": "p_cinema_news_3854029995",
+      "title": "Сериал «Сталин» Бортко: Миркурбанов с коробком спичек и «Ты — царь!» для Сухорукова - TVCenter.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: TVCenter.ru.",
+      "emoji": "🎬",
+      "sourceName": "TVCenter.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM0lqdzVkeVpCMDI1bzMtMFdxUHBKLVAtbGI0cUhKSDJfYWtibnJzNVFNSVBkZGxjSU5XblBveml0bjB5aWxQNndWS2RkRkRNNmRJeHRseXltOE9EZXlNaHNjTDFaZ2E3azNqQ2J2N01HczN3VVBSc2RJYlBfSXdnaXY4bHJRdUhwOEFNeTJqUmhFdkQyTmozaUF5c1lkU0N4S1NVVzRtUWE?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-24T20:06:31Z",
+      "likes": 28
+    },
+    {
+      "id": "p_cinema_news_3251265234",
+      "title": "Новые фильмы, которые уже можно посмотреть онлайн - Film.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Film.ru.",
+      "emoji": "🎬",
+      "sourceName": "Film.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEdZSEUwalVtdHJKM3BpTHB1dzF5VjczbWt6bU5SMVdGOTdYOXB3V2ZaUUR1QzFMdEQ3TFhhbExXSUN3aWZDRHMxdkE5c3A4TUNQTFU0clVUVGhGbkVxN2h4UXF3a1Nyektod3BwOWxzaGlKNmc2YzZyOUNjRmJ0NXA0ZkdtVHhS?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-24T19:55:48Z",
+      "likes": 86
+    },
+    {
+      "id": "p_cinema_news_1410539595",
+      "title": "Фильм «Дюна: Часть третья» получил новый тизер меньше чем за месяц до премьеры - CyberMeta",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: CyberMeta.",
+      "emoji": "🎬",
+      "sourceName": "CyberMeta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLThBWUJISGt1c1lzRnU0cVNhUWZtaVVSTHRpYUcxV1cycVdhd1ZaanRiLUsySm1IdHBydFNSX2Q0SUhxaUJobEZjN3RhNFd6NWhzazRqbXZ5cTJXblJxM1Q5b1FfdHhZTUFmcU51MmE4QzBPSExQcWVfSnBTX2dMZmZnanFOUmZIN3VITUtDcXV2REhsZzJxejByREhBR1FDTW1tdVlMNHE?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-24T19:39:01Z",
+      "likes": 90
+    },
     {
       "id": "p_cinema_news_603258624",
       "title": "Зарубежные фильмы хотят ограничить в российском прокате ради отечественных картин - DEITA.RU",
@@ -12,52 +56,8 @@
       "sourceName": "DEITA.RU",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2d3JYblpaU2xNam9senp1bWdiOFczdzFXSng5Nm5saC0xRzkzUGh5X2tKekRSdlVoUlBTN3IwVEQ5ZzFiNHc?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-24T16:53:04Z",
+      "publishedAt": "2026-11-24T19:02:56Z",
       "likes": 47
-    },
-    {
-      "id": "p_cinema_news_1748059276",
-      "title": "Вышел полноценный трейлер фильма «Баста. Начало игры» - CyberMeta",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: CyberMeta.",
-      "emoji": "🎬",
-      "sourceName": "CyberMeta",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLXJlbFVnV3pjUS0tWlFEYVNvVnRQdWRvalFRT2Zta1U2clpHZ3ZRcTdHWWt4d256ODZrOGZ6ZHdqTXBZV3NSamFQZmJJbmJBQnZsT184cG9CLUk0NDVrcVNMZzZYa1hJVDItd3gtdDlfZUplQlk2cGV2NGVEYVk1SVR0N1N1T2E1V2ticzFhdzBpcFM5Umc?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T16:27:01Z",
-      "likes": 40
-    },
-    {
-      "id": "p_cinema_news_4070203892",
-      "title": "Тяжелый люкс: 7 брендовых сумок, которые стали популярными благодаря фильмам и сериалам - Film.ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Film.ru.",
-      "emoji": "🎬",
-      "sourceName": "Film.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHcwZjRvSWxnMHJiWGdWWVNGSG1fVmdxUU83UDJNYVU0bDJSeVoxa21CYVJBUlRVVWJoX3VwX0pQRmNSbF9TUklkS0RNSHF3ekxoTVN4NER2YjVJM0xUSXFjZnV4RW1sTmE1VFdTTW5BRVpmX0xmVnhZdXYycFAydjEtSGg1cUt4SERnVWoxUFNyTi1Lc1lHalhjRlA3NGVlS3RVTGZYRUNSMWZrNnV3eUh4ZjNWcUhXS1E?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T15:36:26Z",
-      "likes": 44
-    },
-    {
-      "id": "p_cinema_news_672255125",
-      "title": "«Жизнь слишком коротка, чтобы снимать ******* фильмы»: режиссёр «Блэйда» рассказал о работе с Marve…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: iXBT.games.",
-      "emoji": "🎬",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYkM4N3d2a2pWT3dXSk1LTXJMQkwtZm90MGJSUFdvZlpuNXJHY1lKdEZMM0NlTE9oUjduUXNVa3FFVWFyLW1zSHhIOU9GV2NjZWZ0MU1SZmdSSGl3MlpLNUZXQnpMTDlWVlFJRS1ib0MzdU5UY0JVbzNRQWFNemlZMlRhVm1jdDktVWVFOHJOR19qTDZFRjFJbUpQaFU3bl9aSjhvaTVsV2hyU1pnQmxGTHlKRWowSWl3TXM1ZG1jTFPSAcYBQVVfeXFMUFJCYjlJNnBYY1lMbEhJRzNFQThhQV9KMWktNHB6RTVvTmEwazE3VldnWEtaTXNqYnNmVmRLWWVsMkdhalNnX01vNVJOTkc5Rlk5Z2x4Nm00U09lMWZWc3czVUUxdFM0MlZzMDdNUHdKMkU0VDVJN3JiZGhUQ1ZOZ1RjM2FpNnp0Y2JoWV9pblppa3VjeXZPRGV4QU9YaEcwRWlKZWFHcXNmSkpIUDBTQjZXQnI4V1l0SDJ1a0xDXzFubC1rOGpB?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T14:09:00Z",
-      "likes": 78
-    },
-    {
-      "id": "p_cinema_news_3908507699",
-      "title": "\"Новые похождения Клиффа Бута\" и \"Знакомство с Факерами 3\": главные кинопремьеры недели - УНИАН",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: УНИАН.",
-      "emoji": "🎬",
-      "sourceName": "УНИАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSXBRcFBwbFctQkd0WXYtSUVDMElOMTYxVDh1V0RQbHlXWVQtcUVZaFd4X0J1V1FxS0NIQ1BEcW1ORlRNSnRzeURhU0N3RHM2RjNoUF9fR2d4TmE5YXZxMXRHOFRGWld4N016N1ZuZGdhQWdYWnlpZEFWNUlXanFLRDdKZEdCZlJtVUdnWS1jYV9pZ1QyRERDTEhGTHMtRlYtU1FvaXRfUWxueWc5VnJfZFJNVXJKUHpEVDQxdEJUcGxZeUtSSlpHbG5YeUhVbmFqVDh5ODlINU0zVWlTZVRRODU0ZWTSAeoBQVVfeXFMTUoyY3lfNGVsY3pJS0lJSG4yOE1kZkVsMm1qMmxxdDNpQ3pGcHluWXRJRUNwaHNtUnB2eXBkNXBfSFNaYzljY25fRU1jekRGeWk0VElBMXlsZDhwX0N5V2FKNThVU2RlUkg2cmNvaVhmQlBzSW9LWGttMFBCUVhUY2FPLWdoNXBNQ1hSM0RrenplQURNRHlEUzB5QVhRall6aW54WkFOTXNZQV9zQjl3VnFwWUxvVFpDTlF4ckNTT2huX2xTdERTYkNYRTJxRnhfWThlVVlOaW05WnVVQWVEdktXVjc0X2pTY3Vn?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T14:01:00Z",
-      "likes": 9
     }
   ]
 }

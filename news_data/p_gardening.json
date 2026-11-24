@@ -1,9 +1,42 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_1829150892",
+      "title": "Подземный вредитель. Африканскую кукурузу 30 лет уничтожало растение-паразит, которое путали с засу…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Ukr.net.",
+      "emoji": "🌱",
+      "sourceName": "Ukr.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YbkZlQ3hfZE9nOFpmNUVjNWxBQ2xnSUR2aVh5ZnJGcjRWTlNVYVFPbmVGUjd2UkM2bVlBZ2wweE82VFVvdXBxWk5VeC1kQ2ctaG9IWUJCbkNLWUNJNkJERkc4MEVPV0FuMFVV?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T20:21:59Z",
+      "likes": 29
+    },
+    {
+      "id": "p_gardening_news_43132107",
+      "title": "Огород в декабре: какие работы с почвой повысят урожай и сэкономят много сил весной - Белновости",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Белновости.",
+      "emoji": "🌱",
+      "sourceName": "Белновости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa01laFp4U0pwZ3ZCYlZGNGJPclpNR1NBb3l0UGRYVmE2NWVmZTFoT3p3bnRWd1VDMWY4dFhYdlpyaHIzajZVVU8wWlVsbUV1UkMxN3FDeWluZ1RrRGRtU0JWX1dJd2UtTTY5d19ZNkNYY0JKYXBiZzVSNDlzUWRxbDk1cVQxTjE3eVR3TEl6TXUyOGdxLXBPeFlHME5ndGFfOE1Mck15OGZPWDNuUlA4NGtYcnlWMjMyWFBQcy1qdWFmWXM?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T20:03:00Z",
+      "likes": 26
+    },
+    {
+      "id": "p_gardening_news_2885493098",
+      "title": "Забыла про Кураж и Герман: эти 5 гибридов завалят огурцами каждого дачника – хиты 2027 года - EAOMe…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: EAOMedia.",
+      "emoji": "🌱",
+      "sourceName": "EAOMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zRkp6bml3aW9tNHRRV3NjLWQ2TnNjSG5nQk83dndaQnpUMzhHSlNPc1B2TV9tREdqcXVlYUQ0NjFQNW8zSkxSQg?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T18:48:00Z",
+      "likes": 80
+    },
     {
       "id": "p_gardening_news_3910249371",
       "title": "«Посев» семян доверия в чистом огороде Тхань Тана. - Vietnam.vn",
@@ -25,39 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-24T10:14:36Z",
       "likes": 12
-    },
-    {
-      "id": "p_gardening_news_3484006801",
-      "title": "Какие экзотические культуры скоро станут обычными на белорусских огородах? - Smartpress.by",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Smartpress.by.",
-      "emoji": "🌱",
-      "sourceName": "Smartpress.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONkowaG1fSlJKSlYtcEJNdF9EMnRodmlCY0lJZ2N5N1FfMUZXVkpPN2Rib0J1OUljamFXcGY4X25IQV9Nbi1tTUJXNWJZUHhvSkNaU0s0aWxsM2RPeEJfLTBNbnRhbU9RaEFldmNZS3BKX3hLSzdlWlowdllJRVNOMWM1NW1aT0NkdmhpTnJqbmVKYmM2THM0XzV0RjlZejdST2hiWkJuZ2t4ZWQydGtHNlRGQ1lrYld1TldELXBOZDYtSzRVS0pTWmFZUm5ZZlpEeGpMQi1R?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T03:00:00Z",
-      "likes": 10
-    },
-    {
-      "id": "p_gardening_news_3500906913",
-      "title": "Смородина растёт кистями, словно чёрный жемчуг: не сорт, а ягодная сокровищница – крупная, сладкая,…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Vluki.ru.",
-      "emoji": "🌱",
-      "sourceName": "Vluki.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9NLWx0LXNSX2ItcENvbmR4V1ZwTU1oeWtVaW9Hc2FTbFlnR2otQThMOGdvd2RNTUE0QW5DaF9OX01pdw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T02:27:27Z",
-      "likes": 60
-    },
-    {
-      "id": "p_gardening_news_3220413029",
-      "title": "Как превратить тяжелую глинистую землю в рыхлую и плодородную почву: проверенный способ - Главред",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
-      "emoji": "🌱",
-      "sourceName": "Главред",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcXZUZFdhMkhPWVFSLUxZV0p1cmV1aHh6SU5ZQ1pTck5MeXZWT2JlZi1udFp5RnpQQXdzaVM4YlljOHA1ei0wUUY0WDljRzdJNGVya0FnRUlFNTlMTU5tOUpsTVJ2TmZoM2lnREZQQ04yMXJSSHRLUEFMTUZycWR6b1lsbFFCMTdIWEFKX2ppdkVHb2xzdExKcDBhQUozYXE3cjNlX0s1Y3I3blN1RmRrZWl3WmFRdEQ0VUhBWFU2NjA5MjcyRnRtM2cwNEpOczMtaGhjenV30gHbAUFVX3lxTE9DaXFybHNfOUxfUy1aQkl1NWZ6a2NiMnJHdFBvOV9PTnNsTnE3OTJBNm5fRVl2eGstNjBjSkVLdDBRQXVHc19ZWkpianEtUjJodTJWdnVIR2FVZ1dBTWNzNWE3WnJlQmUwMURVWVFLN1BUSTYtbVhOa2w2cjItTWg5NEtTWkFGcXgyQWxNVjlFcVUtOXRkdm16VDZjUWRMR24xMUJ0YU91RGV0N2JfQWJ1SDFIRzRvOTJJWVdKUUJ3dWk4TDd4RjdrMUUwYUZpaGhQSHlMZUJQdXRZRQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T01:09:00Z",
-      "likes": 55
     }
   ]
 }

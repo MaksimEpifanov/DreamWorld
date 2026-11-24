@@ -1,9 +1,20 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_animals_news_1504411351",
+      "title": "От бездомных животных до молодёжных пространств: какие проблемы Дагестана хотят решить подростки -…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Этномедиахолдинг \"Дагестан\".",
+      "emoji": "🐾",
+      "sourceName": "Этномедиахолдинг \"Дагестан\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNHRjZnRzU0pZMVlwMFdzallxc2NOYnBzZ28zZE85RWhrR2p4SzFJMlhORzduV3RvTVF1R0tWWXl3dkE1bUNWZlNJVUROWk43UDJQR3VMV1dDby0zRUxLaF9zVHV4cG56MWpSeDJjMjNYVmYwRlNiR0hacTNEX2ZYV2I3TnZ0Q3FwMHpPWU5SdU56VDNaVXZleXdpejV5YXAtU0EzR3JFVmNLa2dvYlZhZ2dRRmE3dENDZXd6QUlYV1BaQQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T19:13:04Z",
+      "likes": 35
+    },
     {
       "id": "p_animals_news_612115277",
       "title": "Прогноз рынка усилителей вкуса для кормов для домашних животных до 2035 года: гуманизация питомцев…",
@@ -23,8 +34,19 @@
       "sourceName": "Тамбовская жизнь",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUnhJdFQ2X2EzcmppbmJLc0xZTW14Q1ZHZ0FySmx3T3p6RkFNYWpSSUo5ZXFFYkY4TnVUTmhyV2Z5X1Bwd3JTb21nLUlmdkVlZlZPVTJ0dm9QTjA2Wi16bUxBRDR4RHdBUk5pdElrZEx4T3BvaDA0azRNOHVKQzFXRER0ZUNDMEZycmk0UFJWblBpRl9iUjE3ckd5QTQ4N191dWFYbmpNdDJBNldLd1Y1VnpyVTdvby1yTndpLUV5OWhwTkJqb2ZVbjhB?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T14:06:13Z",
+      "publishedAt": "2026-11-24T14:06:32Z",
       "likes": 66
+    },
+    {
+      "id": "p_animals_news_3643809197",
+      "title": "Защитница животных Анна Пелепчук рассказала, как спасает лебедей, летучих мышей, лис и брошенных со…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: UA.NEWS.",
+      "emoji": "🐾",
+      "sourceName": "UA.NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV1M5RkJtR2E3N3dRYnhYVnF2b1I0NkxRNlFFRWFYWFRTTU1DUGZkcGpmM2RhZmwxVE1xMllGQ1N4TGpmNnZsOU45MUZyY1VQQVJRYU80X2ZETkREa1BhckI0Y3VxNTAwQ3JfUzBzVXgzb1pLZTdfaEloNDNudnVtdHZqaDNJQjRlc3VvOXR6TlNhM1MwUG8zZ3NBS2pDTHJ5YzZvZjNiV0dEejBPTXFJUnJwZnE3bW9PNmYxNVFNcw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T12:20:55Z",
+      "likes": 75
     },
     {
       "id": "p_animals_news_532973854",
@@ -36,28 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-24T12:17:16Z",
       "likes": 3
-    },
-    {
-      "id": "p_animals_news_2515761102",
-      "title": "Всемирный день домашних животных - Восход Сураж 32",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Восход Сураж 32.",
-      "emoji": "🐾",
-      "sourceName": "Восход Сураж 32",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeXpuOThNRktPUUVpalhOZVRfUExUVjRhREZ0YlNZVmlpY1plMFBMLXdzVnFQQ0pZaDVvbnpmVEQwaEtKTWtnQU9FY00xWkwyaHJfQW5YbkRLQ0JGeGNZOWlzRzR4RWNyaDVUME5NTGJsSnBxbHNLa2xnMHNvVFd4X0t5SQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T11:53:56Z",
-      "likes": 36
-    },
-    {
-      "id": "p_animals_news_2241999637",
-      "title": "«В ужасном состоянии ее нашла почтальон»: истощённая пенсионерка жила в квартире с кошками - KazanF…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: KazanFirst.",
-      "emoji": "🐾",
-      "sourceName": "KazanFirst",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWnZ6ZkRRMWRPbXZqMEd4VnYzY0VkU0FHYUhfMkNObXNMems2MmJlMHdESC00V1JxWENoU1lhWWtjd2pxaTJ0eXFwdEpYYVRzS0Zza2NTZ1YybjFfR1RDV0d1MzdEVkdCdWItX0JMa1lIN1BrSkg1WUpudFRsZ0hvS0ZRelZiZ1ZOcEJOOEpjaU9meVNYeWJ2VUNpOURXSHZqSm50NnduQUJKYzhMYzZPV1RnYWtBZ1BFaWVCT2lpdXrSAcgBQVVfeXFMUGVRS1ltSXJ2T2VhV09kX2VPQjdxTFJEaGxTSVdZLURfM0ZFMlBDSmNENThEVFpBLW9WODlhaGVDWHU2TWU5eE5xZmtwdDI4WHhrZ1ZYb19Ja2tHNDhsZEhjSkRpalU1SmJIOHlyVmFrQ0swazdKNkIyc0lWVFlvWHpvaW90OWlZR3Z5Q1QzcExybUNjNHJUTHFEOGx6SmV3YVp3bFJzM3RhVDM1TEVDdnJxYzYxU0VnRWZEaE1fR1NLZW5WY2NLODU?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T11:49:22Z",
-      "likes": 57
     }
   ]
 }

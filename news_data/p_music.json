@@ -1,9 +1,42 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_3122854307",
+      "title": "Дельфин выпустил альбом «Зла нет» - ПроГород Ульяновск",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ПроГород Ульяновск.",
+      "emoji": "🎵",
+      "sourceName": "ПроГород Ульяновск",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95M1B3SXVjTmkybHFpWXFRazh6R0VBbFNkYl96UjZIVzVrdFdUX3VFSVp3TFNKSUo5RnpGQ2tEa3dSSWp4Mm96aGVvX3F1ejFId20zUWMtSWprdWg3TS1CY29Uc0RpbmVZeXdOaUZwUGlNWnB6?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-24T19:29:15Z",
+      "likes": 68
+    },
+    {
+      "id": "p_music_news_3012167837",
+      "title": "Айгор (Aygor) – биография, фото, личная жизнь, песни, сейчас - Biogr - Биографии известных личностей",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Biogr - Биографии известных личностей.",
+      "emoji": "🎵",
+      "sourceName": "Biogr - Биографии известных личностей",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8zNE8zQkxKcXhsWlVEcjhDREVfb3dIM3pPTzJINERVNHhaSExsbHUxVnNDOGxWLVU2TTJESw?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-24T18:42:31Z",
+      "likes": 32
+    },
+    {
+      "id": "p_music_news_1445561917",
+      "title": "Armin van Buuren возвращает Armin Only и готовит альбом на 36 треков - DJ.RU",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
+      "emoji": "🎵",
+      "sourceName": "DJ.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxORWQwUm50azllRkZQSmdkODF4VFZiN2s5Tl9yeDdIa2NKdmhHMVYtNXlVcWhUUnZhWjkxZjVpbGVyOXhlTW5YQUVpdnd4Q0ExWmtwNFF3TjVuQ0VGcHRKdDVXWG5ydlVjc2JmNmUwR3g0blVMbWJ3bVZ4VFZ4b1FheEFnQmRRMlc3N25GSk1YOUhCZmk4djMxQ2g1MlEtZw?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-24T16:06:02Z",
+      "likes": 8
+    },
     {
       "id": "p_music_news_3925188495",
       "title": "Легендарная GTA VI собрала звезд мировой музыки: полный список из 34 треков - 24 Канал",
@@ -23,41 +56,8 @@
       "sourceName": "Татарстан 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2h0OWZmSFRycFhSTC1LeG5TckdYZXA4MV9Ta2FSR2ptQUxFY2wtOVRPSlpISGhkc1otRHhNRGZSdFFXS3pMcFdob1ZDZ1BxSjNhOTJEYWwwdW1wM0RoOVFxNDNvcnhvQ2pCdElWRFowcGVoOW5wNzJzWjRZSW55bmVwTWtiNTZnMlp6T3hTZl9aeGdKNWRNWTFHNlVGQjRoSXVEZzlDNGVyenJPNnp6dThOOA?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-24T13:45:00Z",
+      "publishedAt": "2026-11-24T13:48:30Z",
       "likes": 36
-    },
-    {
-      "id": "p_music_news_1037161437",
-      "title": "Maneskin в 2027-м вернутся с новым альбомом - Soyuz.Ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Soyuz.Ru.",
-      "emoji": "🎵",
-      "sourceName": "Soyuz.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wMl9ST01uQWJnek5sU01nZFV6emdGN04wbExfNGJvWDB2ZG8teDF1RUoxSERKMFpKZldNY3VfMjBFY0YzMVFrcGk4b3hGQ2dfQXJGV29fSks1WG1GM1VQSVo2a05sVnl5S2ZSTnhhUmZOWWwzNDNJRA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T09:38:21Z",
-      "likes": 33
-    },
-    {
-      "id": "p_music_news_3152511426",
-      "title": "Группа 1VERSE запускает предрелиз своего первого мини-альбома «Uncharted». - Vietnam.vn",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
-      "emoji": "🎵",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRGYyZlIzalI0ODhBQ3hVX2l5NFdQNktHZXRzY0t0MDZVMmRscTh6SWdKT0Nib01JTlJIRDBMLVJRSERoUlpfT2FxWF9KY2JadHFueTloOFBGbEFxWHVDRlBZS21qN2c3b0dycm1xODVBTTZkVnNiZDNQQ21EcUYyZXFIbVdlRDYxMWc?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T08:47:28Z",
-      "likes": 14
-    },
-    {
-      "id": "p_music_news_257967449",
-      "title": "ATREYU записали песню на немецком - castlerock.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: castlerock.ru.",
-      "emoji": "🎵",
-      "sourceName": "castlerock.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmdxUVdNMkNlQ0lIMzItdmhVb0J2SVZlcEZNU2hoSGtIMk1DZXV1d1JQMmNLemVPZ0hnUG4wSGxVaFRQaEtvVktUNEZxaGxBWVloSTl0ZmZyaWJtMjkzejI4ZTB4bzVveUx0QkY2Qi1adzkzdzFGQzYwWjFPVDZJOUgwdmh4SHZ3WlpxTA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-23T20:38:50Z",
-      "likes": 6
     }
   ]
 }

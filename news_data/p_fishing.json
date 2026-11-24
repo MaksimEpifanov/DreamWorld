@@ -1,30 +1,19 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_2657622402",
-      "title": "Поехал на зимнюю рыбалку — схватил штраф: за что накажут рыбаков в сезоне 2026-2027 - PrimaMedia.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: PrimaMedia.ru.",
-      "emoji": "🎣",
-      "sourceName": "PrimaMedia.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xbFQ3WjNXX0t3UUp4VUZXRV9aekJ6WEM2VkRIRG5tQjNnVHpPNk1NTWlaUW1VLVFnSC1CQ0N4c04zek53dk9PYmlSQQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-24T17:04:20Z",
-      "likes": 46
-    },
-    {
-      "id": "p_fishing_news_1090434645",
+      "id": "p_fishing_news_3633502339",
       "title": "Килограмм рыбы может стать проблемой: сколько улова разрешено выносить из водоема - ФОКУС",
       "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: ФОКУС.",
       "emoji": "🎣",
       "sourceName": "ФОКУС",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcFFLVDc3Z04tbnRBUVRlbzVaeTJySWlUYWFnZ01EbmVFU1B4Q0JDVTBEZ2xVZTBlQS1KbFF6dlVaWS1NUmVMaUUxNzliVThsNEU1cjhKMkl2bHMtQkhWQ1FKYjhBS2xmZFR4YUJZNjdsSXd5c1JEaXFwMm1jNnVOMVViY09rOEpHQ0F1YU5DbHZIVTJ3b3hzZzh30gGfAUFVX3lxTE9QQnhDVXB4TGJuYVR6VWsySE9oQzJhVWR3VkhHQ2pfVTZmaFVuM081QXBtRnFEekoza0xTeElsZWdLcmVUbmt2bktJeUJMY3lXNWZDODNJdllqMkFNYXRGdjRkS01DOFp5UDlhaXdyTFQ4WFFabXZkZk9VbTNOWGRpeF9LX180S0RCN1ZFdmV3bkY5R3NxY1dqcEZwNE9hZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUEJ4Q1VweExibmFUelVrMkhPaEMyYVVkd1ZIR0NqX1U2ZmhVbjNPNUFwbUZxRHpKM2tMU3hJbGVnS3JlVG5rdm5LSXlCTGN5VzVmQzgzSXZZajJBTWF0RnY0ZEtNQzhaeVA5YWl3ckxUOFhRWm12ZGZPVW0zTlhkaXhfS19fNEtEQjdWRXZld25GOUdzcWNXanBGcDRPYWfSAZ8BQVVfeXFMT1BCeENVcHhMYm5hVHpVazJIT2hDMmFVZHdWSEdDal9VNmZoVW4zTzVBcG1GcUR6SjNrTFN4SWxlZ0tyZVRua3ZuS0l5QkxjeVc1ZkM4M0l2WWoyQU1hdEZ2NGRLTUM4WnlQOWFpd3JMVDhYUVptdmRmT1VtM05YZGl4X0tfXzRLREI3VkV2ZXduRjlHc3FjV2pwRnA0T2Fn?oc=5",
       "tag": "Природа",
       "publishedAt": "2026-11-24T16:56:13Z",
-      "likes": 17
+      "likes": 91
     },
     {
       "id": "p_fishing_news_3219796952",
@@ -38,15 +27,26 @@
       "likes": 76
     },
     {
-      "id": "p_fishing_news_674083455",
+      "id": "p_fishing_news_1799497296",
       "title": "Рыбаки имеют право на трофей: сколько рыбы можно забрать домой без штрафа - Новини.Live",
       "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новини.Live.",
       "emoji": "🎣",
       "sourceName": "Новини.Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOTREdUktRnloV2o3TmNtb1VGQy1FVzVSVnNNZ25qdlJaNjZVQXIxYzNlUEE5Y1pGWnJWbVpRa1Y5RDVIOUFwMjlEeGNjSE9oNjd6cklCNEVhSzFTUGRzclFHcTdZYWdxalBRaFh0cW1wZnEwZ0FiWUZtYndLZkZrVGlIMkg1d0Z5eTdaZElIa2FFNlFobnpMSy05Mm5QOHJtWGpZdTNPV0dIZHFVWVotcFFUS1c2eWPSAbwBQVVfeXFMUFJHZ3ZKUDQyWjZyYUNHZXIzODRMSkk3d1dNOUlybTNvbXo4N2xjV0EzT0t6NmJITHUzWUZDNG41OFFZZUU3bVZpMzM1ZkpqOEg3d0l5YW5tRDFoRnVuYUR4c1VKN09OM2pFTkI0OVNiTFdtXzdxeHlUVTNTUlFGaldXeFRJV3NIamRKUW9vZjFjT3FtX3BSTjhwWlItVTUxM0RLVHJ3R2Z5VUI2Z2ZQREJLeGZDQXRQbEpHVmg?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUkdndkpQNDJaNnJhQ0dlcjM4NExKSTd3V005SXJtM29tejg3bGNXQTNPS3o2YkhMdTNZRkM0bjU4UVllRTdtVmkzMzVmSmo4SDd3SXlhbm1EMWhGdW5hRHhzVUo3T04zakVOQjQ5U2JMV21fN3F4eVRVM1NSUUZqV1d4VElXc0hqZEpRb29mMWNPcW1fcFJOOHBaUi1VNTEzREtUcndHZnlVQjZnZlBEQkt4ZkNBdFBsSkdWaNIBvAFBVV95cUxQUkdndkpQNDJaNnJhQ0dlcjM4NExKSTd3V005SXJtM29tejg3bGNXQTNPS3o2YkhMdTNZRkM0bjU4UVllRTdtVmkzMzVmSmo4SDd3SXlhbm1EMWhGdW5hRHhzVUo3T04zakVOQjQ5U2JMV21fN3F4eVRVM1NSUUZqV1d4VElXc0hqZEpRb29mMWNPcW1fcFJOOHBaUi1VNTEzREtUcndHZnlVQjZnZlBEQkt4ZkNBdFBsSkdWaA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T14:14:46Z",
-      "likes": 20
+      "publishedAt": "2026-11-24T14:05:00Z",
+      "likes": 42
+    },
+    {
+      "id": "p_fishing_news_2657622402",
+      "title": "Поехал на зимнюю рыбалку — схватил штраф: за что накажут рыбаков в сезоне 2026-2027 - PrimaMedia.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: PrimaMedia.ru.",
+      "emoji": "🎣",
+      "sourceName": "PrimaMedia.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xbFQ3WjNXX0t3UUp4VUZXRV9aekJ6WEM2VkRIRG5tQjNnVHpPNk1NTWlaUW1VLVFnSC1CQ0N4c04zek53dk9PYmlSQQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-24T07:04:00Z",
+      "likes": 46
     },
     {
       "id": "p_fishing_news_2864672797",

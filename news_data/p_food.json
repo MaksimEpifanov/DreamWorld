@@ -1,9 +1,31 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_food_news_3999580034",
+      "title": "Без света, но с праздником. Что приготовить на Рождество и Новый год - Ukr.net",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Ukr.net.",
+      "emoji": "🍜",
+      "sourceName": "Ukr.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tQkVKa01ma2g0b2RzbXhjNUMySUJ4bE1jaVNpckVWbHZObm43UG1Zc1hjcUs2amtHU3NoUzNKTHhpUERFRlp4R0xWeFdNTXE2cWpyQVVpWkllTmZWal8zUUI2aktRZw?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-24T21:23:58Z",
+      "likes": 20
+    },
+    {
+      "id": "p_food_news_1644767924",
+      "title": "«Кулинарная кража» года: Турция и Греция сцепились в новой битве за любимую еду туристов - Tourprom",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Tourprom.",
+      "emoji": "🍜",
+      "sourceName": "Tourprom",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oS1hNb2R3czd3S0ItQTlhYnZ0UG5YSVN5S0FmMnBxeDBjT0QxMmg4enhjNlJtdU52cmpuTHZ3ZkNJQnRiYndLMmZRQQ?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-24T20:03:34Z",
+      "likes": 69
+    },
     {
       "id": "p_food_news_786390072",
       "title": "10 онлайн курсов повара для начинающих и профи с получением диплома - Sostav.ru",
@@ -36,28 +58,6 @@
       "tag": "Кулинария",
       "publishedAt": "2026-11-24T11:30:00Z",
       "likes": 90
-    },
-    {
-      "id": "p_food_news_1575106649",
-      "title": "В России утвердили ГОСТ на исторический рецепт оливье с рябчиками - Твой Иркутск",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Твой Иркутск.",
-      "emoji": "🍜",
-      "sourceName": "Твой Иркутск",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tcGJPT2QtU1dMdEhZRGpqUWhab3JoV2VUbDZ4SDI0U1dQamZ2V2JPdno0Z2RCMlJYbG9NYmc2S2VybzJuRjEzMU14Qk9neDdE?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-24T11:27:00Z",
-      "likes": 58
-    },
-    {
-      "id": "p_food_news_279855537",
-      "title": "Что приготовить на Новый год 2027, чтобы привлечь счастье и удачу - МегаТюмень",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: МегаТюмень.",
-      "emoji": "🍜",
-      "sourceName": "МегаТюмень",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXVyaWoyVlpCRmhBSFJqNHVUM1hteEpnbkZNZ3llR3JSRTE1MFdxNVQ5d1FHR2QxUzRYSl94OGVnVW55a0t0SDRzTmszeVF0dmJ3SWo0dE0tN2NCNnUxU3N1Wm5PT3RWbE01TlMxanIwRTdaT1ZZLWsxRGVMVjFqWVRTby0taEhmSTdCVmlHU2NJbjlINXZaQjdaWjZzZ3hXcFVRelNVS3BUclBWcTJyTUphS0d3dmw5S0lB?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-24T10:08:00Z",
-      "likes": 5
     }
   ]
 }

@@ -1,19 +1,41 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_collecting_news_2346340335",
-      "title": "Бэтмобиль из «Бэтмена возвращается» не продали на аукционе - autopilot.ru",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: autopilot.ru.",
+      "id": "p_collecting_news_2387118449",
+      "title": "За 50 копеек 1994 года дают до 14 тысяч гривен: как найти ценную монету - Фінанси 24",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Фінанси 24.",
       "emoji": "🧩",
-      "sourceName": "autopilot.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02RkRTSHV1Tll3d3oyN1dnc2tKTnNfcUNDRzBWeTlNdHM1dnh3SnF5Mld5aFROSG9VOXpPMmVDMHdYazJiRUwwc2U5NUs?oc=5",
+      "sourceName": "Фінанси 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOWVxbkhOMldQUEtLbnBBVlFyRHhKXzl4MXJCZ0pFY3FULUJBVkdLUjdrVjZ1VzN4NFpSWnktZlM4cFhLV0E5SmptZU8wVFFZVzdFLV9RSkc5Uko3Skh6YXNZWjlBWnZpVkFXcThaNV9WM005RzBZNTRzSHNaY1dFdjRIUHozUXZDbkxqVG9ELWppUEFUaGZUSXhQR3VsaEswRWNUN2FNODNNTG1fb3J0ekhNMFFpUdIBuwFBVV95cUxNT3dxcnZFRm9YdHZaemVFQjk1QnhwdFdnZXBqdWd1LVNRRFJqQVR1QjdBY180LTVQN3Nsay1BM1BYZG5EeXU0bkJqZ2ZKSkhITE1oR2F4WXBXZzBvam40ZDdab1BCWDlvYnVIdU1TUjJKQUV1d2NKUFFNSmJUYzhxaFhfeUhVZFhSRHN1MkRwM1I3UFkzUW5VbnBtZG0zSWNzU3lwODJrWE9vWGRIUDAtUWhLOEZMcVZWUlR3?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-24T14:46:44Z",
-      "likes": 28
+      "publishedAt": "2026-11-24T20:00:00Z",
+      "likes": 54
+    },
+    {
+      "id": "p_collecting_news_3097854734",
+      "title": "Триумф Айвазовского на Sotheby’s: пейзаж из коллекции эстонской семьи продали за 1,4 млн долларов -…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Mixnews.",
+      "emoji": "🧩",
+      "sourceName": "Mixnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPd3FzY2YxRUwwUVBCQ1NhZm1wQkppNWNaYk5WR0VhemZnZGdONkQ4Um1iaW9PYzRVSUM5OWYwUzRjRzdySlQxSlNXb0t3RDV4M1hJc0kyQzBnVmphWk9ZVEFyLVBHcjhBeHdwd1AyZlR6QTBUVmZrTXBpZlYteU9WNlZoOWdaQURVcWdhX3FtYlBtQl9EWWpiZHVwb2s4UkFCMXN0ZHc1WUVzbTFDWWM3VHkzQ21KVWRWTE1UZ25DM05tdXd0VGczLUNISS1DalhLMGc?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-24T18:23:48Z",
+      "likes": 70
+    },
+    {
+      "id": "p_collecting_news_2929088256",
+      "title": "Бисмарк, Наполеон, Черчилль: немецкая библиотека получила сотни исторических рукописей - DW.com",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: DW.com.",
+      "emoji": "🧩",
+      "sourceName": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa3FBMEFNVG5saVYzWVB6WExNNWkyRURXMHFnZGtfaUhwWmdtNWIxT2U5eEExQkpmWjVmS3NEYWpoSTV3RmwzajAzQ2h5aWpQLXFCdEJHbzBkNVE2WGN1ZXFFSGpQU2prUjB1ZTgzbWx6ZElXRkxnekt6YlMyQjJRanowTjM4Z0F5V0hEODRycVlDUk9hQm1BdGpIVUhWVDTSAZ8BQVVfeXFMUFI1eC1GUDNNM0tiZEhlc0ZBQ1JOdTFUMG80dzJsWnVXRjNvd3Rkbk9UY3hyMmkzcGN5bzRxMVlBWnF0UmZ4ZVFsOWw5T0M5OFRNS3V6eVpSMEhBb1JKaVR0bGhqNVpnT0JuZXprZDBaZnlZSDRmUURHME5JNG9VRWVzTHB6SXhaRk04T0FCcUE0cElGU3lQSUxsMXo2VDZv?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-24T13:43:45Z",
+      "likes": 59
     },
     {
       "id": "p_collecting_news_2603974850",
@@ -36,28 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-24T10:53:45Z",
       "likes": 77
-    },
-    {
-      "id": "p_collecting_news_1121409713",
-      "title": "\"Вот бы найти такую\": эта монета из Союза стоит 25 000 рублей, и она может лежать у вас в кошельке…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: UssurMedia.",
-      "emoji": "🧩",
-      "sourceName": "UssurMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HVjI3Z2RQQ1N3bzM1eC12SmxXOUVPcFRMbkhXeU5jenVJN3Y2RXpvM0JER01yUGRZRHhtS1FTR252VWZaa3BJckIzWQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T10:35:00Z",
-      "likes": 24
-    },
-    {
-      "id": "p_collecting_news_1439679160",
-      "title": "За обычные 25 копеек могут заплатить более 20 тысяч гривен: какую монету ищут коллекционеры - ТСН",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: ТСН.",
-      "emoji": "🧩",
-      "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeEl4ZU9uOWpMQVRidC1UZFVRVXYybTFUWUtUR25LYW9IMVpfOTZDaTlfUE5zVlphbVJHbXBPV3BFSXA5ZlhsYi1mazloWGY5NjBmdU13SExqdUpPWjRYWTRjcnhpeVNWZzRiT2JpX1B6NHMyWEd3UWhTeU1qV04wNTlCYlBiS3BmYUNlZU5Eam5fT3Fkc3NOczFzSzByaDg0TG9heGZ1RnVCeUoza1dKdEtZSTI5cC1ORlpTU3Vscld2OE1ZMW9iZy1FMWtvdXPSAdQBQVVfeXFMTjJEeDk5dzI0RllwRndXazUzaXBDR1BNdXVUSFB2OTk1aVhmdFNGMlBoTHk4MUNOdlhxSHhsMjVaOWpzcHZBYTJEWEhRWHN2U3kwRi1IdWZMNndNUDBuY3lwcGZwS2pkaHBNZGtUVjl5N0g2d1duNEFqZEJLTFUtUkNUaXdtMnp5ZjNSNUtRQmp2aEh6cktIRm4tTHRleDVSOHhvZnlSOEQ4d21aNFJKaEdhdWlwTm1DeE0tTUVCazFYSEYteFV5RDFNTHBNZWJ6Yy1SbVQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T07:23:01Z",
-      "likes": 74
     }
   ]
 }

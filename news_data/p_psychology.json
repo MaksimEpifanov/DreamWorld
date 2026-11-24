@@ -1,19 +1,30 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_3174135315",
-      "title": "Жених расплакался, увидев мать на свадьбе - почему его эмоции вызвали споры в Казнете - TengriNews",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: TengriNews.",
+      "id": "p_psychology_news_336054183",
+      "title": "Психолог — о том, как обходиться с эмоциями, чтобы они не провоцировали раздражительность, тревогу,…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
       "emoji": "🧠",
-      "sourceName": "TengriNews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmtlcDhkaDJKYTIyZ0JjTGh2Zkx2azk2Uy1WNENQOWhXQ3hvSHpqUVdjSjl0WXdWWG5RZFVpeUpIR3NDdDRJMGRqY3VIMGZIZHRzNTJPei1FZC0ydkVqRzV0UnlBQzN0RmtFTjJnWHI3LXlXd0twclIycDN5VDlnUDZaYm9WNWdSemptcldDRUd5UGNO?oc=5",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ0p4c1NSeFBRc3hHNGw4MnFkbmRSZUQ2TWRrblRxa1NKczRINHBJRnVGZE1FbmZLVFFlQzhXZjk5UnUwNnBDOTJEbnAyTC10UWpkZkFoM2o4NHc4V2VaNXpHekNmZm5raGlxcERMUW5FUGJCZGpEQndlWWh3WnRlTFctMWxUZ1RabDhLek5OMG52X0ctbjk4R0dHYWljc1B0a3hnNVJiZUxna2JEM21uQkJWdC1mMWQ1TE44T1RnOWpMMnkxdUlxYmRJNnJuaGJ0c3kzctIB1AFBVV95cUxNZ0p4c1NSeFBRc3hHNGw4MnFkbmRSZUQ2TWRrblRxa1NKczRINHBJRnVGZE1FbmZLVFFlQzhXZjk5UnUwNnBDOTJEbnAyTC10UWpkZkFoM2o4NHc4V2VaNXpHekNmZm5raGlxcERMUW5FUGJCZGpEQndlWWh3WnRlTFctMWxUZ1RabDhLek5OMG52X0ctbjk4R0dHYWljc1B0a3hnNVJiZUxna2JEM21uQkJWdC1mMWQ1TE44T1RnOWpMMnkxdUlxYmRJNnJuaGJ0c3kzcg?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T15:25:25Z",
-      "likes": 39
+      "publishedAt": "2026-11-24T18:45:14Z",
+      "likes": 65
+    },
+    {
+      "id": "p_psychology_news_3830007207",
+      "title": "Психолог объяснила, почему слёзы жениха на свадьбе вызвали споры в Казнете - 365Info.kz",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: 365Info.kz.",
+      "emoji": "🧠",
+      "sourceName": "365Info.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pVW5Zbk5JV241YnNDOUZzVGZRVmxIUm9vamt5Z3p6dXlDWDFNb3d1b0tLM0NRa28xcnB1VFJlUnd4dkdNWU5KSXZhNWtmVDdXbzdnUHllUHZFRDl4SVhKZlpuOWZMZTVjNWFxVTlLNA?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T15:40:49Z",
+      "likes": 59
     },
     {
       "id": "p_psychology_news_2691562506",
@@ -34,7 +45,7 @@
       "sourceName": "Naked Science",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uekx0OVg2RGV1RHRtY3dWM1ZEWTg5eDhBVmlXdlZWR0xNQWNYRGdrOGR2UXBtQWlINFhnc3hUdUlSYU5aVWpBcGg1elVrMzJqNnNrNjd1dXo4cEFvYmZ0clZ5NVAwT2pxcGUwYlJ3?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T12:14:04Z",
+      "publishedAt": "2026-11-24T11:47:46Z",
       "likes": 91
     },
     {
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-24T09:08:59Z",
       "likes": 60
-    },
-    {
-      "id": "p_psychology_news_891529505",
-      "title": "Психология отношений | Не в себе - Дзен",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Дзен.",
-      "emoji": "🧠",
-      "sourceName": "Дзен",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjNXRjRHFDZjczN0hGOE1LLXJEQlgtZXNaSkVXLTYtU0RaUUhJZ0xoTXBqWGxsanAySlRUM0h5R3lGQl9fMHc1MlNSZzRFWC02YXgyTW1USGJjOEFHR3JTakJEVTd3WHAycVE?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-24T06:59:27Z",
-      "likes": 41
     }
   ]
 }

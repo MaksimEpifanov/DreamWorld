@@ -1,9 +1,20 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_selfdev_news_2724536781",
+      "title": "Культ срочности в офисах оказался ловушкой для продуктивности - Inbusiness.kz",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Inbusiness.kz.",
+      "emoji": "🚀",
+      "sourceName": "Inbusiness.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzlYeGVsOURiR2p5TEpQcmV6eDRqVW1nVXFpd3FwMHpMSWRnUUZRU3U3R0FMMnBtcE9qR0c3MnhTY3ExcFhjbmJsZ2RSb0p3UFVieGh2YUluY0p2VlVtM0xMcjZtUll6ek1XRzcxbkVycEJpWjRUZzhfcnNUWWJVbHJ0RFFtMlIzSTFETldacWdTODc5MV8wQm9B?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-24T20:30:00Z",
+      "likes": 62
+    },
     {
       "id": "p_selfdev_news_1696685474",
       "title": "Денежный маникюр на декабрь: ягоды годжи и морозный узор помогут настроиться на успех до конца года…",
@@ -16,15 +27,15 @@
       "likes": 60
     },
     {
-      "id": "p_selfdev_news_1852275807",
+      "id": "p_selfdev_news_500761148",
       "title": "Продуктивность вместо поголовья: как изменится поддержка молочного животноводства Коми в 2027 году…",
       "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Газета Республика.",
       "emoji": "🚀",
       "sourceName": "Газета Республика",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBwUmY4SGtHdTdOaE1CbE5UdW1XNjlfNXJQRjlidndza0dDaWEwS195ZlpkVjZFczlUX2pZemZiVkpVLThRVUJR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE95Um1ncTJXZTMxVlpxZnk4bjBDc2pFQXZ4NzZ3U2Z5aTVIV1c1Mk5jMHl4djdEUFM3SVRWS3NZRVVScEVNTE13UA?oc=5",
       "tag": "Книги",
       "publishedAt": "2026-11-24T08:37:43Z",
-      "likes": 86
+      "likes": 38
     },
     {
       "id": "p_selfdev_news_2584721847",
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-24T03:59:47Z",
       "likes": 58
-    },
-    {
-      "id": "p_selfdev_news_74326818",
-      "title": "Продуктивные и некапризные: топ 5 пород уток для фермы - Своё Фермерство",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Своё Фермерство.",
-      "emoji": "🚀",
-      "sourceName": "Своё Фермерство",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTHBVLVRRQVh2M3ZRZVJmSk0xSFByOEhPcmp2RXBSVGo3RXdRUkpkem51RmRKQ0dYcUg0WWlLTUhZQVpMRG5meFBSdjBDX0hjbGpxc1lhS3lRNm9qVE1adXlxYzhYTGUyU2dPRDR3eDdpd1ltMER0ck8tdlNkRWVMQnctTVdGY3N2Zlhzd0M3d1JpUXBYaTJDRzFvTzJZVzhGYTdZ?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-23T23:33:46Z",
-      "likes": 31
     }
   ]
 }

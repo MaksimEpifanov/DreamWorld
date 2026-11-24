@@ -1,9 +1,31 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-24T17:47:59.521984Z",
+  "updatedAt": "2026-11-24T22:22:24.615087Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_travel_news_2247736817",
+      "title": "Клиентские дни в автоцентрах «ТОЧКА»: тест-драйвы Geely и BELGEE, внедорожные маршруты и подарки -…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: ABW.BY.",
+      "emoji": "✈️",
+      "sourceName": "ABW.BY",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOXQ4QmJUcTNhdi1LM3ZpTXE0SXFCRnh1SklMWFlTOW0zVXVjcGtDbFpJQ2pCc1VuRVk5NTdfOC1jdzZTNVZVXzRaaEV2a1dVVUhCRDBYVGE3V252U2g2SlBDRlZfeGN0aFZiRDFubGdVOWpGTE0yQ0lMTHhLaUdUcnhORUE3S1c2dVFEOUVnZmhZSER1aGJzcE5YUmJGVUJEVXl5SzlpR0FtRFFUdXBXcW0wWGZwaktzeG04V19ubkNwSUNfWnJWeWQwQUp5OHR4ZVJ30gHYAUFVX3lxTE4zLUpSYjc1MXMzLTRqMGhYbF9DTkFud2ZuTTcteF9LRll6Y3NaN0tVUzdUNS1RZkQySVhpNDctSjJOSEx5WjVVaTF0dU5LbUFHb1ZJNlJJXzN1aEV2VU04SHRncHFTeUVsVXZrVi1FVGhwWnJyRnBrLVpmdHY4SldPREdQZ3ROSU5ldV85XzR1TkdISGxwa3JZOWpsTEZRWVdXRDN6dnBCZjlPY21idmZSNUJJWnNzMXhtNm9qM09ZbTFOWjg2Zk5xZzB0S3dfbmtfd0xFNGJiRg?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-24T21:00:08Z",
+      "likes": 82
+    },
+    {
+      "id": "p_travel_news_3184636314",
+      "title": "Не пляжи, а чудеса: 6 категорий невиданного Таиланда, где каждый маршрут отдельная история - irbis.…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "emoji": "✈️",
+      "sourceName": "irbis.spb.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNkNtYThkcXNnQzFNb2xEVDRFMWhlRTc5S1pRNi1GR3lrbTBFNUlxcnhLcl95NU56c0Vvc1lYd0hRYjR1eUJJeTRITi1CT0VsMGluQmFwUGlkajVqRnRpVXctNEJKbFNsOUFDN01QM1RoaFdsUjBIazQtZ1puS3p3SHlvRFpqMDB6cGZSMzVCZmRvQWRqWkV4S1E3aUctYUxKbEE2N3ZCZHRnd2Yzcl9zUjI0U19NcU5BU3FYSHJxV1dFOXJ2TW9SRVln?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-24T18:24:31Z",
+      "likes": 10
+    },
     {
       "id": "p_travel_news_4027496030",
       "title": "Организация поездки с целью распространения образа национального флага и продвижения туризма в Као…",
@@ -27,37 +49,15 @@
       "likes": 91
     },
     {
-      "id": "p_travel_news_2895382409",
-      "title": "Работает ли карта «Мир» в Казахстане и чем расплачиваться туристу - Полис 812",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Полис 812.",
+      "id": "p_travel_news_3707316411",
+      "title": "По следам Романовых: через Абрау-Дюрсо под Новороссийском проложили захватывающий туристический мар…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Наша Газета Новороссийск.",
       "emoji": "✈️",
-      "sourceName": "Полис 812",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZE1tRktvVkZHcVQtTENlemhydjRzelNjTmt2LTBUMkdNVXRaN0hBOGtfcEtPS0N4NW9sX1dvSDcxSVFKR1VBRXRxR29mQmt2VzZqQXBELTJqSWsxd3ByZ3RwY1p1U0Y1a1hxUElzbjZaMnd4bWRNOXltd3RSYXBmaHRtbVduSzV3V0JmNUN2cERFczluYkE?oc=5",
+      "sourceName": "Наша Газета Новороссийск",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB5ZVpQUlRQOEdjVXhTNHlSSUxqWnl4TGpCWDNNckxBQ2tLMFFpSWVHMDR4dTFWdmZuV0RXOVNxcVZIMWcxTWtj?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-24T13:25:20Z",
-      "likes": 24
-    },
-    {
-      "id": "p_travel_news_3274278225",
-      "title": "Фестиваль \"Усадьбы Москвы\" подготовил зимний маршрут по 18 площадкам - Газета Metro Москва",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Газета Metro Москва.",
-      "emoji": "✈️",
-      "sourceName": "Газета Metro Москва",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVR5QThsdzE2czJqR3ZXMFFRUTQ2RFh6U2JPeU81RVFiVk9xTlhBWWhqTTBsNU5IQVlNb290blZfM19RV3h6MF9kUF9YOHp4SlF4bHFWTHJtR2hoZi1fWktMMTdCTmlOWko1d0dRUnJXN0M4Z0lFYlpHanBCb1k1SlRHTEZrdVl6dWNzaVFxRkE3Ymd2dHliT25aRHU3bUNIMW5oVmFfb0dER3lCU0pNSFdMOTI?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-24T10:38:22Z",
-      "likes": 10
-    },
-    {
-      "id": "p_travel_news_378898377",
-      "title": "Благовещенск переключает туристический фокус на самостоятельных туристов из Китая - NewsInfo.Ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: NewsInfo.Ru.",
-      "emoji": "✈️",
-      "sourceName": "NewsInfo.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEdxeGFUWHQteVVOcTNmeXU0dUhTdG1NRnJsZUtCVnN4QXZiUlZKNklwNEZ2SDBpM09IVW9tUGFyUGRCYklQQ2dZcy14R1VCcHVfS25GVHVNTWhxZjVTenJfLVg1UE9EcmFlSGtadDdEYUtSRkdXaWcwMnZ0VzY3dmNGdndIVTjSAYwBQVVfeXFMTnpVSWhNeTZxb0tYRlRPVnRPb2VPcGJSR1J5cWpyMDB6UWVsbndtblNOQ3hfX1B0Vl9WaWVEOTUzNHQ1UEo2SjNOMjZQSzNfOHBSSDM2YnRWeXhlREJUbEVhbnNkQmJiOEktTlhVYTZFek5BclpkZWs0S0VLN3FnX0dJd1F1Qi1FWVJnMzY?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-24T10:06:49Z",
-      "likes": 89
+      "publishedAt": "2026-11-24T14:58:50Z",
+      "likes": 82
     }
   ]
 }
