@@ -1,9 +1,31 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_animals_news_2328160607",
+      "title": "Школьник разработал приложение в помощь бездомным животным — Первый канал «Евразия» - «Еуразия» Бір…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: «Еуразия» Бірінші арнасы.",
+      "emoji": "🐾",
+      "sourceName": "«Еуразия» Бірінші арнасы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBCdnl5Qy1Hb3ByZnF6OTJ1NnkyZlNtdkFqWUJKVl83eWhUR2xwUDNnOGFXa0xxRl9YM2NZbWR3bEdGOTQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T16:08:38Z",
+      "likes": 67
+    },
+    {
+      "id": "p_animals_news_2790471538",
+      "title": "Котята помнят свою маму, когда вырастают? Объяснили, что происходит, если их разлучить - SakhalinMe…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: SakhalinMedia.",
+      "emoji": "🐾",
+      "sourceName": "SakhalinMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1OWxmZmpuWTc3VnVJTmk4bDJITnZGc3NBM0Y5Z0lHN0gzenVhRkdaNkVzTDllZzQ3dkpRbVMtRFp4NzMtbFR0RTd4cm55b0E?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T13:20:00Z",
+      "likes": 65
+    },
     {
       "id": "p_animals_news_429348272",
       "title": "«Их сердца тоже нуждаются в вашей любви!»: крупчане передали корм для животных приюту в Жодино - kr…",
@@ -16,6 +38,17 @@
       "likes": 53
     },
     {
+      "id": "p_animals_news_1000265944",
+      "title": "Активисты «Единой России» поддержали приют для животных в Самаре - Единая Россия",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Единая Россия.",
+      "emoji": "🐾",
+      "sourceName": "Единая Россия",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1AyeGMwbFJsTkhOSmR4aVIwc3F2S0VkTk1Ra3VvYW85VUhtYzhNZTJmdmZMQU53d1VKLUhMZFRVMmZ1TEFDMXAzTWp2aXVrWlJ3WG1mSEtBWTlFZ2xTMTRzTlFWVHFUdlZKaURnbG9qYzlvSDJMSEItU1cyQ29qZldzV1pjUnl3RFRTdVlEcXhucDhKVlRPVzhR?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T10:54:00Z",
+      "likes": 74
+    },
+    {
       "id": "p_animals_news_1951044617",
       "title": "Собаку, оставленную у ворот ярославского приюта, удалось найти благодаря знакомым прежних владельце…",
       "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Яркуб.",
@@ -25,39 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T08:35:56Z",
       "likes": 39
-    },
-    {
-      "id": "p_animals_news_3549439065",
-      "title": "Страшная болезнь ребенка разлучила рыдающую волгоградку с двумя собаками - Блокнот Волгоград",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Блокнот Волгоград.",
-      "emoji": "🐾",
-      "sourceName": "Блокнот Волгоград",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMU1SeFRENDY0ZHhITEFGSlhUUlZjcVhndnF6eXo5WmE1VGU0QktzM19XVHNWN0xTY0ZHd0Nla2ZsdkZzYWx2ZFJ6M1BzZE1WTHlsSm1Kc0NlN1owSjhGWWdoV0xlYlVCOV9aZGh5RHhPOWZUVTgxMHQwaFI5NDRoWnVNbDROaGpOdm0wdEhfakxtcEY0MDVB?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T08:34:47Z",
-      "likes": 43
-    },
-    {
-      "id": "p_animals_news_863433205",
-      "title": "Как защитить собак в зимние холода - Iznanka.news",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Iznanka.news.",
-      "emoji": "🐾",
-      "sourceName": "Iznanka.news",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON3JBekZrWWFKdmRSbEFVWHhhNEFlQzhvT3k3bnVTY0JGVGd0UlBWaVZoQ3B6am4zQ2NPOThldFZZVE1RUVB6YWMtTUVFenFYNWV6X3JTelNmN2tkdGVRczFVWmxwLWNlQlFuU2FncHBldEJsMEhMdTNHRC1KaEplbHBMTEhxd2xwN0E?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T08:00:00Z",
-      "likes": 54
-    },
-    {
-      "id": "p_animals_news_1952740520",
-      "title": "В Чистополе проведут бесплатную вакцинацию домашних животных против бешенства - Чистополь-информ",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Чистополь-информ.",
-      "emoji": "🐾",
-      "sourceName": "Чистополь-информ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQUZvMWpwTXVrWG5ZVDU2Ynd5LW5ZdExnYjRMZnlSX0FfcDc5V1hiT0RxODF0RFlKZUNtR0ptMWhBQ014NVdBaXpyal9lZU1UMWxvcnV4ZndoUUIwOHpkelR1T3hNZldlVHJ1VXpZSnhZeHFzc0g4T3ZGUDhFVzZicVBEUmhMWUNLMUdGMDNDcGFhajZEejNCVXpOeTEtV05JRm92NmhFd0JaUHBncE5sZHdjYTduOVdia0Iw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T06:39:19Z",
-      "likes": 47
     }
   ]
 }

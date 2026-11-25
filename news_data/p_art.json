@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_1392444179",
-      "title": "В Твери откроют выставку «Отличники» о путешествиях русских художников - Общественная служба новост…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Общественная служба новостей.",
+      "id": "p_art_news_2271490839",
+      "title": "Царский пир и русский стиль: какие выставки мы увидим в начале декабря - Газета «Культура",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Газета «Культура.",
       "emoji": "🎨",
-      "sourceName": "Общественная служба новостей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSERPTmcwU1g2eS1IWUR5Z1V2ZkRWeThhN1lfeGtJQnlDN3VuTDlLVzVkMUkwZjVNSEZWajRMVTR6Q0Y3dXNGaGNpdnJmdjJUNzhTNXBEejk5bjN2bEVfZThNNmhmdFpoTVctSzF2dDA1em5mUTBlOFBSRjRDVm1QR2FCdFp5QTl6Uk5DUjFSRVU2U0VSc1c5LTV3cTFEYXhBaWMwQXNPNzY2dw?oc=5",
+      "sourceName": "Газета «Культура",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZnhwU0NGNHNpQ1F4WDc3UURILXF5aEV6VFhhQXhxb0drUGJ3OWloT0p2dms5VFBVX3VCdDl5QzZRdGFzcFAzOWVuUXRueWYwU2tRSTUzbHNVbGhFUURCczhWaU5CdXZ6MDRzV3JzQlF5SjJENnRHYjZ3ZFY2SmoyR19hQlJULThER093WkljZnV2QnliOEFHeXctU0ZhRGNtREUxdmxWTEloNWowd3o1WDJmUXBlQ0pTMENGUGNnaC03MGJo?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T16:19:30Z",
-      "likes": 39
+      "publishedAt": "2026-11-25T21:08:50Z",
+      "likes": 58
     },
     {
-      "id": "p_art_news_525939711",
-      "title": "Картины раньше стен - The Art Newspaper Russia",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Art Newspaper Russia.",
+      "id": "p_art_news_1743009985",
+      "title": "В WEartMuseum проходит выставка к 100-летию одесского художника Аркадия Русина - Культурометр",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Культурометр.",
       "emoji": "🎨",
-      "sourceName": "The Art Newspaper Russia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zc21OUVkzVDN0MmdDcDlZdWo5eG9XcU41c04wN1FXTHAtVC1qNi1sdnRqVjNGbkVGUDVzVzlxcDZHMWdzV2M5NXg5NFo3dU03a0xKbUlRUGgwdDg3UEl6RA?oc=5",
+      "sourceName": "Культурометр",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU05ZUEk1LUgwN2Q5Mmlxb2o4THdmdjVJS1h2dlFwblpxYVN6MnF4aS1uOXZfWjUxMHhiMUtfbWJEcXpYd3FkbmJrNnpvclRIOXpyY1RhTHRwZHY4UFNwcDctcDBXLXo3R2lRd19GOXFweWdSTnRmLUNUVkhKWUlwRnRsRUhYWWNUT0RNTHQ5LXpUVWNnZlo4amtqTnZTMnFrcjlyOWN2OUJ5cG02RGVjOWFVNFZoaXBBbFE?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T15:10:00Z",
-      "likes": 22
+      "publishedAt": "2026-11-25T20:03:11Z",
+      "likes": 73
     },
     {
-      "id": "p_art_news_378668308",
-      "title": "Каким бывает аутсайдерское искусство - Агентство социальной информации",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Агентство социальной информации.",
+      "id": "p_art_news_4220174235",
+      "title": "Как русские художники «стажировались» в Европе: лекция в Твери - Tverlife.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Tverlife.ru.",
       "emoji": "🎨",
-      "sourceName": "Агентство социальной информации",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iWkJtZ3pxY0NiaDY1WWxuT1RGNlBWZHAxVlNkX0w4b1VVYnJnUlFCcHRBeHpHTG00ZWhYd3pmQkd3eG05QkhpM0NwNUJCREk4ZElRbVJkUFh3NTRET21XVFdsVHk?oc=5",
+      "sourceName": "Tverlife.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSUYzeWNGQmtpenI1eGtqdWxzMmpZSzJxWDFqbmx0TFFkQmJfb3JYcF9WbDBtdnlKdmtFa3plRE9ZMXJkQW5fRkRhaTE1ZWxGRlAwcW9lSzVIWnFCQl9XNHRBalI3UnNlQ0piMS1DZWczNUI5emloOU05RHJKTFJpS3hqejgwZnlySVVMTGZpNmJIQQ?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T15:08:15Z",
-      "likes": 37
+      "publishedAt": "2026-11-25T19:05:51Z",
+      "likes": 45
     },
     {
-      "id": "p_art_news_4038438476",
-      "title": "Одним Боттичелли больше стало в Пушкинском музее - The Art Newspaper Russia",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Art Newspaper Russia.",
+      "id": "p_art_news_648072448",
+      "title": "В Оше открылась выставка молодых художников «АРТ СИНТЕЗ» - Caravan-Info KG",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Caravan-Info KG.",
       "emoji": "🎨",
-      "sourceName": "The Art Newspaper Russia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qdVZ1azFTaVFWelVWWU1lU3VWV3Z3MDQ3Zm1aeTlVcGFBTElLdF9EZE84M25Ic3EwN3ZDTDYwbXNKS0N5VGZBWXc4azc4dnZiYWpNLWUyZHB4UEI0cFpkbg?oc=5",
+      "sourceName": "Caravan-Info KG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZm9PT3ZTNWxUM1NiRTdwSWx5QzE2YXk5VlZKOTV6RzFFWWZpcVZGZnlPRGlCYkhCMWdyaThKaDg4UWRnR3NKOFNCLVBuOEktNmZucjlHR1o4RUhHOVlSUlF2eFRSZ3NVYjZCRkh1RFdMQURqOHpDWUhaRGhpM0dfYzhkTlJ6cHVZNUQ3bmN0ZTFLSmVCS3JYTWllVzlMZldDb3E1Yw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T14:16:00Z",
-      "likes": 71
+      "publishedAt": "2026-11-25T18:27:34Z",
+      "likes": 85
     },
     {
-      "id": "p_art_news_3312459434",
-      "title": "Мученье юбилейное // Третьяковская галерея разложила историю отечественного искусства по «Стилям и…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "id": "p_art_news_658146318",
+      "title": "Выставка «Форма света» знакомит с хрупкими работами чудовских мастеров - Пресса 53",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Пресса 53.",
       "emoji": "🎨",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM25WZXBhUmdqcVY3ekZUbWRiRGs3WWkzV2RtRm1ZenY5bTFwU0VxNXVGQzhDM1JCUWdwcWx0eTdYb05MOGc5aWlyUWswd3pvV1pRYXJFeGtfd2RMWTNkQ1VVX0VTNjBiOVNENlh6T3F4M3dIUmRNaFZRSjJIQU1ubk1GM1JqNmxiMTJFTXQxdWN2STdCSXRsSXRrY3VhUWU2d2ZQTkpuNXVoQmYzQlFqSnZTc204djZYc0U3WEF1RTRES0JUdmc0UlV2aUR6b1FFRnR1Y1ZLeWhQdw?oc=5",
+      "sourceName": "Пресса 53",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE13WlFBdHhoa2FhbXk0M0kyUlZ0ak9wM3RFT0gwdEh4aVpYdTllSjA5Wkk4ZEhSWldnNERxM3lzTnh3Q3ZJZmc?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T14:14:13Z",
-      "likes": 9
+      "publishedAt": "2026-11-25T17:51:51Z",
+      "likes": 57
     }
   ]
 }

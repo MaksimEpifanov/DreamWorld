@@ -1,9 +1,20 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cars_news_2268547439",
+      "title": "В России рассчитали стоимость ОСАГО и каско для LADA Azimut - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRzBjZE44UEtBaVJJQnF2czdDQ1ladWxOQ0ZkVmJNOEkzX0RxMFRocm9vNHdiSy05cEVkSS04T2tnbWwxeDRaZEdYNW5RU21vTVBIbndZNmU4cDdGVlZYaTI2OFZLUTRBMUU0MlJDRXl3M0p2cmtQREkxeFRjeEhLWHNhX1BTU2lFYWdUaVEzeDE1UDN3eVRGdjVrMDg?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T19:36:47Z",
+      "likes": 50
+    },
     {
       "id": "p_cars_news_3699765011",
       "title": "Автомеханик Степанцов перечислил причины утреннего скрипа тормозов после стоянки - Tarantas News",
@@ -47,17 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-25T10:37:15Z",
       "likes": 63
-    },
-    {
-      "id": "p_cars_news_1216542096",
-      "title": "Обслуживание китайских автомобилей в России: четыре главных мифа - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPclBlRjFEYnBRTEVOZk85MWREY1Y4d0tnQ0xJZ1dLMWtjSWVxd1RtVlIySlB4SmJES2FlUjlxV1FuSU83dGJpTXZyZ3J2NEU3cUJEUmN0dVM4eTFyTXg5cWVlRFBUWmtHZVUxTDJoVDhJd3VvajlGM2RZUHlDWGRPdFU4cXhSSzM5YlE3d3NBOTNsMmo2eHd4QjJWYjVXcTVROFRj?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-25T10:13:53Z",
-      "likes": 68
     }
   ]
 }

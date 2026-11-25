@@ -1,9 +1,20 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_525360381",
+      "title": "Лунный посевной календарь на декабрь 2026-го: лучшие дни для домашнего огорода и сада - На пенсии",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: На пенсии.",
+      "emoji": "🌱",
+      "sourceName": "На пенсии",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOODdHZFNrWTliZm5Ba0tObE9lazFTNFM5YXcwN0pmTG55YjFUOGxyeWpJRW9QVGdIcXh4cTRWT2hXUFFoMUtNaXJsNFAwbDJINDdxTkpLYUNmTURfbFdEdjlNTWtSM19WRU9ZTXNqd0hxbGwybHRNcW9yRTNRaW1ELXhNckRhX3RGYXBjS1hiVlJXY3hXQWpZTHIxOE1INVpIdXptMGlzVGZkTUlmMVpDaVVBcTRKRk1TVDBNVzNIMEhTcFVE0gHKAUFVX3lxTE5IMDZOaXZiOW15M3N3WTlsanhKa2xWOTMxQ2pNNG53M2w1OEd2Y1RMbWx0amFsdFJhRUEtV2I5dFpLMWlwYTBHUmpCcGdINXpHZk4zbTJjMWhBUWNCSWdXSXdoUVVBdzlpcDJBUjNYdDgwMTlOVGZfcDJuZVhzLXh4MWlqQUR2elpaZ1BtcklGdXk3aHM4VHVMdWZSQ3NOMTFvMElzZmREWWZ1aEhRUFotbko3RFlHMnZiMV9lS2Nxc0JiQXZkeWRYSUE?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T16:30:00Z",
+      "likes": 78
+    },
     {
       "id": "p_gardening_news_2971923413",
       "title": "Сколько бы удобрений ни вносили, урожая не будет: 5 признак того, что земля на огороде истощилась -…",
@@ -14,6 +25,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T16:10:48Z",
       "likes": 67
+    },
+    {
+      "id": "p_gardening_news_3555380201",
+      "title": "Пятилитровые баклажки на мусорку не несу: 7 хитростей для огорода и теплицы, которые спасают урожай…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: SakhaDay.",
+      "emoji": "🌱",
+      "sourceName": "SakhaDay",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT0p5Y1V3UXBFemtQQ0Rmai1DWklmamx2N0VuVGNWaDY1WWVsM1l5eGp3VlRxT2J1eklFUVVOUEw3R19JSTJyYXRRdGgzVm5paGEtRTJKNElWenI4aHFRdWJqZ212SGljZUNyV2RYalJ2b1FNSS1uWXZUZDRaWXpTdmFfcXJWSmI2clNyUTZOYWM0RDVBT0hiN0lVRVRQcmdxUmlMVDc5ME9ZakttOXUtTnNudVBvOTRKOUFzeWxsZGFTTjFOZ1HSAcQBQVVfeXFMUGNFdktwV25uTklUSmU3Z09TSmR1ZmJYcjNVT01BSVFxQkdTeWlvM0t6X05LOXFyZS1ISFBPazZKc3FYR1htMXdCV2ZiMVUyRFdTTWpYNW1qTDFLSWJKTDNxSHJmRm9rU0h1RUJnck9uSDA4aF9kZDNUUW1fT3V1TmRNWkUzanRkWDFmUXh1N1dRQWR0OUduelhXSzRJU0ZFNVNIWVpvVzJib2tqRHUzdjduYlBSMUVleWg4dXBXbjNTNG9PWQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T16:00:37Z",
+      "likes": 77
     },
     {
       "id": "p_gardening_news_1408642929",
@@ -36,28 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T10:23:00Z",
       "likes": 89
-    },
-    {
-      "id": "p_gardening_news_584528296",
-      "title": "Один раз посадил — 25 лет собираешь: новая огородная культура-«золотая жила» для тех, кому надоела…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Про Город Ухта.",
-      "emoji": "🌱",
-      "sourceName": "Про Город Ухта",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SMTRTdzNMWTBHOXJlRW1rcTZwOTRJREtQcmRGdUNGcmpmTzNyVUttd3hoZVNiV1ppdlBEX1NwR0k1dDdrNWhZa2d4TQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T10:08:57Z",
-      "likes": 14
-    },
-    {
-      "id": "p_gardening_news_2196673393",
-      "title": "Ни одним огородом едины, или мои попытки создать приложение, где дача — предмет гордости - Т—Ж",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Т—Ж.",
-      "emoji": "🌱",
-      "sourceName": "Т—Ж",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVXRHSTJzczFmRW82WVllY1kwSndIbFZGSXpUaGQ2a0MySkhUbnYwSkczNFFiVEJoRjhfZTNvNFloUTVfTnk1Vjg4akplN01WZnhmLXVJclVzRHJNNXlnWVl5d3hSQ2pabHdQMGZ4Mm40LVpmQXdJdUs0S09kWVdOcVdVQ1BlSk9hU1hN?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T09:43:40Z",
-      "likes": 57
     }
   ]
 }

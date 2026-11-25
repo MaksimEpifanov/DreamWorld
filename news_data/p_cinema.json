@@ -1,9 +1,20 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_cinema_news_3711508365",
+      "title": "Канделаки: «Тайный город» и экранизации произведений Стругацких и Кира Булычева — все это работает в копилку возвращени…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Sportbox.",
+      "emoji": "🎬",
+      "sourceName": "Sportbox",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMUozZGVNRDhnamJmalNmM3ZGM2FyVERyZkxRNnVvdjdNYTNabVpSVFJLd25seW5JSERkZGEyMThTVGp5c1JxaWpmdEtqUkFQeFpmNEdKa0lNZFZOMnMzc3RNblJmb1FHbFM4OWV6cm5memxRLVJsWjdaRGNwaE1NN2U5THJBajZmTmV0MEltdk9uNTM0OFRkYV9fOWdBUENZSGZoQ2FuUXZ6blhGY1RZR1FjaV9WTGtHMGhrR1dMZHF1RElMNGFhMWtrbnBfV3IwVTNLR0cxVUI5RzVEMFJ6SVdYVVYxdUt4cG0tLWFUSWRqZkJQRFpKLWJUbG44aXFYbmxxVnVWc0k1bks1UldGcQ?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-25T19:06:09Z",
+      "likes": 18
+    },
     {
       "id": "p_cinema_news_3251265234",
       "title": "Новые фильмы, которые уже можно посмотреть онлайн - Film.ru",
@@ -12,30 +23,30 @@
       "sourceName": "Film.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEdZSEUwalVtdHJKM3BpTHB1dzF5VjczbWt6bU5SMVdGOTdYOXB3V2ZaUUR1QzFMdEQ3TFhhbExXSUN3aWZDRHMxdkE5c3A4TUNQTFU0clVUVGhGbkVxN2h4UXF3a1Nyektod3BwOWxzaGlKNmc2YzZyOUNjRmJ0NXA0ZkdtVHhS?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-25T15:50:03Z",
+      "publishedAt": "2026-11-25T18:56:09Z",
       "likes": 86
     },
     {
-      "id": "p_cinema_news_3552972035",
-      "title": "Лють, муть и жуть, или Что собой представляет сериал «Тайный город» — отзыв - ufa1.ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: ufa1.ru.",
+      "id": "p_cinema_news_2318196367",
+      "title": "Лють, муть и жуть, или Что собой представляет сериал «Тайный город» — отзыв - Новости Волгограда и…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Новости Волгограда и Волгоградской области.",
       "emoji": "🎬",
-      "sourceName": "ufa1.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hZ29HYmN1eGFLdWtQZ1V3Z05wMzJGYmNManBYdlFCUkp2bS0xRkpGS01nazBoY3lLdkJidGJyVlhRQkc4QzBMR1lQY09KUm10SEpFdnlNUjhRWHNrQWVHRzdpc3pHUQ?oc=5",
+      "sourceName": "Новости Волгограда и Волгоградской области",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTWdMcXN0ZGlGWWM4TGRoakRrLUtxSFFTT2NvMEZmWWRGMGw5SGlhSTc5TURYX3hVRDRWV2thX3Fib0c1anNZdWF4ZS1fZ3Ffa1NkSmJfX0NEZEl6ak9SRjdZWQ?oc=5",
       "tag": "Кино",
       "publishedAt": "2026-11-25T15:35:00Z",
-      "likes": 20
+      "likes": 9
     },
     {
-      "id": "p_cinema_news_3747295754",
+      "id": "p_cinema_news_2435669097",
       "title": "Внешность 75-летнего Виктора Сухорукова на премьере сериала «Сталин» удивила публику - Lenta News",
       "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Lenta News.",
       "emoji": "🎬",
       "sourceName": "Lenta News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0lnWlUwMk5xRUoyVV9MemUtTU9ZMFg0bFlnUjdBSGJWV1J4WDhHZWVRYVplcndqN1duSG5STzA1aURmMktoZkowNDNwejlxVnBqYXFQc3kyTDM1QllHRTJCMFk2aFVYbmZHdjkzSjhiLWFjT3Z2OVVHSWJ2UVRnWnFncGFjLTdoOWp5ZlZ5cGQ2eDBFWFFXdmdSMW5rRTVyd2FXcDB5dVVaMXdaeDhtTFBWNm1DY0pVY1FoMDdnb9IBvwFBVV95cUxOb0lnWlUwMk5xRUoyVV9MemUtTU9ZMFg0bFlnUjdBSGJWV1J4WDhHZWVRYVplcndqN1duSG5STzA1aURmMktoZkowNDNwejlxVnBqYXFQc3kyTDM1QllHRTJCMFk2aFVYbmZHdjkzSjhiLWFjT3Z2OVVHSWJ2UVRnWnFncGFjLTdoOWp5ZlZ5cGQ2eDBFWFFXdmdSMW5rRTVyd2FXcDB5dVVaMXdaeDhtTFBWNm1DY0pVY1FoMDdnbw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDFSUnIyZnhsYk9QNmhjeUtfU1ltY1dTdGlaZUJwOF9rTDh3TU5LdjJTV21SbWxhU3FrMWE3M3dEdVJ5T3pXYWFVWXdmUTUwbEFNWGM0NHltN0ZMc3BjQnh3a1pKUUZPQjZDSUxBTzJidFVoeElLS25DRTVjU3lPSU9nWGNPWUIxT2hGOEx3Rm1iWHZJbTdGZTN2dWJDbHJIN2xXVzRXeGJCYkwtejZUTk9sZzBiOVVXMGfSAb8BQVVfeXFMTm9JZ1pVMDJOcUVKMlVfTHplLU1PWTBYNGxZZ1I3QUhiVldSeFg4R2VlUWFaZXJ3ajdXbkhuUk8wNWlEZjJLaGZKMDQzcHo5cVZwamFxUHN5MkwzNUJZR0UyQjBZNmhVWG5mR3Y5M0o4Yi1hY092djlVR0lidlFUZ1pxZ3BhYy03aDlqeWZWeXBkNngwRVhRV3ZnUjFua0U1cndhV3AweXVVWjF3Wng4bUxQVjZtQ2NKVWNRaDA3Z28?oc=5",
       "tag": "Кино",
       "publishedAt": "2026-11-25T14:16:05Z",
-      "likes": 91
+      "likes": 47
     },
     {
       "id": "p_cinema_news_2016717147",
@@ -47,17 +58,6 @@
       "tag": "Кино",
       "publishedAt": "2026-11-25T14:05:30Z",
       "likes": 6
-    },
-    {
-      "id": "p_cinema_news_495472575",
-      "title": "Вымогательство (2026) - Shakedown - постеры фильма - голливудские фильмы - Кино-Театр.Ру",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
-      "emoji": "🎬",
-      "sourceName": "Кино-Театр.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QWmwtSEpPd3JPRGR0SzRJSVA1b296ZmVuYndXSW55eGItTmNnamN5SXVDaUxDWElYMzhNVE5aVVdoUWZxZjlPRjdaeWFEeDhTczZDQWFwLVJvMFA1Yl9JaHhVbHpDVkhzMjRYVkRB?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-25T13:59:26Z",
-      "likes": 31
     }
   ]
 }

@@ -1,9 +1,31 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_collecting_news_246392394",
+      "title": "Согласно отчету HSBC, 54% состоятельных жителей материкового Китая коллекционируют вина высокого кл…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Vinetur.",
+      "emoji": "🧩",
+      "sourceName": "Vinetur",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcElXd2p3MGFwdHlvUXpCSzRTOXA4NE5VU1dXSjBrcy1Za2tHY2NfaEFjSkpyZTdndXZQS0FEeUltdnBPcDBEZjUwVUtacndTakZwbkRkdVQzWmxJUXhTXzN6UllaWlRDU3RYSzllLWdBQ2VBWHcwc0hvYVFtUEMyQVFpSVc4WVJCWFFPYkhPSWRnOXgyb29yX2FnM3lmdUZnYmNzcjBzUUtmNG44NFptT1FjVGgxVzhhaUJiTlhnQTZHVm5L0gHKAUFVX3lxTE9NeU1QbTFuclJnekVtU3d5Z3BXU3RIM0ZXZmozZ3lLZ3V4VzNZTzJYY2lGYVVjamoxcFUzNDl6aTRlUFI1R1RNd21Uc2JqczdsQkRjTkVkVVpJTlM1NGhHM29IS3Z6YzVidTF4MkprbTgtWnZFcjhNRmFVN09yT1ExdWFsejNtdTZjdGVRa2lRZVA3N1lkYlNSaHloYXh4NGhJd1ZRcko4aUx3SWRYVHk2TldmSGxYalBTaDBQd1NFOThJcnpnMkh4Mmc?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T20:20:31Z",
+      "likes": 21
+    },
+    {
+      "id": "p_collecting_news_3502994328",
+      "title": "Монеты СССР 1947 года могут стоить миллионы: почему найти такой раритет в копилке почти невозможно…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Банки Юга.ру.",
+      "emoji": "🧩",
+      "sourceName": "Банки Юга.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4eVdERGhwbGtHVUZrS2pUSFRSNHI3UEpjaW5xaGthMHk2OFh6UE9jTTExX0dLOU1mZWVZTUw4a0FOVjdTTDh0c19kZ2RxN1JzdlHSAVJBVV95cUxQeHlXRERocGxrR1VGa0tqVEhUUjRyN1BKY2lucWhrYTB5NjhYelBPY00xMV9HSzlNZmVlWU1MOGtBTlY3U0w4dHNfZGdkcTdSc3ZR?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T18:12:41Z",
+      "likes": 32
+    },
     {
       "id": "p_collecting_news_4240771641",
       "title": "Карточки из GTA 6 сделают настоящими коллекционными предметами - Shazoo",
@@ -36,28 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-25T13:00:00Z",
       "likes": 49
-    },
-    {
-      "id": "p_collecting_news_1860218756",
-      "title": "Modi откроет первый магазин коллекционных игрушек «Modi.тренды» в ТРЦ «Европейский» - Malls.Ru",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Malls.Ru.",
-      "emoji": "🧩",
-      "sourceName": "Malls.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1UtM29ZMUYwSHAzOWNUU0x5b0tOcnFSUGcxVk9ZNFVUSXdlTXktMG84RER5LV9OQW9OQ3pEUnB0WER4TkZRcGZTM1lpd21CRGllWUtVQWQ2bXFnLVl1OWl5UFRCV1V6UG1XNDJ2Nzd6TkZBRm5JZHJhUDFYMk93eDVIUlh6NWhzaFBYYVRrRVBJYXoyYVgzM1NkZzYyak1ob1M0WDJpNGI0eUtMYlVpRUVFSVpUM2xxRVMw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-25T12:51:51Z",
-      "likes": 62
-    },
-    {
-      "id": "p_collecting_news_2927912810",
-      "title": "Эстонский коллекционер продал в Лондоне картину Айвазовского «Венеция ночью» за $1,4 млн - Мойка78.…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Мойка78.ру.",
-      "emoji": "🧩",
-      "sourceName": "Мойка78.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM1praVhXcmZzSDVvbWlQOXlDcktNSjdKZVFibzR5N3pzemdZYzlQN0dtLTdhTzFHSFJnUjN2OGd2SDBTa0taOTB6TzBEbkhkUFZ1aDlGV1dzUENnZ1cxUk9VRVI2ZGNiMkJmU2V1Y0psVDZDaTZQaXFFdi1pZWM0VDVSNmJYWnQ5VjRwVkxjOXBhZldIdkVheG1wWWMyWXd5WEVXZWJtNkpJSlVPalVjbEl6WDVCVFJHejhyYWdCeF9KdzgzYkZmQlpkbi0?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-25T12:43:17Z",
-      "likes": 82
     }
   ]
 }

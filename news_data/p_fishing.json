@@ -1,9 +1,31 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_fishing_news_3742591464",
+      "title": "В России продлили запрет на вылов воблы до конца 2027 года - РИА «7 новостей»",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: РИА «7 новостей».",
+      "emoji": "🎣",
+      "sourceName": "РИА «7 новостей»",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUDE5elU4NzVzWjlHY2M5dHY1SjlZT25pbzlMOGEyeE9jbWRVRDdMTXFqd0R0ZC1oR1BSZVBoT1VBb2NmV2l1c1ZFNDBrblBFTXBlT1FrMlg5Y2Y3RFdoNzEwN1JjMDRhcTcxdUk4WUQ2dm11Vldac1dIUmcxTk1kTThCLU9kdw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T17:14:39Z",
+      "likes": 37
+    },
+    {
+      "id": "p_fishing_news_216083859",
+      "title": "Минсельхоз РФ продлил запрет на вылов воблы на Каспии - Вестник Кавказа",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Вестник Кавказа.",
+      "emoji": "🎣",
+      "sourceName": "Вестник Кавказа",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE10OWktZk5hZF9tdGR5UktkZU5TeFdCb1g3NTNnWGotajM2SFFxQkstaHpkV25OTzY3N29kUlp1am1vNGlZbEFkZVV30gFKQVVfeXFMTXQ5aS1mTmFkX210ZHlSS2RlTlN4V0JvWDc1M2dYai1qMzZIUXFCSy1oemRXbk5PNjc3b2RSWnVqbW80aVlsQWRlVXc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T16:45:09Z",
+      "likes": 89
+    },
     {
       "id": "p_fishing_news_494517235",
       "title": "В России продлили запрет на вылов одного вида рыбы - NEWS.ru",
@@ -36,28 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T15:42:00Z",
       "likes": 84
-    },
-    {
-      "id": "p_fishing_news_3613724190",
-      "title": "В России продлили запрет на вылов популярной рыбы - Lenta News",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Lenta News.",
-      "emoji": "🎣",
-      "sourceName": "Lenta News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTm5PYktrb0RJQ2d6aHg1dFZuQjdnQ0J6YXE2WXlWX1I4M1ZFWEllNWRqeXZEamc1YXdPN05rNWZ6MWpHOUpzbHdCc3ZWS1BBLUd0aHBYZGdTWTJDTVJQa1JRVWVibXRYNUJwQTlWTy1wS0NmbENCaDJSTXdYN0t2OV84cjB6eS1sbGhabGhqY9IBlAFBVV95cUxOYlNxTUxtYVpXeWhoZWtFZU56d0V5c3ludDlIZ1haV2tSOTZ6RzdyZ1FHdUxMOVotS0FHUm5vY3JDcEhuLVJrMHIxWnl4a0RQeDFLS25SSFZwUnZKSHNOdDZiVUpwNjBBVzlsNlBQUnNFRGJyUF85VFBGVlQ0dUZ6cEs1V2RySF9TeTlYZFllTHlJRWIz?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T15:37:36Z",
-      "likes": 65
-    },
-    {
-      "id": "p_fishing_news_4044212940",
-      "title": "Воблу оставят в покое ещё на год — Минсельхоз продлил запрет на её вылов - Life.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Life.ru.",
-      "emoji": "🎣",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTjl5cTVIa0hLMGhFODRKbXlKVzFBRXdCT24yM1dxY1ZFa1AxVHpqODhOTnVDUFo3WEpNQ3Z5c3UyaVZSVEZhTGdtX2VWZUt0WXBlZ3o3RHVFSkVJbzJvcFlfRFNvQ3lrZlM2SXYxa09ZMWt0eEdlSXlITDQ0S0xCdURGZ3JNal92UmgzVFg4WVF3ekVR?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T15:25:22Z",
-      "likes": 34
     }
   ]
 }

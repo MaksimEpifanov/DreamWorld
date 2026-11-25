@@ -1,6 +1,6 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -16,17 +16,6 @@
       "likes": 35
     },
     {
-      "id": "p_reading_news_505490071",
-      "title": "Книга 18 авторов: тамбовчанам представили поэтический сборник «Созвучие» - https://novostitambova.r…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: https://novostitambova.ru/.",
-      "emoji": "📖",
-      "sourceName": "https://novostitambova.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pVFNkODNKcXFveTU1SmFCV0FfWHdQWWxfUjd4RUQyS3NRMGllbXhuaXVDWmJ1V2ZVOTZvc2REcW5zaW4yY2lZOWh5STRtc0VoY0FibDVvcFNIOXNnRXRvMmcybw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T14:59:13Z",
-      "likes": 37
-    },
-    {
       "id": "p_reading_news_2632581062",
       "title": "Нотариусы Ульяновской области подарили особенным деткам чудо знакомства с книгой - Улправда",
       "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Улправда.",
@@ -36,6 +25,17 @@
       "tag": "Книги",
       "publishedAt": "2026-11-25T14:20:00Z",
       "likes": 22
+    },
+    {
+      "id": "p_reading_news_2615045278",
+      "title": "Огонь не сломил: 85 лет стойкости и развития Старобинской библиотеки - http://shahter.by/",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: http://shahter.by/.",
+      "emoji": "📖",
+      "sourceName": "http://shahter.by/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWptQU1SSUhvb2owcDdWSktSTXEwXzBVbjl2ZkljZGowSG5xcF9IcG1yTlYxY2xVNDdFb3hqZGlObXpndXFMZFduSkpxUmdPMTJVVWx0UEpJQ3puR2xaZ1c3a01qOGo2ZzFIT1pUdGFXNXlxQWx0NU9FVVVibFdFYUR5OFZ4cElOWWxFWkpjTEU3RnJVcmFPNGRtUDFBZw?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-25T13:23:17Z",
+      "likes": 37
     },
     {
       "id": "p_reading_news_2359578692",
@@ -49,15 +49,15 @@
       "likes": 21
     },
     {
-      "id": "p_reading_news_1093887754",
-      "title": "РГДБ проведет IV Международный форум детской и юношеской книги стран СНГ и Грузии - Российская госу…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Российская государственная детская библиотека.",
+      "id": "p_reading_news_3057612610",
+      "title": "\"Казахская хтонь – самая дружелюбная в мире\": Айгуль Клиновская о книгах-утешениях и мифологии без…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Liter.kz.",
       "emoji": "📖",
-      "sourceName": "Российская государственная детская библиотека",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTBfMzNrSExZMzAwc1VQRGh4VXpmb29jMmY4TGVNT2FDUEhZY0xNRk8tUTk2cnBaaVhPV0M3a0N6bFNmRnZTdEt4STc2Zzc0MXlKY3dfN2l3ZFJNQ3dadW10TDBKYm5PSndQSHhyQU9Xa3NFdjVHN2JQVmNaSXJqM2F3SExDNHhrbjFILU9FY1hLeEhBc1ZUem4ta0ZzOFNBcmlHa29Fa3g5Zk10TkdrUnhUdThqaEhMcFI3QVpB?oc=5",
+      "sourceName": "Liter.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVUJoZjVOQmpmdlpHZ0RNaVJiMHFSc1lVcnhIbzBkTFZzZFVNSDBiclBXY01NSTZlZUxfMnBJa0ZmZE5YZzBHQzBwR0syZGw0NndkMGlpYXRLZHVPUDRhaEgxeFNuMFlvenU3Qmc3c1ZRTkhVSjZ5cFFoa21QNkRLaTE3Um1GRFZMQWxkYzZ5R0x5ZWwwOUpFVTVqOUdBUVdib2cwTXVxd3FWWlFOOWd1U0hfNEQxN3JHckhvQmlDYkQzOXU1TERSbF92OFppZE1CRFQ3S9IB2gFBVV95cUxOd1FSNTBtQ1RsVzROZTU4TWxybnlfLVp1eGRhTFRBRFlNc0pacXJHQlV4UTd2bE1mWWVYSEE2Q1E2bjh4MjJWNlcyZ0loSkdMRU1tQnlTOVY5eHk5R3pTYWVLRWRKcXVSdGF0YVY1WjhIbTJxQ0s2djBleHpPN2VDOWNfNC1qb0k1OFVlQnpqb3VxaU9TSkFEaDJFS0QzX3lnYkVqUjBzT0xSa05jenZXTER6cHdXQTRoTDZsM3JPSnE0SU4xWmtjMU40dXZuV291ZFNRYlJucUpXdw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T11:40:02Z",
-      "likes": 34
+      "publishedAt": "2026-11-25T11:23:00Z",
+      "likes": 27
     }
   ]
 }

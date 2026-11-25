@@ -1,9 +1,20 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_travel_news_2002353724",
+      "title": "Природные парки Волгоградской области посетили более 250 тысяч туристов - Национальные проекты Росс…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
+      "emoji": "✈️",
+      "sourceName": "Национальные проекты России",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUt3aUpiMkQ3OHBoNjMyVHBXOVZrVDJqZHpmMjR1MUNWcVR2YmRHVFg5U3BPN0FsZTV1YmJKbWx6ZUo2SVJQSkQ2dndJMGxOQXZVcjVKYU5YR3ZTZjVrOGhENC1ZcVdlVWJTS1d0OU5lVkRzcDFzdnE2dHo1MWJCYnRjNDNKR2dNUWxLTDhUSTFXRnJkZlFLb0s5RkdSWUVzN0xvQm92bkluY3RHRDRfekVmM09IQjJ0R01fMGNIeXBNeFE?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-25T16:35:39Z",
+      "likes": 4
+    },
     {
       "id": "p_travel_news_197488162",
       "title": "Мальдивы без очередей: как устроена новая система, когда её запустят и что это значит для туристов…",
@@ -14,6 +25,17 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-25T15:03:13Z",
       "likes": 65
+    },
+    {
+      "id": "p_travel_news_235790011",
+      "title": "Москва готова к сезону зимнего отдыха / Новости города / Сайт Москвы - mos.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: mos.ru.",
+      "emoji": "✈️",
+      "sourceName": "mos.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vV2lzdWVKNjEzNm5JQWFBb3pKY3loYVJvc1JJM3NGbXhPbmlLVzhtTlpXcTluWHoxempGN2hXMVIxZF9KU3lKLWdEUXE3ampiOTZn?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-25T14:45:00Z",
+      "likes": 83
     },
     {
       "id": "p_travel_news_3165046730",
@@ -36,28 +58,6 @@
       "tag": "Путешествия",
       "publishedAt": "2026-11-25T14:05:00Z",
       "likes": 71
-    },
-    {
-      "id": "p_travel_news_3192833085",
-      "title": "Центральная Азия как единое туристическое направление: что мешает странам объединить маршруты - Dar…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Daryo.",
-      "emoji": "✈️",
-      "sourceName": "Daryo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeEZ2eWVETzN6MFM2akhfb2g3Qnl2ZXd5aHNpUXZpRmxiSTJwTmIwSDhPRkJfeXl0dDVGWGNiYVl0SFFFV1JKbkx0bE1SYWxWSzB0YlJrWk5La1JnOTZ4SF85ZVpoQUpNUHp6RTU1eW8wMlRqTzlBQktyNVgzWHhHU3BwZDhseW1ZcFotRXRKbEJPQmk0VGRzT2pIQjZjRWhTTU9OZ1RmUU9STzgteVcySkg4eWU0cEVhZU5fazlYWm82WUt5R05R?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-25T13:13:25Z",
-      "likes": 8
-    },
-    {
-      "id": "p_travel_news_1200876723",
-      "title": "Страшно, но очень красиво: чем Африка восхищает и пугает туристов - ircity.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: ircity.ru.",
-      "emoji": "✈️",
-      "sourceName": "ircity.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TMUxCcldFUzFUSllSU1I5cnF1eWtsczJQb1VtMHRxbmNFeXRpNER2clA2OWw4MGxRdUJVc0JSVHEwa1ZRZUJKczIzUVlqN0tvQ1A5Z2FoZEJjMnF4TUE?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-25T13:00:00Z",
-      "likes": 74
     }
   ]
 }

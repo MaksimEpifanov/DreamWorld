@@ -1,9 +1,53 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_volunteering_news_2194155547",
+      "title": "Кому и как мы помогаем? Опрос о волонтерстве и благотворительности - ВФокусе Mail",
+      "summary": "Помощь людям, приютам и природе. Источник: ВФокусе Mail.",
+      "emoji": "🤝",
+      "sourceName": "ВФокусе Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd05mQmkwUVk4c3M3TUdwTHA3dmRjcVZXSHA5enVyeTBoX0h0Nmt5THpYMm9RQjlOTDBOSjhhTHBhVngyTjk3RE5LMnRJeFRuTnNuWG1ZcDFfU1VBeS1QOTVsbFZDYjVRR3FfM29TY3BoRWJLMElkMU9iN09QTmtGOXdFVXN4c1dCVHBhaHEwUUYyRHV4MUpDYjdGZ0NpR0NLMk1XNy1WRzdBckE?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T20:50:00Z",
+      "likes": 69
+    },
+    {
+      "id": "p_volunteering_news_3282923131",
+      "title": "Сила добрых сердец: итоги работы волонтерского движения Чувашии подвели на «Доброфоруме» - www.ntrk…",
+      "summary": "Помощь людям, приютам и природе. Источник: www.ntrk21.ru.",
+      "emoji": "🤝",
+      "sourceName": "www.ntrk21.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQWmQtSjQ3UW5XWWY2RUEtbXQzZHYybi1LZ2Y1V3RjdjRjcVo4a3k3MWsxMHBSMS1HQ0cyamZzdmpSVDUwZGxIbGo1M0gySnltMEM3aTNNa2U5LVlXRkllUE1wTWx3R01kc0sxNFlFQnN1V0ZQckcyOXZBeTZQXzdQOS1pb05ybjhiWWZ2RDRRYk1VakNuZmRxQk5kazI5VjJuQ0IxR3ZrM1phekhuZjd6NFdsdFloZDFRMkVUQnhqN3VJaXBwLXNQd0diSVRIWnRjVkc1dGctY29fcEQ5clY4RlBWdVNtOVdXM0hvNHVURUJaWGZWUXozVnFlNTJ0MmNXRXRraHVWSWZUaVIzMmpuUVRrbEt2bnFnakIwTVpNR3J1T281M3Rwa1prRjNkZjdmVEtQdEhoajRXY3VKZkY3aFVVUEM2MFFN?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T19:02:44Z",
+      "likes": 85
+    },
+    {
+      "id": "p_volunteering_news_3856083123",
+      "title": "В Тамбовской области прошёл ежегодный форум добровольцев - Телекомпания \"Новый век\"",
+      "summary": "Помощь людям, приютам и природе. Источник: Телекомпания \"Новый век\".",
+      "emoji": "🤝",
+      "sourceName": "Телекомпания \"Новый век\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2tpblZsYW9oN0xkbG1IQmxVSUFEMzNsWVIwNWhEUS1pQTJXX1ptX0JmS3dSWnB6dTExZUhoTS02NFRMZFRIb0tvekdZcW80cnBjRnBkQW01R1IwQ0sxTmg4MzEtbGZELUlfYWFVU1RQX1NrRE9Jc0lITC1QQzg1YjBQTmNSODg4MVVWbERoYTh1TXAyb1FoZEEtNVlXWTA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T18:37:41Z",
+      "likes": 50
+    },
+    {
+      "id": "p_volunteering_news_1783943737",
+      "title": "Время добрых дел: пять способов помочь наиболее уязвимым жителям Нью-Йорка в праздничный сезон - Fo…",
+      "summary": "Помощь людям, приютам и природе. Источник: ForumDaily New York.",
+      "emoji": "🤝",
+      "sourceName": "ForumDaily New York",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMllaeVo4emtveWphYjdiT1RxMmlvS1RrWTRON2RYZjB0bVB1SzB6el9VRER4c2ZwWHd3VEttWThIRXBtdlR1YnF1eGxxOFhMTlM3WXZrREFBSm8xVU5kOW1obnVncWRCd2tKNTVzc0ktUGthSE10MTJXdmV2VXh5VW5ZUGJ2TlpoTVhZS0RqZFdHRVROUktCdkh3d2R3cDRSTGNIN0pCUnV6bmt4WkZneUNicm9sSWJhYzZnQzNPdkdmbmc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T18:05:32Z",
+      "likes": 84
+    },
     {
       "id": "p_volunteering_news_2692410629",
       "title": "В Перми прошел XIV краевой форум общественности и добровольчества - В курсе.ру",
@@ -14,50 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T15:30:56Z",
       "likes": 87
-    },
-    {
-      "id": "p_volunteering_news_538692024",
-      "title": "«Росатом Инфраструктурные решения» в рамках Международного муниципального форума поделился опытом диалога власти и жите…",
-      "summary": "Помощь людям, приютам и природе. Источник: Атомная энергия 2.0.",
-      "emoji": "🤝",
-      "sourceName": "Атомная энергия 2.0",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmNHRJbnhxeEVaZTI0TXUtbEp4dTljMkUzdlk3UWZ0ZFRzcFdCQUpFQlJTTUJWd2xuZ2hiMXViUDJZM0VlaFQzODJKbGk4WVBCemdYNDVhZWpxdEtnRHlpXw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T13:48:56Z",
-      "likes": 84
-    },
-    {
-      "id": "p_volunteering_news_1467592717",
-      "title": "Волонтеры Верхневолжья присоединились ко всероссийской акции движения #МЫВМЕСТЕ - Панорама ПРО",
-      "summary": "Помощь людям, приютам и природе. Источник: Панорама ПРО.",
-      "emoji": "🤝",
-      "sourceName": "Панорама ПРО",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWw2X1dMZzV2MXZCRjNsUFlZQ2tEdnpneFRXeWFlRTQ0TC1PQ2k1V2RZRGZlckJiRDdDZTViZUR5YmJucVU5TzhmUEZYaExSUkVaR2x3SVZ0OTByMmxRUlRZUnNuSHdOOHUzeFJNN3JWTDVJU0J3dG9LbWUxeUlpdHNod2h0Y2w4MDlhMGtPQWwzdUg0RS1GcnljZllmRnNUVkpCWmRuQUk?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T13:18:10Z",
-      "likes": 34
-    },
-    {
-      "id": "p_volunteering_news_3856083123",
-      "title": "В Тамбовской области прошёл ежегодный форум добровольцев - Телекомпания \"Новый век\"",
-      "summary": "Помощь людям, приютам и природе. Источник: Телекомпания \"Новый век\".",
-      "emoji": "🤝",
-      "sourceName": "Телекомпания \"Новый век\"",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2tpblZsYW9oN0xkbG1IQmxVSUFEMzNsWVIwNWhEUS1pQTJXX1ptX0JmS3dSWnB6dTExZUhoTS02NFRMZFRIb0tvekdZcW80cnBjRnBkQW01R1IwQ0sxTmg4MzEtbGZELUlfYWFVU1RQX1NrRE9Jc0lITC1QQzg1YjBQTmNSODg4MVVWbERoYTh1TXAyb1FoZEEtNVlXWTA?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T13:01:21Z",
-      "likes": 50
-    },
-    {
-      "id": "p_volunteering_news_429348272",
-      "title": "«Их сердца тоже нуждаются в вашей любви!»: крупчане передали корм для животных приюту в Жодино - kr…",
-      "summary": "Помощь людям, приютам и природе. Источник: krupki.by.",
-      "emoji": "🤝",
-      "sourceName": "krupki.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUxrX3dnd2F5SkxaWEJpT1FGN1Z3ZkVtX0h3QkxRc3VzMW9ubEZGTWZDMTBuN2NDbEZjUDZ5MkVxemxlVFExQzQxSzYtaHhsdHczN2RKMm15UENEYWs0bjZ0V1hCeUZVa2VsdUhKU3VaQ3psbmZFc0JSXzVwaTZUNDhDUWcxcy1kMEYzOEx1QndVcUZUbm4xdlNFcnBXUk1sUHJCcnZ4dWdTdDBKaUNIR1RQUEFnUHNGNU1xY1pQUndjTm93ZmFwVzltOUwyUQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T12:00:26Z",
-      "likes": 16
     }
   ]
 }

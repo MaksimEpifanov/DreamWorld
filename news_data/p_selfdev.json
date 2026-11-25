@@ -1,19 +1,30 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_selfdev_news_540692700",
-      "title": "Рассмотрены меры по повышению продуктивности животноводства и улучшению кормовой базы отрасли - yuz…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: yuz.uz.",
+      "id": "p_selfdev_news_3777994403",
+      "title": "Президент Узбекистана рассмотрел меры по повышению продуктивности животноводства и улучшению кормов…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Dunyo.",
       "emoji": "🚀",
-      "sourceName": "yuz.uz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbFVrdnBlR2lTOUVIM3N4dFA4dU4yZUI5c2xwOGhUUG55NVNXaWNOWmFZcTkyMzJPM3ZMQkhLc25NN0QzWVFxcDlQV2V6TXdZRlRjeF9nZGJYLXFDanZZVnJMZF9KRVdJd1pzTnA4cm13dmxDSHc3RWY4N0oxOTVFOG1tcVVlR1NkbFY0Rg?oc=5",
+      "sourceName": "Dunyo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1MtQ2d0QUgzRkxOeUxCd1FuRUZ5R1VXRUhRNDBlanpueW9FT3pEdWtoVUh4QWJIX3NGbXA4eTNqYlpuMV9EY2xNb3Rjblg0aDJCT0pFWkhsWnlteWVrUW1uWkE4SC05ZGhBaUNkS3R6LVVaYXZvNm1mZWk1QUllUFVvWVpkeGl1QjZPUHZTZjkya3JfMUV0akg1Y1dIRXk4?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T15:47:00Z",
+      "publishedAt": "2026-11-25T20:41:40Z",
       "likes": 6
+    },
+    {
+      "id": "p_selfdev_news_248108650",
+      "title": "Окружение может мешать успеху - психолог рассказал, что делать - новости Израиля и мира - Cursorinfo",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Cursorinfo.",
+      "emoji": "🚀",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRW1YS0F4VUpyVnFSNGtHNzVIeTlWdkF0MDdWZWJXVkQtczBtVGRueXpNMXFkRlNCRkFWMmxpSmhtN21udkJOa2xWNE9mNmFnb2NLMUU0QWFycnc3VUdSTzdrRUZVZjM4aTdmZmdqeG1KZzhYWTc1NXE4MW1sdjFNY01fUENqelg0R0trWndmT3BpdVJsV0RqN0l3QTbSAaIBQVVfeXFMTXpHNjJZMThZaDNfSXpmemtoZU0ya0w3NkkzTjl4UzdrZFd4Uk1iMGNTb0hZWHlucXZVbEN2bHFSeXBHaUVyWG9ZU3gyS1JnVWE0NlJoaVFUcWNncGkxVFMxWVh2VTZzMlNfcnBRWXBZb3V2ZWp4a0I1WlhsQWplbXl6aXhLTVJRSzcwbWNlTHRoZ3lIT3gyc0FKQlVfTGNuWE9B?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-25T18:33:30Z",
+      "likes": 43
     },
     {
       "id": "p_selfdev_news_3949383607",
@@ -25,17 +36,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-25T14:16:00Z",
       "likes": 50
-    },
-    {
-      "id": "p_selfdev_news_2368288614",
-      "title": "На базе Центра коррекционно-развивающего обучения и реабилитации Полоцкого района проходит коучинг-…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Полоцкий вестник.",
-      "emoji": "🚀",
-      "sourceName": "Полоцкий вестник",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS0ZfWWpBNWtJWWZXb2FQUzBVdHh4Y2FWbHl2VER2bDdCSjh1bW5CRUZvem00WXE0a0I2bUZjb25CYXpacjJLRlhtY29oWU5TN2FuRHVvS1F6R0haaDNQRjBoUjFpMkxHVmlwSmtQbXRpcnlPdlFrMFlQd1VUb3VVaEV5R0FNVE1iS0hrWVJ4dFkwR0JRR3J0SUNUZHBsclpoZmhRalpGUWlxYXhsNnAwWV9XRS11cHZQVEhYMUVtdmNrWTF5M3RHc2J30gHKAUFVX3lxTE5LRl9ZakE1a0lZZldvYVBTMFV0eHhjYVZseXZURHZsN0JKOHVtbkJFRm96bTRZcTRrQjZtRmNvbkJhelpyMktGWG1jb2hZTlM3YW5EdW9LUXpHSFpoM1BGMGhSMWkyTEdWaXBKa1BtdGlyeU92UWswWVB3VVRvdVVoRXlHQU1UTWJLSGtZUnh0WTBHQlFHcnRJQ1RkcGxyWmhmaFFqWkZRaXFheGw2cDBZX1dFLXVwdlBUSFgxRW12Y2tZMXkzdEdzYnc?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T11:09:44Z",
-      "likes": 75
     },
     {
       "id": "p_selfdev_news_2724536781",

@@ -1,31 +1,9 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_nature_news_2002353724",
-      "title": "Природные парки Волгоградской области посетили более 250 тысяч туристов - Национальные проекты Росс…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Национальные проекты России.",
-      "emoji": "🌲",
-      "sourceName": "Национальные проекты России",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUt3aUpiMkQ3OHBoNjMyVHBXOVZrVDJqZHpmMjR1MUNWcVR2YmRHVFg5U3BPN0FsZTV1YmJKbWx6ZUo2SVJQSkQ2dndJMGxOQXZVcjVKYU5YR3ZTZjVrOGhENC1ZcVdlVWJTS1d0OU5lVkRzcDFzdnE2dHo1MWJCYnRjNDNKR2dNUWxLTDhUSTFXRnJkZlFLb0s5RkdSWUVzN0xvQm92bkluY3RHRDRfekVmM09IQjJ0R01fMGNIeXBNeFE?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T16:35:39Z",
-      "likes": 44
-    },
-    {
-      "id": "p_nature_news_1753425625",
-      "title": "В Грузии будет создан Национальный парк ледников - Бизнес Грузия",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Бизнес Грузия.",
-      "emoji": "🌲",
-      "sourceName": "Бизнес Грузия",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOQlpxLVdWS0U5a2pwTzJpZnlBZkQ1XzNOaUtEWm9TcG1uQnV5YmVKX0hZLTFLYUg1X3VrdUVMYm05R3hxcjJRNWVDTzVPbFhfcTVuVDNfQmdSVkVDVjhGM18wNExWVG5haURUMGRhTEM5UjBQQUx4TjRzM19WamVLX1FEaXZZSUltaDRqWXZEOVE4eGUwb1lXekFOM3d4NldEQ1Iya2RaeFI5U1ZUN3R1Wm9DQXlVWElJTmNjME9fMDh4clZESzk2anpZSWVFY0VQLWlQWnV5SWJ6bUtwVXRLV3FsWUFuN1FPT3Q4VUVodGhGbjBucmxfMllzUVh1MkxZQVREZDltZkVYdXh2ZlFjaUdEaHB1LU9fTXpIeUdYdGU2Sm1PQms4OHhBNVRlNjhHUTdLWml1ZFNDeHU5djlsQ0l3TzNraE5DMmUwVnVnTlk?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T12:17:30Z",
-      "likes": 32
-    },
     {
       "id": "p_nature_news_477461570",
       "title": "На защите редких обитателей природы - http://yujanka.kz/",
@@ -36,6 +14,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T11:33:27Z",
       "likes": 91
+    },
+    {
+      "id": "p_nature_news_1481332307",
+      "title": "В Министерстве экологии и природных ресурсов проведено совещание по вопросам противодействия корруп…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: GOV.KZ.",
+      "emoji": "🌲",
+      "sourceName": "GOV.KZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE16ZmI5QndnOVZsWlQ5MnpIbWF2WHRWcEtYTzhRellKWlhyOHpFUG9TcDhjMXhPZERCeXBldzYzcXozblRMRlM3czVzNTdlUlFtY0MtWEdhLWR0VHNuTlNIR2V1VUpkWmp3R1BBMGZaZHFodw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T09:28:19Z",
+      "likes": 25
     },
     {
       "id": "p_nature_news_2489101431",
@@ -58,6 +47,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-25T06:01:30Z",
       "likes": 80
+    },
+    {
+      "id": "p_nature_news_1364662669",
+      "title": "Единственный во Вьетнаме заповедник для слонов: предоставление дома для слонов. - Vietnam.vn",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Vietnam.vn.",
+      "emoji": "🌲",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbFEteVdmYkNzQUtyNE5JYUtmSWZ6cl9ScUhzQjV2Yjl2TjBhY19ESFBlU2pxaUU2anpxUW54NTYxeUMyQUlDOXY0Ni1sYlBoaVBxTTQ4X2hPdmJpcWdueTJlWlVZQXhmUy1ERlJ4c1ZPT010TkFwMVdnRTdyX0lqWTlEdlgwQQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-25T00:44:01Z",
+      "likes": 59
     }
   ]
 }

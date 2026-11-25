@@ -1,9 +1,20 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_finance_news_4214100498",
+      "title": "Мосгордума приняла бюджет столицы на 2027-2029 годы - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "emoji": "💰",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFNac2RVWUVPcU5qMk9zazJKT3VnbFFVX2lBQUNFUkpJTjJtS1FZYnJhQzRQeTZGM3VncThvSVZ5TEtXaE8wQmRobndyODRJU2VMdlZQZ045QVZ1bjJoWEw2WjZOOVpLZ0hZbFNQOEZidGFvTUl4cXpYNjhGZ0JFbFhQcEJPbWFFSFJsQjBSUHE3QWVYMHBwT3J1VlVPQzdjNVhBYg?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T18:08:22Z",
+      "likes": 52
+    },
     {
       "id": "p_finance_news_4134999161",
       "title": "Проект бюджета Кубани на 2027 год обсудили на парламентских слушаниях в ЗСК - Кубань 24",
@@ -27,15 +38,15 @@
       "likes": 86
     },
     {
-      "id": "p_finance_news_4214100498",
-      "title": "Мосгордума приняла бюджет столицы на 2027-2029 годы - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "id": "p_finance_news_2373024673",
+      "title": "Пожизненное удержание в 80% зарплаты нардепа за счет бюджета: кому в Украине хотят назначить новые…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Мінфін.",
       "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFNac2RVWUVPcU5qMk9zazJKT3VnbFFVX2lBQUNFUkpJTjJtS1FZYnJhQzRQeTZGM3VncThvSVZ5TEtXaE8wQmRobndyODRJU2VMdlZQZ045QVZ1bjJoWEw2WjZOOVpLZ0hZbFNQOEZidGFvTUl4cXpYNjhGZ0JFbFhQcEJPbWFFSFJsQjBSUHE3QWVYMHBwT3J1VlVPQzdjNVhBYg?oc=5",
+      "sourceName": "Мінфін",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyT1hrU2lJbFV1dGZFY2xQcklHdUJfRF85MXJFenlZYmlLRmtYdWpEZzQ0bDU4V3Vvb0w0NGlYLVowdE5QaG5Ea2VPZkVzbmVrQnRpM21R0gFbQVVfeXFMTzFJR0psMEJUWFo0MW9MMENWWlZHZzRCZEcyLWZydG5Uc2hfTVh0Z1otSjU5dHRMRG1zd3dPbVduaFFXQ0pOd1FuOWFpOUtHd1JvQmFKeGNsS2dFcw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T15:12:45Z",
-      "likes": 52
+      "publishedAt": "2026-11-25T14:54:00Z",
+      "likes": 56
     },
     {
       "id": "p_finance_news_2116052532",
@@ -47,17 +58,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-25T14:24:35Z",
       "likes": 46
-    },
-    {
-      "id": "p_finance_news_3349289387",
-      "title": "Профильный комитет СФ поддержал закон о трехлетнем бюджете - Ведомости",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
-      "emoji": "💰",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa0hwQ1hHR21KTnYzdkhEakpELWRwSmN0YVIxY2lQalNLdTZwQllJYUIwX0p5TW5QUnpyZXlRN0t4dXVOUWcxbjV1R3hCRVNlNjJxWFV2dk1abGVKUFpLdXlURkZDYkVQbTQ5LXQxTGlSVDdEMFFER3dLT3g5SmczT1M5TWF2RG8?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-25T08:59:40Z",
-      "likes": 57
     }
   ]
 }

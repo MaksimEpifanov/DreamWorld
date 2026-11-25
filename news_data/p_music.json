@@ -1,9 +1,31 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_1360912649",
+      "title": "В Межвузовском кампусе Уфы обсудили влияние музыки на нейронные связи - prospect.com.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPamY4MmhMcWF2c1FNZWtYT3RHRjZrX051RHpTdGVtWTBOV0VJTDZ6OEFpUjFwRnBpNmc1b1ptZE9fXzJTU0RnS2ZramNNandOazQ4cEthczh5SHJ4OXVSSG5QMnBvUXZCLXREaXJaRzNmRlNxYkRrSFJVVVdxWnY1NkI4NDA0alhiWXMwdERWejJzOTlMNk9jTWlTZlJhVGpqQ0UxUEhUYjMxRkY2OWRWREV5OA?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T18:35:14Z",
+      "likes": 5
+    },
+    {
+      "id": "p_music_news_1019123485",
+      "title": "IU стала первой южнокорейской сольной певицей, давшей концерт в Tokyo Dome. - Vietnam.vn",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
+      "emoji": "🎵",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjlkRXFpNTFmWnhqbkVlNVNFanhZS2Z6UWMtd0VWRUdyRWJLTzJnd283S09YRFBFdkRwWWRGYVVuMU03TTJoTWUyNmwtRHZkRWZsYzVaYVY5QmEyajJYYVFEV2ZkeFoydl9xTWVkNVpUeTR6R3Nwa3N1dmpkZEpXTUwxQTltR0FpNm1YUFpaWVd5X3BFVE1xSTMxVkJNcHZrYzlV?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T16:10:32Z",
+      "likes": 83
+    },
     {
       "id": "p_music_news_3495504105",
       "title": "«Заточка» анонсировала альбом «Живой щит» — НАШЕ Радио - НАШЕ Радио",
@@ -36,28 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-25T11:36:00Z",
       "likes": 13
-    },
-    {
-      "id": "p_music_news_2137602209",
-      "title": "Группа «Инь-Ян» – победитель третьего сезона «ВИА Суперстар!» - prospect.com.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
-      "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnNoS0FYUDVvNVE0NzBpanh2bjFINE0tUDRfWHU0NjFVN2lJN3VnLUlLQ3hVVm5QQ1RNTzc3OE85RlZTdVRGWGJOS2FOWWdvWmpZVFhpNU9UbVBUWTFKN05NUXNCRDdRWGk3WFN3dG1XblRnYnVUYmgwMkhNaDIxSkV3UGtYMHZPbTI4UEtxMVp4RjRNRlNObA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-25T04:28:18Z",
-      "likes": 64
-    },
-    {
-      "id": "p_music_news_3122854307",
-      "title": "Дельфин выпустил альбом «Зла нет» - ПроГород Ульяновск",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ПроГород Ульяновск.",
-      "emoji": "🎵",
-      "sourceName": "ПроГород Ульяновск",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95M1B3SXVjTmkybHFpWXFRazh6R0VBbFNkYl96UjZIVzVrdFdUX3VFSVp3TFNKSUo5RnpGQ2tEa3dSSWp4Mm96aGVvX3F1ejFId20zUWMtSWprdWg3TS1CY29Uc0RpbmVZeXdOaUZwUGlNWnB6?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T19:29:15Z",
-      "likes": 68
     }
   ]
 }

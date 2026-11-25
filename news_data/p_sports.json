@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3506373896",
-      "title": "«Был частью великого клуба». Евгений Кузнецов поздравил «Салават Юлаев» с 65-летием - Чемпионат",
+      "id": "p_sports_news_1510529974",
+      "title": "В НХЛ готовится воссоединение Малкина и Капризова - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "emoji": "⚽",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdmo2b09PU2JnOWVYVXM0b1k3cTUyUnlxQ3l0QngxblB2ODhhM21SOG9Gd1VOMkhYZGtRUUVabFNLdVBtOXcweVZzRl94YnVvNHFiTUtCbnBLenRfMFpnRFBaQWNkRDJ4azY0M1VtUER1T1p4RjIwSDVuY2hFRUlaNDRwNA?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T21:37:03Z",
+      "likes": 21
+    },
+    {
+      "id": "p_sports_news_2885858767",
+      "title": "Игрок сборной России официально присоединился к клубу НХЛ - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "emoji": "⚽",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeGFDTjg5UjRsZ3JHR3g2VEVXNHNtczFmZEdxVG1lbFVYMWVmR0NvMDg5aWswZjZHRUhEanUzcENDWHpkYlI4OEtWQ3JqWTlLdzVqWWtrcEZncnBVNUxQSThJeko1eFBFLXFiS0habXh4XzhBbVhDaUFNdExpdlg3ejZIbFNtZEhGUG04WElR?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T21:16:50Z",
+      "likes": 53
+    },
+    {
+      "id": "p_sports_news_2807507610",
+      "title": "«Локомотив» победил СКА в матче КХЛ - https://m.nashhockey.ru/",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://m.nashhockey.ru/.",
+      "emoji": "⚽",
+      "sourceName": "https://m.nashhockey.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5R0xCMm0wY1RlRWhRZlVlVWNGdWFkb1A0Y1hMek5aTzhEU2RJS3hyVzA0eTBJYTV3NXBpNXE2QnZfNTVmT0JTVjRlTHhXZw?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T21:02:17Z",
+      "likes": 87
+    },
+    {
+      "id": "p_sports_news_1672224402",
+      "title": "«Вашингтон» — «Филадельфия»: онлайн-трансляция матча НХЛ начнётся в 3:00 мск - Чемпионат",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
       "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS0ZVLUtydkxuajZBQzV0X01nMGY3ekV6T09VVnFEZDhJWE1RbWZXR3hWR2Z0djdhenptcDAtUHU5NUdJblExZDQ3ZHBRcmthekJ1aVI5WnliUWUxaTF4eWhhd3lXanlHbHJIWUtvcFoyU2dKSU1aUWwtc2pUNE9VRDhQb2hmSWVrOHBTRVVvZVJrYW5EcmM1NEl2ZldSMnpBNDN5Y1lkT240SGNnXzgxbnk0U28yWkx5TWdEQUxIcUFqaWx6MmV5YTFkdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOU19vRm4xNXkwaVA1eWFSNjRpRzRVYWVqd1FYcWt6enhJQnZENy1kYnlDYVdPbU8wdjVndEdYVUNPZ2FPRHI5VEVjcllWLUJDaEZHUUppb1dGWGhkSTh6Tk9YUEtXdTBOMnJzQXRtYnFsZUZfZjFPS05XUkdWYlpKdDJvTWdkaEtXRUVLdWpZU1VVazBoMWVlYlRXRWVIYzBUdWVPb0gzSnNYa3JzR2JqZ01Rb2ptZFZqV1NEeGZEWXRMTktFcjB0S2lUSnRSRWlGMGlCU0VQN25vSm05bS1td1V4OHZUQlNvZUV5SHZWQVB2QQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T17:04:35Z",
-      "likes": 73
+      "publishedAt": "2026-11-25T21:00:06Z",
+      "likes": 8
     },
     {
-      "id": "p_sports_news_4208376099",
-      "title": "Евгений Малкин вернулся в состав «Питтсбурга» после пропуска двух матчей из-за повреждения - Чемпио…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "id": "p_sports_news_2889160693",
+      "title": "Капризов отписался от жены Овечкина и олимпийских чемпионов из России - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
       "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNT3F1bFFSR1pyREtYRjhPNUFYZlNGLTJCTGtEUmpQWVJmWDlSdnV5ZVNxUmZ1YWNCUjR4Q3lOT0hVX1B1SVdXTjRtM3NoMnVlQzJaTWNGVW9wcnIxbGJHaWM3WHJybzhySnJuY3huQmFteU45emo2ZE9PYlY0TjZKdTBFUHpmakwwVUpnMkt0dXNaWTM1Yms3MVZBNjJDa28tWXU4UlhxbHVxX1A5MGUwTl9kOU02clBfb0t3dkUwdDZtaFlxOWhSOUo2M2VJRV9BMHRuSjFsWjlTWlE?oc=5",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRm0zd2EyYUpoQTU0bkZMSERDN0FPeGJ1TmFoUUFHa1U0TmNBYTN2RjY0ZXlLbWROSGZXdnRuS293alhBdE5OS2NfODkzVy1ILTY5dHdodldBc3NLQUZVRDAyMmhpQ3JMQXo1STlLUFVJSkhqUzVSdVRqZEg4QUdIa0dxbHZ6bUpMbmk4VjJVTFFsMkx2UmZ4cURfalhGM2I5NXc?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T16:45:05Z",
-      "likes": 83
-    },
-    {
-      "id": "p_sports_news_942095192",
-      "title": "НБА инвестирует не менее € 10 млрд в развитие баскетбольной инфраструктуры в Европе - Чемпионат",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
-      "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdGhBVWFrdVdlVmtjMlhMeWRWamhTWFlrcWRDdmZjeW41bE16NENGT25mT1hvTllkLVVhUWt6cEl3NFA0T1RFdmZWcDZTVThoV0NBRmp3dExNaWI2WTlRMGxsSF80T2k1dDAyX2dfeVFlY3lQX3N3aHMycmdTVXMtamlXeUZEb1NUNllfM3ZrT01mQmtYMVhrc2pGMGxNWGpGQ2o0RG00TXVUWmpuckZNcDFpR2owenJEYzFVRGE4NXRLaFAzYUVqa2xWaU1tVF9HdTRDeUR3?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-25T16:39:51Z",
-      "likes": 76
-    },
-    {
-      "id": "p_sports_news_2708199845",
-      "title": "Нападающие Александр Барков и Брэд Маршан вернутся в состав «Флориды» в ближайшем матче - Чемпионат",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
-      "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZDJaWXh2Z2U5a2RBeW11X0VfVmVJbEZkT1BUWUZsdV9aeGZKa0g0NEJoNWRMcFllUnJzbkc0NFZfVFcyeXNfbDB6Rkl6OXN6d1JRVUt0N3E4bmtXZm9PdW9LaXY5WmY3ejVYd1diSnhJVUYtcm5DSW9oRFVWRDczdW53SDVHa2REbW9CNEZReFg4bmJyUkUzQ2ZPVWxGeG42NmlObF95QjlZUnBZeUFkS0gwLXR5TEc0WDNreTRPVE1sRGxsLWJ1dHFpMDRlQ2gydFAwUFoyM3ItSkRy?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-25T16:34:33Z",
-      "likes": 50
-    },
-    {
-      "id": "p_sports_news_2795444012",
-      "title": "Шипачев назвал двух молодых игроков \"Салавата Юлаева\" хоккеистами уровня НХЛ - Sport5.by",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport5.by.",
-      "emoji": "⚽",
-      "sourceName": "Sport5.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQemN6aFNZRnNiNmRYcG1kRFpURzNrY29XZzRfWVlHcjF1NFY5b18zNHd0cmo5blUydGRsQ2EydGsxQ1BQT1JtS3cySXFNa3lsQnNMQk1LTk1RbDF3NlhPTHN3R0FEb1Z4c0NUd2EwSUg1c0ZfQ3F3bkRmSjVUem1XWlQ1OGR1U0MwNXBrWlc3bnlVeUQ2eGtQR1NJZGkxSzlpOXlwbzgzZGxRZGU5ZVJrRHh1M3Z2bVhJNGc?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-25T16:24:27Z",
-      "likes": 74
+      "publishedAt": "2026-11-25T20:47:15Z",
+      "likes": 90
     }
   ]
 }

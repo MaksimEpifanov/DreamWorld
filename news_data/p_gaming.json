@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-25T17:15:26.204307Z",
+  "updatedAt": "2026-11-25T21:38:38.391608Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_1786585986",
-      "title": "Анонсирована тактическая RPG Symphony of War 2: Dominion — релиз запланирован на 2027 год - GoHa.Ru",
+      "id": "p_gaming_news_2236740381",
+      "title": "Переиграть любимую миссию в GTA 6 не выйдет — в Rockstar объяснили, почему - VGTimes",
+      "summary": "Кооп, рейды и вечерние катки. Источник: VGTimes.",
+      "emoji": "🎮",
+      "sourceName": "VGTimes",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZGwtUGV3Um5neUIwU2FPWDc5NVp1MGRwOXdWbEF3NExjRVRyUTJacnRBOF9YT2pROWZxQ2plQnM2OGg5c08xTmo0WkhSbHZnOHY2S0hVUzNLYnBQS19jeldNMzZyY21yLVFWZEViM1hzbjNiOEt3U2dJd196VmUwZTI1YzN0MWFFSG94azN0VFdWRzAtbVpRTTA5cTR0YlRQMFkzdXYtMjhoTjZtS3dnRXN0NjZ0Yl9QWEE?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-25T20:28:57Z",
+      "likes": 42
+    },
+    {
+      "id": "p_gaming_news_303843965",
+      "title": "Сатурн. Наследие: демоверсию научно-фантастической ролевой игры покажут на Comic Con Игромир - GoHa…",
       "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
       "emoji": "🎮",
       "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONEpaQ29rRWRGV3JVTUN6dkdfVlR3SGJBZjJLWjhBbXpFdDVhZWx0VDVGdzZUQ0FabDJSOHNNSW1RMDBtRkctSDlrTm1lWnI2cG83OG9kRUhWMzJ4TjBub05pT0dCcndXMHE3TzVldkxfUXZ1aXhfUFhiWHpGMTZuVURDNV9LR2h1TE90bG84Z0d0MHJUYVJZN2JLWEU1ZUVfQm5HODRxbnRSVWtsVTFydFo5akowQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNDlxMVEzb0dQWU5OR3hyamVqMGM5bjZORTNYV0dJbFdpSml1ME9qM1Y0dl9aZkhqaVF2UmVHa08wc1JGRzlqVTgzVU1XaTRpbnpPUWFuVnhGQU1xR1N4UHJUNXQwVkJ4VFlneGNuRENsX3E4UzRPTTI4X2FnWFNYdmR4Y1FBRlFkNkg4V0JvSFF3b0xjSU81VGVBMTA2TU9JM2pSb3J1QWhjWWpzcVFSUmRxaERwSkFZWTVOZFJ3?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T17:15:02Z",
-      "likes": 9
+      "publishedAt": "2026-11-25T20:26:12Z",
+      "likes": 12
     },
     {
-      "id": "p_gaming_news_1699889662",
-      "title": "Dragon Ball Xenoverse 2 и еще две игры выдадут подписчикам PlayStation Plus в декабре - GoHa.Ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
-      "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb0JDdnROZDljdFV2TEMyeTBnSjJ4eDBPNkVJUW9wdUdSamVpNWszQkFXZHJxdHBIbXZad0JCZXd3UEFnQ3JkOWRUVWV1aGx1YnlfdGNwTnh2SWFyNnczZnppS0dSbTVSVWdmbUxsaEtHZGlyYXhodHJsUGpRRUNNTnZiZXdvbjJ4M09tdHA3NGxraHlaRV9DbG1HcWVaSFg5TEROOWY0aEFaaFlsQzBMTnZGVUotUQ?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-25T17:05:02Z",
-      "likes": 79
-    },
-    {
-      "id": "p_gaming_news_569283592",
-      "title": "«Голодные игры: Рассвет Жатвы» собрали более 100 млн рублей в России ещё до выхода - Чемпионат",
+      "id": "p_gaming_news_975351295",
+      "title": "Дмитрий Кириченко рассказал, что изменил в игре «Ростова» после прихода в клуб - Чемпионат",
       "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
       "emoji": "🎮",
       "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcldOT2t3UTJjbFJDc1Q4YkRIRFZoZ3pHODJQVm1WNmZwMlNsQ1JIMFlkWnRPZll0cjdXV3pCLUczeXFaSHpBQVJFTy1HSDN2a1ZfUy1wOVZOSWdSVm9EZ2lSaVhFTndrSlZwM2pJSUtSR0pQdGp4UWQwa1R3b2FLREhmOFVJSUY0Z2w3TFFLb0lpRzNaemVWMU5DTGllT3Z5Q3djWlNYbWlOSE0xc2hEbW1kbm9Qb1lubmswb1lNMXJfT1psZmxZS3BZTExJS2E5ODJ1Nw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbklXb0JyYWxMVGU5WUo1V1NKN2FmTDRrNWJBZ0kzMmc5TE5udmMyZ2tVSU9MVkYtanlHRmU3d1dVOERDS3FVcVIyX3NuQURneEt5MnZfdlUxS1FmendheWF0VEdLTV9UaUVLeGYwZExSQkl0NG5tZ3BsOEpXR2E5Y0hRWTdHZ0RJS0VNNTU2dl9yUVhuVzlidl81V2NHQmUwWGVPTG5VN3pfNk1sQjRaRGh5RVJrd2tuQmhBN1F4eE1Ic3o1UTRHQzB3?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T17:00:28Z",
-      "likes": 45
+      "publishedAt": "2026-11-25T19:53:27Z",
+      "likes": 4
     },
     {
-      "id": "p_gaming_news_4240771641",
-      "title": "Карточки из GTA 6 сделают настоящими коллекционными предметами - Shazoo",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
+      "id": "p_gaming_news_2672529700",
+      "title": "Xbox Helix могла получить Steam и бесплатный мультиплеер - MobiDevices",
+      "summary": "Кооп, рейды и вечерние катки. Источник: MobiDevices.",
       "emoji": "🎮",
-      "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZDhsR1BlOGswVGdJcXVNU1BOUFZYd21DV044Vm9MZkxxQUV0OThVcGRacXpTNGZhVmNwWm1NX1dhVl9QYVRxZ0p5VWJCOGRWc1ZaOHpfTXhDOF9HNGFTODNXcUNpSm9RLUhubjFLeUoyQTZaeHpRd0ZpamRfLU9mZldlUjI1dHF4a3h6Sk85YS1nQVNPMmpLeVJFVHVUZUpTVnEzMA?oc=5",
+      "sourceName": "MobiDevices",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YRVphaG1HbW5lNzRVZ1p1Y2ktcjlONjkzbVhFMDkwcFlVR0hLdW04SlVXcVFCQkVJbHdNWjM5UWU1eDRTNzgxT1VEZUw3SzJmcjlVbEp1NEhmZEtPUzdPYzV3ck9vdjFYeXVrUVZ3?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T17:00:00Z",
-      "likes": 68
+      "publishedAt": "2026-11-25T18:53:55Z",
+      "likes": 51
     },
     {
-      "id": "p_gaming_news_282536194",
-      "title": "Разработчики The Witcher 4 не боятся GTA VI — пока игра Rockstar не вышла на ПК - iXBT.games",
-      "summary": "Кооп, рейды и вечерние катки. Источник: iXBT.games.",
+      "id": "p_gaming_news_2330635526",
+      "title": "UPG поддержала шесты Всеукраинские Игры Непокоренных - NV",
+      "summary": "Кооп, рейды и вечерние катки. Источник: NV.",
       "emoji": "🎮",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXFtNXdvTFNqbGtOaTNDUnd3eVpERVBSaUJvVUdGVU1QNkhYV2ZoUFV0OGlvNjMzOUdRRmdLLWZJR3I4MkRtU19LN3VKbXBwNUZDaFhuWWZHQWRsZDVkS1RtQXhsY0s2S2NBZ25uMnd3TlRSR0RxX0ZnRUtIMHV5enlLVDJKX0poSmJkWE13Z0FueHVjbFVKekl3TG1rNU1wQnV2Q0lXbE5RU1owWFE0bXZPUUdraU53R2lF0gHAAUFVX3lxTE5DWUlLbFFXR0s1N2NwR1JHY2pPWUI5SGo1R0pIWUx3elJiUXpmT3QwMVFxSDVNRlBTYVN4MVhhcEVEdGtZcGhleV9sWWp1Q0hrTmhwTm1hcUJDajRwOXpZVXBhd2FhUGlfVFlmY1B6OGdiWEJPTEFmaTBYZ21jTlRqOV9kcWRKN2U2Q1IzNjdZUGlmQTltNW9XbDNhQ3RmbVNpNVowb1V3UzhXelViTGJ3NS11RjJBZm9KZXd3M2s4NQ?oc=5",
+      "sourceName": "NV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZWdodk1mM2FBUms2T1daTmdfa3Y0ZkJzOHQ3X0NXOXBfWnV5Mm9kN2d5V0lnV1BNMDV2UHNES285ckNlcm1IeHNEZXdwQVdQNS1UZ2g1YU9qRDkyX0JtdURxQXhiYUJJcVZ5d2pIcXV0ZFhnNkpraGlJTHMwem5fb05ha2F4aDYwVVQ5WEJIV055aGFrOFVIdmNFWXlDYmlCWlp0UmtaVEdXNmpJamk1a25IWlFXWkRxMWfSAasBQVVfeXFMTjl6ZHpQbmtqV1ZKUmhsOXNBRmxwdDlfMXh1SXA0LTVkcHk3UGw3dzVVa1pSRFB6QWVKWnV5M25ZN3RKaUJUcko1cXJMRm02cVJ2cWJoUXhEanZEN01JMGhvaFU5Y0ZTZGRKYVJQeW13RVRuRkdBWm9QZlFRWkpfVmJCd25JdkhaeF9kbEJzWERDbGFHUHQ3M3RObFJLMklZT1dWZG9HNTFUQTM4?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T16:42:00Z",
-      "likes": 19
+      "publishedAt": "2026-11-25T18:48:25Z",
+      "likes": 34
     }
   ]
 }
