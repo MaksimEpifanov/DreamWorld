@@ -4,6 +4,7 @@ import '../../../../core/constants/planet_scene_theme.dart';
 import '../../../../core/theme/index.dart';
 import '../../../../core/widgets/index.dart';
 import '../../../../data/models/planet.dart';
+import '../../discussions/widgets/discussions_section.dart';
 import '../../events/widgets/planet_events_section.dart';
 import '../../news/widgets/news_section.dart';
 import 'cinema_anchor_tabs.dart';
@@ -44,6 +45,7 @@ class _CinemaPlanetLayoutState extends State<CinemaPlanetLayout> {
     'genres': GlobalKey(),
     'news': GlobalKey(),
     'events': GlobalKey(),
+    'discussions': GlobalKey(),
     'people': GlobalKey(),
   };
 
@@ -53,6 +55,7 @@ class _CinemaPlanetLayoutState extends State<CinemaPlanetLayout> {
     'Новости': _sectionKeys['news']!,
     'Люди': _sectionKeys['people']!,
     'События': _sectionKeys['events']!,
+    'Обсуждения': _sectionKeys['discussions']!,
   };
 
   Widget _section(String id, Widget child) =>
@@ -100,6 +103,10 @@ class _CinemaPlanetLayoutState extends State<CinemaPlanetLayout> {
       'events',
       PlanetEventsSection(planet: planet, compact: true),
     );
+    final Widget discussions = _section(
+      'discussions',
+      DiscussionsSection(planet: planet, compact: true),
+    );
     final Widget people = _section(
       'people',
       CinemaMembersSection(planet: planet),
@@ -140,6 +147,8 @@ class _CinemaPlanetLayoutState extends State<CinemaPlanetLayout> {
                       const SizedBox(height: CompactSpace.md),
                       events,
                       const SizedBox(height: CompactSpace.md),
+                      discussions,
+                      const SizedBox(height: CompactSpace.md),
                       people,
                     ],
                   ),
@@ -163,6 +172,8 @@ class _CinemaPlanetLayoutState extends State<CinemaPlanetLayout> {
                 news,
                 const SizedBox(height: CompactSpace.lg),
                 events,
+                const SizedBox(height: CompactSpace.lg),
+                discussions,
                 const SizedBox(height: CompactSpace.lg),
                 people,
               ],

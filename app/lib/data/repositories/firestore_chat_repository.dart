@@ -220,7 +220,12 @@ class FirestoreChatRepository implements ChatRepository {
   }
 
   @override
-  Future<Message> sendMessage(String conversationId, String text) async {
+  Future<Message> sendMessage(
+    String conversationId,
+    String text, {
+    String? audioUrl,
+    int audioDurationMs = 0,
+  }) async {
     final DateTime now = DateTime.now();
     final DocumentReference<Map<String, dynamic>> messageReference =
         _conversations.doc(conversationId).collection('messages').doc();
@@ -231,6 +236,8 @@ class FirestoreChatRepository implements ChatRepository {
       text: text,
       status: MessageStatus.sent,
       createdAt: now,
+      audioUrl: audioUrl,
+      audioDurationMs: audioDurationMs,
     );
 
     try {
@@ -246,7 +253,7 @@ class FirestoreChatRepository implements ChatRepository {
         orElse: () => '',
       );
 
-      await messageReference.set(<String, dynamic>{
+      final Map<String, dynamic> messageData = <String, dynamic>{
         'id': message.id,
         'conversationId': conversationId,
         'senderId': currentUserId,
@@ -254,18 +261,15 @@ class FirestoreChatRepository implements ChatRepository {
         'status': 'sent',
         'isRead': false,
         'createdAt': now.toIso8601String(),
-      });
+        'audioDurationMs': audioDurationMs,
+      };
+      if (audioUrl != null && audioUrl.isNotEmpty) {
+        messageData['audioUrl'] = audioUrl;
+      }
+      await messageReference.set(messageData);
 
       final Map<String, dynamic> update = <String, dynamic>{
-        'lastMessage': <String, dynamic>{
-          'id': message.id,
-          'conversationId': conversationId,
-          'senderId': currentUserId,
-          'text': text,
-          'status': 'sent',
-          'isRead': false,
-          'createdAt': now.toIso8601String(),
-        },
+        'lastMessage': messageData,
         'updatedAt': now.toIso8601String(),
         'unreadCounts.$currentUserId': 0,
       };

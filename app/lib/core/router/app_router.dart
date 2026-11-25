@@ -31,6 +31,8 @@ import '../../features/planets/catalog/other_interests_screen.dart';
 import '../../features/planets/catalog/planets_catalog_screen.dart';
 import '../../features/planets/chat/planet_chat_screen.dart';
 import '../../features/planets/detail/planet_detail_screen.dart';
+import '../../features/planets/discussions/planet_discussion_screen.dart';
+import '../../features/planets/discussions/planet_discussions_screen.dart';
 import '../../features/planets/events/planet_events_screen.dart';
 import '../../features/planets/home/planet_home_screen.dart';
 import '../../features/planets/map/planet_map_screen.dart';
@@ -264,6 +266,25 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
               return const PlanetNewsScreen(planetId: 'p_fishing');
             },
           ),
+          GoRoute(
+            path: 'discussions',
+            name: 'fishing-planet-discussions',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetDiscussionsScreen(planetId: 'p_fishing');
+            },
+            routes: <RouteBase>[
+              GoRoute(
+                path: ':discussionId',
+                name: 'fishing-planet-discussion',
+                builder: (BuildContext context, GoRouterState state) {
+                  return PlanetDiscussionScreen(
+                    planetId: 'p_fishing',
+                    discussionId: state.pathParameters['discussionId'] ?? '',
+                  );
+                },
+              ),
+            ],
+          ),
         ],
       ),
       // Полноэкранный портал «Животные»: без верхней шапки и нижней навигации.
@@ -315,6 +336,25 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
             builder: (BuildContext context, GoRouterState state) {
               return const PlanetNewsScreen(planetId: 'p_animals');
             },
+          ),
+          GoRoute(
+            path: 'discussions',
+            name: 'animals-planet-discussions',
+            builder: (BuildContext context, GoRouterState state) {
+              return const PlanetDiscussionsScreen(planetId: 'p_animals');
+            },
+            routes: <RouteBase>[
+              GoRoute(
+                path: ':discussionId',
+                name: 'animals-planet-discussion',
+                builder: (BuildContext context, GoRouterState state) {
+                  return PlanetDiscussionScreen(
+                    planetId: 'p_animals',
+                    discussionId: state.pathParameters['discussionId'] ?? '',
+                  );
+                },
+              ),
+            ],
           ),
         ],
       ),
@@ -377,6 +417,27 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
               final String id = state.pathParameters['id'] ?? '';
               return PlanetNewsScreen(planetId: id);
             },
+          ),
+          GoRoute(
+            path: 'discussions',
+            name: 'universal-planet-discussions',
+            builder: (BuildContext context, GoRouterState state) {
+              final String id = state.pathParameters['id'] ?? '';
+              return PlanetDiscussionsScreen(planetId: id);
+            },
+            routes: <RouteBase>[
+              GoRoute(
+                path: ':discussionId',
+                name: 'universal-planet-discussion',
+                builder: (BuildContext context, GoRouterState state) {
+                  final String id = state.pathParameters['id'] ?? '';
+                  return PlanetDiscussionScreen(
+                    planetId: id,
+                    discussionId: state.pathParameters['discussionId'] ?? '',
+                  );
+                },
+              ),
+            ],
           ),
         ],
       ),
@@ -453,6 +514,31 @@ final Provider<GoRouter> routerProvider = Provider<GoRouter>((Ref ref) {
                           final String id = state.pathParameters['id'] ?? '';
                           return PlanetNewsScreen(planetId: id);
                         },
+                      ),
+                      GoRoute(
+                        path: 'discussions',
+                        name: 'planet-discussions',
+                        builder: (BuildContext context, GoRouterState state) {
+                          final String id = state.pathParameters['id'] ?? '';
+                          return PlanetDiscussionsScreen(planetId: id);
+                        },
+                        routes: <RouteBase>[
+                          GoRoute(
+                            path: ':discussionId',
+                            name: 'planet-discussion',
+                            builder:
+                                (BuildContext context, GoRouterState state) {
+                                  final String id =
+                                      state.pathParameters['id'] ?? '';
+                                  return PlanetDiscussionScreen(
+                                    planetId: id,
+                                    discussionId:
+                                        state.pathParameters['discussionId'] ??
+                                        '',
+                                  );
+                                },
+                          ),
+                        ],
                       ),
                     ],
                   ),

@@ -21,6 +21,8 @@ _Message _$MessageFromJson(Map<String, dynamic> json) => _Message(
   createdAt: json['createdAt'] == null
       ? null
       : DateTime.parse(json['createdAt'] as String),
+  audioUrl: json['audioUrl'] as String?,
+  audioDurationMs: (json['audioDurationMs'] as num?)?.toInt() ?? 0,
 );
 
 Map<String, dynamic> _$MessageToJson(_Message instance) => <String, dynamic>{
@@ -34,6 +36,8 @@ Map<String, dynamic> _$MessageToJson(_Message instance) => <String, dynamic>{
   'isRead': instance.isRead,
   'status': _$MessageStatusEnumMap[instance.status]!,
   'createdAt': instance.createdAt?.toIso8601String(),
+  'audioUrl': instance.audioUrl,
+  'audioDurationMs': instance.audioDurationMs,
 };
 
 const _$MessageStatusEnumMap = {

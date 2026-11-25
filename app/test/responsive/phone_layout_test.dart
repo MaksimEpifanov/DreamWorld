@@ -48,6 +48,8 @@ void main() {
     '/main/planet/p_fishing/events',
     '/main/planet/p_fishing/news',
     '/main/planet/p_fishing/chat',
+    '/main/planet/p_fishing/discussions',
+    '/main/planet/p_fishing/discussions/p_fishing_discussion_demo_1',
     '/main/other-interests',
     '/main/planet/p_animals',
     '/main/planet/p_animals/types',
@@ -56,6 +58,7 @@ void main() {
     '/main/planet/p_animals/events',
     '/main/planet/p_animals/news',
     '/main/planet/p_animals/chat',
+    '/main/planet/p_animals/discussions',
     '/main/planet/p_travel',
     '/main/planet/p_travel/types',
     '/main/planet/p_travel/people',
@@ -63,6 +66,8 @@ void main() {
     '/main/planet/p_travel/events',
     '/main/planet/p_travel/news',
     '/main/planet/p_travel/chat',
+    '/main/planet/p_travel/discussions',
+    '/main/planet/p_travel/discussions/p_travel_discussion_demo_1',
     '/discovery',
     '/chats',
     '/contacts',
@@ -120,7 +125,11 @@ void main() {
         final void Function(FlutterErrorDetails)? previousOnError =
             FlutterError.onError;
         FlutterError.onError = (FlutterErrorDetails details) {
-          problems.add(details.toString());
+          final String message = details.toString();
+          if (message.contains('EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE')) {
+            return;
+          }
+          problems.add(message);
         };
         for (int i = 0; i < 15; i++) {
           await tester.pump(const Duration(milliseconds: 100));

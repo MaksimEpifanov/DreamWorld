@@ -47,6 +47,8 @@ class _FishingScreenState extends State<FishingScreen> {
         context.go('/main/planet/p_fishing/people');
       case 'События':
         context.go('/main/planet/p_fishing/events');
+      case 'Обсуждения':
+        context.go('/main/planet/p_fishing/discussions');
       case 'Карта':
         context.go('/main/planet/p_fishing/map');
       case 'Чат':

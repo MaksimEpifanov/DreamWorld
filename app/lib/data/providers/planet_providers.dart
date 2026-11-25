@@ -4,25 +4,33 @@ import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/app_user.dart';
+import '../models/discussion_message.dart';
 import '../models/map_spot.dart';
 import '../models/planet.dart';
 import '../models/planet_chat_message.dart';
+import '../models/planet_discussion.dart';
 import '../models/planet_event.dart';
 import '../models/planet_news.dart';
 import '../models/profile.dart';
+import '../repositories/discussion_photo_repository.dart';
+import '../repositories/firebase_discussion_photo_repository.dart';
 import '../repositories/firestore_map_repository.dart';
 import '../repositories/firestore_planet_chat_repository.dart';
+import '../repositories/firestore_planet_discussion_repository.dart';
 import '../repositories/firestore_planet_event_repository.dart';
 import '../repositories/firestore_spot_report_repository.dart';
 import '../repositories/map_repository.dart';
+import '../repositories/mock_discussion_photo_repository.dart';
 import '../repositories/mock_map_repository.dart';
 import '../repositories/mock_news_repository.dart';
 import '../repositories/mock_planet_chat_repository.dart';
+import '../repositories/mock_planet_discussion_repository.dart';
 import '../repositories/mock_planet_event_repository.dart';
 import '../repositories/mock_planet_repository.dart';
 import '../repositories/mock_spot_report_repository.dart';
 import '../repositories/news_repository.dart';
 import '../repositories/planet_chat_repository.dart';
+import '../repositories/planet_discussion_repository.dart';
 import '../repositories/planet_event_repository.dart';
 import '../repositories/planet_repository.dart';
 import '../repositories/profile_repository.dart';
@@ -119,6 +127,37 @@ final Provider<PlanetEventRepository> planetEventRepositoryProvider =
       );
       ref.onDispose(repository.dispose);
       return repository;
+    });
+
+/// Репозиторий обсуждений планеты.
+///
+/// В рабочей версии обсуждения и сообщения общие для всех (Firestore),
+/// в мок-режиме — в памяти.
+final Provider<PlanetDiscussionRepository> planetDiscussionRepositoryProvider =
+    Provider<PlanetDiscussionRepository>((Ref ref) {
+      final String currentUserId = ref.watch(currentUserIdProvider);
+      if (isFirebaseInitialized) {
+        final FirestorePlanetDiscussionRepository repository =
+            FirestorePlanetDiscussionRepository(currentUserId: currentUserId);
+        ref.onDispose(repository.dispose);
+        return repository;
+      }
+      final MockPlanetDiscussionRepository repository =
+          MockPlanetDiscussionRepository(currentUserId: currentUserId);
+      ref.onDispose(repository.dispose);
+      return repository;
+    });
+
+/// Загрузка фото сообщений обсуждений.
+///
+/// В рабочей версии фото сжимаются и сохраняются как data URI в Firestore
+/// (бесплатно, без Firebase Storage); в мок-режиме поведение то же.
+final Provider<DiscussionPhotoRepository> discussionPhotoRepositoryProvider =
+    Provider<DiscussionPhotoRepository>((Ref ref) {
+      if (isFirebaseInitialized) {
+        return const FirebaseDiscussionPhotoRepository();
+      }
+      return const MockDiscussionPhotoRepository();
     });
 
 /// Каталог планет.
@@ -326,6 +365,53 @@ final StreamProviderFamily<List<PlanetEvent>, String> planetEventsProvider =
       return ref.watch(planetEventRepositoryProvider).watchEvents(planet);
     });
 
+/// Обсуждения планеты.
+///
+/// В рабочей версии — живой поток из Firestore, в мок-режиме — память.
+final StreamProviderFamily<List<PlanetDiscussion>, String>
+planetDiscussionsProvider =
+    StreamProvider.family<List<PlanetDiscussion>, String>((Ref ref, String id) {
+      final Planet? planet = ref.watch(planetByIdProvider(id));
+      if (planet == null) {
+        return Stream<List<PlanetDiscussion>>.value(const <PlanetDiscussion>[]);
+      }
+      return ref
+          .watch(planetDiscussionRepositoryProvider)
+          .watchDiscussions(planet);
+    });
+
+/// Ключ потока сообщений одного обсуждения.
+final class DiscussionMessagesKey {
+  const DiscussionMessagesKey({
+    required this.planetId,
+    required this.discussionId,
+  });
+
+  final String planetId;
+  final String discussionId;
+
+  @override
+  bool operator ==(Object other) =>
+      other is DiscussionMessagesKey &&
+      other.planetId == planetId &&
+      other.discussionId == discussionId;
+
+  @override
+  int get hashCode => Object.hash(planetId, discussionId);
+}
+
+/// Сообщения обсуждения: живой поток, как у чата планеты.
+final StreamProviderFamily<List<DiscussionMessage>, DiscussionMessagesKey>
+discussionMessagesProvider =
+    StreamProvider.family<List<DiscussionMessage>, DiscussionMessagesKey>((
+      Ref ref,
+      DiscussionMessagesKey key,
+    ) {
+      return ref
+          .watch(planetDiscussionRepositoryProvider)
+          .watchMessages(key.planetId, key.discussionId);
+    });
+
 /// Сообщения общего чата планеты.
 ///
 /// Живой поток: написанное одним участником сразу видят остальные.
@@ -370,8 +456,7 @@ Stream<List<PlanetNewsItem>> _remoteNews(
   Timer? timer;
 
   void emitFallback() => controller?.add(
-    remote.cached(planet.id) ??
-        fallback.newsFor(planet, now: DateTime.now()),
+    remote.cached(planet.id) ?? fallback.newsFor(planet, now: DateTime.now()),
   );
 
   Future<void> load() async {

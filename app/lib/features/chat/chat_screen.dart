@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -12,6 +15,7 @@ import '../../../data/services/call_service.dart';
 import '../../../data/services/mock_ai_service.dart';
 import '../../../data/services/moderation_service.dart';
 import '../../../data/services/translation_service.dart';
+import '../../../data/services/voice_recorder.dart';
 import '../safety/age_safety.dart';
 import '../safety/widgets/report_sheet.dart';
 import 'widgets/message_bubble.dart';
@@ -32,10 +36,15 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   final ScrollController _scrollController = ScrollController();
   final MockAiService _aiService = const MockAiService();
   final ModerationService _moderation = const MockModerationService();
+  final VoiceRecorderService _voiceRecorder = createVoiceRecorderService();
   final Map<String, String> _translations = <String, String>{};
   String? _translatingMessageId;
   bool _showingTopics = false;
   List<String> _suggestedTopics = <String>[];
+  bool _isRecordingVoice = false;
+  bool _isSendingVoice = false;
+  int _recordDurationMs = 0;
+  Timer? _recordTimer;
 
   String? _otherUserId;
   String _otherName = 'Собеседник';
@@ -68,6 +77,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
 
   @override
   void dispose() {
+    _recordTimer?.cancel();
+    _voiceRecorder.dispose();
     _textController.dispose();
     _scrollController.dispose();
     super.dispose();
@@ -111,6 +122,140 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       _suggestedTopics = <String>[];
     });
     _scrollToBottom();
+  }
+
+  Future<void> _toggleVoiceRecording() async {
+    if (_isRecordingVoice) {
+      await _stopVoiceRecording();
+    } else {
+      await _startVoiceRecording();
+    }
+  }
+
+  Future<void> _startVoiceRecording() async {
+    if (_ageRestriction != null) {
+      _showRestrictionDialog();
+      return;
+    }
+    if (!_voiceRecorder.isSupported) {
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Запись голоса недоступна на этой платформе.'),
+          ),
+        );
+      return;
+    }
+    try {
+      await _voiceRecorder.start();
+    } catch (error) {
+      if (!mounted) return;
+      final String message = error is VoiceRecorderException
+          ? error.message
+          : 'Не удалось начать запись голоса.';
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(SnackBar(content: Text(message)));
+      return;
+    }
+    _recordTimer?.cancel();
+    setState(() {
+      _isRecordingVoice = true;
+      _recordDurationMs = 0;
+    });
+    _recordTimer = Timer.periodic(const Duration(milliseconds: 200), (Timer t) {
+      if (!mounted || !_isRecordingVoice) {
+        t.cancel();
+        return;
+      }
+      setState(() => _recordDurationMs += 200);
+      if (_recordDurationMs >= 30000) {
+        unawaited(_stopVoiceRecording());
+      }
+    });
+  }
+
+  Future<void> _stopVoiceRecording({bool cancel = false}) async {
+    _recordTimer?.cancel();
+    if (!_isRecordingVoice) return;
+    setState(() {
+      _isRecordingVoice = false;
+    });
+    if (cancel) {
+      await _voiceRecorder.cancel();
+      if (mounted) setState(() => _recordDurationMs = 0);
+      return;
+    }
+    setState(() => _isSendingVoice = true);
+    final VoiceRecordResult? result = await _voiceRecorder.stop();
+    if (!mounted) return;
+    if (result == null || result.bytes.isEmpty) {
+      setState(() {
+        _isSendingVoice = false;
+        _recordDurationMs = 0;
+      });
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Не удалось записать голосовое сообщение.'),
+          ),
+        );
+      return;
+    }
+    final Uint8List bytes = Uint8List.fromList(result.bytes);
+    final String dataUri =
+        'data:${result.mimeType};base64,${base64Encode(bytes)}';
+    // Firestore document limit is 1MB; keep a safe margin for other fields.
+    if (dataUri.length > 700 * 1024) {
+      setState(() {
+        _isSendingVoice = false;
+        _recordDurationMs = 0;
+      });
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Голосовое сообщение слишком длинное. Запишите короче.',
+            ),
+          ),
+        );
+      return;
+    }
+    try {
+      await ref
+          .read(chatRepositoryProvider)
+          .sendMessage(
+            widget.conversationId,
+            '',
+            audioUrl: dataUri,
+            audioDurationMs: result.durationMs,
+          );
+      if (mounted) {
+        setState(() {
+          _isSendingVoice = false;
+          _recordDurationMs = 0;
+        });
+        _scrollToBottom();
+      }
+    } catch (_) {
+      if (!mounted) return;
+      setState(() {
+        _isSendingVoice = false;
+        _recordDurationMs = 0;
+      });
+      ScaffoldMessenger.of(context)
+        ..clearSnackBars()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Голосовое сообщение не отправлено. Попробуйте ещё раз.',
+            ),
+          ),
+        );
+    }
   }
 
   void _showRestrictionDialog() {
@@ -286,6 +431,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       onStart: (bool video) => _startCall(video: video),
     );
   }
+
   @override
   Widget build(BuildContext context) {
     final AsyncValue<List<Message>> messagesAsync = ref.watch(
@@ -419,6 +565,11 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                   controller: _textController,
                   onSend: _sendMessage,
                   onSuggest: _suggestTopics,
+                  isRecording: _isRecordingVoice,
+                  isSendingVoice: _isSendingVoice,
+                  recordDurationMs: _recordDurationMs,
+                  onToggleRecord: _toggleVoiceRecording,
+                  onCancelRecord: () => _stopVoiceRecording(cancel: true),
                 ),
             ],
           ),
@@ -524,7 +675,7 @@ class _MessageRow extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         MessageBubble(message: message, isMine: isMine),
-        if (!isMine) ...<Widget>[
+        if (!isMine && message.text.trim().isNotEmpty) ...<Widget>[
           const SizedBox(height: 2),
           Align(
             alignment: Alignment.centerLeft,
@@ -659,11 +810,21 @@ class _InputBar extends StatefulWidget {
     required this.controller,
     required this.onSend,
     required this.onSuggest,
+    required this.isRecording,
+    required this.isSendingVoice,
+    required this.recordDurationMs,
+    required this.onToggleRecord,
+    required this.onCancelRecord,
   });
 
   final TextEditingController controller;
   final VoidCallback onSend;
   final VoidCallback onSuggest;
+  final bool isRecording;
+  final bool isSendingVoice;
+  final int recordDurationMs;
+  final VoidCallback onToggleRecord;
+  final VoidCallback onCancelRecord;
 
   @override
   State<_InputBar> createState() => _InputBarState();
@@ -679,6 +840,15 @@ class _InputBarState extends State<_InputBar> {
   void _handleSend() {
     setState(() => _showEmoji = false);
     widget.onSend();
+  }
+
+  String _formatDuration(int ms) {
+    final int totalSeconds = (ms / 1000).floor();
+    final int minutes = totalSeconds ~/ 60;
+    final int seconds = totalSeconds % 60;
+    final String mm = minutes.toString().padLeft(2, '0');
+    final String ss = seconds.toString().padLeft(2, '0');
+    return '$mm:$ss';
   }
 
   @override
@@ -700,7 +870,8 @@ class _InputBarState extends State<_InputBar> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          if (_showEmoji) EmojiPicker(onSelected: _insertEmoji),
+          if (_showEmoji && !widget.isRecording)
+            EmojiPicker(onSelected: _insertEmoji),
           Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
@@ -709,52 +880,92 @@ class _InputBarState extends State<_InputBar> {
                   decoration: BoxDecoration(
                     color: AppColors.surfaceElevated,
                     borderRadius: AppRadius.pillAll,
-                    border: Border.all(
-                      color: primary.withValues(alpha: 0.35),
-                    ),
+                    border: Border.all(color: primary.withValues(alpha: 0.35)),
                   ),
                   padding: const EdgeInsets.symmetric(
                     horizontal: AppSpacing.md,
                     vertical: AppSpacing.xs,
                   ),
-                  child: TextField(
-                    controller: widget.controller,
-                    style: AppTextStyles.body(),
-                    cursorColor: primary,
-                    decoration: InputDecoration(
-                      hintText: 'Введите сообщение...',
-                      border: InputBorder.none,
-                      isDense: true,
-                      filled: false,
-                      contentPadding: const EdgeInsets.symmetric(
-                        vertical: AppSpacing.sm,
-                      ),
-                      hintStyle: AppTextStyles.body(
-                        color: AppColors.textMuted,
-                      ),
-                    ),
-                    minLines: 1,
-                    maxLines: 4,
-                    textInputAction: kIsWeb ? TextInputAction.send : null,
-                    onEditingComplete: () {},
-                    onSubmitted: (_) => _handleSend(),
-                  ),
+                  child: widget.isRecording
+                      ? Padding(
+                          padding: const EdgeInsets.symmetric(
+                            vertical: AppSpacing.sm,
+                          ),
+                          child: Row(
+                            children: <Widget>[
+                              Icon(
+                                Icons.mic_rounded,
+                                color: scheme.error,
+                                size: 20,
+                              ),
+                              const SizedBox(width: AppSpacing.xs),
+                              Expanded(
+                                child: Text(
+                                  'Запись... ${_formatDuration(widget.recordDurationMs)}',
+                                  style: AppTextStyles.body(
+                                    color: scheme.error,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        )
+                      : TextField(
+                          controller: widget.controller,
+                          style: AppTextStyles.body(),
+                          cursorColor: primary,
+                          decoration: InputDecoration(
+                            hintText: 'Введите сообщение...',
+                            border: InputBorder.none,
+                            isDense: true,
+                            filled: false,
+                            contentPadding: const EdgeInsets.symmetric(
+                              vertical: AppSpacing.sm,
+                            ),
+                            hintStyle: AppTextStyles.body(
+                              color: AppColors.textMuted,
+                            ),
+                          ),
+                          minLines: 1,
+                          maxLines: 4,
+                          textInputAction: kIsWeb ? TextInputAction.send : null,
+                          onEditingComplete: () {},
+                          onSubmitted: (_) => _handleSend(),
+                        ),
                 ),
               ),
               const SizedBox(width: AppSpacing.sm),
-              _NeonIconButton(
-                icon: Icons.emoji_emotions_outlined,
-                tooltip: 'Смайлики',
-                onTap: _toggleEmoji,
-              ),
-              const SizedBox(width: AppSpacing.sm),
-              _NeonIconButton(
-                icon: Icons.lightbulb_outline_rounded,
-                tooltip: 'Подсказки тем',
-                onTap: widget.onSuggest,
-              ),
-              const SizedBox(width: AppSpacing.sm),
-              _NeonSendButton(onTap: _handleSend),
+              if (widget.isRecording) ...<Widget>[
+                _NeonIconButton(
+                  icon: Icons.close_rounded,
+                  tooltip: 'Отменить запись',
+                  onTap: widget.onCancelRecord,
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                _NeonSendButton(onTap: widget.onToggleRecord),
+              ] else ...<Widget>[
+                _NeonIconButton(
+                  icon: Icons.emoji_emotions_outlined,
+                  tooltip: 'Смайлики',
+                  onTap: _toggleEmoji,
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                _NeonIconButton(
+                  icon: Icons.lightbulb_outline_rounded,
+                  tooltip: 'Подсказки тем',
+                  onTap: widget.onSuggest,
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                _NeonIconButton(
+                  icon: widget.isSendingVoice
+                      ? Icons.hourglass_top_rounded
+                      : Icons.mic_rounded,
+                  tooltip: 'Голосовое сообщение',
+                  onTap: widget.isSendingVoice ? () {} : widget.onToggleRecord,
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                _NeonSendButton(onTap: _handleSend),
+              ],
             ],
           ),
         ],

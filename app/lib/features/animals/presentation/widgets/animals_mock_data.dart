@@ -89,6 +89,7 @@ class AnimalsMockData {
     'Новости',
     'Люди',
     'События',
+    'Обсуждения',
     'Карта',
     'Чат',
   ];
@@ -224,18 +225,12 @@ class AnimalsMockData {
       name: 'Зоолог_Аня',
       image: 'photo-1534528741775-53994a69daeb',
     ),
-    AnimalsPerson(
-      name: 'Котомания',
-      image: 'photo-1517841905240-472988babdf9',
-    ),
+    AnimalsPerson(name: 'Котомания', image: 'photo-1517841905240-472988babdf9'),
     AnimalsPerson(
       name: 'Пёс_Дружок',
       image: 'photo-1500648767791-00dcc994a43e',
     ),
-    AnimalsPerson(
-      name: 'Птицелов',
-      image: 'photo-1506794778202-cad84cf45f1d',
-    ),
+    AnimalsPerson(name: 'Птицелов', image: 'photo-1506794778202-cad84cf45f1d'),
   ];
 
   static const String heroImage = 'photo-1450778869180-41d0601e046e';

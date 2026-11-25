@@ -163,7 +163,12 @@ class MockChatRepository implements ChatRepository {
   }
 
   @override
-  Future<Message> sendMessage(String conversationId, String text) async {
+  Future<Message> sendMessage(
+    String conversationId,
+    String text, {
+    String? audioUrl,
+    int audioDurationMs = 0,
+  }) async {
     final Message message = Message(
       id: _uuid.v4(),
       conversationId: conversationId,
@@ -171,6 +176,8 @@ class MockChatRepository implements ChatRepository {
       text: text,
       status: MessageStatus.sent,
       createdAt: DateTime.now(),
+      audioUrl: audioUrl,
+      audioDurationMs: audioDurationMs,
     );
     final List<Message> messages = _messages.putIfAbsent(
       conversationId,

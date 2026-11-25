@@ -22,7 +22,12 @@ abstract interface class ChatRepository {
   Stream<List<Message>> watchMessages(String conversationId);
 
   /// Отправка сообщения от текущего пользователя.
-  Future<Message> sendMessage(String conversationId, String text);
+  Future<Message> sendMessage(
+    String conversationId,
+    String text, {
+    String? audioUrl,
+    int audioDurationMs = 0,
+  });
 
   /// Пометить диалог прочитанным.
   Future<void> markAsRead(String conversationId);

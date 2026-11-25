@@ -30,11 +30,13 @@ class _CinemaAnchorTabsState extends State<CinemaAnchorTabs> {
     'Новости',
     'Люди',
     'События',
+    'Обсуждения',
   ];
 
   void _onTap(String label) {
     setState(() => _active = label);
-    final BuildContext? anchorContext = widget.sectionKeys[label]?.currentContext;
+    final BuildContext? anchorContext =
+        widget.sectionKeys[label]?.currentContext;
     if (anchorContext != null) {
       Scrollable.ensureVisible(
         anchorContext,

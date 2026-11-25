@@ -47,6 +47,8 @@ class _AnimalsScreenState extends State<AnimalsScreen> {
         context.go('/main/planet/p_animals/people');
       case 'События':
         context.go('/main/planet/p_animals/events');
+      case 'Обсуждения':
+        context.go('/main/planet/p_animals/discussions');
       case 'Карта':
         context.go('/main/planet/p_animals/map');
       case 'Чат':

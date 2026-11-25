@@ -85,94 +85,92 @@ final StreamProvider<List<PlanetEvent>> recentEventsProvider =
 /// В рабочей версии собирается из реальных данных: заявки в контакты
 /// показываются отдельно на экране, а здесь — новые сообщения и события
 /// планет (кто-то предлагает поехать или пойти). В мок-режиме — демо-лента.
-final Provider<List<AppNotification>> notificationsProvider =
-    Provider<List<AppNotification>>((Ref ref) {
-      final Set<String> seen = ref.watch(seenNotificationsProvider);
-      final List<AppNotification> demo = ref
-          .watch(notificationRepositoryProvider)
-          .getNotifications()
-          .map(
-            (AppNotification item) => item.isRead || seen.contains(item.id)
-                ? item.copyWith(isRead: true)
-                : item,
-          )
-          .toList(growable: false);
+final Provider<List<AppNotification>>
+notificationsProvider = Provider<List<AppNotification>>((Ref ref) {
+  final Set<String> seen = ref.watch(seenNotificationsProvider);
+  final List<AppNotification> demo = ref
+      .watch(notificationRepositoryProvider)
+      .getNotifications()
+      .map(
+        (AppNotification item) => item.isRead || seen.contains(item.id)
+            ? item.copyWith(isRead: true)
+            : item,
+      )
+      .toList(growable: false);
 
-      if (!isFirebaseInitialized) {
-        return demo;
-      }
+  if (!isFirebaseInitialized) {
+    return demo;
+  }
 
-      final String me = ref.watch(currentUserIdProvider);
-      final List<Profile> profiles =
-          ref.watch(communityProfilesProvider).valueOrNull ??
-          const <Profile>[];
-      final Map<String, String> names = <String, String>{
-        for (final Profile profile in profiles)
-          if (profile.name.trim().isNotEmpty) profile.id: profile.name.trim(),
-      };
+  final String me = ref.watch(currentUserIdProvider);
+  final List<Profile> profiles =
+      ref.watch(communityProfilesProvider).valueOrNull ?? const <Profile>[];
+  final Map<String, String> names = <String, String>{
+    for (final Profile profile in profiles)
+      if (profile.name.trim().isNotEmpty) profile.id: profile.name.trim(),
+  };
 
-      final List<(DateTime, AppNotification)> entries =
-          <(DateTime, AppNotification)>[
+  final List<(DateTime, AppNotification)> entries =
+      <(DateTime, AppNotification)>[
         for (final AppNotification item in demo)
           (DateTime.fromMillisecondsSinceEpoch(0), item),
       ];
 
-      // События планет: не свои и не прошедшие.
-      final DateTime now = DateTime.now();
-      final List<PlanetEvent> events =
-          ref.watch(recentEventsProvider).valueOrNull ?? const <PlanetEvent>[];
-      for (final PlanetEvent event in events) {
-        if (event.authorId == me) continue;
-        final DateTime? date = event.dateValue;
-        if (date != null && date.isBefore(DateTime(now.year, now.month, now.day))) {
-          continue;
-        }
-        final String id = 'event:${event.id}';
-        entries.add((
-          event.createdAtValue ?? DateTime.fromMillisecondsSinceEpoch(0),
-          AppNotification(
-            id: id,
-            kind: AppNotificationKind.event,
-            title: event.title.isEmpty ? 'Новое событие' : event.title,
-            description: _eventDescription(event, names[event.authorId]),
-            timeLabel: relativeTimeLabel(event.createdAtValue),
-            isRead: seen.contains(id),
-            route: '/main/planet/${event.planetId}/events',
-          ),
-        ));
-      }
+  // События планет: не свои и не прошедшие.
+  final DateTime now = DateTime.now();
+  final List<PlanetEvent> events =
+      ref.watch(recentEventsProvider).valueOrNull ?? const <PlanetEvent>[];
+  for (final PlanetEvent event in events) {
+    if (event.authorId == me) continue;
+    final DateTime? date = event.dateValue;
+    if (date != null && date.isBefore(DateTime(now.year, now.month, now.day))) {
+      continue;
+    }
+    final String id = 'event:${event.id}';
+    entries.add((
+      event.createdAtValue ?? DateTime.fromMillisecondsSinceEpoch(0),
+      AppNotification(
+        id: id,
+        kind: AppNotificationKind.event,
+        title: event.title.isEmpty ? 'Новое событие' : event.title,
+        description: _eventDescription(event, names[event.authorId]),
+        timeLabel: relativeTimeLabel(event.createdAtValue),
+        isRead: seen.contains(id),
+        route: '/main/planet/${event.planetId}/events',
+      ),
+    ));
+  }
 
-      // Новые сообщения: одно уведомление на диалог с непрочитанными.
-      final List<Conversation> conversations =
-          ref.watch(conversationsProvider).valueOrNull ??
-          const <Conversation>[];
-      for (final Conversation conversation in conversations) {
-        if (!conversation.hasUnread) continue;
-        final String other = conversation.otherParticipantId(me);
-        final String name = names[other] ?? 'Пользователь';
-        final String text = conversation.lastMessage?.text ?? '';
-        entries.add((
-          conversation.updatedAt ?? DateTime.fromMillisecondsSinceEpoch(0),
-          AppNotification(
-            id: 'chat:${conversation.id}',
-            kind: AppNotificationKind.social,
-            title: 'Новое сообщение',
-            description: text.isEmpty ? 'От $name' : '$name: $text',
-            timeLabel: relativeTimeLabel(conversation.updatedAt),
-            isRead: false,
-            route: '/chat/${conversation.id}',
-          ),
-        ));
-      }
+  // Новые сообщения: одно уведомление на диалог с непрочитанными.
+  final List<Conversation> conversations =
+      ref.watch(conversationsProvider).valueOrNull ?? const <Conversation>[];
+  for (final Conversation conversation in conversations) {
+    if (!conversation.hasUnread) continue;
+    final String other = conversation.otherParticipantId(me);
+    final String name = names[other] ?? 'Пользователь';
+    final String text = conversation.lastMessage?.displayText ?? '';
+    entries.add((
+      conversation.updatedAt ?? DateTime.fromMillisecondsSinceEpoch(0),
+      AppNotification(
+        id: 'chat:${conversation.id}',
+        kind: AppNotificationKind.social,
+        title: 'Новое сообщение',
+        description: text.isEmpty ? 'От $name' : '$name: $text',
+        timeLabel: relativeTimeLabel(conversation.updatedAt),
+        isRead: false,
+        route: '/chat/${conversation.id}',
+      ),
+    ));
+  }
 
-      entries.sort(
-        ((DateTime, AppNotification) a, (DateTime, AppNotification) b) =>
-            b.$1.compareTo(a.$1),
-      );
-      return List<AppNotification>.unmodifiable(
-        entries.map(((DateTime, AppNotification) entry) => entry.$2),
-      );
-    });
+  entries.sort(
+    ((DateTime, AppNotification) a, (DateTime, AppNotification) b) =>
+        b.$1.compareTo(a.$1),
+  );
+  return List<AppNotification>.unmodifiable(
+    entries.map(((DateTime, AppNotification) entry) => entry.$2),
+  );
+});
 
 /// Сколько уведомлений ждёт внимания: заявки в контакты, новые сообщения и
 /// события. Используется для счётчика на иконке в шапке.
@@ -193,7 +191,9 @@ final Provider<int> notificationsUnreadCountProvider = Provider<int>((Ref ref) {
 
 /// Действия над уведомлениями.
 final Provider<NotificationsController> notificationsControllerProvider =
-    Provider<NotificationsController>((Ref ref) => NotificationsController(ref));
+    Provider<NotificationsController>(
+      (Ref ref) => NotificationsController(ref),
+    );
 
 class NotificationsController {
   NotificationsController(this._ref);

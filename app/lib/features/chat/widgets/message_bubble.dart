@@ -1,18 +1,15 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 import '../../../core/theme/index.dart';
 import '../../../data/models/message.dart';
+import 'voice_message_player.dart';
 
 /// Пузырь сообщения.
 ///
 /// Свои сообщения — неоновый градиент, чужие — полупрозрачная подложка.
 /// Внутри пузыря отображаются текст и время (а для своих — статус доставки).
 class MessageBubble extends StatelessWidget {
-  const MessageBubble({
-    super.key,
-    required this.message,
-    required this.isMine,
-  });
+  const MessageBubble({super.key, required this.message, required this.isMine});
 
   final Message message;
   final bool isMine;
@@ -60,26 +57,37 @@ class MessageBubble extends StatelessWidget {
         ),
         decoration: decoration,
         child: Column(
-          crossAxisAlignment:
-              isMine ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+          crossAxisAlignment: isMine
+              ? CrossAxisAlignment.end
+              : CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Text(
-              message.displayText,
-              style: AppTextStyles.body(color: textColor).copyWith(
-                fontWeight: FontWeight.w600,
-                letterSpacing: 0.1,
-                shadows: isMine
-                    ? null
-                    : <Shadow>[
-                        Shadow(
-                          color: AppColors.black.withValues(alpha: 0.55),
-                          blurRadius: 4,
-                          offset: const Offset(0, 1),
-                        ),
-                      ],
+            if (message.hasAudio) ...<Widget>[
+              VoiceMessagePlayer(
+                audioUrl: message.audioUrl!,
+                durationMs: message.audioDurationMs,
+                isMine: isMine,
               ),
-            ),
+              if (message.text.trim().isNotEmpty)
+                const SizedBox(height: AppSpacing.xs),
+            ],
+            if (message.text.trim().isNotEmpty)
+              Text(
+                message.displayText,
+                style: AppTextStyles.body(color: textColor).copyWith(
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.1,
+                  shadows: isMine
+                      ? null
+                      : <Shadow>[
+                          Shadow(
+                            color: AppColors.black.withValues(alpha: 0.55),
+                            blurRadius: 4,
+                            offset: const Offset(0, 1),
+                          ),
+                        ],
+                ),
+              ),
             const SizedBox(height: AppSpacing.xs),
             Row(
               mainAxisSize: MainAxisSize.min,

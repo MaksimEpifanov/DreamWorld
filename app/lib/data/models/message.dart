@@ -32,6 +32,8 @@ abstract class Message with _$Message {
     @Default(false) bool isRead,
     @Default(MessageStatus.sent) MessageStatus status,
     DateTime? createdAt,
+    String? audioUrl,
+    @Default(0) int audioDurationMs,
   }) = _Message;
 
   factory Message.fromJson(Map<String, dynamic> json) =>
@@ -42,6 +44,12 @@ abstract class Message with _$Message {
   /// Есть ли готовый автоперевод.
   bool get isTranslated => translatedText != null && translatedText!.isNotEmpty;
 
+  /// Есть ли голосовое сообщение.
+  bool get hasAudio => audioUrl != null && audioUrl!.isNotEmpty;
+
   /// Текст для отображения: перевод, если есть, иначе оригинал.
-  String get displayText => isTranslated ? translatedText! : text;
+  String get displayText {
+    if (hasAudio && text.trim().isEmpty) return 'Голосовое сообщение';
+    return isTranslated ? translatedText! : text;
+  }
 }

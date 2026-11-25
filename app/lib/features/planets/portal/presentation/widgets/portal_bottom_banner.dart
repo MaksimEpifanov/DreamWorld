@@ -13,11 +13,13 @@ class PortalBottomBanner extends StatelessWidget {
     required this.planetId,
     this.onCreateEvent,
     this.onOpenChat,
+    this.onOpenDiscussions,
   });
 
   final String planetId;
   final VoidCallback? onCreateEvent;
   final VoidCallback? onOpenChat;
+  final VoidCallback? onOpenDiscussions;
 
   @override
   Widget build(BuildContext context) {
@@ -112,9 +114,16 @@ class PortalBottomBanner extends StatelessWidget {
         onPressed: onCreateEvent,
       ),
       NeonButton(
+        label: 'Обсуждения',
+        icon: Icons.add_comment_outlined,
+        variant: NeonButtonVariant.outlined,
+        color: PortalCatalog.cyan,
+        onPressed: onOpenDiscussions,
+      ),
+      NeonButton(
         label: 'Чат сообщества',
         icon: Icons.forum_outlined,
-        variant: NeonButtonVariant.outlined,
+        variant: NeonButtonVariant.ghost,
         color: PortalCatalog.cyan,
         onPressed: onOpenChat,
       ),

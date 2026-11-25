@@ -26,7 +26,9 @@ class CinemaBottomBanner extends StatelessWidget {
         children: <Widget>[
           Text(
             theme.bannerHeadline,
-            style: isFishing ? AppTextStyles.headline() : CompactText.headline(),
+            style: isFishing
+                ? AppTextStyles.headline()
+                : CompactText.headline(),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: CompactSpace.xs),
@@ -50,13 +52,20 @@ class CinemaBottomBanner extends StatelessWidget {
                       context.go('/main/planet/${planet.id}/events'),
                 ),
                 NeonButton(
-                  label: 'Чат сообщества',
-                  icon: Icons.forum_outlined,
-                  variant: NeonButtonVariant.outlined,
+                  label: 'Обсуждения',
+                  icon: Icons.add_comment_outlined,
                   color: planet.secondary,
                   compact: !isFishing,
                   onPressed: () =>
-                      context.go('/main/planet/${planet.id}/chat'),
+                      context.go('/main/planet/${planet.id}/discussions'),
+                ),
+                NeonButton(
+                  label: 'Чат сообщества',
+                  icon: Icons.forum_outlined,
+                  variant: NeonButtonVariant.ghost,
+                  color: planet.secondary,
+                  compact: !isFishing,
+                  onPressed: () => context.go('/main/planet/${planet.id}/chat'),
                 ),
                 NeonButton(
                   label: 'Карта планеты',
@@ -64,8 +73,7 @@ class CinemaBottomBanner extends StatelessWidget {
                   variant: NeonButtonVariant.outlined,
                   color: planet.primary,
                   compact: !isFishing,
-                  onPressed: () =>
-                      context.go('/main/planet/${planet.id}/map'),
+                  onPressed: () => context.go('/main/planet/${planet.id}/map'),
                 ),
               ];
               if (constraints.maxWidth >= 700) {

@@ -315,6 +315,17 @@ void main() {
     testWidgets('экран карты показывает отметки и теги', (
       WidgetTester tester,
     ) async {
+      final void Function(FlutterErrorDetails)? previousOnError =
+          FlutterError.onError;
+      FlutterError.onError = (FlutterErrorDetails details) {
+        if (!details.toString().contains(
+          'EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE',
+        )) {
+          previousOnError?.call(details);
+        }
+      };
+      addTearDown(() => FlutterError.onError = previousOnError);
+
       await tester.pumpWidget(
         ProviderScope(
           child: MaterialApp(

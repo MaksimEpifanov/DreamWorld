@@ -53,6 +53,8 @@ class _UniversalPlanetPortalScreenState
       context.go('$base/people');
     } else if (label == 'События') {
       context.go('$base/events');
+    } else if (label == 'Обсуждения') {
+      context.go('$base/discussions');
     } else if (label == 'Карта') {
       context.go('$base/map');
     } else if (label == 'Чат') {
@@ -151,10 +153,7 @@ class _UniversalPlanetPortalScreenState
           onProfile: () => context.go('/profile'),
         ),
         const SizedBox(height: 12),
-        PortalTabs(
-          planetId: widget.planetId,
-          onTabSelected: _onTabSelected,
-        ),
+        PortalTabs(planetId: widget.planetId, onTabSelected: _onTabSelected),
         const SizedBox(height: 16),
         Container(
           key: _homeKey,
@@ -176,6 +175,7 @@ class _UniversalPlanetPortalScreenState
           planetId: widget.planetId,
           onCreateEvent: () => context.go('$base/events'),
           onOpenChat: () => context.go('$base/chat'),
+          onOpenDiscussions: () => context.go('$base/discussions'),
         ),
       ],
     );

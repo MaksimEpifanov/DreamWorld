@@ -1,0 +1,24 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Фото сообщений обсуждений. Папка с UID в пути закрепляет фото за автором:
+    // загружать и удалять файлы может только его владелец, читают все вошедшие.
+    // Сжатие до 640 px и JPEG 70 выполняет клиент, поэтому лимит 5 МБ.
+    match /discussions/{planetId}/{discussionId}/{messageId}/{uid}/{photoId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType == 'image/jpeg';
+
+      allow update, delete: if request.auth != null
+        && request.auth.uid == uid;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

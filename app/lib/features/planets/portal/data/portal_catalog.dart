@@ -34,55 +34,54 @@ class PortalCatalog {
   static const Color panel = Color(0xA6111A33);
   static const Color border = Color(0x3D9BE15D);
 
-  static final Map<String, PortalDataset> _datasets =
-      <String, PortalDataset>{
-        'p_travel': travelDataset,
-        'p_cinema': cinemaDataset,
-        'p_music': musicDataset,
-        'p_sports': sportsDataset,
-        'p_reading': readingDataset,
-        'p_art': artDataset,
-        'p_tech': techDataset,
-        'p_food': foodDataset,
-        'p_nature': natureDataset,
-        'p_gaming': gamingDataset,
-        'p_cars': carsDataset,
-        'p_gardening': gardeningDataset,
-        'p_esoteric': esotericDataset,
-        'p_finance': financeDataset,
-        'p_volunteering': volunteeringDataset,
-        'p_psychology': psychologyDataset,
-        'p_other': otherDataset,
-        'p_selfdev': selfdevDataset,
-        'p_collecting': collectingDataset,
-      };
+  static final Map<String, PortalDataset> _datasets = <String, PortalDataset>{
+    'p_travel': travelDataset,
+    'p_cinema': cinemaDataset,
+    'p_music': musicDataset,
+    'p_sports': sportsDataset,
+    'p_reading': readingDataset,
+    'p_art': artDataset,
+    'p_tech': techDataset,
+    'p_food': foodDataset,
+    'p_nature': natureDataset,
+    'p_gaming': gamingDataset,
+    'p_cars': carsDataset,
+    'p_gardening': gardeningDataset,
+    'p_esoteric': esotericDataset,
+    'p_finance': financeDataset,
+    'p_volunteering': volunteeringDataset,
+    'p_psychology': psychologyDataset,
+    'p_other': otherDataset,
+    'p_selfdev': selfdevDataset,
+    'p_collecting': collectingDataset,
+  };
 
   static const Set<String> dedicatedPortals = <String>{
-        'p_fishing',
-        'p_animals',
-      };
+    'p_fishing',
+    'p_animals',
+  };
 
   static const List<String> universalPlanetIds = <String>[
-        'p_travel',
-        'p_cinema',
-        'p_music',
-        'p_sports',
-        'p_reading',
-        'p_art',
-        'p_tech',
-        'p_food',
-        'p_nature',
-        'p_gaming',
-        'p_cars',
-        'p_gardening',
-        'p_esoteric',
-        'p_finance',
-        'p_volunteering',
-        'p_psychology',
-        'p_other',
-        'p_selfdev',
-        'p_collecting',
-      ];
+    'p_travel',
+    'p_cinema',
+    'p_music',
+    'p_sports',
+    'p_reading',
+    'p_art',
+    'p_tech',
+    'p_food',
+    'p_nature',
+    'p_gaming',
+    'p_cars',
+    'p_gardening',
+    'p_esoteric',
+    'p_finance',
+    'p_volunteering',
+    'p_psychology',
+    'p_other',
+    'p_selfdev',
+    'p_collecting',
+  ];
 
   static Planet planet(String id) {
     for (final Planet item in MockPlanetRepository.planets) {
@@ -146,19 +145,23 @@ class PortalCatalog {
       dataset(id)?.kindsLabel ?? themeForScene(planet(id).scene).checklistTitle;
 
   static List<String> tabs(String id) => <String>[
-        'Главная',
-        kindsLabel(id),
-        'Новости',
-        'Люди',
-        'События',
-        'Карта',
-        'Чат',
-      ];
+    'Главная',
+    kindsLabel(id),
+    'Новости',
+    'Люди',
+    'События',
+    'Обсуждения',
+    'Карта',
+    'Чат',
+  ];
 
   static List<String> directions(String id) {
     final List<PlanetGenreVisual>? genres =
         planetGenreVisualsByScene[planet(id).scene];
     if (genres == null) return <String>[];
-    return genres.take(6).map((PlanetGenreVisual item) => item.shortLabel).toList();
+    return genres
+        .take(6)
+        .map((PlanetGenreVisual item) => item.shortLabel)
+        .toList();
   }
 }

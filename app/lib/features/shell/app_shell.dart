@@ -42,7 +42,7 @@ class AppShell extends ConsumerWidget {
             .map((Conversation item) => item.unreadCount)
             .fold<int>(0, (int max, int value) => value > max ? value : max);
         if (conversation.unreadCount <= oldUnread) continue;
-        final String text = conversation.lastMessage?.text ?? '';
+        final String text = conversation.lastMessage?.displayText ?? '';
         final ScaffoldMessengerState? messenger = ScaffoldMessenger.maybeOf(
           context,
         );
@@ -70,8 +70,7 @@ class AppShell extends ConsumerWidget {
           .toList(growable: false);
       if (added.isEmpty) return;
       final List<Profile> live =
-          ref.read(discoveryProfilesProvider).valueOrNull ??
-          const <Profile>[];
+          ref.read(discoveryProfilesProvider).valueOrNull ?? const <Profile>[];
       String name = 'Пользователь';
       for (final Profile profile in live) {
         if (profile.id == added.first) {

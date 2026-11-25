@@ -11,11 +11,23 @@ String encodeImageToDataUri(Uint8List bytes, {String mime = 'image/jpeg'}) {
   return 'data:$mime;base64,${base64Encode(bytes)}';
 }
 
+/// Возвращает байты локального data URI или `null` для сетевой ссылки.
+Uint8List? dataUriBytes(String? url) {
+  if (url == null || !url.startsWith('data:')) return null;
+  final int comma = url.indexOf(',');
+  if (comma < 0) return null;
+  try {
+    return base64Decode(url.substring(comma + 1));
+  } catch (_) {
+    return null;
+  }
+}
+
 /// Возвращает только сетевой URL; локальные data URI не сохраняются в облако.
 String? remoteImageUrlOrNull(String? url) =>
     url != null && (url.startsWith('http://') || url.startsWith('https://'))
-        ? url
-        : null;
+    ? url
+    : null;
 
 /// Сжимает изображение до [maxSize] по большей стороне и качества [quality].
 ///
