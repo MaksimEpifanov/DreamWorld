@@ -1,25 +1,25 @@
-name: Flutter Web CI and GitHub Pages
+name: Flutter Web CI
 
 on:
   pull_request:
     branches: [main]
     paths:
       - "app/**"
+      - "news_data/**"
       - ".github/workflows/flutter-web.yml"
   push:
     branches: [main]
     paths:
       - "app/**"
+      - "news_data/**"
       - ".github/workflows/flutter-web.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: dreamworld-pages
+  group: flutter-web-ci-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -52,6 +52,11 @@ jobs:
         working-directory: app
         run: flutter build web --release --base-href /DreamWorld/ --pwa-strategy=none
 
+      - name: Новости планет
+        run: |
+          mkdir -p app/build/web/news news_data
+          cp news_data/*.json app/build/web/news/ 2>/dev/null || true
+
       - name: SPA fallback
         run: cp app/build/web/index.html app/build/web/404.html
 
@@ -69,22 +74,4 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-      - name: Upload Pages artifact
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: app/build/web
-
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: verify
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-# Feature-branch manual runs upload a downloadable Web preview without changing GitHub Pages.
+# GitHub Pages деплоится только через web-deploy.yml, чтобы не было гонки двух workflow.
