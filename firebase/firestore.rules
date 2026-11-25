@@ -2,24 +2,77 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+
+    function isString(value, max) {
+      return value is string && value.size() <= max;
+    }
+
+    function isOptionalString(data, key, max) {
+      return !data.keys().hasAny([key]) || data[key] == null || isString(data[key], max);
+    }
+
+    function isStringList(value, maxItems, maxItemSize) {
+      return value is list
+        && value.size() <= maxItems
+        && value.hasOnly(value); // no-op type guard placeholder avoided below
+    }
+
+    function validStringList(data, key, maxItems, maxItemSize) {
+      return !data.keys().hasAny([key])
+        || (
+          data[key] is list
+          && data[key].size() <= maxItems
+        );
+    }
+
+    function validProfileContactUpdate() {
+      let changed = request.resource.data.diff(resource.data).affectedKeys();
+      let data = request.resource.data;
+      return changed.hasOnly(['contactIds', 'incomingContactRequestIds', 'outgoingContactRequestIds'])
+        && (!changed.hasAny(['contactIds']) || (data.contactIds is list && data.contactIds.size() <= 2000))
+        && (!changed.hasAny(['incomingContactRequestIds']) || (data.incomingContactRequestIds is list && data.incomingContactRequestIds.size() <= 2000))
+        && (!changed.hasAny(['outgoingContactRequestIds']) || (data.outgoingContactRequestIds is list && data.outgoingContactRequestIds.size() <= 2000));
+    }
+
+    function validProfileShape(data) {
+      return data.keys().hasAll(['id', 'name'])
+        && isString(data.id, 128)
+        && isString(data.name, 120)
+        && (!data.keys().hasAny(['bio']) || data.bio == null || isString(data.bio, 2000))
+        && (!data.keys().hasAny(['photoUrl']) || data.photoUrl == null || isString(data.photoUrl, 2048))
+        && (!data.keys().hasAny(['city']) || data.city == null || isString(data.city, 120))
+        && (!data.keys().hasAny(['country']) || data.country == null || isString(data.country, 120))
+        && (!data.keys().hasAny(['photoUrls']) || (data.photoUrls is list && data.photoUrls.size() <= 30))
+        && (!data.keys().hasAny(['interests']) || (data.interests is list && data.interests.size() <= 100))
+        && (!data.keys().hasAny(['goals']) || (data.goals is list && data.goals.size() <= 50))
+        && (!data.keys().hasAny(['values']) || (data.values is list && data.values.size() <= 50))
+        && (!data.keys().hasAny(['languages']) || (data.languages is list && data.languages.size() <= 30))
+        && (!data.keys().hasAny(['detailedInterests']) || (data.detailedInterests is list && data.detailedInterests.size() <= 200))
+        && (!data.keys().hasAny(['joinedPlanetIds']) || (data.joinedPlanetIds is list && data.joinedPlanetIds.size() <= 200))
+        && (!data.keys().hasAny(['contactIds']) || (data.contactIds is list && data.contactIds.size() <= 2000))
+        && (!data.keys().hasAny(['incomingContactRequestIds']) || (data.incomingContactRequestIds is list && data.incomingContactRequestIds.size() <= 2000))
+        && (!data.keys().hasAny(['outgoingContactRequestIds']) || (data.outgoingContactRequestIds is list && data.outgoingContactRequestIds.size() <= 2000));
+    }
+
     // Анкеты пользователей. Читать может любой вошедший пользователь (нужно
     // для поиска по ID, участников планет и подбора), писать — только свою.
     // Исключение: в чужой анкете разрешено менять только поля-списки контактов
     // и запросов в контакты, чтобы запросы и взаимные контакты работали без
     // серверных функций.
     match /profiles/{userId} {
-      allow read: if request.auth != null;
-      allow create, delete: if request.auth != null
-        && request.auth.uid == userId;
-      allow update: if request.auth != null && (
-        request.auth.uid == userId
-        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
-          [
-            'contactIds',
-            'incomingContactRequestIds',
-            'outgoingContactRequestIds'
-          ]
-        )
+      allow read: if signedIn();
+      allow create: if isOwner(userId) && validProfileShape(request.resource.data);
+      allow delete: if isOwner(userId);
+      allow update: if signedIn() && (
+        (isOwner(userId) && validProfileShape(request.resource.data))
+        || validProfileContactUpdate()
       );
     }
 
@@ -30,19 +83,28 @@ service cloud.firestore {
     // (`spotReportCounters`), его отметки может убрать любой вошедший — так
     // ложные заметки удаляются у всех.
     match /planets/{planetId}/spots/{spotId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
-        && request.resource.data.authorId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.authorId == request.auth.uid
+        && isString(request.resource.data.authorId, 128)
+        && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+        && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000))
+        && (!request.resource.data.keys().hasAny(['comments']) || (request.resource.data.comments is list && request.resource.data.comments.size() <= 500))
+        && (!request.resource.data.keys().hasAny(['likedBy']) || (request.resource.data.likedBy is list && request.resource.data.likedBy.size() <= 5000));
 
-      allow update: if request.auth != null && (
-        resource.data.authorId == request.auth.uid
-        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
-          ['comments', 'likedBy']
+      allow update: if signedIn() && (
+        (resource.data.authorId == request.auth.uid
+          && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+          && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000)))
+        || (
+          request.resource.data.diff(resource.data).affectedKeys().hasOnly(['comments', 'likedBy'])
+          && (!request.resource.data.keys().hasAny(['comments']) || (request.resource.data.comments is list && request.resource.data.comments.size() <= 500))
+          && (!request.resource.data.keys().hasAny(['likedBy']) || (request.resource.data.likedBy is list && request.resource.data.likedBy.size() <= 5000))
         )
       );
 
-      allow delete: if request.auth != null && (
+      allow delete: if signedIn() && (
         resource.data.authorId == request.auth.uid
         || (
           exists(/databases/$(database)/documents/spotReportCounters/$(resource.data.authorId))
@@ -55,15 +117,20 @@ service cloud.firestore {
     // список пожаловавшихся `reporters`. Один пользователь может добавить себя
     // только один раз, поэтому счётчик нельзя накрутить в одиночку.
     match /spotReportCounters/{authorId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
+      allow create: if signedIn()
         && request.resource.data.count == 1
+        && request.resource.data.reporters is list
         && request.resource.data.reporters.size() == 1
         && request.resource.data.reporters[0] == request.auth.uid;
 
-      allow update: if request.auth != null
+      allow update: if signedIn()
+        && request.resource.data.count is int
+        && resource.data.count is int
         && request.resource.data.count == resource.data.count + 1
+        && request.resource.data.reporters is list
+        && resource.data.reporters is list
         && request.resource.data.reporters.size() == resource.data.reporters.size() + 1
         && request.auth.uid in request.resource.data.reporters
         && !(request.auth.uid in resource.data.reporters);
@@ -77,19 +144,29 @@ service cloud.firestore {
     // отменять любой вошедший, а подтверждает участников (`participantIds`)
     // только организатор.
     match /planets/{planetId}/events/{eventId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
-        && request.resource.data.authorId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.authorId == request.auth.uid
+        && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+        && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000))
+        && (!request.resource.data.keys().hasAny(['applicantIds']) || (request.resource.data.applicantIds is list && request.resource.data.applicantIds.size() <= 5000))
+        && (!request.resource.data.keys().hasAny(['participantIds']) || (request.resource.data.participantIds is list && request.resource.data.participantIds.size() <= 5000));
 
-      allow update: if request.auth != null && (
-        resource.data.authorId == request.auth.uid
-        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
-          ['applicantIds']
+      allow update: if signedIn() && (
+        (resource.data.authorId == request.auth.uid
+          && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+          && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000))
+          && (!request.resource.data.keys().hasAny(['applicantIds']) || (request.resource.data.applicantIds is list && request.resource.data.applicantIds.size() <= 5000))
+          && (!request.resource.data.keys().hasAny(['participantIds']) || (request.resource.data.participantIds is list && request.resource.data.participantIds.size() <= 5000)))
+        || (
+          request.resource.data.diff(resource.data).affectedKeys().hasOnly(['applicantIds'])
+          && request.resource.data.applicantIds is list
+          && request.resource.data.applicantIds.size() <= 5000
         )
       );
 
-      allow delete: if request.auth != null
+      allow delete: if signedIn()
         && resource.data.authorId == request.auth.uid;
     }
 
@@ -97,38 +174,52 @@ service cloud.firestore {
     // все вошедшие. Создаёт и удаляет только автор; счётчик сообщений и время
     // активности может обновляться при добавлении сообщения.
     match /planets/{planetId}/discussions/{discussionId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
-        && request.resource.data.authorId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.authorId == request.auth.uid
+        && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+        && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000))
+        && (!request.resource.data.keys().hasAny(['topic']) || isString(request.resource.data.topic, 120))
+        && (!request.resource.data.keys().hasAny(['messagesCount']) || request.resource.data.messagesCount is int);
 
-      allow update: if request.auth != null && (
-        resource.data.authorId == request.auth.uid
-        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
-          ['messagesCount', 'lastActivityAt']
-        )
+      allow update: if signedIn() && (
+        (resource.data.authorId == request.auth.uid
+          && (!request.resource.data.keys().hasAny(['title']) || isString(request.resource.data.title, 200))
+          && (!request.resource.data.keys().hasAny(['description']) || isString(request.resource.data.description, 5000))
+          && (!request.resource.data.keys().hasAny(['topic']) || isString(request.resource.data.topic, 120)))
+        || request.resource.data.diff(resource.data).affectedKeys().hasOnly(['messagesCount', 'lastActivityAt'])
       );
 
-      allow delete: if request.auth != null
+      allow delete: if signedIn()
         && resource.data.authorId == request.auth.uid;
 
       // Сообщения обсуждения: пишут все вошедшие от своего имени, лайки
       // ставятся изменением только списка `likedBy`. Удалить сообщение может
       // его автор или автор обсуждения (организатор темы).
       match /messages/{messageId} {
-        allow read: if request.auth != null;
+        allow read: if signedIn();
 
-        allow create: if request.auth != null
-          && request.resource.data.authorId == request.auth.uid;
+        allow create: if signedIn()
+          && request.resource.data.authorId == request.auth.uid
+          && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000))
+          && (!request.resource.data.keys().hasAny(['authorName']) || isString(request.resource.data.authorName, 120))
+          && (!request.resource.data.keys().hasAny(['photoUrls']) || (request.resource.data.photoUrls is list && request.resource.data.photoUrls.size() <= 3))
+          && (!request.resource.data.keys().hasAny(['likedBy']) || (request.resource.data.likedBy is list && request.resource.data.likedBy.size() <= 5000))
+          && (!request.resource.data.keys().hasAny(['rating']) || request.resource.data.rating == null || (request.resource.data.rating is int && request.resource.data.rating >= 1 && request.resource.data.rating <= 5));
 
-        allow update: if request.auth != null && (
-          resource.data.authorId == request.auth.uid
-          || request.resource.data.diff(resource.data).affectedKeys().hasOnly(
-            ['likedBy']
+        allow update: if signedIn() && (
+          (resource.data.authorId == request.auth.uid
+            && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000))
+            && (!request.resource.data.keys().hasAny(['photoUrls']) || (request.resource.data.photoUrls is list && request.resource.data.photoUrls.size() <= 3)))
+          || (
+            request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likedBy'])
+            && request.resource.data.likedBy is list
+            && request.resource.data.likedBy.size() <= 5000
           )
         );
 
-        allow delete: if request.auth != null && (
+        allow delete: if signedIn() && (
           resource.data.authorId == request.auth.uid
           || get(/databases/$(database)/documents/planets/$(planetId)/discussions/$(discussionId)).data.authorId == request.auth.uid
         );
@@ -139,7 +230,7 @@ service cloud.firestore {
     // `events` (collection group). Чтение разрешено любому вошедшему; запись
     // по-прежнему только через правило `planets/{planetId}/events/{eventId}`.
     match /{path=**}/events/{eventId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
     }
 
     // Общий чат сообщества планеты. Один чат на планету: читают и пишут все
@@ -147,56 +238,70 @@ service cloud.firestore {
     // сообщение можно только от своего имени, менять нельзя, удалить — только
     // своё.
     match /planets/{planetId}/chat/{messageId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
-        && request.resource.data.senderId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.senderId == request.auth.uid
+        && isString(request.resource.data.senderId, 128)
+        && (!request.resource.data.keys().hasAny(['senderName']) || isString(request.resource.data.senderName, 120))
+        && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000));
 
       allow update: if false;
 
-      allow delete: if request.auth != null
+      allow delete: if signedIn()
         && resource.data.senderId == request.auth.uid;
     }
 
     // Отзывы о сайте и приложении. Читают все вошедшие, писать может каждый
     // от своего имени; изменять чужие отзывы нельзя.
     match /reviews/{reviewId} {
-      allow read: if request.auth != null;
+      allow read: if signedIn();
 
-      allow create: if request.auth != null
-        && request.resource.data.authorId == request.auth.uid;
+      allow create: if signedIn()
+        && request.resource.data.authorId == request.auth.uid
+        && isString(request.resource.data.authorId, 128)
+        && (!request.resource.data.keys().hasAny(['authorName']) || isString(request.resource.data.authorName, 120))
+        && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000))
+        && (!request.resource.data.keys().hasAny(['rating']) || (request.resource.data.rating is int && request.resource.data.rating >= 1 && request.resource.data.rating <= 5));
 
       allow update: if false;
 
-      allow delete: if request.auth != null
+      allow delete: if signedIn()
         && resource.data.authorId == request.auth.uid;
     }
 
     // Чаты. Участники диалога видят его и переписываются.
     match /conversations/{conversationId} {
-      allow read: if request.auth != null
+      allow read: if signedIn()
         && request.auth.uid in resource.data.participantIds;
 
-      allow create: if request.auth != null
+      allow create: if signedIn()
+        && request.resource.data.participantIds is list
         && request.resource.data.participantIds.size() == 2
         && request.auth.uid in request.resource.data.participantIds;
 
-      allow update: if request.auth != null
-        && request.auth.uid in resource.data.participantIds;
+      allow update: if signedIn()
+        && request.auth.uid in resource.data.participantIds
+        && request.resource.data.participantIds is list
+        && request.resource.data.participantIds.size() == 2
+        && request.auth.uid in request.resource.data.participantIds;
 
       allow delete: if false;
 
       match /messages/{messageId} {
-        allow read: if request.auth != null
+        allow read: if signedIn()
           && request.auth.uid in get(
             /databases/$(database)/documents/conversations/$(conversationId)
           ).data.participantIds;
 
-        allow create: if request.auth != null
+        allow create: if signedIn()
           && request.resource.data.senderId == request.auth.uid
           && request.auth.uid in get(
             /databases/$(database)/documents/conversations/$(conversationId)
-          ).data.participantIds;
+          ).data.participantIds
+          && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000))
+          && (!request.resource.data.keys().hasAny(['audioUrl']) || isString(request.resource.data.audioUrl, 950000))
+          && (!request.resource.data.keys().hasAny(['audioDurationMs']) || (request.resource.data.audioDurationMs is int && request.resource.data.audioDurationMs >= 0 && request.resource.data.audioDurationMs <= 120000));
 
         allow update, delete: if false;
       }
@@ -206,4 +311,4 @@ service cloud.firestore {
       allow read, write: if false;
     }
   }
-}
+}

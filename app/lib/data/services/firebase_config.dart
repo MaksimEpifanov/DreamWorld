@@ -22,6 +22,10 @@ class FirebaseConfig {
   static const String iosAppId = '';
   static const String iosBundleId = 'com.dreemworld.app.dreemWorld';
 
+  /// Ключ reCAPTCHA v3 для Firebase App Check на Web.
+  /// Оставь пустым, если App Check для Web ещё не настроен в Firebase Console.
+  static const String webRecaptchaSiteKey = '';
+
   /// Настроен ли Firebase для текущей платформы.
   static bool get isConfigured => currentPlatform != null;
 
