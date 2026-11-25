@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_2183825753",
-      "title": "АвтоВАЗ раскрыл систему защиты LADA Azimut от коррозии - Tarantas News",
+      "id": "p_cars_news_3699765011",
+      "title": "Автомеханик Степанцов перечислил причины утреннего скрипа тормозов после стоянки - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGJLN2dNUExZUE1zdGJ6RHpFQlpVQVFibUR0bFpwSldwMzVKNEhWS3RETklFNEVtZUZNX1d0eFhoWG5QcXJtNjhnYnEzMFpxXzRyZzd0VjNsSVpIN1Jub3kxN1psRGNGWF9RMU9XMDdNcTFOSFlsdWM1Wk43Q3FDSUJGN0kwXzRsMW05eXB3SEt0bjdfUGw0?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUTh3N3kxMllrQmc4QnBCZklPSnRxU1JXYU9jQVA3TUxlZU9aQ1ZVd0p5TVlZT2VRMWl3Tnlic0RkNHo2YktXZXI5VlR4Q0I4emtOcVk1ZVJQaUh4cXFPcUk0SGVKZ0NPTk5Jal9QMWZmcnVCenkyYTBuZFUwUVY0c0ZkQ3lYSEdMdGhEc1I0NVZBeXRiUEJDb0RtQVFkcElLS2pnd3MyQU9vdFp1U2g4NXpPLVF1ajFLZWpidQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T19:28:37Z",
-      "likes": 27
+      "publishedAt": "2026-11-25T15:07:31Z",
+      "likes": 72
     },
     {
-      "id": "p_cars_news_4163384000",
-      "title": "LADA Niva Legend заметили в Москве в ливрее каршеринга - Tarantas News",
+      "id": "p_cars_news_2281599202",
+      "title": "Volkswagen намерен увеличить выпуск ID. Polo на фоне сокращения расходов - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSHVNb2pxalA2MFNMQ3RzS0hJVXdRSFpBbEdib3h1cW5Qb3dhR0IwTTZydmU3NGI3ZXBfNnR1cjF4VGZsdDlFbjFrMUZrRkx1RVlHei0zVmVHeFdQTy1oanBnd2JWZGVwem5sNXl0OVdCTVpLY3J4eS1PMFJfYW1lTVRXVXlLWUFTZ1FmNjRfTU5iQjg4Z1E?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV1BFaFVDWG9JUW9NZkQ4ZVRFYU1vdy1kSkZ5dE11MEhNNVlOODZRWkVEcjRETlVxZy1FQ2hXczF0V0Rqc0ZJX2J5aGlCQWRQZEZRallldE9xRUJFM1U4WlJacGdaMDBIVlRsTGp3SkhXdEJoS0dxZjRlV0h6U210LWdXQm5UbDF3c2ZjQTBWMWpnUUx0aktLVTBoSDUwc0lsN2lxWHZIQmI5TzZERE1B?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T14:43:48Z",
+      "publishedAt": "2026-11-25T14:30:45Z",
+      "likes": 23
+    },
+    {
+      "id": "p_cars_news_2564332322",
+      "title": "Прокуратура предупредила россиян о мошенничестве при покупке авто из-за рубежа - Tarantas News",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "emoji": "🚗",
+      "sourceName": "Tarantas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnV0eF9lRmdPLXVxWUk1akphZGJ2RFdBVU9mS2xGVzI2b1E5dTdHdlhOakttQTFia0x1Nk1jR2dkbW1LZUpHX2VBRVdNUTdwcWxlS3U5OTJtQ2NRc0huVDBKdWwyOHFrai04eUt5Mmk5WEpXd1UwMzNyb3oyaXp0RGlseDVJdjVrOVhua0pHWWRsX05wLUlWVXIzcmNZcWlUT0hDcXdlanJEeUtGZDVpaW43a3hTNzBwYnc?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T11:22:02Z",
       "likes": 19
     },
     {
-      "id": "p_cars_news_4072962042",
-      "title": "Hyundai зафиксировала рост спроса на седаны в США на фоне дорогих SUV - Tarantas News",
+      "id": "p_cars_news_1783603442",
+      "title": "Lexus представил новую специальную версию кроссовера LBX для Европы - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZndRQUl1dEU2ejV3N1hpTTdsdHBkUUNhTXhfUVRvR2pONTNkVl91NW1PbWdOTWM1YmwyckZFOHQ3Z3JUNTljcjFhUHRqNGxVaEp2OTFxVUtJT1VKQS1xLV85SFRxX2NtcnZ6UkV6VXF3NFRtbFRrRlVHVldVaEZhYWZnWENwUmhoVW9CdTE1cGttaDZsZVhnYjhYTXpneVg4Y1o4dDRyS3dlUQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2Zfc05aSkdzSDBSZXpwQjY4d29ZeVRZanNvXzJyeG9kUGhPY0czUzQ4WEVpbjN3SmhfNFZIb3hZYVF1anZZbmNPRFZmNjNOQVp6aFNTYXVQVGp0LTQyZWwtdTNhbEJheXFrSEdiNnVrejJRenVuR0tEY0QtWVRMeUZXNXFTS1RscmZzSE43a3hBQ2tpTUV5cHljVXFqRFZhcDZqWG5kOHQ4amc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T14:20:07Z",
-      "likes": 43
+      "publishedAt": "2026-11-25T10:37:15Z",
+      "likes": 63
     },
     {
-      "id": "p_cars_news_3004568768",
-      "title": "Китайские автогруппы заняли 14,8% рынка Европы в октябре - Tarantas News",
+      "id": "p_cars_news_1216542096",
+      "title": "Обслуживание китайских автомобилей в России: четыре главных мифа - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkVyY0JaQ2F6eUgzNUhqZXFFeEZBQWd4YWYyTngxMURyaHp2TEdjVXpxVXdVM1k1VkVPdDRmV0djT1JMUnIzWXowWlFsWWQtT05DU203OV9QNU03b1NwUG5Iem4tR1JmSXljVHYwQ1ZFZkJLRmtwZ0R3OUNRZFZTUFAySnVtSDNiQWRTYU8xVGZUNEdrR2dEZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPclBlRjFEYnBRTEVOZk85MWREY1Y4d0tnQ0xJZ1dLMWtjSWVxd1RtVlIySlB4SmJES2FlUjlxV1FuSU83dGJpTXZyZ3J2NEU3cUJEUmN0dVM4eTFyTXg5cWVlRFBUWmtHZVUxTDJoVDhJd3VvajlGM2RZUHlDWGRPdFU4cXhSSzM5YlE3d3NBOTNsMmo2eHd4QjJWYjVXcTVROFRj?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T12:42:17Z",
-      "likes": 86
-    },
-    {
-      "id": "p_cars_news_1150726464",
-      "title": "ЕС с 1 декабря ограничит импорт гибридов: Китаю дали квоту 86,3 тыс. машин - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
-      "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdVhNbTA1RUpTSFNZa3dUek5HUzlUc1UzUGpaTzVTeERJMlpRS05VZGZKSnJIZWdPVFVVSFk0bWcwUUdpSXRweHBUSHFiT0NsRmhuYnZRYnp4ZTZGTHFiRHhsWWUzaVFoRzhVbExKVW9IVWhpRU9UYVBpZHBTT19wdWRHVjNmbk9XOV95WjBmc0I0bmJiWkJLMmpzVEdIR1RHTzFEd0prN3d5MGtub2JaS2F3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T11:59:48Z",
-      "likes": 57
+      "publishedAt": "2026-11-25T10:13:53Z",
+      "likes": 68
     }
   ]
 }

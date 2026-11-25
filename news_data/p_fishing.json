@@ -1,63 +1,63 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_3633502339",
-      "title": "Килограмм рыбы может стать проблемой: сколько улова разрешено выносить из водоема - ФОКУС",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: ФОКУС.",
+      "id": "p_fishing_news_494517235",
+      "title": "В России продлили запрет на вылов одного вида рыбы - NEWS.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: NEWS.ru.",
       "emoji": "🎣",
-      "sourceName": "ФОКУС",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUEJ4Q1VweExibmFUelVrMkhPaEMyYVVkd1ZIR0NqX1U2ZmhVbjNPNUFwbUZxRHpKM2tMU3hJbGVnS3JlVG5rdm5LSXlCTGN5VzVmQzgzSXZZajJBTWF0RnY0ZEtNQzhaeVA5YWl3ckxUOFhRWm12ZGZPVW0zTlhkaXhfS19fNEtEQjdWRXZld25GOUdzcWNXanBGcDRPYWfSAZ8BQVVfeXFMT1BCeENVcHhMYm5hVHpVazJIT2hDMmFVZHdWSEdDal9VNmZoVW4zTzVBcG1GcUR6SjNrTFN4SWxlZ0tyZVRua3ZuS0l5QkxjeVc1ZkM4M0l2WWoyQU1hdEZ2NGRLTUM4WnlQOWFpd3JMVDhYUVptdmRmT1VtM05YZGl4X0tfXzRLREI3VkV2ZXduRjlHc3FjV2pwRnA0T2Fn?oc=5",
+      "sourceName": "NEWS.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9STm5IbXNSVnV1QzBfcHd1bGFUSWtCOXRBTG01bVlldFZTeTBJT2ZmNTRqelM3Z0NUOVpyY2l0MDJZZUlTX3RURWZFNTJ1MjRuM085M1J3d2o1OTA5cmJaUm44VElkT2FyZEhpUEVtVkhZMjFzZ2dVQWtQbU1iTG_SAYQBQVVfeXFMUFBPWGc1ckVUZXI2VWkxUnIyVmVBbkh3bEJsTmU1QWtPUVRVRFBGNjNGTG16cUJlbzdKaFlYNWh5Sklzd2Qxd1ZLWThrd1NPOGpUS2QxejlEbnpZTS0tS1VIZHppekxKLU50aGJsd2haSjREMjVKVkNfNk1rSC1vX0hqS1lV?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T16:56:13Z",
-      "likes": 91
+      "publishedAt": "2026-11-25T16:16:00Z",
+      "likes": 88
     },
     {
-      "id": "p_fishing_news_3219796952",
-      "title": "Жителя Старокорсунской осудили за незаконный вылов рыбы на Краснодарском водохранилище - Новая Куба…",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новая Кубань.",
+      "id": "p_fishing_news_825765827",
+      "title": "Минсельхоз продлил запрет вылова воблы до конца 2027 года - Ведомости",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Ведомости.",
       "emoji": "🎣",
-      "sourceName": "Новая Кубань",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5WTTRpLXBiX1BmaXM0RzhXakdBN19pb1pfalMtZVRNaUpPdmhPSG1rMmZtWFBFZG5ORDVQY1lYUmgtTnRsWTZPdEU4OA?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rMVBNM0ZhcXN2WTByMnotVG1YWHFUeHFIUGJ1TlZQZ1ktOURSdlN0REkwMUM0aklNRm9qYlc2Vk1EVDdCenFCVk9xeUhJZGhRV1QxdjJubkJITjVvOW12OXJLTXZnVEZ1R21wdFA2dUNSRktqaEVWMVRaZW1BLUE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T15:01:18Z",
-      "likes": 76
+      "publishedAt": "2026-11-25T15:50:49Z",
+      "likes": 47
     },
     {
-      "id": "p_fishing_news_1799497296",
-      "title": "Рыбаки имеют право на трофей: сколько рыбы можно забрать домой без штрафа - Новини.Live",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Новини.Live.",
+      "id": "p_fishing_news_383389567",
+      "title": "В России продлили запрет на вылов воблы: на какие водоемы распространяется запрет - newizv.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: newizv.ru.",
       "emoji": "🎣",
-      "sourceName": "Новини.Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUkdndkpQNDJaNnJhQ0dlcjM4NExKSTd3V005SXJtM29tejg3bGNXQTNPS3o2YkhMdTNZRkM0bjU4UVllRTdtVmkzMzVmSmo4SDd3SXlhbm1EMWhGdW5hRHhzVUo3T04zakVOQjQ5U2JMV21fN3F4eVRVM1NSUUZqV1d4VElXc0hqZEpRb29mMWNPcW1fcFJOOHBaUi1VNTEzREtUcndHZnlVQjZnZlBEQkt4ZkNBdFBsSkdWaNIBvAFBVV95cUxQUkdndkpQNDJaNnJhQ0dlcjM4NExKSTd3V005SXJtM29tejg3bGNXQTNPS3o2YkhMdTNZRkM0bjU4UVllRTdtVmkzMzVmSmo4SDd3SXlhbm1EMWhGdW5hRHhzVUo3T04zakVOQjQ5U2JMV21fN3F4eVRVM1NSUUZqV1d4VElXc0hqZEpRb29mMWNPcW1fcFJOOHBaUi1VNTEzREtUcndHZnlVQjZnZlBEQkt4ZkNBdFBsSkdWaA?oc=5",
+      "sourceName": "newizv.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY18zMXdyQXVvdFdaaHlpanRreXA1QXk5RUJMMXVoM1BDem5TOFFEVmU2Y3ZDQV9CaUl2X3NBQ01xblpoekY2enB0R21DU2lLVUVBSXdTS2JHXzBsdU1iWmdNMmk0N1dyTmo4UzFHckpmZkR1dVR5T3BwX0RTSTB5WnB2UnNEOE0?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T14:05:00Z",
-      "likes": 42
+      "publishedAt": "2026-11-25T15:42:00Z",
+      "likes": 84
     },
     {
-      "id": "p_fishing_news_2657622402",
-      "title": "Поехал на зимнюю рыбалку — схватил штраф: за что накажут рыбаков в сезоне 2026-2027 - PrimaMedia.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: PrimaMedia.ru.",
+      "id": "p_fishing_news_3613724190",
+      "title": "В России продлили запрет на вылов популярной рыбы - Lenta News",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Lenta News.",
       "emoji": "🎣",
-      "sourceName": "PrimaMedia.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xbFQ3WjNXX0t3UUp4VUZXRV9aekJ6WEM2VkRIRG5tQjNnVHpPNk1NTWlaUW1VLVFnSC1CQ0N4c04zek53dk9PYmlSQQ?oc=5",
+      "sourceName": "Lenta News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTm5PYktrb0RJQ2d6aHg1dFZuQjdnQ0J6YXE2WXlWX1I4M1ZFWEllNWRqeXZEamc1YXdPN05rNWZ6MWpHOUpzbHdCc3ZWS1BBLUd0aHBYZGdTWTJDTVJQa1JRVWVibXRYNUJwQTlWTy1wS0NmbENCaDJSTXdYN0t2OV84cjB6eS1sbGhabGhqY9IBlAFBVV95cUxOYlNxTUxtYVpXeWhoZWtFZU56d0V5c3ludDlIZ1haV2tSOTZ6RzdyZ1FHdUxMOVotS0FHUm5vY3JDcEhuLVJrMHIxWnl4a0RQeDFLS25SSFZwUnZKSHNOdDZiVUpwNjBBVzlsNlBQUnNFRGJyUF85VFBGVlQ0dUZ6cEs1V2RySF9TeTlYZFllTHlJRWIz?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T07:04:00Z",
-      "likes": 46
+      "publishedAt": "2026-11-25T15:37:36Z",
+      "likes": 65
     },
     {
-      "id": "p_fishing_news_2864672797",
-      "title": "ЕС требует упростить правила рыболовства и снизить бюрократию - io.ua",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: io.ua.",
+      "id": "p_fishing_news_4044212940",
+      "title": "Воблу оставят в покое ещё на год — Минсельхоз продлил запрет на её вылов - Life.ru",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Life.ru.",
       "emoji": "🎣",
-      "sourceName": "io.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE43NnpmZE5admdFQ0ZmRlhoYXdoYmE2M3pxWVNQeC1Lai1lZUxzX1lrZlRZQnFaZDVVejFfamVRQ0o4aU5OakFEQ2lOVnhpSE4tUEQtZUlmNzY0YjZSelU5emFVWmU1em1lR3pzamxuQ1lUdw?oc=5",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTjl5cTVIa0hLMGhFODRKbXlKVzFBRXdCT24yM1dxY1ZFa1AxVHpqODhOTnVDUFo3WEpNQ3Z5c3UyaVZSVEZhTGdtX2VWZUt0WXBlZ3o3RHVFSkVJbzJvcFlfRFNvQ3lrZlM2SXYxa09ZMWt0eEdlSXlITDQ0S0xCdURGZ3JNal92UmgzVFg4WVF3ekVR?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T04:33:44Z",
-      "likes": 26
+      "publishedAt": "2026-11-25T15:25:22Z",
+      "likes": 34
     }
   ]
 }

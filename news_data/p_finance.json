@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_543903268",
-      "title": "Замглавы Минфина Колычев назвал федеральный бюджет страны сильным - Newsroom24",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
+      "id": "p_finance_news_4134999161",
+      "title": "Проект бюджета Кубани на 2027 год обсудили на парламентских слушаниях в ЗСК - Кубань 24",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Кубань 24.",
       "emoji": "💰",
-      "sourceName": "Newsroom24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBER0xMcl9GYVpmeVl2ZHVSNVo4QWJDVmNwM05FLUJSUWJVdnhTT0FKMnJNai1xUk8zS29FWUM2bnAxQW5uNUhIdTMxbnhHdHVNYWdMQ3ZrTGVJZkpfWlRv?oc=5",
+      "sourceName": "Кубань 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeTBjTTduc0otUWJYOWtwODBiRjM1NkVpb3NFOHBReFBhbGp1OXAxTE94dlhjS0REcWZWQURyak1wMHRIOVRVQks2X0R0SmdkNGpxNDg4N0EycEc0aTRNRWhjeUZTZEpUUjNPWU03VkVkZ2RFbXktRUJITy1PRmh6N2NRWi00YzZzelQ0T25qdXhWblBiMlZTeV95YXJxQ2ozRWstMzdB?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T16:47:31Z",
-      "likes": 51
+      "publishedAt": "2026-11-25T16:44:00Z",
+      "likes": 37
     },
     {
-      "id": "p_finance_news_2426546727",
-      "title": "С 2027 года в Калининградской области изменится налог на доходы - Newsroom24",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
+      "id": "p_finance_news_3574264764",
+      "title": "Волгоградская молодежь проверила финансовые знания в игре «Деньги в порядке» - Волгоградская Правда",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Волгоградская Правда.",
       "emoji": "💰",
-      "sourceName": "Newsroom24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00VTZ5MXpCMTA5cEktOXc0blJ0UnppTlh5NEV4YkdhZksyMUt6dEpXMUt6M0RqWU1nMWsxTjlnOWE3Mnhtd182RXZHVkhaR3Bpci1ES1dXOVRLSnA3d1NVMW5fcWdVdEJXYzlvZzhwTQ?oc=5",
+      "sourceName": "Волгоградская Правда",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWnM3SG9aTGo2OXlRak42R3ctcXpuN2ZBQV9uUEd5QWJfR1UxQVdmcHFMaE9fSEIxUWJINmtDbmUzQmswaENqSzROdmxXdThXaVY0WDdhZG82V3pRbl81bE5sNzB2eUEwdTlXMzNzZFFRLU1UdXF0a1F0VklkOVJ1MEdBSVRQb0dyRHk4WVQ4aWVLNnBta1NhLXR1MW1lN2FZSS05QzMtQW1kenhYTjcyMGJVX3A1QQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T16:31:55Z",
-      "likes": 22
+      "publishedAt": "2026-11-25T15:54:57Z",
+      "likes": 86
     },
     {
-      "id": "p_finance_news_3663551230",
-      "title": "Госдума одобрила бюджет на 2027–2029 годы - InvestFuture",
+      "id": "p_finance_news_4214100498",
+      "title": "Мосгордума приняла бюджет столицы на 2027-2029 годы - InvestFuture",
       "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
       "emoji": "💰",
       "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU14a2ZYOFlaeEE4SllobDlLWTE2cGcxYmtKSEJmVmdscERxS0M3QWk3eTc2VTdfOWtOak1PUGpMVTh6VnZzWkpfdEU3N1lvVTNWaVBkb3JwZG41eUhwVk9aWUhZWWJia0lIR29hX0Z2c1JpUlV6SHFGZXFxd05XZUpkQmJxd1htbXJydzRwamxNSTlyZjBDWmMteWpnOWc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFNac2RVWUVPcU5qMk9zazJKT3VnbFFVX2lBQUNFUkpJTjJtS1FZYnJhQzRQeTZGM3VncThvSVZ5TEtXaE8wQmRobndyODRJU2VMdlZQZ045QVZ1bjJoWEw2WjZOOVpLZ0hZbFNQOEZidGFvTUl4cXpYNjhGZ0JFbFhQcEJPbWFFSFJsQjBSUHE3QWVYMHBwT3J1VlVPQzdjNVhBYg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T16:18:47Z",
-      "likes": 16
+      "publishedAt": "2026-11-25T15:12:45Z",
+      "likes": 52
     },
     {
-      "id": "p_finance_news_1280930581",
-      "title": "Госдума решила считать налог на доходы в Мурманске по единой шкале - Newsroom24",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Newsroom24.",
+      "id": "p_finance_news_2116052532",
+      "title": "Фицо усомнился в возможности согласовать бюджет ЕС на внеочередном саммите - Ведомости",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
       "emoji": "💰",
-      "sourceName": "Newsroom24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaWlo4aVhjTF8yemhBQnVBVjFQb3pCemZXRG5HRnZvYkE0a3gwX0xZcnpTYTBEVTRqcnUzcF8ybXl3emhFR1ZWZnV5Z1dodHVtSkdORjNYakdBM01XalRDVmp3eU1RWjRTNWtn?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FVXZUZWpkeU9TeDNTRXFZZUpoaFA3TEdOZDJ6M3Y2bzRub0VkN3l2VHp1a1paZzI0NGhNNEo3a0prOU5EUjdGcjVkMUk2dHFZdXhyQk1Tak42RmxxUHpRSktKam9Uaks3cHJFMzBNSmQ3S2ZPanlNS0ktNzhYZk0?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T14:53:46Z",
-      "likes": 49
+      "publishedAt": "2026-11-25T14:24:35Z",
+      "likes": 46
     },
     {
-      "id": "p_finance_news_58176323",
-      "title": "Государственная дума приняла закон о бюджете Соцфонда - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "id": "p_finance_news_3349289387",
+      "title": "Профильный комитет СФ поддержал закон о трехлетнем бюджете - Ведомости",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
       "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdlNxdDNxc2VxZEJMTVNlcEtkZVNZaUtadFY5cjgtcS1XaEhFeVNNaS1HcTBKSnNPSmRneV9kV2FrNFhBbGd2YU9Wb2lrcjFNeDhrejZuWlpYYWlma1hzbFQ3cE40S3J6bTFXeXVPUVlFMGMwYWE2dngzU0RmaVdEeUh5Z3kwRWNOZnRkQ1ZXUTNUMVlxREhtWUtURGdvRXAxZGQ0YUctUVZDeTA?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa0hwQ1hHR21KTnYzdkhEakpELWRwSmN0YVIxY2lQalNLdTZwQllJYUIwX0p5TW5QUnpyZXlRN0t4dXVOUWcxbjV1R3hCRVNlNjJxWFV2dk1abGVKUFpLdXlURkZDYkVQbTQ5LXQxTGlSVDdEMFFER3dLT3g5SmczT1M5TWF2RG8?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T14:08:05Z",
-      "likes": 64
+      "publishedAt": "2026-11-25T08:59:40Z",
+      "likes": 57
     }
   ]
 }

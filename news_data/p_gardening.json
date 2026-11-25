@@ -1,63 +1,63 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gardening_news_1829150892",
-      "title": "Подземный вредитель. Африканскую кукурузу 30 лет уничтожало растение-паразит, которое путали с засу…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Ukr.net.",
+      "id": "p_gardening_news_2971923413",
+      "title": "Сколько бы удобрений ни вносили, урожая не будет: 5 признак того, что земля на огороде истощилась -…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: ТСН.",
       "emoji": "🌱",
-      "sourceName": "Ukr.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YbkZlQ3hfZE9nOFpmNUVjNWxBQ2xnSUR2aVh5ZnJGcjRWTlNVYVFPbmVGUjd2UkM2bVlBZ2wweE82VFVvdXBxWk5VeC1kQ2ctaG9IWUJCbkNLWUNJNkJERkc4MEVPV0FuMFVV?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU0MzZFVHeFBDTFRoRTVFa1pVVmVlM1VRb3pSbVRjZkNHUlQtc3dPc2p6TUFwMG14YXVFNWpzMWJsT1pnMzFiVm5hN2ZaSHY2NzA0UVF4N1FwU1RubjZUYzN6UnF3b1lPVnhaUnBuQnIxQUFRa3g4blpOdDZCNk1VY1BtdURaX3Jhend5NEwtaDlneGdTdVRJOGphb2ppX1daMS0zamo0bGZHZlA3Z2UtYnhUNUpiTWVYM3VUa1J4ZUQ1U0hiODlqazRBNEcwTXZQ0gHWAUFVX3lxTFBqT01ncnhkRkRQdjZaQU51SUZBRW5Sa0tIaEZFR3k2MWxmMTEwV25tbXZSaklXR01vZGRTX1pLRDhzZENPT3dINlVsNFpqblJaTUFnZmpMcEN5VEZ2dFh3ck9EN2ZlS01LS1lyREVTRmVWb195R1lTRmdVV1luSHlZcGRMUXUtalNhUlM4WXVNWXhGS0QyQk9yQTBiX0t3RjJlT04ta3lSOEd1WDFldGxBdTZ5UzhXSk5tMlY3Qjl0YlY3cDJLbTdkNW5MQTljOWNsRktFaHc?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T20:21:59Z",
-      "likes": 29
+      "publishedAt": "2026-11-25T16:10:48Z",
+      "likes": 67
     },
     {
-      "id": "p_gardening_news_43132107",
-      "title": "Огород в декабре: какие работы с почвой повысят урожай и сэкономят много сил весной - Белновости",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Белновости.",
+      "id": "p_gardening_news_1408642929",
+      "title": "Дачный спецназ против грызунов: 10 растений, которые мыши обходят за километр - Правда.Ру",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Правда.Ру.",
       "emoji": "🌱",
-      "sourceName": "Белновости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa01laFp4U0pwZ3ZCYlZGNGJPclpNR1NBb3l0UGRYVmE2NWVmZTFoT3p3bnRWd1VDMWY4dFhYdlpyaHIzajZVVU8wWlVsbUV1UkMxN3FDeWluZ1RrRGRtU0JWX1dJd2UtTTY5d19ZNkNYY0JKYXBiZzVSNDlzUWRxbDk1cVQxTjE3eVR3TEl6TXUyOGdxLXBPeFlHME5ndGFfOE1Mck15OGZPWDNuUlA4NGtYcnlWMjMyWFBQcy1qdWFmWXM?oc=5",
+      "sourceName": "Правда.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdzFmNDdyT3VLbS1SdjdEVGxYWkFhQW9OZlNhU2FjVXVweUVjVXk1akhfRW5yZ1dILXp5Yi1aZlhwdE9odldWTWhJTEhSLWpydkxsSjJlT04zNFJ6NWp4LWFNdUotYUZSS2JuZXIwZW5XQVZlWkNSaE9oVzdxQTNpc0hOeFhLNTF6TENOLXpn?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T20:03:00Z",
-      "likes": 26
+      "publishedAt": "2026-11-25T14:22:00Z",
+      "likes": 31
     },
     {
-      "id": "p_gardening_news_2885493098",
-      "title": "Забыла про Кураж и Герман: эти 5 гибридов завалят огурцами каждого дачника – хиты 2027 года - EAOMe…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: EAOMedia.",
+      "id": "p_gardening_news_2997218612",
+      "title": "Озимый чеснок пророс раньше времени: агроном рассказал, как тюменцам спасти урожай - nashgorod.ru",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: nashgorod.ru.",
       "emoji": "🌱",
-      "sourceName": "EAOMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zRkp6bml3aW9tNHRRV3NjLWQ2TnNjSG5nQk83dndaQnpUMzhHSlNPc1B2TV9tREdqcXVlYUQ0NjFQNW8zSkxSQg?oc=5",
+      "sourceName": "nashgorod.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd21DMjBTd3U0d19sUE5VbjB4WUJ5aDZxb25MV1psRG5zMjhBaTAzdUpUdGVjSmV6Y05mVkItNWtpZ3RKRFNYUjN1NmR3TkRfaUp1OENSa05VZ3BtaHV5UW5IbzFocHRLRzU2QzVHSTM4X2d4WjBYdWY4X2JVYWdNZk83VHloVzhyME9xRDRlUllBQ0E1SjBSUTRpZ2hCOGptS3Bxak1LM3NsY2k0MGVqcDdpNEs2SjBJREo0ZngxUWVZajVHSHlPWA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T18:48:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-25T10:23:00Z",
+      "likes": 89
     },
     {
-      "id": "p_gardening_news_3910249371",
-      "title": "«Посев» семян доверия в чистом огороде Тхань Тана. - Vietnam.vn",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Vietnam.vn.",
+      "id": "p_gardening_news_584528296",
+      "title": "Один раз посадил — 25 лет собираешь: новая огородная культура-«золотая жила» для тех, кому надоела…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Про Город Ухта.",
       "emoji": "🌱",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BcjlWZjctRGdYZkFlTG05UDI1YklnWklNanpxYWdhVHZ4VmVqTFMwdVJiSFVOTGFaY1JxWjhmX2xCZ1czYTVuZ3VHZExiaGd2TEx2WFVXWG9lSVJMR2c4ekQxV09uM3k5Ui1GeDcyM2x5TFdFU1VQZQ?oc=5",
+      "sourceName": "Про Город Ухта",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SMTRTdzNMWTBHOXJlRW1rcTZwOTRJREtQcmRGdUNGcmpmTzNyVUttd3hoZVNiV1ppdlBEX1NwR0k1dDdrNWhZa2d4TQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T13:40:19Z",
-      "likes": 46
+      "publishedAt": "2026-11-25T10:08:57Z",
+      "likes": 14
     },
     {
-      "id": "p_gardening_news_2814815148",
-      "title": "«Бычье сердце» и «Де Барао» больше не фаворе: на сезон-2027 покупаю другой сорт — грядки превращают…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Usolie.Info.",
+      "id": "p_gardening_news_2196673393",
+      "title": "Ни одним огородом едины, или мои попытки создать приложение, где дача — предмет гордости - Т—Ж",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Т—Ж.",
       "emoji": "🌱",
-      "sourceName": "Usolie.Info",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyRHpsLWFrTzZCQUtzRVhwNDJZLWxrS2lRcUtEVHlMZndUZU9NaGJQTlpoTTlub0hVa1hESGVESVJrdG9KY3c?oc=5",
+      "sourceName": "Т—Ж",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVXRHSTJzczFmRW82WVllY1kwSndIbFZGSXpUaGQ2a0MySkhUbnYwSkczNFFiVEJoRjhfZTNvNFloUTVfTnk1Vjg4akplN01WZnhmLXVJclVzRHJNNXlnWVl5d3hSQ2pabHdQMGZ4Mm40LVpmQXdJdUs0S09kWVdOcVdVQ1BlSk9hU1hN?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T10:14:36Z",
-      "likes": 12
+      "publishedAt": "2026-11-25T09:43:40Z",
+      "likes": 57
     }
   ]
 }

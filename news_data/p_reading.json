@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_3583548458",
-      "title": "5–6 декабря 26 независимых издателей проведут в Москве новый литературный фестиваль - Москвич Mag",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Москвич Mag.",
+      "id": "p_reading_news_69028190",
+      "title": "\"Великая литература\" для полезных идиотов: как РФ на протяжении веков продает Западу нарративы о со…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ФОКУС.",
       "emoji": "📖",
-      "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXM4UGRnemNMSkVIbF8xREtmU0VhRnZZYTcwVjJtenpfZVhoNU9aM18wUmlDb1RuV1lHMmQ3TGFJQ3lHbGNJMzdEYnBzcEtxOEtYUm5tdE1LYjBzdXAwRkNjOV9wM2FwemQ1dy1GekxRYjRlUHdlYW5SaWxVSWx5WUFwWlFOVndnVERIeTk4SFZqYzFfMXRjeHIyRWpzeEV4Vk9BVDVaM25IdG03UndaQ2Jqcw?oc=5",
+      "sourceName": "ФОКУС",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZERJSW1BdlVBdFZXM0VPMUVCWXJWMTZ5QzBWdGh3VnNjU1dDc09NdkZxUFVpTFc3VlRsSjJXUERUdVdnb1R6S2doak1ZbWliN1o3VmZhVFFGc21fNVdoZjE0a1ZSVjlSb0ZiWXRnZngwVjBYQVBhRW9VdUczWWlmMjh1MEhEVE5vME1iclhxOXZUSnlqalo2NUlZMk1EWTBYNE9OWVZlaXoyVkwxb2RJUWZrMUxzXzhYbUdFbVZDN1UySy1uRmJyV2pmT3pnOXMyU0RCeUIzalJkMnRZdjVKVzBqb0LSAeoBQVVfeXFMUE5nS1N1bWxWQlZtU1JCdVZWNlZEVWhYZjRsQ00tbnZJbkpXR1lwZEJnRDY1dFhvdVEweTAybWhmRmtzT3FtZktEZDFCNkRkdGZISmZYelBCc21MQlgyWVNSeWVrMWtyOEdfN3BHMlJKeC1yLXo4V0JHSU50T2RwaUM0MmNHT1Q0ZllfcUJWLUR1WWxtM0hQZ3diYTBNaUtjdTBISnAyQTI5U0lzd21pelpiWTZpaGZxNjhqSzA0bjVYbm5RNjlBX2lYTDdGNXFUdWQ1YTg3UHJVdHlsbU03cWRQUF83X1dXTXRB?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T17:55:01Z",
-      "likes": 92
+      "publishedAt": "2026-11-25T15:04:00Z",
+      "likes": 35
     },
     {
-      "id": "p_reading_news_4005617953",
-      "title": "Сборник стихов старооскольской поэтессы появился в библиотеках округа - Fonar.tv",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Fonar.tv.",
+      "id": "p_reading_news_505490071",
+      "title": "Книга 18 авторов: тамбовчанам представили поэтический сборник «Созвучие» - https://novostitambova.r…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: https://novostitambova.ru/.",
       "emoji": "📖",
-      "sourceName": "Fonar.tv",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEdBSTF5WFhtaVpXaGRCMjJGWWppUDNUMmdJSE5oeXd3TkNiSVRRSGlNXzYxbXhzb19GOEJIZ1B0b1pPWlFSZkpSRm5rV2pJZ0J1ZEY0eENTR2hQZ0pCNVV5REpwUHNmMEhCNEhjNnlWZ09yWHVpSzNnMHk2WUwxbExHOXVabnVVS1VLMTdpLV9Ia2ZRSlppVTFCVml1dWNOMWdVeGRn?oc=5",
+      "sourceName": "https://novostitambova.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pVFNkODNKcXFveTU1SmFCV0FfWHdQWWxfUjd4RUQyS3NRMGllbXhuaXVDWmJ1V2ZVOTZvc2REcW5zaW4yY2lZOWh5STRtc0VoY0FibDVvcFNIOXNnRXRvMmcybw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T15:05:37Z",
+      "publishedAt": "2026-11-25T14:59:13Z",
+      "likes": 37
+    },
+    {
+      "id": "p_reading_news_2632581062",
+      "title": "Нотариусы Ульяновской области подарили особенным деткам чудо знакомства с книгой - Улправда",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Улправда.",
+      "emoji": "📖",
+      "sourceName": "Улправда",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX3pYTzBHZHpyVjVnU3NmTHZtaWdjbFQyZzV1UVZhMTB5ajRKaU5sa1E0c2hFRUFwdkJzaUZZSXM0dXE0LXA5R252emV4b2xPNTFsZFJDa3huNm5NTVZCZHFtbGJ1RHdDTWVCQURjV0MxOGN3LUlqM2tzVDM0MXo4WUpBcm9OUExFaS1hNU54cG56QVZNUENRd2NIXzA5dVRjbHI0cXF5OXZORTFZZloxamhZUQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-25T14:20:00Z",
       "likes": 22
     },
     {
-      "id": "p_reading_news_2456412706",
-      "title": "На Невском проспекте представили новые издания романов Юрия Слепухина - Всеволожские вести",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Всеволожские вести.",
+      "id": "p_reading_news_2359578692",
+      "title": "Юбилей, в котором соединились поколения: Старобинской библиотеке – 85 лет - http://shahter.by/",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: http://shahter.by/.",
       "emoji": "📖",
-      "sourceName": "Всеволожские вести",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY01BMlBtY2F5WnpqdUN3d0R2WGxXeThRZXB4UzVMcWZKOXo5ZDBrWU16OVZJRHFTbnRTWEF5QVBzVDZ5WDhhVXBLb2hCWUl2dGJVaTdydWtXOVlhZ3lhR09TbFdZc1gxTDZMaHlBV0IwY1pVVEVIOHRnSmFvc0loYW5HMnBMLUpiRllUc3NsSk5odktWd21pRndXVUlxRE1HUTF5VTV2Y0M?oc=5",
+      "sourceName": "http://shahter.by/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONE5kZ1FpYnl4MnN1bXBHNnozd1I1OVRiTkVwZnVOZGJpNHpmM0xVem4tWllRWG1hcGtsV2pXMlRHNHZtVEw3WlRLX0RNVlhhTjNpLXJkbXY1cWJFbEdtSWQweWJIUzFzTUV0RnZrSV9oVnpzOGJkUndlRGp6ZG9YbEtsY1dmT19XM0Y2ZWNXTnBZN0hXc19xYzdRQkNKd0tBLXc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T14:32:01Z",
-      "likes": 9
+      "publishedAt": "2026-11-25T12:53:10Z",
+      "likes": 21
     },
     {
-      "id": "p_reading_news_3429252761",
-      "title": "Белорусы не покупают книги на белорусском. Кто виноват? - Наша Ніва",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Наша Ніва.",
+      "id": "p_reading_news_1093887754",
+      "title": "РГДБ проведет IV Международный форум детской и юношеской книги стран СНГ и Грузии - Российская госу…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Российская государственная детская библиотека.",
       "emoji": "📖",
-      "sourceName": "Наша Ніва",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WNTBQQU5Ud19NSG9CaC1ERFVfeWh3VXBKejd5R2FlMDZUZ3ZxZGRGVmRTUW5oWERJSTU1dE9zdE9EZGt6VlY3RlBra9IBS0FVX3lxTE9WNTBQQU5Ud19NSG9CaC1ERFVfeWh3VXBKejd5R2FlMDZUZ3ZxZGRGVmRTUW5oWERJSTU1dE9zdE9EZGt6VlY3RlBraw?oc=5",
+      "sourceName": "Российская государственная детская библиотека",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTBfMzNrSExZMzAwc1VQRGh4VXpmb29jMmY4TGVNT2FDUEhZY0xNRk8tUTk2cnBaaVhPV0M3a0N6bFNmRnZTdEt4STc2Zzc0MXlKY3dfN2l3ZFJNQ3dadW10TDBKYm5PSndQSHhyQU9Xa3NFdjVHN2JQVmNaSXJqM2F3SExDNHhrbjFILU9FY1hLeEhBc1ZUem4ta0ZzOFNBcmlHa29Fa3g5Zk10TkdrUnhUdThqaEhMcFI3QVpB?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T14:14:52Z",
-      "likes": 77
-    },
-    {
-      "id": "p_reading_news_1710171747",
-      "title": "Влияние метаданных на выбор книг читателями. - Vietnam.vn",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTFhUb3MyQVkyZlQxX2k1NzA4YlVfOXZ2T0J1SUtRcVdzUVdmcDg1TUE5bHVrcTRSRGFFMnpyMDNaWEdYZ2U3STAxdHU4WjR1WURwMmpRSkNJWDU0VEdmWTFSaUt4cWU0ck1LcDBEa2hfd2pvT3J0ampmQUpHYjJvQlJFbS0yYnhC?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-24T13:40:22Z",
-      "likes": 15
+      "publishedAt": "2026-11-25T11:40:02Z",
+      "likes": 34
     }
   ]
 }

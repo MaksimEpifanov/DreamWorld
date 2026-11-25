@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_324265595",
-      "title": "Эксперт Бедеров: Мобильные трояны стали более угрожающими благодаря ИИ - Самара онлайн 24",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Самара онлайн 24.",
-      "emoji": "💻",
-      "sourceName": "Самара онлайн 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMzVPcXA3MHBOZ3lJVjA3TUdyQ3VZVTVyWWhKUFRDUzJvdXlmcjNMOEpwOWJYazBkZVJQcnNXX0JNbjlYX1hjQlduNEI5dG9PUjFnRDJ6RGpDcU5qZmpyRmhfQTNBem5Ld0FBNGJ1WmxFVEVLYzFVT2hHeE03V19QcEhudG5DVUNkLUNxUlpXOWRwREpheE0zaVdsQktVWEVLREpNdTdwbFZNdDNEWHpzRVJ3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T21:30:19Z",
-      "likes": 73
-    },
-    {
-      "id": "p_tech_news_3092278737",
-      "title": "#381 Osta O1 Pro, конкуренты и разница в философии ИИ-агентов - Mobile-review.com",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Mobile-review.com.",
-      "emoji": "💻",
-      "sourceName": "Mobile-review.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHdXUGlwQ0lSdUdkeFNoR3J4RkhHSzUtN3JXdm40UnMxWEF3QnNWS1l4Vmk2UUJCT1FXLVNMSkxDS0VXcnNldjVlWG9BWS1DQmVFSHJKNzVxNkZBSFU1S2N1SHVENkhTM285SVljZkdwTG56NU5uZ1ZrN0UzQ3JQUjdLZjFVSHc1bHhfUG1xbG1tTUNGelJXRGMwSE5SVmdZSTVFVU1wVmc?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T21:01:00Z",
-      "likes": 46
-    },
-    {
-      "id": "p_tech_news_1645077019",
-      "title": "Личный секретарь на воротнике: Яндекс представил ИИ-гаджет «Пин» с «Алисой AI» - prospect.com.ru",
+      "id": "p_tech_news_2757971179",
+      "title": "«Яндекс Пин»: мини-диктофон с «Алисой AI» для записи разговоров - prospect.com.ru",
       "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
       "emoji": "💻",
       "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUDVmNldxUVNnTUMwSDliazEzN1B4TWdrV05vVmNBbS05WnRqWUttR01FY2hEN2I3WWZHc0dGOEVDaWRqblFZZUNUU2xQcmtqS3NPTHU5QUJPZXJSYUFMMWZmQUY2VWREN3NXR0dNS3lIQUNzdGxtSXkwZFNKVE1veXF2TTdKQ2JDelpOX2hwaXVfRFBSalBDbTZHcm4zZFJuZ0ZKZGthbDdqb3lDeVdBbHZuemtSdw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2R4cnF1R2VfdXhXYkUwX0NfRHFMT3dndndMc2p5ODVjdXM2TFRqM3c4bTJOYWYxdXB5VkE4aUxiUzdtd0twSlRESWZEYTZHdXJXN0VSNWVIYmRISTRHUGtQSGJsNnpvbXBOeDhENllIRmhpY3JCcEFRamJZUEJENFJaaW1QcWM0SnBRdzR3S2NrX0U0b1pEdE5VaHN5MVdDNV9z?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T20:31:17Z",
-      "likes": 30
-    },
-    {
-      "id": "p_tech_news_87658675",
-      "title": "Смартфон под контролем мошенников: в России тестируют ИИ-троян RatHat - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
-      "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSnhVQ1BVdDQxaHZ2QzQtc3ZTYjdKSWFKSlR3N0NMUzJlSEtXTXYwRHQ4MTNyalJlek9wLTI1OVB6MHdWYjJ6RTRodHlIUUVtY2pURnoxNVc1SldJamVEbkd3VlBGay1aU2RfSFNab0RZNzFvNF9Xb3BTcTgxWmV6VUlJdnZnMFRNZUZmX1VSVldtSHRYcE5XMGFOTE4wWG9HNk1JMHB1VzdSVDdEOFlBUENB?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-24T19:00:33Z",
+      "publishedAt": "2026-11-25T17:04:56Z",
       "likes": 47
     },
     {
-      "id": "p_tech_news_3298962461",
-      "title": "Смартфоны под прицелом RatHat: Как искусственный интеллект усилил возможности вирусов - Life.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
+      "id": "p_tech_news_1979865325",
+      "title": "Xiaomi 18 Pro и Pro Max: зачем смартфону второй экран сзади? - Москвич Mag",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Москвич Mag.",
       "emoji": "💻",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQblZWR2dKNXZueEhBbnM4TVVTR3FTRnBNZTZKckxOX2Z5Smppc3k1RXI3OTRacExuWHo2N2JzY3ZBRXNDTHp6WVJlQ05GMXEzQXZQWlhPZUxUVFF1dnZseEhHQXhUVVRna3EzeDhjVDhtR1JMVnd3MTBMYlUxWWxoeVNUR2haQ1U1VFc3dXluVGZmeWR3d3pwR2p5b0U?oc=5",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWHRqSGtSQV9VYUxDc2ozcmNPb1QzRnloLXkzZnpLTTMwTmh5V1JRNVhqYms3ZGFabTFsU0NscVpvVWx3ZW1GUnZXWWV0RTRneFhPZWRJM2hOQy1YaWNLVHRkRkNkZTNpLUg5U3ZxUHV1LTI1WFVqVEVUaGd2T2RVbTlvWi1fTHE5QkxsLWhpNFQ5YWc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-24T15:02:21Z",
-      "likes": 21
+      "publishedAt": "2026-11-25T16:41:15Z",
+      "likes": 37
+    },
+    {
+      "id": "p_tech_news_2186652201",
+      "title": "Большая охота за гаджетами: лучшие предложения «Черной пятницы» и «Киберпонедельника» - Компьютерра",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Компьютерра.",
+      "emoji": "💻",
+      "sourceName": "Компьютерра",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wMEM1ZUc5T3d6S3dJSUpaOHdfV2tBWlNJWW14QlFXWnVLZTNZbFZ5cUQyN2NPVmYtblFlYTVaRFR2VlVWWUpOVTJic3hwMkFHS3hjWTYxdmxjV2xsb3J1Z3RINGFVLUFoNFVaVUE1OTJ6TlFuRkx3?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T15:40:16Z",
+      "likes": 58
+    },
+    {
+      "id": "p_tech_news_3546155529",
+      "title": "Яндекс представил компактное носимое устройство с Алисой AI (4 фото) - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0dVRzZrSTBCNGx4MnRsS1dXMjRXbzdVX05pWWIyZEJaaFdEOFJwM3Frck0wYnI5OGE1UUlBbzlFYUhlbUFsOWNVb0pGem9kRVpSRTVfRTE0SlRyVld4bl9lNlJuOXBwZXp6VlVrY2NfcG92Mk10WmxxY3h2bGNlRUFKODZWLW5KNHA2S1JSb0ZRenhKdms2MEQ5MWQ2U0d5OXloR1Rna1B0S1lNTEE?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T15:25:22Z",
+      "likes": 79
+    },
+    {
+      "id": "p_tech_news_3988777475",
+      "title": "Искусственный отпор // В Совете федерации обсудили новые методы борьбы с «электоральным неоколониал…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcHEtRFNkRVllN3dweVZxcXlEX2dCODJReEhGYWQ1ejVzd1pYUEpkcVBhQlpmX2Q2eGJYVWlSOERaTVNtVUViSXl6WTVxRk1FV0dNT0ZWZHRqMERoVzg2YjN0alBPaFRybkhGRU5IcW4wT0Q2am94dGtodGJXOUUxSDZmQ0diYk0tdGdlbHVPYWtiYmU1MEVnM0NZQUgxMmRGVXJ4d3BvYXU1WnQzSjB0WmotTjUxQlNBMXRpLVZtdEExbjJ4YUVwaHA1RzktM2VDRDRpMGJPWU4?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-25T14:54:27Z",
+      "likes": 52
     }
   ]
 }

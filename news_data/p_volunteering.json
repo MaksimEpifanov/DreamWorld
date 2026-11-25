@@ -1,63 +1,63 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_volunteering_news_3798563590",
-      "title": "Тюменские волонтёры участвуют во всероссийской акции \"Месяц добрых дел\" - Тюменская линия",
-      "summary": "Помощь людям, приютам и природе. Источник: Тюменская линия.",
+      "id": "p_volunteering_news_2692410629",
+      "title": "В Перми прошел XIV краевой форум общественности и добровольчества - В курсе.ру",
+      "summary": "Помощь людям, приютам и природе. Источник: В курсе.ру.",
       "emoji": "🤝",
-      "sourceName": "Тюменская линия",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5Ja0M5bmdPTzU4ZXQ5NHBOb05jSUpjWEI5VVNXVXVpUVhPdU9FUjJfSjlBZ3RRX2syeDQzamxJYw?oc=5",
+      "sourceName": "В курсе.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT1dJN2VhZlE3bVJvYk85YVpkTEY3eXROSVBRSm1VbGh1cnBnUmpEQlhnbGhyT3F5LTJUZE9DakJHREs2RkhOS2djaFZQVHdVZ1VGdnl6ZUt1SXFEOVI1SXZVbXNCOE83NTduWkxzMGtad2NaTzhGU0pIX2dxV3Ywd2xrRXhLLUZVSkJEeEdrOHllNW8wOW00?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T14:49:00Z",
-      "likes": 7
+      "publishedAt": "2026-11-25T15:30:56Z",
+      "likes": 87
     },
     {
-      "id": "p_volunteering_news_1375706212",
-      "title": "Более 1000 волонтеров и 150 мероприятий: на Брестчине подвели предварительные итоги марафона «ДОБРО…",
-      "summary": "Помощь людям, приютам и природе. Источник: СБ. Беларусь сегодня.",
+      "id": "p_volunteering_news_538692024",
+      "title": "«Росатом Инфраструктурные решения» в рамках Международного муниципального форума поделился опытом диалога власти и жите…",
+      "summary": "Помощь людям, приютам и природе. Источник: Атомная энергия 2.0.",
       "emoji": "🤝",
-      "sourceName": "СБ. Беларусь сегодня",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaS1COW43VV94dnY5T1IxdHp0U3hrRnhGaUZkV1ExWFhlUFdtRU9JOTdRc1ZNZjFBTUlBY1FWeHV2TC1VY2xxN1JSSkhfdWJTTEJrRUlhX2dUQUh6azVjc0VlWXdpWFlwN0s0YzFhVzBPeEFKN3pkUlZwMkVXRnoxSzlqRUJvd19ta0U5d0hadjg4OUJlcmR3enBPSzZBLUcwODk0dU5nN2p4M2U4Q1UtdNIBuAFBVV95cUxQcV9VUFRYcUlFMGlNeHdQQ0V4aGZIcmVNNjB6Mm55UVdWNTloVWFPVEVKU0VvNnVUSWE4UkVyMUVIdDVZQjFQNGFFZUhHTnhVOEpDWVQ0a0IzeUdtbEZqejBGWm5FN0VQNXhnUEJCdWVBNV93TElpOEFmczRNRzE1SlFZTnJBR0RmekRJSk9NTllKWE1MNWN2LTZ2MG1FYjJNSm1HQnp5bGNYcFVSUXBYWGRoMTZiMW1y?oc=5",
+      "sourceName": "Атомная энергия 2.0",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmNHRJbnhxeEVaZTI0TXUtbEp4dTljMkUzdlk3UWZ0ZFRzcFdCQUpFQlJTTUJWd2xuZ2hiMXViUDJZM0VlaFQzODJKbGk4WVBCemdYNDVhZWpxdEtnRHlpXw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T13:16:00Z",
-      "likes": 27
+      "publishedAt": "2026-11-25T13:48:56Z",
+      "likes": 84
     },
     {
-      "id": "p_volunteering_news_532973854",
-      "title": "Помощь тем, кто не может о ней попросить: на Копыльщине проходит акция в поддержку животных - Слава…",
-      "summary": "Помощь людям, приютам и природе. Источник: Слава працы.",
+      "id": "p_volunteering_news_1467592717",
+      "title": "Волонтеры Верхневолжья присоединились ко всероссийской акции движения #МЫВМЕСТЕ - Панорама ПРО",
+      "summary": "Помощь людям, приютам и природе. Источник: Панорама ПРО.",
       "emoji": "🤝",
-      "sourceName": "Слава працы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMFhVZ0FqNFBPVHRnWktZUEVXcnFYZVBWMWl1aTNtVExSaDZnd3dkd0xnZ1JKaW1EMF83SEJPMUxYUHUxanhZQzhtc016cmNHZERNMHhkdWxJVktCZlY4Ymw2Y1V3OVFydmdMR29LY2pkUHdsQnduWS1vbFZMR0wzYmM4UGFQdVYzQ2F4dUlJaHloLWVOUW9NNlpUSkF6cEdVdkh0TnBQczY0cl9pV3g0emd1SGlhMDF1ZE9WeEVPX0x1WVZFOWV0S214SWFVZTBzN1R5SmVhSU9Mb1U?oc=5",
+      "sourceName": "Панорама ПРО",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWw2X1dMZzV2MXZCRjNsUFlZQ2tEdnpneFRXeWFlRTQ0TC1PQ2k1V2RZRGZlckJiRDdDZTViZUR5YmJucVU5TzhmUEZYaExSUkVaR2x3SVZ0OTByMmxRUlRZUnNuSHdOOHUzeFJNN3JWTDVJU0J3dG9LbWUxeUlpdHNod2h0Y2w4MDlhMGtPQWwzdUg0RS1GcnljZllmRnNUVkpCWmRuQUk?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T12:17:16Z",
-      "likes": 17
+      "publishedAt": "2026-11-25T13:18:10Z",
+      "likes": 34
     },
     {
-      "id": "p_volunteering_news_2918343453",
-      "title": "Волонтеры БФ «Синара» помогли сохранить историческую память городов России - Официальный портал Кам…",
-      "summary": "Помощь людям, приютам и природе. Источник: Официальный портал Каменска-Уральского.",
+      "id": "p_volunteering_news_3856083123",
+      "title": "В Тамбовской области прошёл ежегодный форум добровольцев - Телекомпания \"Новый век\"",
+      "summary": "Помощь людям, приютам и природе. Источник: Телекомпания \"Новый век\".",
       "emoji": "🤝",
-      "sourceName": "Официальный портал Каменска-Уральского",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVTlmUDhySlpvMG5JVndocWxkMGo0TTJ6Zk1zNEp4eXMxcXhPbkFqU29BYWhHVHQ0ZndMTkNNWUxhU1FXeWtNaFN0akVWZ3dtbVlRUlhmcENDVnQ5OHREd3FmallUS08tNWpDdEQ2LUlHWWMtaWlyR3F4dG44Wi11ZVYtVzdaWmNPWUVpcTF0OVd4X1FTTkpoM1FjbmxTMkVVcHNHbHl4dUwzRUgydVZvZzRVREdPdVQ5TXh0WkZKb1YwU0lzX1gyX0xuR0NJTkxsTHZWTw?oc=5",
+      "sourceName": "Телекомпания \"Новый век\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2tpblZsYW9oN0xkbG1IQmxVSUFEMzNsWVIwNWhEUS1pQTJXX1ptX0JmS3dSWnB6dTExZUhoTS02NFRMZFRIb0tvekdZcW80cnBjRnBkQW01R1IwQ0sxTmg4MzEtbGZELUlfYWFVU1RQX1NrRE9Jc0lITC1QQzg1YjBQTmNSODg4MVVWbERoYTh1TXAyb1FoZEEtNVlXWTA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T10:55:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-25T13:01:21Z",
+      "likes": 50
     },
     {
-      "id": "p_volunteering_news_3705006749",
-      "title": "В социальных учреждениях Тверской области обнаружили фальсифицированные молочные продукты - RuNews24",
-      "summary": "Помощь людям, приютам и природе. Источник: RuNews24.",
+      "id": "p_volunteering_news_429348272",
+      "title": "«Их сердца тоже нуждаются в вашей любви!»: крупчане передали корм для животных приюту в Жодино - kr…",
+      "summary": "Помощь людям, приютам и природе. Источник: krupki.by.",
       "emoji": "🤝",
-      "sourceName": "RuNews24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGlaVWRUQ3FmVDlXa1pWZ2tETEstMWs1ZHdRcWlqNk14MEpfYlJaYXlzcGRfeTNuelJld1hJV3dCZTh3NlQwc0Q0ZlhHVjhwclJEMnFiSTl1eXE3U3FGTmU3ejZuVU1GNVN6TEFWQ2NzRkttVHRyUlJjMmdFdHZoY08tYmxySnNCMU9hUk1QYUljUkJzdEQ1NE5zcjFqcnMyVGNYM2hRVWRwSTFFN201elplOVc3OXRKb2ptNTdVT1JBcHZlUXlnc3BHaV9xVjQ?oc=5",
+      "sourceName": "krupki.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUxrX3dnd2F5SkxaWEJpT1FGN1Z3ZkVtX0h3QkxRc3VzMW9ubEZGTWZDMTBuN2NDbEZjUDZ5MkVxemxlVFExQzQxSzYtaHhsdHczN2RKMm15UENEYWs0bjZ0V1hCeUZVa2VsdUhKU3VaQ3psbmZFc0JSXzVwaTZUNDhDUWcxcy1kMEYzOEx1QndVcUZUbm4xdlNFcnBXUk1sUHJCcnZ4dWdTdDBKaUNIR1RQUEFnUHNGNU1xY1pQUndjTm93ZmFwVzltOUwyUQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-24T10:41:00Z",
-      "likes": 37
+      "publishedAt": "2026-11-25T12:00:26Z",
+      "likes": 16
     }
   ]
 }

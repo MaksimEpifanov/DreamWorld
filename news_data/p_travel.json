@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_2247736817",
-      "title": "Клиентские дни в автоцентрах «ТОЧКА»: тест-драйвы Geely и BELGEE, внедорожные маршруты и подарки -…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: ABW.BY.",
-      "emoji": "✈️",
-      "sourceName": "ABW.BY",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOXQ4QmJUcTNhdi1LM3ZpTXE0SXFCRnh1SklMWFlTOW0zVXVjcGtDbFpJQ2pCc1VuRVk5NTdfOC1jdzZTNVZVXzRaaEV2a1dVVUhCRDBYVGE3V252U2g2SlBDRlZfeGN0aFZiRDFubGdVOWpGTE0yQ0lMTHhLaUdUcnhORUE3S1c2dVFEOUVnZmhZSER1aGJzcE5YUmJGVUJEVXl5SzlpR0FtRFFUdXBXcW0wWGZwaktzeG04V19ubkNwSUNfWnJWeWQwQUp5OHR4ZVJ30gHYAUFVX3lxTE4zLUpSYjc1MXMzLTRqMGhYbF9DTkFud2ZuTTcteF9LRll6Y3NaN0tVUzdUNS1RZkQySVhpNDctSjJOSEx5WjVVaTF0dU5LbUFHb1ZJNlJJXzN1aEV2VU04SHRncHFTeUVsVXZrVi1FVGhwWnJyRnBrLVpmdHY4SldPREdQZ3ROSU5ldV85XzR1TkdISGxwa3JZOWpsTEZRWVdXRDN6dnBCZjlPY21idmZSNUJJWnNzMXhtNm9qM09ZbTFOWjg2Zk5xZzB0S3dfbmtfd0xFNGJiRg?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-24T21:00:08Z",
-      "likes": 82
-    },
-    {
-      "id": "p_travel_news_3184636314",
-      "title": "Не пляжи, а чудеса: 6 категорий невиданного Таиланда, где каждый маршрут отдельная история - irbis.…",
+      "id": "p_travel_news_197488162",
+      "title": "Мальдивы без очередей: как устроена новая система, когда её запустят и что это значит для туристов…",
       "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
       "emoji": "✈️",
       "sourceName": "irbis.spb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNkNtYThkcXNnQzFNb2xEVDRFMWhlRTc5S1pRNi1GR3lrbTBFNUlxcnhLcl95NU56c0Vvc1lYd0hRYjR1eUJJeTRITi1CT0VsMGluQmFwUGlkajVqRnRpVXctNEJKbFNsOUFDN01QM1RoaFdsUjBIazQtZ1puS3p3SHlvRFpqMDB6cGZSMzVCZmRvQWRqWkV4S1E3aUctYUxKbEE2N3ZCZHRnd2Yzcl9zUjI0U19NcU5BU3FYSHJxV1dFOXJ2TW9SRVln?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYXZoekxaMHJEazl5SFdSVURRbkZPOVNwcm1mdTRoWERWTjdjNkFxTUNaZ196QThQS3g5eHltN3ZPYlAxY0l4UENFSUxmQWNjS0trenpmTTJQWmk3c3V1MnF5RFF6UGFTNXFRY2REcVFDeThoVTlSYXltNVRyTUlKblJPY09fS2wzc0w0UzBEaTh4RERzU3NpclVSeDFKdXJ5MVZIa20yeFVSck1OQUFneG90dU0yY3Q1dnVQR3JQTFlKc1ZKX0dMcWR6VTBZeGU2bEYyVklR?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-24T18:24:31Z",
-      "likes": 10
+      "publishedAt": "2026-11-25T15:03:13Z",
+      "likes": 65
     },
     {
-      "id": "p_travel_news_4027496030",
-      "title": "Организация поездки с целью распространения образа национального флага и продвижения туризма в Као…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
+      "id": "p_travel_news_3165046730",
+      "title": "«Золотое кольцо Брестчины»: маршрут через Пинск, Брест и Барановичи запустят в 2027 году - TIO.BY",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: TIO.BY.",
       "emoji": "✈️",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWoyOEVZQi1xZDZkZUsxLVNfb0JTSDM4QVg5UHdDSFJ4dHQ1N0lTMVUtRmZlaWY1X2pDbnJtU2IxTzVNR2Rvdkc5VXAtZkN1ZGJWdG8tcG9Iejd6OThBTlNQTFhrUGp1YmtMaFBLYzBCWDhBNDlVaHJ1MDhnS1NONDFfanpFLTlRa2NmQjdPVkV5S2pCcGVBVVY4cVhpQ1U?oc=5",
+      "sourceName": "TIO.BY",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNG1PeTh4a2pSUEFoTnFITWhhZWVBT0o5Y2dXY2pENE1lQVZSS0MtUjQwalJYazdVY0gtY3I1S3QzS1ZiTi1US09pWVRtWmJidGtKTldoZS1mQ3NLdXRwT1NoaWJ0ZnpXQnpyWUlzLTJpVklaSHkwZy1iUXl1QUZzNjlVOVl6RTB2YksyWktUNUFDbHU1LXY0U3paRmF5R2FaS0JGWGR2cFFyMVpoNHhIckVtXzNzdmxZdzEyZ1c0d29xajRES05hZ3IyNG03QQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-24T16:54:31Z",
-      "likes": 24
+      "publishedAt": "2026-11-25T14:20:35Z",
+      "likes": 43
     },
     {
-      "id": "p_travel_news_2155801161",
-      "title": "Круиз в неизвестность: новая мода в туристическом бизнесе Европы - Vesty.co.il",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vesty.co.il.",
+      "id": "p_travel_news_1190491830",
+      "title": "Не только Париж и Лондон: какие города Европы становятся популярными для путешествий на поезде - 24…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 24 Канал.",
       "emoji": "✈️",
-      "sourceName": "Vesty.co.il",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qYVcyV3EwQ0l4bGJXc3lWdEZtb0czZXpScHUtM1o4MkRIQWVJRUxScHYzWXpqOFo1eEtCUzlfUzFMdWI0XzZ6U2ZTaUFfVDhTal93VzRabFAxMlk?oc=5",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTHphWVE5bWFEdnMyUEhPZTlZOVhVVHR5Yng3VTBSWmhNekF0ZHI2VWNzeXQteEFlV1dVSTY2WDZIUjhWeGRoUWtoOG5CazdleWRUNkVxV09LZXphZVR2V0Y1Y00xaW1jNmxXTF9jTVZHVFljeS1XbDhYMnBMb3E1RGU4REJjUjRRVlk5TGM5U1NUcmxweHhjd3FHN0Z6TFFXaDRZQnJKaXBmYUVvcDFPYzR5UkNkZHdrWnNvaDNDbGtwaFJCeFNn0gHMAUFVX3lxTFBkdDFiaW52bzJTOTdTVUZ6b3hZV1lPUmpSaDFReHc2Sk5EQXQ4QjhiakRIeDdKTTVqc0FGemdjMlhNaTItMFY2OW1veW5ENTJfZVFxMEp5MkVRUmRPbFhPaDlMeGIxemVXalhqTlVkRDJySFlKYi1BTjJLMGxZZ3p3aE9RRURKSE9fck90bTk5TFdtdVloXzNoMEcwanVEVXR3NkQyODJwY3pWbGUyaGVEcTZPRTJ1S3JjbF84TnhZYXM5alpGUVpmRmw1Sg?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-24T16:16:01Z",
-      "likes": 91
+      "publishedAt": "2026-11-25T14:05:00Z",
+      "likes": 71
     },
     {
-      "id": "p_travel_news_3707316411",
-      "title": "По следам Романовых: через Абрау-Дюрсо под Новороссийском проложили захватывающий туристический мар…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Наша Газета Новороссийск.",
+      "id": "p_travel_news_3192833085",
+      "title": "Центральная Азия как единое туристическое направление: что мешает странам объединить маршруты - Dar…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Daryo.",
       "emoji": "✈️",
-      "sourceName": "Наша Газета Новороссийск",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB5ZVpQUlRQOEdjVXhTNHlSSUxqWnl4TGpCWDNNckxBQ2tLMFFpSWVHMDR4dTFWdmZuV0RXOVNxcVZIMWcxTWtj?oc=5",
+      "sourceName": "Daryo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeEZ2eWVETzN6MFM2akhfb2g3Qnl2ZXd5aHNpUXZpRmxiSTJwTmIwSDhPRkJfeXl0dDVGWGNiYVl0SFFFV1JKbkx0bE1SYWxWSzB0YlJrWk5La1JnOTZ4SF85ZVpoQUpNUHp6RTU1eW8wMlRqTzlBQktyNVgzWHhHU3BwZDhseW1ZcFotRXRKbEJPQmk0VGRzT2pIQjZjRWhTTU9OZ1RmUU9STzgteVcySkg4eWU0cEVhZU5fazlYWm82WUt5R05R?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-24T14:58:50Z",
-      "likes": 82
+      "publishedAt": "2026-11-25T13:13:25Z",
+      "likes": 8
+    },
+    {
+      "id": "p_travel_news_1200876723",
+      "title": "Страшно, но очень красиво: чем Африка восхищает и пугает туристов - ircity.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: ircity.ru.",
+      "emoji": "✈️",
+      "sourceName": "ircity.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TMUxCcldFUzFUSllSU1I5cnF1eWtsczJQb1VtMHRxbmNFeXRpNER2clA2OWw4MGxRdUJVc0JSVHEwa1ZRZUJKczIzUVlqN0tvQ1A5Z2FoZEJjMnF4TUE?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-25T13:00:00Z",
+      "likes": 74
     }
   ]
 }

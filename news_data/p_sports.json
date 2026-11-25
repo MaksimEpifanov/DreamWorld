@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_1912191404",
-      "title": "Пропустивший более полутора месяцев Демидов вернулся в общую группу «Монреаля» - Матч ТВ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
-      "emoji": "⚽",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3RJY0g3TUxJNFRaelFmNlNIZUFvUjFQXy11a1pCdmlBeGQtZ3BXRXJPei1VdjhjQ2hoN2dnWHJoaHdZUWdrLS1rZjRMN0RZcEJJTHFvMTdFRGliczYzbE9DVWVVdzF0TVpLMEVNQWNnZ0kxMHRCSDNPZkY4T0pMT3dLYmpEV2U4V0RPeEVOM3MxSy1LVGNYRWJMc2k3SU50dkdGS3pndEJrTi1hX1E3ZzJMWlNwTWFoa2Z6WlBxeU41anlSbjNVcg?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T21:27:14Z",
-      "likes": 11
-    },
-    {
-      "id": "p_sports_news_2412526444",
-      "title": "Нападающий «Тампы» Гики перенес операцию на плече и пропустит минимум четыре месяца - Матч ТВ",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
-      "emoji": "⚽",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTUhxbHVFWm9TclIzZDc5ZmItb3pfWmFDMm0yaUlWT2dQa043RTh0cUlrTTdsaGdHMkNYTkhRSGczcmRiWjVTRUU1QTlOTkdYSW5rMzhlMG1PdGNONzRRUGxBd2tSengtMnZvaEpRcU50QTZJQ2dJSDY1YUFpaEYzR1k3NmkxZm5mMTBtN2RieGZxdTZvSW5Zakp1RlVac3Q2UFFNdVhzLUZMWnN6QmhPTGJ6aGROeG45Q1B2TlAxR1ctQkFJdjBhRDA4QWxFUDFl?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T21:09:42Z",
-      "likes": 41
-    },
-    {
-      "id": "p_sports_news_2158368820",
-      "title": "Миннесота Уайлд установила новый рекорд клуба - UA-Football",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: UA-Football.",
-      "emoji": "⚽",
-      "sourceName": "UA-Football",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVURrTHdmUWpKcTF2bXd6MURSWkprd05aTE9PWUJmUFpEQmY2XzFoSHVMNjZvUDloWlhzcHpDN3AzeXlYNXYzbHVkcmhNRDVubjYwWi15MC1YdFBCTF85RVJIMG1ZZ05jTDQ2a0RvcnhpQUVuek4tZkUxcVZPTFlRS3ZXRWZMeW8wc2JVTUxZQUE5NVpkNUZkTkRzVDBqVXBzUk9ZWNIBqgFBVV95cUxOdWhwMFBXLXkzZGZFYmt5dFpBNTRqWlU0SzE5aTcwVTVWbWMyeTVxWmRwZFJpMzRDVkw1M1ktTC00allIZ2szYXZmV1R6bFo2MTFmdGt1MHNoOE9VUWpxdlA1cjc1eDUtY0VmX0RhZUxPQUpIaExtOWU0c2lKZWlYS3FpdUhiU1JzUDJ3Q2FQOWtLQVlIckVfWF9QUGlWQi1pd3NXU1lRVEZqQQ?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T20:56:00Z",
-      "likes": 34
-    },
-    {
-      "id": "p_sports_news_3424569605",
-      "title": "«Вашингтон» изменил звено Овечкина после 16 матчей без голов - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
-      "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOEFWM19lRVA1Vk5EVXE0WTdLU3NTeWxDdmpJVjcwUGM0SE53dHoxUDMzYnltVkhNUWwyZlhCaWp1R3Fpd3ExWTNXNGNvbjE1a3FBc0JDdTJQa3k1V3lST0l0R1FDcnZ0Vm9uaU5rc1hyQ29NeXVBdEpCWllJUk9ULXhqd21WS1lmN04wMDZvOHRPZw?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-24T20:51:00Z",
-      "likes": 28
-    },
-    {
-      "id": "p_sports_news_2122987954",
-      "title": "«Олсон травмирован, начал кататься». Кудашов — о новичке «Автомобилиста» - Чемпионат",
+      "id": "p_sports_news_3506373896",
+      "title": "«Был частью великого клуба». Евгений Кузнецов поздравил «Салават Юлаев» с 65-летием - Чемпионат",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
       "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVktfdlF5YmJHVGxSclVVbTlHYW8wMER4VGw1OEt2NXo1S0paNEZIamc1RVkxT3NGZnFpUGpLTWNRZHo1YUw4NkJBcDVpLU0xZjdSc2xuVXJZMldrczVzLXJUWWFHUmhBb0JXaThJM2dMSU5FSkFVM21IdWVhSHU1MDJVbnl4MzY5aEhsUHJGQzJyaVE4TkFLUndXaWczMHpXRmlVd3pscFQtV2VGZ2ZNOExVdnRpY0dQamc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS0ZVLUtydkxuajZBQzV0X01nMGY3ekV6T09VVnFEZDhJWE1RbWZXR3hWR2Z0djdhenptcDAtUHU5NUdJblExZDQ3ZHBRcmthekJ1aVI5WnliUWUxaTF4eWhhd3lXanlHbHJIWUtvcFoyU2dKSU1aUWwtc2pUNE9VRDhQb2hmSWVrOHBTRVVvZVJrYW5EcmM1NEl2ZldSMnpBNDN5Y1lkT240SGNnXzgxbnk0U28yWkx5TWdEQUxIcUFqaWx6MmV5YTFkdw?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-24T20:15:05Z",
-      "likes": 4
+      "publishedAt": "2026-11-25T17:04:35Z",
+      "likes": 73
+    },
+    {
+      "id": "p_sports_news_4208376099",
+      "title": "Евгений Малкин вернулся в состав «Питтсбурга» после пропуска двух матчей из-за повреждения - Чемпио…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "emoji": "⚽",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNT3F1bFFSR1pyREtYRjhPNUFYZlNGLTJCTGtEUmpQWVJmWDlSdnV5ZVNxUmZ1YWNCUjR4Q3lOT0hVX1B1SVdXTjRtM3NoMnVlQzJaTWNGVW9wcnIxbGJHaWM3WHJybzhySnJuY3huQmFteU45emo2ZE9PYlY0TjZKdTBFUHpmakwwVUpnMkt0dXNaWTM1Yms3MVZBNjJDa28tWXU4UlhxbHVxX1A5MGUwTl9kOU02clBfb0t3dkUwdDZtaFlxOWhSOUo2M2VJRV9BMHRuSjFsWjlTWlE?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T16:45:05Z",
+      "likes": 83
+    },
+    {
+      "id": "p_sports_news_942095192",
+      "title": "НБА инвестирует не менее € 10 млрд в развитие баскетбольной инфраструктуры в Европе - Чемпионат",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "emoji": "⚽",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdGhBVWFrdVdlVmtjMlhMeWRWamhTWFlrcWRDdmZjeW41bE16NENGT25mT1hvTllkLVVhUWt6cEl3NFA0T1RFdmZWcDZTVThoV0NBRmp3dExNaWI2WTlRMGxsSF80T2k1dDAyX2dfeVFlY3lQX3N3aHMycmdTVXMtamlXeUZEb1NUNllfM3ZrT01mQmtYMVhrc2pGMGxNWGpGQ2o0RG00TXVUWmpuckZNcDFpR2owenJEYzFVRGE4NXRLaFAzYUVqa2xWaU1tVF9HdTRDeUR3?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T16:39:51Z",
+      "likes": 76
+    },
+    {
+      "id": "p_sports_news_2708199845",
+      "title": "Нападающие Александр Барков и Брэд Маршан вернутся в состав «Флориды» в ближайшем матче - Чемпионат",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "emoji": "⚽",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZDJaWXh2Z2U5a2RBeW11X0VfVmVJbEZkT1BUWUZsdV9aeGZKa0g0NEJoNWRMcFllUnJzbkc0NFZfVFcyeXNfbDB6Rkl6OXN6d1JRVUt0N3E4bmtXZm9PdW9LaXY5WmY3ejVYd1diSnhJVUYtcm5DSW9oRFVWRDczdW53SDVHa2REbW9CNEZReFg4bmJyUkUzQ2ZPVWxGeG42NmlObF95QjlZUnBZeUFkS0gwLXR5TEc0WDNreTRPVE1sRGxsLWJ1dHFpMDRlQ2gydFAwUFoyM3ItSkRy?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T16:34:33Z",
+      "likes": 50
+    },
+    {
+      "id": "p_sports_news_2795444012",
+      "title": "Шипачев назвал двух молодых игроков \"Салавата Юлаева\" хоккеистами уровня НХЛ - Sport5.by",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport5.by.",
+      "emoji": "⚽",
+      "sourceName": "Sport5.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQemN6aFNZRnNiNmRYcG1kRFpURzNrY29XZzRfWVlHcjF1NFY5b18zNHd0cmo5blUydGRsQ2EydGsxQ1BQT1JtS3cySXFNa3lsQnNMQk1LTk1RbDF3NlhPTHN3R0FEb1Z4c0NUd2EwSUg1c0ZfQ3F3bkRmSjVUem1XWlQ1OGR1U0MwNXBrWlc3bnlVeUQ2eGtQR1NJZGkxSzlpOXlwbzgzZGxRZGU5ZVJrRHh1M3Z2bVhJNGc?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-25T16:24:27Z",
+      "likes": 74
     }
   ]
 }

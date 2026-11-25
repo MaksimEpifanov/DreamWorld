@@ -1,9 +1,53 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_3495504105",
+      "title": "«Заточка» анонсировала альбом «Живой щит» — НАШЕ Радио - НАШЕ Радио",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: НАШЕ Радио.",
+      "emoji": "🎵",
+      "sourceName": "НАШЕ Радио",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VaDBSZzBzemlHdE01UllHUzVQdDFMSDRxNFd3SlZpcG85WEwydU9lRjVwSlBTeEVlSlVwVGRmdGFkM2toaHNyUFRwb01PbjhtcWpaZ2dwRlhCb2ZuX093cWsySVBZTE5zaTB0SWVGOUd1OGRDMGfSAXtBVV95cUxOdWxvUHlEN2dDVnpSU2ZLNmJMbEhnVmxGenNRRHNKSlhEQmlJYmdqTm9oTWhXcmRySzR3cEhFQzhobGNYR1pONzhjaU94Y0JkTWwxa280TXhhcnR2YnY4SzR3UVFTVmhlY1dPNTZaU1BXZEluYXZCLW9WeDQ?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T13:25:50Z",
+      "likes": 69
+    },
+    {
+      "id": "p_music_news_1881640942",
+      "title": "Россияне стали чаще слушать музыку из рекомендаций «VK Музыки» - Lenta News",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Lenta News.",
+      "emoji": "🎵",
+      "sourceName": "Lenta News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGVkNGZfdWRoTHJnU1JkUUtoVGY5a3pHcC1qM1ZMcnlzZDhYalplSTRBc0lEdjlUYS1FV2xYX2hPX2tHa3FVZ1FBdHZZYy1MUGc3SXZRTlBObjQ3VTd2bVdQTms3OHFQUXpDSG9WVzdHUF9LOVAyU0tpd0R3QmUzY2owenFIVzJWUjA1bVo3aEVpMTJ1ZW9ESTUtVi1pNU5TUmcwakxnUEPSAagBQVVfeXFMTUhlZDRmX3VkaExyZ1NSZFFLaFRmOWt6R3AtajNWTHJ5c2Q4WGpaZUk0QXNJRHY5VGEtRVdsWF9oT19rR2txVWdRQXR2WWMtTFBnN0l2UU5QTm40N1U3dm1XUE5rNzhxUFF6Q0hvVlc3R1BfSzlQMlNLaXdEd0JlM2NqMHpxSFcyVlIwNW1aN2hFaTEydWVvREk1LVYtaTVOU1JnMGpMZ1BD?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T12:41:00Z",
+      "likes": 16
+    },
+    {
+      "id": "p_music_news_2607040329",
+      "title": "Miyagi & Эндшпиль и Matrang записали совместный трек для нового альбома - 15-Й РЕГИОН - 15-й Регион",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 15-й Регион.",
+      "emoji": "🎵",
+      "sourceName": "15-й Регион",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONmV5N2s4ZHo3dVFaSU1YTDdHaV82b0poYjFYWXVFaTFGbUstd2dwckZNZWpEbWw1bVBlN0x1czkyN0xFSkFBM09hZzU3M1BQRHpQWDhDODNWUGlma3dkNG1kaDVrYURpM2NHYU15dXFDbVBRU3BMTEpydkJ4R29rd2JDRG5nY1ZUc0dSbVlmWmVKU0R4?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T11:36:00Z",
+      "likes": 13
+    },
+    {
+      "id": "p_music_news_2137602209",
+      "title": "Группа «Инь-Ян» – победитель третьего сезона «ВИА Суперстар!» - prospect.com.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnNoS0FYUDVvNVE0NzBpanh2bjFINE0tUDRfWHU0NjFVN2lJN3VnLUlLQ3hVVm5QQ1RNTzc3OE85RlZTdVRGWGJOS2FOWWdvWmpZVFhpNU9UbVBUWTFKN05NUXNCRDdRWGk3WFN3dG1XblRnYnVUYmgwMkhNaDIxSkV3UGtYMHZPbTI4UEtxMVp4RjRNRlNObA?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-25T04:28:18Z",
+      "likes": 64
+    },
     {
       "id": "p_music_news_3122854307",
       "title": "Дельфин выпустил альбом «Зла нет» - ПроГород Ульяновск",
@@ -14,50 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-24T19:29:15Z",
       "likes": 68
-    },
-    {
-      "id": "p_music_news_3012167837",
-      "title": "Айгор (Aygor) – биография, фото, личная жизнь, песни, сейчас - Biogr - Биографии известных личностей",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Biogr - Биографии известных личностей.",
-      "emoji": "🎵",
-      "sourceName": "Biogr - Биографии известных личностей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8zNE8zQkxKcXhsWlVEcjhDREVfb3dIM3pPTzJINERVNHhaSExsbHUxVnNDOGxWLVU2TTJESw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T18:42:31Z",
-      "likes": 32
-    },
-    {
-      "id": "p_music_news_1445561917",
-      "title": "Armin van Buuren возвращает Armin Only и готовит альбом на 36 треков - DJ.RU",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: DJ.RU.",
-      "emoji": "🎵",
-      "sourceName": "DJ.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxORWQwUm50azllRkZQSmdkODF4VFZiN2s5Tl9yeDdIa2NKdmhHMVYtNXlVcWhUUnZhWjkxZjVpbGVyOXhlTW5YQUVpdnd4Q0ExWmtwNFF3TjVuQ0VGcHRKdDVXWG5ydlVjc2JmNmUwR3g0blVMbWJ3bVZ4VFZ4b1FheEFnQmRRMlc3N25GSk1YOUhCZmk4djMxQ2g1MlEtZw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T16:06:02Z",
-      "likes": 8
-    },
-    {
-      "id": "p_music_news_3925188495",
-      "title": "Легендарная GTA VI собрала звезд мировой музыки: полный список из 34 треков - 24 Канал",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 24 Канал.",
-      "emoji": "🎵",
-      "sourceName": "24 Канал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN25wTVljMlMtNWFEUl9ScUdwZTR3Wm5oa01acnYwSTBPMTMxMmFjcUExSm85Y3JCTW93cnU0UG5sY1Nud2x2d3hKbWlkaTl6eXpzZnhmc0RaZVZTcm1zTTJmNk1nUERrQWJqVFJSUUo4dXB0dWFkNF95WEJEdzlWejQ3M0JsNVBLWDJ5dmJtRW5SYlc0aFVDbzNMaTJ0U2Z3MjllNVoyc3pnWmJ3MkRJc3dmdUo1U2MtTFHSAb8BQVVfeXFMTW5WdFFoMFBWX3IyZHYxVFBZWGVrT3hDM2JTMWl4eXk2bXBHcHV0ZkFITVdRSzVVMS1xZXhobTVVck83dVlpeUVtakpkejI4WDF4bFM5WE5zbXBGTjVnUm42LU9WbUVHd1BqcHV2RGpjVEt4MmE1OWpqcUYtQ1p3REs1bFpwbkhvSENrV1pCRXBpZ3k3NndXQWx1QW5UcFNHLWJTVlRXVmdFTUZ4OXlTWC1yMGNwOVIxUTQwZ24tdEU?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T14:04:00Z",
-      "likes": 63
-    },
-    {
-      "id": "p_music_news_3314394512",
-      "title": "«Новые казачьи песни»: Денис Майданов и Сергей Войтенко выпустили совместный альбом - Татарстан 24",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Татарстан 24.",
-      "emoji": "🎵",
-      "sourceName": "Татарстан 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ2h0OWZmSFRycFhSTC1LeG5TckdYZXA4MV9Ta2FSR2ptQUxFY2wtOVRPSlpISGhkc1otRHhNRGZSdFFXS3pMcFdob1ZDZ1BxSjNhOTJEYWwwdW1wM0RoOVFxNDNvcnhvQ2pCdElWRFowcGVoOW5wNzJzWjRZSW55bmVwTWtiNTZnMlp6T3hTZl9aeGdKNWRNWTFHNlVGQjRoSXVEZzlDNGVyenJPNnp6dThOOA?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-24T13:48:30Z",
-      "likes": 36
     }
   ]
 }

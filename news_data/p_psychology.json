@@ -1,63 +1,63 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_336054183",
-      "title": "Психолог — о том, как обходиться с эмоциями, чтобы они не провоцировали раздражительность, тревогу,…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
+      "id": "p_psychology_news_4085509813",
+      "title": "Психолог назвала скрытые признаки эмоционального насилия в отношениях - Здоровье Mail",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
       "emoji": "🧠",
-      "sourceName": "СБ. Беларусь сегодня",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ0p4c1NSeFBRc3hHNGw4MnFkbmRSZUQ2TWRrblRxa1NKczRINHBJRnVGZE1FbmZLVFFlQzhXZjk5UnUwNnBDOTJEbnAyTC10UWpkZkFoM2o4NHc4V2VaNXpHekNmZm5raGlxcERMUW5FUGJCZGpEQndlWWh3WnRlTFctMWxUZ1RabDhLek5OMG52X0ctbjk4R0dHYWljc1B0a3hnNVJiZUxna2JEM21uQkJWdC1mMWQ1TE44T1RnOWpMMnkxdUlxYmRJNnJuaGJ0c3kzctIB1AFBVV95cUxNZ0p4c1NSeFBRc3hHNGw4MnFkbmRSZUQ2TWRrblRxa1NKczRINHBJRnVGZE1FbmZLVFFlQzhXZjk5UnUwNnBDOTJEbnAyTC10UWpkZkFoM2o4NHc4V2VaNXpHekNmZm5raGlxcERMUW5FUGJCZGpEQndlWWh3WnRlTFctMWxUZ1RabDhLek5OMG52X0ctbjk4R0dHYWljc1B0a3hnNVJiZUxna2JEM21uQkJWdC1mMWQ1TE44T1RnOWpMMnkxdUlxYmRJNnJuaGJ0c3kzcg?oc=5",
+      "sourceName": "Здоровье Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNamZVR1JWY1lmd3FwbzZSTUxuU21ad1RYMUloN3o2MFRrRzNpc0pTRm9ENjRCeWVYaVU4algtWjJmeW1TX2dILTFBdkExVXlJNTJmNk50M0NCeG5HeVVFRldTMkRXMmxOV0RveTU0eTJsQVFGTkVIN1Z4VjdoNmNzdFMxNVpfNXUzMjEyVFJtSGtldDFOcnRzZmlfT0Uwc3VSeXZsUEVQcnF3dWpEVllIMA?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T18:45:14Z",
-      "likes": 65
+      "publishedAt": "2026-11-25T16:29:53Z",
+      "likes": 24
     },
     {
-      "id": "p_psychology_news_3830007207",
-      "title": "Психолог объяснила, почему слёзы жениха на свадьбе вызвали споры в Казнете - 365Info.kz",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: 365Info.kz.",
+      "id": "p_psychology_news_3609094661",
+      "title": "Жан Просянов и Илья Лейбин изучили анатомию лжи на ивенте «viju ночь эмоций» - Кино-Театр.Ру",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Кино-Театр.Ру.",
       "emoji": "🧠",
-      "sourceName": "365Info.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pVW5Zbk5JV241YnNDOUZzVGZRVmxIUm9vamt5Z3p6dXlDWDFNb3d1b0tLM0NRa28xcnB1VFJlUnd4dkdNWU5KSXZhNWtmVDdXbzdnUHllUHZFRDl4SVhKZlpuOWZMZTVjNWFxVTlLNA?oc=5",
+      "sourceName": "Кино-Театр.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wQmpiUW83Q0g3Mlk5THBPQWxSQXRFZWFjMVFWekI0elB1YlpZZjNCSEFnZHhtYll5cEZ6cWV2QzYtSXdrdmNuSHZYQ01kQjJ3bGtaRDlhNjRhNDhtWDI1V1g1NU1KUE9pdm9idQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T15:40:49Z",
-      "likes": 59
+      "publishedAt": "2026-11-25T13:47:33Z",
+      "likes": 52
     },
     {
-      "id": "p_psychology_news_2691562506",
-      "title": "32 года разницы в возрасте, 11 лет вместе и жизнь порознь: Сара Полсон рассказала о секрете отношен…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ТСН.",
+      "id": "p_psychology_news_2552975997",
+      "title": "Естественный запах партнёра оказался связан с качеством близости, но не с удовлетворённостью отношениями в целом - Мел",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Мел.",
       "emoji": "🧠",
-      "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWjI4b2lSaFBrSGJ0cEVnVHJOWUpFUnR0ZE9Mek02RXRrMkdBRWloY3Atc093bHozdWxiSmx0cWZrRFpKTU9oOEdwQ3RUSm9NRHhVT3ZCNVhSSjYwZkZybmNFRFNla2cxYlVaSWV6Y0IzMVVFaVFLaHJrRTVRdmF2M25NcUNsM1p5QS1VMlBxcFlhVmhya3dtTUZWSXVsdklfTmh6YTRFdkQ2SmVjOUdrUDlYVEh6dDZza2ZXbmlaUUFuWVdLM1UyUy13Rnp3TWJMUUxDMDR2a2F6dDNRWGl5ODZkWW1ZNkthNnBoVFZnYTJaV2hKN25ER1RJRdIBgAJBVV95cUxOcHJIWnZDeGp4Wi1kYTlBNXYxeDM0T2ZFYThpWXN4djVjRUVSV3BaeWJRNHEtTnRwQ1BEdFMtdWtSVlJsWjhkLS16M0FmTmhyZzdSSkI1cjZ5NXFlbjNSOE13NHVtOWlYZlFKQS1JVTBzdVQ0OFRFOHNCeEZoVGg3WnpsblE2amNkU3NSZ295cWx0UjBVWm9HNkd3eUdKSVhMTnotZjlRMU5tNWRyMWFKSTVQNTlnT2d4akxaS2E0Z2VINXhNQlNiYl9sWGYzOW8zRUN4OW1NdTVJRUVXUDdPUHJDc0hoMVNaSHFuMzJiMFFpSFJYZnJ5enU0bkRQd0N1?oc=5",
+      "sourceName": "Мел",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSmI0S2VVNzlCNlZvY1hjam9UaFVidjJTcDBiMEV1d0EyTm9kQm1TYWh2ZHV2bm1OWTFVV2JFanc2N0xLMVRoeWsyWmlHbnotbXZMMWUxRUI1MEhocWpZTl9XWEg2ZWhtREJjaEhMUmVEWUlEYi1Xb3dMYUxMaUZlaG4tUmx1Mko0NnM4d1BoS3k2NGpWZ2pCaF9oZERTN1lFYXppTW9QQ1hmWElsNDNnXzAzNlRhR0dFekxadmVZd0p4emltWXJxNkYxVjFyOEct0gHQAUFVX3lxTE9KYjRLZVU3OUI2Vm9jWGNqb1RoVWJ2MlNwMGIwRXV3QTJOb2RCbVNhaHZkdXZubU5ZMVVXYkVqdzY3TEsxVGh5azJaaUduei1tdkwxZTFFQjUwSGhxallOX1dYSDZlaG1EQmNoSExSZURZSURiLVdvd0xhTExpRmVobi1SbHUySjQ2czh3UGhLeTY0alZnakJoX2hkRFM3WUVhemlNb1BDWGZYSWw0M2dfMDM2VGFHR0V6TFp2ZVl3Snh6aW1ZcnE2RjFWMXI4Ry0?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T13:57:33Z",
-      "likes": 63
+      "publishedAt": "2026-11-25T13:00:36Z",
+      "likes": 36
     },
     {
-      "id": "p_psychology_news_2342095349",
-      "title": "Психологи проверили, что важнее для любви — реальное сходство партнеров или вера в него - Naked Sci…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Naked Science.",
+      "id": "p_psychology_news_2491070743",
+      "title": "Психолог объяснила, возможны ли отношения молодых мужчин и зрелых женщин | ОТВ - Новости - obltv.ru",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: obltv.ru.",
       "emoji": "🧠",
-      "sourceName": "Naked Science",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uekx0OVg2RGV1RHRtY3dWM1ZEWTg5eDhBVmlXdlZWR0xNQWNYRGdrOGR2UXBtQWlINFhnc3hUdUlSYU5aVWpBcGg1elVrMzJqNnNrNjd1dXo4cEFvYmZ0clZ5NVAwT2pxcGUwYlJ3?oc=5",
+      "sourceName": "obltv.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNajJiWld4a3FOY3VsVWJJdjBEdFRFdlpEcDdnQzNZdkVCeHVwNU1TaUh3ZlNvNXZrNUdyNjNxaFBTU0k5QTk2bHlNNzJTZ2dvUkpJWUJ2SjBJeEZiRzFzc1Rrc2VsbW15OE5tZlIyRExBVDFDT2ZtMnEzSEpZd1lZa0FjTjRrYzlOaGZOckFZQkQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T11:47:46Z",
-      "likes": 91
+      "publishedAt": "2026-11-25T06:03:00Z",
+      "likes": 20
     },
     {
-      "id": "p_psychology_news_2642479891",
-      "title": "Мама-подружка, или Что такое отношения по вертикали - Островецкая правда",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Островецкая правда.",
+      "id": "p_psychology_news_1284652570",
+      "title": "Почему «бежевые мамы» растят «сыночек-корзиночек» и чем это опасно — колонка психолога - Европейско…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Европейско-Азиатские Новости.",
       "emoji": "🧠",
-      "sourceName": "Островецкая правда",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeU5mZ2FFU2VGUDdRdC1nenRZUVhYanBCbE81MDA2UlpnNXJaZ2c4eTB6R1RSR19LeGVFZktoakM3RUJBekdvZlEzcVhsNnVmY0IwMkFYVG1HWnBydF9sOE9qREZKYWt1MzFoS0l0TXVRMlUwcDJ5Yy1NTGFIT1JBRGMwYV9yVkVQWGRwck83WU5RYWtremdvTGVBbENlZzQ?oc=5",
+      "sourceName": "Европейско-Азиатские Новости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVW9OdFRCS24ya1BBbm1fM2NCQzE4ejFRcl91R1NnRXBkd0xJVzRTMm45aUNORE1oa2o5M0dDbl83LTBiREpSM2c4UkMtRm5jUDZId2FjMTJqMlhIdEt0SW1sWU11clhWUkpianVkb3JVME93UmtmSVlFUXB2d3YzVElZVmhQbE5LajZVYzdFUzNOYnJESmJ1dDZtdW1IdDFIenhYNGVnUkNrejdWTHdMZW1McTVEMGFSYm1takxGM09nbHhEVlE?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-24T09:08:59Z",
-      "likes": 60
+      "publishedAt": "2026-11-25T06:00:34Z",
+      "likes": 80
     }
   ]
 }

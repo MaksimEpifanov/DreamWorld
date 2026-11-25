@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_2202850935",
-      "title": "26 ноября в Музее Востока откроется выставка к столетию 1-й экспедиции археологов в Среднюю Азию -…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Москвич Mag.",
+      "id": "p_art_news_1392444179",
+      "title": "В Твери откроют выставку «Отличники» о путешествиях русских художников - Общественная служба новост…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Общественная служба новостей.",
       "emoji": "🎨",
-      "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV1VWT1NvRjRsdnRQZmtrbkNnUjQyVmUyWF81S2VCQVh6aEJ3My1kbEREQnJuVDFfWVVrU2FPLUpkdWZqNWVOdXBpRFpSVEJTeDhGT3VTdXRXMmdaWVc3RnlXdkRPbDg3d3V1VmdweUtYN2poV05mMlZCVnhVYk1jMUw3MW5OdUYzc0QxS0pzQUR0QklvVVJtckI0dEtLUGJDeXpRWnhpWkhkdndyaG91SVJFUTlrQXNoUHRjWFZQTkNzajU0OEdTdHA4QkJNc0k?oc=5",
+      "sourceName": "Общественная служба новостей",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSERPTmcwU1g2eS1IWUR5Z1V2ZkRWeThhN1lfeGtJQnlDN3VuTDlLVzVkMUkwZjVNSEZWajRMVTR6Q0Y3dXNGaGNpdnJmdjJUNzhTNXBEejk5bjN2bEVfZThNNmhmdFpoTVctSzF2dDA1em5mUTBlOFBSRjRDVm1QR2FCdFp5QTl6Uk5DUjFSRVU2U0VSc1c5LTV3cTFEYXhBaWMwQXNPNzY2dw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-24T17:56:38Z",
+      "publishedAt": "2026-11-25T16:19:30Z",
+      "likes": 39
+    },
+    {
+      "id": "p_art_news_525939711",
+      "title": "Картины раньше стен - The Art Newspaper Russia",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Art Newspaper Russia.",
+      "emoji": "🎨",
+      "sourceName": "The Art Newspaper Russia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zc21OUVkzVDN0MmdDcDlZdWo5eG9XcU41c04wN1FXTHAtVC1qNi1sdnRqVjNGbkVGUDVzVzlxcDZHMWdzV2M5NXg5NFo3dU03a0xKbUlRUGgwdDg3UEl6RA?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T15:10:00Z",
+      "likes": 22
+    },
+    {
+      "id": "p_art_news_378668308",
+      "title": "Каким бывает аутсайдерское искусство - Агентство социальной информации",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Агентство социальной информации.",
+      "emoji": "🎨",
+      "sourceName": "Агентство социальной информации",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iWkJtZ3pxY0NiaDY1WWxuT1RGNlBWZHAxVlNkX0w4b1VVYnJnUlFCcHRBeHpHTG00ZWhYd3pmQkd3eG05QkhpM0NwNUJCREk4ZElRbVJkUFh3NTRET21XVFdsVHk?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T15:08:15Z",
+      "likes": 37
+    },
+    {
+      "id": "p_art_news_4038438476",
+      "title": "Одним Боттичелли больше стало в Пушкинском музее - The Art Newspaper Russia",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Art Newspaper Russia.",
+      "emoji": "🎨",
+      "sourceName": "The Art Newspaper Russia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qdVZ1azFTaVFWelVWWU1lU3VWV3Z3MDQ3Zm1aeTlVcGFBTElLdF9EZE84M25Ic3EwN3ZDTDYwbXNKS0N5VGZBWXc4azc4dnZiYWpNLWUyZHB4UEI0cFpkbg?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T14:16:00Z",
+      "likes": 71
+    },
+    {
+      "id": "p_art_news_3312459434",
+      "title": "Мученье юбилейное // Третьяковская галерея разложила историю отечественного искусства по «Стилям и…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
+      "emoji": "🎨",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM25WZXBhUmdqcVY3ekZUbWRiRGs3WWkzV2RtRm1ZenY5bTFwU0VxNXVGQzhDM1JCUWdwcWx0eTdYb05MOGc5aWlyUWswd3pvV1pRYXJFeGtfd2RMWTNkQ1VVX0VTNjBiOVNENlh6T3F4M3dIUmRNaFZRSjJIQU1ubk1GM1JqNmxiMTJFTXQxdWN2STdCSXRsSXRrY3VhUWU2d2ZQTkpuNXVoQmYzQlFqSnZTc204djZYc0U3WEF1RTRES0JUdmc0UlV2aUR6b1FFRnR1Y1ZLeWhQdw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-25T14:14:13Z",
       "likes": 9
-    },
-    {
-      "id": "p_art_news_3138078696",
-      "title": "Выставка «Пабло Пикассо: игра в графику» - Куда сходить в Москве",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Куда сходить в Москве.",
-      "emoji": "🎨",
-      "sourceName": "Куда сходить в Москве",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oa1dkMWxNOTRhdlpWb0pBRi1fbDlOWFFpaU9HMEdiWmctTXFNeHBKMXhXLVRBbzEzR3puN2luTzVlcVd2T3R5WmlpeWRDUzNQYURIYTBTdE9rNmgxai1HNkhxTmhCVVJYLWNVNmpaMkdhYURZ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T16:49:02Z",
-      "likes": 21
-    },
-    {
-      "id": "p_art_news_659867422",
-      "title": "Нонконформизм и искусство жизни: чем заняться с 24 по 30 ноября - The Symbol",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Symbol.",
-      "emoji": "🎨",
-      "sourceName": "The Symbol",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmt2RmxOYmtLMGZlc3lOZ21xWGtRc3Iyb0RtU0dpQUhDbE8zWW1RajNSeE9YbXJlcS1iR2I5WTZEbUNyblhNbU1BcC1oZXNwXzdlZ1dPdzBOMm4zY3ZPc01peXA0QVhCeUNoX21RXy01NWJ4SFptTFBmaG13MDd0aDNOUGNkdWtoRm1oSVg1dmlIOEI3NUh5a0xPVjR5RzNLdnE4Mg?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T16:00:00Z",
-      "likes": 13
-    },
-    {
-      "id": "p_art_news_3760085516",
-      "title": "В музее Калмыкии пройдет выставка работ Олега Цаганова - Степные вести",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Степные вести.",
-      "emoji": "🎨",
-      "sourceName": "Степные вести",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE83NS1MSDEycjhjbVplWUJtVG02a3ZlYlNpaDNvX0tTMlZRandlU21zcmRQandJSXpaa0w4Y25OZW1yTU5OM2c4?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T15:52:51Z",
-      "likes": 42
-    },
-    {
-      "id": "p_art_news_356472959",
-      "title": "Картины Кандинского в музеях России: где увидеть в 2026–2027 годах - RUSSPASS Журнал",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: RUSSPASS Журнал.",
-      "emoji": "🎨",
-      "sourceName": "RUSSPASS Журнал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaENQeFl1aXZiV2JIeGN3OFZENk9PcUdqQXc4OE1yZEVGVGw1VDVUSVppZkFyMUFQQlZHUW1kdzFpc0NDSS1WcF96T3M1TVVYVWp6MXFKLTRwOEt6Y3lZR0hRZng1bHVscmR4Z3pOMG40eEllc3dNRzF6UVh1OG9UWVFoUWdWdmc?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-24T15:07:24Z",
-      "likes": 40
     }
   ]
 }

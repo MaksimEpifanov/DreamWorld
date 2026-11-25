@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_3999580034",
-      "title": "Без света, но с праздником. Что приготовить на Рождество и Новый год - Ukr.net",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Ukr.net.",
+      "id": "p_food_news_541753436",
+      "title": "Как приготовить вкусный холодец без важного ингредиента. Рецепт от фермера - КаспийИнфо. Новости Ас…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: КаспийИнфо. Новости Астрахани и региона.",
       "emoji": "🍜",
-      "sourceName": "Ukr.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tQkVKa01ma2g0b2RzbXhjNUMySUJ4bE1jaVNpckVWbHZObm43UG1Zc1hjcUs2amtHU3NoUzNKTHhpUERFRlp4R0xWeFdNTXE2cWpyQVVpWkllTmZWal8zUUI2aktRZw?oc=5",
+      "sourceName": "КаспийИнфо. Новости Астрахани и региона",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xOVlGd2plX0NQeTF1RVNZN3dLcGVVMTlCU2FSV085a1VYQkpBMGxvTjdSQTEyNUJHWEVtMnFWU0lHYmZjTkFMVmIxRmJ4VFJucFRsdFJrNnkyX0lfalE?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-24T21:23:58Z",
-      "likes": 20
+      "publishedAt": "2026-11-25T16:05:07Z",
+      "likes": 11
     },
     {
-      "id": "p_food_news_1644767924",
-      "title": "«Кулинарная кража» года: Турция и Греция сцепились в новой битве за любимую еду туристов - Tourprom",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Tourprom.",
+      "id": "p_food_news_2997901889",
+      "title": "Что приготовить на Новый год 2027: лучшие идеи для уютного семейного вечера - Факти ICTV",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Факти ICTV.",
       "emoji": "🍜",
-      "sourceName": "Tourprom",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oS1hNb2R3czd3S0ItQTlhYnZ0UG5YSVN5S0FmMnBxeDBjT0QxMmg4enhjNlJtdU52cmpuTHZ3ZkNJQnRiYndLMmZRQQ?oc=5",
+      "sourceName": "Факти ICTV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMkJkRXMzdUhQVnEtYVZ0ZldheVNxRGdva0RnWHVjU0dBRkNxZnQ4MzVSOWZtX0gtZ3I5aHpWSW5hV2pkMVp6Z1RTTjl3MFBVcE9Id29YRnJRVmdWVkJCN2xLYUhxbEJfRnk1SlVGS09ZeWJBLWJ0bll0WHllOTBOV0VKXzl4cTR1c0MzQS1fQTVPamV5a083ZDFBVWJ3S21LTHZETDB5ZzZaUW1td1ljaHJSSDJUNXdEbzJ1QTZwY3d1c0U5VXpZd0tLNXRCblN3LWlKNlB30gHbAUFVX3lxTE5CVUh2UWRGc2FQMi1WZVVOeEFOMV8yMF9aWnJrb3BkdWh2OUdpbFl5NmhiN2pjdUxDdDdxd0dhcXlOOVB6a3J3cW9ZbXlvN2pEN0t3MEZDSThwS0lKMURXTC1SRjMyR1ZzQ1hvWDY2RjFVMloya0hBY0tvcEFEOTZsOG9mcWZFa05mZzVjNjB3RkJ5NkdMQndSX2NuU2hfMm9TQmNEU09tdTNVQ2RYdmJWTFY3cW1xdlY5Z2k3dDFZQmhZRWptbGhWR1QySUg5MVhqczhTWXF6UktmOA?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-24T20:03:34Z",
-      "likes": 69
+      "publishedAt": "2026-11-25T15:15:00Z",
+      "likes": 48
     },
     {
-      "id": "p_food_news_786390072",
-      "title": "10 онлайн курсов повара для начинающих и профи с получением диплома - Sostav.ru",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Sostav.ru.",
+      "id": "p_food_news_3321961727",
+      "title": "В Алтайском крае планируют запустить гастротуры по ресторанам русской кухни - Толк – новости Барнау…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Толк – новости Барнаула, Алтая и Алтайского края.",
       "emoji": "🍜",
-      "sourceName": "Sostav.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90eUVTaEZMTGlZN0lTTGhTQ1dnM2Q2ZEx3VFB1Ul9KWVVQNWJTVk1rWm5UY2NWZUNDbkpSN3dmUFQtcUFwZUdDVkI0YWphX08wLTln?oc=5",
+      "sourceName": "Толк – новости Барнаула, Алтая и Алтайского края",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXJtMHBuakZhM2V5QmlmMWNTMGdHdS04MWp5c3VyT05QYzI1VnpyNVIxNGVFVmplSjBoZGJzS0dzbEo5TUViVXlaXzRveE9LSWdJZlRoaGNKR2JxRFZJZll0RFA3WGZFU1VKMkhzM0Z4OTFZaXpQOUc0SU9ZV3ljUDFlS0NiN0FlQWw4VVRtNXdabHdlVEkteWxWT2FFVEtrai1KUk9PMVNQbEVWLTE5azVqNWQ3d2PSAbcBQVVfeXFMTS1ybTBwbmpGYTNleUJpZjFjUzBnR3UtODFqeXN1ck9OUGMyNVZ6cjVSMTRlRVZqZUowaGRic0tHc2xKOU1FYlV5Wl80b3hPS0lnSWZUaGhjSkdicURWSWZZdERQN1hmRVNVSjJIczNGeDkxWWl6UDlHNElPWVd5Y1AxZUtDYjdBZUFsOFVUbTV3Wmx3ZVRJLXlsVk9hRVRLa2otSlJPTzFTUGxFVi0xOWs1ajVkN3dj?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-24T15:48:15Z",
-      "likes": 86
+      "publishedAt": "2026-11-25T13:53:39Z",
+      "likes": 68
     },
     {
-      "id": "p_food_news_1069195125",
-      "title": "Как украинская интеллигенция праздновала Рождество 100 лет назад: забытые традиции и блюда, которые…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ТСН.",
+      "id": "p_food_news_503719245",
+      "title": "Рождественский пост 2026: простые рецепты, которые не надоедают - nashgorod.ru",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: nashgorod.ru.",
       "emoji": "🍜",
-      "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORHFJd0tnYnFPVC1fNE9xZUF1TmxtdUgyNmZYUUUwSnZNZURzLTNLLUl6dFMyMGJlUEZBRXh1OHhJM1ZmR2NGVXZmMXkxbGxTT084bFlKaVdwZTZTamZuNl9XSmJHZGdXVEJiWjhBcHZQVzhEZEJpQmNnRXRvTTRZXy1lRDdNOEw4eFZjMUxHeDBGTmplRnVQd2dydkthc1pPMmxia3Vmcld2RHpOdGV2MFRLRlMtLUVfWFhRSDV3NjlpVlZlbjBKNUNEZldNRmFnZVltTktSa3VIWnFKRW00NUI1NEQwZE3SAewBQVVfeXFMTl80c3BDZXNCZmpPZlpnSGlVck9wUE5zT0ljOGF2MWpyRFJyQldkMm9Ta3lLV2U2NUxOTk1tVi1TalNjYmRkOE9Eb2pXNkJwZHNrSGpWb1o2bVJ6bnZXR2hGa1BSLTVWTnZvS3NIT0ZnZ1gyTmFqeU5lNUxyYlE5S3laSWJ0LUdVS3JkaUdwZjU2YV8tUERQYWt5QWk3bU5DUDQxSDFrQnVzRHBSdGtVdkFERG5rUjdMd3hWMHJnSUxxc2djMUpvdlU0OU5aVHIwekp4MzJpS3RKeXFKMzFRaFpFZkl5Z25iNTVrX3c?oc=5",
+      "sourceName": "nashgorod.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM0tGNzgzTmpBMWhfWlllVDhYYmpMQmtzSkdEdjlLV2x1dXowUjNUZHR6eFdCR1E1dGcxak15NC1pWWR5ZnhtRTRWNXlkZzNKSXlKYUswVTZjeVB4WTlqeUU1TFllX0c3NXJYQlVBNFRWWGlvbmFjRHlHd3N0QklqMkJSNHg3U040c0JqWEJkYTV0d0QyRVlpcjRINTMxUXFHWGxjMzhMTGszemFLRFE?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-24T12:41:53Z",
-      "likes": 15
+      "publishedAt": "2026-11-25T13:17:59Z",
+      "likes": 32
     },
     {
-      "id": "p_food_news_1041449925",
-      "title": "Ко Дню матери «ВкусВилл» повторил завтраки из детства - Лайфхакер",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Лайфхакер.",
+      "id": "p_food_news_3038458089",
+      "title": "Во «Вкусно — и точка» стартовали «Альпийские недели». Что в меню? - Rozetked.me",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Rozetked.me.",
       "emoji": "🍜",
-      "sourceName": "Лайфхакер",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1leUdJYWlWX1MxaklFN1BoWFozX1JKd1ZmWVFhQi1MS0c5djJrX05qT0NkeFNPY2s5Wks0dkphSFlXdmc1UWMyQWtWMnFtOVRFc0s1M3pxTEVTYmxlWXA2WtIBZkFVX3lxTE1SZTZ3ZlROTlVnbWFoSHh2QzU2Ujl3SmptNURyTkJyWk9mWkJpUklFcDdJNGxOMlFMTmZSVlJ5NE4yc21uTHFxdlh2Q2Rjbm5GYno0d012YjVPbmN3Z1VYSmJ4RmNNdw?oc=5",
+      "sourceName": "Rozetked.me",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0QwOUsxdnF2V1lqTU9qVGpra21NcXlNTVZUQi1mcExQam0zWnhzVm15SV80RnU1UW5LQW1UN0x6Wnk3UUtxS3llVFJWekVEdlppdDN0enBpRFJrUEd4aGhfdjRqM0hvLUR1VWNyMThEbWRGdzZKUjRTM21WV01rN2hCTHh5UUd5bmVKT3RvcmExVUJiWWpOSDJpRQ?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-24T11:30:00Z",
-      "likes": 90
+      "publishedAt": "2026-11-25T12:30:00Z",
+      "likes": 17
     }
   ]
 }

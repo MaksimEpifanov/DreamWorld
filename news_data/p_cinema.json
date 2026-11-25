@@ -1,31 +1,9 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-24T22:22:24.615087Z",
+  "updatedAt": "2026-11-25T17:15:26.204307Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_cinema_news_4242748616",
-      "title": "Статьи - В Москве состоялась премьера сериала «Сталин». Исторические факты в основе сюжета - РЕВИЗО…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: РЕВИЗОР.РУ.",
-      "emoji": "🎬",
-      "sourceName": "РЕВИЗОР.РУ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY1dpVVd5Z1c4clhpazFWSGx0ZUw5SHl0elZIZWNmRDBqWmFFVGs1blZmd081c2pGUy15MkRHMlAxbDJGcU9sb0VkYzRpUGp2ZGFwQ3Jxb19LRmZqVU5Hc0VlVVR5UnVZOUE5NFN4cmJvVUdMcEFkczlMLUhJeEc1WVFvRFc4WVdEdFZUV1NjMTN2QQ?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T20:50:59Z",
-      "likes": 77
-    },
-    {
-      "id": "p_cinema_news_3854029995",
-      "title": "Сериал «Сталин» Бортко: Миркурбанов с коробком спичек и «Ты — царь!» для Сухорукова - TVCenter.ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: TVCenter.ru.",
-      "emoji": "🎬",
-      "sourceName": "TVCenter.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM0lqdzVkeVpCMDI1bzMtMFdxUHBKLVAtbGI0cUhKSDJfYWtibnJzNVFNSVBkZGxjSU5XblBveml0bjB5aWxQNndWS2RkRkRNNmRJeHRseXltOE9EZXlNaHNjTDFaZ2E3azNqQ2J2N01HczN3VVBSc2RJYlBfSXdnaXY4bHJRdUhwOEFNeTJqUmhFdkQyTmozaUF5c1lkU0N4S1NVVzRtUWE?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-24T20:06:31Z",
-      "likes": 28
-    },
     {
       "id": "p_cinema_news_3251265234",
       "title": "Новые фильмы, которые уже можно посмотреть онлайн - Film.ru",
@@ -34,30 +12,52 @@
       "sourceName": "Film.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEdZSEUwalVtdHJKM3BpTHB1dzF5VjczbWt6bU5SMVdGOTdYOXB3V2ZaUUR1QzFMdEQ3TFhhbExXSUN3aWZDRHMxdkE5c3A4TUNQTFU0clVUVGhGbkVxN2h4UXF3a1Nyektod3BwOWxzaGlKNmc2YzZyOUNjRmJ0NXA0ZkdtVHhS?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-24T19:55:48Z",
+      "publishedAt": "2026-11-25T15:50:03Z",
       "likes": 86
     },
     {
-      "id": "p_cinema_news_1410539595",
-      "title": "Фильм «Дюна: Часть третья» получил новый тизер меньше чем за месяц до премьеры - CyberMeta",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: CyberMeta.",
+      "id": "p_cinema_news_3552972035",
+      "title": "Лють, муть и жуть, или Что собой представляет сериал «Тайный город» — отзыв - ufa1.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: ufa1.ru.",
       "emoji": "🎬",
-      "sourceName": "CyberMeta",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLThBWUJISGt1c1lzRnU0cVNhUWZtaVVSTHRpYUcxV1cycVdhd1ZaanRiLUsySm1IdHBydFNSX2Q0SUhxaUJobEZjN3RhNFd6NWhzazRqbXZ5cTJXblJxM1Q5b1FfdHhZTUFmcU51MmE4QzBPSExQcWVfSnBTX2dMZmZnanFOUmZIN3VITUtDcXV2REhsZzJxejByREhBR1FDTW1tdVlMNHE?oc=5",
+      "sourceName": "ufa1.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hZ29HYmN1eGFLdWtQZ1V3Z05wMzJGYmNManBYdlFCUkp2bS0xRkpGS01nazBoY3lLdkJidGJyVlhRQkc4QzBMR1lQY09KUm10SEpFdnlNUjhRWHNrQWVHRzdpc3pHUQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-24T19:39:01Z",
-      "likes": 90
+      "publishedAt": "2026-11-25T15:35:00Z",
+      "likes": 20
     },
     {
-      "id": "p_cinema_news_603258624",
-      "title": "Зарубежные фильмы хотят ограничить в российском прокате ради отечественных картин - DEITA.RU",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: DEITA.RU.",
+      "id": "p_cinema_news_3747295754",
+      "title": "Внешность 75-летнего Виктора Сухорукова на премьере сериала «Сталин» удивила публику - Lenta News",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Lenta News.",
       "emoji": "🎬",
-      "sourceName": "DEITA.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2d3JYblpaU2xNam9senp1bWdiOFczdzFXSng5Nm5saC0xRzkzUGh5X2tKekRSdlVoUlBTN3IwVEQ5ZzFiNHc?oc=5",
+      "sourceName": "Lenta News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0lnWlUwMk5xRUoyVV9MemUtTU9ZMFg0bFlnUjdBSGJWV1J4WDhHZWVRYVplcndqN1duSG5STzA1aURmMktoZkowNDNwejlxVnBqYXFQc3kyTDM1QllHRTJCMFk2aFVYbmZHdjkzSjhiLWFjT3Z2OVVHSWJ2UVRnWnFncGFjLTdoOWp5ZlZ5cGQ2eDBFWFFXdmdSMW5rRTVyd2FXcDB5dVVaMXdaeDhtTFBWNm1DY0pVY1FoMDdnb9IBvwFBVV95cUxOb0lnWlUwMk5xRUoyVV9MemUtTU9ZMFg0bFlnUjdBSGJWV1J4WDhHZWVRYVplcndqN1duSG5STzA1aURmMktoZkowNDNwejlxVnBqYXFQc3kyTDM1QllHRTJCMFk2aFVYbmZHdjkzSjhiLWFjT3Z2OVVHSWJ2UVRnWnFncGFjLTdoOWp5ZlZ5cGQ2eDBFWFFXdmdSMW5rRTVyd2FXcDB5dVVaMXdaeDhtTFBWNm1DY0pVY1FoMDdnbw?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-24T19:02:56Z",
-      "likes": 47
+      "publishedAt": "2026-11-25T14:16:05Z",
+      "likes": 91
+    },
+    {
+      "id": "p_cinema_news_2016717147",
+      "title": "3 хитовых русских сериала выйдут до конца 2026 года. Среди них – «Праздники» на ТНТ с 8,1 на «Киноп…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: click-or-die.ru.",
+      "emoji": "🎬",
+      "sourceName": "click-or-die.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjFmQno4VG1jandMWXpndW1IaHdKbVhRd2NfYmllZWFTRVBwSGw5YjA2LWpObE51Zm5Hbk1Qazk5WWFuZzlTYmJRQldOWWdPdWxLWVFXVnBZTHkwcHUwcmlkeWg3LUpBRHYxRFZBbFIweWxOVWprMEZYeEp6TkZ3Rk9lSkRKWkhLb1R0dGNJU2Y2dUlqX0xOc1ZDVFpXR1FqcnBPWGQ0Zk9za3hKTzY4MkxkMWFyUEdpQ3ZNOGRaX0NwZnBrTE01bHRxNA?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-25T14:05:30Z",
+      "likes": 6
+    },
+    {
+      "id": "p_cinema_news_495472575",
+      "title": "Вымогательство (2026) - Shakedown - постеры фильма - голливудские фильмы - Кино-Театр.Ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
+      "emoji": "🎬",
+      "sourceName": "Кино-Театр.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QWmwtSEpPd3JPRGR0SzRJSVA1b296ZmVuYndXSW55eGItTmNnamN5SXVDaUxDWElYMzhNVE5aVVdoUWZxZjlPRjdaeWFEeDhTczZDQWFwLVJvMFA1Yl9JaHhVbHpDVkhzMjRYVkRB?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-25T13:59:26Z",
+      "likes": 31
     }
   ]
 }
