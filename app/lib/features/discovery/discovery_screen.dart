@@ -93,7 +93,7 @@ class _DiscoveryScreenState extends ConsumerState<DiscoveryScreen> {
 
     return Scaffold(
       appBar: NeonAppBar(
-        title: 'Dreem World',
+        title: 'Dream World',
         leading: BackButton(onPressed: () => context.go('/main')),
       ),
       body: SafeArea(

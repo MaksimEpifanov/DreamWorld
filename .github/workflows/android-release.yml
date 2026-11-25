@@ -59,9 +59,9 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.1.7
-          name: "Dreem World v1.1.7 (Android APK)"
-          body: "Android APK из GitHub Actions. Голосовые сообщения в личных чатах (веб и Android), обсуждения планет с произвольной темой и бесплатными фото."
+          tag_name: v1.1.8
+          name: "Dream World v1.1.8 (Android APK)"
+          body: "Android APK из GitHub Actions. Исправлено отображение названия приложения: Dream World."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
         env:

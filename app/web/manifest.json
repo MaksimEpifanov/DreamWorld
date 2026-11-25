@@ -1,11 +1,11 @@
 {
-    "name": "dreem_world",
-    "short_name": "dreem_world",
+    "name": "Dream World",
+    "short_name": "Dream World",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#050B1E",
+    "theme_color": "#050B1E",
+    "description": "Dream World — галактика интересов: сообщества-планеты, чаты и поиск людей по интересам.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
