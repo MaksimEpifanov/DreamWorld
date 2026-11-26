@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_1510529974",
-      "title": "В НХЛ готовится воссоединение Малкина и Капризова - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "id": "p_sports_news_3666503831",
+      "title": "Минское «Динамо» вырвало победу у «Салавата Юлаева» в овертайме матча КХЛ - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdmo2b09PU2JnOWVYVXM0b1k3cTUyUnlxQ3l0QngxblB2ODhhM21SOG9Gd1VOMkhYZGtRUUVabFNLdVBtOXcweVZzRl94YnVvNHFiTUtCbnBLenRfMFpnRFBaQWNkRDJ4azY0M1VtUER1T1p4RjIwSDVuY2hFRUlaNDRwNA?oc=5",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdVdoRVcxdFFIUzZPbnVPenZNRldTNXJqYjJVek9QdW9yaGprbjFhN29mRVZyRHNTcTJvSjJ3bXpoZ1gtRGVWeDRZcjdiNktwYzhIZG9nREw0YzN5RWhIZjBVQ0F5eGZqU1FwSHhHSWdOcjlaXzR3X1ZLa2FpUTJIY1Z2WGQ0N0lRb19jVlc4M1Z5aDlMSlFRUktReUlPbTNoN0tzV0NfTzBwQQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T21:37:03Z",
-      "likes": 21
+      "publishedAt": "2026-11-26T16:35:13Z",
+      "likes": 47
     },
     {
-      "id": "p_sports_news_2885858767",
-      "title": "Игрок сборной России официально присоединился к клубу НХЛ - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "id": "p_sports_news_2089142506",
+      "title": "«Трактор» победил «Автомобилист» в матче регулярного чемпионата КХЛ - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeGFDTjg5UjRsZ3JHR3g2VEVXNHNtczFmZEdxVG1lbFVYMWVmR0NvMDg5aWswZjZHRUhEanUzcENDWHpkYlI4OEtWQ3JqWTlLdzVqWWtrcEZncnBVNUxQSThJeko1eFBFLXFiS0habXh4XzhBbVhDaUFNdExpdlg3ejZIbFNtZEhGUG04WElR?oc=5",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHBHaE5QLVR0YWRmTjhXZjdTcklsTGFBM3oxVUF2OHg1Nk1tMGR2a3ZrMFh1eHd2eDRDZlB5V3I5T1BmUlVJaTQ1MW9ZSDZmQWc1Q3QySWJXOTJNbmhreXpSUUdSakYyaUxneDRacTg4TDlTX25QQ0NfTVBqVmlXa1d1WWxaSW9HeWc1LTJyTkZnWW8xWFBFSWRGa0xOV1ByN0JJ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T21:16:50Z",
-      "likes": 53
+      "publishedAt": "2026-11-26T16:25:10Z",
+      "likes": 49
     },
     {
-      "id": "p_sports_news_2807507610",
-      "title": "«Локомотив» победил СКА в матче КХЛ - https://m.nashhockey.ru/",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://m.nashhockey.ru/.",
+      "id": "p_sports_news_616957999",
+      "title": "Легенда НХЛ винит «Вашингтон» в безголевой серии Овечкина: «Пора либо действовать, либо уступить ме…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: БО Спорт.",
       "emoji": "⚽",
-      "sourceName": "https://m.nashhockey.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5R0xCMm0wY1RlRWhRZlVlVWNGdWFkb1A0Y1hMek5aTzhEU2RJS3hyVzA0eTBJYTV3NXBpNXE2QnZfNTVmT0JTVjRlTHhXZw?oc=5",
+      "sourceName": "БО Спорт",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuT0NINDZSUXRNNHBsNHBGVkRDU2VKTW84amd1TjAzRkxKLUswNTdia1dReFA0MmtUUmppSE83dHR5dWVZdmRCNEtjRlBXNmtXZGl1ajRRNA?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T21:02:17Z",
-      "likes": 87
+      "publishedAt": "2026-11-26T15:51:51Z",
+      "likes": 68
     },
     {
-      "id": "p_sports_news_1672224402",
-      "title": "«Вашингтон» — «Филадельфия»: онлайн-трансляция матча НХЛ начнётся в 3:00 мск - Чемпионат",
+      "id": "p_sports_news_3993570422",
+      "title": "Здено Хара заменил Игоря Ларионова в отборочном комитете Зала хоккейной славы - Чемпионат",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
       "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOU19vRm4xNXkwaVA1eWFSNjRpRzRVYWVqd1FYcWt6enhJQnZENy1kYnlDYVdPbU8wdjVndEdYVUNPZ2FPRHI5VEVjcllWLUJDaEZHUUppb1dGWGhkSTh6Tk9YUEtXdTBOMnJzQXRtYnFsZUZfZjFPS05XUkdWYlpKdDJvTWdkaEtXRUVLdWpZU1VVazBoMWVlYlRXRWVIYzBUdWVPb0gzSnNYa3JzR2JqZ01Rb2ptZFZqV1NEeGZEWXRMTktFcjB0S2lUSnRSRWlGMGlCU0VQN25vSm05bS1td1V4OHZUQlNvZUV5SHZWQVB2QQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGhzV2dpQTZUNDVCRUpPYXR4cHh5ajFaak5saTk5VzQzeWJOUC1LNkFfdHpVNDVqSXV3c1YyV0tybEZSeElNLUhMSlh4dC1QSF9lUmEyU2stUmxyZzFBc0tUYUxueHQtckF6VnNjb2Zsa3hEeWw4c2sta2o1NHRQUHBCQzZ0QldjbzRLVE84cW0yOU5ScDduU3RIZGVLbmJLZWRaelBZb1NyQXdoWEVLeVpSYnoxVG9iMXdIbVBQX0ppR3JVVHpDWFFR?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T21:00:06Z",
-      "likes": 8
+      "publishedAt": "2026-11-26T15:19:19Z",
+      "likes": 37
     },
     {
-      "id": "p_sports_news_2889160693",
-      "title": "Капризов отписался от жены Овечкина и олимпийских чемпионов из России - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "id": "p_sports_news_1512418856",
+      "title": "Мария Маркарян объяснила, как осваивала хоккей в «Авангарде» — Новости Хоккея - legalbet.ru",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: legalbet.ru.",
       "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRm0zd2EyYUpoQTU0bkZMSERDN0FPeGJ1TmFoUUFHa1U0TmNBYTN2RjY0ZXlLbWROSGZXdnRuS293alhBdE5OS2NfODkzVy1ILTY5dHdodldBc3NLQUZVRDAyMmhpQ3JMQXo1STlLUFVJSkhqUzVSdVRqZEg4QUdIa0dxbHZ6bUpMbmk4VjJVTFFsMkx2UmZ4cURfalhGM2I5NXc?oc=5",
+      "sourceName": "legalbet.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZG1acmxqNDhRNG9KZzhFQzNuaGZSNUxieGp4dUNUbnNydkJrNmNtV1hEeWJOUmlkZlRPRlNkRm8tSlFOUkc1aTE2bTR4UXFzbnhDenE3ZzFCdjBRTWRxY1RQNWthU2lsMURaMEFjVHB6VVp5OGF4MkcxQ3FKVnJWWDVFcWE1U0NmOTdtMVhxTUk4TXAwdHc?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-25T20:47:15Z",
-      "likes": 90
+      "publishedAt": "2026-11-26T15:11:49Z",
+      "likes": 55
     }
   ]
 }

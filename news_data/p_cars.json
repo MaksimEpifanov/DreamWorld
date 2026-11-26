@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_2268547439",
-      "title": "В России рассчитали стоимость ОСАГО и каско для LADA Azimut - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "id": "p_cars_news_176220880",
+      "title": "Полноприводный Tenet Plus L6 вышел на рынок в России: цены - Китайские автомобили",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Китайские автомобили.",
       "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRzBjZE44UEtBaVJJQnF2czdDQ1ladWxOQ0ZkVmJNOEkzX0RxMFRocm9vNHdiSy05cEVkSS04T2tnbWwxeDRaZEdYNW5RU21vTVBIbndZNmU4cDdGVlZYaTI2OFZLUTRBMUU0MlJDRXl3M0p2cmtQREkxeFRjeEhLWHNhX1BTU2lFYWdUaVEzeDE1UDN3eVRGdjVrMDg?oc=5",
+      "sourceName": "Китайские автомобили",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTc0bTc4UTA4TGdob2lxRUxDakxESFpCMVpfT25IT2xPODhHN0ctSVhCQ2VSZTQyOThrTkJpVHo0NkR4X21CVWJMVmtNUHRGMjF3TkpWSDZJM0VvY0l2enJPdEFuYTJYczIxU1I2UU1oc3VkTFJBYmFJc0V4bnp2UDFhOVNyWlkyTjRBb1p5RjQ?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T19:36:47Z",
-      "likes": 50
+      "publishedAt": "2026-11-26T11:58:20Z",
+      "likes": 21
     },
     {
-      "id": "p_cars_news_3699765011",
-      "title": "Автомеханик Степанцов перечислил причины утреннего скрипа тормозов после стоянки - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "id": "p_cars_news_3820356355",
+      "title": "Кроссовер Lada Azimut прошел 1,6 млн км испытаний - prospect.com.ru",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: prospect.com.ru.",
       "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUTh3N3kxMllrQmc4QnBCZklPSnRxU1JXYU9jQVA3TUxlZU9aQ1ZVd0p5TVlZT2VRMWl3Tnlic0RkNHo2YktXZXI5VlR4Q0I4emtOcVk1ZVJQaUh4cXFPcUk0SGVKZ0NPTk5Jal9QMWZmcnVCenkyYTBuZFUwUVY0c0ZkQ3lYSEdMdGhEc1I0NVZBeXRiUEJDb0RtQVFkcElLS2pnd3MyQU9vdFp1U2g4NXpPLVF1ajFLZWpidQ?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEhVM3E3SGQxZnVSRkxKb3daMmxFcXBxLXA4Z2NjR2R6SEF2cGtFc0RlZks4dng4UkdUcWVCTDJleHhIZmVHcmdNMWM1WUtaLVJzbl9HZThfYndlcWhwZDJUQWZ6dTYxSmd6bmZSSU5YYzRfc3JrTW1aNzZCX1Z3LWxSck53SXB0cHhLdGF3b0JkeVlTNUE?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T15:07:31Z",
-      "likes": 72
+      "publishedAt": "2026-11-26T11:20:43Z",
+      "likes": 82
     },
     {
-      "id": "p_cars_news_2281599202",
-      "title": "Volkswagen намерен увеличить выпуск ID. Polo на фоне сокращения расходов - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "id": "p_cars_news_2403613460",
+      "title": "Volkswagen подготовил «подогретый» кроссовер ID. Cross R-Line, цена известна - КОЛЕСА.ру",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: КОЛЕСА.ру.",
       "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV1BFaFVDWG9JUW9NZkQ4ZVRFYU1vdy1kSkZ5dE11MEhNNVlOODZRWkVEcjRETlVxZy1FQ2hXczF0V0Rqc0ZJX2J5aGlCQWRQZEZRallldE9xRUJFM1U4WlJacGdaMDBIVlRsTGp3SkhXdEJoS0dxZjRlV0h6U210LWdXQm5UbDF3c2ZjQTBWMWpnUUx0aktLVTBoSDUwc0lsN2lxWHZIQmI5TzZERE1B?oc=5",
+      "sourceName": "КОЛЕСА.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaWtyZE9INGtTb1RNSF92QlhKVHVpQTdzYXc2bnBVQ0VqbzlNSmEtek0yVjgySVI0bFMtamxvZF9ndHpHWkpuMlBzQXhoSmNYS0x5YkJJOHdqSC1ickF0MTBKd1ZyNVA2UXJjV25wQlZWZGprVk9HOXBBOUlFejlWTUpZbXlqLWNMT2RRU1lMWU1YRVRRZThLTk90WW1TaHpu?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T14:30:45Z",
-      "likes": 23
+      "publishedAt": "2026-11-26T11:17:00Z",
+      "likes": 92
     },
     {
-      "id": "p_cars_news_2564332322",
-      "title": "Прокуратура предупредила россиян о мошенничестве при покупке авто из-за рубежа - Tarantas News",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
+      "id": "p_cars_news_4144866888",
+      "title": "Тест-драйв JELAND J6 AWD: знакомство с кроссовером без скидок на происхождение - Компьютерра",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Компьютерра.",
       "emoji": "🚗",
-      "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnV0eF9lRmdPLXVxWUk1akphZGJ2RFdBVU9mS2xGVzI2b1E5dTdHdlhOakttQTFia0x1Nk1jR2dkbW1LZUpHX2VBRVdNUTdwcWxlS3U5OTJtQ2NRc0huVDBKdWwyOHFrai04eUt5Mmk5WEpXd1UwMzNyb3oyaXp0RGlseDVJdjVrOVhua0pHWWRsX05wLUlWVXIzcmNZcWlUT0hDcXdlanJEeUtGZDVpaW43a3hTNzBwYnc?oc=5",
+      "sourceName": "Компьютерра",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TaFJvNFRKU1ZuUjgtSE0xZW9zQ2QwVGFhaG4tY0tWVm5sOE1vMjZ5WU96aExKb0dvamlUS19nMFZmODVyakFtN0tXZXFPVnBkQUdtWjNESTVjZEZ5VVZ0cTlTU2JsSXczaEE?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T11:22:02Z",
-      "likes": 19
+      "publishedAt": "2026-11-26T11:10:45Z",
+      "likes": 38
     },
     {
-      "id": "p_cars_news_1783603442",
-      "title": "Lexus представил новую специальную версию кроссовера LBX для Европы - Tarantas News",
+      "id": "p_cars_news_1928650211",
+      "title": "В России начались фактические продажи LADA Vesta с двигателем 1.8 Gen2 - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2Zfc05aSkdzSDBSZXpwQjY4d29ZeVRZanNvXzJyeG9kUGhPY0czUzQ4WEVpbjN3SmhfNFZIb3hZYVF1anZZbmNPRFZmNjNOQVp6aFNTYXVQVGp0LTQyZWwtdTNhbEJheXFrSEdiNnVrejJRenVuR0tEY0QtWVRMeUZXNXFTS1RscmZzSE43a3hBQ2tpTUV5cHljVXFqRFZhcDZqWG5kOHQ4amc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0R5UGFXWUN3c1QwTldrU1RDdjBsMzlnM3BXdVc3bUVNTVRvMmxkNmExV1ZZYnFoRDNKYWdxX3VCWkZNQnZNc0ppWnd2LVo3UzdlYmxuWlpla3k2MGp5b2xIajBlLUlhUDdqcC0wWVpvbllpaFpDVmNOUnk5RXFhRjdpSHlER1RiOXdHd0wydjAzOGtVUjBFWDlfeWxyaW0tUUx6bjFPUkpra0xN?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T10:37:15Z",
-      "likes": 63
+      "publishedAt": "2026-11-26T10:15:47Z",
+      "likes": 48
     }
   ]
 }

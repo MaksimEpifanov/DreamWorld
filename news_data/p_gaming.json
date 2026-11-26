@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_2236740381",
-      "title": "Переиграть любимую миссию в GTA 6 не выйдет — в Rockstar объяснили, почему - VGTimes",
-      "summary": "Кооп, рейды и вечерние катки. Источник: VGTimes.",
+      "id": "p_gaming_news_1955152037",
+      "title": "Исход игры «Салават Юлаев» – минское «Динамо» решил бросок под перекладину в овертайме - Электрогаз…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Электрогазета.",
       "emoji": "🎮",
-      "sourceName": "VGTimes",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZGwtUGV3Um5neUIwU2FPWDc5NVp1MGRwOXdWbEF3NExjRVRyUTJacnRBOF9YT2pROWZxQ2plQnM2OGg5c08xTmo0WkhSbHZnOHY2S0hVUzNLYnBQS19jeldNMzZyY21yLVFWZEViM1hzbjNiOEt3U2dJd196VmUwZTI1YzN0MWFFSG94azN0VFdWRzAtbVpRTTA5cTR0YlRQMFkzdXYtMjhoTjZtS3dnRXN0NjZ0Yl9QWEE?oc=5",
+      "sourceName": "Электрогазета",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmg0Y20zMnBuRmFFWDdaMWxNYUdPbjI1eFJRRURsSU1fWXBPUEZEQnhmRlV4eGd3RGZQOU1yeFV6aC1EVkV6dVZZYkJxcXdMOEZqU0ROS200clRrRlZMYnlhMkZDLWlwSkxOenpJYWJQUE9FNXU1aEJZaDBzZ0RJVXVlOW9VaFd4M3lPRTBpejZ0N2J0VjFrUmk1VEZYSTBRM25OdDQxY2lldmw1UTE2dkRScDJPNnJwZlctSGlYZmFjZ2xHS3VtVFNMN2Y4dG13aGdV?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T20:28:57Z",
-      "likes": 42
+      "publishedAt": "2026-11-26T16:42:32Z",
+      "likes": 45
     },
     {
-      "id": "p_gaming_news_303843965",
-      "title": "Сатурн. Наследие: демоверсию научно-фантастической ролевой игры покажут на Comic Con Игромир - GoHa…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "id": "p_gaming_news_4046600365",
+      "title": "Гасли рассказал о «играх» между пилотами перед новым сезоном - StavkiPrognozy.ru",
+      "summary": "Кооп, рейды и вечерние катки. Источник: StavkiPrognozy.ru.",
       "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNDlxMVEzb0dQWU5OR3hyamVqMGM5bjZORTNYV0dJbFdpSml1ME9qM1Y0dl9aZkhqaVF2UmVHa08wc1JGRzlqVTgzVU1XaTRpbnpPUWFuVnhGQU1xR1N4UHJUNXQwVkJ4VFlneGNuRENsX3E4UzRPTTI4X2FnWFNYdmR4Y1FBRlFkNkg4V0JvSFF3b0xjSU81VGVBMTA2TU9JM2pSb3J1QWhjWWpzcVFSUmRxaERwSkFZWTVOZFJ3?oc=5",
+      "sourceName": "StavkiPrognozy.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbzF5VEZBRTNqLXF6ZGhFUHdubldyZ29kcWlwa2I2WWdEUkdTS2tWLUhCVVBzQzJzMGsyR2I2Wko4ZU1ENTJVVV9wcGNzN1ZGT0hsZFNFRkNSTDMyWDI3UElMMmhsUUh3UkNXZDJ0OUdIRXhvTFNneDhseExfaE5kTDRnVVBZR0hlZENheUFsc3F6VnViTXV3T2Z2ZnlRVzl1MVNHOF9NSQ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T20:26:12Z",
-      "likes": 12
+      "publishedAt": "2026-11-26T16:42:00Z",
+      "likes": 24
     },
     {
-      "id": "p_gaming_news_975351295",
-      "title": "Дмитрий Кириченко рассказал, что изменил в игре «Ростова» после прихода в клуб - Чемпионат",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
+      "id": "p_gaming_news_3990406077",
+      "title": "Гасли: Между гонщиками уже начались своего рода игры - F1News",
+      "summary": "Кооп, рейды и вечерние катки. Источник: F1News.",
       "emoji": "🎮",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbklXb0JyYWxMVGU5WUo1V1NKN2FmTDRrNWJBZ0kzMmc5TE5udmMyZ2tVSU9MVkYtanlHRmU3d1dVOERDS3FVcVIyX3NuQURneEt5MnZfdlUxS1FmendheWF0VEdLTV9UaUVLeGYwZExSQkl0NG5tZ3BsOEpXR2E5Y0hRWTdHZ0RJS0VNNTU2dl9yUVhuVzlidl81V2NHQmUwWGVPTG5VN3pfNk1sQjRaRGh5RVJrd2tuQmhBN1F4eE1Ic3o1UTRHQzB3?oc=5",
+      "sourceName": "F1News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4taU1UajcwM2ZLWlM3aEpiSm9GOWJGTE5hNnNocm94X1E1ZS0xWmo1dU5MSHVFVkJ1Qlg5aEdtUmZZWFZ6UEs4NXp2XzZRVWpGMGNZ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T19:53:27Z",
-      "likes": 4
+      "publishedAt": "2026-11-26T16:38:00Z",
+      "likes": 49
     },
     {
-      "id": "p_gaming_news_2672529700",
-      "title": "Xbox Helix могла получить Steam и бесплатный мультиплеер - MobiDevices",
-      "summary": "Кооп, рейды и вечерние катки. Источник: MobiDevices.",
+      "id": "p_gaming_news_3077098301",
+      "title": "Алонсо хочет вернуть «Челси» более атакующий стиль игры (The Telegraph) - Tribuna.com",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Tribuna.com.",
       "emoji": "🎮",
-      "sourceName": "MobiDevices",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YRVphaG1HbW5lNzRVZ1p1Y2ktcjlONjkzbVhFMDkwcFlVR0hLdW04SlVXcVFCQkVJbHdNWjM5UWU1eDRTNzgxT1VEZUw3SzJmcjlVbEp1NEhmZEtPUzdPYzV3ck9vdjFYeXVrUVZ3?oc=5",
+      "sourceName": "Tribuna.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM3FCMlNMNWdTczA0dkJpLXZROW9uQmpBNnJ5cjJSaXB3UmtXR2lNcUd1MXZMRHM0X2tBcGhzaWVaTm1aLXhJRmdBTGVtVmZ2UEpKUXd2aFJRcDJVTkNRUWljVGZoUEh2ZWhsN19RNkgzeXMyby1wUEp5TmJFNDNMVHc0aUNRcTFDWVVrTDJsTG90Y3NhQ2w2djA0clJPX0Z2UENxblpB0gGrAUFVX3lxTE5QVHZuWGlDdzF2WlpMaEFhMWpWcWI4VlFHYlBwY3JmcEVDbGp2eTdtcTdMWi15VlBxZTRKb1FWamhLaUtoTWN3QkZXbG1SajY0dVJBV1JKcjh0bHNSLWRuRjRyNDFLTHZYN1hrUHJBVXktdXZra2JqdXBya0NBdWlERE1FV1RuU0VEazlfVnFVbm1qXzVlVVpXXzB5Ti1Pb21JWmRFdFNoTy16bw?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T18:53:55Z",
-      "likes": 51
+      "publishedAt": "2026-11-26T16:36:00Z",
+      "likes": 73
     },
     {
-      "id": "p_gaming_news_2330635526",
-      "title": "UPG поддержала шесты Всеукраинские Игры Непокоренных - NV",
-      "summary": "Кооп, рейды и вечерние катки. Источник: NV.",
+      "id": "p_gaming_news_3561617315",
+      "title": "Фанат Fallout: New Vegas и Fallout 4 предложил сообществу признать, что \"обе игры хороши по-своему\"…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
-      "sourceName": "NV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZWdodk1mM2FBUms2T1daTmdfa3Y0ZkJzOHQ3X0NXOXBfWnV5Mm9kN2d5V0lnV1BNMDV2UHNES285ckNlcm1IeHNEZXdwQVdQNS1UZ2g1YU9qRDkyX0JtdURxQXhiYUJJcVZ5d2pIcXV0ZFhnNkpraGlJTHMwem5fb05ha2F4aDYwVVQ5WEJIV055aGFrOFVIdmNFWXlDYmlCWlp0UmtaVEdXNmpJamk1a25IWlFXWkRxMWfSAasBQVVfeXFMTjl6ZHpQbmtqV1ZKUmhsOXNBRmxwdDlfMXh1SXA0LTVkcHk3UGw3dzVVa1pSRFB6QWVKWnV5M25ZN3RKaUJUcko1cXJMRm02cVJ2cWJoUXhEanZEN01JMGhvaFU5Y0ZTZGRKYVJQeW13RVRuRkdBWm9QZlFRWkpfVmJCd25JdkhaeF9kbEJzWERDbGFHUHQ3M3RObFJLMklZT1dWZG9HNTFUQTM4?oc=5",
+      "sourceName": "Shazoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQUhnVzA4WFlVQnFhRzB2bS1RS1ZVMGRZU280bk5INU5GYVJ4SmRkVmdmdGtGNVNSM3gxUXZKOEgwU2F0c29fbkFibk84cWhmMXVmeDI4SlFXTjVOeFJzazl4YjIxaE5XTXhTSE96YlAzZFl0MjB1WXVoTXhSejFkMkNCbnlTU3l1S2lKdWk3V1FOVDlmLXJESDBhczhzazBpajJWVWNkd2g0T3BYMktkMTJXY0tqbXR3aWxzd3ZsOEdNa0tDRjJLXzc1b2sxUF9WWDZadDNCSlFfQUluSE1vdEc2S2ZvX0pUTzlwUGNFUnFmNlZHRHpz?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-25T18:48:25Z",
-      "likes": 34
+      "publishedAt": "2026-11-26T16:20:00Z",
+      "likes": 26
     }
   ]
 }

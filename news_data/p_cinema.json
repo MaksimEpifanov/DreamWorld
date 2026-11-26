@@ -1,19 +1,41 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cinema_news_3711508365",
-      "title": "Канделаки: «Тайный город» и экранизации произведений Стругацких и Кира Булычева — все это работает в копилку возвращени…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Sportbox.",
+      "id": "p_cinema_news_926040045",
+      "title": "«Приемная мама»: чем закончился сериал, финал истории - kinoryad.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: kinoryad.ru.",
       "emoji": "🎬",
-      "sourceName": "Sportbox",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMUozZGVNRDhnamJmalNmM3ZGM2FyVERyZkxRNnVvdjdNYTNabVpSVFJLd25seW5JSERkZGEyMThTVGp5c1JxaWpmdEtqUkFQeFpmNEdKa0lNZFZOMnMzc3RNblJmb1FHbFM4OWV6cm5memxRLVJsWjdaRGNwaE1NN2U5THJBajZmTmV0MEltdk9uNTM0OFRkYV9fOWdBUENZSGZoQ2FuUXZ6blhGY1RZR1FjaV9WTGtHMGhrR1dMZHF1RElMNGFhMWtrbnBfV3IwVTNLR0cxVUI5RzVEMFJ6SVdYVVYxdUt4cG0tLWFUSWRqZkJQRFpKLWJUbG44aXFYbmxxVnVWc0k1bks1UldGcQ?oc=5",
+      "sourceName": "kinoryad.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT21HYVdhREZwYlJLaTh1dkZLdV9yUTE5bk92ZW42QVlYY1YzX0Vjb0xmUHowdW94NkNMeGFqM1Zvek9aTFRKQmNmUVY2dE5VMTNWdmJWNVBqb3RPWTFsU0gxLWZQQ05jcHp3U3ZGbjVxQ29WV0x5U3Q1OFpvcDMzSF9ORnNJV1hOQ1dyZA?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-25T19:06:09Z",
-      "likes": 18
+      "publishedAt": "2026-11-26T15:07:46Z",
+      "likes": 75
+    },
+    {
+      "id": "p_cinema_news_1848093766",
+      "title": "LEGO выпустит четыре новых набора к премьере сериала «Гарри Поттер»: что войдёт в коллекцию - Mixne…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Mixnews.",
+      "emoji": "🎬",
+      "sourceName": "Mixnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSHdXU0lBUTdYblNncU9pS1J5MndyTnc2ZHdqX3hYMkxPNTFFZVVDQmZ5R0puZm4tTEZNTHlpYTdrakNmdVcyak5xX2xmcUJrWVhkcUUzVFVDbUdyZk01czdXSS1BZUxYWW9BdXgzLS1sTU1Xb0tiWWtUTktwdHYyS19abV9Zcm1sREw4OFlpbFlhX0NFZ1N6QmFxQmloMlZ3b1BfdXpVMDY0WTlnS01DOThNdTdPQzc2VFlhWUtrR0FYU3NkSmx4WmNB?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-26T14:04:04Z",
+      "likes": 13
+    },
+    {
+      "id": "p_cinema_news_3332800277",
+      "title": "Озвучена дата выхода новой «Каменской» на PREMIER и опубликован полноценный трейлер сериала - tvmag…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: tvmag.ru.",
+      "emoji": "🎬",
+      "sourceName": "tvmag.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOWVrdVVDbVZsUjNnd2xNbVlkVzdTSjVOWlktYmZrTHpHZ2txeThEY054UUV4R0g0UXpwQ3BtT3ZTMlktVjZ5NldBVGwxNm10M0d4ekVJMGFfN3FJa0wwMTRSejZZbnp4YUlIZkRMRjZCcW00VUR1NkJlWDZqQkxiZFBMLWcwX2g5OTVtbnBzdmRXR1Vwb1plNQ?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-26T13:34:38Z",
+      "likes": 11
     },
     {
       "id": "p_cinema_news_3251265234",
@@ -23,41 +45,19 @@
       "sourceName": "Film.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEdZSEUwalVtdHJKM3BpTHB1dzF5VjczbWt6bU5SMVdGOTdYOXB3V2ZaUUR1QzFMdEQ3TFhhbExXSUN3aWZDRHMxdkE5c3A4TUNQTFU0clVUVGhGbkVxN2h4UXF3a1Nyektod3BwOWxzaGlKNmc2YzZyOUNjRmJ0NXA0ZkdtVHhS?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-25T18:56:09Z",
+      "publishedAt": "2026-11-26T13:04:38Z",
       "likes": 86
     },
     {
-      "id": "p_cinema_news_2318196367",
-      "title": "Лють, муть и жуть, или Что собой представляет сериал «Тайный город» — отзыв - Новости Волгограда и…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Новости Волгограда и Волгоградской области.",
+      "id": "p_cinema_news_1294882710",
+      "title": "Французская комедия «Бедный богач» (2025): смотрим 26 ноября, где и когда выходит, о чем фильм, под…",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: http://tricolortvmag.ru.",
       "emoji": "🎬",
-      "sourceName": "Новости Волгограда и Волгоградской области",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTWdMcXN0ZGlGWWM4TGRoakRrLUtxSFFTT2NvMEZmWWRGMGw5SGlhSTc5TURYX3hVRDRWV2thX3Fib0c1anNZdWF4ZS1fZ3Ffa1NkSmJfX0NEZEl6ak9SRjdZWQ?oc=5",
+      "sourceName": "http://tricolortvmag.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU3NRcExXMWx0N1BfOC1QdTRGeDNyZlBsOVFHWkl3bC1UY0lkaTFMWWxTd0VsRW5VQVpERTI4TFowZzl6dGRiZzNoVDVjYy1Hc3JjYXBkdDNCS3paaktzM3F5MTFsc3VYamxjVmdTR3p2M25BeDRjWkUwUlVlbUxzRmFVRTQ0SEo3Y0hSbklpdFEwXzRyOFdZa0V2anJTZ0JDaWJfanp2bW5hUQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-25T15:35:00Z",
-      "likes": 9
-    },
-    {
-      "id": "p_cinema_news_2435669097",
-      "title": "Внешность 75-летнего Виктора Сухорукова на премьере сериала «Сталин» удивила публику - Lenta News",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Lenta News.",
-      "emoji": "🎬",
-      "sourceName": "Lenta News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDFSUnIyZnhsYk9QNmhjeUtfU1ltY1dTdGlaZUJwOF9rTDh3TU5LdjJTV21SbWxhU3FrMWE3M3dEdVJ5T3pXYWFVWXdmUTUwbEFNWGM0NHltN0ZMc3BjQnh3a1pKUUZPQjZDSUxBTzJidFVoeElLS25DRTVjU3lPSU9nWGNPWUIxT2hGOEx3Rm1iWHZJbTdGZTN2dWJDbHJIN2xXVzRXeGJCYkwtejZUTk9sZzBiOVVXMGfSAb8BQVVfeXFMTm9JZ1pVMDJOcUVKMlVfTHplLU1PWTBYNGxZZ1I3QUhiVldSeFg4R2VlUWFaZXJ3ajdXbkhuUk8wNWlEZjJLaGZKMDQzcHo5cVZwamFxUHN5MkwzNUJZR0UyQjBZNmhVWG5mR3Y5M0o4Yi1hY092djlVR0lidlFUZ1pxZ3BhYy03aDlqeWZWeXBkNngwRVhRV3ZnUjFua0U1cndhV3AweXVVWjF3Wng4bUxQVjZtQ2NKVWNRaDA3Z28?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-25T14:16:05Z",
-      "likes": 47
-    },
-    {
-      "id": "p_cinema_news_2016717147",
-      "title": "3 хитовых русских сериала выйдут до конца 2026 года. Среди них – «Праздники» на ТНТ с 8,1 на «Киноп…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: click-or-die.ru.",
-      "emoji": "🎬",
-      "sourceName": "click-or-die.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjFmQno4VG1jandMWXpndW1IaHdKbVhRd2NfYmllZWFTRVBwSGw5YjA2LWpObE51Zm5Hbk1Qazk5WWFuZzlTYmJRQldOWWdPdWxLWVFXVnBZTHkwcHUwcmlkeWg3LUpBRHYxRFZBbFIweWxOVWprMEZYeEp6TkZ3Rk9lSkRKWkhLb1R0dGNJU2Y2dUlqX0xOc1ZDVFpXR1FqcnBPWGQ0Zk9za3hKTzY4MkxkMWFyUEdpQ3ZNOGRaX0NwZnBrTE01bHRxNA?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-25T14:05:30Z",
-      "likes": 6
+      "publishedAt": "2026-11-26T12:50:19Z",
+      "likes": 13
     }
   ]
 }

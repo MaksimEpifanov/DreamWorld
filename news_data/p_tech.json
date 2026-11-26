@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_189976298",
-      "title": "ЕС хочет привлечь 50 млрд евро в фонд для крупных ставок на ИИ и квантовые технологии Европы - DW.c…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: DW.com.",
+      "id": "p_tech_news_2150725110",
+      "title": "Путин предложил ввести на смартфонах окно выбора ИИ - newizv.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: newizv.ru.",
       "emoji": "💻",
-      "sourceName": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWFJVDJEYnNPblkxbmlwSVFpb2V6NmFhOWIzS0FpdVg1Vk1VcGhZeVJIUWVuLUlRY2YxaUxhX3BuVmVMa3hGQ1dsYldMQ012dHNxQldadUpabDd5bzUyZVRiTDdRdEdjMVZpSWxPRUdITHBqMm1kU2RSSllBYy1Jb2tXb05UMW8zNmMwRjhRWjR4cHdnZGc4OUZ30gGaAUFVX3lxTFBwWEZOMzFiLWRoQ2dEMDc2OU1IMm9Md082YXdwWFJUYTZ1TkZ0dXVWb2FCb1NGUDFUdmY2WF9iSERyMWFOMTlOZnpick5TRkFlWG82ZDNvN1VRNXQxMWJYMVpMQVIzY29lbHNnd0hNa18xUjFxV3BGamNqVGlxN2VoT253ejF1eElOWF9HbHd3cVJLSkY5Wmd1WXc?oc=5",
+      "sourceName": "newizv.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOHlsR3A1a1ZOUHNDYko4N0kxQ0dMOFozTjRzUjFzRk5DdGxiaENfaXRjRFVtZS1nblNEYy1vVWt1aGN0Z1ZZdlFTQmpWSy04R2lqMjVmTmo5d0JZMTFTQUNyRFlVRklnczkyNHlyZnRoY3d3dVVNWURYRENDNHYyYjNGM1lIMGR1VXRtQS14am5TQTVBV214dw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T19:41:34Z",
-      "likes": 73
+      "publishedAt": "2026-11-26T16:04:16Z",
+      "likes": 22
     },
     {
-      "id": "p_tech_news_557944360",
-      "title": "От iPad до искусственного интеллекта: как А+ интегрирует технологии Apple в образование - NV Бизнес",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: NV Бизнес.",
+      "id": "p_tech_news_861314914",
+      "title": "Путин заявил, что иностранные ИИ-модели транслируют «чужие ценности» - БИЗНЕС Online — Новости Каза…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: БИЗНЕС Online — Новости Казани.",
       "emoji": "💻",
-      "sourceName": "NV Бизнес",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeEJLQmpMR0NMUi1iT0hPSnJvbmJ6QUdBM1FnTUhmYTl4QTNJd0NGODl1akgzYncxb3JLU1hXOWhJMkZSMk8yWWFNbmJvTHVxSGlFTElJb1l1YzZvWWFYLUx0ZlBNSGVIakxkMHZqdzBteWQ5RlBrLWZsckdxOUlfbXNseEtkaHNkeTNxRGg4UGV3aVVDWXZjMW5Bdmd0V0p6QVEtckhrZE3SAacBQVVfeXFMUGFaRFNLWEc3VHFVMXlMekQ0YjhSMkJvbTllakVMXzlBRmJFdlB0NDRMMEhDWEZ6ZEpSVDZ2eG4ydk92d3JZZHZJWjdadTMzX2FQSk9ocElIQUQ0c1FUTTg0OE5CaFV3V3pLWHlMd09HQVZCdjVrMzBjSTNodTc5bEFMOWZFbk5lSDNHMHB1V3RiaS1UYTlQazhrd2w4eHdXZng5R1Jhakk?oc=5",
+      "sourceName": "БИЗНЕС Online — Новости Казани",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wZVVzUk5iMWxzUFMtbnowbVdyZmo5djBFMjM1QWJGSjI3Z1dfa2lhOUdRSUY2Y252VC1udHN3VEVIMGhBbEMxdjNnb0V2bWhSaEZR?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T19:41:17Z",
-      "likes": 38
+      "publishedAt": "2026-11-26T16:03:00Z",
+      "likes": 9
     },
     {
-      "id": "p_tech_news_745958537",
-      "title": "В новых смартфонах Samsung может исчезнуть одна важная функция: кто за это поплатится (фото) - ФОКУС",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: ФОКУС.",
+      "id": "p_tech_news_3653514098",
+      "title": "Путину и Токаеву показали первое в мире ледовое шоу с участием робота - Москвич Mag",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Москвич Mag.",
       "emoji": "💻",
-      "sourceName": "ФОКУС",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN3F2Sjh5NTVlVXRvTnp0U0o5S3ZiQy05Nzd2RXEzM3o3R2YzR2FwUThESWNadGVhNU1Hd1N5VGRJWkcwNnEzdVF2dlNCS2lZX0ppYXg3OWZiRzBZY1ZtdVpKclpEaGtJdXNoZ1JkckRZdUNFREUxQTdtNWduQnlnVTNfQ2tnZXBLOFJrajNxMmlXUnhOSUE3RmVEMm5XcUk3SkQxZ2FrLUg5ZFhNZUZfZzlrVVFkNjZ3TzBxY1B0ZlRXTW82Z2lPSnFB0gHKAUFVX3lxTE03cXZKOHk1NWVVdG9OenRTSjlLdmJDLTk3N3ZFcTMzejdHZjNHYXBROERJY1p0ZWE1TUd3U3lUZElaRzA2cTN1UXZ2U0JLaVlfSmlheDc5ZmJHMFljVm11WkpyWkRoa0l1c2hnUmRyRFl1Q0VERTFBN201Z25CeWdVM19Da2dlcEs4UmtqM3EyaVdSeE5JQTdGZUQybldxSTdKRDFnYWstSDlkWE1lRl9nOWtVUWQ2NndPMHFjUHRmVFdNbzZnaU9KcUE?oc=5",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT2FqX2luYmxWQzdaMXpySmJvNnlhYUk2QnRtSkpiM193OERqTVpWbmdLc3JhcjRpUm5WcWJ2U3dhcWxIT21ObHI5bkM2MU9vSnRjVjNsbEtYVFAzalF2YmdBMGs0YktDdjJEZ2pSb2x4M0ZMTTdqb0xlemIwSXV2S1JxU3p4TEI2RFNiMkVDbXByblVOVXdnaEhFQmlvb0xsYkxn?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T17:12:51Z",
-      "likes": 14
+      "publishedAt": "2026-11-26T15:57:24Z",
+      "likes": 8
     },
     {
-      "id": "p_tech_news_3988777475",
-      "title": "Искусственный отпор // В Совете федерации обсудили новые методы борьбы с «электоральным неоколониал…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_2271729966",
+      "title": "Что заявил Путин о стратегии развития ИИ, суверенных моделях и запретах - Ведомости",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ведомости.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcHEtRFNkRVllN3dweVZxcXlEX2dCODJReEhGYWQ1ejVzd1pYUEpkcVBhQlpmX2Q2eGJYVWlSOERaTVNtVUViSXl6WTVxRk1FV0dNT0ZWZHRqMERoVzg2YjN0alBPaFRybkhGRU5IcW4wT0Q2am94dGtodGJXOUUxSDZmQ0diYk0tdGdlbHVPYWtiYmU1MEVnM0NZQUgxMmRGVXJ4d3BvYXU1WnQzSjB0WmotTjUxQlNBMXRpLVZtdEExbjJ4YUVwaHA1RzktM2VDRDRpMGJPWU4?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVdrbWhXZHNWN1o5aUFEU25VS2IwWElTYS1UZ256aXNlblJ5ZDJVRW5GSHYyLWpSUlFuZjcxem5kMHpybENmVnlfLTV1eTNfY0VoNWR2b2dzMWhuNU1SdXVpem5qMUM3aWxLazlNV0VUdHBTR3NIekZKLUJsc3M4dUdJSTV0T1piM3l2VFo4N0VTMzFmZEI3RjMtcw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T16:24:43Z",
-      "likes": 52
+      "publishedAt": "2026-11-26T15:56:28Z",
+      "likes": 50
     },
     {
-      "id": "p_tech_news_3546155529",
-      "title": "Яндекс представил компактное носимое устройство с Алисой AI (4 фото) - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_785063319",
+      "title": "Отечественные нейросети могут стать частью привычных функций смартфона - TKS.RU",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: TKS.RU.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0dVRzZrSTBCNGx4MnRsS1dXMjRXbzdVX05pWWIyZEJaaFdEOFJwM3Frck0wYnI5OGE1UUlBbzlFYUhlbUFsOWNVb0pGem9kRVpSRTVfRTE0SlRyVld4bl9lNlJuOXBwZXp6VlVrY2NfcG92Mk10WmxxY3h2bGNlRUFKODZWLW5KNHA2S1JSb0ZRenhKdms2MEQ5MWQ2U0d5OXloR1Rna1B0S1lNTEE?oc=5",
+      "sourceName": "TKS.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkFVM0RWbUtITWtLUGVyQUpXV19vNUU2dG9nZjgxbFFLYTd3ZEFZSXRuT2pLMkZzYmxySm1KZGJqZ1BGRmw5bUpFcDgzNFpURXRuU0VubzNtblVCMHZjNEpHLUFSYmxUNk9rTmYwc1pvOE1BWXBDT0pfMmQzLUZkOUlmZV9xRHd4SHpCb3hha2VhVTJscUxXUDU4RU5ETFNwV3NKVmFwMFlXXzRRRHI0Y3ZfcnVFUGd5X2tjcGJXV2U?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T16:14:23Z",
-      "likes": 79
+      "publishedAt": "2026-11-26T15:54:37Z",
+      "likes": 4
     }
   ]
 }

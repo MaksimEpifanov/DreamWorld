@@ -1,9 +1,42 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_selfdev_news_1953392692",
+      "title": "Anthropic представила инструмент Claude Ship для проверки ИИ-кода и повышения продуктивности - iXBT…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: iXBT.com.",
+      "emoji": "🚀",
+      "sourceName": "iXBT.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDJuYTIxWG82cEZFclh6MHZHeEZEbmtYVmZtNUl6eG9vTTJvZVBnLS0zbS1FdGJKdVllRm9PenVLNmo2Z2VSNXFPbmRqTGJzbFJmbkI3Ukt0Nnl0VzBFMFZaTV80V3dKck0wTWctQ0NtRzd6dEZGSmRQd2tGcW5wcDJTX254NVZ4QlJSTVNLdUZYaHpmNkRsN0loTkx2QUpMTzRQLUhaSUhsekg5NThDZ3M1RnNMa2xGOHZydXJPTlEzRVJsYnhCeNIBzgFBVV95cUxQemxnZ2VLQXl0VFk3aVo1V1hNRERaN3YyTkl5XzRSZW1xbXpNT19DdE9sYTk0VDlEa04yMjFtc1IyYjR3NmJhamVnTmF6VVZFZmZPVWtNTUlvLWdrRmxtR0UtZGk0MkNLbnpFLTBuQzNMMlp2VC01VXJGSlBPeEU2anVYUFNlaE5ESE1xU1lBbWk3N2NPMGJBeWpTcXAtWm1zVkRHRXF4cjNVNlpxX19ab3RicHFJRDJmX2s0MHZjUGc0UmVHNllYeEhKV2lCUQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T14:19:37Z",
+      "likes": 71
+    },
+    {
+      "id": "p_selfdev_news_225966855",
+      "title": "Топ-менеджер Юрьев: 29% москвичей считают работу из дома более продуктивной - Дзен",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Дзен.",
+      "emoji": "🚀",
+      "sourceName": "Дзен",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5iclpqX1p1MlhkV0RYV0ZUd3JqUjhFdlFjUnlZUlM5cHJTZ1Y4WlFYb3QtMGU1RVNBbmtHZ185STdvZzc2MkV1d3Zn?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T03:13:41Z",
+      "likes": 11
+    },
+    {
+      "id": "p_selfdev_news_1155522243",
+      "title": "\"Новые технологии, креатив и саморазвитие\": Представитель батальона имени Мусы Гареева о преимущест…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Bash.News.",
+      "emoji": "🚀",
+      "sourceName": "Bash.News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRTN5WmR0NTlMTXJYbTJXdE1hTW1TTlNfcm4wZGZNZ3psakxoT2QtWHJqdHh6d2N0ektFdGpEVkZzS3N0WUJEX2djWllMZ0NPNGlUaWdiZ2FnUVdTajFZYTFGT2YwRGlUc3pEdVJybzVRRTE2R1d6VFJTRmFfZl9lRTV4Z1JkNGtGMjRSYkZwYl9iWmhIdkJHa3h5dWVsM2xId1hVZ1JZcTBKLTBjaFBSdjk4NXd6QUlKdG9NMEo1d3Q1X29Tc3RESHlRaXJJLXM3WUFTSWhfWUlYbE1uY0NZT2F2Vk5JWVIxNWdjN3Bmckd2dXBzeHFn?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-25T21:40:00Z",
+      "likes": 52
+    },
     {
       "id": "p_selfdev_news_3777994403",
       "title": "Президент Узбекистана рассмотрел меры по повышению продуктивности животноводства и улучшению кормов…",
@@ -16,48 +49,15 @@
       "likes": 6
     },
     {
-      "id": "p_selfdev_news_248108650",
+      "id": "p_selfdev_news_3665993446",
       "title": "Окружение может мешать успеху - психолог рассказал, что делать - новости Израиля и мира - Cursorinfo",
       "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Cursorinfo.",
       "emoji": "🚀",
       "sourceName": "Cursorinfo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRW1YS0F4VUpyVnFSNGtHNzVIeTlWdkF0MDdWZWJXVkQtczBtVGRueXpNMXFkRlNCRkFWMmxpSmhtN21udkJOa2xWNE9mNmFnb2NLMUU0QWFycnc3VUdSTzdrRUZVZjM4aTdmZmdqeG1KZzhYWTc1NXE4MW1sdjFNY01fUENqelg0R0trWndmT3BpdVJsV0RqN0l3QTbSAaIBQVVfeXFMTXpHNjJZMThZaDNfSXpmemtoZU0ya0w3NkkzTjl4UzdrZFd4Uk1iMGNTb0hZWHlucXZVbEN2bHFSeXBHaUVyWG9ZU3gyS1JnVWE0NlJoaVFUcWNncGkxVFMxWVh2VTZzMlNfcnBRWXBZb3V2ZWp4a0I1WlhsQWplbXl6aXhLTVJRSzcwbWNlTHRoZ3lIT3gyc0FKQlVfTGNuWE9B?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekc2MlkxOFloM19JemZ6a2hlTTJrTDc2STNOOXhTN2tkV3hSTWIwY1NvSFlYeW5xdlVsQ3ZscVJ5cEdpRXJYb1lTeDJLUmdVYTQ2UmhpUVRxY2dwaTFUUzFZWHZVNnMyU19ycFFZcFlvdXZlanhrQjVaWGxBamVteXppeEtNUlFLNzBtY2VMdGhneUhPeDJzQUpCVV9MY25YT0HSAaIBQVVfeXFMTXpHNjJZMThZaDNfSXpmemtoZU0ya0w3NkkzTjl4UzdrZFd4Uk1iMGNTb0hZWHlucXZVbEN2bHFSeXBHaUVyWG9ZU3gyS1JnVWE0NlJoaVFUcWNncGkxVFMxWVh2VTZzMlNfcnBRWXBZb3V2ZWp4a0I1WlhsQWplbXl6aXhLTVJRSzcwbWNlTHRoZ3lIT3gyc0FKQlVfTGNuWE9B?oc=5",
       "tag": "Книги",
       "publishedAt": "2026-11-25T18:33:30Z",
-      "likes": 43
-    },
-    {
-      "id": "p_selfdev_news_3949383607",
-      "title": "Лучшие гороскопы: знаки Зодиака задумались о самосовершенствовании. Овнам — изменить привычки - Met…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Meta.ua.",
-      "emoji": "🚀",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON2tVRmdzWVRrenVjYjhLSWVFa0I1UW1OWmQ2aWFBSEY3VVNxOF83eDJka2RIRFZEd3h5UVNKa3NwY3QyREpEY1hjckdIdUt0ZjRzZmh1OTEzaUFvTDFpVzdhU3hjdEFRUnJxdTg3T1hUQWViYXRaVVdpR29xWC16V181VzV6Skc0ZzNEbFR3N2pIQkF6Wjk0NFdNS3Rpb01pQ2xORXZDTEZQWDlBU3lIUElMMzlNSDBhT1drWXZxQVVtd2JTWjFCYlNn?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T14:16:00Z",
-      "likes": 50
-    },
-    {
-      "id": "p_selfdev_news_2724536781",
-      "title": "Культ срочности в офисах оказался ловушкой для продуктивности - Inbusiness.kz",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Inbusiness.kz.",
-      "emoji": "🚀",
-      "sourceName": "Inbusiness.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzlYeGVsOURiR2p5TEpQcmV6eDRqVW1nVXFpd3FwMHpMSWRnUUZRU3U3R0FMMnBtcE9qR0c3MnhTY3ExcFhjbmJsZ2RSb0p3UFVieGh2YUluY0p2VlVtM0xMcjZtUll6ek1XRzcxbkVycEJpWjRUZzhfcnNUWWJVbHJ0RFFtMlIzSTFETldacWdTODc5MV8wQm9B?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T08:30:50Z",
-      "likes": 62
-    },
-    {
-      "id": "p_selfdev_news_3387842840",
-      "title": "В России нашли способ повысить продуктивность сотрудников зимой - NEWS.ru",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: NEWS.ru.",
-      "emoji": "🚀",
-      "sourceName": "NEWS.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOVJldmlCc3g1NmxKODd3QTZBVUI3NUxhMlU3b1R4SjB5VVIzeEFqcXFpUlNGM1R1ZldITVdhUmt2cW9TUF82dXhzRzBYN0ZxUUZTOHZtc0NJZ1ZxSzlXakFWMjVXbkI1YnVnODVseUpOd2Z6MDdlYlF4Q21Yc29HTWU3ODNoS2NnZjhBetIBkgFBVV95cUxNTlozZlhsdzlIOVlXLTgzOGNLQmh2dENsZDFuMDhZNkpLemZSQkRQLWNucy1kTWxPVEZIUV9xWkNleDN0Q1kwb0pKSHFLVmJ3YjA5UmZqemk0LTlWa0hkUlpSMzlxbWZYQ21XU1FnZVhOdXFuLVFjVllVcV80SVExZTdYQXpWLWxEYkFLX1FoTnJlUQ?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T07:35:00Z",
-      "likes": 7
+      "likes": 53
     }
   ]
 }

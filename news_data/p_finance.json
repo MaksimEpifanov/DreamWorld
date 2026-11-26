@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_4214100498",
-      "title": "Мосгордума приняла бюджет столицы на 2027-2029 годы - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "id": "p_finance_news_2697272533",
+      "title": "Военный бюджет России 2027: кто заплатит за войну - doxa.team",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: doxa.team.",
       "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFNac2RVWUVPcU5qMk9zazJKT3VnbFFVX2lBQUNFUkpJTjJtS1FZYnJhQzRQeTZGM3VncThvSVZ5TEtXaE8wQmRobndyODRJU2VMdlZQZ045QVZ1bjJoWEw2WjZOOVpLZ0hZbFNQOEZidGFvTUl4cXpYNjhGZ0JFbFhQcEJPbWFFSFJsQjBSUHE3QWVYMHBwT3J1VlVPQzdjNVhBYg?oc=5",
+      "sourceName": "doxa.team",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94THd2RVJyUlhWRUVhZWJmR0dTdVgwTVktS0ppYVF5N3d1TUtHOTI3WXZMLS1IdmxwdUt1c1hfaGRtQ0FhR1pPelpYMUZDVDlKekRRdDZPamEtOGd5amNEOXZodGNDT2FlWTBUR19YZ0laRjhkSHdr?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T18:08:22Z",
-      "likes": 52
+      "publishedAt": "2026-11-26T15:56:15Z",
+      "likes": 13
     },
     {
-      "id": "p_finance_news_4134999161",
-      "title": "Проект бюджета Кубани на 2027 год обсудили на парламентских слушаниях в ЗСК - Кубань 24",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Кубань 24.",
+      "id": "p_finance_news_2671646397",
+      "title": "У Болгарии есть свои требования к бюджету ЕС - bg-24.com",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: bg-24.com.",
       "emoji": "💰",
-      "sourceName": "Кубань 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeTBjTTduc0otUWJYOWtwODBiRjM1NkVpb3NFOHBReFBhbGp1OXAxTE94dlhjS0REcWZWQURyak1wMHRIOVRVQks2X0R0SmdkNGpxNDg4N0EycEc0aTRNRWhjeUZTZEpUUjNPWU03VkVkZ2RFbXktRUJITy1PRmh6N2NRWi00YzZzelQ0T25qdXhWblBiMlZTeV95YXJxQ2ozRWstMzdB?oc=5",
+      "sourceName": "bg-24.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tT1p3SFhHMV9Fd0dUTWFkTFZKc3ppYW9wRnhPdjRxNmlnS3cyanZzSWJJbXpnRGZOay1JSWRhR0hSb2hURjFWcy1KTExlNTZ0SzUxVksyZjliLW0zbk5TQVBVVEJ5TFdYUHZMdVNzOWhEdzg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T16:44:00Z",
-      "likes": 37
+      "publishedAt": "2026-11-26T14:56:16Z",
+      "likes": 66
     },
     {
-      "id": "p_finance_news_3574264764",
-      "title": "Волгоградская молодежь проверила финансовые знания в игре «Деньги в порядке» - Волгоградская Правда",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Волгоградская Правда.",
-      "emoji": "💰",
-      "sourceName": "Волгоградская Правда",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWnM3SG9aTGo2OXlRak42R3ctcXpuN2ZBQV9uUEd5QWJfR1UxQVdmcHFMaE9fSEIxUWJINmtDbmUzQmswaENqSzROdmxXdThXaVY0WDdhZG82V3pRbl81bE5sNzB2eUEwdTlXMzNzZFFRLU1UdXF0a1F0VklkOVJ1MEdBSVRQb0dyRHk4WVQ4aWVLNnBta1NhLXR1MW1lN2FZSS05QzMtQW1kenhYTjcyMGJVX3A1QQ?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-25T15:54:57Z",
-      "likes": 86
-    },
-    {
-      "id": "p_finance_news_2373024673",
-      "title": "Пожизненное удержание в 80% зарплаты нардепа за счет бюджета: кому в Украине хотят назначить новые…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Мінфін.",
-      "emoji": "💰",
-      "sourceName": "Мінфін",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyT1hrU2lJbFV1dGZFY2xQcklHdUJfRF85MXJFenlZYmlLRmtYdWpEZzQ0bDU4V3Vvb0w0NGlYLVowdE5QaG5Ea2VPZkVzbmVrQnRpM21R0gFbQVVfeXFMTzFJR0psMEJUWFo0MW9MMENWWlZHZzRCZEcyLWZydG5Uc2hfTVh0Z1otSjU5dHRMRG1zd3dPbVduaFFXQ0pOd1FuOWFpOUtHd1JvQmFKeGNsS2dFcw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-25T14:54:00Z",
-      "likes": 56
-    },
-    {
-      "id": "p_finance_news_2116052532",
-      "title": "Фицо усомнился в возможности согласовать бюджет ЕС на внеочередном саммите - Ведомости",
+      "id": "p_finance_news_1528932051",
+      "title": "Мишустин: ненефтегазовые доходы бюджета РФ в 4,5 раза превысили нефтегазовые - Ведомости",
       "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
       "emoji": "💰",
       "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FVXZUZWpkeU9TeDNTRXFZZUpoaFA3TEdOZDJ6M3Y2bzRub0VkN3l2VHp1a1paZzI0NGhNNEo3a0prOU5EUjdGcjVkMUk2dHFZdXhyQk1Tak42RmxxUHpRSktKam9Uaks3cHJFMzBNSmQ3S2ZPanlNS0ktNzhYZk0?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTWVfcnBxWHlHQk5wSXhiNmZYTXVULXVZX1BiMkpnLUxUeUdPUDVyVGd1LVJSSURYbnhGcS16R3BQMDdpWTY3d3FNdzZmWGQtTlFoR194S0ZYVWJrYkQ4LXR0T2F3Qm9lS3h2cVpTNnhieC1UN2w2RE9MTlp0V3c1dC0tMXpCWmxpSkNVWDNiUVVzQ1ZC?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-25T14:24:35Z",
-      "likes": 46
+      "publishedAt": "2026-11-26T13:38:38Z",
+      "likes": 65
+    },
+    {
+      "id": "p_finance_news_864098840",
+      "title": "Расходы на государственные инвестиционные фонды превысили 77% от запланированного уровня, в то врем…",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Vietnam.vn.",
+      "emoji": "💰",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkp4WnpSbjZvQndMVG1nbF9VSHlKM21pSDRDZEFVb3c5V0dFekNxRnNRTDVmRUVKMjVNRFB4X3BLc0Z6RVhkdU9fcTlhSkxpVEl6eFVJQi1tU2dXNFhjVWFNaTk1Vm9zOVVTQ19xY2Y3X1NZdWw2M3BQanRkSE9sMi1XcDNCNjhEQVpDeFhiMlZGQWpUbkFhbw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T13:36:33Z",
+      "likes": 72
+    },
+    {
+      "id": "p_finance_news_274498116",
+      "title": "Парламент Франции не согласовал социальный бюджет на 2027 год - Ведомости",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
+      "emoji": "💰",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVFROM05MeGM3R3prOW51MVRfcjFxYUlheUZXakVfTXdjOU9tUXc2bVJmYlJoT0NlWU9lN3lXNVdsUkJoaV9KdmVWSENQZlByaTZ2b0NCcU1DaHQyVUl5d0pLMEYzNEpVM0tXTWtFZEhXWk1hWHpnYm1ISk9pVnlQeUVB?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T12:14:53Z",
+      "likes": 34
     }
   ]
 }

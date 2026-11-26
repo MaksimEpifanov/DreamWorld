@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_69028190",
-      "title": "\"Великая литература\" для полезных идиотов: как РФ на протяжении веков продает Западу нарративы о со…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ФОКУС.",
+      "id": "p_reading_news_1269599701",
+      "title": "Сгорели книги. В результате ракетного удара по Киеву 25 ноября пострадала типография Конви плюс - NV",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: NV.",
       "emoji": "📖",
-      "sourceName": "ФОКУС",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZERJSW1BdlVBdFZXM0VPMUVCWXJWMTZ5QzBWdGh3VnNjU1dDc09NdkZxUFVpTFc3VlRsSjJXUERUdVdnb1R6S2doak1ZbWliN1o3VmZhVFFGc21fNVdoZjE0a1ZSVjlSb0ZiWXRnZngwVjBYQVBhRW9VdUczWWlmMjh1MEhEVE5vME1iclhxOXZUSnlqalo2NUlZMk1EWTBYNE9OWVZlaXoyVkwxb2RJUWZrMUxzXzhYbUdFbVZDN1UySy1uRmJyV2pmT3pnOXMyU0RCeUIzalJkMnRZdjVKVzBqb0LSAeoBQVVfeXFMUE5nS1N1bWxWQlZtU1JCdVZWNlZEVWhYZjRsQ00tbnZJbkpXR1lwZEJnRDY1dFhvdVEweTAybWhmRmtzT3FtZktEZDFCNkRkdGZISmZYelBCc21MQlgyWVNSeWVrMWtyOEdfN3BHMlJKeC1yLXo4V0JHSU50T2RwaUM0MmNHT1Q0ZllfcUJWLUR1WWxtM0hQZ3diYTBNaUtjdTBISnAyQTI5U0lzd21pelpiWTZpaGZxNjhqSzA0bjVYbm5RNjlBX2lYTDdGNXFUdWQ1YTg3UHJVdHlsbU03cWRQUF83X1dXTXRB?oc=5",
+      "sourceName": "NV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOFVzNGxWLXB4NVFSRDh2QXBmclJ2UFZNbEZSLUJMUlEzSkktQjA2RE5KOEx6M0hRWlVrSnVmWUI4QWVKeUtKYkhIcXllSFFZNTk5b3p4WTcwLW9oNHdYUVZyMVRPeWdoQmMzOERmZU54SV9xQ2FrdzBKOFRfNExzVkd2VWVVd19HbjBKU2NXclFaYVNKOFV6VGhUOHlPU091SXN0ZTVEdEZnclpCQlh1MUREekJ3cWtwWTc40gG4AUFVX3lxTFA2WFRmZ0NpaHlYbExWN0txYlhmMk53a0xtcXFkOU9qR3c4aXdGanpkTk5XOFIwZjFxSGpPcWdfak1oVGNpTjZ0dXZzcHBibHotTlVoQWhlcnFvbTJKLUdpaTdvc3VnaWFiLThSQjhZTG0wWjNIRUpkSW1EZFN1akZaQmpKeDZVS2MybmtPZHFJNzRTWWhpMFRYR1UxSTlMYWd1SGZJbkZWcmFpQjU0SkhYbVNkMWx6T2k?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T15:04:00Z",
-      "likes": 35
+      "publishedAt": "2026-11-26T13:37:00Z",
+      "likes": 53
     },
     {
-      "id": "p_reading_news_2632581062",
-      "title": "Нотариусы Ульяновской области подарили особенным деткам чудо знакомства с книгой - Улправда",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Улправда.",
+      "id": "p_reading_news_1216625277",
+      "title": "Владимир ЗИМИН: «Я вербую автору читателя» - Ивановская газета",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Ивановская газета.",
       "emoji": "📖",
-      "sourceName": "Улправда",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX3pYTzBHZHpyVjVnU3NmTHZtaWdjbFQyZzV1UVZhMTB5ajRKaU5sa1E0c2hFRUFwdkJzaUZZSXM0dXE0LXA5R252emV4b2xPNTFsZFJDa3huNm5NTVZCZHFtbGJ1RHdDTWVCQURjV0MxOGN3LUlqM2tzVDM0MXo4WUpBcm9OUExFaS1hNU54cG56QVZNUENRd2NIXzA5dVRjbHI0cXF5OXZORTFZZloxamhZUQ?oc=5",
+      "sourceName": "Ивановская газета",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOampCVDlKeHpnWERGNW5DOHBEb2pmOURnckozS0VIWEJVMFpmcU1lRDlJclpUWjVkWHZUanBkeU41UVV4OS0zMjFFc3MzQ2kwUFF5b2VHN1VxWkhPdC1vSUZkMDVjTTFoeWk0T1NfTDMtX1NfZmM5WmNtM0kzSmRLbXlqTFJ6VDVOb2hVUWFEanM?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T14:20:00Z",
-      "likes": 22
+      "publishedAt": "2026-11-26T12:50:03Z",
+      "likes": 29
     },
     {
-      "id": "p_reading_news_2615045278",
-      "title": "Огонь не сломил: 85 лет стойкости и развития Старобинской библиотеки - http://shahter.by/",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: http://shahter.by/.",
+      "id": "p_reading_news_3249124638",
+      "title": "Воскресенье с книгой: курсанты Академии Национальной гвардии среди самых активных читателей марафон…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: КАРАВАН.",
       "emoji": "📖",
-      "sourceName": "http://shahter.by/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWptQU1SSUhvb2owcDdWSktSTXEwXzBVbjl2ZkljZGowSG5xcF9IcG1yTlYxY2xVNDdFb3hqZGlObXpndXFMZFduSkpxUmdPMTJVVWx0UEpJQ3puR2xaZ1c3a01qOGo2ZzFIT1pUdGFXNXlxQWx0NU9FVVVibFdFYUR5OFZ4cElOWWxFWkpjTEU3RnJVcmFPNGRtUDFBZw?oc=5",
+      "sourceName": "КАРАВАН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeFYyeTN5ZDM1bW40eFdKbDdneTJXLXYxbnZKVXRUZVFhcUtTc0JOT2ZZbmVfak5NcU92TERvb2I0WmdfdXNUMEZkcE54NXlsRVdoaXNPSWR0RnZwbmUyM3VKTkRocFpzNjF3ZldBNWVjMWVnRmZ3Zk1TZzlfTFcxZ3lOSWlVMFFJcllIVEZILWd5NlNnVlp6Rm03WVkxNmpkQzh0dy1yZ0plOEhNY3BILTR2Qzg4R2QwTGMxUnBhSlpSM1ZsSFZZQVpNVkFzX1JBRGJDaHNGNC1lTTc3TUhNcGR3?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T13:23:17Z",
-      "likes": 37
+      "publishedAt": "2026-11-26T12:05:00Z",
+      "likes": 42
     },
     {
-      "id": "p_reading_news_2359578692",
-      "title": "Юбилей, в котором соединились поколения: Старобинской библиотеке – 85 лет - http://shahter.by/",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: http://shahter.by/.",
+      "id": "p_reading_news_1391364278",
+      "title": "ЧТЕНИЕ ОНЛАЙН: КАК НАХОДИТЬ ИНТЕРЕСНЫЕ КНИГИ И ОТКРЫВАТЬ НОВЫХ АВТОРОВ - ТВОЛК городские порталы",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ТВОЛК городские порталы.",
       "emoji": "📖",
-      "sourceName": "http://shahter.by/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONE5kZ1FpYnl4MnN1bXBHNnozd1I1OVRiTkVwZnVOZGJpNHpmM0xVem4tWllRWG1hcGtsV2pXMlRHNHZtVEw3WlRLX0RNVlhhTjNpLXJkbXY1cWJFbEdtSWQweWJIUzFzTUV0RnZrSV9oVnpzOGJkUndlRGp6ZG9YbEtsY1dmT19XM0Y2ZWNXTnBZN0hXc19xYzdRQkNKd0tBLXc?oc=5",
+      "sourceName": "ТВОЛК городские порталы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMm1qV1ZMVndQU0lxb0d1TGlSZWZYamgxd0xQZnZEbVd0WHRIcFNSS21sOFRLV3ZRQ2JyOFhDN2RRY0VfckhmS3ZXUW9FaGZLSWNSTTczWVNoazUtUjRjN1B5M2RXOGkxSlRGeWxrbDlWVnZXb1NSc1lXV29zcE50OFZuWEpPUkhMSnRBcUp0MjdnVWFFUXhSRXBvMTZEZ2NreXlES3VzRXY0RzcyRXBB?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T12:53:10Z",
-      "likes": 21
+      "publishedAt": "2026-11-26T11:36:38Z",
+      "likes": 45
     },
     {
-      "id": "p_reading_news_3057612610",
-      "title": "\"Казахская хтонь – самая дружелюбная в мире\": Айгуль Клиновская о книгах-утешениях и мифологии без…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Liter.kz.",
+      "id": "p_reading_news_3280421956",
+      "title": "В Варшаве открывается XXXIV Ярмарка исторической книги - polskieradio.pl",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: polskieradio.pl.",
       "emoji": "📖",
-      "sourceName": "Liter.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVUJoZjVOQmpmdlpHZ0RNaVJiMHFSc1lVcnhIbzBkTFZzZFVNSDBiclBXY01NSTZlZUxfMnBJa0ZmZE5YZzBHQzBwR0syZGw0NndkMGlpYXRLZHVPUDRhaEgxeFNuMFlvenU3Qmc3c1ZRTkhVSjZ5cFFoa21QNkRLaTE3Um1GRFZMQWxkYzZ5R0x5ZWwwOUpFVTVqOUdBUVdib2cwTXVxd3FWWlFOOWd1U0hfNEQxN3JHckhvQmlDYkQzOXU1TERSbF92OFppZE1CRFQ3S9IB2gFBVV95cUxOd1FSNTBtQ1RsVzROZTU4TWxybnlfLVp1eGRhTFRBRFlNc0pacXJHQlV4UTd2bE1mWWVYSEE2Q1E2bjh4MjJWNlcyZ0loSkdMRU1tQnlTOVY5eHk5R3pTYWVLRWRKcXVSdGF0YVY1WjhIbTJxQ0s2djBleHpPN2VDOWNfNC1qb0k1OFVlQnpqb3VxaU9TSkFEaDJFS0QzX3lnYkVqUjBzT0xSa05jenZXTER6cHdXQTRoTDZsM3JPSnE0SU4xWmtjMU40dXZuV291ZFNRYlJucUpXdw?oc=5",
+      "sourceName": "polskieradio.pl",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixANBVV95cUxOT1Z6Q3NQV2tLcmF0MHIyS3o4WnJBZWFtb1k0OF83QzRjZmlnb1pxemhSUHdOYmk3ay1hZ2x6TUEtZ2x0UkgwRFJkcHpoejNYa2llMi1YcllSY1Vyazd6ZHhxWmp0VTBfX2owMWRabF9wVlBLSW0zY3dsbjgxMUI3dFlDT2ZSZThyTzdhZDJ5aUF6Z0VVNjVUeVFNQXVLTzZWa2pubnBzMks1MnZBWlJLSXBoRW9ROURzWmxKbDJ1TVU5ejYtVmgyZF81dXpiZEpMRDBpaFRkZ2lpTHR1bHR4ZS16M3dOODhSUXJ1d2d3MndvTjlYZThlY1ZOeUdzVjk0UlVjMHphZlh6TEhCdTZEb2xzb2J5NXFTUF9TckhGVnhLVDQxNzdtR2V2czRHOFByTWhhb29vY1pfTEtFNnBiU3pkUVYyNXJCdXJ2R0VIazJldU9vc09QUFVXU085ajh4UElfUnM3eWZxOU04WHphWDZrQ0JNdVVaNC1wb1F2TkxISG5HT2NEUTBObE5EOHJ1WVVtUjBxdGVHMTY2akpaMXZHeUxoNnVNSF90V3o0TjdDbGs5R1JZcWhoR0huOFZlUndDYw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T11:23:00Z",
-      "likes": 27
+      "publishedAt": "2026-11-26T10:08:00Z",
+      "likes": 57
     }
   ]
 }

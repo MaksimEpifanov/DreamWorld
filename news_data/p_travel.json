@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_2002353724",
-      "title": "Природные парки Волгоградской области посетили более 250 тысяч туристов - Национальные проекты Росс…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
+      "id": "p_travel_news_3165580281",
+      "title": "Уфа вводит туристический налог: что это значит для путешественников - KudaGo - продвижение событий…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: KudaGo - продвижение событий и мест в Интернете.",
       "emoji": "✈️",
-      "sourceName": "Национальные проекты России",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUt3aUpiMkQ3OHBoNjMyVHBXOVZrVDJqZHpmMjR1MUNWcVR2YmRHVFg5U3BPN0FsZTV1YmJKbWx6ZUo2SVJQSkQ2dndJMGxOQXZVcjVKYU5YR3ZTZjVrOGhENC1ZcVdlVWJTS1d0OU5lVkRzcDFzdnE2dHo1MWJCYnRjNDNKR2dNUWxLTDhUSTFXRnJkZlFLb0s5RkdSWUVzN0xvQm92bkluY3RHRDRfekVmM09IQjJ0R01fMGNIeXBNeFE?oc=5",
+      "sourceName": "KudaGo - продвижение событий и мест в Интернете",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd0FWeFc0MExoVDlvaXVvaWM2TmFGS25pYngzQnduTndCempaV3ZLY3hMUVNCaXo0X2pMTGdYQXhfakVhWVpjWjFlRzYwWjBwdWNKTS1JaWplZGJFeXNsYU5rZHNLdW9XWTJHU1VhalpYcHAtYThXNDctNnIwX0RzVGxVVVZ0Y0pqMjRoRWI0bEJrSU1zQjVaVXp5LUFhNHJ5QlE?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-25T16:35:39Z",
-      "likes": 4
+      "publishedAt": "2026-11-26T14:37:42Z",
+      "likes": 35
     },
     {
-      "id": "p_travel_news_197488162",
-      "title": "Мальдивы без очередей: как устроена новая система, когда её запустят и что это значит для туристов…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: irbis.spb.ru.",
+      "id": "p_travel_news_3011628814",
+      "title": "Центральный транспортный узел меняет привычные маршруты. Как это улучшит жизнь людей? - Lenta News",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Lenta News.",
       "emoji": "✈️",
-      "sourceName": "irbis.spb.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYXZoekxaMHJEazl5SFdSVURRbkZPOVNwcm1mdTRoWERWTjdjNkFxTUNaZ196QThQS3g5eHltN3ZPYlAxY0l4UENFSUxmQWNjS0trenpmTTJQWmk3c3V1MnF5RFF6UGFTNXFRY2REcVFDeThoVTlSYXltNVRyTUlKblJPY09fS2wzc0w0UzBEaTh4RERzU3NpclVSeDFKdXJ5MVZIa20yeFVSck1OQUFneG90dU0yY3Q1dnVQR3JQTFlKc1ZKX0dMcWR6VTBZeGU2bEYyVklR?oc=5",
+      "sourceName": "Lenta News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRjJTbXpNOWpaVmEzZHdId0lRYm5wUnJsSmdEYU83U0tDcXZSOVVJS1lsdGJNQlNrejZtcXdhdk03Q2luaGw2NWZZNkZ2UUJnOVlEbHlQZFFDWXV6ZjBReUROdnpVV0lwMnp0QUxDVG8ycHJTdjBrb1lyRlJBSEhTVkFUc284YzI5VmtLSUhTcWR5RW83XzhWV1QwbTg0LUhTNG01TtIBpAFBVV95cUxPRjJTbXpNOWpaVmEzZHdId0lRYm5wUnJsSmdEYU83U0tDcXZSOVVJS1lsdGJNQlNrejZtcXdhdk03Q2luaGw2NWZZNkZ2UUJnOVlEbHlQZFFDWXV6ZjBReUROdnpVV0lwMnp0QUxDVG8ycHJTdjBrb1lyRlJBSEhTVkFUc284YzI5VmtLSUhTcWR5RW83XzhWV1QwbTg0LUhTNG01Tg?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-25T15:03:13Z",
-      "likes": 65
+      "publishedAt": "2026-11-26T13:37:00Z",
+      "likes": 45
     },
     {
-      "id": "p_travel_news_235790011",
-      "title": "Москва готова к сезону зимнего отдыха / Новости города / Сайт Москвы - mos.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: mos.ru.",
+      "id": "p_travel_news_2146548730",
+      "title": "Медленный ритм, глубокий смысл: новые сценарии путешествий по Азии, где важен не комфорт, а опыт -…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: prospect.com.ru.",
       "emoji": "✈️",
-      "sourceName": "mos.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vV2lzdWVKNjEzNm5JQWFBb3pKY3loYVJvc1JJM3NGbXhPbmlLVzhtTlpXcTluWHoxempGN2hXMVIxZF9KU3lKLWdEUXE3ampiOTZn?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWThzOERQRml1M1dNMTVmR1VrYVRMOEVHSWpuMEhfUnBDUjZCUnd3R1FkdjR0XzkwT0JISXY0VzJMbVBPeXJ2aGJsSTBkYTVlSGRfSzNYYVN5UGJ2Z0JqYXF0UEthNmNDNXR2SEtRTEk2dW82OGxLNWxoSjZWVkJiZmJrT08yV2dzMDA0UG9laGV4N2pyT1BrVlpFQ1gwdkh0V2J6UG5JQlJkLTlxNGRnMDhuYXk5cV9henJ0LTNCcUotMmREVGtvcjVJaldoR3VwMnc?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-25T14:45:00Z",
-      "likes": 83
+      "publishedAt": "2026-11-26T13:21:55Z",
+      "likes": 52
     },
     {
-      "id": "p_travel_news_3165046730",
-      "title": "«Золотое кольцо Брестчины»: маршрут через Пинск, Брест и Барановичи запустят в 2027 году - TIO.BY",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: TIO.BY.",
+      "id": "p_travel_news_1243623337",
+      "title": "В Кировской области открылся новый туристический маршрут с аудиогидами - Киров Град",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Киров Град.",
       "emoji": "✈️",
-      "sourceName": "TIO.BY",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNG1PeTh4a2pSUEFoTnFITWhhZWVBT0o5Y2dXY2pENE1lQVZSS0MtUjQwalJYazdVY0gtY3I1S3QzS1ZiTi1US09pWVRtWmJidGtKTldoZS1mQ3NLdXRwT1NoaWJ0ZnpXQnpyWUlzLTJpVklaSHkwZy1iUXl1QUZzNjlVOVl6RTB2YksyWktUNUFDbHU1LXY0U3paRmF5R2FaS0JGWGR2cFFyMVpoNHhIckVtXzNzdmxZdzEyZ1c0d29xajRES05hZ3IyNG03QQ?oc=5",
+      "sourceName": "Киров Град",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUNvOHYtbXl6S1p1NVgyQkp6ZnhWU1lybWdleUNrUkpiTllnQnZZWjQ1SGZVYmNhNlhheWVwOVRDUGI1NTNSOU9QSTZPTHhxYnVEUkMxNVhqc28yd1NFZ2JySmlxbWVCcTk5dTE5TlVydVRqWEZROS1XQ01BYzNON3gtT1dtVUZZa2hiRmZjRmFtdEZrMm1tazVvbTBPaHFnbkJN?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-25T14:20:35Z",
-      "likes": 43
+      "publishedAt": "2026-11-26T12:57:39Z",
+      "likes": 37
     },
     {
-      "id": "p_travel_news_1190491830",
-      "title": "Не только Париж и Лондон: какие города Европы становятся популярными для путешествий на поезде - 24…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 24 Канал.",
+      "id": "p_travel_news_3893087161",
+      "title": "В Кировской области открыли маршрут «Уржум: сказы и образы родной земли» - 1istochnik",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 1istochnik.",
       "emoji": "✈️",
-      "sourceName": "24 Канал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTHphWVE5bWFEdnMyUEhPZTlZOVhVVHR5Yng3VTBSWmhNekF0ZHI2VWNzeXQteEFlV1dVSTY2WDZIUjhWeGRoUWtoOG5CazdleWRUNkVxV09LZXphZVR2V0Y1Y00xaW1jNmxXTF9jTVZHVFljeS1XbDhYMnBMb3E1RGU4REJjUjRRVlk5TGM5U1NUcmxweHhjd3FHN0Z6TFFXaDRZQnJKaXBmYUVvcDFPYzR5UkNkZHdrWnNvaDNDbGtwaFJCeFNn0gHMAUFVX3lxTFBkdDFiaW52bzJTOTdTVUZ6b3hZV1lPUmpSaDFReHc2Sk5EQXQ4QjhiakRIeDdKTTVqc0FGemdjMlhNaTItMFY2OW1veW5ENTJfZVFxMEp5MkVRUmRPbFhPaDlMeGIxemVXalhqTlVkRDJySFlKYi1BTjJLMGxZZ3p3aE9RRURKSE9fck90bTk5TFdtdVloXzNoMEcwanVEVXR3NkQyODJwY3pWbGUyaGVEcTZPRTJ1S3JjbF84TnhZYXM5alpGUVpmRmw1Sg?oc=5",
+      "sourceName": "1istochnik",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSd3dHeHlvNkpjYnVUV3ZLWlllSE9TbXRjcS1vajNvTE5KZGlla25KNy02RThRbVpNVGx4TFczQXh5cGdtaU9xVA?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-25T14:05:00Z",
-      "likes": 71
+      "publishedAt": "2026-11-26T12:00:00Z",
+      "likes": 80
     }
   ]
 }

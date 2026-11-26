@@ -1,63 +1,63 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_2271490839",
-      "title": "Царский пир и русский стиль: какие выставки мы увидим в начале декабря - Газета «Культура",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Газета «Культура.",
+      "id": "p_art_news_53302531",
+      "title": "Рембрандт приехал в Москву: Эрмитаж показал картины, которые крайне редко покидают Петербург - ВФок…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: ВФокусе Mail.",
       "emoji": "🎨",
-      "sourceName": "Газета «Культура",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZnhwU0NGNHNpQ1F4WDc3UURILXF5aEV6VFhhQXhxb0drUGJ3OWloT0p2dms5VFBVX3VCdDl5QzZRdGFzcFAzOWVuUXRueWYwU2tRSTUzbHNVbGhFUURCczhWaU5CdXZ6MDRzV3JzQlF5SjJENnRHYjZ3ZFY2SmoyR19hQlJULThER093WkljZnV2QnliOEFHeXctU0ZhRGNtREUxdmxWTEloNWowd3o1WDJmUXBlQ0pTMENGUGNnaC03MGJo?oc=5",
+      "sourceName": "ВФокусе Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU1poQUFSSHM0THZMaFc5dmFfVFRWVnphNTdvOUNHWFJRWnppUHpiWTUyWGNXRjRiVzYwem9OV0o4N3Y5ci1BOEEwei1mLXhBTW5faWtHWHdIN1pxTXlaRjVTZFZPQkFIV2ZVNUJ3WFpPX3B3WmFkT2J0LVkzYmg3OXhwazVsVjV5ZHBZdmRVVkwzdzFWZDVfRnJvbHBETzhDTjVPUXFqZXhaUk5vZl92cEZuQ0JkVkhYY2xEaWFlTFN4ZzZqYjNESzhfaUdDd0c4?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T21:08:50Z",
-      "likes": 58
-    },
-    {
-      "id": "p_art_news_1743009985",
-      "title": "В WEartMuseum проходит выставка к 100-летию одесского художника Аркадия Русина - Культурометр",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Культурометр.",
-      "emoji": "🎨",
-      "sourceName": "Культурометр",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU05ZUEk1LUgwN2Q5Mmlxb2o4THdmdjVJS1h2dlFwblpxYVN6MnF4aS1uOXZfWjUxMHhiMUtfbWJEcXpYd3FkbmJrNnpvclRIOXpyY1RhTHRwZHY4UFNwcDctcDBXLXo3R2lRd19GOXFweWdSTnRmLUNUVkhKWUlwRnRsRUhYWWNUT0RNTHQ5LXpUVWNnZlo4amtqTnZTMnFrcjlyOWN2OUJ5cG02RGVjOWFVNFZoaXBBbFE?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-25T20:03:11Z",
-      "likes": 73
-    },
-    {
-      "id": "p_art_news_4220174235",
-      "title": "Как русские художники «стажировались» в Европе: лекция в Твери - Tverlife.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Tverlife.ru.",
-      "emoji": "🎨",
-      "sourceName": "Tverlife.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSUYzeWNGQmtpenI1eGtqdWxzMmpZSzJxWDFqbmx0TFFkQmJfb3JYcF9WbDBtdnlKdmtFa3plRE9ZMXJkQW5fRkRhaTE1ZWxGRlAwcW9lSzVIWnFCQl9XNHRBalI3UnNlQ0piMS1DZWczNUI5emloOU05RHJKTFJpS3hqejgwZnlySVVMTGZpNmJIQQ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-25T19:05:51Z",
-      "likes": 45
-    },
-    {
-      "id": "p_art_news_648072448",
-      "title": "В Оше открылась выставка молодых художников «АРТ СИНТЕЗ» - Caravan-Info KG",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Caravan-Info KG.",
-      "emoji": "🎨",
-      "sourceName": "Caravan-Info KG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZm9PT3ZTNWxUM1NiRTdwSWx5QzE2YXk5VlZKOTV6RzFFWWZpcVZGZnlPRGlCYkhCMWdyaThKaDg4UWRnR3NKOFNCLVBuOEktNmZucjlHR1o4RUhHOVlSUlF2eFRSZ3NVYjZCRkh1RFdMQURqOHpDWUhaRGhpM0dfYzhkTlJ6cHVZNUQ3bmN0ZTFLSmVCS3JYTWllVzlMZldDb3E1Yw?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-25T18:27:34Z",
+      "publishedAt": "2026-11-26T15:14:29Z",
       "likes": 85
     },
     {
-      "id": "p_art_news_658146318",
-      "title": "Выставка «Форма света» знакомит с хрупкими работами чудовских мастеров - Пресса 53",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Пресса 53.",
+      "id": "p_art_news_4196058093",
+      "title": "Михалков – о выставке в ММОМА: Дед Петр Кончаловский был для нас авторитетом - RTVI",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: RTVI.",
       "emoji": "🎨",
-      "sourceName": "Пресса 53",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE13WlFBdHhoa2FhbXk0M0kyUlZ0ak9wM3RFT0gwdEh4aVpYdTllSjA5Wkk4ZEhSWldnNERxM3lzTnh3Q3ZJZmc?oc=5",
+      "sourceName": "RTVI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVlpHbGZmd3gtNUI1eWV2OXdGMFA3SmV1MlBXOEIyWmV3WDlPbldVTVhtUFhaNlVMWmN1R0RvMVpSakw1UEg2ZWtCeFY2XzFQcU5NNWdJeXlMQkVYM3UwT3d5NmJWTTJBNGd5cm5XYm9VS3JVWXFlWWVVWFkxR2xWd0xBbjYyLTV3S1hRVmJMRkRNYk1XbU1fbC1LMXY4elN4azZkbw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-25T17:51:51Z",
-      "likes": 57
+      "publishedAt": "2026-11-26T14:18:44Z",
+      "likes": 76
+    },
+    {
+      "id": "p_art_news_4009376606",
+      "title": "В Калуге откроется выставка Николая Ге к 195-летию художника - Знамя Калуга",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Знамя Калуга.",
+      "emoji": "🎨",
+      "sourceName": "Знамя Калуга",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMjByMk5WUTY1UkU4al82NGFqako1SGlwUWU4ZHdwY0hLQ09XYnRxZ0NNNE9XUVBhYkpoQlgwSzVHY0dNb2RLaFBOWElGTkxPcU5IWWJ2aVdKY2FuRjRMeTlBU1pnOHFtVHc3T0d3ZFRleV9qdWFXVW1sOFliTjQxWDktSFJ0azJEQ2YtSjV1Snd6OWtOcjAtMncxcERoRXc?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T14:04:44Z",
+      "likes": 27
+    },
+    {
+      "id": "p_art_news_2495435151",
+      "title": "Художник большого масштаба: в музее «Искусство Омска» открылась выставка 90-летнего мастера Ивана Ж…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Вечерний Омск.",
+      "emoji": "🎨",
+      "sourceName": "Вечерний Омск",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3J4MG9xcTB5VXY4N3d1bHJ2RmVVN29FVU9BQ19TWFJoc2FKcDlTbXZJdVpkcHJ2UUxGckR3Uk1SYXlrVVN1Tll3aGhWWHpGbEphSTRac2FuUVZyR28zejZfV2Mwbi1yS1FodXJXRGxQdm9Ob19JX2g3YkVfZ2IzRnJ3d3hBMVBMN1lUUG5nTXQ0ZnlFY2RzZVpiQlJuT1dUWVBfOUc1emJialBwZWx0eFI5bnp5blBUZjhFOWdFamNoaVpNWnVTU1JIRG9vN0lpbHFWdm9odjRleHZKYTdYZNIB5gFBVV95cUxQOUVuZF9xSkhYVnJUU1lQUzgzUDB3c0owVmRSSk5KRFJ1ZWZuTWtSODRkVTV2LW5mZTJ0X05mTjNzZU5UVkhpRkpnOWI0dU1DdkZnNEYxbnB5U182UERXeTBQWGllUUdzWFFfOGRNMzlfNFA2SmMyeWdWeHAwTG41TklScnlwTTZpNy14cXVLLVl5My1QRHRPNFZCclc1X3YwWG4xZURDQXIxSU5OcVhCSm1VUzlJSHBZQm9lVmRSOWtZY1ZxOEpGc2x6TlhKZ2d6UTVKUTBCS2U2NlcwRVpTai1aVE9qUQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T13:31:49Z",
+      "likes": 15
+    },
+    {
+      "id": "p_art_news_3549508481",
+      "title": "В Калуге покажут работы русского художника Николая Ге - Культура - Новости - Калужский перекресток…",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Калужский перекрёсток.",
+      "emoji": "🎨",
+      "sourceName": "Калужский перекрёсток",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ILVJIdFFXekFHWDJvVmhqNkJCMXROd0tocGxLSWNRZUxqc182VWd4QUpEVV9kcUtqNm03MWFiRnQxelZ3NlN4UlpsWUpIZEpXYkE?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T13:27:50Z",
+      "likes": 62
     }
   ]
 }

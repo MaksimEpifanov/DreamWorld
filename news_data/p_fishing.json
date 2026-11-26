@@ -1,63 +1,63 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_3742591464",
-      "title": "В России продлили запрет на вылов воблы до конца 2027 года - РИА «7 новостей»",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: РИА «7 новостей».",
+      "id": "p_fishing_news_3841181667",
+      "title": "В Днепропетровской области с 1 декабря вводится запрет на вылов раков: сроки и ограничения - новост…",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Дніпровська порадниця.",
       "emoji": "🎣",
-      "sourceName": "РИА «7 новостей»",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUDE5elU4NzVzWjlHY2M5dHY1SjlZT25pbzlMOGEyeE9jbWRVRDdMTXFqd0R0ZC1oR1BSZVBoT1VBb2NmV2l1c1ZFNDBrblBFTXBlT1FrMlg5Y2Y3RFdoNzEwN1JjMDRhcTcxdUk4WUQ2dm11Vldac1dIUmcxTk1kTThCLU9kdw?oc=5",
+      "sourceName": "Дніпровська порадниця",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0dKdEFZS3J2SllDc2d4Tm9oTE5oUDFWOXM1eURDSG41TlpYMFM1QVE1aHF6X1ZiYjU0NUR1QmZDN291S2Y4cWQ4QURnd0R1QWk5QWdTVWE2SE40YWtvdFNxLVhPczZubTFDRUxwMDJRNC12bFVhQlNBeno0SGR2UHdmU0MxYkhuR1hKRW9tNzhxYmQ4eExNdk1pLS0zSTMtYnAtZE1EbElobW9PakhsZS16OU5TeGQzZG9qQUx30gHDAUFVX3lxTE9FRGNnemRHZWZGWDhuOHV0aFNHdTFTdjBTY1lUalI4Y25NYXZSSnAyc3NTMDI0V0dkTGhYNVZsdEc1emxkdHNvZlhyczZIY1h4UHFoa3FYbDdaTHN0RXJ3bGktcXNGX216WmFydzQ4ZXlCSXlJa0hrcmJONVhsaGUtb3MzZXJZTWlnY1pxdE5BU2lCRUdxZ2hYU1BUdzRwVWdfSEtsM3A5NTF0a1hkSjFPMzFpNUZGc3NYTkluZk1MamNBMA?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T17:14:39Z",
-      "likes": 37
+      "publishedAt": "2026-11-26T13:39:33Z",
+      "likes": 35
     },
     {
-      "id": "p_fishing_news_216083859",
+      "id": "p_fishing_news_20008168",
+      "title": "Минсельхоз продлевает ограничения на вылов щуки, воблы и... - Астрахань.Ру",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Астрахань.Ру.",
+      "emoji": "🎣",
+      "sourceName": "Астрахань.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmJraFpPakdsOW9jek4yeHR2TDBxdktpelFIYm1jcm5fejE1NnhyZ0xXMjBhOEtuQmFyd1FYaDNRV1RkVGVWdk1tSGFXZDBiZkN6aWJhOEV1YlN4QkZEdm1leVI1Ull0OXgwV3BGV1dGVGMwcERrcWY2TjZodWp2WEthbDc0VFo0MWhBUHExcDJGLWxHRjBCNmNNdG1wRmNSQ3VOZy05QXpCV1ZwX0t6MktybE8wc0RsWm05OVRDb3XSAcYBQVVfeXFMUExyVzNqSWVNWHN1Y3pCTVVrR0xaX1lucFNaREUyUmRWaURNekRpT1ZBaEg0N2paTkJYWWVhbkYwTTZkLUs5bk53NVd5cTItVkIzX0FtMVlIai1kOEZ5SlZyTjFNeEkzVVIxU2tVVlk0NF9YU2lmSFhldHBLbkJKZkpVa0R5Q1lhTU9Ia1lFZ1V1ZURVOEg3Y09hVVBmX3VHVDMyR0pnRWs3c2pXcFcyYkhiNHVzRnBxUURjWEdvY0pmVG1HX1Fn?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T13:00:00Z",
+      "likes": 83
+    },
+    {
+      "id": "p_fishing_news_433689700",
+      "title": "Запрет на вылов воблы в Астраханской области сохранится ещё на год - ATPress.kz",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: ATPress.kz.",
+      "emoji": "🎣",
+      "sourceName": "ATPress.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalBXUXhjXzBqRzVqSXNTeWZOcWdsQTM0QjBZT2NsMmVOY25SQXU5Q1pWS3o1TWZBT24ySUN6STdkSkcyS3RDMGtJd1JBT29ESHY5MzNZdmt3VE9kYTdwQUNJdzRLM1dHRnc1dkw3Qjc0NHNDVEZhVzV4MU1EUWlScl9tM2tTb0lRRW9fM3JJNlRROW9HQ1NpZnVlSkxOcHY4N3lWX0xGeUY2RUlnX01N?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T11:39:36Z",
+      "likes": 51
+    },
+    {
+      "id": "p_fishing_news_2565453300",
+      "title": "Минсельхоз продлил запрет на вылов воблы до конца 2027 года - НИА «Экология",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: НИА «Экология.",
+      "emoji": "🎣",
+      "sourceName": "НИА «Экология",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tRmZYTi1NdG13cEhfbVV6WGRaQWM1NExKYk9uMFNDMGZ0WHhYYUJKbU9fVXg5MTlvWmxmLU5pYjBGMHR6UGJHNUpB?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T11:06:13Z",
+      "likes": 9
+    },
+    {
+      "id": "p_fishing_news_951653017",
       "title": "Минсельхоз РФ продлил запрет на вылов воблы на Каспии - Вестник Кавказа",
       "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Вестник Кавказа.",
       "emoji": "🎣",
       "sourceName": "Вестник Кавказа",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE10OWktZk5hZF9tdGR5UktkZU5TeFdCb1g3NTNnWGotajM2SFFxQkstaHpkV25OTzY3N29kUlp1am1vNGlZbEFkZVV30gFKQVVfeXFMTXQ5aS1mTmFkX210ZHlSS2RlTlN4V0JvWDc1M2dYai1qMzZIUXFCSy1oemRXbk5PNjc3b2RSWnVqbW80aVlsQWRlVXc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0xwZjVZOVpIbkpCMThGVjFIc0F3UUU4eXFYRVBvWVRRc2dpSzRLSVNZdGZET1NuSFJwX0RYVk5wbWViZzdmUVc5WGFCUExDY3k4cEMwV09pdGJuNTRER09oWXVLNXBjdzFsRnZvVFhSWDBMdHZSNGIwSU9PNzJJMW5RUVZHY2U0ckRCME81TdIBSkFVX3lxTE10OWktZk5hZF9tdGR5UktkZU5TeFdCb1g3NTNnWGotajM2SFFxQkstaHpkV25OTzY3N29kUlp1am1vNGlZbEFkZVV3?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T16:45:09Z",
-      "likes": 89
-    },
-    {
-      "id": "p_fishing_news_494517235",
-      "title": "В России продлили запрет на вылов одного вида рыбы - NEWS.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: NEWS.ru.",
-      "emoji": "🎣",
-      "sourceName": "NEWS.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9STm5IbXNSVnV1QzBfcHd1bGFUSWtCOXRBTG01bVlldFZTeTBJT2ZmNTRqelM3Z0NUOVpyY2l0MDJZZUlTX3RURWZFNTJ1MjRuM085M1J3d2o1OTA5cmJaUm44VElkT2FyZEhpUEVtVkhZMjFzZ2dVQWtQbU1iTG_SAYQBQVVfeXFMUFBPWGc1ckVUZXI2VWkxUnIyVmVBbkh3bEJsTmU1QWtPUVRVRFBGNjNGTG16cUJlbzdKaFlYNWh5Sklzd2Qxd1ZLWThrd1NPOGpUS2QxejlEbnpZTS0tS1VIZHppekxKLU50aGJsd2haSjREMjVKVkNfNk1rSC1vX0hqS1lV?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T16:16:00Z",
-      "likes": 88
-    },
-    {
-      "id": "p_fishing_news_825765827",
-      "title": "Минсельхоз продлил запрет вылова воблы до конца 2027 года - Ведомости",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Ведомости.",
-      "emoji": "🎣",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rMVBNM0ZhcXN2WTByMnotVG1YWHFUeHFIUGJ1TlZQZ1ktOURSdlN0REkwMUM0aklNRm9qYlc2Vk1EVDdCenFCVk9xeUhJZGhRV1QxdjJubkJITjVvOW12OXJLTXZnVEZ1R21wdFA2dUNSRktqaEVWMVRaZW1BLUE?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T15:50:49Z",
-      "likes": 47
-    },
-    {
-      "id": "p_fishing_news_383389567",
-      "title": "В России продлили запрет на вылов воблы: на какие водоемы распространяется запрет - newizv.ru",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: newizv.ru.",
-      "emoji": "🎣",
-      "sourceName": "newizv.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY18zMXdyQXVvdFdaaHlpanRreXA1QXk5RUJMMXVoM1BDem5TOFFEVmU2Y3ZDQV9CaUl2X3NBQ01xblpoekY2enB0R21DU2lLVUVBSXdTS2JHXzBsdU1iWmdNMmk0N1dyTmo4UzFHckpmZkR1dVR5T3BwX0RTSTB5WnB2UnNEOE0?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T15:42:00Z",
-      "likes": 84
+      "publishedAt": "2026-11-26T08:37:30Z",
+      "likes": 9
     }
   ]
 }

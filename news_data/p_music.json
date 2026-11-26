@@ -1,63 +1,63 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_1360912649",
-      "title": "В Межвузовском кампусе Уфы обсудили влияние музыки на нейронные связи - prospect.com.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "id": "p_music_news_3108816989",
+      "title": "Stray Kids опубликовали японский мини-альбом «Suiatsu» и показали одноименный клип - Soyuz.Ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Soyuz.Ru.",
       "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPamY4MmhMcWF2c1FNZWtYT3RHRjZrX051RHpTdGVtWTBOV0VJTDZ6OEFpUjFwRnBpNmc1b1ptZE9fXzJTU0RnS2ZramNNandOazQ4cEthczh5SHJ4OXVSSG5QMnBvUXZCLXREaXJaRzNmRlNxYkRrSFJVVVdxWnY1NkI4NDA0alhiWXMwdERWejJzOTlMNk9jTWlTZlJhVGpqQ0UxUEhUYjMxRkY2OWRWREV5OA?oc=5",
+      "sourceName": "Soyuz.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXlLa25nWnFwX1BHeE1UUXRMQnZCTkVCS3Q1bFRhQmFoai1QaGZURlFyV2VqU3NWQnlmZEp1aUkzaGx0bld0NWhYc3lEWXhiVC10cjRJbWg5NVFSSmZod3NHRVpodWRONllnLUZOSlRZbFJQQ18yVGJMdWJKUUdVazR0bmJaVEV0dnVJZkp2NHJhRVFPQnhPV2U5OGhMTzc2Sjl2b1dLUXNEQQ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-25T18:35:14Z",
-      "likes": 5
+      "publishedAt": "2026-11-26T16:39:16Z",
+      "likes": 71
     },
     {
-      "id": "p_music_news_1019123485",
-      "title": "IU стала первой южнокорейской сольной певицей, давшей концерт в Tokyo Dome. - Vietnam.vn",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
+      "id": "p_music_news_1733257751",
+      "title": "«Бонд с кнопкой» выпустил первый клип в своей истории - NEWSmuz.com",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: NEWSmuz.com.",
       "emoji": "🎵",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjlkRXFpNTFmWnhqbkVlNVNFanhZS2Z6UWMtd0VWRUdyRWJLTzJnd283S09YRFBFdkRwWWRGYVVuMU03TTJoTWUyNmwtRHZkRWZsYzVaYVY5QmEyajJYYVFEV2ZkeFoydl9xTWVkNVpUeTR6R3Nwa3N1dmpkZEpXTUwxQTltR0FpNm1YUFpaWVd5X3BFVE1xSTMxVkJNcHZrYzlV?oc=5",
+      "sourceName": "NEWSmuz.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeThpMWR3eFR0V2Izd21lSS1lNFg2Z0M1d2l6WWg3SG1QM1E2OXFzaE83SkhuSjVUMFRibWxrRUk3YlBpZEVERFplb3R0UUlJU2VzMGRQSFZkODdMMlVEVGpZUjdSM29vMlVQeTZYOUxvY1pUc1RHbGR4RXh1STRtbl9GaHFzVmVXSzQzMnNabDNzOUh6MGc?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-25T16:10:32Z",
-      "likes": 83
+      "publishedAt": "2026-11-26T13:41:25Z",
+      "likes": 63
     },
     {
-      "id": "p_music_news_3495504105",
-      "title": "«Заточка» анонсировала альбом «Живой щит» — НАШЕ Радио - НАШЕ Радио",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: НАШЕ Радио.",
+      "id": "p_music_news_1785619698",
+      "title": "Казахстанский музыкант jeltoksan. анонсировал мини-альбом - 98mag",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 98mag.",
       "emoji": "🎵",
-      "sourceName": "НАШЕ Радио",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VaDBSZzBzemlHdE01UllHUzVQdDFMSDRxNFd3SlZpcG85WEwydU9lRjVwSlBTeEVlSlVwVGRmdGFkM2toaHNyUFRwb01PbjhtcWpaZ2dwRlhCb2ZuX093cWsySVBZTE5zaTB0SWVGOUd1OGRDMGfSAXtBVV95cUxOdWxvUHlEN2dDVnpSU2ZLNmJMbEhnVmxGenNRRHNKSlhEQmlJYmdqTm9oTWhXcmRySzR3cEhFQzhobGNYR1pONzhjaU94Y0JkTWwxa280TXhhcnR2YnY4SzR3UVFTVmhlY1dPNTZaU1BXZEluYXZCLW9WeDQ?oc=5",
+      "sourceName": "98mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFBTNHdTWENtamZrNlNmOFAwVFduajJ6alBZZkxGZ3RxRnFCSWNHSzdDZ0NIcEVLZEJpTUZjUjc1REI2bEJBandBZUVfY2Z3Nk02VEFSUzRtRTh1OWx3TWtnS1lrQnF5ZWViSXVjNFAwQXpJSGo4QlpJeF9oRjBQSTlOSkZOckYteXQwWnJn?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-25T13:25:50Z",
-      "likes": 69
+      "publishedAt": "2026-11-26T13:22:03Z",
+      "likes": 79
     },
     {
-      "id": "p_music_news_1881640942",
-      "title": "Россияне стали чаще слушать музыку из рекомендаций «VK Музыки» - Lenta News",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Lenta News.",
+      "id": "p_music_news_2535713113",
+      "title": "Саша Цой Баланс Первое музыкальное - Музыкальная жизнь",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Музыкальная жизнь.",
       "emoji": "🎵",
-      "sourceName": "Lenta News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSGVkNGZfdWRoTHJnU1JkUUtoVGY5a3pHcC1qM1ZMcnlzZDhYalplSTRBc0lEdjlUYS1FV2xYX2hPX2tHa3FVZ1FBdHZZYy1MUGc3SXZRTlBObjQ3VTd2bVdQTms3OHFQUXpDSG9WVzdHUF9LOVAyU0tpd0R3QmUzY2owenFIVzJWUjA1bVo3aEVpMTJ1ZW9ESTUtVi1pNU5TUmcwakxnUEPSAagBQVVfeXFMTUhlZDRmX3VkaExyZ1NSZFFLaFRmOWt6R3AtajNWTHJ5c2Q4WGpaZUk0QXNJRHY5VGEtRVdsWF9oT19rR2txVWdRQXR2WWMtTFBnN0l2UU5QTm40N1U3dm1XUE5rNzhxUFF6Q0hvVlc3R1BfSzlQMlNLaXdEd0JlM2NqMHpxSFcyVlIwNW1aN2hFaTEydWVvREk1LVYtaTVOU1JnMGpMZ1BD?oc=5",
+      "sourceName": "Музыкальная жизнь",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ycklQczU0eHdhMk56ejF3TS1PTDlPZmJ0ZHpMSmYxdnpRYlQ5YXRGQXhBMEFraW40QjJ4T2Y0SUU5UnFtUE9tYklOY1VNY08xTFF0YUZFUnpLVDZQRTJKMDZKU3FDSDNGWk1MZVhMUQ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-25T12:41:00Z",
-      "likes": 16
+      "publishedAt": "2026-11-26T12:32:08Z",
+      "likes": 77
     },
     {
-      "id": "p_music_news_2607040329",
-      "title": "Miyagi & Эндшпиль и Matrang записали совместный трек для нового альбома - 15-Й РЕГИОН - 15-й Регион",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 15-й Регион.",
+      "id": "p_music_news_3852256009",
+      "title": "Новый альбом группы OH, SLEEPER выйдет весной - castlerock.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: castlerock.ru.",
       "emoji": "🎵",
-      "sourceName": "15-й Регион",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONmV5N2s4ZHo3dVFaSU1YTDdHaV82b0poYjFYWXVFaTFGbUstd2dwckZNZWpEbWw1bVBlN0x1czkyN0xFSkFBM09hZzU3M1BQRHpQWDhDODNWUGlma3dkNG1kaDVrYURpM2NHYU15dXFDbVBRU3BMTEpydkJ4R29rd2JDRG5nY1ZUc0dSbVlmWmVKU0R4?oc=5",
+      "sourceName": "castlerock.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcTg2VllaLTByNkdaOWJQc1o2ZE43Qk5JcDJnMjFvb28zR3k0NGV0ZWgyRzVvaVdOTE80NnA4OWQxU1Q1cHd3WTlBUk5ReWFYN3BYd3YzRVpfVlBLazMtazJhcHg1TFVDdkJJdHA1RW5kUEhWdkI2ZHJUX3VSTmp1eC1QbjhrQjhISjFtSTgwY204dThJSHpV?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-25T11:36:00Z",
-      "likes": 13
+      "publishedAt": "2026-11-26T11:25:23Z",
+      "likes": 74
     }
   ]
 }

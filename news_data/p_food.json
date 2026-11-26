@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_2997901889",
-      "title": "Что приготовить на Новый год 2027: лучшие идеи для уютного семейного вечера - Факти ICTV",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Факти ICTV.",
+      "id": "p_food_news_1806572485",
+      "title": "Какие блюда готовить зимой 2026-2027: эти продукты — на пике популярности (фото) - ТСН",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: ТСН.",
       "emoji": "🍜",
-      "sourceName": "Факти ICTV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMkJkRXMzdUhQVnEtYVZ0ZldheVNxRGdva0RnWHVjU0dBRkNxZnQ4MzVSOWZtX0gtZ3I5aHpWSW5hV2pkMVp6Z1RTTjl3MFBVcE9Id29YRnJRVmdWVkJCN2xLYUhxbEJfRnk1SlVGS09ZeWJBLWJ0bll0WHllOTBOV0VKXzl4cTR1c0MzQS1fQTVPamV5a083ZDFBVWJ3S21LTHZETDB5ZzZaUW1td1ljaHJSSDJUNXdEbzJ1QTZwY3d1c0U5VXpZd0tLNXRCblN3LWlKNlB30gHbAUFVX3lxTE5CVUh2UWRGc2FQMi1WZVVOeEFOMV8yMF9aWnJrb3BkdWh2OUdpbFl5NmhiN2pjdUxDdDdxd0dhcXlOOVB6a3J3cW9ZbXlvN2pEN0t3MEZDSThwS0lKMURXTC1SRjMyR1ZzQ1hvWDY2RjFVMloya0hBY0tvcEFEOTZsOG9mcWZFa05mZzVjNjB3RkJ5NkdMQndSX2NuU2hfMm9TQmNEU09tdTNVQ2RYdmJWTFY3cW1xdlY5Z2k3dDFZQmhZRWptbGhWR1QySUg5MVhqczhTWXF6UktmOA?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVFsTmVIaFdzZFI4SWloWkhoTng4OEt5eGJyYjFjSjVYYV9ScFZ2dEZvT01Ea1laYlZuSVItU2tpYllzRWlEXzl0Zm5tY2dPdkxVc294dnBGTFZITWFNenhxbnZKQXZpaTQtVEpKbnBOdWhlM3VldGtaQmNreXRRbnFCeVk2TFFfa0swTmthcmhmd2E3TXV3UHFoV2xzYnZHdjhhcDhoVkluN2psc1RqS0h4b9IBuAFBVV95cUxQLUtzcFlZYi1FSnZvXzVCWEZUZlhBbnNuLVlzS1k3TmxSdV9BOU9hZVhRLW5UamZyU0dHZUFtMHdDR0hUdW1rREFFc3VLU0QyY0ZxaHJDeDVOdndRNUxYcnNpdS0yWFd6VW1BcXRjN0w3Q1JyZjdFenlvTkh1VjhIOUpVVVEwQ2txNUlYU0V5Y0d4NnRSRU9QN0FuYXNYUVhfLTZ1Yk9rdU9jT2JKT0htek9nMzlpSjFt?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-25T15:15:00Z",
-      "likes": 48
+      "publishedAt": "2026-11-26T15:57:59Z",
+      "likes": 31
     },
     {
-      "id": "p_food_news_1099725720",
-      "title": "Яичный майонез снова в центре внимания элитной кулинарии. - Vietnam.vn",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Vietnam.vn.",
+      "id": "p_food_news_1194750689",
+      "title": "Заказывал свиные ножки и уши: зачем Путин в Китае наедался некоторыми блюдами китайской кухни - ФОК…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: ФОКУС.",
       "emoji": "🍜",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40YTV3NjVoMXlPX3hsblo3ZmFTNVFrZnVGQkgxNnhWNVdwTi12ekNLbDRaZU9maVcwUFl4a0FZMEZ1cHJscU1GbmtHcTJvRzhEZU5UNDVIcUZJR29UQVBHdmNXZmNsN3dCdnh0VTZIdW5Vb1FycHRUX2FoNXFfdw?oc=5",
+      "sourceName": "ФОКУС",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFMxV0dOZjIxSm53SUc1RVNCSkRFNW1nNHRQQVh2YkxKUzl1QWRndml2RjlVMi0zUFk5cmpYRElQYWx2bGY1eHpPeGc0eDNOU09mQVpQamE3RDhfcDI2eExKMl9TNmUxWlVRNmJaNTMyQ2QwSVFFaGVOMERlUGVJQWs3WTNHMDEyZ0N1SUNEZTVwbmU3UnRKdGMzRFVrSTBuY2JISUkzQ29sbllBVWlvVExZXzhVS1NuVWVrRDV3TFE0bGhkVFNjWHdDWEdXUUJZWUVoeNIB2gFBVV95cUxNbnk4eWRfVFZ6c01oQm9VQTJkaW5TY1VXdVNERXNnUEQ1WHpQQ1ZJS1ZnTzhpU0ZHMGxCd0pPTUhFYm1nZGotTG9HTG9QVWdiU2t1aE1sZzBGM1V1TDIwd0dORmdCWnJNUDZoMGZienM4dXFNc2c4RFhwNkRWc1FhdE5pVUVKTGRMNE1BbW80OHFjUEY2LUpVOEs1d3NBbE9ZS0RXTHl2TDFzZGZxaVhfRll2N0k5aVdLc0d3RVVETkNaZDlQSzFma1hMeG50WVB4eUx0N19vMnVpUQ?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-25T15:13:38Z",
-      "likes": 62
+      "publishedAt": "2026-11-26T15:42:58Z",
+      "likes": 63
     },
     {
-      "id": "p_food_news_3321961727",
-      "title": "В Алтайском крае планируют запустить гастротуры по ресторанам русской кухни - Толк – новости Барнау…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Толк – новости Барнаула, Алтая и Алтайского края.",
+      "id": "p_food_news_3012761997",
+      "title": "Утка в духовке на Новый год: 8 идей для главного блюда - Леди Mail",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Леди Mail.",
       "emoji": "🍜",
-      "sourceName": "Толк – новости Барнаула, Алтая и Алтайского края",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXJtMHBuakZhM2V5QmlmMWNTMGdHdS04MWp5c3VyT05QYzI1VnpyNVIxNGVFVmplSjBoZGJzS0dzbEo5TUViVXlaXzRveE9LSWdJZlRoaGNKR2JxRFZJZll0RFA3WGZFU1VKMkhzM0Z4OTFZaXpQOUc0SU9ZV3ljUDFlS0NiN0FlQWw4VVRtNXdabHdlVEkteWxWT2FFVEtrai1KUk9PMVNQbEVWLTE5azVqNWQ3d2PSAbcBQVVfeXFMTS1ybTBwbmpGYTNleUJpZjFjUzBnR3UtODFqeXN1ck9OUGMyNVZ6cjVSMTRlRVZqZUowaGRic0tHc2xKOU1FYlV5Wl80b3hPS0lnSWZUaGhjSkdicURWSWZZdERQN1hmRVNVSjJIczNGeDkxWWl6UDlHNElPWVd5Y1AxZUtDYjdBZUFsOFVUbTV3Wmx3ZVRJLXlsVk9hRVRLa2otSlJPTzFTUGxFVi0xOWs1ajVkN3dj?oc=5",
+      "sourceName": "Леди Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOa2Y0TXlOSVloLV9yUlI2Z3E4OG1NaVkxc1o5WEZXWjlaRHpBMC1pWmw2Q01aUlFtSUZUdEJZM2IyeGdKWWQzZDVWeE1yNnllcktUSWl5Q1N1TWlnUVFJb3lBWUptUXdZWGRYWkVpMDl1M3N3LWJzRDlST1NiY3p0UG1MbGh5d1dGSFExUldhWTBwTDFERUVTOVpkZE1jeFE2akZ0ZzlxR2xvZVdncy1KVFFBYktndDNrUjBHTjNMUUVQTkZNd1hHYXpnUkVFSGZVREVjb1otYVpwdXcyU0E?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-25T13:53:39Z",
-      "likes": 68
+      "publishedAt": "2026-11-26T15:00:04Z",
+      "likes": 50
     },
     {
-      "id": "p_food_news_3137005602",
-      "title": "Борщ, сюрстреминг и ферментированная акула: какие истории скрывают известные блюда мира (ВИДЕО) - Т…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Телеканал Дім.",
+      "id": "p_food_news_1227808846",
+      "title": "Что можно сделать к Новому году уже сейчас, чтобы не торчать весь праздник на кухне - URA.RU",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: URA.RU.",
       "emoji": "🍜",
-      "sourceName": "Телеканал Дім",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOalhESFpkWl95d2VWTUlzUGdvdWVXd0pZNE9sMW5fNTNXWTllRU5kd1g0YVA4RTBxM2o1cFFiSUVPVmpfSWlFSVdRSmloMzdsdEZBTjUwcU5GN1g0RXctbmRDYXZUcVZhc0lWd2VocXJGU0JSd0RZd21vUFBUZmQzQjBveko5LUpsZHB3aFpLV3JPd0tGQjlSSTN5QVRUTDlYRVFKSk9RMGw0Y2diVm9fZ1N6MzJWVndyanRiSExn?oc=5",
+      "sourceName": "URA.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ibXI0NkJyZ2F0aDdURnN1a2swUDhHeWNlZ1lDVUsyT2NKVFdxVkowMmwySnhvZThCN184VXB5TEtNeExDQ3c4S29SbnQ?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-25T12:09:52Z",
-      "likes": 90
+      "publishedAt": "2026-11-26T14:16:00Z",
+      "likes": 52
     },
     {
-      "id": "p_food_news_2710486100",
-      "title": "День домашней кухни 25 ноября: приготовьте драники и оладьи для семьи - Новости Камских Полян",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Новости Камских Полян.",
+      "id": "p_food_news_1422032717",
+      "title": "Кулинарные маршруты Польши: от кашубской клюквы до подгальского осцыпека - polskieradio.pl",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: polskieradio.pl.",
       "emoji": "🍜",
-      "sourceName": "Новости Камских Полян",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUDN2Rm5lTmRfZF8wSlpfVXJWZmtQTnNOVVV5V25GNi1Sd09Ba1E1VnNvX0p4LVI5ajQtRnBqZzBRcmI1aTRpa082dFhqWk9TakZaWDFfdEZGWkhPenEwMHNOWEpYQTV0MXNJYjQwa0xFNjRKRndYTW1YUFo3T1pwMGZPWjFUTy1XXy01NFExWjBmTUVxYmhVbnFVLXVCZVpIaWs0WVZtVjdwVjhaS2c?oc=5",
+      "sourceName": "polskieradio.pl",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxNc2dCdGViNjZvWUg3VHlPTVFsOHNQbFgwSFRHaFpnc3ZMNlpNOW42VEJfd0U1akxIOVV5NXpHcTBtWG8wMVNVVUFpNWFudkFvLWJBU1hMMWNZcVVtQ1ZaWjItNlMybTlRVVZvN2V0OURwQTRLZ3phMWQtTm94QUtWUkN2WHVOSlZBZVJqZzM3Ui1EQW1VUFVVVERyTkhLZDlXUjNxSmVKai1YaHBqRVhfWVM2LXZDektwU0lyeFZFdjBvbXhYQ2ZtT0lYd0dZNlZ6dUg4dEFUVGdjM0wzS01OT2xoMEpvVjJILVhUWjYzOGNPVUtrdDRZX2hWcUljaF9KZllva2xfUDVaSmd5aTI2ck9hQ09iMTctY0RzaFd5TTZtV2VyTW45d1ZGM0kybUQteHdic1NzdEtPUTRfZzItVFZJc2l2WkMzT2Z5clJZVENuT2VQTUZBOGRrQ256VEZtQnNQUmU2X3lQb0NkOUUtQXBablFhTm9OazBJZTA1NXVhUzRZb2FLRzU2ZmFSQ3h4X1hRRUE1UEM5MjJMc0hhakx0RkRxOFA0MWZkN3VIVFpIbW5uRGJVdHpaZVVyM3E5TzBRVlM2SEpZMGRSWU53TF8tZ0ExaUpPcFN0MndBcFhhcXRjX2VvN3pJcVU0OUN5Zk5qbER1Uk1hdGdjMDRlbmR4VEF5eHBCWDVRc21FLUtiMEF0UnVuaDUyTW1rRHkwbFFMSGR0bE4zeHFyQ0thWVZHUnVxbEg3S094Y0stdXdXNlJXNnB3NDJfVzdJRXNuNHJfRWptVlRoNTVVakJpWg?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-25T12:04:53Z",
-      "likes": 89
+      "publishedAt": "2026-11-26T14:00:00Z",
+      "likes": 60
     }
   ]
 }

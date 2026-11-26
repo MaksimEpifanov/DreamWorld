@@ -1,63 +1,63 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_4085509813",
-      "title": "Психолог назвала скрытые признаки эмоционального насилия в отношениях - Здоровье Mail",
+      "id": "p_psychology_news_1842185288",
+      "title": "Психолог рассказала, как раскрыть свою аутентичность - Здоровье Mail",
       "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
       "emoji": "🧠",
       "sourceName": "Здоровье Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNamZVR1JWY1lmd3FwbzZSTUxuU21ad1RYMUloN3o2MFRrRzNpc0pTRm9ENjRCeWVYaVU4algtWjJmeW1TX2dILTFBdkExVXlJNTJmNk50M0NCeG5HeVVFRldTMkRXMmxOV0RveTU0eTJsQVFGTkVIN1Z4VjdoNmNzdFMxNVpfNXUzMjEyVFJtSGtldDFOcnRzZmlfT0Uwc3VSeXZsUEVQcnF3dWpEVllIMA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWczYjVCOFpEUjRtQ2RZczBJd3ZCRkZTS1RyaWpaS0NvaUNZcEdPR2FlLWNMQTBkMWp3MU04UmNrQmJtVjhBYWZLLUpNa3cxNFdrWldRVlRlVEhUc1FkRzI1SUdiMkQ0a1pyb2xKZFVVbG9CNVp2b2drc0pIWlBzOHlmVTBDOF84a3VydjM5bGRnaXc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T16:29:53Z",
-      "likes": 24
+      "publishedAt": "2026-11-26T15:16:59Z",
+      "likes": 56
     },
     {
-      "id": "p_psychology_news_3609094661",
-      "title": "Жан Просянов и Илья Лейбин изучили анатомию лжи на ивенте «viju ночь эмоций» - Кино-Театр.Ру",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Кино-Театр.Ру.",
+      "id": "p_psychology_news_2731505354",
+      "title": "Группа навыков АСТ для жизни «Тренировка психологической гибкости» 10 декабря 2026 года в Москве -…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: kudago.com.",
       "emoji": "🧠",
-      "sourceName": "Кино-Театр.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wQmpiUW83Q0g3Mlk5THBPQWxSQXRFZWFjMVFWekI0elB1YlpZZjNCSEFnZHhtYll5cEZ6cWV2QzYtSXdrdmNuSHZYQ01kQjJ3bGtaRDlhNjRhNDhtWDI1V1g1NU1KUE9pdm9idQ?oc=5",
+      "sourceName": "kudago.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLTliYkRqZlhKeUsxc251NFVjVWhST1JSbGNiVkxPeUlsTk9MZVhScS1fRzJkc3BtejB3cUoyTG9lYVlVbWZVWXh0WkhKdUhtWXVvM0N3d1hrMnNHdmZHcFJFQUNPVjhiQnlNREwyTXdpVU02S19qaGtIVldNdkl2Qm9saW9Ed2pDOVZLRXZpQ1ZfUWs2NmtXV1UzYUxGNFE?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T13:47:33Z",
-      "likes": 52
+      "publishedAt": "2026-11-26T14:04:16Z",
+      "likes": 81
     },
     {
-      "id": "p_psychology_news_2552975997",
-      "title": "Естественный запах партнёра оказался связан с качеством близости, но не с удовлетворённостью отношениями в целом - Мел",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Мел.",
+      "id": "p_psychology_news_4027556394",
+      "title": "«viju ночь эмоций»: четвертая встреча проекта прошла в Москве - Vokrug.tv",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Vokrug.tv.",
       "emoji": "🧠",
-      "sourceName": "Мел",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSmI0S2VVNzlCNlZvY1hjam9UaFVidjJTcDBiMEV1d0EyTm9kQm1TYWh2ZHV2bm1OWTFVV2JFanc2N0xLMVRoeWsyWmlHbnotbXZMMWUxRUI1MEhocWpZTl9XWEg2ZWhtREJjaEhMUmVEWUlEYi1Xb3dMYUxMaUZlaG4tUmx1Mko0NnM4d1BoS3k2NGpWZ2pCaF9oZERTN1lFYXppTW9QQ1hmWElsNDNnXzAzNlRhR0dFekxadmVZd0p4emltWXJxNkYxVjFyOEct0gHQAUFVX3lxTE9KYjRLZVU3OUI2Vm9jWGNqb1RoVWJ2MlNwMGIwRXV3QTJOb2RCbVNhaHZkdXZubU5ZMVVXYkVqdzY3TEsxVGh5azJaaUduei1tdkwxZTFFQjUwSGhxallOX1dYSDZlaG1EQmNoSExSZURZSURiLVdvd0xhTExpRmVobi1SbHUySjQ2czh3UGhLeTY0alZnakJoX2hkRFM3WUVhemlNb1BDWGZYSWw0M2dfMDM2VGFHR0V6TFp2ZVl3Snh6aW1ZcnE2RjFWMXI4Ry0?oc=5",
+      "sourceName": "Vokrug.tv",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUUZGcjhkQ3A3YnZhazFSMWV6NU5EVHhrOVVyRHE1aWNEclpTRXRSanJweEh6b3JFdUU0dy13am1STXZuTkxoUVRCaVgyVXpGcTNRN0lPN1BqYW_SAWBBVV95cUxOSDF4My1MU2lMYnZuSUxxaThwVGo0YkxZempKbVlVSGpPb1NpOTBjYTRzZmcwSFdqNjhwb0dXWlZURm5QZUhZWENEMnlDeGVyMEpPdFdjV0lNby1OV3NrQTU?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T13:00:36Z",
-      "likes": 36
+      "publishedAt": "2026-11-26T12:00:00Z",
+      "likes": 75
     },
     {
-      "id": "p_psychology_news_2491070743",
-      "title": "Психолог объяснила, возможны ли отношения молодых мужчин и зрелых женщин | ОТВ - Новости - obltv.ru",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: obltv.ru.",
+      "id": "p_psychology_news_4008917277",
+      "title": "Бывших наркоманов не бывает?: психолог опровергает миф и рассказывает о ремиссии - Сахалин-Курилы",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Сахалин-Курилы.",
       "emoji": "🧠",
-      "sourceName": "obltv.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNajJiWld4a3FOY3VsVWJJdjBEdFRFdlpEcDdnQzNZdkVCeHVwNU1TaUh3ZlNvNXZrNUdyNjNxaFBTU0k5QTk2bHlNNzJTZ2dvUkpJWUJ2SjBJeEZiRzFzc1Rrc2VsbW15OE5tZlIyRExBVDFDT2ZtMnEzSEpZd1lZa0FjTjRrYzlOaGZOckFZQkQ?oc=5",
+      "sourceName": "Сахалин-Курилы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY1VnU1RHTEZlSHdUSlFYNk5mRjN0b3c5THVHaW1NR1o3VmxQYVFvQ0pIQXhUSm5qZjJaMkpUYm1FMXprMHV1XzFuZE44NmFZcm4wSkhad2Z0UjV4RGdSVDE2LVBFMzVJaEpzX2tBaDlLN1RDaWsybDRUQVZodW94OTBhZ2p1V0VjRFVLbDNVeU9faE1Fek04alc2NFN0TVBZaWh2WlhaM3N5Z0NzNWpzQnRTbzVLVHVWTS1OekN2WGlwMVU?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T06:03:00Z",
+      "publishedAt": "2026-11-26T09:01:06Z",
       "likes": 20
     },
     {
-      "id": "p_psychology_news_1284652570",
-      "title": "Почему «бежевые мамы» растят «сыночек-корзиночек» и чем это опасно — колонка психолога - Европейско…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Европейско-Азиатские Новости.",
+      "id": "p_psychology_news_1651324135",
+      "title": "Профессиональная этика как живой разговор: опыт интервизий в СРО «Союз практических психологов - Пс…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Психологическая газета.",
       "emoji": "🧠",
-      "sourceName": "Европейско-Азиатские Новости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVW9OdFRCS24ya1BBbm1fM2NCQzE4ejFRcl91R1NnRXBkd0xJVzRTMm45aUNORE1oa2o5M0dDbl83LTBiREpSM2c4UkMtRm5jUDZId2FjMTJqMlhIdEt0SW1sWU11clhWUkpianVkb3JVME93UmtmSVlFUXB2d3YzVElZVmhQbE5LajZVYzdFUzNOYnJESmJ1dDZtdW1IdDFIenhYNGVnUkNrejdWTHdMZW1McTVEMGFSYm1takxGM09nbHhEVlE?oc=5",
+      "sourceName": "Психологическая газета",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFA3TEVTbXJNcG1RYlVSaG5laEdJVGwtUHAzTHF3Y0Q0RDZRQlB5cEpWMlBYZjhkMng0Z3VXVEhfdw?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-25T06:00:34Z",
-      "likes": 80
+      "publishedAt": "2026-11-26T01:31:36Z",
+      "likes": 57
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_nature_news_477461570",
-      "title": "На защите редких обитателей природы - http://yujanka.kz/",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: http://yujanka.kz/.",
+      "id": "p_nature_news_1066636840",
+      "title": "Фотоохота удалась – заповедник поделился кадрами редких хищников и других обитателей степей Мангист…",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Lada.kz.",
       "emoji": "🌲",
-      "sourceName": "http://yujanka.kz/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yZ2Z6TFVyVW9ZZDlBMDJjWkpYbi14X0pTTkZZVWFTeUhSNHRhX0VZekl2cF9EQ3dNNEYxd3prcno4OUZlcTZMOWliVHBfOW9GZFNFaGhxc1J5UUZ2cWNTVk1BQlRBUTM5?oc=5",
+      "sourceName": "Lada.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYkJhX3NFNUV3TUpaRU94QnJ5V0RoNXNhUXNMM2czSzVXVFNKckdMbUlqQ0lRenJVenhSV3Q1Y1NfMmVlU0VfUGlLcFlGYWtJOHY2aG9MY285UENfcnJFWEp5VGxrMGZUcE5sc1RrV2tubzlCSEFoeVM4OFBoQVJpemJYcGhreW5kcWhsNHBicG90SmxEWG84NUxHWHJILW9qVTAtMlVQWjF3SXpNUDZlQVVxSWxOM2R0cDI4WG83bVBMMkJCenFnYWpDWl94bk1QTTJQcWZ1d21Sa1N1RHpWSWRxYWZnaHRLWGFRck1n?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T11:33:27Z",
-      "likes": 91
+      "publishedAt": "2026-11-26T16:38:00Z",
+      "likes": 17
     },
     {
-      "id": "p_nature_news_1481332307",
-      "title": "В Министерстве экологии и природных ресурсов проведено совещание по вопросам противодействия корруп…",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: GOV.KZ.",
+      "id": "p_nature_news_3826427612",
+      "title": "Два детеныша сурикатов появились на свет в перуанском зоопарке - СБ. Беларусь сегодня",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: СБ. Беларусь сегодня.",
       "emoji": "🌲",
-      "sourceName": "GOV.KZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE16ZmI5QndnOVZsWlQ5MnpIbWF2WHRWcEtYTzhRellKWlhyOHpFUG9TcDhjMXhPZERCeXBldzYzcXozblRMRlM3czVzNTdlUlFtY0MtWEdhLWR0VHNuTlNIR2V1VUpkWmp3R1BBMGZaZHFodw?oc=5",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObTZlMFJyLWhxVm9CZFRWZDJTdjNSX3lVRjlhM0lnLXdFa2hzeEYtZkZvS2dkRGpPWWF5R09qY3llUGQwNVoxQ0NjOGhPOF8ycFI5X2ZodERBWmhEcEJFMzZ4NkRtVmVBdVQtdHpCMWRjYXRFaTN1MnZScUVZQzQ2R3FFdjBqbHpOaVdTUDVyN0RKdUY1SHpjbTdXME4zY3lFM3BR0gGjAUFVX3lxTE5tNmUwUnItaHFWb0JkVFZkMlN2M1JfeVVGOWEzSWctd0VraHN4Ri1mRm9LZ2REak9ZYXlHT2pjeWVQZDA1WjFDQ2M4aE84XzJwUjlfZmh0REFaaERwQkUzNng2RG1WZUF1VC10ekIxZGNhdEVpM3UydlJxRVlDNDZHcUV2MGpsek5pV1NQNXI3REp1RjVIemNtN1cwTjNjeUUzcFE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T09:28:19Z",
-      "likes": 25
+      "publishedAt": "2026-11-26T14:52:05Z",
+      "likes": 16
     },
     {
-      "id": "p_nature_news_2489101431",
-      "title": "В Астраханском заповеднике восстанавливают ивовый лес для гнездования - Ведомости",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Ведомости.",
-      "emoji": "🌲",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc1ZWMmJjMFdQejFmT0U2X2t0ZDhnY3JDUGlzREQyaU9TOS1zejRpMy1aQ1NGdG5RY3VUSXVwUTdkZV84LXRPQmVWUXpCNDFhbDRLQkhjMTZRWnJ6R25PUVVnc0pxbzJfcmtXSXJpZ21VN1ZlQjRPeEtPWHpiTzJ4MmZaTF9rRkp3WjlKLTNudzFUaWxueGJyd2tPNXJRdFZl?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-25T08:38:41Z",
-      "likes": 46
-    },
-    {
-      "id": "p_nature_news_2826178629",
-      "title": "В Армении двух спасённых медведей вернули в природу со спутниковыми ошейниками - НИА «Экология",
+      "id": "p_nature_news_2621568134",
+      "title": "В Приокско-Террасном заповеднике открылся комплекс «В гости к зубру» - НИА «Экология",
       "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: НИА «Экология.",
       "emoji": "🌲",
       "sourceName": "НИА «Экология",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE41aG5BWUs0RndHbDZLbnd3UUxzaTdPUWZRMW1WbW5BMnh2OV90NDQ4cUl5RThUR3JjMGwzdmdjdUVwRlE3aFpXbzh3?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5abDJ6M1BqLVBDUDh0bDhUeGhsZ0d1UGRlaUhwQmxCWnB1SVluaFpMLUhOY3Q5SDI2U2pGQUowQzBDc3pTV0dEeTN3?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T06:01:30Z",
-      "likes": 80
+      "publishedAt": "2026-11-26T12:26:13Z",
+      "likes": 57
     },
     {
-      "id": "p_nature_news_1364662669",
-      "title": "Единственный во Вьетнаме заповедник для слонов: предоставление дома для слонов. - Vietnam.vn",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Vietnam.vn.",
+      "id": "p_nature_news_488268165",
+      "title": "«Поздняя осень утомляет, но приносит пользу степи»: фото дикой природы Оренбуржья - 1743.ru",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: 1743.ru.",
       "emoji": "🌲",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbFEteVdmYkNzQUtyNE5JYUtmSWZ6cl9ScUhzQjV2Yjl2TjBhY19ESFBlU2pxaUU2anpxUW54NTYxeUMyQUlDOXY0Ni1sYlBoaVBxTTQ4X2hPdmJpcWdueTJlWlVZQXhmUy1ERlJ4c1ZPT010TkFwMVdnRTdyX0lqWTlEdlgwQQ?oc=5",
+      "sourceName": "1743.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5HYTRsSlYxZVVLQkdNZWxlelczTjh0amlOQXNLMHNucTRtYWhsSnpjM0JXT1BEWVRBZzBaczlHZw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-25T00:44:01Z",
-      "likes": 59
+      "publishedAt": "2026-11-26T05:10:00Z",
+      "likes": 20
+    },
+    {
+      "id": "p_nature_news_3504903705",
+      "title": "Пятнистых любовников заметили фотоловушки в заповеднике Приморья - vostokmedia.com",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: vostokmedia.com.",
+      "emoji": "🌲",
+      "sourceName": "vostokmedia.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQm1lVEs3ZGZNSWEyZWtndHg0ajUzdEowUHVMRV9SNzFoZEE3dl9icVNZODNZYnBKYkgzU05rRHVYU2gwcTNhVnJEankzYTFoWjRicXBrUWU4ei1rRmJOeTV3QjV1ODU3eTVXMEFqaVpibmpyN0F6SXJUeWFWQzZvei1GXzNCZERNZzhSOVdQdWhlMElQcXU0cG91R3U3eFRtZDRkNW1HTV9DQTdmV1ljbjJDQ1ZBdw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T03:15:00Z",
+      "likes": 17
     }
   ]
 }

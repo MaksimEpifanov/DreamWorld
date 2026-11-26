@@ -1,20 +1,9 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-25T21:38:38.391608Z",
-  "source": "google-rss+bing-rss",
+  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "source": "bing-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_other_news_1868448405",
-      "title": "Тихое увлечение с громким итогом - МВД Медиа",
-      "summary": "Необычные увлечения и темы вне списка. Источник: МВД Медиа.",
-      "emoji": "✨",
-      "sourceName": "МВД Медиа",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZGVjdV9wWGtfRG1aSGF6ZnBFeGx6VFprVXRRU0E2SkFMWm90U1NuXzNDWU5uMjZXNVd3X0k3QlhkRUpOeExBd3EyVW5oRW1DN0E1TUlWUGdXNDdSSHRlVWlZT1ZtV0llV0dBdVJyYlpwNzFaWjFSZHFqNzZ3YVc1SDAySDczdXp5X1ZyaWg1YlNqb0pEQTFMMHpyazZaUQ?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-25T07:46:07Z",
-      "likes": 90
-    },
     {
       "id": "p_other_news_1240198456",
       "title": "«Хобби — это социальный лифт»: почему бизнес выбирает падел и триатлон",
@@ -58,6 +47,17 @@
       "tag": "Игры",
       "publishedAt": "2024-11-25T21:55:00Z",
       "likes": 49
+    },
+    {
+      "id": "p_other_news_2224831412",
+      "title": "Необычные увлечения: хоббихорсинг и квадробинг набирают популярность в Хабаровском крае",
+      "summary": "Необычные увлечения и темы вне списка. Источник: KP in Khabarovsk.",
+      "emoji": "✨",
+      "sourceName": "KP in Khabarovsk",
+      "sourceUrl": "https://www.hab.kp.ru/online/news/6011252/",
+      "tag": "Игры",
+      "publishedAt": "2024-09-25T17:01:00Z",
+      "likes": 39
     }
   ]
 }
