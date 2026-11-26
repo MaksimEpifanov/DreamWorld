@@ -1,30 +1,19 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_3165580281",
-      "title": "Уфа вводит туристический налог: что это значит для путешественников - KudaGo - продвижение событий…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: KudaGo - продвижение событий и мест в Интернете.",
+      "id": "p_travel_news_716020831",
+      "title": "«В поисках Аленького цветочка»: в Самарской области появился необычный туристический маршрут - Ново…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Новости Тольятти.",
       "emoji": "✈️",
-      "sourceName": "KudaGo - продвижение событий и мест в Интернете",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd0FWeFc0MExoVDlvaXVvaWM2TmFGS25pYngzQnduTndCempaV3ZLY3hMUVNCaXo0X2pMTGdYQXhfakVhWVpjWjFlRzYwWjBwdWNKTS1JaWplZGJFeXNsYU5rZHNLdW9XWTJHU1VhalpYcHAtYThXNDctNnIwX0RzVGxVVVZ0Y0pqMjRoRWI0bEJrSU1zQjVaVXp5LUFhNHJ5QlE?oc=5",
+      "sourceName": "Новости Тольятти",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMm9MbUdRN2VHNkp6alRacjJvX1BoY0RvWUd1U0dEbjViTkRXazNXNXp5aTFQZGZtTlZGeXdaUjN0dEZOb0NRUzhWSVRsTmxjZ1lLTV9lcV9PZWVjaVFOUUVNS3hOb1RKOUtBeHVFMzNIRWN4UmpEUXhQR2EzLUJpb19CdE9uWU5hN25jcFZ0aDR2ZTVOdHctM0tVTjM2UzBMLVBPWGN1UDFNNk5nQ1dzT3lFSjViOXZMakE?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T14:37:42Z",
-      "likes": 35
-    },
-    {
-      "id": "p_travel_news_3011628814",
-      "title": "Центральный транспортный узел меняет привычные маршруты. Как это улучшит жизнь людей? - Lenta News",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Lenta News.",
-      "emoji": "✈️",
-      "sourceName": "Lenta News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRjJTbXpNOWpaVmEzZHdId0lRYm5wUnJsSmdEYU83U0tDcXZSOVVJS1lsdGJNQlNrejZtcXdhdk03Q2luaGw2NWZZNkZ2UUJnOVlEbHlQZFFDWXV6ZjBReUROdnpVV0lwMnp0QUxDVG8ycHJTdjBrb1lyRlJBSEhTVkFUc284YzI5VmtLSUhTcWR5RW83XzhWV1QwbTg0LUhTNG01TtIBpAFBVV95cUxPRjJTbXpNOWpaVmEzZHdId0lRYm5wUnJsSmdEYU83U0tDcXZSOVVJS1lsdGJNQlNrejZtcXdhdk03Q2luaGw2NWZZNkZ2UUJnOVlEbHlQZFFDWXV6ZjBReUROdnpVV0lwMnp0QUxDVG8ycHJTdjBrb1lyRlJBSEhTVkFUc284YzI5VmtLSUhTcWR5RW83XzhWV1QwbTg0LUhTNG01Tg?oc=5",
-      "tag": "Путешествия",
-      "publishedAt": "2026-11-26T13:37:00Z",
-      "likes": 45
+      "publishedAt": "2026-11-26T17:53:30Z",
+      "likes": 82
     },
     {
       "id": "p_travel_news_2146548730",
@@ -34,8 +23,19 @@
       "sourceName": "prospect.com.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWThzOERQRml1M1dNMTVmR1VrYVRMOEVHSWpuMEhfUnBDUjZCUnd3R1FkdjR0XzkwT0JISXY0VzJMbVBPeXJ2aGJsSTBkYTVlSGRfSzNYYVN5UGJ2Z0JqYXF0UEthNmNDNXR2SEtRTEk2dW82OGxLNWxoSjZWVkJiZmJrT08yV2dzMDA0UG9laGV4N2pyT1BrVlpFQ1gwdkh0V2J6UG5JQlJkLTlxNGRnMDhuYXk5cV9henJ0LTNCcUotMmREVGtvcjVJaldoR3VwMnc?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T13:21:55Z",
+      "publishedAt": "2026-11-26T16:51:32Z",
       "likes": 52
+    },
+    {
+      "id": "p_travel_news_3170060226",
+      "title": "Старейшие заводы Прикамья открылись для туристов - Про Город Пермь",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Про Город Пермь.",
+      "emoji": "✈️",
+      "sourceName": "Про Город Пермь",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWXhnX3B1cU0tVWhLOVo2a3VsY25zMXZPR2dFVjB6ZkRfUERsYzVxeERqdkdZb1RjT05EcUdfMUo0YVgzUkk4Y3J2UmNtLXBsc1d3TFhrUGVwTW1VV3cxOV85LUZKWWV3QlhvMnlneGxIcnpocTYtQ3VGUkJMZ3otSFRZWlBPams?oc=5",
+      "tag": "Путешествия",
+      "publishedAt": "2026-11-26T16:48:24Z",
+      "likes": 70
     },
     {
       "id": "p_travel_news_1243623337",
@@ -45,7 +45,7 @@
       "sourceName": "Киров Град",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUNvOHYtbXl6S1p1NVgyQkp6ZnhWU1lybWdleUNrUkpiTllnQnZZWjQ1SGZVYmNhNlhheWVwOVRDUGI1NTNSOU9QSTZPTHhxYnVEUkMxNVhqc28yd1NFZ2JySmlxbWVCcTk5dTE5TlVydVRqWEZROS1XQ01BYzNON3gtT1dtVUZZa2hiRmZjRmFtdEZrMm1tazVvbTBPaHFnbkJN?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T12:57:39Z",
+      "publishedAt": "2026-11-26T13:47:46Z",
       "likes": 37
     },
     {

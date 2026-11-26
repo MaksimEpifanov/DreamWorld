@@ -1,9 +1,20 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_reading_news_775686262",
+      "title": "Ярмарка Лаборатории Самиздата «Путь книги: встреча с читателем» пройдет в Самаре - НИА Самара",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: НИА Самара.",
+      "emoji": "📖",
+      "sourceName": "НИА Самара",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc19ubnU4NElhREhGdDFyVERDczd1TjhCNFo5YklINWNoYy04Wm5yOENDVk9KWXZfVUVFVDRaT0NyZmFXVHZ5M0J2NVdPVnlJUmtHMC1PZDZJR2R2SzlNbDVWb1djTHV6b1JzRVZ2X1JaNXJRTFZDUWtXaDNqTUJDSzdhM3dENG1ldWVkRlpJRWZSUTVrWkFqYmxZdkdGMkRIM09wODY1NmxsdzRlZDl3a25sMDctenlkd3ZGZnpIa0piUQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T17:19:00Z",
+      "likes": 72
+    },
     {
       "id": "p_reading_news_1269599701",
       "title": "Сгорели книги. В результате ракетного удара по Киеву 25 ноября пострадала типография Конви плюс - NV",
@@ -16,48 +27,37 @@
       "likes": 53
     },
     {
-      "id": "p_reading_news_1216625277",
+      "id": "p_reading_news_2627178833",
+      "title": "Воскресенье с книгой: курсанты Академии Национальной гвардии среди самых активных читателей марафон…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Check-point.kz.",
+      "emoji": "📖",
+      "sourceName": "Check-point.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uUTJGb3I3U2xCXzk3bWpYZFA4dTV5Z3pyckwwQXJXN09DbV9OSnh6RG10SVVncXcxd2lldlhKWGI2Tmd2bjF5UzQ1YWF1TXNOY2JkLXVR?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T13:30:33Z",
+      "likes": 61
+    },
+    {
+      "id": "p_reading_news_1810986445",
       "title": "Владимир ЗИМИН: «Я вербую автору читателя» - Ивановская газета",
       "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Ивановская газета.",
       "emoji": "📖",
       "sourceName": "Ивановская газета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOampCVDlKeHpnWERGNW5DOHBEb2pmOURnckozS0VIWEJVMFpmcU1lRDlJclpUWjVkWHZUanBkeU41UVV4OS0zMjFFc3MzQ2kwUFF5b2VHN1VxWkhPdC1vSUZkMDVjTTFoeWk0T1NfTDMtX1NfZmM5WmNtM0kzSmRLbXlqTFJ6VDVOb2hVUWFEanM?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdGp0elBQRmh5d1h5Y0JwX0drUkZybEVlc29JelNLU0JBLUdKWjlMTUN3X1EtQ190cXBPUGxTVjVOa0dXQ01kanBCQVhUUEFrMGlXWTY2aGZwV3lUYW12aG9aLUxCd0FOMndoTzN5ZFAwR3BuTHdZME1zd1Jub2JXanRkbC0tOXN5YTJZ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T12:50:03Z",
-      "likes": 29
+      "publishedAt": "2026-11-26T12:49:57Z",
+      "likes": 65
     },
     {
-      "id": "p_reading_news_3249124638",
-      "title": "Воскресенье с книгой: курсанты Академии Национальной гвардии среди самых активных читателей марафон…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: КАРАВАН.",
+      "id": "p_reading_news_2023635108",
+      "title": "Детский писатель из Санкт-Петербурга Денис Сорокин встретится с юными читателями Фаниполя - DZR.BY",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: DZR.BY.",
       "emoji": "📖",
-      "sourceName": "КАРАВАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeFYyeTN5ZDM1bW40eFdKbDdneTJXLXYxbnZKVXRUZVFhcUtTc0JOT2ZZbmVfak5NcU92TERvb2I0WmdfdXNUMEZkcE54NXlsRVdoaXNPSWR0RnZwbmUyM3VKTkRocFpzNjF3ZldBNWVjMWVnRmZ3Zk1TZzlfTFcxZ3lOSWlVMFFJcllIVEZILWd5NlNnVlp6Rm03WVkxNmpkQzh0dy1yZ0plOEhNY3BILTR2Qzg4R2QwTGMxUnBhSlpSM1ZsSFZZQVpNVkFzX1JBRGJDaHNGNC1lTTc3TUhNcGR3?oc=5",
+      "sourceName": "DZR.BY",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamxPclc4a1o4VkpDWHptM2dhN0NqZFplaGJFdGRQa2Y2bzRWdkM1VktrbFRlZURaS1RDOEl4WlRYY2NzZk92aklXRGtKZDRhM3JFLUJ5cXVLWUljR0tjdVN2Y0pvWVdKenlva3VJdHhhUDRfWnZTblZCcG94R0lpcGJOSGFTYWJ6UFQwS1p2ZGdwRFB0aTdxVUZuMnUzNS02cVVCWUFaUE1udHZLWHRSTnI4dURWYkotN3c?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T12:05:00Z",
-      "likes": 42
-    },
-    {
-      "id": "p_reading_news_1391364278",
-      "title": "ЧТЕНИЕ ОНЛАЙН: КАК НАХОДИТЬ ИНТЕРЕСНЫЕ КНИГИ И ОТКРЫВАТЬ НОВЫХ АВТОРОВ - ТВОЛК городские порталы",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: ТВОЛК городские порталы.",
-      "emoji": "📖",
-      "sourceName": "ТВОЛК городские порталы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMm1qV1ZMVndQU0lxb0d1TGlSZWZYamgxd0xQZnZEbVd0WHRIcFNSS21sOFRLV3ZRQ2JyOFhDN2RRY0VfckhmS3ZXUW9FaGZLSWNSTTczWVNoazUtUjRjN1B5M2RXOGkxSlRGeWxrbDlWVnZXb1NSc1lXV29zcE50OFZuWEpPUkhMSnRBcUp0MjdnVWFFUXhSRXBvMTZEZ2NreXlES3VzRXY0RzcyRXBB?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-26T11:36:38Z",
-      "likes": 45
-    },
-    {
-      "id": "p_reading_news_3280421956",
-      "title": "В Варшаве открывается XXXIV Ярмарка исторической книги - polskieradio.pl",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: polskieradio.pl.",
-      "emoji": "📖",
-      "sourceName": "polskieradio.pl",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixANBVV95cUxOT1Z6Q3NQV2tLcmF0MHIyS3o4WnJBZWFtb1k0OF83QzRjZmlnb1pxemhSUHdOYmk3ay1hZ2x6TUEtZ2x0UkgwRFJkcHpoejNYa2llMi1YcllSY1Vyazd6ZHhxWmp0VTBfX2owMWRabF9wVlBLSW0zY3dsbjgxMUI3dFlDT2ZSZThyTzdhZDJ5aUF6Z0VVNjVUeVFNQXVLTzZWa2pubnBzMks1MnZBWlJLSXBoRW9ROURzWmxKbDJ1TVU5ejYtVmgyZF81dXpiZEpMRDBpaFRkZ2lpTHR1bHR4ZS16M3dOODhSUXJ1d2d3MndvTjlYZThlY1ZOeUdzVjk0UlVjMHphZlh6TEhCdTZEb2xzb2J5NXFTUF9TckhGVnhLVDQxNzdtR2V2czRHOFByTWhhb29vY1pfTEtFNnBiU3pkUVYyNXJCdXJ2R0VIazJldU9vc09QUFVXU085ajh4UElfUnM3eWZxOU04WHphWDZrQ0JNdVVaNC1wb1F2TkxISG5HT2NEUTBObE5EOHJ1WVVtUjBxdGVHMTY2akpaMXZHeUxoNnVNSF90V3o0TjdDbGs5R1JZcWhoR0huOFZlUndDYw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-26T10:08:00Z",
-      "likes": 57
+      "publishedAt": "2026-11-26T11:46:58Z",
+      "likes": 59
     }
   ]
 }

@@ -1,42 +1,9 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
-    {
-      "id": "p_cinema_news_926040045",
-      "title": "«Приемная мама»: чем закончился сериал, финал истории - kinoryad.ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: kinoryad.ru.",
-      "emoji": "🎬",
-      "sourceName": "kinoryad.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT21HYVdhREZwYlJLaTh1dkZLdV9yUTE5bk92ZW42QVlYY1YzX0Vjb0xmUHowdW94NkNMeGFqM1Zvek9aTFRKQmNmUVY2dE5VMTNWdmJWNVBqb3RPWTFsU0gxLWZQQ05jcHp3U3ZGbjVxQ29WV0x5U3Q1OFpvcDMzSF9ORnNJV1hOQ1dyZA?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-26T15:07:46Z",
-      "likes": 75
-    },
-    {
-      "id": "p_cinema_news_1848093766",
-      "title": "LEGO выпустит четыре новых набора к премьере сериала «Гарри Поттер»: что войдёт в коллекцию - Mixne…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Mixnews.",
-      "emoji": "🎬",
-      "sourceName": "Mixnews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSHdXU0lBUTdYblNncU9pS1J5MndyTnc2ZHdqX3hYMkxPNTFFZVVDQmZ5R0puZm4tTEZNTHlpYTdrakNmdVcyak5xX2xmcUJrWVhkcUUzVFVDbUdyZk01czdXSS1BZUxYWW9BdXgzLS1sTU1Xb0tiWWtUTktwdHYyS19abV9Zcm1sREw4OFlpbFlhX0NFZ1N6QmFxQmloMlZ3b1BfdXpVMDY0WTlnS01DOThNdTdPQzc2VFlhWUtrR0FYU3NkSmx4WmNB?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-26T14:04:04Z",
-      "likes": 13
-    },
-    {
-      "id": "p_cinema_news_3332800277",
-      "title": "Озвучена дата выхода новой «Каменской» на PREMIER и опубликован полноценный трейлер сериала - tvmag…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: tvmag.ru.",
-      "emoji": "🎬",
-      "sourceName": "tvmag.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOWVrdVVDbVZsUjNnd2xNbVlkVzdTSjVOWlktYmZrTHpHZ2txeThEY054UUV4R0g0UXpwQ3BtT3ZTMlktVjZ5NldBVGwxNm10M0d4ekVJMGFfN3FJa0wwMTRSejZZbnp4YUlIZkRMRjZCcW00VUR1NkJlWDZqQkxiZFBMLWcwX2g5OTVtbnBzdmRXR1Vwb1plNQ?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-26T13:34:38Z",
-      "likes": 11
-    },
     {
       "id": "p_cinema_news_3251265234",
       "title": "Новые фильмы, которые уже можно посмотреть онлайн - Film.ru",
@@ -45,19 +12,52 @@
       "sourceName": "Film.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEdZSEUwalVtdHJKM3BpTHB1dzF5VjczbWt6bU5SMVdGOTdYOXB3V2ZaUUR1QzFMdEQ3TFhhbExXSUN3aWZDRHMxdkE5c3A4TUNQTFU0clVUVGhGbkVxN2h4UXF3a1Nyektod3BwOWxzaGlKNmc2YzZyOUNjRmJ0NXA0ZkdtVHhS?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-26T13:04:38Z",
+      "publishedAt": "2026-11-26T19:08:20Z",
       "likes": 86
     },
     {
-      "id": "p_cinema_news_1294882710",
-      "title": "Французская комедия «Бедный богач» (2025): смотрим 26 ноября, где и когда выходит, о чем фильм, под…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: http://tricolortvmag.ru.",
+      "id": "p_cinema_news_4070203892",
+      "title": "Тяжелый люкс: 7 брендовых сумок, которые стали популярными благодаря фильмам и сериалам - Film.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Film.ru.",
       "emoji": "🎬",
-      "sourceName": "http://tricolortvmag.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU3NRcExXMWx0N1BfOC1QdTRGeDNyZlBsOVFHWkl3bC1UY0lkaTFMWWxTd0VsRW5VQVpERTI4TFowZzl6dGRiZzNoVDVjYy1Hc3JjYXBkdDNCS3paaktzM3F5MTFsc3VYamxjVmdTR3p2M25BeDRjWkUwUlVlbUxzRmFVRTQ0SEo3Y0hSbklpdFEwXzRyOFdZa0V2anJTZ0JDaWJfanp2bW5hUQ?oc=5",
+      "sourceName": "Film.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHcwZjRvSWxnMHJiWGdWWVNGSG1fVmdxUU83UDJNYVU0bDJSeVoxa21CYVJBUlRVVWJoX3VwX0pQRmNSbF9TUklkS0RNSHF3ekxoTVN4NER2YjVJM0xUSXFjZnV4RW1sTmE1VFdTTW5BRVpmX0xmVnhZdXYycFAydjEtSGg1cUt4SERnVWoxUFNyTi1Lc1lHalhjRlA3NGVlS3RVTGZYRUNSMWZrNnV3eUh4ZjNWcUhXS1E?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-26T12:50:19Z",
-      "likes": 13
+      "publishedAt": "2026-11-26T18:27:36Z",
+      "likes": 44
+    },
+    {
+      "id": "p_cinema_news_1376160203",
+      "title": "«Хутор-2»: Между вашим и нашим - Кино-Театр.Ру",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Кино-Театр.Ру.",
+      "emoji": "🎬",
+      "sourceName": "Кино-Театр.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vdnltbEl3N1p3cXNGZEFUaXNMaFp1T2V3TDFpdzFPbTZFczVrQURNSzE0eVdBeklHUVIwNFpWb3FfWFRWVFhMMGlHeHZSSGlYeHhsbExDRm9lSzg?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-26T17:05:48Z",
+      "likes": 57
+    },
+    {
+      "id": "p_cinema_news_2681634687",
+      "title": "Марвел: в каком порядке смотреть фильмы и сериалы в 2026 году - itzine.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: itzine.ru.",
+      "emoji": "🎬",
+      "sourceName": "itzine.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY0lUSi0zR1g4ck12ckpKQjd6cHdsdW1PaVhqbDhUalJ4UldHbkYtaWRsdTZkWWhlTlY5QzgyWnJZU0I3a3NNcVg0ZlI1YWJSSFcteWlRTnNwNlhHNWNtQThYZkhEMDdaaXdUY0FBUnJPZDU2QkhzU2tnYl9OcUJhRnFpMmt5bnd6UzVRSEJzVmloT2lmYXpxWWFGbWowd9IBpgFBVV95cUxObGJBMmxZLUNYeW10aXktZFpDNmpvSmdValhpa2stNUZkSWpIdjZTNFQwMk5odVMxSE5xUExkelc1cEhQOF9KUmlER3VILXdra2hPMHZ3NXRBdVl1X1pVX25VbDVVaDRQT1o0RkwxbnBUZlNncUZhYlFUQy1wcUZiSHZwMnZvNFlBY2szS1Q4X0cxeUVqbUhfOGJRbVpYUG04NGxhZFV3?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-26T16:23:06Z",
+      "likes": 67
+    },
+    {
+      "id": "p_cinema_news_2527588995",
+      "title": "Елена Яковлева сыграла маму Юлии Хлыниной в сериале «Каменская. Перезагрузка» - prospect.com.ru",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: prospect.com.ru.",
+      "emoji": "🎬",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRDBPU0F0VWV5V2JweFVZT1NzQ180WXN0eWkxSTktdmZZNWhWOEFFY1VLaGlHYzVtSXZpQVVKSDMzdGNDQnNJRXF6aDBfdFgtYmNsdHluOWI2dGdBbzRoUjJpUFZFcENVZ212UVJjelNob0lISk55Y094YVE5VldtVHdtTXdDYVE1a3l4UU1RbGVCSXI3cktmUndDSm1qY1FLaG5ORWloeGRfTWR1OWozOGlyVUJza29INFdz?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-26T15:12:24Z",
+      "likes": 81
     }
   ]
 }

@@ -1,9 +1,20 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_selfdev_news_2909340717",
+      "title": "Восемь самых продуктивных пород кур, которые несут до 320 яиц в год - Новини.Live",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Новини.Live.",
+      "emoji": "🚀",
+      "sourceName": "Новини.Live",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUcyeGZBYXdtZlhYamU1aEkzYjhzSVZ2VGd1NlItNGtZYWdDdFFfTUpEc0YzLTIxWjhpTXlPckZNanZjVVlxVWIxR2lzVDNVdnRiRU9Wb0dPakszQ2p4dEh6c3drVHJJOXVCLXh3dFEtUU44STVpWk5VNmw2VWo0Z0tvSXpXakQ3SGwxRDFNaWx0T01SU3VNVWx0NEJxMDFJT0h2T09jbkVwUVpuMXJSTTBaUndfUkVpR01LSlVB0gG-AUFVX3lxTFBVRzJ4ZkFhd21mWFhqZTVoSTNiOHNJVnZUZ3U2Ui00a1lhZ0N0UV9NSkRzRjMtMjFaOGlNeU9yRk1qdmNVWXFVYjFHaXNUM1V2dGJFT1ZvR09qSzNDanh0SHpzd2tUckk5dUIteHd0US1RTjhJNWlaTlU2bDZVajRnS29JeldqRDdIbDFEMU1pbHRPTVJTdU1VbHQ0QnEwMUlPSHZPT2NuRXBRWm4xclJNMFpSd19SRWlHTUtKVUE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T17:49:00Z",
+      "likes": 75
+    },
     {
       "id": "p_selfdev_news_1953392692",
       "title": "Anthropic представила инструмент Claude Ship для проверки ИИ-кода и повышения продуктивности - iXBT…",
@@ -14,6 +25,17 @@
       "tag": "Книги",
       "publishedAt": "2026-11-26T14:19:37Z",
       "likes": 71
+    },
+    {
+      "id": "p_selfdev_news_3686596106",
+      "title": "Командный коучинг: отличия от индивидуального и когда он нужен - prospect.com.ru",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: prospect.com.ru.",
+      "emoji": "🚀",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWVocUw2UDdua2kxb1FUTjlERVdidnZyRjNNZ1FlWl96N3d4WFFJUDhKYTlzZVd3Vy03YTRSQnhvVmRaTnl1OXYtUGRLMFphQzl4YlVZdEl2WG1XRW00cWk4cnBlZUc2VlpTY2dxSFFDZGFxM3RyM2F1MkMyTG9ZUzZQN2MtdlFDUU8zMmpaNm1yOFM5N3dFbWd6Rms2R3hmbjJKQkhmRUM?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T10:22:17Z",
+      "likes": 84
     },
     {
       "id": "p_selfdev_news_225966855",
@@ -36,28 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-25T21:40:00Z",
       "likes": 52
-    },
-    {
-      "id": "p_selfdev_news_3777994403",
-      "title": "Президент Узбекистана рассмотрел меры по повышению продуктивности животноводства и улучшению кормов…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Dunyo.",
-      "emoji": "🚀",
-      "sourceName": "Dunyo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1MtQ2d0QUgzRkxOeUxCd1FuRUZ5R1VXRUhRNDBlanpueW9FT3pEdWtoVUh4QWJIX3NGbXA4eTNqYlpuMV9EY2xNb3Rjblg0aDJCT0pFWkhsWnlteWVrUW1uWkE4SC05ZGhBaUNkS3R6LVVaYXZvNm1mZWk1QUllUFVvWVpkeGl1QjZPUHZTZjkya3JfMUV0akg1Y1dIRXk4?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T20:41:40Z",
-      "likes": 6
-    },
-    {
-      "id": "p_selfdev_news_3665993446",
-      "title": "Окружение может мешать успеху - психолог рассказал, что делать - новости Израиля и мира - Cursorinfo",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Cursorinfo.",
-      "emoji": "🚀",
-      "sourceName": "Cursorinfo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekc2MlkxOFloM19JemZ6a2hlTTJrTDc2STNOOXhTN2tkV3hSTWIwY1NvSFlYeW5xdlVsQ3ZscVJ5cEdpRXJYb1lTeDJLUmdVYTQ2UmhpUVRxY2dwaTFUUzFZWHZVNnMyU19ycFFZcFlvdXZlanhrQjVaWGxBamVteXppeEtNUlFLNzBtY2VMdGhneUhPeDJzQUpCVV9MY25YT0HSAaIBQVVfeXFMTXpHNjJZMThZaDNfSXpmemtoZU0ya0w3NkkzTjl4UzdrZFd4Uk1iMGNTb0hZWHlucXZVbEN2bHFSeXBHaUVyWG9ZU3gyS1JnVWE0NlJoaVFUcWNncGkxVFMxWVh2VTZzMlNfcnBRWXBZb3V2ZWp4a0I1WlhsQWplbXl6aXhLTVJRSzcwbWNlTHRoZ3lIT3gyc0FKQlVfTGNuWE9B?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T18:33:30Z",
-      "likes": 53
     }
   ]
 }

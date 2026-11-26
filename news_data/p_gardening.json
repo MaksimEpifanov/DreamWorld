@@ -1,9 +1,20 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_2217740014",
+      "title": "Успеть до конца ноября: 3 вещи на огороде, которые важно сделать ответственным дачникам - Про Город…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Про Город Ухта.",
+      "emoji": "🌱",
+      "sourceName": "Про Город Ухта",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9lX0lGdk5wTWo1XzdLM2RzdWtyZG5tS29ucHJGbTdHNnhMRS1BWlkxeTc2VkZXQ3BpaE5LZVFrMllOVVdPY096azFn?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T17:04:54Z",
+      "likes": 59
+    },
     {
       "id": "p_gardening_news_1975830899",
       "title": "«Бычье сердце» больше не сажаю: выбираю новые сорта – и урожай гребу до осени даже в холодное лето…",
@@ -38,26 +49,15 @@
       "likes": 9
     },
     {
-      "id": "p_gardening_news_1054935034",
-      "title": "Посадил дерево — остался без дома и урожая: Мичурин запрещал высаживать эти 5 культур на участке -…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: ChitaMedia.",
+      "id": "p_gardening_news_1584389876",
+      "title": "Дачный сезон завершается. Как защитить свой дом? - Zelwa.by",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Zelwa.by.",
       "emoji": "🌱",
-      "sourceName": "ChitaMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzLUFENWlLdWNfTHdmYmludVpkV0RLaGszeVNYeXZ6LXBPYzF1bWtHQVVkR1hVM1JfY3FuckZJdnkyWl9Jb1VobGpaQQ?oc=5",
+      "sourceName": "Zelwa.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZzB4YXRIN19qTTdqbTM4ck9MUXRocHRqN3ROck5aaGNRLUt5UERfaFRlTTdiR29UOXJyVmRvc194R20zSkNzdjM0T0N4MVU4QkJGMGlfZks0THh4R2wwblQwNjdhQ0xWSUQ5OFJjSGZUbVBwOFpXbWw5OWpBMU5LQmlNdGVTZEtZdmxJRGctQ21ya1hQaGF4UzFlZHc4aU52?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T13:24:00Z",
-      "likes": 68
-    },
-    {
-      "id": "p_gardening_news_2825882243",
-      "title": "Продажа урожая со своего огорода: нужно ли пенсионеру открывать ФЛП - Новини.Live",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Новини.Live.",
-      "emoji": "🌱",
-      "sourceName": "Новини.Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmh6T1F3amwxYkFvVzhBazU5VUZVSko4alNsZ3JCai1ZV3l4SzRNT0dIZWhhVVVTbVFDUmdpaUFZNnc3WURycGxEb2ZIUEh0VGpGTEl2Z05xMkQwWjd4eFBrNXlDQWtodEZQR2RhRXdUYlBIUUYwNEhiT1Z0V0lZNU9ibFZ5MTZVZVpuWHY3VUJ1YVByMktHb3R3VnJpWGVLaGRpZl9tdkkzODliWko1UFhR0gG3AUFVX3lxTE82THRoblhTa3VWeHFTUU1wMkNLck5WUXhoSXpKNTRRRGxuVVpKMTQ5U0o4SjNjaFBuRlV3UjZLNHp6UV9KdzQ4RVVCRTJoTVlPZkdIUWluT1RMS0JTeWhvaUozbnE3Unh3V3lySXFlSHEwU3ItQXJfdXNXWWdrbmxTQ19WQjlMdGpDOVVJLUV6cGlWZlhLWGtGUzZDOE01VmQ5cTBSNmVGZDV1VmJVZHNFeS1tajZGbw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T11:12:29Z",
-      "likes": 32
+      "publishedAt": "2026-11-26T14:20:28Z",
+      "likes": 12
     }
   ]
 }

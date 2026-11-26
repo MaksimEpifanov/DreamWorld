@@ -1,6 +1,6 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -16,26 +16,37 @@
       "likes": 59
     },
     {
-      "id": "p_volunteering_news_2730784176",
-      "title": "Екатерина Попова из Архангельска: \"НКО нужна конкретная помощь\" - ИА \"РУСНОРД\"",
-      "summary": "Помощь людям, приютам и природе. Источник: ИА \"РУСНОРД\".",
+      "id": "p_volunteering_news_599566295",
+      "title": "Технологии и милосердие: в Твери обсудили помощь нуждающимся - Tverlife.ru",
+      "summary": "Помощь людям, приютам и природе. Источник: Tverlife.ru.",
       "emoji": "🤝",
-      "sourceName": "ИА \"РУСНОРД\"",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdEJ0SVNsSjg3ZERtdko0MlVfXzhwY1hkTmU0ZjNKTnVxanhKVTg2aTFRWDdfV09QRzVxcVNlbnNnUERFY0xQT3ZHT3Q4ZFlyZnVfbGhka2RCTFFEQWItbzVRaVZSYUtWWnVGWjREdF9fTnpjSUxqVklyMTB3c3h5c2NuOWhXa29BdGVTbHptWUJfU2FQdjNHRjQ0NWRNQ1luTFE?oc=5",
+      "sourceName": "Tverlife.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSGlxMlhMb3dsQTcxT0VRcXZEV3diUDJibGotWk1pV1ozNWI0bWN2clRYbmY1VzZKTFBhV3ItR0ZJT3QyQnJ2anNqUTlHYnVXZHVsRDVRdEdnNlBDMnNPNnNhWVBXeHM0THdYc05mLWdZbWdLM0Z3Z1dUWW0tZU81OGNaNVV6SWtYdmJDQUhQOWpWWGEwWFlz?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T12:35:21Z",
-      "likes": 81
+      "publishedAt": "2026-11-26T13:18:19Z",
+      "likes": 69
     },
     {
-      "id": "p_volunteering_news_3823813989",
-      "title": "Не разовая акция, а дело жизни: «КОРТРОС» поделился опытом развития корпоративного волонтерства - П…",
-      "summary": "Помощь людям, приютам и природе. Источник: Пресс-релиз.ру.",
+      "id": "p_volunteering_news_3548627170",
+      "title": "Служба помощи нуждающимся «Милосердие — Казань» проведёт собрание добровольцев - Татарстанская митр…",
+      "summary": "Помощь людям, приютам и природе. Источник: Татарстанская митрополия.",
       "emoji": "🤝",
-      "sourceName": "Пресс-релиз.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwOHJmQmdIa2xNcWdRd1hyWXRqS1ZLWDFOODZxQzVkTldJYlp6REF1NDd5ZHpyUlJUaFEtaVhxN2VMNW14S2ZLZGpNZ1lGSFdMMEtKZ0llVUtmYU9JYzBZNjlYSjFZRGRULXZ6bzJTT0YzLWxHNktr?oc=5",
+      "sourceName": "Татарстанская митрополия",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wN2pQbV9vS1NkOTkxTFNRbWpXZkVCSVpqRU13WGVfOTRmWDFpWDFnSl92MkhLOGtJVWp5dXlIUk5qdHlabGhwUjR4QlBuaEppRnNodjczczR0WExTTDBkdXdLdGRqQQ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T10:12:09Z",
-      "likes": 75
+      "publishedAt": "2026-11-26T11:52:12Z",
+      "likes": 41
+    },
+    {
+      "id": "p_volunteering_news_711014513",
+      "title": "Доброволец Евгений Григоров из Пензы: биография, помощь Матвею Гурину, благотворительность, фото -…",
+      "summary": "Помощь людям, приютам и природе. Источник: Пензенская правда.",
+      "emoji": "🤝",
+      "sourceName": "Пензенская правда",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBheklzUmNmcWowOUhuQUJ5eFdrZ2ZENVo2amRMLUd1Q1kyeWtzaWxrWFU5aVlfdDlLVnp4dC10TzJiMWpZUmVZZkhyRDYta3NUalZCZGVjaU5SUzFvNXZiTFJPTmp3a1dMNlBMRHd3ZG0xamdLX3c?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T10:15:46Z",
+      "likes": 37
     },
     {
       "id": "p_volunteering_news_2171565647",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-26T06:55:03Z",
       "likes": 69
-    },
-    {
-      "id": "p_volunteering_news_870238241",
-      "title": "Около 120 добровольцев Ставрополя обучились в школе «Действуй» в этом году - АТВ Ставрополь",
-      "summary": "Помощь людям, приютам и природе. Источник: АТВ Ставрополь.",
-      "emoji": "🤝",
-      "sourceName": "АТВ Ставрополь",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13ekl6TmgwWC1xOFpJN2pZQ3RLN2pzOG80ZXRpMWl6LTJQVXdGbjE2OXNZYzVuNldSSkh5N29yeG9VUG1hSTdyVnpRUTctd9IBU0FVX3lxTFBJanU4UEZId2c1RFFsc3NiT3VicjFvVEVBZnJkY21PUUg2bElkejVXV1BWSlRnMUtGLWRaVXo4c09CUWRsTGxreTVwdUkxdDNyVEM0?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T05:00:00Z",
-      "likes": 38
     }
   ]
 }

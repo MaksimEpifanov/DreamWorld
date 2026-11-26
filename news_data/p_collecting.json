@@ -1,19 +1,52 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_collecting_news_3979863089",
+      "id": "p_collecting_news_1676840678",
+      "title": "Дедовский «Иж» превратился в гаражное золото: вот за что коллекционеры ценят «ИЖ Планету-5» - ProGo…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: ProGorodNN.",
+      "emoji": "🧩",
+      "sourceName": "ProGorodNN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45dExRUHFoMTdqQWR1WXNLVFlSMnpZcE5IaEpjMzk4LVFDdnJDM19PTkFaV3BYTUFIQlFsUmxsRy1qdTZDb3hr?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T19:40:51Z",
+      "likes": 39
+    },
+    {
+      "id": "p_collecting_news_4191148578",
       "title": "Подарок за 65 тысяч евро: Уэсли Снейдер продал на аукционе футболку, полученную от Серхио Рамоса -…",
       "summary": "Редкости, обмен и полки сокровищ. Источник: Zamin.uz.",
       "emoji": "🧩",
       "sourceName": "Zamin.uz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVlTU3NmMmJvbVZBM3YyZ3NZd1U4bHdCVG5KQ0RXdnJvUHlab1ZkTDEzMTBfWHpOX214azhsZGV1cEJDQ2ZYdld5LWQwSC1FRUpTWTM4Y1RDZVpsWDN0UVp4N3JZa3lNUExfS0RrSnNTMlNBdUxaNVMtSGw5LWgyX1FvVHZMUkM5TmVZMmRWNlJyVEhNT1Mzck5tUGRUbDFzZ25fcVJIeENYSjZ4Ql9DQTFPbVo2N0dhV2wzZ2pReEM?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaVQxeDlQY1pxYXhuYU1xbmtBWTFGV2c0WWtXcUprRVBGNXVsX3ROUjZZc3FLcXhFRHlVUDFpSmdqczVJX2NOeWpKalpDblQ0blNmZUxUdmdWMXI0T3A0elpWekxJRXJIYkhkVUxmdF9rQlA1cXlqcXZwd2VqNzYyQndDTlMxVE1pU0hQTVhGcFBJbTU1OHpuUm5TR2xCazYxY1daQTR5V1BrdFFCZTRhRzZpbUxnOEdSY3pRS2otOGZza2ZoaUJvMGc4THVIbVYwbEJDMA?oc=5",
       "tag": "Искусство",
       "publishedAt": "2026-11-26T16:48:00Z",
-      "likes": 5
+      "likes": 51
+    },
+    {
+      "id": "p_collecting_news_2885405451",
+      "title": "Уважаемые коллекционеры!Напоминаем, что через час заканчивается аукцион от Степана Кушнира. 2026 |…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: ВКонтакте.",
+      "emoji": "🧩",
+      "sourceName": "ВКонтакте",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OOWtXUjJmWk96TDV6VTJmdnF3SFdSdmgwZUVpUDF3d25tQUZnMzRaT2NYWU5oajExUzJnb2RFRG9VYzY4RHRIT051WQ?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T16:00:01Z",
+      "likes": 92
+    },
+    {
+      "id": "p_collecting_news_646712778",
+      "title": "Новая The Legend of Zelda и Pillars of Eternity 2 для Xbox One — в коллекции нашего подписчика Миха…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: ВКонтакте.",
+      "emoji": "🧩",
+      "sourceName": "ВКонтакте",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vRlFSUUtzdndZOWIwYkRQbmxzOVpsUGpMQ2tZUFVEN2VrcTlsUFVhWVpDUGJLYW1vUEY1Q05Td0lxS0p2X0hsemZVMA?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T15:22:24Z",
+      "likes": 51
     },
     {
       "id": "p_collecting_news_1401202977",
@@ -25,39 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-26T13:27:11Z",
       "likes": 36
-    },
-    {
-      "id": "p_collecting_news_2543147017",
-      "title": "Адвокат: У родственников коллекционера Дудакова нет законных оснований претендовать на его собрание…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: The World Inform.",
-      "emoji": "🧩",
-      "sourceName": "The World Inform",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRlBDcW8teWZQS0xqWm4xUlFOQkltbVBwTmZONWdobU40OS1fclVxa1RZbndVUzRuX0FFdFl6X0lXXzdYSG02RXhvNHRvcXV1S2JKWnlaLWk1X1RhcHBIbG5ocjUxOWNwWTlOSGdWLWpWYmlGYkpObEsyaUxvckdrdlQ1Y2xBSTlYelp0Tl9PMURuMmxxWHhoYXVYS1cyNXBybXV6UmdaMWI4eVc2ZjAzUDJIWlhYWXdqdU9WR0lZcTFEZnhMY3l2NGlkbk40T2FYWkNJ?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-26T13:05:14Z",
-      "likes": 74
-    },
-    {
-      "id": "p_collecting_news_2847224251",
-      "title": "Inart представила фигурку Нео из фильма «Матрица»: «Нам нужно оружие, много оружия» - iXBT.games",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: iXBT.games.",
-      "emoji": "🧩",
-      "sourceName": "iXBT.games",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONWZwV3YzZkpveFE5bERJMGJJM0U2RFhiTmY3dGNNWlVQUFd5WVR5Z2hOR1BObzNMbkFMU2ktLVVSN0RsRHpfT3BmUnYyWTQwNXQwckJzVVdJMHpXZnA1MjhLS0JvbXZkdlVPR0xpSHBQN2MzOWdHdXZFREdNZlowcEtUdFhwc19FYWFKVFJ3cTE3a0V0bHZ3YlRScjN6aFZyRWROQXpCaXRLWk4tT2l5Z20tNzZvekVK0gG-AUFVX3lxTE5mMDNtUW5vb0F0N3NkVk4xY2ZpVWxqOXQtRVpVczdwSWtPYk1SSk8xSnE3dUgzcGxCdW1PaGJfckVoSmV5NDZlbmx0YVdaazExbkhsQndTVXNHcG0yZ1VMNTJRVzZFRUhIbHlCdDc2NXdkWEl2LS1zcTdVSlp3QkJPWDMyV1VsR2JEUjg2cXNQSVN3WnZmNk9JRGtpMG83TUpyWktJN0hSeW9kbUdjS2d0WnQ4VnJfdEZ6d3dEc0E?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-26T12:41:00Z",
-      "likes": 25
-    },
-    {
-      "id": "p_collecting_news_425976510",
-      "title": "Новогодний корпоратив — двухчасовая игра, адвент в Telegram или аукцион? - Хабр",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Хабр.",
-      "emoji": "🧩",
-      "sourceName": "Хабр",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBad2xLR20yN0RXWE5Tek1QTVJYQ3Bzei10V0VUU0w1M0RLc1YtdU5FMGxodG5sSnlsOVdZZ1hOMGQ4MUxGQkN3ZHNYZXB6YlVSU2xtR1I2S1kyam5iblloLVBHZ3gzVmFIQ002R9IBWEFVX3lxTE50dnY0WFRMdWJkZlc1c29pX3RTSGdTVXRlSWRMWU04Nk53dF8wYU9WYjF5dlVrcDBOR0NrR2VqWmEzTnhVZ2gxeTRsZm04UmdDQTZ0QV8ySE4?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-26T12:04:30Z",
-      "likes": 40
     }
   ]
 }

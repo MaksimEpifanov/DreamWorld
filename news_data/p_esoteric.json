@@ -1,19 +1,30 @@
 {
   "planetId": "p_esoteric",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_esoteric_news_3103270726",
+      "id": "p_esoteric_news_2053280600",
+      "title": "Пять знаков Зодиака столкнутся с неожиданными переменами в карьере - Cursorinfo",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Cursorinfo.",
+      "emoji": "🔮",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVpWVkllMkwyOG1FMm1jY3N2d0tlbHNrVDA0QWk1U1Z2b0dIREdBdlpSRFpQcWRzOUJvWVdXSHJwNHc2RmktUWh2akxSSVhrWktjai1ZcmxQb1RhbmstdU8zV2EzUEk3aEgwUFlIQnZ3Rk5LUm1jX181OGdHa254eW5jaGpOQmY3WjZWTEZtaExNRDZzWWw1VlhxSW5nX3h3Y0JfTzRJa0ozOGPSAasBQVVfeXFMTUlaVlZJZTJMMjhtRTJtY2NzdndLZWxza1QwNEFpNVNWdm9HSERHQXZaUkRaUHFkczlCb1lXV0hycDR3NkZpLVFodmpMUklYa1pLY2otWXJsUG9UYW5rLXVPM1dhM1BJN2hIMFBZSEJ2d0ZOS1JtY19fNThnR2tueHluY2hqTkJmN1o2VkxGbWhMTUQ2c1lsNVZYcUluZ194d2NCX080SWtKMzhj?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-26T19:00:31Z",
+      "likes": 86
+    },
+    {
+      "id": "p_esoteric_news_1618258897",
       "title": "Гороскоп на 27 ноября по картам Таро: Стрельцам - лишние траты, Рыбам - амбиции - УНИАН",
       "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: УНИАН.",
       "emoji": "🔮",
       "sourceName": "УНИАН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTkhnZXA3LU9PeTZ1dnZfcTFGRFlaRUJlWGZEVGllT1A3dno2Vmd1b2RXNXE2d3NVVDQ1NDktOEd3eGVyZGtjcjFmNWFqOHVPUVc2a1h0cjZtbndDVU9ORk5JZWdENnRTdXhSb19tdzhpMnJ5UnZtMEx5Y3Z2X2R3SElhRzlld1NEZE02M28xcTBDeWJnQzZzOVhjb1R6OWR1cE9aVV9PMmFYRzdjUmZZRGRzQlNjQUpLanoyZmVEMC1DUm1JX0U3d3RrMGtTZ0VS0gHWAUFVX3lxTE5lYUlXMWJaSVQ0MEExXzdJYVZfX2xrcno2WjFkemM1bm9wYmlOLUlBNk9teG5IWExHd0tOenBBMTFoRTc0RzZvNWFSZjRUYzBfc2ZNOC1CUGNaTF85MGxzZU9iNDVWTUZHdzZjTU15S01GcS1OcUlEeTU4ellsbFBfRkZOUUlJQU9rTWJuY0pvT1BUQzBlZHJWUlFzRUtDUHVpZE9wWG9DWHNLNmN3QTlrSDQ4RlJDeXhtQXhDMDUzcl81YVFubjBOYmN2b2dqcWd3N0F4Unc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWFJVzFiWklUNDBBMV83SWFWX19sa3J6NloxZHpjNW5vcGJpTi1JQTZPbXhuSFhMR3dLTnpwQTExaEU3NEc2bzVhUmY0VGMwX3NmTTgtQlBjWkxfOTBsc2VPYjQ1Vk1GR3c2Y01NeUtNRnEtTnFJRHk1OHpZbGxQX0ZGTlFJSUFPa01ibmNKb09QVEMwZWRyVlJRc0VLQ1B1aWRPcFhvQ1hzSzZjd0E5a0g0OEZSQ3l4bUF4QzA1M3JfNWFRbm4wTmJjdm9nanFndzdBeFJ30gHWAUFVX3lxTE5lYUlXMWJaSVQ0MEExXzdJYVZfX2xrcno2WjFkemM1bm9wYmlOLUlBNk9teG5IWExHd0tOenBBMTFoRTc0RzZvNWFSZjRUYzBfc2ZNOC1CUGNaTF85MGxzZU9iNDVWTUZHdzZjTU15S01GcS1OcUlEeTU4ellsbFBfRkZOUUlJQU9rTWJuY0pvT1BUQzBlZHJWUlFzRUtDUHVpZE9wWG9DWHNLNmN3QTlrSDQ4RlJDeXhtQXhDMDUzcl81YVFubjBOYmN2b2dqcWd3N0F4Unc?oc=5",
       "tag": "Искусство",
       "publishedAt": "2026-11-26T16:00:00Z",
-      "likes": 41
+      "likes": 30
     },
     {
       "id": "p_esoteric_news_3534378738",
@@ -23,19 +34,19 @@
       "sourceName": "prospect.com.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjB1LTFjVGgxbnVxcDFrVUl1V01SMDdkbmtHU1ZhTGk5V2w3ZlpUeF90a0tONGJuTFpubVBUNkJ4TzhlcEdmRXpHMHRUSllYR1I3U01WeVVwUkNaMDI1b2lZQ2ZkbC1WRG9kTkhGNy1wWTZoWWZyUVhsd05aSkxHam5WM19MT0owS1JORk9hMHUwMHpLQ0l1NEplcllLdVc2Z0hPOWRyVV8xdVBFaUJXVnpETkkwTi04ZHltYkc4SjJsNmpHR2gybXFoQjMwTV83RG9J?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T12:42:07Z",
+      "publishedAt": "2026-11-26T15:51:31Z",
       "likes": 45
     },
     {
-      "id": "p_esoteric_news_4190137330",
-      "title": "Гороскоп Таро на 27 ноября: Овнам пора завершить начатое, а Ракам – прислушаться к интуиции - Mixne…",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Mixnews.",
+      "id": "p_esoteric_news_234493342",
+      "title": "Гороскоп Таро на завтра 27 ноября: Овнам - браться за новое, Львам - посмеяться - MY.UA",
+      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: MY.UA.",
       "emoji": "🔮",
-      "sourceName": "Mixnews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeEhVYl9WWG8xRHF5TlBrZzJKb2JfRERtUXBVVXNTNFM5ODdYd3lOU1EtWnEzMDJYYUw4Z0lrUUpaTUI1U3U2SnQzckFybC0wRHZjWWhvU1B2WnM4dTBWamN5aFU5WDRHd1d6QnVCOUJVSWx6dXJYc2J2WmhvVFM1R1U1Q2xEaXFQZGJwX3F4LW52RnNzNkdYUmk1ejctTkF2T1Y5cmE2bXVsN3p5QTRJWHhiRW9PSW1WRXI2WnJPazVIcWZVWDh0YmFIRXE?oc=5",
+      "sourceName": "MY.UA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRFJUc2FrVjF1dWNxZFBBMDMySzA0aXNDVlVZRl9TRUNGak5BeUk1NHB3T3ZiQWw3MXZ5ejBzLS1xV1NuLW9iaFlWZG56RS1UdkFYa1FsZHNZUWFjSkVjdU1fNEN3VHR1T3BPWDJNc19xU3ExOGhaMzFLdEVkdHZfUk1jb1dtT0NNb0loY251SF9QRnVDbTB6Wmc0SzEtcUVTOW10WGVWTUw5TlFaQnU0c3YwWdIBuAFBVV95cUxNMkpuRTBEVEJtZTR1TE5vUUZaLVlEUnlvOHdQb3Y3QzMyZnZFakl6U2tBREQ4b1Nxc3FhdzZKeEVrZVFFMzk4bWdqWWFGS0lsOUNoWk5vcWM5U0NrVnN2X1lyS2hjQlNpOEp1UEhkM0tManE4RzIzb2tXa2hxUXVGdUt0M05fRUdJOXktREItT3pTcXZKdkt1OXJhRVljb0hfbTBHVndEeGpubU9GbXVOV3lrYnNXQURt?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T11:03:35Z",
-      "likes": 64
+      "publishedAt": "2026-11-26T12:03:21Z",
+      "likes": 58
     },
     {
       "id": "p_esoteric_news_3601092308",
@@ -47,17 +58,6 @@
       "tag": "Искусство",
       "publishedAt": "2026-11-26T10:00:16Z",
       "likes": 62
-    },
-    {
-      "id": "p_esoteric_news_2807552303",
-      "title": "Лучшие гороскопы дает Луна в Раке 26.11.2026. Скорпионы увидят перемены, Рыбы найдут ответы - Meta.…",
-      "summary": "Гороскопы, медитации и разговоры о необъяснимом. Источник: Meta.ua.",
-      "emoji": "🔮",
-      "sourceName": "Meta.ua",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXNoY3Yza1NtMFVobGZjUzAzb2pHRkM5dm5hMnZIamk2NnBFbk93S0wwazJLQU5MS1RFTDJxTDJjb3RKZUhnVUpqVHNrWFhIemQ0NWZlak82SG04Q3IxSVZ2cXZXU1ZqVjlGYk9yY1dzYVgzVGFublRwdGpmZzdfd1ZMY3VRQ204ZFhTRlU2RzYyWlZuSHhjMkQwS1pYM1paWDRYa0lEMS0yb243VDQwNmtINXdkRk9zSFY4UFllZW1hWnRjODFsYg?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-26T08:36:00Z",
-      "likes": 60
     }
   ]
 }

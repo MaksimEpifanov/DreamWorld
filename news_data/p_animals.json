@@ -1,9 +1,20 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_animals_news_2805068803",
+      "title": "На дачах в Курске умирают 3 собаки, волонтёры просят о помощи - Курские Известия",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Курские Известия.",
+      "emoji": "🐾",
+      "sourceName": "Курские Известия",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aOVM0ME5CbHZWNk52QS1xRUI3VUdFWklub2hLcTJNRTlCdGNROVV2MHN6Q1kzYm8zbjJtSzlaYVNTNnhuSXNlWXV0MEZOcWph?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T18:56:00Z",
+      "likes": 55
+    },
     {
       "id": "p_animals_news_3708010849",
       "title": "«Счета только за двое суток вышли на 237 тысяч». Тюменские волонтеры просят помощи в спасении животных - 72.ру",
@@ -38,26 +49,15 @@
       "likes": 26
     },
     {
-      "id": "p_animals_news_3643167769",
-      "title": "Штрафы за животных в Братске: за что горожане заплатили более 120 тысяч рублей в 2026 году - - Брат…",
+      "id": "p_animals_news_538338417",
+      "title": "Штрафы за животных в Братске: за что горожане заплатили более 120 тысяч рублей в 2026 году - Братск…",
       "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Братская студия телевидения.",
       "emoji": "🐾",
       "sourceName": "Братская студия телевидения",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xbVFkdlBvT1VsOW5LUS1Zc05JOE13RzhkMUZadjZRb0x3c19hZGlISWpTTFIyTDBQZndSMEF3SE50Q3N0Nk5NMEtWb3U?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sTWhHTVpDNDVpWXg4SW9Fb0NjV09iTGJFNWRnRU5qc3hsaHhnaFltOVFhQ3ZOZ0lxQzF2cmVObVFuTF9tdWRZ?oc=5",
       "tag": "Природа",
       "publishedAt": "2026-11-26T11:35:39Z",
-      "likes": 5
-    },
-    {
-      "id": "p_animals_news_3279478047",
-      "title": "Москвичи могут подготовить питомцев к зиме в помощью городских онлайн-сервисов - https://saomos.new…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: https://saomos.news/.",
-      "emoji": "🐾",
-      "sourceName": "https://saomos.news/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU21xcTE5Ykc0STRuRHZHX2hZUEVxdUdlNklaMmJoR0xwOHBaal9BejdmS2lKaFo2NFF4ek5TdU9PRHNjaXRibHFVVldhdHRRbGNWZWM2SmJOOEI4NkpGcXJ6cm5SZW1jNVRUMWMtV3Y3TElPMUM3VVc1VjZDUFlMWmpWTmhUM0Mwc0pFd0RqbDlsNi1iRE9wQWF2NnJiMG5TREdrS3FBeFVuSUdrTXlIaGhCakxLd01R?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T11:29:50Z",
-      "likes": 48
+      "likes": 17
     }
   ]
 }

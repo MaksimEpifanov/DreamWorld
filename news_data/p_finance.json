@@ -1,9 +1,42 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_finance_news_657637354",
+      "title": "Костромская облдума одобрила в первом чтении бюджет на 2027 год - InvestFuture",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "emoji": "💰",
+      "sourceName": "InvestFuture",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTURGb1RkdEtGY3JNLXRjeGFEN0VQUHd1eTZYZGEyenB4MGJIME1iU2dtN1N1cHBYSHVmaGJhLUhFLTFlaW02U2JCbmx5ZGl6Z3VBVmF6Umtha2QtakFxMS15R2FWZlVTTFFWY3dGbDd5aVpFaXkzeXRTTVVMMUdwYlp4a1hqNFdYQ0NINTF5a2lxbkZKMDAybWtDUl83bF9oT2VxUnZ1TTd1bE5SY3BqVEd1bXlWQmNO?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T21:18:56Z",
+      "likes": 71
+    },
+    {
+      "id": "p_finance_news_2552376775",
+      "title": "Бюджетные инвестиции в Коми сократятся - Про Город Ухта",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Про Город Ухта.",
+      "emoji": "💰",
+      "sourceName": "Про Город Ухта",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1aNXEyWm40ZnY3NjhMWnBXak5iQzNhWkF4Y01FXzdUOXJfVFZrYzRSRUZzUFNSVXhPNHpUNUNTXzN1REg5UXJDZXd3?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T17:04:54Z",
+      "likes": 83
+    },
+    {
+      "id": "p_finance_news_17900074",
+      "title": "Южноуральский бюджет на 2027-2029 годы принят в первом чтении - mir74.ru",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: mir74.ru.",
+      "emoji": "💰",
+      "sourceName": "mir74.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd1lhNEt0VWtSSFhfQVNfcHFrY1ZfeFdGUlJZR0tKbmdVMVpsOHpUMF9sN1MyWWlNeUg0akZmUE9jRjd2TXg0R2twT21UTGFBWWhPY3lCa19NUERtb1V6dTlQSFBmYXZqcjQ2ZnNMeDloYnR6UE9hbHpacGcweXJKdmIzeDVMVXhsQUJFbzVrWWwtbEdTRVBuYi1R?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T16:13:46Z",
+      "likes": 53
+    },
     {
       "id": "p_finance_news_2697272533",
       "title": "Военный бюджет России 2027: кто заплатит за войну - doxa.team",
@@ -17,47 +50,14 @@
     },
     {
       "id": "p_finance_news_2671646397",
-      "title": "У Болгарии есть свои требования к бюджету ЕС - bg-24.com",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: bg-24.com.",
+      "title": "У Болгарии есть свои требования к бюджету ЕС - Бургас по русски",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Бургас по русски.",
       "emoji": "💰",
-      "sourceName": "bg-24.com",
+      "sourceName": "Бургас по русски",
       "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tT1p3SFhHMV9Fd0dUTWFkTFZKc3ppYW9wRnhPdjRxNmlnS3cyanZzSWJJbXpnRGZOay1JSWRhR0hSb2hURjFWcy1KTExlNTZ0SzUxVksyZjliLW0zbk5TQVBVVEJ5TFdYUHZMdVNzOWhEdzg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T14:56:16Z",
+      "publishedAt": "2026-11-26T13:47:00Z",
       "likes": 66
-    },
-    {
-      "id": "p_finance_news_1528932051",
-      "title": "Мишустин: ненефтегазовые доходы бюджета РФ в 4,5 раза превысили нефтегазовые - Ведомости",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
-      "emoji": "💰",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTWVfcnBxWHlHQk5wSXhiNmZYTXVULXVZX1BiMkpnLUxUeUdPUDVyVGd1LVJSSURYbnhGcS16R3BQMDdpWTY3d3FNdzZmWGQtTlFoR194S0ZYVWJrYkQ4LXR0T2F3Qm9lS3h2cVpTNnhieC1UN2w2RE9MTlp0V3c1dC0tMXpCWmxpSkNVWDNiUVVzQ1ZC?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T13:38:38Z",
-      "likes": 65
-    },
-    {
-      "id": "p_finance_news_864098840",
-      "title": "Расходы на государственные инвестиционные фонды превысили 77% от запланированного уровня, в то врем…",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Vietnam.vn.",
-      "emoji": "💰",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkp4WnpSbjZvQndMVG1nbF9VSHlKM21pSDRDZEFVb3c5V0dFekNxRnNRTDVmRUVKMjVNRFB4X3BLc0Z6RVhkdU9fcTlhSkxpVEl6eFVJQi1tU2dXNFhjVWFNaTk1Vm9zOVVTQ19xY2Y3X1NZdWw2M3BQanRkSE9sMi1XcDNCNjhEQVpDeFhiMlZGQWpUbkFhbw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T13:36:33Z",
-      "likes": 72
-    },
-    {
-      "id": "p_finance_news_274498116",
-      "title": "Парламент Франции не согласовал социальный бюджет на 2027 год - Ведомости",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
-      "emoji": "💰",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVFROM05MeGM3R3prOW51MVRfcjFxYUlheUZXakVfTXdjOU9tUXc2bVJmYlJoT0NlWU9lN3lXNVdsUkJoaV9KdmVWSENQZlByaTZ2b0NCcU1DaHQyVUl5d0pLMEYzNEpVM0tXTWtFZEhXWk1hWHpnYm1ISk9pVnlQeUVB?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T12:14:53Z",
-      "likes": 34
     }
   ]
 }

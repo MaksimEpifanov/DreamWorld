@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_176220880",
-      "title": "Полноприводный Tenet Plus L6 вышел на рынок в России: цены - Китайские автомобили",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Китайские автомобили.",
+      "id": "p_cars_news_1465026650",
+      "title": "В Карелии средняя выплата по ОСАГО выросла на 19% - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
       "emoji": "🚗",
-      "sourceName": "Китайские автомобили",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTc0bTc4UTA4TGdob2lxRUxDakxESFpCMVpfT25IT2xPODhHN0ctSVhCQ2VSZTQyOThrTkJpVHo0NkR4X21CVWJMVmtNUHRGMjF3TkpWSDZJM0VvY0l2enJPdEFuYTJYczIxU1I2UU1oc3VkTFJBYmFJc0V4bnp2UDFhOVNyWlkyTjRBb1p5RjQ?oc=5",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGxQXzN3bld0VnVFTVV5Njd6MW1EanBxS00yVDV6RjBNNGhiU3lYQ3hERUQ4dDZ3aWtUWXBxUW4tS2pXRU02bnlCcWR5ZU9JTVhCUHZaRGQtQk1tS0dhOHNGSzh2NXdhRlgxZ3Q3RDEyVUdWN0J1X19XZUVvNEhJYmJuaFpmUXg4Ni05ZDQ0b9IBkwFBVV95cUxQU3ZJZmRlY1pVcjZWVmZCcWc0dDFWZzd3bzBtZEZVNHp1N3BIQ0RVRWxYeHhwTlN2OXFQWGRRV0RXc0xiQ2JKc0EzeGhtcTRPaHh5cDBwNHB3c3Vyc3VHUlMxT3JQaWZDQ0s1SVFoZXRZd2RxajJEUlE1eGNOY3FEemRmcW9MY0F1cGRLWXRPd3JlTjg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T11:58:20Z",
-      "likes": 21
+      "publishedAt": "2026-11-26T13:56:02Z",
+      "likes": 56
     },
     {
-      "id": "p_cars_news_3820356355",
-      "title": "Кроссовер Lada Azimut прошел 1,6 млн км испытаний - prospect.com.ru",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: prospect.com.ru.",
+      "id": "p_cars_news_2866722646",
+      "title": "Автомобильное шоу Top Gear вернётся на экраны в 2028 году - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
       "emoji": "🚗",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEhVM3E3SGQxZnVSRkxKb3daMmxFcXBxLXA4Z2NjR2R6SEF2cGtFc0RlZks4dng4UkdUcWVCTDJleHhIZmVHcmdNMWM1WUtaLVJzbl9HZThfYndlcWhwZDJUQWZ6dTYxSmd6bmZSSU5YYzRfc3JrTW1aNzZCX1Z3LWxSck53SXB0cHhLdGF3b0JkeVlTNUE?oc=5",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWFBXN2VTMllEMG8yUFNValI1Q1ZBTVQ1blJyeVRzTHh2Q1o5MWlhb1VtZlZqS3o3WEFOYV9pakZKemFGeDBxako5ZDdfZlJRamp1cE5SZF9qQjk4Y2RjSV9Ick55VzZVY2t5SVowMWg2RlFjNGZsOUlWZjF4M0Z0U0FUb05DYWdzcnJKUWF3bUhrNk9iLUM2VG1B0gGeAUFVX3lxTFB3RXdyN0JDT2Z5a2l4Q29ST1ZjV2haVTRDejBobzFrS1BIWFZSMFFDV0tjYzRla19ScG9mOHhmQ2hFYVhiWUl0NG1JVkNlcHNoSkh0WGtqMGpNUmN4eEwxSXBRSE9Obk5LZUxkT1NHdXdneVhsbjlJdjZOZnRVN3hZSDZOekFfZWV5V2hrVXZ4X3VqUFJtcm1heWFIMU9n?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T11:20:43Z",
-      "likes": 82
+      "publishedAt": "2026-11-26T12:44:46Z",
+      "likes": 83
     },
     {
-      "id": "p_cars_news_2403613460",
-      "title": "Volkswagen подготовил «подогретый» кроссовер ID. Cross R-Line, цена известна - КОЛЕСА.ру",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: КОЛЕСА.ру.",
-      "emoji": "🚗",
-      "sourceName": "КОЛЕСА.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaWtyZE9INGtTb1RNSF92QlhKVHVpQTdzYXc2bnBVQ0VqbzlNSmEtek0yVjgySVI0bFMtamxvZF9ndHpHWkpuMlBzQXhoSmNYS0x5YkJJOHdqSC1ickF0MTBKd1ZyNVA2UXJjV25wQlZWZGprVk9HOXBBOUlFejlWTUpZbXlqLWNMT2RRU1lMWU1YRVRRZThLTk90WW1TaHpu?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T11:17:00Z",
-      "likes": 92
-    },
-    {
-      "id": "p_cars_news_4144866888",
-      "title": "Тест-драйв JELAND J6 AWD: знакомство с кроссовером без скидок на происхождение - Компьютерра",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Компьютерра.",
-      "emoji": "🚗",
-      "sourceName": "Компьютерра",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TaFJvNFRKU1ZuUjgtSE0xZW9zQ2QwVGFhaG4tY0tWVm5sOE1vMjZ5WU96aExKb0dvamlUS19nMFZmODVyakFtN0tXZXFPVnBkQUdtWjNESTVjZEZ5VVZ0cTlTU2JsSXczaEE?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T11:10:45Z",
-      "likes": 38
-    },
-    {
-      "id": "p_cars_news_1928650211",
-      "title": "В России начались фактические продажи LADA Vesta с двигателем 1.8 Gen2 - Tarantas News",
+      "id": "p_cars_news_68121643",
+      "title": "В России назвали пять вариантов покупки седана до миллиона рублей - Tarantas News",
       "summary": "Марки, тюнинг и дороги на колёсах. Источник: Tarantas News.",
       "emoji": "🚗",
       "sourceName": "Tarantas News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0R5UGFXWUN3c1QwTldrU1RDdjBsMzlnM3BXdVc3bUVNTVRvMmxkNmExV1ZZYnFoRDNKYWdxX3VCWkZNQnZNc0ppWnd2LVo3UzdlYmxuWlpla3k2MGp5b2xIajBlLUlhUDdqcC0wWVpvbllpaFpDVmNOUnk5RXFhRjdpSHlER1RiOXdHd0wydjAzOGtVUjBFWDlfeWxyaW0tUUx6bjFPUkpra0xN?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQU1OeUJxX1pQbkpPQWlYUGpFTGlRMjJrNWVHSHJqTXNoMWNlQ1dqNl9nVDBXWnRVdjc4bXQ5RXVzU1NLeWx3LXBqRmRkNkFsbGRnNm9CQXg1QzZaQ1pWRW90UWRmLWNXVnZuUWdzRWY0bWZXOENRWmNwcVpxdVZ3aWpiWHRJQ1Q1cXNuamU5cnZoUFVndmszMGpuamZ6Q0luMkpZV2Y0d9IBpwFBVV95cUxQQU1OeUJxX1pQbkpPQWlYUGpFTGlRMjJrNWVHSHJqTXNoMWNlQ1dqNl9nVDBXWnRVdjc4bXQ5RXVzU1NLeWx3LXBqRmRkNkFsbGRnNm9CQXg1QzZaQ1pWRW90UWRmLWNXVnZuUWdzRWY0bWZXOENRWmNwcVpxdVZ3aWpiWHRJQ1Q1cXNuamU5cnZoUFVndmszMGpuamZ6Q0luMkpZV2Y0dw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T10:15:47Z",
-      "likes": 48
+      "publishedAt": "2026-11-26T12:09:03Z",
+      "likes": 39
+    },
+    {
+      "id": "p_cars_news_2079134325",
+      "title": "Hyundai предложил электрический Staria для работы в такси в Германии - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
+      "emoji": "🚗",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQjQxNzdvMV8zWGFWNGZTTERzeXluem9YaUlPOHh6RVJuekdVRXVWM0hUYnJ3UU1yOGNXY1RkZnV4T21TNzRnN1hlQlB6dThyQTJ4YnJ4dTdFOWN6QktvMHpIcGhWR05wMW50dzduUnBQVzF2cHFobWtPVU00dU5MZUJjUm5SbnU3UURzX2F0SWpGR1Y5YlNYWnFzdklHVWlsZlVXdDUtcWlDeXE3VXpnQnpKZHJscHFySWlHbTN2S3psWFlSYVVlNi1B0gHOAUFVX3lxTFBERHptS3k2a3RBYnBIem1rd2h5aFFPR2paUnFFQnJ3WEktTVJEVUU1dW9qcGFuRHFnUlFhR21jQkRrcG1jai01bTJqSUNCeXF3ZU5FOFRsbDBXZTFGZnhGWG1VVGNrWTNhYXZFeWpZNHdFSnU0blRuMHgtQVhEX2tOTVgyUEhfTUJnMFZuVWtRV1ZaREpVMzlIWXJka3JvOTl4amdzZ0hyZzJjQnBoZHBrUE9DRWZYV2RDVkk5VmZvQ3I0X291eEJKWnE4eEZ3?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T11:41:28Z",
+      "likes": 85
+    },
+    {
+      "id": "p_cars_news_1322613861",
+      "title": "На Automechanika Shanghai 2026 представят новинки для сервиса электромобилей, шинной отрасли и тюни…",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Аналитическое агентство АВТОСТАТ.",
+      "emoji": "🚗",
+      "sourceName": "Аналитическое агентство АВТОСТАТ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJZFR5N0ZyQ0QxTkFzV3VmdkdTVG5XTGx5SHFPT0Npb0ZfSkk4bHp3TEd0dlBDY1E4cWpxTzN5OXpIM3l0cTJRekw5UQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T10:33:02Z",
+      "likes": 71
     }
   ]
 }

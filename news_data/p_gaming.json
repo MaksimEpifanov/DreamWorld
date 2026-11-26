@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_1955152037",
-      "title": "Исход игры «Салават Юлаев» – минское «Динамо» решил бросок под перекладину в овертайме - Электрогаз…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Электрогазета.",
+      "id": "p_gaming_news_623567181",
+      "title": "«Аль-Наср» показал обращение Роналду к одноклубникам перед игрой с «Аль-Саддом» - Чемпионат",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
       "emoji": "🎮",
-      "sourceName": "Электрогазета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmg0Y20zMnBuRmFFWDdaMWxNYUdPbjI1eFJRRURsSU1fWXBPUEZEQnhmRlV4eGd3RGZQOU1yeFV6aC1EVkV6dVZZYkJxcXdMOEZqU0ROS200clRrRlZMYnlhMkZDLWlwSkxOenpJYWJQUE9FNXU1aEJZaDBzZ0RJVXVlOW9VaFd4M3lPRTBpejZ0N2J0VjFrUmk1VEZYSTBRM25OdDQxY2lldmw1UTE2dkRScDJPNnJwZlctSGlYZmFjZ2xHS3VtVFNMN2Y4dG13aGdV?oc=5",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ1dTNDlvMkZQalduUmNVUTY4UHRRaVRpNkNqckhEdzhEemwtOGdvRFo1YlVqdTlBaWx2YTJjZlItUkxuejR4THZtUmxLRjNxQkR0c2YyRDd1NmxJa0d5WG40a3djMVpUckhIVnRUUEl4Z194NXJOWWhkU0hOd0trTEtwZFhXaDVBd0t4di1CWkc4NTJsY1YwQjl0bl9Ic2I0ZzJ0c3JZN0ZqenVxcC1FeGdnQ2RsRTNrSV93VlZUSXk5ZHphYnNR?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T16:42:32Z",
-      "likes": 45
+      "publishedAt": "2026-11-26T21:20:04Z",
+      "likes": 62
     },
     {
-      "id": "p_gaming_news_4046600365",
-      "title": "Гасли рассказал о «играх» между пилотами перед новым сезоном - StavkiPrognozy.ru",
-      "summary": "Кооп, рейды и вечерние катки. Источник: StavkiPrognozy.ru.",
+      "id": "p_gaming_news_3891441310",
+      "title": "Сборная Италии победила национальную команду Турции в квалификационной игре ЧМ-2027 - Чемпионат",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
       "emoji": "🎮",
-      "sourceName": "StavkiPrognozy.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbzF5VEZBRTNqLXF6ZGhFUHdubldyZ29kcWlwa2I2WWdEUkdTS2tWLUhCVVBzQzJzMGsyR2I2Wko4ZU1ENTJVVV9wcGNzN1ZGT0hsZFNFRkNSTDMyWDI3UElMMmhsUUh3UkNXZDJ0OUdIRXhvTFNneDhseExfaE5kTDRnVVBZR0hlZENheUFsc3F6VnViTXV3T2Z2ZnlRVzl1MVNHOF9NSQ?oc=5",
+      "sourceName": "Чемпионат",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeW9IWENTZ3ZxODhZZzBBR0Qyc095UFlQQkJSdnVrdEEzVlByaWY4cDdVQmYyN2RUUDUydENienpBMmNSc1B0Q1ZtR0Fjc01zdTFkamtvU0ozYUVHUm5PenF6QnhYMWZyRV85MlducklSY1drSDJEMFg2VVVwUzJVTTlUMTdIc3pqUWtpVU5fcGtTQ1dsblpXZnZQVGJZcEF4b2YxazlSM09Qd1VGeWkyNW83LTFyMW5OUUNiVkRJNTgtZkZtczRPZTRRbUxFTzBxcW11VnZ6ZVU?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T16:42:00Z",
-      "likes": 24
+      "publishedAt": "2026-11-26T21:14:23Z",
+      "likes": 63
     },
     {
-      "id": "p_gaming_news_3990406077",
-      "title": "Гасли: Между гонщиками уже начались своего рода игры - F1News",
-      "summary": "Кооп, рейды и вечерние катки. Источник: F1News.",
-      "emoji": "🎮",
-      "sourceName": "F1News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4taU1UajcwM2ZLWlM3aEpiSm9GOWJGTE5hNnNocm94X1E1ZS0xWmo1dU5MSHVFVkJ1Qlg5aEdtUmZZWFZ6UEs4NXp2XzZRVWpGMGNZ?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-26T16:38:00Z",
-      "likes": 49
-    },
-    {
-      "id": "p_gaming_news_3077098301",
-      "title": "Алонсо хочет вернуть «Челси» более атакующий стиль игры (The Telegraph) - Tribuna.com",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Tribuna.com.",
-      "emoji": "🎮",
-      "sourceName": "Tribuna.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM3FCMlNMNWdTczA0dkJpLXZROW9uQmpBNnJ5cjJSaXB3UmtXR2lNcUd1MXZMRHM0X2tBcGhzaWVaTm1aLXhJRmdBTGVtVmZ2UEpKUXd2aFJRcDJVTkNRUWljVGZoUEh2ZWhsN19RNkgzeXMyby1wUEp5TmJFNDNMVHc0aUNRcTFDWVVrTDJsTG90Y3NhQ2w2djA0clJPX0Z2UENxblpB0gGrAUFVX3lxTE5QVHZuWGlDdzF2WlpMaEFhMWpWcWI4VlFHYlBwY3JmcEVDbGp2eTdtcTdMWi15VlBxZTRKb1FWamhLaUtoTWN3QkZXbG1SajY0dVJBV1JKcjh0bHNSLWRuRjRyNDFLTHZYN1hrUHJBVXktdXZra2JqdXBya0NBdWlERE1FV1RuU0VEazlfVnFVbm1qXzVlVVpXXzB5Ti1Pb21JWmRFdFNoTy16bw?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-26T16:36:00Z",
-      "likes": 73
-    },
-    {
-      "id": "p_gaming_news_3561617315",
-      "title": "Фанат Fallout: New Vegas и Fallout 4 предложил сообществу признать, что \"обе игры хороши по-своему\"…",
+      "id": "p_gaming_news_120335280",
+      "title": "В GTA 6 хотели добавить теннис, крафт предметов и возможность украшать дома, но от идей быстро отка…",
       "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
       "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQUhnVzA4WFlVQnFhRzB2bS1RS1ZVMGRZU280bk5INU5GYVJ4SmRkVmdmdGtGNVNSM3gxUXZKOEgwU2F0c29fbkFibk84cWhmMXVmeDI4SlFXTjVOeFJzazl4YjIxaE5XTXhTSE96YlAzZFl0MjB1WXVoTXhSejFkMkNCbnlTU3l1S2lKdWk3V1FOVDlmLXJESDBhczhzazBpajJWVWNkd2g0T3BYMktkMTJXY0tqbXR3aWxzd3ZsOEdNa0tDRjJLXzc1b2sxUF9WWDZadDNCSlFfQUluSE1vdEc2S2ZvX0pUTzlwUGNFUnFmNlZHRHpz?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDRqOFRjQnpENGZORnZ1Zk1nLXRBOWpNQ0MxTEJUTTY1MTYyS3U5R09Od1Y5TGNxZEFheXVvZU05QTZ6dTJOcUFFNGxBYTFVbTBqSC1mcGd6bjk4NGNIcXFIM0ZlZW9RNHJqd0FDcVRkb1ZRSVV1OFdtYlVXWmN5M3RBbnhpaURhZHJuVE11U2dEWGg4MklrVEJ5VjBLQQ?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T16:20:00Z",
-      "likes": 26
+      "publishedAt": "2026-11-26T21:00:03Z",
+      "likes": 11
+    },
+    {
+      "id": "p_gaming_news_2860634848",
+      "title": "От Call of Duty до Diablo и The Elder Scrolls: Microsoft начнёт активно продвигать Xbox своими фран…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GameMAG.",
+      "emoji": "🎮",
+      "sourceName": "GameMAG",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLWdkTVhiNkNwS2laZDVHMl90T1FseFFBX1d0R3lwdHFicF8wRzdPTUhCVlVHRWpDcWhERUZ2dDVzYm9VeEoxbzBZZ3IzNWRPVk5sTDdDaXVYd0o1MnBaOFlwQ1RKVW1tMmd3aHBtZUNaTkNDRlpNc0xuSDJxVTcxSHBiUk5nMkNnTUQtZ2VGVFA4S2txUzJsUXBGNkE2S2ptcVBKWjdxeVMxRmdINnhQd2hfUHpLa3NYbUhJM3ZmNmdVdXc?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-26T20:59:00Z",
+      "likes": 63
+    },
+    {
+      "id": "p_gaming_news_1027887460",
+      "title": "Школьники из Узбекистана представили в Гамбурге игры, которые учат распознавать фейки - Dunyo",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Dunyo.",
+      "emoji": "🎮",
+      "sourceName": "Dunyo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONjVrQVMyV00zR2FMdnFfb2Z5LWZjbXVxUEV1ckYyeDBGZGpodDFnNGVqakhkcWdNSjRiX1VQVlp4cUpvdEowUE9rMWxxX2Rrbks2UUdMMWlGR2lUYUxlYjBiRXdWdGhpcmN2eU1VU1ZIUHVTMS15T0pnMm53OGxHQ3R3Y3hNMXh5Q2ctSDhEM1h1LXdqT3pvZFFGS0RlblhHYV9hYXlTcUpxQQ?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-26T20:37:24Z",
+      "likes": 73
     }
   ]
 }

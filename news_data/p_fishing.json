@@ -1,9 +1,20 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_fishing_news_3601699069",
+      "title": "Минсельхоз продлевает ограничения на вылов щуки, воблы и... - Астрахань.Ру",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Астрахань.Ру.",
+      "emoji": "🎣",
+      "sourceName": "Астрахань.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTHJXM2pJZU1Yc3VjekJNVWtHTFpfWW5wU1pERTJSZFZpRE16RGlPVkFoSDQ3alpOQlhZZWFuRjBNNmQtSzluTnc1V3lxMi1WQjNfQW0xWUhqLWQ4RnlKVnJOMU14STNVUjFTa1VWWTQ0X1hTaWZIWGV0cEtuQkpmSlVrRHlDWWFNT0hrWUVnVXVlRFU4SDdjT2FVUGZfdUdUMzJHSmdFazdzaldwVzJiSGI0dXNGcHFRRGNYR29jSmZUbUdfUWfSAcYBQVVfeXFMUExyVzNqSWVNWHN1Y3pCTVVrR0xaX1lucFNaREUyUmRWaURNekRpT1ZBaEg0N2paTkJYWWVhbkYwTTZkLUs5bk53NVd5cTItVkIzX0FtMVlIai1kOEZ5SlZyTjFNeEkzVVIxU2tVVlk0NF9YU2lmSFhldHBLbkJKZkpVa0R5Q1lhTU9Ia1lFZ1V1ZURVOEg3Y09hVVBmX3VHVDMyR0pnRWs3c2pXcFcyYkhiNHVzRnBxUURjWEdvY0pmVG1HX1Fn?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-26T14:19:42Z",
+      "likes": 86
+    },
     {
       "id": "p_fishing_news_3841181667",
       "title": "В Днепропетровской области с 1 декабря вводится запрет на вылов раков: сроки и ограничения - новост…",
@@ -14,17 +25,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-26T13:39:33Z",
       "likes": 35
-    },
-    {
-      "id": "p_fishing_news_20008168",
-      "title": "Минсельхоз продлевает ограничения на вылов щуки, воблы и... - Астрахань.Ру",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Астрахань.Ру.",
-      "emoji": "🎣",
-      "sourceName": "Астрахань.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmJraFpPakdsOW9jek4yeHR2TDBxdktpelFIYm1jcm5fejE1NnhyZ0xXMjBhOEtuQmFyd1FYaDNRV1RkVGVWdk1tSGFXZDBiZkN6aWJhOEV1YlN4QkZEdm1leVI1Ull0OXgwV3BGV1dGVGMwcERrcWY2TjZodWp2WEthbDc0VFo0MWhBUHExcDJGLWxHRjBCNmNNdG1wRmNSQ3VOZy05QXpCV1ZwX0t6MktybE8wc0RsWm05OVRDb3XSAcYBQVVfeXFMUExyVzNqSWVNWHN1Y3pCTVVrR0xaX1lucFNaREUyUmRWaURNekRpT1ZBaEg0N2paTkJYWWVhbkYwTTZkLUs5bk53NVd5cTItVkIzX0FtMVlIai1kOEZ5SlZyTjFNeEkzVVIxU2tVVlk0NF9YU2lmSFhldHBLbkJKZkpVa0R5Q1lhTU9Ia1lFZ1V1ZURVOEg3Y09hVVBmX3VHVDMyR0pnRWs3c2pXcFcyYkhiNHVzRnBxUURjWEdvY0pmVG1HX1Fn?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T13:00:00Z",
-      "likes": 83
     },
     {
       "id": "p_fishing_news_433689700",
@@ -49,15 +49,15 @@
       "likes": 9
     },
     {
-      "id": "p_fishing_news_951653017",
-      "title": "Минсельхоз РФ продлил запрет на вылов воблы на Каспии - Вестник Кавказа",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Вестник Кавказа.",
+      "id": "p_fishing_news_801748741",
+      "title": "В России до конца 2027 года запретили вылов популярной рыбы - Стерлеград",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Стерлеград.",
       "emoji": "🎣",
-      "sourceName": "Вестник Кавказа",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV0xwZjVZOVpIbkpCMThGVjFIc0F3UUU4eXFYRVBvWVRRc2dpSzRLSVNZdGZET1NuSFJwX0RYVk5wbWViZzdmUVc5WGFCUExDY3k4cEMwV09pdGJuNTRER09oWXVLNXBjdzFsRnZvVFhSWDBMdHZSNGIwSU9PNzJJMW5RUVZHY2U0ckRCME81TdIBSkFVX3lxTE10OWktZk5hZF9tdGR5UktkZU5TeFdCb1g3NTNnWGotajM2SFFxQkstaHpkV25OTzY3N29kUlp1am1vNGlZbEFkZVV3?oc=5",
+      "sourceName": "Стерлеград",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYmc3NGdJR05CWi1FRVpKUUhJRWdTejFIYnhnNFpuOW5DRTlQY2xKbWdQUEtCWlJ6eXp2LWk5OWJUR3NRdG9wckdQRkFtcU1Ia29lZm02N01FTmNZZmVxMFFEbTFpUHE3bFIyQWlidTlXeWRkekhUQjhXdGdaX0dUV19qMmhkV2xTcGxDS1J0b0lqZmNHY0g3QUZWVy1oNjRjaTlYMg?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T08:37:30Z",
-      "likes": 9
+      "publishedAt": "2026-11-26T06:26:16Z",
+      "likes": 85
     }
   ]
 }

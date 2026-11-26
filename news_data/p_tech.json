@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_2150725110",
-      "title": "Путин предложил ввести на смартфонах окно выбора ИИ - newizv.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: newizv.ru.",
+      "id": "p_tech_news_361834161",
+      "title": "OPPO впервые представила флагманскую серию смартфонов Find X10 в России - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
       "emoji": "💻",
-      "sourceName": "newizv.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOHlsR3A1a1ZOUHNDYko4N0kxQ0dMOFozTjRzUjFzRk5DdGxiaENfaXRjRFVtZS1nblNEYy1vVWt1aGN0Z1ZZdlFTQmpWSy04R2lqMjVmTmo5d0JZMTFTQUNyRFlVRklnczkyNHlyZnRoY3d3dVVNWURYRENDNHYyYjNGM1lIMGR1VXRtQS14am5TQTVBV214dw?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTHp1NDFHUFpIU0JYX3RkUnlldFZSSDdqR1FKRk9XSnBTUUUtc0I3RjJLSkowRkhhS0dxS1dNN3FkOWRIM3huQXZTSi1qWkxuTWZIajlXQW1mUEFHRU82Nnc4ZkcwTVZOWlZpRU9rNkVJT0cwUGRrSVMyZTVBNWxMekF5b0JCeFV4THgwRWNrdDNmQ1RtMzRlQjZhUDVNQ3NPU1E5ZUdjdEFuZzFjVEw3QTYtaVFPZw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T16:04:16Z",
-      "likes": 22
-    },
-    {
-      "id": "p_tech_news_861314914",
-      "title": "Путин заявил, что иностранные ИИ-модели транслируют «чужие ценности» - БИЗНЕС Online — Новости Каза…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: БИЗНЕС Online — Новости Казани.",
-      "emoji": "💻",
-      "sourceName": "БИЗНЕС Online — Новости Казани",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wZVVzUk5iMWxzUFMtbnowbVdyZmo5djBFMjM1QWJGSjI3Z1dfa2lhOUdRSUY2Y252VC1udHN3VEVIMGhBbEMxdjNnb0V2bWhSaEZR?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T16:03:00Z",
-      "likes": 9
-    },
-    {
-      "id": "p_tech_news_3653514098",
-      "title": "Путину и Токаеву показали первое в мире ледовое шоу с участием робота - Москвич Mag",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Москвич Mag.",
-      "emoji": "💻",
-      "sourceName": "Москвич Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT2FqX2luYmxWQzdaMXpySmJvNnlhYUk2QnRtSkpiM193OERqTVpWbmdLc3JhcjRpUm5WcWJ2U3dhcWxIT21ObHI5bkM2MU9vSnRjVjNsbEtYVFAzalF2YmdBMGs0YktDdjJEZ2pSb2x4M0ZMTTdqb0xlemIwSXV2S1JxU3p4TEI2RFNiMkVDbXByblVOVXdnaEhFQmlvb0xsYkxn?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:57:24Z",
-      "likes": 8
-    },
-    {
-      "id": "p_tech_news_2271729966",
-      "title": "Что заявил Путин о стратегии развития ИИ, суверенных моделях и запретах - Ведомости",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ведомости.",
-      "emoji": "💻",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVdrbWhXZHNWN1o5aUFEU25VS2IwWElTYS1UZ256aXNlblJ5ZDJVRW5GSHYyLWpSUlFuZjcxem5kMHpybENmVnlfLTV1eTNfY0VoNWR2b2dzMWhuNU1SdXVpem5qMUM3aWxLazlNV0VUdHBTR3NIekZKLUJsc3M4dUdJSTV0T1piM3l2VFo4N0VTMzFmZEI3RjMtcw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:56:28Z",
+      "publishedAt": "2026-11-26T18:22:12Z",
       "likes": 50
     },
     {
-      "id": "p_tech_news_785063319",
-      "title": "Отечественные нейросети могут стать частью привычных функций смартфона - TKS.RU",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: TKS.RU.",
+      "id": "p_tech_news_2022915590",
+      "title": "Уже в России: зачем Xiaomi 18 Pro и 18 Pro Max второй экран и чем ещё интересны новые флагманы - pr…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
       "emoji": "💻",
-      "sourceName": "TKS.RU",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkFVM0RWbUtITWtLUGVyQUpXV19vNUU2dG9nZjgxbFFLYTd3ZEFZSXRuT2pLMkZzYmxySm1KZGJqZ1BGRmw5bUpFcDgzNFpURXRuU0VubzNtblVCMHZjNEpHLUFSYmxUNk9rTmYwc1pvOE1BWXBDT0pfMmQzLUZkOUlmZV9xRHd4SHpCb3hha2VhVTJscUxXUDU4RU5ETFNwV3NKVmFwMFlXXzRRRHI0Y3ZfcnVFUGd5X2tjcGJXV2U?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSU5adnptdXFoc3pQTEdLRVhUQWg5eUJaVmxzSmpFRVhmZG9LVVFyN2tVRmpWdGFyTXVsQ1dOelFQWkdwM3ZhNFJNX1ktMEJHdkI5dVhhMkIxbENWS3Z5bGEtNjc2b3liOThpM1NKVkR6VER3TWVtbkxLT3VmSE9zM2RVaGxwMlAyb04taFpzbzhDTW5RZlRPVjhhdWtZMkNrUWE4TVhob1VDZ1Z0U19mMzdVeFJKYlpyX0lkVEV4TzZhLWxVaXZKNkx0alFlNE9WeGVHNThB?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:54:37Z",
-      "likes": 4
+      "publishedAt": "2026-11-26T16:01:31Z",
+      "likes": 77
+    },
+    {
+      "id": "p_tech_news_3849996882",
+      "title": "Apple готовит MacBook Air в новом дизайне с главной фишкой MacBook Pro - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV2Qtc2pqbkJ6R0Z5U1lSV0ttbU90LThhRGU1Z1FNd3hIWnBNUWdXR3FWSGNwbFJkTjVjVEg4LWhmVFRrVlFfYjNQVXI2cm5VSWtxSHE3Q2FXbkhxdlVyLXpBeVctWjh0QzE0NmVjRVlmRFM0ZTFxbGEwbkVRUVZGMmh3aEVKbEhnd3VWSUVVTV9nY2ptelVxdmt2RmRaOTYwZ0o5aS0wcWJSQXR6a25tMm1Sbw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T15:21:31Z",
+      "likes": 45
+    },
+    {
+      "id": "p_tech_news_2737981248",
+      "title": "Nothing показала дизайн наушников Ear Note - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGo4QkNqeXhrMzJIczJ3bUZlSmY4bUpvVTZqa2hXc2ZqRzBmZ1BYbGR1U01kcXljMTlyZE1zOTNpT1NLeEJPaVpkVzJJcWd4OGJRRGdwZmxSV3hGc241ZmZhYnBRQldZUno3UkZiV2g2MENZMUVsbGRwdklscUswbS16eG1wSFBsd29uNE53?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T15:12:24Z",
+      "likes": 84
+    },
+    {
+      "id": "p_tech_news_742068639",
+      "title": "Смартфон HONOR Choice T20 оценен в 12 тысяч рублей - prospect.com.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "emoji": "💻",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDAxa0t1RlNkMnJPR0lkRGdFa09iay01R3NWUVRwOTNIeWZTVlJEeTJ5b0M3TzA3NHJ2RmJsWGRvckJsN0t1dEVuTUZERC1WUEFzZXpYVnBWNk5WXzZINHduUFQ0dURBYmVPbm5nSmtNTUctT1paUHlUZV9WWGR2TEtmOWpvdGJraVR2Z1V2VzBjOGVabEpYenZiTQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-26T15:12:24Z",
+      "likes": 25
     }
   ]
 }

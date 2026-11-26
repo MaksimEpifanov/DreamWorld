@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3666503831",
-      "title": "Минское «Динамо» вырвало победу у «Салавата Юлаева» в овертайме матча КХЛ - Рейтинг Букмекеров",
+      "id": "p_sports_news_1505091303",
+      "title": "Продажа Ягра и Бондры, драка владельца с фанатом, многомиллионные убытки. Каким был «Вашингтон» до Овечкина - sport-exp…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "emoji": "⚽",
+      "sourceName": "sport-express.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWVZISTgtR1VhbFd5Z2psVGxHQVY4T3lkS0VucFBrblItb042N1BBazVHaUxfUFBlOVZTZ0FEMi1pSEFNRUFQNmM4UC1ZY0tNLVhMdzFLZkVaeWdpeWpzeXhTR0RvRXQ5OGZIcE9oNklWbVZjX2tqcjJUSkJ1UnN2R19FcjJBa0dKMnVMNWx2OVl1VHdBdFdCUDhGRGdyWUJnMXJydGstRXM5SzdEU3NHdVVfcm5pRmJ0Q3JxMkFrWE5laktnMjR4Skdfb1ZtTWdZd19EWUZoZzRWTFkwcC1XMVpQOUdwOFc2Y24wY3QxbzdPYlBaVFE?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-26T21:10:04Z",
+      "likes": 71
+    },
+    {
+      "id": "p_sports_news_3386139919",
+      "title": "Хоккеист «Нью‑Джерси» Диллон дисквалифицирован на четыре матча НХЛ за удар соперника в голову - Мат…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
+      "emoji": "⚽",
+      "sourceName": "Матч ТВ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajJIRFZjLU1lRHh6YkVfZzlFQ0FkT3g5c3RWeFo2MWRtdzN1SFZaWFZDTWtnOWlHeEcxU0dHNjdIZTdOSEZXUUV4Y3ZZbVJrZEpweWxkUFJvVEdtNnd3dUtWU19vWUpCWEZPUWZJQ3VsNFBYZGtUdVNwRU1aTnphUEU1akdMN3VDUk8wVXpnLXJSNVlFYVRWTHY5TnllUWZIS0phX1RublZaaGlqMjN6VEFCclVLdldvNEIzd3k3eTJMdDFja1cydlMyS1NrTDF2ZGdiYVM0bWFEZw?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-26T20:41:46Z",
+      "likes": 16
+    },
+    {
+      "id": "p_sports_news_1473074898",
+      "title": "Ларионов покинул отборочный комитет Зала хоккейной славы - Рейтинг Букмекеров",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
       "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdVdoRVcxdFFIUzZPbnVPenZNRldTNXJqYjJVek9QdW9yaGprbjFhN29mRVZyRHNTcTJvSjJ3bXpoZ1gtRGVWeDRZcjdiNktwYzhIZG9nREw0YzN5RWhIZjBVQ0F5eGZqU1FwSHhHSWdOcjlaXzR3X1ZLa2FpUTJIY1Z2WGQ0N0lRb19jVlc4M1Z5aDlMSlFRUktReUlPbTNoN0tzV0NfTzBwQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcDVtVU9FSGNVVmhrdmdCMVJQLWJISFJqMUFNdDJEMEEzZE1CUEtGNFlZUUsxMW5wMW4zaUZjd25aQzJkTTBpZ0lfaWpHb1RrTEtKbXlvTG43TnpIY1pBTzYwUGhkdE9WeTRhS0lYVDN3UHNCdUVpd09hTXhsQThrVHY2aks4QndIZzBZb0RSbkthTzdLSmY0?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T16:35:13Z",
-      "likes": 47
+      "publishedAt": "2026-11-26T20:30:31Z",
+      "likes": 71
     },
     {
-      "id": "p_sports_news_2089142506",
-      "title": "«Трактор» победил «Автомобилист» в матче регулярного чемпионата КХЛ - Рейтинг Букмекеров",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
+      "id": "p_sports_news_301142857",
+      "title": "Новичок из России повторил рекорд Овечкина. Такого в НХЛ никто не делал 20 лет - Sportbox",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sportbox.",
       "emoji": "⚽",
-      "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHBHaE5QLVR0YWRmTjhXZjdTcklsTGFBM3oxVUF2OHg1Nk1tMGR2a3ZrMFh1eHd2eDRDZlB5V3I5T1BmUlVJaTQ1MW9ZSDZmQWc1Q3QySWJXOTJNbmhreXpSUUdSakYyaUxneDRacTg4TDlTX25QQ0NfTVBqVmlXa1d1WWxaSW9HeWc1LTJyTkZnWW8xWFBFSWRGa0xOV1ByN0JJ?oc=5",
+      "sourceName": "Sportbox",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMXRuek5CbkZDc1RMTldETXJWMWVSeU1ZOC1GVW8wdzhjUjExWjZsTnlKU1EwcXFqdEU5c1F4YkdBOVg2N3M5MnY4MVFrVnpDRlZTZk1xRV8xclJWQTdhaVUtZEVIaGZ1dERmOXpBc0V5RkZsbUF6OEp5LXNDYXhmbEJxS1V5eGtVaVhkTzZyVHRkWTRBZHpwT2EydEpUOG9IUnNVRzk0aXp2ZWxkSjJhR1ZnWVYwQXZHSEszOTNaNTN5TnVNOVZrUUQtTEtJSWhxdkNVekRuTHRoLXZSUXBZ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T16:25:10Z",
-      "likes": 49
+      "publishedAt": "2026-11-26T20:05:46Z",
+      "likes": 52
     },
     {
-      "id": "p_sports_news_616957999",
-      "title": "Легенда НХЛ винит «Вашингтон» в безголевой серии Овечкина: «Пора либо действовать, либо уступить ме…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: БО Спорт.",
-      "emoji": "⚽",
-      "sourceName": "БО Спорт",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuT0NINDZSUXRNNHBsNHBGVkRDU2VKTW84amd1TjAzRkxKLUswNTdia1dReFA0MmtUUmppSE83dHR5dWVZdmRCNEtjRlBXNmtXZGl1ajRRNA?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-26T15:51:51Z",
-      "likes": 68
-    },
-    {
-      "id": "p_sports_news_3993570422",
-      "title": "Здено Хара заменил Игоря Ларионова в отборочном комитете Зала хоккейной славы - Чемпионат",
+      "id": "p_sports_news_1297424607",
+      "title": "Защитник «Нью-Джерси» Диллон дисквалифицирован на четыре матча НХЛ за удар в голову - Чемпионат",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
       "emoji": "⚽",
       "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGhzV2dpQTZUNDVCRUpPYXR4cHh5ajFaak5saTk5VzQzeWJOUC1LNkFfdHpVNDVqSXV3c1YyV0tybEZSeElNLUhMSlh4dC1QSF9lUmEyU2stUmxyZzFBc0tUYUxueHQtckF6VnNjb2Zsa3hEeWw4c2sta2o1NHRQUHBCQzZ0QldjbzRLVE84cW0yOU5ScDduU3RIZGVLbmJLZWRaelBZb1NyQXdoWEVLeVpSYnoxVG9iMXdIbVBQX0ppR3JVVHpDWFFR?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFJmWTVWOG05bTJOcjFxVTJseWptRl9oaGVPN0YtVUxZQTJGV01SQlRaUkU2eGVlOTl3X0NoZG5DOTNvNHhwSGdhME1VSUFDTDFWeEQ2U3F4YWRuMnFIcmFISU5CSWctSHNyVHBDRk9lSm8zNDBvMl9Cbk5CRFlnbE1BT0paSUszSGNkdlRScm1JWDlKVi0tS0hCaDdyc0FjZm9yalJfSkdGa2U5eDNMWi04Vmp3dlMzZDkzX1BsVEdhdTlGb2VDOUtoX2JsUURSbmNj?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T15:19:19Z",
-      "likes": 37
-    },
-    {
-      "id": "p_sports_news_1512418856",
-      "title": "Мария Маркарян объяснила, как осваивала хоккей в «Авангарде» — Новости Хоккея - legalbet.ru",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: legalbet.ru.",
-      "emoji": "⚽",
-      "sourceName": "legalbet.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZG1acmxqNDhRNG9KZzhFQzNuaGZSNUxieGp4dUNUbnNydkJrNmNtV1hEeWJOUmlkZlRPRlNkRm8tSlFOUkc1aTE2bTR4UXFzbnhDenE3ZzFCdjBRTWRxY1RQNWthU2lsMURaMEFjVHB6VVp5OGF4MkcxQ3FKVnJWWDVFcWE1U0NmOTdtMVhxTUk4TXAwdHc?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-26T15:11:49Z",
-      "likes": 55
+      "publishedAt": "2026-11-26T19:50:04Z",
+      "likes": 31
     }
   ]
 }

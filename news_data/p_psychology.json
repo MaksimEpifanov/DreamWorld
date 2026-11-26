@@ -1,9 +1,31 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_psychology_news_4230308940",
+      "title": "«Остаться без другого — значит потерять опору». Психолог — о том, почему некоторые люди не выносят…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
+      "emoji": "🧠",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZXp2cktxVE41ODRlUUM1REpXRkxvcjktQ2Fxa3gwQkZhMzkxSm9SNEx1TW5IMEpKTUFmWHdDZTNma3ZreXEzUmtReUprVDNsZlJla0ZHWFRFOUJ6eEVjcjY3UU81cXhEZlFvQjZpRkZnZzdqcFpjUWZtcEFkWWE0WXMtdFpaejl1WU1jalhoVFUxYTJ6YnBsUkNWa2xGWjVNMHJyUXU4YWRMUnRFcnBtbWdRSlowQnZjZ3h5WkJSMktkajVURVVTQ3NPWG9VemtHUHNsWtIB1AFBVV95cUxOZXp2cktxVE41ODRlUUM1REpXRkxvcjktQ2Fxa3gwQkZhMzkxSm9SNEx1TW5IMEpKTUFmWHdDZTNma3ZreXEzUmtReUprVDNsZlJla0ZHWFRFOUJ6eEVjcjY3UU81cXhEZlFvQjZpRkZnZzdqcFpjUWZtcEFkWWE0WXMtdFpaejl1WU1jalhoVFUxYTJ6YnBsUkNWa2xGWjVNMHJyUXU4YWRMUnRFcnBtbWdRSlowQnZjZ3h5WkJSMktkajVURVVTQ3NPWG9VemtHUHNsWg?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T18:31:47Z",
+      "likes": 92
+    },
+    {
+      "id": "p_psychology_news_1025692512",
+      "title": "Вместо крика — разговор: Психолог объяснила, как научить ребёнка справляться с эмоциями - Дети Mail",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Дети Mail.",
+      "emoji": "🧠",
+      "sourceName": "Дети Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObEt3MHd3cWlPYXBRMG1jMFdSZlRhTXFOMHdhX3BPcEpZMDlzU1h4dlpaUXVzOVZaenN1VkhWeFBXUmU4YmNHR1hQTDh6VTJ5TVgxYS15eVFENEpYU0NJajZTNGs5REE3WFFMR1otWDUzd0tMdHdUZ3Z0LVd6STJPM3pTWDZydFdhRl8yQjZSek5nVnNSdFhQcS1QRW5TY1VSR0RjZGtEVkpyZDV1Z2ExTWxvSnF0c09MaEk4aQ?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-26T16:03:24Z",
+      "likes": 52
+    },
     {
       "id": "p_psychology_news_1842185288",
       "title": "Психолог рассказала, как раскрыть свою аутентичность - Здоровье Mail",
@@ -36,28 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-26T12:00:00Z",
       "likes": 75
-    },
-    {
-      "id": "p_psychology_news_4008917277",
-      "title": "Бывших наркоманов не бывает?: психолог опровергает миф и рассказывает о ремиссии - Сахалин-Курилы",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Сахалин-Курилы.",
-      "emoji": "🧠",
-      "sourceName": "Сахалин-Курилы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY1VnU1RHTEZlSHdUSlFYNk5mRjN0b3c5THVHaW1NR1o3VmxQYVFvQ0pIQXhUSm5qZjJaMkpUYm1FMXprMHV1XzFuZE44NmFZcm4wSkhad2Z0UjV4RGdSVDE2LVBFMzVJaEpzX2tBaDlLN1RDaWsybDRUQVZodW94OTBhZ2p1V0VjRFVLbDNVeU9faE1Fek04alc2NFN0TVBZaWh2WlhaM3N5Z0NzNWpzQnRTbzVLVHVWTS1OekN2WGlwMVU?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-26T09:01:06Z",
-      "likes": 20
-    },
-    {
-      "id": "p_psychology_news_1651324135",
-      "title": "Профессиональная этика как живой разговор: опыт интервизий в СРО «Союз практических психологов - Пс…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Психологическая газета.",
-      "emoji": "🧠",
-      "sourceName": "Психологическая газета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFA3TEVTbXJNcG1RYlVSaG5laEdJVGwtUHAzTHF3Y0Q0RDZRQlB5cEpWMlBYZjhkMng0Z3VXVEhfdw?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-26T01:31:36Z",
-      "likes": 57
     }
   ]
 }

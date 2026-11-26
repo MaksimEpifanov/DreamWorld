@@ -1,30 +1,52 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
+  "updatedAt": "2026-11-26T21:26:59.656999Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_3108816989",
-      "title": "Stray Kids опубликовали японский мини-альбом «Suiatsu» и показали одноименный клип - Soyuz.Ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Soyuz.Ru.",
+      "id": "p_music_news_911880097",
+      "title": "Группа компаний «Лучи» снизила трудозатраты на кадровое делопроизводство с помощью HRlink - prospec…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
       "emoji": "🎵",
-      "sourceName": "Soyuz.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXlLa25nWnFwX1BHeE1UUXRMQnZCTkVCS3Q1bFRhQmFoai1QaGZURlFyV2VqU3NWQnlmZEp1aUkzaGx0bld0NWhYc3lEWXhiVC10cjRJbWg5NVFSSmZod3NHRVpodWRONllnLUZOSlRZbFJQQ18yVGJMdWJKUUdVazR0bmJaVEV0dnVJZkp2NHJhRVFPQnhPV2U5OGhMTzc2Sjl2b1dLUXNEQQ?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMzk5eFNrMnVrMXZRSzVxUUh2Mm15TjJNbjVuR0NWOUl5ZVVyeTNYR292bUlDY2RmUFJZMFdGWHRmU1BiRUQ2cTd0NnM4ekN1ZlNabV9DUDFMR0NJQi1id05ucGozNUJocFMyelJaRzIwX25VMlpkVlVlUkt1NjFWcGpSYVdyUi1WSEREUkEwUm9acUlLZXRmQzhSaTlKN0RYcHBiMWNjTVpkZjZZRlNzdE9xaElVU0dzVDEyOHBDUnhkakJ1cTgyTVNEUEE?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T16:39:16Z",
-      "likes": 71
+      "publishedAt": "2026-11-26T19:51:53Z",
+      "likes": 18
     },
     {
-      "id": "p_music_news_1733257751",
-      "title": "«Бонд с кнопкой» выпустил первый клип в своей истории - NEWSmuz.com",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: NEWSmuz.com.",
+      "id": "p_music_news_1548285730",
+      "title": "Студентка выиграла приз в размере 80 миллионов донгов на экспедицию в пещеру Сон Доонг после посещения рок-концерта. -…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
       "emoji": "🎵",
-      "sourceName": "NEWSmuz.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeThpMWR3eFR0V2Izd21lSS1lNFg2Z0M1d2l6WWg3SG1QM1E2OXFzaE83SkhuSjVUMFRibWxrRUk3YlBpZEVERFplb3R0UUlJU2VzMGRQSFZkODdMMlVEVGpZUjdSM29vMlVQeTZYOUxvY1pUc1RHbGR4RXh1STRtbl9GaHFzVmVXSzQzMnNabDNzOUh6MGc?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSzZiTk1CcEd0TlBxZjJMSU04X3EtYVFGemNUNlZiVzYyRXJLNmNzUnR3YmE5bU5iSV9Cam9YVEtIb1ZWQzd1MHl2Z0R0RUl3ZUFIY1Axdkh5TnU2YlpFdDlGYkNJaDVWSmhEcngwZDhndTJqcldhM2RjVGJXQWJ0TnBQem9oZ1BwQi03YnJxYlpfQjdQbUQ2bG1nTXRaYnpKUmc?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T13:41:25Z",
-      "likes": 63
+      "publishedAt": "2026-11-26T18:51:37Z",
+      "likes": 62
+    },
+    {
+      "id": "p_music_news_2841812342",
+      "title": "Прибыв в Лас-Вегас в День благодарения, 21 артист из групп Say Hi Universe и HIEUTHUHAI дал два концерта подряд. - Viet…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
+      "emoji": "🎵",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYnNTZjI5ZUFidzVKaF9PRlROcnZoU3llcktuSmR4YUVDeW5wS2RNSmJxMGVOSGJ3ekdSQzFIQTMzYW9YNnFFbXp5aTRIQnJNWkhNLXRpVlU4MnZLZnJOdnFDanhCZUpzaEhZbjlMVkZDSVdjdEhfNG5ZbG5vOTRyei1Oclpyc2RxSUVVUFBjcWZjS3RUN2lqNWxIc0MybHA3RnpKSDhpR25LaHlJUTBtRnlaVnU4WFloQjVacEpFd002eTVHSVE?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-26T18:51:36Z",
+      "likes": 37
+    },
+    {
+      "id": "p_music_news_3321485965",
+      "title": "В Астане состоялся этно-хореографический концерт «Бірлік әуені» - GOV.KZ",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: GOV.KZ.",
+      "emoji": "🎵",
+      "sourceName": "GOV.KZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tcnVxNFBzSFJ3MW5iSlhSV0N2RW5maFZyd2lEM0RQR0pRNkMyWVUzVldCWmR4eHhocU9pcy1OV1pjdGMtUzF2WUoxbHJIM3FrNWZuWlBSZ3BWdjMxRHJpVl9oM1ZnVUtWQzBnb1Rn?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-26T16:17:50Z",
+      "likes": 11
     },
     {
       "id": "p_music_news_1785619698",
@@ -34,30 +56,8 @@
       "sourceName": "98mag",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFBTNHdTWENtamZrNlNmOFAwVFduajJ6alBZZkxGZ3RxRnFCSWNHSzdDZ0NIcEVLZEJpTUZjUjc1REI2bEJBandBZUVfY2Z3Nk02VEFSUzRtRTh1OWx3TWtnS1lrQnF5ZWViSXVjNFAwQXpJSGo4QlpJeF9oRjBQSTlOSkZOckYteXQwWnJn?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T13:22:03Z",
+      "publishedAt": "2026-11-26T16:16:38Z",
       "likes": 79
-    },
-    {
-      "id": "p_music_news_2535713113",
-      "title": "Саша Цой Баланс Первое музыкальное - Музыкальная жизнь",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Музыкальная жизнь.",
-      "emoji": "🎵",
-      "sourceName": "Музыкальная жизнь",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ycklQczU0eHdhMk56ejF3TS1PTDlPZmJ0ZHpMSmYxdnpRYlQ5YXRGQXhBMEFraW40QjJ4T2Y0SUU5UnFtUE9tYklOY1VNY08xTFF0YUZFUnpLVDZQRTJKMDZKU3FDSDNGWk1MZVhMUQ?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-26T12:32:08Z",
-      "likes": 77
-    },
-    {
-      "id": "p_music_news_3852256009",
-      "title": "Новый альбом группы OH, SLEEPER выйдет весной - castlerock.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: castlerock.ru.",
-      "emoji": "🎵",
-      "sourceName": "castlerock.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcTg2VllaLTByNkdaOWJQc1o2ZE43Qk5JcDJnMjFvb28zR3k0NGV0ZWgyRzVvaVdOTE80NnA4OWQxU1Q1cHd3WTlBUk5ReWFYN3BYd3YzRVpfVlBLazMtazJhcHg1TFVDdkJJdHA1RW5kUEhWdkI2ZHJUX3VSTmp1eC1QbjhrQjhISjFtSTgwY204dThJSHpV?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-26T11:25:23Z",
-      "likes": 74
     }
   ]
 }
