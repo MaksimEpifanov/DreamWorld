@@ -301,9 +301,17 @@ service cloud.firestore {
           ).data.participantIds
           && (!request.resource.data.keys().hasAny(['text']) || isString(request.resource.data.text, 4000))
           && (!request.resource.data.keys().hasAny(['audioUrl']) || isString(request.resource.data.audioUrl, 950000))
-          && (!request.resource.data.keys().hasAny(['audioDurationMs']) || (request.resource.data.audioDurationMs is int && request.resource.data.audioDurationMs >= 0 && request.resource.data.audioDurationMs <= 120000));
+          && (!request.resource.data.keys().hasAny(['audioDurationMs']) || (request.resource.data.audioDurationMs is int && request.resource.data.audioDurationMs >= 0 && request.resource.data.audioDurationMs <= 120000))
+          && (!request.resource.data.keys().hasAny(['transcription']) || request.resource.data.transcription == null || isString(request.resource.data.transcription, 20000));
 
-        allow update, delete: if false;
+        allow update: if signedIn()
+          && request.auth.uid in get(
+            /databases/$(database)/documents/conversations/$(conversationId)
+          ).data.participantIds
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['transcription'])
+          && (!request.resource.data.keys().hasAny(['transcription']) || request.resource.data.transcription == null || isString(request.resource.data.transcription, 20000));
+
+        allow delete: if false;
       }
     }
 

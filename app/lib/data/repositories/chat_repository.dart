@@ -32,6 +32,13 @@ abstract interface class ChatRepository {
   /// Пометить диалог прочитанным.
   Future<void> markAsRead(String conversationId);
 
+  /// Сохранить расшифровку голосового сообщения.
+  Future<void> updateMessageTranscription(
+    String conversationId,
+    String messageId,
+    String transcription,
+  );
+
   /// Освобождение ресурсов (потоки).
   void dispose();
 }

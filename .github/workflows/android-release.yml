@@ -59,9 +59,9 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.1.10
-          name: "Dream World v1.1.10 (Android APK)"
-          body: "Android APK из GitHub Actions. Исправлен перенос названий планет на главной галактике."
+          tag_name: v1.1.11
+          name: "Dream World v1.1.11 (Android APK)"
+          body: "Android APK из GitHub Actions. Добавлена основа расшифровки голосовых сообщений в текст."
           files: app/build/app/outputs/flutter-apk/app-release.apk
           generate_release_notes: true
         env:

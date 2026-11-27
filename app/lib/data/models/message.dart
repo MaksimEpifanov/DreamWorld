@@ -34,6 +34,7 @@ abstract class Message with _$Message {
     DateTime? createdAt,
     String? audioUrl,
     @Default(0) int audioDurationMs,
+    String? transcription,
   }) = _Message;
 
   factory Message.fromJson(Map<String, dynamic> json) =>
@@ -46,6 +47,10 @@ abstract class Message with _$Message {
 
   /// Есть ли голосовое сообщение.
   bool get hasAudio => audioUrl != null && audioUrl!.isNotEmpty;
+
+  /// Есть ли расшифровка голосового сообщения.
+  bool get hasTranscription =>
+      transcription != null && transcription!.trim().isNotEmpty;
 
   /// Текст для отображения: перевод, если есть, иначе оригинал.
   String get displayText {

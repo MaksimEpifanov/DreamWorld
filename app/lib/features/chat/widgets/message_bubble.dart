@@ -9,10 +9,16 @@ import 'voice_message_player.dart';
 /// Свои сообщения — неоновый градиент, чужие — полупрозрачная подложка.
 /// Внутри пузыря отображаются текст и время (а для своих — статус доставки).
 class MessageBubble extends StatelessWidget {
-  const MessageBubble({super.key, required this.message, required this.isMine});
+  const MessageBubble({
+    super.key,
+    required this.message,
+    required this.isMine,
+    this.onTranscribe,
+  });
 
   final Message message;
   final bool isMine;
+  final Future<String?> Function()? onTranscribe;
 
   @override
   Widget build(BuildContext context) {
@@ -67,6 +73,8 @@ class MessageBubble extends StatelessWidget {
                 audioUrl: message.audioUrl!,
                 durationMs: message.audioDurationMs,
                 isMine: isMine,
+                transcription: message.transcription,
+                onTranscribe: onTranscribe,
               ),
               if (message.text.trim().isNotEmpty)
                 const SizedBox(height: AppSpacing.xs),

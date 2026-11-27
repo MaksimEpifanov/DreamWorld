@@ -297,5 +297,24 @@ class FirestoreChatRepository implements ChatRepository {
   }
 
   @override
+  Future<void> updateMessageTranscription(
+    String conversationId,
+    String messageId,
+    String transcription,
+  ) async {
+    if (!_online) return;
+    try {
+      await _conversations
+          .doc(conversationId)
+          .collection('messages')
+          .doc(messageId)
+          .update(<String, dynamic>{'transcription': transcription});
+    } catch (error) {
+      _logError(error);
+      rethrow;
+    }
+  }
+
+  @override
   void dispose() {}
 }

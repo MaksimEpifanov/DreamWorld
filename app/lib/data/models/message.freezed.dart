@@ -16,7 +16,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$Message {
 
- String get id; String get conversationId; String get senderId; String get text; String? get originalText; String? get translatedText; String get translatedTo; bool get isRead; MessageStatus get status; DateTime? get createdAt; String? get audioUrl; int get audioDurationMs;
+ String get id; String get conversationId; String get senderId; String get text; String? get originalText; String? get translatedText; String get translatedTo; bool get isRead; MessageStatus get status; DateTime? get createdAt; String? get audioUrl; int get audioDurationMs; String? get transcription;
 /// Create a copy of Message
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -30,20 +30,20 @@ $MessageCopyWith<Message> get copyWith => _$MessageCopyWithImpl<Message>(this as
 @override
 bool operator ==(Object other) {
   final _this = this as Message;
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Message&&(identical(other.id, _this.id) || other.id == _this.id)&&(identical(other.conversationId, _this.conversationId) || other.conversationId == _this.conversationId)&&(identical(other.senderId, _this.senderId) || other.senderId == _this.senderId)&&(identical(other.text, _this.text) || other.text == _this.text)&&(identical(other.originalText, _this.originalText) || other.originalText == _this.originalText)&&(identical(other.translatedText, _this.translatedText) || other.translatedText == _this.translatedText)&&(identical(other.translatedTo, _this.translatedTo) || other.translatedTo == _this.translatedTo)&&(identical(other.isRead, _this.isRead) || other.isRead == _this.isRead)&&(identical(other.status, _this.status) || other.status == _this.status)&&(identical(other.createdAt, _this.createdAt) || other.createdAt == _this.createdAt)&&(identical(other.audioUrl, _this.audioUrl) || other.audioUrl == _this.audioUrl)&&(identical(other.audioDurationMs, _this.audioDurationMs) || other.audioDurationMs == _this.audioDurationMs));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Message&&(identical(other.id, _this.id) || other.id == _this.id)&&(identical(other.conversationId, _this.conversationId) || other.conversationId == _this.conversationId)&&(identical(other.senderId, _this.senderId) || other.senderId == _this.senderId)&&(identical(other.text, _this.text) || other.text == _this.text)&&(identical(other.originalText, _this.originalText) || other.originalText == _this.originalText)&&(identical(other.translatedText, _this.translatedText) || other.translatedText == _this.translatedText)&&(identical(other.translatedTo, _this.translatedTo) || other.translatedTo == _this.translatedTo)&&(identical(other.isRead, _this.isRead) || other.isRead == _this.isRead)&&(identical(other.status, _this.status) || other.status == _this.status)&&(identical(other.createdAt, _this.createdAt) || other.createdAt == _this.createdAt)&&(identical(other.audioUrl, _this.audioUrl) || other.audioUrl == _this.audioUrl)&&(identical(other.audioDurationMs, _this.audioDurationMs) || other.audioDurationMs == _this.audioDurationMs)&&(identical(other.transcription, _this.transcription) || other.transcription == _this.transcription));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
 int get hashCode {
   final _this = this as Message;
-  return Object.hash(runtimeType,_this.id,_this.conversationId,_this.senderId,_this.text,_this.originalText,_this.translatedText,_this.translatedTo,_this.isRead,_this.status,_this.createdAt,_this.audioUrl,_this.audioDurationMs);
+  return Object.hash(runtimeType,_this.id,_this.conversationId,_this.senderId,_this.text,_this.originalText,_this.translatedText,_this.translatedTo,_this.isRead,_this.status,_this.createdAt,_this.audioUrl,_this.audioDurationMs,_this.transcription);
 }
 
 @override
 String toString() {
   final _this = this as Message;
-  return 'Message(id: ${_this.id}, conversationId: ${_this.conversationId}, senderId: ${_this.senderId}, text: ${_this.text}, originalText: ${_this.originalText}, translatedText: ${_this.translatedText}, translatedTo: ${_this.translatedTo}, isRead: ${_this.isRead}, status: ${_this.status}, createdAt: ${_this.createdAt}, audioUrl: ${_this.audioUrl}, audioDurationMs: ${_this.audioDurationMs})';
+  return 'Message(id: ${_this.id}, conversationId: ${_this.conversationId}, senderId: ${_this.senderId}, text: ${_this.text}, originalText: ${_this.originalText}, translatedText: ${_this.translatedText}, translatedTo: ${_this.translatedTo}, isRead: ${_this.isRead}, status: ${_this.status}, createdAt: ${_this.createdAt}, audioUrl: ${_this.audioUrl}, audioDurationMs: ${_this.audioDurationMs}, transcription: ${_this.transcription})';
 }
 
 
@@ -54,7 +54,7 @@ abstract mixin class $MessageCopyWith<$Res>  {
   factory $MessageCopyWith(Message value, $Res Function(Message) _then) = _$MessageCopyWithImpl;
 @useResult
 $Res call({
- String id, String conversationId, String senderId, String text, String? originalText, String? translatedText, String translatedTo, bool isRead, MessageStatus status, DateTime? createdAt, String? audioUrl, int audioDurationMs
+ String id, String conversationId, String senderId, String text, String? originalText, String? translatedText, String translatedTo, bool isRead, MessageStatus status, DateTime? createdAt, String? audioUrl, int audioDurationMs, String? transcription
 });
 
 
@@ -71,7 +71,7 @@ class _$MessageCopyWithImpl<$Res>
 
 /// Create a copy of Message
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? conversationId = null,Object? senderId = null,Object? text = null,Object? originalText = freezed,Object? translatedText = freezed,Object? translatedTo = null,Object? isRead = null,Object? status = null,Object? createdAt = freezed,Object? audioUrl = freezed,Object? audioDurationMs = null,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? conversationId = null,Object? senderId = null,Object? text = null,Object? originalText = freezed,Object? translatedText = freezed,Object? translatedTo = null,Object? isRead = null,Object? status = null,Object? createdAt = freezed,Object? audioUrl = freezed,Object? audioDurationMs = null,Object? transcription = freezed,}) {
   return _then(Message(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,conversationId: null == conversationId ? _self.conversationId : conversationId // ignore: cast_nullable_to_non_nullable
@@ -85,7 +85,8 @@ as bool,status: null == status ? _self.status : status // ignore: cast_nullable_
 as MessageStatus,createdAt: freezed == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
 as DateTime?,audioUrl: freezed == audioUrl ? _self.audioUrl : audioUrl // ignore: cast_nullable_to_non_nullable
 as String?,audioDurationMs: null == audioDurationMs ? _self.audioDurationMs : audioDurationMs // ignore: cast_nullable_to_non_nullable
-as int,
+as int,transcription: freezed == transcription ? _self.transcription : transcription // ignore: cast_nullable_to_non_nullable
+as String?,
   ));
 }
 
@@ -170,10 +171,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs,  String? transcription)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _Message() when $default != null:
-return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs);case _:
+return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs,_that.transcription);case _:
   return orElse();
 
 }
@@ -191,10 +192,10 @@ return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.or
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs,  String? transcription)  $default,) {final _that = this;
 switch (_that) {
 case _Message():
-return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs);case _:
+return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs,_that.transcription);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -211,10 +212,10 @@ return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.or
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String conversationId,  String senderId,  String text,  String? originalText,  String? translatedText,  String translatedTo,  bool isRead,  MessageStatus status,  DateTime? createdAt,  String? audioUrl,  int audioDurationMs,  String? transcription)?  $default,) {final _that = this;
 switch (_that) {
 case _Message() when $default != null:
-return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs);case _:
+return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.originalText,_that.translatedText,_that.translatedTo,_that.isRead,_that.status,_that.createdAt,_that.audioUrl,_that.audioDurationMs,_that.transcription);case _:
   return null;
 
 }
@@ -226,7 +227,7 @@ return $default(_that.id,_that.conversationId,_that.senderId,_that.text,_that.or
 @JsonSerializable()
 
 class _Message extends Message {
-  const _Message({required this.id, required this.conversationId, required this.senderId, required this.text, this.originalText, this.translatedText, this.translatedTo = '', this.isRead = false, this.status = MessageStatus.sent, this.createdAt, this.audioUrl, this.audioDurationMs = 0}): super._();
+  const _Message({required this.id, required this.conversationId, required this.senderId, required this.text, this.originalText, this.translatedText, this.translatedTo = '', this.isRead = false, this.status = MessageStatus.sent, this.createdAt, this.audioUrl, this.audioDurationMs = 0, this.transcription}): super._();
   factory _Message.fromJson(Map<String, dynamic> json) => _$MessageFromJson(json);
 
 @override final  String id;
@@ -241,6 +242,7 @@ class _Message extends Message {
 @override final  DateTime? createdAt;
 @override final  String? audioUrl;
 @override@JsonKey() final  int audioDurationMs;
+@override final  String? transcription;
 
 /// Create a copy of Message
 /// with the given fields replaced by the non-null parameter values.
@@ -255,18 +257,18 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-    return identical(this, other) || (other.runtimeType == runtimeType&&other is _Message&&(identical(other.id, id) || other.id == id)&&(identical(other.conversationId, conversationId) || other.conversationId == conversationId)&&(identical(other.senderId, senderId) || other.senderId == senderId)&&(identical(other.text, text) || other.text == text)&&(identical(other.originalText, originalText) || other.originalText == originalText)&&(identical(other.translatedText, translatedText) || other.translatedText == translatedText)&&(identical(other.translatedTo, translatedTo) || other.translatedTo == translatedTo)&&(identical(other.isRead, isRead) || other.isRead == isRead)&&(identical(other.status, status) || other.status == status)&&(identical(other.createdAt, createdAt) || other.createdAt == createdAt)&&(identical(other.audioUrl, audioUrl) || other.audioUrl == audioUrl)&&(identical(other.audioDurationMs, audioDurationMs) || other.audioDurationMs == audioDurationMs));
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _Message&&(identical(other.id, id) || other.id == id)&&(identical(other.conversationId, conversationId) || other.conversationId == conversationId)&&(identical(other.senderId, senderId) || other.senderId == senderId)&&(identical(other.text, text) || other.text == text)&&(identical(other.originalText, originalText) || other.originalText == originalText)&&(identical(other.translatedText, translatedText) || other.translatedText == translatedText)&&(identical(other.translatedTo, translatedTo) || other.translatedTo == translatedTo)&&(identical(other.isRead, isRead) || other.isRead == isRead)&&(identical(other.status, status) || other.status == status)&&(identical(other.createdAt, createdAt) || other.createdAt == createdAt)&&(identical(other.audioUrl, audioUrl) || other.audioUrl == audioUrl)&&(identical(other.audioDurationMs, audioDurationMs) || other.audioDurationMs == audioDurationMs)&&(identical(other.transcription, transcription) || other.transcription == transcription));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
 int get hashCode {
-    return Object.hash(runtimeType,id,conversationId,senderId,text,originalText,translatedText,translatedTo,isRead,status,createdAt,audioUrl,audioDurationMs);
+    return Object.hash(runtimeType,id,conversationId,senderId,text,originalText,translatedText,translatedTo,isRead,status,createdAt,audioUrl,audioDurationMs,transcription);
 }
 
 @override
 String toString() {
-    return 'Message(id: $id, conversationId: $conversationId, senderId: $senderId, text: $text, originalText: $originalText, translatedText: $translatedText, translatedTo: $translatedTo, isRead: $isRead, status: $status, createdAt: $createdAt, audioUrl: $audioUrl, audioDurationMs: $audioDurationMs)';
+    return 'Message(id: $id, conversationId: $conversationId, senderId: $senderId, text: $text, originalText: $originalText, translatedText: $translatedText, translatedTo: $translatedTo, isRead: $isRead, status: $status, createdAt: $createdAt, audioUrl: $audioUrl, audioDurationMs: $audioDurationMs, transcription: $transcription)';
 }
 
 
@@ -277,7 +279,7 @@ abstract mixin class _$MessageCopyWith<$Res> implements $MessageCopyWith<$Res> {
   factory _$MessageCopyWith(_Message value, $Res Function(_Message) _then) = __$MessageCopyWithImpl;
 @override @useResult
 $Res call({
- String id, String conversationId, String senderId, String text, String? originalText, String? translatedText, String translatedTo, bool isRead, MessageStatus status, DateTime? createdAt, String? audioUrl, int audioDurationMs
+ String id, String conversationId, String senderId, String text, String? originalText, String? translatedText, String translatedTo, bool isRead, MessageStatus status, DateTime? createdAt, String? audioUrl, int audioDurationMs, String? transcription
 });
 
 
@@ -294,7 +296,7 @@ class __$MessageCopyWithImpl<$Res>
 
 /// Create a copy of Message
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? conversationId = null,Object? senderId = null,Object? text = null,Object? originalText = freezed,Object? translatedText = freezed,Object? translatedTo = null,Object? isRead = null,Object? status = null,Object? createdAt = freezed,Object? audioUrl = freezed,Object? audioDurationMs = null,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? conversationId = null,Object? senderId = null,Object? text = null,Object? originalText = freezed,Object? translatedText = freezed,Object? translatedTo = null,Object? isRead = null,Object? status = null,Object? createdAt = freezed,Object? audioUrl = freezed,Object? audioDurationMs = null,Object? transcription = freezed,}) {
   return _then(_Message(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,conversationId: null == conversationId ? _self.conversationId : conversationId // ignore: cast_nullable_to_non_nullable
@@ -308,7 +310,8 @@ as bool,status: null == status ? _self.status : status // ignore: cast_nullable_
 as MessageStatus,createdAt: freezed == createdAt ? _self.createdAt : createdAt // ignore: cast_nullable_to_non_nullable
 as DateTime?,audioUrl: freezed == audioUrl ? _self.audioUrl : audioUrl // ignore: cast_nullable_to_non_nullable
 as String?,audioDurationMs: null == audioDurationMs ? _self.audioDurationMs : audioDurationMs // ignore: cast_nullable_to_non_nullable
-as int,
+as int,transcription: freezed == transcription ? _self.transcription : transcription // ignore: cast_nullable_to_non_nullable
+as String?,
   ));
 }
 

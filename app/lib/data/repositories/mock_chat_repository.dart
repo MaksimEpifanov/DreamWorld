@@ -240,6 +240,35 @@ class MockChatRepository implements ChatRepository {
   }
 
   @override
+  Future<void> updateMessageTranscription(
+    String conversationId,
+    String messageId,
+    String transcription,
+  ) async {
+    final List<Message> messages = _messages[conversationId] ?? <Message>[];
+    for (int i = 0; i < messages.length; i++) {
+      if (messages[i].id == messageId) {
+        final Message updated = messages[i].copyWith(transcription: transcription);
+        messages[i] = updated;
+        final Conversation? conversation = _conversations[conversationId];
+        if (conversation != null && conversation.lastMessage?.id == messageId) {
+          final Conversation updatedConversation = conversation.copyWith(
+            lastMessage: updated,
+          );
+          _conversations[conversationId] = updatedConversation;
+          _notifyConversations();
+          realtime?.emit(
+            RealtimeEvent.conversationUpdated(conversation: updatedConversation),
+          );
+        }
+        if (!_messageController.isClosed) _messageController.add(updated);
+        realtime?.emit(RealtimeEvent.message(message: updated));
+        return;
+      }
+    }
+  }
+
+  @override
   void dispose() {
     _conversationController.close();
     _messageController.close();

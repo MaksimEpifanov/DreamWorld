@@ -349,6 +349,22 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     }
   }
 
+  Future<String?> _transcribeMessage(Message message) async {
+    if (!message.hasAudio) return null;
+    // Реальный on-device/web STT для готовых аудиофайлов пока не подключён.
+    // Основа сохранения и отображения уже готова: при появлении движка
+    // здесь нужно вернуть текст, и он сохранится в сообщении.
+    const String? transcription = null;
+    final String? text = transcription?.trim();
+    if (text == null || text.isEmpty) return null;
+    await ref.read(chatRepositoryProvider).updateMessageTranscription(
+          widget.conversationId,
+          message.id,
+          text,
+        );
+    return text;
+  }
+
   Future<void> _suggestTopics() async {
     setState(() {
       _showingTopics = true;
@@ -544,6 +560,9 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                               isTranslating:
                                   _translatingMessageId == message.id,
                               onTranslate: () => _translateMessage(message),
+                              onTranscribe: message.hasAudio
+                                  ? () => _transcribeMessage(message)
+                                  : null,
                             )
                             .animate(key: ValueKey<String>(message.id))
                             .fadeIn(duration: 250.ms)
@@ -661,6 +680,7 @@ class _MessageRow extends StatelessWidget {
     required this.translation,
     required this.isTranslating,
     required this.onTranslate,
+    this.onTranscribe,
   });
 
   final Message message;
@@ -668,13 +688,18 @@ class _MessageRow extends StatelessWidget {
   final String? translation;
   final bool isTranslating;
   final VoidCallback onTranslate;
+  final Future<String?> Function()? onTranscribe;
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        MessageBubble(message: message, isMine: isMine),
+        MessageBubble(
+          message: message,
+          isMine: isMine,
+          onTranscribe: onTranscribe,
+        ),
         if (!isMine && message.text.trim().isNotEmpty) ...<Widget>[
           const SizedBox(height: 2),
           Align(
