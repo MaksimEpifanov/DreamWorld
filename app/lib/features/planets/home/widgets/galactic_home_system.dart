@@ -929,12 +929,16 @@ class _GalaxyPlanet extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
-                    Text(
-                      title,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: AppTextStyles.label(color: Colors.white)
-                          .copyWith(fontSize: compactLabel ? 10 : 11),
+                    FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: Text(
+                        title,
+                        maxLines: 1,
+                        softWrap: false,
+                        textAlign: TextAlign.center,
+                        style: AppTextStyles.label(color: Colors.white)
+                            .copyWith(fontSize: compactLabel ? 10 : 11),
+                      ),
                     ),
                     if (!compactLabel) const SizedBox(height: 2),
                     if (!compactLabel)
