@@ -1,15 +1,26 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_1994980570",
-      "title": "Две трети жителей СКФО обращались к нейросетям за советами по личным финансам - gazetaingush.ru",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: gazetaingush.ru.",
+      "id": "p_finance_news_601898803",
+      "title": "Почти 5 трлн грн на оборону: Кабмин одобрил проект госбюджета-2027 ко второму чтению - Факти ICTV",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Факти ICTV.",
       "emoji": "💰",
-      "sourceName": "gazetaingush.ru",
+      "sourceName": "Факти ICTV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPU01DdmxwSWxWb0w5M0c1ZTQxbjR1bGZSZnZqY0FRSW54VHVCa0ZWRTh2cXJMODhrNHMwekJ4M05WbVdEZjNXX0Y2SEMyYUdHeWZqTjZUN1VwaXJuVHdyalJWVWZIYl9GS01JX1g5N3NwYmVtX05JaFk0YmV1U3JlbS15VzAxM0pQT2pDUXBKX3hNWU5BclJmclp3OEJGM3BrNnRwd2R2R0NzSUMya2dJa19HQjdXc2lfYVhmWHBWNjJrNVhtanVBN25aV1pibnMxTVhLWWV1U05iT3JR0gHiAUFVX3lxTE1iOExHekh6cDFIQjZiZUN4WVN2RVBoa25FbExxUDZWQ3BzZlVTWURnbWRwNkEydXJ1TU5uMFhUdElzdUdvWEtLM3NraFAwcHhrcV9ndnloZ0ljTFRHcXptZjVDa0FESzR1LUtfN0ZFdkIzb1BibXZLaURjblV2S0xoQWJDTjMtOWpCQ01oRERhcWh2VzdXS0hWR1d3SklwS1VEclB0WVhCN2ZLaEhSaVdDNi1IMHh4YUlRdlp6Ui1aQUpKblpkQldhVjBLR1BWWDlueVJDWl9BREVFeXUwSjJVMVE?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-27T19:47:00Z",
+      "likes": 22
+    },
+    {
+      "id": "p_finance_news_1994980570",
+      "title": "Две трети жителей СКФО обращались к нейросетям за советами по личным финансам - Газета \"Ингушетия\"",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Газета \"Ингушетия\".",
+      "emoji": "💰",
+      "sourceName": "Газета \"Ингушетия\"",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdkNwWGhaSFBoRl9RaHNBMHI3Ukt5ektBak9KcFZRbVJjNXB0XzI2dEs3N29EUzlmQW96WmVQM2Z6aUpJc0QzMkNWUFNhVm03QTRrRjRDc0xIdUVlaHg2WDFPWXhsRkp4R1FZTmF4eVRxUTlyUWZreGlGaWpVT21walRxWDRtdGluRnRPVmxPekgzclpuQml2ZVhUMnlFMk9KODROZUI4TkZhdFFuVDFmYjQ5V1ZhUUU?oc=5",
       "tag": "Технологии",
       "publishedAt": "2026-11-27T13:44:44Z",
@@ -36,17 +47,6 @@
       "tag": "Технологии",
       "publishedAt": "2026-11-27T13:20:00Z",
       "likes": 43
-    },
-    {
-      "id": "p_finance_news_3086142294",
-      "title": "Премьер: без заимствований на энергетику расходы лягут на плечи потребителей - Obzor.lt",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Obzor.lt.",
-      "emoji": "💰",
-      "sourceName": "Obzor.lt",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1SRWdsRWRqWTRxeWhlQXJPWDVRaC12a1h2d2RNUEJ5bmtmN1VyZlVHa2dnRTh2NFJZVXR4c0FjZTJHeGdJRTZ0aDl3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-27T12:34:12Z",
-      "likes": 40
     },
     {
       "id": "p_finance_news_2259863416",

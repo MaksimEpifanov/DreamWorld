@@ -1,19 +1,19 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_volunteering_news_2950736165",
-      "title": "В Мурманске ищут волонтёров на форум - Severpost.ru",
-      "summary": "Помощь людям, приютам и природе. Источник: Severpost.ru.",
+      "id": "p_volunteering_news_772697722",
+      "title": "Национальный центр «Россия» принимает волонтерский корпус Международного форума гражданского участи…",
+      "summary": "Помощь людям, приютам и природе. Источник: Национальный центр «Россия».",
       "emoji": "🤝",
-      "sourceName": "Severpost.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE54QkNCdUdlX0VLS25xeHB6NzNmUXVhaDZ2T0VjX3FtWHRMODk4aHMzb0Q3QnZTWWRnQ3cxWlpHNFB2QzNDTldmVw?oc=5",
+      "sourceName": "Национальный центр «Россия»",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQblROWmMzazEyQ1l6ZnZEZ0pzZEdEUF8tTHktLW9qSEZCZ3VUYXpoSHpyaTdqLUlFcHNjNWpJaktsRnY5Y1ROb1NUQWJNUHVVZzdWeEtmdEFsSFh0S2V3WGNrZkU4Y1BvUVNSUVd1ZzNoWU1ZclVsSnktdEpsR2J6THdXdmJHNnNQOVVPWlo2VEV1NVhjOXp5ckJCMnRWaHFXTGdXZ1ZwUW9qMEVVclV0QlZoQkpSY1REM0VWUlA3T2FibUZYYk83aTUyaWFTNG9wVUE?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-27T15:45:00Z",
-      "likes": 17
+      "publishedAt": "2026-11-27T15:59:44Z",
+      "likes": 16
     },
     {
       "id": "p_volunteering_news_4174830920",
@@ -25,6 +25,17 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T13:40:00Z",
       "likes": 42
+    },
+    {
+      "id": "p_volunteering_news_610225568",
+      "title": "Добровольцы Никифоровского округа приняли участие в региональном форуме - Знамя",
+      "summary": "Помощь людям, приютам и природе. Источник: Знамя.",
+      "emoji": "🤝",
+      "sourceName": "Знамя",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWWtNcWlSMVhNc1FaTExQV0NsX1FJbnM1MlhkX0hybzNPZnU0Vmt4T2lwU2Z2SGNKaVlrN1A1Wjl5cVp2dEdWcWhzd3RrTVBidjNGS1dwNmUzQm4wRnJ3b0Q5YVBGbGkxc1A0LUNIS3M5c215c3lKbG9nQlBnd2ZpSzVCSV9fbUltRUVuc2t5dUZ0S3dGX2Y2X2xiei05bFVCV1NDTmRmOFRFOWV0eXE4YW5XYlpKekxGNkdCVGFLLUpOZE5kOEFuUEdRbXc?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T12:01:00Z",
+      "likes": 10
     },
     {
       "id": "p_volunteering_news_300487000",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T09:59:32Z",
       "likes": 34
-    },
-    {
-      "id": "p_volunteering_news_467549089",
-      "title": "В Мурманске ищут добровольцев для форума «Музейные маршруты России» - Newsroom24",
-      "summary": "Помощь людям, приютам и природе. Источник: Newsroom24.",
-      "emoji": "🤝",
-      "sourceName": "Newsroom24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZzZQMEhtX0lqWFBxTVJ1MHRCdWZkVGdnQ1dkQkFvamJUVDNpVnVhQWJ0bGVybWltUGk5Z0pxcXprVE56V0JNYzFNQUdMZnh2eFJ2V2pMcEdzOUJzdlVoWW0tTEVzRlRU?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T09:12:02Z",
-      "likes": 43
     }
   ]
 }

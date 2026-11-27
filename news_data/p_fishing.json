@@ -1,19 +1,30 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_4425012",
+      "id": "p_fishing_news_184881896",
+      "title": "На Буковине с 1 декабря будет действовать запрет на вылов раков - BUK Media",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: BUK Media.",
+      "emoji": "🎣",
+      "sourceName": "BUK Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTkpqSUkyb3pESnR2aF9OQmkwVmlvbUpYSFVNTTVvS0ZyZHNkUVNSdGtOemk3d25ZNUY3YzNaZXhhV0gwSHAwRFhFa0ZvUGItSGlUeVdyUllUNFBncm83cDJtNmJ0YWR4SEpmbFRJVXZIbkcwenB2S050dzJpdXg3a1dITTRWWkZHc1hwQzQzdnBaWnZEOTFFYXN2NVJmVVdqclppT3VDTFRiTk0?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T15:54:59Z",
+      "likes": 12
+    },
+    {
+      "id": "p_fishing_news_1143767590",
       "title": "Рыболовный календарь на декабрь: когда в последнем месяце 2026 года ловить рыбу - 24 Канал",
       "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: 24 Канал.",
       "emoji": "🎣",
       "sourceName": "24 Канал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZzBIYl9keXhxYkM2aV9YdVdhWXNfOXY3eTdDeWhFTUZBb3dyY3hBcElIRXhJa04tVy1GNFBxOXNwclZBZzhpZjNNeXBpZTZITFNjM0dMR1ZUb2kzTFRYUkRRa01qbjRaODc2LXJ4WnNTczh3U0M0bGpyanRkMU5USGdEcFM0cmhJR2pIMFNNYXdCbV9PNWhpVnh5RTZTZjhoamVvV3Q3cVpRd3p0QUFnaHZpU05IZVNFdHhJZ3FDclJlUC0wQkJFcVRxMNIB0AFBVV95cUxPcjU4eG5hdXF0Wkp5d0JFZ1dEc2lmOTB4NFVMb0tZOGRici1VU0M5NHVpY3MzVVZ0WE9nQUhnaTcza2pkWnNIM0o5SDRHaFV3aWlUTzdKMDFFV1lVbkc2SDFnTEhXZ2xucmN6Umd3QTkwMXRsOE9kM2pMZWlrZjJBdzZlejJFeHN4SHpSRHdXcjhsN2ZoblJEVlF6cXNseVNpUks2dlc2T3VOMjVQSW4waGFmM3BORGVYaHR1b2F5NlRaUTN3ZkMzaFY0dTUteDhZ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcjU4eG5hdXF0Wkp5d0JFZ1dEc2lmOTB4NFVMb0tZOGRici1VU0M5NHVpY3MzVVZ0WE9nQUhnaTcza2pkWnNIM0o5SDRHaFV3aWlUTzdKMDFFV1lVbkc2SDFnTEhXZ2xucmN6Umd3QTkwMXRsOE9kM2pMZWlrZjJBdzZlejJFeHN4SHpSRHdXcjhsN2ZoblJEVlF6cXNseVNpUks2dlc2T3VOMjVQSW4waGFmM3BORGVYaHR1b2F5NlRaUTN3ZkMzaFY0dTUteDhZ0gHQAUFVX3lxTE9yNTh4bmF1cXRaSnl3QkVnV0RzaWY5MHg0VUxvS1k4ZGJyLVVTQzk0dWljczNVVnRYT2dBSGdpNzNramRac0gzSjlINEdoVXdpaVRPN0owMUVXWVVuRzZIMWdMSFdnbG5yY3pSZ3dBOTAxdGw4T2QzakxlaWtmMkF3NmV6MkV4c3hIelJEd1dyOGw3ZmhuUkRWUXpxc2x5U2lSSzZ2VzZPdU4yNVBJbjBoYWYzcE5EZVhodHVvYXk2VFpRM3dmQzNoVjR1NS14OFk?oc=5",
       "tag": "Природа",
       "publishedAt": "2026-11-27T15:02:00Z",
-      "likes": 9
+      "likes": 44
     },
     {
       "id": "p_fishing_news_3302231995",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T06:44:00Z",
       "likes": 85
-    },
-    {
-      "id": "p_fishing_news_420344014",
-      "title": "Сахалинским любителям рыбалки разрешить добывать камчатского краба по путевкам - Сахалин-Курилы",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Сахалин-Курилы.",
-      "emoji": "🎣",
-      "sourceName": "Сахалин-Курилы",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRTNlenZnMTFxZEItY0xXcEpJaGxVVzNqSHdEbk84cnBveEJWNURpdk95b1FqaTBickl1azU0Z29hQ0h2MXlGbEl6ck5nWkMweGY0RVJKclY2Q0dhLTlsbGd0Wkl5YWQwSXRsQkg1YkpJRzhuR3ZMeUtXQUVNNHJXMHpyQndtREJncGFuZ3NQWGFpSDh6V2ZTSnFHM1JfMXhZdGlYS25HaW95a3lFMGUxaFpjNTFYMXJ0RHJEUjFUV0RZN1Zw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T01:43:23Z",
-      "likes": 57
     }
   ]
 }

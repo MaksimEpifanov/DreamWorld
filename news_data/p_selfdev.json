@@ -1,6 +1,6 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
@@ -38,6 +38,17 @@
       "likes": 57
     },
     {
+      "id": "p_selfdev_news_976265322",
+      "title": "Восемь самых продуктивных пород кур, которые несут до 320 яиц в год - Novyny.LIVE",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Novyny.LIVE.",
+      "emoji": "🚀",
+      "sourceName": "Novyny.LIVE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUjJrclVyM2JFVDM2QkFVYzFoVFJKUWdId0REUnZSdFBWY0xURVJ3dHVmSjA0bGZmbFAtZ3d5cVJ6M3pyM0pXVDR4QWdKUVd3OVlPbmdqOFM1aXFmMkNKSVQ3Z29uWEp1UzhjX3ZkNHlwV2xVNDEwQnhEQ0xQUDM4aWd0bmdQaFRfeWNNYnRKaENrTzRHWU9RTF83ZFlHdkJsZnNjdFJ0OGktVGZOV3BMWGJCUjFYaHJy0gG-AUFVX3lxTFBVRzJ4ZkFhd21mWFhqZTVoSTNiOHNJVnZUZ3U2Ui00a1lhZ0N0UV9NSkRzRjMtMjFaOGlNeU9yRk1qdmNVWXFVYjFHaXNUM1V2dGJFT1ZvR09qSzNDanh0SHpzd2tUckk5dUIteHd0US1RTjhJNWlaTlU2bDZVajRnS29JeldqRDdIbDFEMU1pbHRPTVJTdU1VbHQ0QnEwMUlPSHZPT2NuRXBRWm4xclJNMFpSd19SRWlHTUtKVUE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T08:03:38Z",
+      "likes": 82
+    },
+    {
       "id": "p_selfdev_news_234155238",
       "title": "Система продуктивности готова на 100% и работает на 40%: что я понял, став руководителем - Хабр",
       "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Хабр.",
@@ -47,17 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-27T06:28:57Z",
       "likes": 34
-    },
-    {
-      "id": "p_selfdev_news_2941660165",
-      "title": "В Вавиловском университете разработали новый способ изготовления кормовой добавки для повышения продуктивности и сохран…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Поиск - новости науки и техники.",
-      "emoji": "🚀",
-      "sourceName": "Поиск - новости науки и техники",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQeFZZbmJ0SHNoU3ZlTEstZlRRTEFuWFRlODhhWnRHMzBleDRaZ241NDRHU0taOWs2d0l0QXI2Uk5VLVJKV3VaR3RpbGxhV0gyTlRySlpOLU9POEFKcTdnLTQzRWktM3JMWTl2dkljYlV5SFR4QzZRdC1PcjEwak9Va0FVenhDSW5Cdy1NWWpwQjZtR292Q2l2SmxHRXZfaTN6SUZFZXlZQTBSd01ldklBeUpuSjhpTm1mTEN2aXBVT1YwOE5DQVprRjB4d1lGcEVyaFUxWXByZlVxeUtQREl4NHJfZUZ5NnBQRnZ3eEhfVkg5THU0LXJWMTBTWTQ0T0tFN25Xd295MEU2Qm5fZ0p3?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-27T05:38:47Z",
-      "likes": 84
     }
   ]
 }

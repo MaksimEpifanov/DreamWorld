@@ -1,63 +1,63 @@
 {
   "planetId": "p_cinema",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cinema_news_3498812136",
-      "title": "Какие украинские фильмы попали в лонг-лист премии «Оскар» — один из них можно посмотреть прямо сейч…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Газета МИГ.",
+      "id": "p_cinema_news_2668526982",
+      "title": "Их ждали годами: долгожданные возвращения культовых фильмов, которые уже можно посмотреть - 24 Канал",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: 24 Канал.",
       "emoji": "🎬",
-      "sourceName": "Газета МИГ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObFZYS09sM1IyelJ1T3N6a25KU2pRNmJuTTJZcFhGN2VSc0kwcmtvcF9RYnF6NmpTMFZnRTRWLXAyczQ0Mm82LVQ5U0g4dUd5RlJiUC1SRU0wZktZYW9iSkRubnliZHFQNGFPMFNRVmc4VXhtNGtsckRCWDBDRGp2WXpqSlc4MWhFUE9pellJYTVsVzZ1cG1maEg3RG9qbnBHWUlrWWwzVEhtXzlOOWJUTkZMV2R0VlpTRGprQ3JUOA?oc=5",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORzZPZk5KaHhudnNPN0lmVGNiYlVDREFaZ1VtOWhzcDV5MDlkR0RRdjY0b1RYM2NZbklKUnNwb3o2TUd0cEJuTnJZRVZOUmVyV1l4UmFvel9XNDJ1MzJCYnRaZlF4Mlg5aG91aTdvTkFkdGhkSkhaSVhNZ0cxbFZ6TWFhQWhaV0piLUlaR9IBkgFBVV95cUxQM0Z4LURhM09GSlY0eHVOa3ZqRHhqdWRMdHVUdWF2N2VTd1lPQXMteEd4OEczZVFXWlRzMDB4bjBPQlU1a1NtWmNIbW9aeVZlOE5FRURtYnc5WWhkdkdmZXhhQUhXUlBUMktaZl96dXdOVnEyRTAzTmotTU1rXzltbWI3d0VmN0JOUUoyZXZWZlM3UQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-27T15:45:37Z",
-      "likes": 91
+      "publishedAt": "2026-11-27T20:03:00Z",
+      "likes": 85
     },
     {
-      "id": "p_cinema_news_1451171484",
-      "title": "Начала смотреть сериал «Сталин»: антидемонизация вождя от Владимира Бортко — впечатления противореч…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Sport24.ru.",
+      "id": "p_cinema_news_2964270077",
+      "title": "«Дюна: Часть третья» покажут на премьере к открытию Cinéma de La Garenne - Sortir à Paris",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Sortir à Paris.",
       "emoji": "🎬",
-      "sourceName": "Sport24.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTQxX3NSUEZmMWxZM2RkSGFVV1VNTlozN1Z0RXFLLUJGQjZyZ2RYc3RvckxHUFpzSXBfY2RzWG5yb0VjTHVxOWxkM3JySHlVbTZObU5kNHdlSE5JV2lyU0FFWFNleWJvWHB4NGZPOG9adzl3azViUUtCYnk2S3VCaXBnYWk2WTR1SlVTSFMzQ0ZtUWJrUHhqVDl4dHk1cEZzN2ZVRno3d3EwYVhKaHdkNVdsemkxNUIyb2VhLVZfaXpCRV96cGtIRGtqc2tDY2FtNTZsNDllRkJaeHlhWWVYTjZmQzhUekc5M0xuQtIB_AFBVV95cUxNNzZqbUZZU2pPVTZXWHdxUmNLOXo1VExMdmd4dHpnZVFpS3VOa2xYY2stU0ZQSTJWcnhvaEZpd3JwQ3NseWtJS1piLWk5ay1RcmpTa0VMdXBnQmdQdlhPeHZEdEdXQWpMZll0aDBwSXZQelpJR3EyVGd5U2pfbW55NjU0RWloRUI5S0FQRmh4M2oxZlRVSFdFYl9NSlBrY1F4aTMxdEJ3NVViSDZuQS0ta3AwNHZEa1JfUnU4VEdmcWc0SXBiMzZaTjU0aU9wNkIxeUgwQnl3YkNfbTE3TnVHUS1GcFV5dUVvNDNHM0dTclktLUZzYWVhdGMwZzI?oc=5",
+      "sourceName": "Sortir à Paris",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS0ZhRFY3WE9QUExOd285TFdYaWJZbm12cmpsUU1ucmhXV1d5dG5vNlM3dnhuem4yUzhZUWlNTnNRYTk3aDRGX1lZSGxHRUpTSUl1YzVENVE4Y0R4WURNMzloaG1yVjUzeFBnbktDTGd1dDk1S0dtRUJIM0g2MVB6ZFpkVjdneEtiQy0xZUJ4TjBrUDBZOTF3SUpDTVBnRlluaDRsQkhHSFRzQmU4SXFzXzFVOE90cjIyOXVNdmd2bHVZZkdGZy1uLWxpN3drU3EzdUluSDVjdW1ENWdMbUF5eC1Ib1BkQ1RkVHVnMg?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-27T15:00:00Z",
-      "likes": 5
+      "publishedAt": "2026-11-27T19:53:11Z",
+      "likes": 57
     },
     {
-      "id": "p_cinema_news_1011927206",
-      "title": "Планы поменялись: Пятый канал в эти выходные не покажет премьеру второго сезона детектива «Следопыт…",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: tvmag.ru.",
+      "id": "p_cinema_news_3348559532",
+      "title": "«Убийство Джонбенет Рэмси» (2026) - сюжет, актеры и роли - Штуки-Дрюки",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Штуки-Дрюки.",
       "emoji": "🎬",
-      "sourceName": "tvmag.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOUd4SjQ0UVJXMzNXMjRVSG1DaW1qXzhhY0R2bTl3djAzNHB4eGNTVUJaWHRDOFVqeVdMUngtTUxMaV9hM0FqRTAycHZhN2JfdTM1aG5pT0JsTGZIWWJSY2hhbmIzVjZvbDBsVnlDdWJ5TVp6dnJXYUNlUHpKWmlrRlpLWmZ3N1hIck5EYkFZc1k5RnVIS3owaUtRWkdVV1N6RGVXODV4UDE?oc=5",
+      "sourceName": "Штуки-Дрюки",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rd3NCWFV2UUF4TDIyWDVyTWpwTUdzNGpuRDI5WU53OTFLa0FBaDZmR1B3MVR1UjFWTzNqcmdlZ0poeDl3ZzB3aF8yMTBmSTBYaWc0Zm8zYlozcjZENmdCdFdzZmRwbmxad3cyQkJWQ2E5RVk?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-27T14:37:06Z",
-      "likes": 49
+      "publishedAt": "2026-11-27T19:42:35Z",
+      "likes": 65
+    },
+    {
+      "id": "p_cinema_news_2133380110",
+      "title": "Сталин возвращается на экран: что сериал Бортко говорит о сегодняшней России - DW.com",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: DW.com.",
+      "emoji": "🎬",
+      "sourceName": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XUGdOUGNuZDhNdFB5MjVGbHVhejgzMVhWSjBPOEJtU29RdkUxZ0JJTHE4UVZkajJyYURMNEp2YnBPQTF5X18xdWRTTzBhM0V1eXRCSWZpR25lMmFOaFkyUUthZkx3OWRPRlVXMS1jMVRvYmtnQVVJ0gF3QVVfeXFMTmZDekpJNXRGSlo3NTRkOEU1czFoNno0TWRsNUdka3Y3azhXNUQ0T2ttcE9GMHJRMmQ4T3lXT3NGR1VEOWNoVkwyZnE4bm9ycHczZ2VMZzRjQW1zczJwd3JfbFpIZFNmMVlHT2lmRGJicWRVU0ItZ00?oc=5",
+      "tag": "Кино",
+      "publishedAt": "2026-11-27T19:23:18Z",
+      "likes": 17
     },
     {
       "id": "p_cinema_news_4201921368",
-      "title": "Фильм «Шестиэтажка» (2026) - сюжет, актеры и роли, кадры из фильма - Stuki-druki.com",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Stuki-druki.com.",
+      "title": "Фильм «Шестиэтажка» (2026) - сюжет, актеры и роли, кадры из фильма - Штуки-Дрюки",
+      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Штуки-Дрюки.",
       "emoji": "🎬",
-      "sourceName": "Stuki-druki.com",
+      "sourceName": "Штуки-Дрюки",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WYW5pT0NrTXdNeEFud0E1cTRYSFVHb19lc2dUNVVsenJPdXZrNUQ1WVYzaTE3Ti1qRUIwSGd6YUZnN3A5eFBHNWI4QWZUa1VBWmMxNThmSkF1Z0FsRGZTbQ?oc=5",
       "tag": "Кино",
-      "publishedAt": "2026-11-27T14:11:50Z",
+      "publishedAt": "2026-11-27T17:18:41Z",
       "likes": 14
-    },
-    {
-      "id": "p_cinema_news_497000631",
-      "title": "Подтвержден выход последнего фильма DC в 2026 году - Plugged In Ru",
-      "summary": "Киновечер, громкие премьеры и споры о классике. Источник: Plugged In Ru.",
-      "emoji": "🎬",
-      "sourceName": "Plugged In Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUQ2ZFhwbGZlajRhNDdsN1FZWG45d2VFN0xkaEF6amY4RVJsbV90ZnprY0FHRlV4QmJZRkw5bldUQjNUeHRENWlxUGV0VFhSZnRfbUZFSGNWNHRNdVNOSFRhdGVMVzB1MjF3QkRKQ1FLR0w5cUpLMXYxQUZxWGNCaVF3STR2dS1rRXVB?oc=5",
-      "tag": "Кино",
-      "publishedAt": "2026-11-27T13:57:00Z",
-      "likes": 23
     }
   ]
 }

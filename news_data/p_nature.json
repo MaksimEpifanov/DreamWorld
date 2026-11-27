@@ -1,9 +1,20 @@
 {
   "planetId": "p_nature",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_nature_news_4207564543",
+      "title": "Три экологических маршрута в регионе стали недоступны - Твериград",
+      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: Твериград.",
+      "emoji": "🌲",
+      "sourceName": "Твериград",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdk1DNkxwaFNqRXNxWTRyLVhwS25VOXZBa005TVQwdFgyOERpSlBvazhybnlkdUhuVkdXaEMxbmFIVDBKTkViTHVGVG5OV25lVlpNUUpjV3ByZmRsLUxjY3lxU0hVWFBzT2d0T25heHpBdEtmcGMxTXVHN0tOOVUzTnVyVmh1Nm9wNXlGSHBqZ2djS2M3bHNqTzIwVWkzZTFL?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T18:29:39Z",
+      "likes": 74
+    },
     {
       "id": "p_nature_news_3714899094",
       "title": "29 ноября на «Карусели» стартует мультсериал о редких животных и заповедниках России - НИА «Экология",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T04:23:00Z",
       "likes": 40
-    },
-    {
-      "id": "p_nature_news_3870581235",
-      "title": "В заповеднике Иссык-Кульской области заметили молодого архара - open.kg",
-      "summary": "Леса, горы, рассветы и бережное отношение к природе. Источник: open.kg.",
-      "emoji": "🌲",
-      "sourceName": "open.kg",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVnhEaHE3dkcweldjRlFDaUFXMTRLYzlKVjlYelVmX01odkcyVnJPSHdRNE5wbl9ETTY0VlZDVXNCaktiSGM1N09hRk1STTdHLWliaEljTXFQcTB3SGlaN2dSdXBLMk5rU3loVUU4WnI2OFMyZndvaUVzNmRoU1BZYjlISnRPbmtUN3BCaEVCRkNrZ1p2dFJ5RE9yTDg1cUdHZzN6Y2VRWQ?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T03:50:23Z",
-      "likes": 65
     }
   ]
 }

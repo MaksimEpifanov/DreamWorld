@@ -1,9 +1,20 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_psychology_news_1739276107",
+      "title": "Привычка держать переживания в себе истощает и подрывает психику. Проверьте, не ваш ли это случай -…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
+      "emoji": "🧠",
+      "sourceName": "СБ. Беларусь сегодня",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcWpHNWJBRVU0WFZjWUZTTzNGdWp3MVNnSzk4OUpYMS1jdG9SbDdpZl9ockROZ0M2Z3hMa0dtdkpaRWgyY2R0djZSSkJVMkcyY1o1RFdrSmdJYUlWbjlvWHNIRDA3ZWl4ZEl1SkFMSGk0blFTYVkxaWxvYmdNQThrWFBSSW9mdDJMRGpmMVY4M0ZwMEJ2Mk5OVHVjY2NXQWpWbHNST2xPUEJsTEZIelpFeFpnVXlybUJTVUF5ZHkwTzBCN3pvRFBNYjgtOXlLWHo3VmhYQUp30gHWAUFVX3lxTE1xakc1YkFFVTRYVmNZRlNPM0Z1ancxU2dLOTg5SlgxLWN0b1JsN2lmX2hyRE5nQzZneExrR212SlpFaDJjZHR2NlJKQlUyRzJjWjVEV2tKZ0lhSVZuOW9Yc0hEMDdlaXhkSXVKQUxIaTRuUVNhWTFpbG9iZ01BOGtYUFJJb2Z0MkxEamYxVjgzRnAwQnYyTk5UdWNjY1dBalZsc1JPbE9QQmxMRkh6WkV4WmdVeXJtQlNVQXlkeTBPMEI3em9EUE1iOC05eUtYejdWaFhBSnc?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T19:30:17Z",
+      "likes": 31
+    },
     {
       "id": "p_psychology_news_4168130641",
       "title": "Вся правда о лжи: звёздные гости и эксперты на «viju ночь эмоций» - Журнал «Теленеделя»",
@@ -27,17 +38,6 @@
       "likes": 62
     },
     {
-      "id": "p_psychology_news_2521445724",
-      "title": "Психолог назвал неожиданную причину переедания - ВФокусе Mail",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ВФокусе Mail.",
-      "emoji": "🧠",
-      "sourceName": "ВФокусе Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYU9aUi16STdTYnFYOTBYcUQ2bjVXdDY0UlZfZFFwaTFoc1hUNmExblN3M0RHT3lCZ1J4a0RYVjVydmpWQi1sT0RBcFQzMW5Db0laNXlrWFRfXzYxZHZtWVVjaEFtUy1RTDhRQ1F2MUxzSHhBQWFscThjdlQ2aHJST0VZTElsQlpLb0FGZWF3UHV4VzNNSW5xaA?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-27T09:46:42Z",
-      "likes": 91
-    },
-    {
       "id": "p_psychology_news_3005349786",
       "title": "Почему мы ссоримся из-за новостей, выживаем на копейки и не хотим отношений? - Бердск-Онлайн",
       "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Бердск-Онлайн.",
@@ -49,15 +49,15 @@
       "likes": 58
     },
     {
-      "id": "p_psychology_news_1480581779",
-      "title": "Зумеры боятся любви и не хотят играть по старым правилам: молодежь все осторожнее относится к сексу и отношениям - ТСН",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ТСН.",
+      "id": "p_psychology_news_4156070422",
+      "title": "Психологи назвали чувство, дающее человеку цель в жизни - prospect.com.ru",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: prospect.com.ru.",
       "emoji": "🧠",
-      "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQaG9hbFBCTUotZG5aRV82WHRjYTI0QUFscndrQUpNWFZiaElTclB6QVYzeDAtOHIwdTFLWG9idkVWTmVJX25jdEsyMm5rQTJJQXhVZ2Rwb3dvYlpsOTBXYUw1a0lJVXY2cF9JQlVub0loWk8zWnNQOVFZMXRqNUdieWVWOHhESndGSzBYZkFkNzZpT0U2MTZCOHhsTDVjQW5QTDhiSHlDUklpRUR0WFo3ekZpbjBjWFU3Um1XLVZtaUhRZmxUSy1iWFRLSnZlX2ItY0luLWt5Y25pNWdHMUc5SHZFMXZHSVpOQkM3Z1lHdlNvWkQwOGU5QTYyMTQ3OEZ6NzNoTXpoNy11ZU8wOWZJ0gGPAkFVX3lxTFBob2FsUEJNSi1kblpFXzZYdGNhMjRBQWxyd2tBSk1YVmJoSVNyUHpBVjN4MC04cjB1MUtYb2J2RVZOZUlfbmN0SzIybmtBMklBeFVnZHBvd29iWmw5MFdhTDVrSUlVdjZwX0lCVW5vSWhaTzNac1A5UVkxdGo1R2J5ZVY4eERKd0ZLMFhmQWQ3NmlPRTYxNkI4eGxMNWNBblBMOGJIeUNSSWlFRHRYWjd6RmluMGNYVTdSbVctVm1pSFFmbFRLLWJYVEtKdmVfYi1jSW4ta3ljbmk1Z0cxRzlIdkUxdkdJWk5CQzdnWUd2U29aRDA4ZTlBNjIxNDc4Rno3M2hNemg3LXVlTzA5Zkk?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOHNleUVaVkYtR1dySDFIQm1JUko3VVN0anAxa1A5c0ljSk85TXlJZzVqWUVjOW82OHlUdDdEQjdXY3liNnFtNWtEQ3l1d0x5eGNYMmNrTXBsSHNaczBzM3UyNmd2OER0Y0FOYUlBVThfLXlLOGJHN25QUWdRb0Zubnkwc3BlTndlMDc1Z2FyRHlXZmU2MGNRYm1LUGFhbDNWMGNJ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-27T07:58:47Z",
-      "likes": 12
+      "publishedAt": "2026-11-27T07:11:10Z",
+      "likes": 35
     }
   ]
 }

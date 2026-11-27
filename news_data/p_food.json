@@ -1,9 +1,20 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_food_news_1422638226",
+      "title": "Не тазик с \"Оливье\", а гранат и фета — 5 пп-салатов на Новый год без грамма майонеза - UssurMedia",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: UssurMedia.",
+      "emoji": "🍜",
+      "sourceName": "UssurMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kZHp2aThlZ3Z0Yno2V3ZqWTlUeHNEN2szV0Y5ZEVQbUVDdFhCV291MHpHOE1QaTdMOFdpekRaMHdtcnVzc2FUd0o0NA?oc=5",
+      "tag": "Кулинария",
+      "publishedAt": "2026-11-27T19:30:00Z",
+      "likes": 39
+    },
     {
       "id": "p_food_news_532015662",
       "title": "Новый ГОСТ закрепил эталонный рецепт оливье без колбасы - Новосибирские новости",
@@ -38,26 +49,15 @@
       "likes": 60
     },
     {
-      "id": "p_food_news_3637069782",
-      "title": "30 овощей, фруктов и орехов, которые стоит добавить в зимнее меню, — и что из них приготовить - Ukr…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Ukr.net.",
+      "id": "p_food_news_2176557496",
+      "title": "Оливье по ГОСТу удивит даже опытных хозяек: секрет исторического салата кроется в начинке и особом…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Про Город Кирово-Чепецк.",
       "emoji": "🍜",
-      "sourceName": "Ukr.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SUW41UUZyLVRpTldUbFdyMFlKVlhQS19JZk15blRVZmx1UVdFQkhzVm5yRUpIdVFlWmNFMXRIVTlJWTVaQXZnMEVWQXl1b2hyd19VTkRZTXVVQU82cGMtc0VwV293QQ?oc=5",
+      "sourceName": "Про Город Кирово-Чепецк",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FY3MxNThmSnNaTTZWTFpXNU9xNlhhelRtVkpMN2NLOFhabUdGU0MzX3N0QmVDZ1d4b2lTcjZ4aXNYaTBkUzBwXw?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-27T14:13:58Z",
-      "likes": 40
-    },
-    {
-      "id": "p_food_news_2947595418",
-      "title": "Ресторан-лаунж, зеленый бургер, грузинские секреты, День матери: свежий гастрономический дайджест -…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: The Voice Mag.",
-      "emoji": "🍜",
-      "sourceName": "The Voice Mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZkpCN1N1eXhaOFVJUjdUY2p1T3JEclFtcUJuMnVTaDZGTVVjaUp4ak9lU1RoRjB2MVZUdnBHYTdvMEpGN0JBeE1wbGNwRnlldnJIbHprYTBqS2oxQWpWSzRZajZ3dUMteTdVZ0UwaTNjUnhjQzZJN3Jpd1duUGZPckF2S2FqR2J1Tk1iRDBNUWhEYkhHVnJhY2pUTEN0NmxsUVllN3RhV2pyajQzZE9zd3FkOEdZT1g1b0luTG5JQnAzMEJHaTFYUXYyQ21vdllGeEc3MWRlYVpTSjdLeEhzVw?oc=5",
-      "tag": "Кулинария",
-      "publishedAt": "2026-11-27T14:00:00Z",
-      "likes": 35
+      "publishedAt": "2026-11-27T14:15:00Z",
+      "likes": 13
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_3414567690",
-      "title": "Сбер выложил в открытый доступ ИИ, который позволяет управлять домом без интернета - iPhones.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iPhones.ru.",
-      "emoji": "💻",
-      "sourceName": "iPhones.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOLTJQYTVrWTZuR3FPSkpCS09CRmpsNllnRzYzQ3YxaDJFSTZlUnZZQ1pSVlE3ZC1NN0I1UEdkNllmUXV2eEFsenFTaHZBNGpHQVFia3FfbWl3aE04eEhzUEU5TGZzT1M0UnZKMVM0bnduQi1WR0pFQ1FRaEhmVTU4U0tocV90NDNoaEp0TzJPWlQxcmYtUzJUc25icTlXMzgwTTd0WHRHSmMwUzVXZ2FNOTRoeS1RVi1WRTRQZTREMlNxd0FBRVo5Z240MXVzdzFHX0puWk02VUFSRnA2Skd4SXJyNng?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-27T16:19:17Z",
-      "likes": 17
-    },
-    {
-      "id": "p_tech_news_3614766951",
-      "title": "OpenAI хочет убить iPhone: Джони Айв опять разрабатывает гаджет, который должен изменить рынок элек…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 3DNews.",
-      "emoji": "💻",
-      "sourceName": "3DNews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5EXy1WR09VN0RWaW9FTTBsQmNybjZnaVJISU5JTWRGbTQ3SVdxdjI3Ni12bXEyRTlWa2k2SDB3?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-27T15:52:00Z",
-      "likes": 41
-    },
-    {
-      "id": "p_tech_news_639844936",
-      "title": "В обновлении iOS 27.3 появятся суточные лимиты на облачные ИИ-функции Apple Intelligence - iXBT.com",
+      "id": "p_tech_news_608586238",
+      "title": "Samsung готовит для стандартного приложения камеры новый ИИ-режим по аналогии с обновлённой Siri в…",
       "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
       "emoji": "💻",
       "sourceName": "iXBT.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNejNENXJId0NsMmFBUFpndnJHazZ4V2FuOHJ0THJhY21wb1J0YkF4c2ozQVp4NC1wSzFqM2ZjeXpjcHVKT1BMRUllT2g3bXJ4cTN3VmVWLUFnLUNUOXJMYkF4VVJOQ28yeERTQXdUQlZWT2p1YTh5Z08xQy1sTU1OWEhnZkZ4elBDS2E4VXdHN0lfNUhLc1lfOWdscHhYTi1nQTJtbVNELUplRVRJRzRqNkZEY2RjcE1MUUhsTEtvQlQxUTNoU3BuMmd4RGJnT1nSAc8BQVVfeXFMTXozRDVySHdDbDJhQVBaZ3ZyR2s2eFdhbjhydExyYWNtcG9SdGJBeHNqM0FaeDQtcEsxajNmY3l6Y3B1Sk9QTEVJZU9oN21yeHEzd1ZlVi1BZy1DVDlyTGJBeFVSTkNvMnhEU0F3VEJWVk9qdWE4eWdPMUMtbE1NTlhIZ2ZGeHpQQ0thOFV3RzdJXzVIS3NZXzlnbHB4WE4tZ0EybW1TRC1KZUVUSUc0ajZGRGNkY3BNTFFIbExLb0JUMVEzaFNwbjJneERiZ09Z?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVkxxS2ZVbTlnRjdCMHJ2VktScUdaOTY5SFVvQTV1Ump6YVZyUExCaVlVY25qRlRnSzdxX3hlaTdjM28zWDNJRWNiTjVTcnFPRDFaMHBmNDJpRTRLVnlOZGZ5NVRfZkVENWx5UlFHNFVvanBDanF5TzloeWlfekdlbVFBUnB4d3loS3ozZ3FEZjBhUmtWaURFb1B6U2ZmMTRhTTNsMURNV3JRWlY5dHFFZkw0QUVpUHpPUjBuenRRSlZJZmhEa1VDVEtiV3M2OXMwVTVkYnZRX2J4ZGI0VXlqVU85R20yZ9IB5gFBVV95cUxPVkxxS2ZVbTlnRjdCMHJ2VktScUdaOTY5SFVvQTV1Ump6YVZyUExCaVlVY25qRlRnSzdxX3hlaTdjM28zWDNJRWNiTjVTcnFPRDFaMHBmNDJpRTRLVnlOZGZ5NVRfZkVENWx5UlFHNFVvanBDanF5TzloeWlfekdlbVFBUnB4d3loS3ozZ3FEZjBhUmtWaURFb1B6U2ZmMTRhTTNsMURNV3JRWlY5dHFFZkw0QUVpUHpPUjBuenRRSlZJZmhEa1VDVEtiV3M2OXMwVTVkYnZRX2J4ZGI0VXlqVU85R20yZw?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T15:21:30Z",
-      "likes": 43
+      "publishedAt": "2026-11-27T20:47:22Z",
+      "likes": 26
     },
     {
-      "id": "p_tech_news_2912980332",
-      "title": "Соавтор iPhone рассказал, зачем OpenAI собственный гаджет с ИИ - Life.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
+      "id": "p_tech_news_3497322614",
+      "title": "К системе искусственного интеллекта в Дагестане присоединят до 20 диагностических аппаратов - Этном…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Этномедиахолдинг \"Дагестан\".",
       "emoji": "💻",
-      "sourceName": "Life.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNXQ2bHBKMmdOQkRQbnRFeGRTNDl6U1Zzak9KXzdtRUpEUGZqRkd5UEVSZ2QySDdhUnhQVkRwQ1htV2ROaV9kNC1KQUNWUjAyOW9pMWtBZkJwbHdhUEdCTzBVV0dyNjIyXzE1MDdzLWRTXzZQZE1xTHFaVTlvVWNVY1FzaDdLRGJx?oc=5",
+      "sourceName": "Этномедиахолдинг \"Дагестан\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RQXZEcWFxbTZCR3dKcUZSd0tuOGgtdzU3cDNnOXVxd3pPS09FX2pGeTlGUTY3c2Vyd2lKak42cG9CajZkOXNJbmJFelh3R2M?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T14:23:36Z",
-      "likes": 49
+      "publishedAt": "2026-11-27T19:13:06Z",
+      "likes": 73
     },
     {
-      "id": "p_tech_news_1026290343",
-      "title": "OpenAI готовит собственное ИИ-устройство для изучения информации пользователей - Ведомости",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ведомости.",
+      "id": "p_tech_news_2060209501",
+      "title": "Астрономы-любители с помощью ИИ обнаружили 49 новых экзопланет - iXBT.com",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
       "emoji": "💻",
-      "sourceName": "Ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEVlS2JFMDhSeDA0QThJZC1qTjIyMm8xOUpSandsLU5XMDFfUzBjY2huSUhRLXRwcEpFbi1peVh2Wko3YWdhNDhKX3ZPOGhWRHJobHBDQ1kyUzFtaGFHXzdaNVpEc08xNTJzeldLSEpZc29BNC1UVnE2eWVkTVNwUDNNU0RzZ2xhdVRaWDhOaEs4NXVjNmc?oc=5",
+      "sourceName": "iXBT.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGdsQWhJeHJUYzZKOGNjMVp5Si1lOTlLT1A1bU5TNmN5bWFoWTRKUU13dzFxVm1EYXEzVU1WSkdFWnhGVVRHNlFPOG45elZnU2kyRU1MUmNDV0ZpWVMyTEI0enlpcjdmOEZKbnZheHZwUVAwWlVkOFNHZVFPZzRzdExzSTRHTVo2UmlLd2oxZ08yOFVhX0szNzlGSmZGdk1PWEU4RjlfbmpyVF96U3fSAa4BQVVfeXFMUDRnbEFoSXhyVGM2SjhjYzFaeUotZTk5S09QNW1OUzZjeW1haFk0SlFNd3cxcVZtRGFxM1VNVkpHRVp4RlVURzZRTzhuOXpWZ1NpMkVNTFJjQ1dGaVlTMkxCNHp5aXI3ZjhGSm52YXh2cFFQMFpVZDhTR2VRT2c0c3RMc0k0R01aNlJpS3dqMWdPMjhVYV9LMzc5RkpmRnZNT1hFOEY5X25qclRfelN3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T14:08:12Z",
-      "likes": 55
+      "publishedAt": "2026-11-27T18:54:28Z",
+      "likes": 38
+    },
+    {
+      "id": "p_tech_news_3490998674",
+      "title": "Samsung научила Galaxy AI скрывать личность владельца при работе с облаком - iXBT.com",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
+      "emoji": "💻",
+      "sourceName": "iXBT.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUE0ZXFjcVNZbWxhWFZrVUZYdVZkUmdLMGZsd0FsLTBNYmZfWWlzSkY5Tlo2VmxsY3Fkb3N5ZUIxcGllaFlWVWtDbnZlbk5ybEUybG1mLUdCQ2tVT0pLUzMxa0xJOFNyN19QUm1UQkhZaHY5UXZUakwzT1pQWXh4aHpSOFBFMGtNeW9kaVZGRWlPVU5KVVNnQlQxSjlXenFIR1VkbG03VzFSTjk0TTNKNHNxZUlVZ9IBtgFBVV95cUxOWUE0ZXFjcVNZbWxhWFZrVUZYdVZkUmdLMGZsd0FsLTBNYmZfWWlzSkY5Tlo2VmxsY3Fkb3N5ZUIxcGllaFlWVWtDbnZlbk5ybEUybG1mLUdCQ2tVT0pLUzMxa0xJOFNyN19QUm1UQkhZaHY5UXZUakwzT1pQWXh4aHpSOFBFMGtNeW9kaVZGRWlPVU5KVVNnQlQxSjlXenFIR1VkbG03VzFSTjk0TTNKNHNxZUlVZw?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-27T18:43:14Z",
+      "likes": 34
+    },
+    {
+      "id": "p_tech_news_1938266320",
+      "title": "От портрета Шишкина до снимков на смартфон: как мобильная фотография меняет культурную среду - Моск…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Москвич Mag.",
+      "emoji": "💻",
+      "sourceName": "Москвич Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnhvWWtWSWdheUZKTnQ5VV9YV1lMeUFPeXV5eEw5bFJQM1Z4Smp4S3NMQ2lxdmpXdGRBLTFKMHQxTHlyajZ4VkR6VkQ3NHNYNlppVWlhVGpuS3JFVHhLQXZwRWo5UkwzZnlfTWtQaHFVNjVsb3JzZV9Db0VHMk5qM05FaVJWeThPS090QlhMemhsQUdGTXJGWnJ5cjJQU0lfSFJkMHBTS1dMU25MSVpQYWhZMnpLZDVHbHlnUUJvMUZxQ2c?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-27T17:01:33Z",
+      "likes": 90
     }
   ]
 }

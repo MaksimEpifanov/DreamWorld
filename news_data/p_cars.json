@@ -1,63 +1,63 @@
 {
   "planetId": "p_cars",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_cars_news_510347353",
-      "title": "Внедорожник Toyota 4Runner и пикап Tacoma получили обновки и прибавили в цене - КОЛЕСА.ру",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: КОЛЕСА.ру.",
+      "id": "p_cars_news_1359755364",
+      "title": "АГР раскрыл особенности оснащения нового кроссовера JELAND C4 - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
       "emoji": "🚗",
-      "sourceName": "КОЛЕСА.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzhhLTNzTEE1UjJqVkVwV1J4OENrRmdrVFZCVHNTdl8yUVdBb1N3MTVTdVZMME54QzBCU19rbVV0aFFrbXYwbGJQQlpNajVVNDM1MUx4Qld3SU9aSWhlRkc1dk5TcXZEU3hIRloxbTQ5WVhMb1g3d0NvbEljTnZKc0hNVXJoSUh6ZHVnMHVzUHJGWVl0NGxjMndFTlJwY2JvS0dGcmxmMA?oc=5",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTEhyczFRY3FPU05SM2NBRmFrV0hLMWFkUkN4N0V2NUZFLVNBVjhLdWl2em1zR255UUpqbGZIYkxENDhFaHN0T2dLM09EVzRQeWlwbUUyNVA0aU9xZmpaVFZNc3p4dXBKNk5lV3BrWjJCejE1VWZkaUVMSEFBOEFxOUQ4QXN3bG1EWElrVHBFc0lfYl9FTzVqY2VYdDJNNjlHSUYxUTVn0gGmAUFVX3lxTE1MSHJzMVFjcU9TTlIzY0FGYWtXSEsxYWRSQ3g3RXY1RkUtU0FWOEt1aXZ6bXNHbnlRSmpsZkhiTEQ0OEVoc3RPZ0szT0RXNFB5aXBtRTI1UDRpT3FmalpUVk1zenh1cEo2TmVXcGtaMkJ6MTVVZmRpRUxIQUE4QXE5RDhBc3dsbURYSWtUcEVzSV9iX0VPNWpjZVh0Mk02OUdJRjFRNWc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T15:54:53Z",
-      "likes": 83
-    },
-    {
-      "id": "p_cars_news_3614807568",
-      "title": "«Янтарное пламя»: калининградский «Автотор» выпустит 3,3 тыс. электрокаров «Амберавто А5» - Капитал…",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Капитал страны.",
-      "emoji": "🚗",
-      "sourceName": "Капитал страны",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW1pQk9RbWdRZ0hHT00zaGxKUUlLMXJwLXp3UlpaVlJHdnVIWWh0VlFzQjNBUDNOWDNsbEdiZEZwMEJ4SkV3WDlISHpfSEUxdkRfalp4Q014Sk94dHBWMFBqSlR5dnRuYmV1VmM1cFV0aVlaaTQybk9oWGo4eWowd0YtWDVkWVd1U0lYWHRVQ3hQdTllLUd2XzVPb2gwenl1clVsdWZidw?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-27T15:43:57Z",
-      "likes": 36
-    },
-    {
-      "id": "p_cars_news_3043658497",
-      "title": "Toyota Hilux MHEV IX, 2026 - Авто.ру",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Авто.ру.",
-      "emoji": "🚗",
-      "sourceName": "Авто.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HTHFSbVhKN2xZY3BvYWx5QW5VZlF5QnhUdHRhVWpxSngyZm15NERBZ2NlWm1CRzlWSjlTNGNHejU0VlI2MWFxaXRhZ2pNM09haGlpYXREM2V2c21jWkNUVmlIN0dXTXctR1VVb1ZHVjJWUQ?oc=5",
-      "tag": "Технологии",
-      "publishedAt": "2026-11-27T14:37:42Z",
+      "publishedAt": "2026-11-27T18:21:15Z",
       "likes": 55
     },
     {
-      "id": "p_cars_news_430617697",
-      "title": "В Бресте открылся автоцентр с электромобилями ARCFOX, Leapmotor, Leopard и Dongfeng - Smartpress.by",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Smartpress.by.",
+      "id": "p_cars_news_2590463942",
+      "title": "Tarantas.News назвал особенности выбора автомобиля для перевозки коляски - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
       "emoji": "🚗",
-      "sourceName": "Smartpress.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWXp3Y3prVEJnRE9CNDVxem9HRjQwdGpHOE93SkVhVjMwdnY4Yjc4TE1nZFpZNDM0Y09teFU1QkJjOWpPMkVjQlphOGw3dXQ2VGdkb2dEQjBqcFB5aEFGeXBCWVBnX0hZZktCN093ekpqNTMyWWx1UUZjdDl1TTNsUk1yYnFpMTdZODhNT2JDZzMzaWctRlM5MWtURkJsMktKQW9qQTJ3Mkx2dlJlT3pHMVhKYzdWZEtTMVJVMThpc0tkY2p4ZzJ3Q2VCM0k?oc=5",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb3lRX1liQUs0T3FJQmdsY0JPNmMxU204OWR5TXBGUTlvV0RwT3BZeXlNQV8zQ0tGdlhfMUNyX2s3XzlmdXJBWjlfR0RKRTZCQTRCbmtqWV8waDFhNmtMcjRzb29ISzJoa3QyV0h3UV9iQ094SC1qUEdXZnZxcUxwWkJtdTQ1ajJLcTE0ZHpKNWI5YURibFBDN0thRWduQVRER014SjZsUFJfVkFhbWlyODZqR0bSAbQBQVVfeXFMTW95UV9ZYkFLNE9xSUJnbGNCTzZjMVNtODlkeU1wRlE5b1dEcE9wWXl5TUFfM0NLRnZYXzFDcl9rN185ZnVyQVo5X0dESkU2QkE0Qm5rallfMGgxYTZrTHI0c29vSEsyaGt0MldId1FfYkNPeEgtalBHV2Z2cXFMcFpCbXU0NWoyS3ExNGR6SjViOWFEYmxQQzdLYUVnbkFUREdNeEo2bFBSX1ZBYW1pcjg2akdG?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T12:18:24Z",
-      "likes": 27
+      "publishedAt": "2026-11-27T14:29:27Z",
+      "likes": 28
     },
     {
-      "id": "p_cars_news_2603645218",
-      "title": "Цена впечатляет: Nissan показал новый гибридный кроссовер NX7 с запасом хода более 1600 км - 24 Кан…",
-      "summary": "Марки, тюнинг и дороги на колёсах. Источник: 24 Канал.",
+      "id": "p_cars_news_1326984124",
+      "title": "Водителям объяснили, почему зимой стоит отключать автоматический режим дворников - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
       "emoji": "🚗",
-      "sourceName": "24 Канал",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcGJ4MThsRFd4dC1tbXcxdVRFU205ZzhzRGhjUDdkMXJBRTVEUzB2amwwb0oteC1QSklkZEo5cklYalo3eDh4azFPbjViQ2Foc0Q4RHJqT045c0RnS3phOUYtd0pjMXlVYXlhUlZyOS1oWHRTbWNHSHVDTVlJU2dMNjNBTHdJM0p1VXpkTjdUeV9YdXdPRFM5VjR3Q3VWSXpuQkVILUlRRmVvYm44R1doQVRMZjYyNk9OQjRDRVJCQdIBxAFBVV95cUxPNlZxTW9iTHlSU2hSckxiYUFuZTRxa2UzMGRFYWZ5Vmhxd1NsWXdTVmFsdTlpenhkbU0tenRQN3hxeFlYdVVSZ0J6WGk1V1B4T1QyQi1fV2dPYkYyQ0pQd2Vad3RqTVp1Vk1hanBrLUFCa08xNFBDOURFLVktZ0lhZVkxSlpqNXY5MU5lRkE4ckdtUEZpZl9sQmhsam1KYTVzS0tSZXVwVUdHd2ZqTXIzMGtqaThxLTAzVlFYRXVQbXgxdDFj?oc=5",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQzU3NUNqT0hnTmlYSlZpSHJQVk1oSS11RWxzOGlzVWE5QWlCb0dqdzlNYUhWUUM0RkNaR29fUXREcXh2Nmgya3dURWFGYXNidWVYMVVsbGVBc1FteU5qUnJpZ0dSa2Q5ZmNucGpNNG95OWJGeDhHZjVCemUzWUFCU0NJSDQyZzFYZXhUdXQzVW9LNUw1TEJrcjNGa2J0bldKbm50LXp4Yk1oN1hYSFVYa0x5eklWSjN3MS1YSzhGdWnSAcABQVVfeXFMTUM1NzVDak9IZ05pWEpWaUhyUFZNaEktdUVsczhpc1VhOUFpQm9Hanc5TWFIVlFDNEZDWkdvX1F0RHF4djZoMmt3VEVhRmFzYnVlWDFVbGxlQXNRbXlOalJyaWdHUmtkOWZjbnBqTTRveTliRng4R2Y1QnplM1lBQlNDSUg0MmcxWGV4VHV0M1VvSzVMNUxCa3IzRmtidG5XSm5udC16eGJNaDdYWEhVWGtMeXpJVkozdzEtWEs4RnVp?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-27T11:30:00Z",
-      "likes": 57
+      "publishedAt": "2026-11-27T11:24:45Z",
+      "likes": 73
+    },
+    {
+      "id": "p_cars_news_4138702566",
+      "title": "Автомеханик Степанцов объяснил, как открыть машину при разрядившемся аккумуляторе - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
+      "emoji": "🚗",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQVJfWmZ2bDI5Z3dnSWw5X0RuZE1WcE9SSG9QWnFFZDFTVnE5eUpFamE4N19OcEl4VDF3LUphZlJ4VnV0VGRtZVZNQ3pScVFsb29DbW5SckUzcFZrLVF6NkpfeEtQYldtcGFjcVZJdmJxem9oSnVuU0NJUFJjeEhYaG9xcmphTVdZNjk2MFNNSmJLVEo1VHEtVlV2dENuYmIyU1plWnBfZnAxOGpYOUFmY1E0anFhSTlkVl9WdWhTRWVkQdIBwgFBVV95cUxOQVJfWmZ2bDI5Z3dnSWw5X0RuZE1WcE9SSG9QWnFFZDFTVnE5eUpFamE4N19OcEl4VDF3LUphZlJ4VnV0VGRtZVZNQ3pScVFsb29DbW5SckUzcFZrLVF6NkpfeEtQYldtcGFjcVZJdmJxem9oSnVuU0NJUFJjeEhYaG9xcmphTVdZNjk2MFNNSmJLVEo1VHEtVlV2dENuYmIyU1plWnBfZnAxOGpYOUFmY1E0anFhSTlkVl9WdWhTRWVkQQ?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-27T09:57:04Z",
+      "likes": 38
+    },
+    {
+      "id": "p_cars_news_2838112627",
+      "title": "Эксперт Стрельбицкий назвал три причины нестабильных оборотов двигателя - Тарантас Ньюс",
+      "summary": "Марки, тюнинг и дороги на колёсах. Источник: Тарантас Ньюс.",
+      "emoji": "🚗",
+      "sourceName": "Тарантас Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTHh4Ukt3S2pmTzdNaXh4WjJlS3VSTnlIRUNYbVhhNnAwMmJiclUzcUxIaXBBVktOT3lnMWx6RWg4R3l4cE43UEhCVDBjWFhIVGozZjZwdmMxWEhRNS16THNYX3lnanVYbGVHN3ZMa21QN2g1Zmp0M1FFeUIwNDEzcjFZVTY0bGxBdHBYa2w0cGg1eUN2NVAtSU0wVWZKYU5SX3BRTWc2eXMxRVhi0gGwAUFVX3lxTE1FeTRPamV2aG96RzhFXzFqc0plcF81MkFjMjBVMFZEdDZqRkRnS2RoRFQ4ZGlwUU5taGRVMU5rakQtdkJKTU1VMTMzeDlsbThwSVlMQTNaaGlBeXRYMXE3WVc1anl1ckh2ZUk1dGFPZVBzaWNmTWZQeFlQeFB6S0lJUU5QaGhYTkNCbnV3N3laOFZEUFlOWEJLZTI0amc4WHZ5bkxMbFVyNWl2TWpTczV5?oc=5",
+      "tag": "Технологии",
+      "publishedAt": "2026-11-27T09:15:00Z",
+      "likes": 90
     }
   ]
 }

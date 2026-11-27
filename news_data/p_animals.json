@@ -1,9 +1,42 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_animals_news_3102086907",
+      "title": "Волгоградский приют «Дино» принял на ПМЖ волка Борзо с печальной судьбой - V102.ru",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: V102.ru.",
+      "emoji": "🐾",
+      "sourceName": "V102.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5XdC0wV1g1d09iZmJOMGFQRy1BNkVkNjQ5emIyUVVWWWMwalF6eVJiUFY0NEJNNmV0UEZPVW5PVS1wbnBFNW8w0gFGQVVfeXFMUFpsU0g2N3BiaS1sTmwtS2dLZUpobi1DYlFtM1J3OTB1d3ZrZ1R6YW1yRU5yMFQ2OHo0S0loR0pfR3hKb3VLUQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T18:48:32Z",
+      "likes": 47
+    },
+    {
+      "id": "p_animals_news_2346964333",
+      "title": "Семья из Покровска вывезла свой приют для животных из зоны обстрелов - Новини Донбасу",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Новини Донбасу.",
+      "emoji": "🐾",
+      "sourceName": "Новини Донбасу",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdTE4R0hoZlhJWGdXSm1HVEdaSFZkZE1aU2hFQ2JsZU1ZYnd2dDFUWTgwTmdiWjJRQnNJZExWQ2JJVU5IYTBIZW1SMkljNi13SlhoS3pCUDE5N3MtV193TDRwMk9uV0Q2UEN1SlRjTlpMVzRYR3lZWGVuWXdFbWdJMURsUkNPaU8ycmswanZHRVh0cHF4YkIxNmtXbWRZMnZRWlFiNnB2RVpPZTJiSXB3Y2VzRjN2X3dOQXBPQWxrNkkyWmVuVjQ2RDloZThMUm5kelBzcDhnelRvbDg?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T16:12:19Z",
+      "likes": 8
+    },
+    {
+      "id": "p_animals_news_784074623",
+      "title": "Собаку достали из стены, трое питомцев нашли дом: как в Донецке спасают животных - Донецк Медиа",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Донецк Медиа.",
+      "emoji": "🐾",
+      "sourceName": "Донецк Медиа",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObGd3eldaQjdMTVR0UUd2RmxVZ3NYRzlFYTJsSjFtRGNZN2x0amVZSll6alAtTFp2dmhGTTdubGFDeWc1UUVIREt6NGphOGY0YTB3MC1MekN0VUNfcW1XenY3LTBkSzNVRVJ2ZDVFd2oyNEp0elU4UU05bzZfdklpWV9ockVxVE1EMUVwdjJiVUdKcUlVeGV1aGJKeHVXY05NcWxaWVlsMHo3bmRjR0hoLWUzYjU2RDgtcVozMA?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T15:23:40Z",
+      "likes": 5
+    },
     {
       "id": "p_animals_news_1142415859",
       "title": "Спасённые из кошачьего гетто котики наели бока. Фоторепортаж - KO44.ru",
@@ -25,39 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T13:53:01Z",
       "likes": 14
-    },
-    {
-      "id": "p_animals_news_2341136470",
-      "title": "Собака оказалась лишней: что делать, если нет возможности содержать питомца - kursdela.biz",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: kursdela.biz.",
-      "emoji": "🐾",
-      "sourceName": "kursdela.biz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1JNYmFWUTk5SXJsNzhWaml0blRNaHNqeW5fZHZQWEF3Wmd1VzNfMzZtOTlENEZqaUh2SFh3NFZRUDZhRWJUZTJJMGdFSENZWXRlc0lkMnVPbmNtd1h2eWdXZ0drSnFucVU0RkE3WTY0QnpTNmRSRXhOYnZSaGJTMjltNGJhSDJjWFl5aGEwaS1nRkhIa0lucXNyUlZSZmJadjBEWjZDWjlOa2pLQW9PYmY0NGlQOE9feGxIRw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T13:23:00Z",
-      "likes": 20
-    },
-    {
-      "id": "p_animals_news_1220221361",
-      "title": "Сотрудники ГУФСИН навестили животных в челябинском приюте «Друг» - mir74.ru",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: mir74.ru.",
-      "emoji": "🐾",
-      "sourceName": "mir74.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGllcGVTd1c0Z0pDV1p3TTVhaDdTUTFmYUZoc19Kcm1lQnRKMFMzTjQyemx1TUdOT2t6d0pUSXJ5SHJjV2RYTTRiTjRGWUVEelhzX2RjeVpzekpENkh4QklZd05DZ0szYlV5OV9Ba0RFaWVvUnFEaFlHTnBtRk1KbDhub04xbDZfUWFoSkNyZTZjRWlXa1RUbjZR?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T12:55:15Z",
-      "likes": 87
-    },
-    {
-      "id": "p_animals_news_3731292855",
-      "title": "Из прифронтового Балабино в Запорожской области эвакуировали животных под прикрытием антидроновой г…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Rubryka.",
-      "emoji": "🐾",
-      "sourceName": "Rubryka",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12enNjaUlLaTdHOTNMeHhaLUNKWjVrdlBLZlVhZi1oam1TeW1obk1rY0p3b0tNa29XdGhnTEt4YnVqOWl1UG9lWkJaN3FNQWg1MXY3WWhtZUR5aWdkVHEwNGQyeGhXcW01cllrMHlXWWRyRm5HNnp4aHZRMmU?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T12:27:57Z",
-      "likes": 28
     }
   ]
 }

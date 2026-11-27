@@ -1,9 +1,42 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_reading_news_2041905910",
+      "title": "В России учредили День детской книги - prospect.com.ru",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: prospect.com.ru.",
+      "emoji": "📖",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3FYYzhOb2tJOHptS2ZWazhYaVEwbHl6NHBJcHJCeVQ0bGJnRUV5VHJQMFBwYlFzVlBBamotdDJ4bnhKZktRZXFuZTFWa3FaSmtJN0ctak1hYWNvSks0ZFNpcTA2aHg5bGRULUpKMGdwQU01bGlqOHFWQ0xjM1JiTkFDeU4?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T18:55:02Z",
+      "likes": 54
+    },
+    {
+      "id": "p_reading_news_354225129",
+      "title": "Расширение сети распространения теоретических и политических книг в Ханое и Хатине. - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
+      "emoji": "📖",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYy1ZSHFkRS1mb0JfbWZNQ0NDbGp2dXNuSU9RMExUUllkaDVGUWhCam1BSXl0OTRkSjlyaVhuczN2TFpKX3dnd0JLS3hHUEUzSE5tUEh3ZndpN21WSUpDSXlZd2VORkZkUU12cnNqdGhBMmdRWWhCMVUwSnBIOFdfNFhIOHRUMHVRMDhHNldkNDE3Q0w1RFY0X09fdGJxYWc?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T17:38:57Z",
+      "likes": 81
+    },
+    {
+      "id": "p_reading_news_2179779633",
+      "title": "День новой книги в библиотеке: сценарий акции и встречи с авторами - Справочник руководителя учрежд…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Справочник руководителя учреждения культуры.",
+      "emoji": "📖",
+      "sourceName": "Справочник руководителя учреждения культуры",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdjRRV1MyX2QtYTQ4eWhfOFkwVlkxRlNSdk40ZURrOGlGbDRRWXNiWWJQeEszdmtYUWZSamFqWldtREZRcHNDT2VoRmYtTExIdk1nM2w4TTNfQ0psLXF0Qkt2T1pHcHBBeTI3SHRzVmF2Qlltbk52SGlfc3dRR2gxM0VNY0Y3NW4xWWtYVA?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T17:28:41Z",
+      "likes": 72
+    },
     {
       "id": "p_reading_news_2925684780",
       "title": "Читатель Толстов: книжные новинки недели с 23 по 29 ноября - Вся Тверь",
@@ -25,39 +58,6 @@
       "tag": "Книги",
       "publishedAt": "2026-11-27T14:51:00Z",
       "likes": 28
-    },
-    {
-      "id": "p_reading_news_449189661",
-      "title": "Забытый самородок: Шаргунов раскрыл, почему посвятил новую книгу писателю Казакову - Национальная С…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Национальная Служба Новостей.",
-      "emoji": "📖",
-      "sourceName": "Национальная Служба Новостей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY3k4UzZBckVmNVdkcDdaRGJqZHFCeTZ3UWtnUDAwOTNidHhjTE9hdGVjNklZZ203QkZ0OEVpUEFGMEk0VThTRnp2UVh1enpWRTRtRHZ2d0ZjMVFzUnhkMmtpREVKUlYwSEdMbW5UWFNWWmNqTVFQMjZiaHVTcy01dXZReDVjc1oyekZRTmN5Uy1oN3Rhb3h4ZFdZQkhBOEtQRW9SYzlxOXdpZ9IBrwFBVV95cUxPQzl0cVctUFcwQ1V6Zkl1TGZuTk9zcnhkNkhDdmNESU5qY2hEWC1MMHNNSnFKUFNGN1JpU3ZlWUNILW9TZnpYWGo2SlppTWc5RktEN2w1OUVCMHl6TWRyUS03azhkV0xNN0YxZTV4SU0tOWpwVVlEVzJWWDAzdmR5YndiUVJ6dkRDQk5RNnV3ZkpIUE1EUVhkMWQzT29yOG9wNzhXVFRBVlQ1TVBUbzlj?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-27T13:46:46Z",
-      "likes": 48
-    },
-    {
-      "id": "p_reading_news_2207098938",
-      "title": "В Кочкоре провели литературный вечер к 85-летию детского поэта Каныбека Жунушова - Turmush",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Turmush.",
-      "emoji": "📖",
-      "sourceName": "Turmush",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tVjg2aU5TUjFCZXJjZldVcWItMW5rQkloQzA4M3JndUhFSDVOa3FUcWNvSUJISGt2Q1FjUkVJUVRqSG5xeUV4WFd2TlFaQUk?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-27T13:30:00Z",
-      "likes": 52
-    },
-    {
-      "id": "p_reading_news_2680319778",
-      "title": "Тонкие книги, содержащие менее 100 страниц, неожиданно привлекают покупателей. - Vietnam.vn",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
-      "emoji": "📖",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40TFFhVHhZczRwTGtIM3BGY19YMkFUa1VFWWxXZkVUTjFTd3pfNzBNMjRoLXl0QmdaanRMU1F6UDJXQkMzdWJIRXNLUkhmejZrRU5GRThmQkxydFk2eXhyNmY4ZHhvUTBjeHNhRzVqZHVITEJxQVRn?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-27T13:09:33Z",
-      "likes": 22
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_2581711066",
-      "title": "Житель Доминиканы неделю пытается скачать GTA 6 из-за медленного интернета - Shazoo",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
+      "id": "p_gaming_news_781733995",
+      "title": "«Как расстроенный ребёнок». Американские журналисты оценили игру Егора Дёмина в НБА - www.championa…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: www.championat.ru.",
       "emoji": "🎮",
-      "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2ZPaUlRUjhoQVdhQ2FWNHZTdm95X3g0RDZPaFN5eXhTVkhsVlJtSGNwRWdGSk1QR1MxRHdTVjYySzNJd3dmYzlHb3lHYlRkdzBxWmN1X0J0OGQzT0hCaWVmd1YwR3BnSGZDaVowOE01aXhfTmowNDNuTFA0dHpEMEdBTDhIYm5sY2tUdF9lOA?oc=5",
+      "sourceName": "www.championat.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOVJtOEV5MktwNmt3eWV2alhoTVZUWENuTzFaM0tKWllKaU5FUEdQdWdsejU4Nlh5MEFhbHd5eEdQQmRINXVxaWhGUlFpNnFPaVBUOGJkc29VVlZER0lnT01pdnd3ZGFmWV9kbVFCV3lGaEc2NHpJRnFkSTZqd052QjJDU2FtYm9iODQwcC1EcFNKRUtGVzRKMXhKTjdFeE1WSUM1Z0lTTUpualY0VGtPMGNvSU9LOTMtQVp4ZGRPWkVJOVFZNHJkWWluN290RVpFWWx3eg?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-27T16:40:00Z",
-      "likes": 59
+      "publishedAt": "2026-11-27T21:10:05Z",
+      "likes": 16
     },
     {
-      "id": "p_gaming_news_556912394",
-      "title": "Ротенберг: чтобы попасть на игру, нужно было хорошо учиться. Желаю всем хорошо учиться - https://ww…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: https://www.championat.ru/.",
+      "id": "p_gaming_news_937562734",
+      "title": "ZubrPari выходит на рынок Беларуси с собственной игровой онлайн-платформой - av.by",
+      "summary": "Кооп, рейды и вечерние катки. Источник: av.by.",
       "emoji": "🎮",
-      "sourceName": "https://www.championat.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFlLM2lwRlFTc0VTQkVhTFVubml0ak1UTTU5T2dfb1U0a3hYQkh6NzFPMXlkQ1htWWc5NHNpNTd0R3MwZU5jZ1ZtVVRvdjl1MU80ZVVtNVQydW55MUFtOFFmRXFoTnhlakRaU0drLTJ4aHFwOEV2ZG5UcGlUWEczN0tKRXo3RFZVaWo5akZnblZ3MVRFVTdtRlVUSGFWWndEQ01TQUU4bjRZVlNUc2ptX3VKaWROd01sSTZyR0NUOXdrbW1IYWl4WExZLUV0QWhmX0N2TU53YWc?oc=5",
+      "sourceName": "av.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMbEcyb2hMcUhMTUZTMW5tc2FIWVVGajhsMmVhUDc3NmtwdUdNSTREQ2R1dkJ6RnV1MUQzVERYYS0yX0J2MEtwR0Y4N0o1ODEzRFdBRTJjWklrTW9hY2pZd0FWdFpzbEFT?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-27T16:14:45Z",
-      "likes": 65
+      "publishedAt": "2026-11-27T21:00:00Z",
+      "likes": 48
     },
     {
-      "id": "p_gaming_news_4112219434",
-      "title": "Мультиплеер GTA 6 заработал на ПК благодаря неофициальному порту фанатов - Shazoo",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
+      "id": "p_gaming_news_542973692",
+      "title": "Вышел трейлер игры с открытым миром по мультсериалу «Винкс» - VGTimes",
+      "summary": "Кооп, рейды и вечерние катки. Источник: VGTimes.",
       "emoji": "🎮",
-      "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRU1xaktNcWR6LURzdnFEdGNidTZhVThzeDFBWi1LdzdLOGx4dk90ODFLUG1URmVwcndkZUhBM1laOUFOMV9jSDh2SGgyMWV6MDRkdTJjbEs5NVlKeVhsYjBtZF95aGVHTTFJeWJOWHg4a3kxSWdTNkhQWmhxQ0RoYXVXRnplMmVXSnQtR2Q3dWU2UlhsbnMtZjNkWGk4SjdjMm9vTVpxd0I1ems?oc=5",
+      "sourceName": "VGTimes",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQam1UTGItS2RFNzRNRllkSFBWTFV4dDlmcTZ6TllSeXlwdm41Q0UzNVE1QU16c1dUTzZjeF9qZk5RV1dSX3Q3TlFuSFlIc0J4XzhsT0ZQWnQwVEFZZUc5dHBja0hRVlg5czA2WlZJZS1CVHZLWE0zRmNnMFBidHh3Ql9iLWdZYU00M1VvWEFPaVU0bnpiR0VDOWo0cjk?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-27T16:00:00Z",
-      "likes": 77
+      "publishedAt": "2026-11-27T20:16:39Z",
+      "likes": 27
     },
     {
-      "id": "p_gaming_news_2604254974",
-      "title": "Обляков назвал моменты, которые нужно улучшить в игре ЦСКА - https://www.championat.ru/",
-      "summary": "Кооп, рейды и вечерние катки. Источник: https://www.championat.ru/.",
+      "id": "p_gaming_news_823355797",
+      "title": "Шнайдер - об экстренном выходе на матч с Андреевой: Надо работать, чтобы на Итоговом играть уже как…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GoTennis.ru.",
       "emoji": "🎮",
-      "sourceName": "https://www.championat.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEhfZjYzOFE0WWJINWZ6MnBka1d1UndsN1p6U0VodHg4QzFmeWdIWmlwZmhvRlJlVzRod2psTlFrenBpN0VpRnVIakRIam5kYVVBRXRrNW9GbkJFT3dKcTVPZ2pMb2M3WGFaaEVZZmJoRHVLZ3VnUGtna3dvQmFKU0Jjc3lWbmZMZTY5TVMyYUYzOUphSWxFR3ZoQjJBd2RGUlpjTHp2b2VmcU9CaGU0QXliRQ?oc=5",
+      "sourceName": "GoTennis.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWFSX1dYQzhwR2FwRzh1b1dMb01HaHJGeGhkMHMzQXhnU1Q1Zm9idnZDRWJZUVQydFVZVkxRa3NSeU15ZFR4OThSbmxFN2JHYmkyVXBJT29RY2pyMmNsSDVQTDQzckk4WFFRbXAwVDVXRllxbFRkMC1UeEc1NjAxTzQtbW9EbUpyTUlaNWFsa0lGaVNodDFKcDhwNW9TNnFQTDZOMGk2S2V0QU1WU21wN0lOOW11MnFaZ045cW9FRXB6eG9zVkJreEI1VkZ6NnpK?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-27T15:46:32Z",
-      "likes": 67
+      "publishedAt": "2026-11-27T19:57:39Z",
+      "likes": 3
     },
     {
-      "id": "p_gaming_news_3652490191",
-      "title": "Бесплатное скорбное DLC Sea of Sorrow для Hollow Knight: Silksong выйдет 11 декабря — релизный трей…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "id": "p_gaming_news_1445059908",
+      "title": "«Уверенно играл». Кравец оценил дебют Нурека - Bestnews.kz",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Bestnews.kz.",
       "emoji": "🎮",
-      "sourceName": "GoHa.Ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcGtvQmZwY2hFejljb2xLQXEwdFU5UnA0c1hCM2l3X1Nuc3pMVDh2S01pWlY3RXlmZFZsOFhMR29kQnBnYlpvRTNyRzB6RnRWRG5IZjdMVGZCZGxtX29aNXF1OTdPckN4Rzl3dXRSQ0xBcnZVZEZzSTkzYmFGUkxCVXdHZWVGR3I1X0FZRTZpVlU5YmpyNUszX3hVbTJHWGpPc0hBV1dtWUVVXy1aZFZ1ZG42RnpvekdGdkx6NWlqdlU5WnpqbmlN?oc=5",
+      "sourceName": "Bestnews.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3N3R4S2g3R1VFVWV3M2RaMTFhYWRmcHlFUXk1M1BYWGFkM3p6S3FoOERKRlpjMjJpUUsxeGF1Wk11NTVzR0E4UjNkRDd5MG1jM0pDdVVteEtQbUU?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-27T15:39:37Z",
-      "likes": 14
+      "publishedAt": "2026-11-27T19:49:34Z",
+      "likes": 75
     }
   ]
 }

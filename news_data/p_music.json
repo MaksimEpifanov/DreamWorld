@@ -1,9 +1,31 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_music_news_1404243837",
+      "title": "EMIN выпустил новый альбом «Что если останусь» - - ZERKALO.AZ",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ZERKALO.AZ.",
+      "emoji": "🎵",
+      "sourceName": "ZERKALO.AZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0VWtHXzdrOVRHTFctbllITmJqUXR5eXdreDE1VTdSZ0JQNE85VzJ1QmJwc1F5Q3JNVjVyQVA4RDRLOXMtbjFVTnJrbG1md2dyaTNYbDlGSG1oOUFJVlRNRm9rTW9scjhwMkZ2N25CRmg?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-27T20:18:16Z",
+      "likes": 54
+    },
+    {
+      "id": "p_music_news_1465962580",
+      "title": "Вышел альбом с музыкой к сериалу «Тайный город» - gosrf",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: gosrf.",
+      "emoji": "🎵",
+      "sourceName": "gosrf",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qV0FGNjIwODBrT3l4TXpmVlFhb1hVNWNIeXpKa0lNNTA4R2JEajk3el94clJveUplWVB5NFJKdWFYd052SUlRNnE2T0kxa1dTR19XaXBCLUEzNG8yZTIwZlNrVjFjSDJDd1BDeE9jSWJTT3JN?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-27T16:57:22Z",
+      "likes": 71
+    },
     {
       "id": "p_music_news_1617145357",
       "title": "Лана Дель Рей объяснила, почему ее альбом «Stove» никак не выйдет - Soyuz.Ru",
@@ -16,17 +38,6 @@
       "likes": 37
     },
     {
-      "id": "p_music_news_2158034805",
-      "title": "Я — сноб: актриса и певица Анастасия Тереля - Сноб",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Сноб.",
-      "emoji": "🎵",
-      "sourceName": "Сноб",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HOU5hYnhEREV0T2lfQ0N0dlNVdWNGWkRwaEhnQUxGQXNxbjJ3NVQxV0xQTlRTU2xna1Q3VDZMR3pZZ9IBQkFVX3lxTE9HOU5hYnhEREV0T2lfQ0N0dlNVdWNGWkRwaEhnQUxGQXNxbjJ3NVQxV0xQTlRTU2xna1Q3VDZMR3pZZw?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-27T14:36:27Z",
-      "likes": 88
-    },
-    {
       "id": "p_music_news_2922768114",
       "title": "ZHARA MAG в твоем формате: EMIN выпустил новый альбом «Что если останусь» - ZHARAMEDIA",
       "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ZHARAMEDIA.",
@@ -34,7 +45,7 @@
       "sourceName": "ZHARAMEDIA",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMVJjVDVRaW5ONk84UHJhaHkzM1RDQTNyMzc5YmVxV3FfNHJhSkRDRnFoSjRPdFllZjROaF91TzdYSTZ5bzF5TTA4MFI2cnVXcXZsSGpTbmg1S29vLVlxcjdZTHhQdGdjVm5iZE94eURxTGUzN1pyWlVGWm5YeVhXTEo3Ri10VXBLcFVEQjFCWQ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-27T13:07:30Z",
+      "publishedAt": "2026-11-27T13:13:40Z",
       "likes": 20
     },
     {
@@ -47,17 +58,6 @@
       "tag": "Музыка",
       "publishedAt": "2026-11-27T11:33:28Z",
       "likes": 39
-    },
-    {
-      "id": "p_music_news_3607271753",
-      "title": "На концерт народной артистки России в Пхеньяне пришел Ким Чен Ын с женой - prospect.com.ru",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
-      "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYjVYNUVBMXlCX3JUM0lIcjhhUm1FVGtjbXVkLUFHZGY0Qm5JVHBUbV9sZ1VFWFJrT19pdlVXWldqNHRtOUU5cjVWVnp1eWpmSVFTU1hIU3pNcjNFcHFxN0oxN2V6YS1lTnRlLXRTel9SSXJ0TEtUOXJJZ3puMVZoMF9nUzhud1FWYWxQaEt3UVhsQU44VUN2cTJNY2FSYURmc2JhZW9TRFZnbFhBS0tjXzRILXRULXhR?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-27T11:23:28Z",
-      "likes": 58
     }
   ]
 }

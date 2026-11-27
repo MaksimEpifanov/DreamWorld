@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_3659886649",
-      "title": "Даррен Диц из «Сибири» стал четвёртым защитником в истории КХЛ со 100 голами - https://www.champion…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://www.championat.ru/.",
-      "emoji": "⚽",
-      "sourceName": "https://www.championat.ru/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkpwR3dtd0RJRWlKWVB1b2RLY09pUF9Pc3UyamU5TkJsd2c0WUxLbUgyUE5UZmc3QmJTdmtGM292Yl81dE5mclNSVF9leExUVzZ6S3FpZzJfSm1VSktIQ1loVVV2TWt5OF9JUVRmMjY4eUd6S3lUMTBLdmhLaU9kOE9rYW9aSjFiTnNjSFBodE5BeTdJUDkwSU9UZFptNXZXNWtnLVZCN2V3eFFZeDhZZkVfVncwekNiS1pKYk9MUFhNTnMxeTdZcw?oc=5",
-      "tag": "Спорт",
-      "publishedAt": "2026-11-27T16:34:14Z",
-      "likes": 84
-    },
-    {
-      "id": "p_sports_news_73313786",
-      "title": "Фетисов обратился к Овечкину после 17 матчей без голов в НХЛ - Sports.kz",
+      "id": "p_sports_news_2983566130",
+      "title": "Российский лидер клуба НХЛ наказан и выведен из состава - Sports.kz",
       "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
       "emoji": "⚽",
       "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWQxUGpxZ0JXMWxYXzFHSU5YY1VWN2ZMSFkyTjBjVDlrd2hScmttblg3Xzk1cDc1RXB5TmNLZEd1VUN0dUs2SUV0M2tyMWZoZUFTQjc3LTQ2TFNlTno3c1oza2Rrek44d1M0Qk9JTjdlUmJpLUVDOVlGSHZpS1czT1pKbWVHUjAza1lCS2kyeFIxMzRo?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWVd4Y00xSlEtVWRwWURPS0hMZEp1X3dnQy1YTTFzbFdXaUdSamRUR29SYlUzbTFxdlFyaEpZd3Fobk9rdG5oVFpqaHV2a2Rmc3ZrLUw0US1WMWRoRDhmTGlqWkVmV1J2bDhOeVRJR0J4eE5MYzZVUHZ4bktGbGVFY282bFJjNVhrMzBF?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-27T16:11:42Z",
-      "likes": 90
+      "publishedAt": "2026-11-27T21:07:29Z",
+      "likes": 80
     },
     {
-      "id": "p_sports_news_1812056726",
-      "title": "Белорусский форвард Егор Бориков не дебютирует за \"Юту\" в матче НХЛ против \"Нэшвилла\" - Sport5.by",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport5.by.",
+      "id": "p_sports_news_1412768854",
+      "title": "«Сент-Омер» и «Кан» не выявили победителя в матче Кубка - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
-      "sourceName": "Sport5.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjJMWnVETGFRR0dSS0ZYY3VIYVRrdkUxU0xzN1A5aVdKb3lLbGY1UlhWbWQ5V0RHeXNkai1iOV81bjB2d0p5MHdyY29lek05elV5SXhuWmswSWp1V21uLTFiMy00TVZWMy1BZEpvQ09fN2RNRmRPdHAyQW90dnBDaXdGdTBKbHhPWTRKWUVkOUtSS1JWTmFHVm54T3ROVmNGMXpFWg?oc=5",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTVRrd0Jwbm5PekhNeE84U0VNZE94QlNqZjlTQ05PUnY1NllVMTgzZmVRRWxkOE9PRDl4dnBnYVpPVExkTFBIWlh5NGtZaVc4N3FiZ01kbDhJM0Q4MElCVjVDS0tpclF2MFF4cWUtazBvNUd3WnE0UGxUV1NwblNNUE8tVVJFWjV0VzBTSldTeWpxQzQ?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-27T16:10:29Z",
-      "likes": 13
+      "publishedAt": "2026-11-27T21:06:02Z",
+      "likes": 72
     },
     {
-      "id": "p_sports_news_4138888109",
-      "title": "НХЛ сделала заявление о российском дебютанте - Sports.kz",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
+      "id": "p_sports_news_3831860774",
+      "title": "«Нью-Джерси» обыграл «Калгари» в матче НХЛ благодаря дублю Люка Хьюза - Рейтинг Букмекеров",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
       "emoji": "⚽",
-      "sourceName": "Sports.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yMy03T2xfRDgzMGJ5a1NZdHM1MFd0eU9qMFMySGZidFR1ajByMk41Wlh4alFHSVlUMXJYZ2V3d3lON0M3akRuSWRZcGNOR2ZkOFR6bEQxbzVNYWZpWTB2V1MxVF9OZ1c1V1MtRnROVHo0bkhHX2RjeWFlcEFhZw?oc=5",
+      "sourceName": "Рейтинг Букмекеров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMWxiWXYxckw0ZTVDTS1NeUQ0YXVZQnlHUTUybldVVEdSTXlrR19oTEMwRjBIRE5DWkhjRXRkc3RCMTdkQ3ljY3dIMHVYc05kZGZnX185UU4zdFZLYmcydzdOc0ZYYkpkTmFYclhPYlowZjlhLUlhNVpzd0NIVEF5bFZ6TS1wQ2ZmSXBtMTBVTVRfTkxQVGNibHVBOGJ1VlRIbHp0Q3BLcnY?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-27T16:08:55Z",
-      "likes": 76
+      "publishedAt": "2026-11-27T21:05:10Z",
+      "likes": 35
     },
     {
-      "id": "p_sports_news_543507739",
-      "title": "Колячонок сыграет за «Нью-Джерси» в матче НХЛ против «Калгари» Шаранговича - Tribuna.com Беларусь",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Tribuna.com Беларусь.",
+      "id": "p_sports_news_3749923284",
+      "title": "«Нью-Джерси» обыграл «Калгари», Грицюк набрал 50-е очко в НХЛ - StavkiPrognozy.ru",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: StavkiPrognozy.ru.",
       "emoji": "⚽",
-      "sourceName": "Tribuna.com Беларусь",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLWxZSWRBbE1rZHZQd2hSUHVpR0s5LWxzdlo3dWVCODRjLVVxeGZja2Q3N2dyS0lCTkVyV1RKSWQyZV9zcjRsRnJ5NzRtdEZtcllyOTc5YUFHc2dTNWFFeENiSmZPdDhMd2ZPdS1qVFIwa3czTXNXdjhhN3ZlelpSSFVwTDhabmJ5Rjk1VU1VdFVqbk5GUWEwcEMteWM0cUEtWW1B0gHQAUFVX3lxTFBMUDBHTzhHaGh5R2wzd05CUk9tSzhBNm1PWExfcW8zVmdkMmVwRUlUSnlmUlI2cC1kbVFlMWxHMFNGX0xTS04zOHlqMVQ3TkRwcGliWGppMGVfQmwzSmVmZWptNmxTd1oyVzBhTFBONjU3LVlkYjdndzQxOFZCMDFwNlZrYkQ1VFFadnBnX190SElyLTAxYlRmYXhydWViSWZ3MnJfY1Z1UFFiQnpPQndhNkR2REJlV1RGQXpZSTRtWXJ2eGtTSFVTUXBHdEZnaWE?oc=5",
+      "sourceName": "StavkiPrognozy.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXZEemZ4LXJKS3FDZzVGUkNqOENVY3NzbFdCV1phSFlGaXpDSG1YT0MyV05iX0xYb1hheXZFdjVDc1ZKUXJUWEtFNWFwanMwTnFnd0VPc2ZnZ0g1ZldwVjNSM0JJTWZNMHM2aUZWSTBPMEtHLUVETDNXUFVycm1sRFBoZ0c3blMzcXQ3U1VkSXpuYjB4V29BbzgwbDJRYk0zT1VsSS1qeXp0SUU?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-27T16:07:50Z",
-      "likes": 90
+      "publishedAt": "2026-11-27T21:01:50Z",
+      "likes": 64
+    },
+    {
+      "id": "p_sports_news_3944953752",
+      "title": "Фанаты «Филадельфии» скандировали «Мы хотим Мичкова!» на старте матча с «Ванкувером» - www.champion…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: www.championat.ru.",
+      "emoji": "⚽",
+      "sourceName": "www.championat.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR1lDYjBfTWxzdzFYRmVTZUlKUmljQ09NMC11b1dGVThraTduTkZrRUdZZzU2R2s2RkJMVGUzbGk5R1VmY2w2YU9rMWdsTGdEX3pWVUQySkJ0UFRNZ183a3I4aVhrS29JYklOUDBvYWlKZ2psWms0SUxBaDZCTUJDN2VxeHUzRTBQU1VEWUNKXzYtRi1rVXNKM1FzMjhEQnNDNUdJeWZPUHR6YzJGMGQ2ZExCWTA2N2REdXNYZ0lGek9UOFBvWm1DYg?oc=5",
+      "tag": "Спорт",
+      "publishedAt": "2026-11-27T20:57:13Z",
+      "likes": 47
     }
   ]
 }

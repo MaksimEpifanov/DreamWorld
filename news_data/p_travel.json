@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_1136524743",
-      "title": "Промышленный туризм на Урале: металлургические заводы становятся туристическими объектами - news-as…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: news-asia.ru.",
+      "id": "p_travel_news_855278552",
+      "title": "Туристические маршруты Поморья теперь можно забронировать на Wildberries - Правда Севера",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Правда Севера.",
       "emoji": "✈️",
-      "sourceName": "news-asia.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzdoeWVheElSLWxKTFpGRUpHcV9mZGIwUTRRa2hfZmo3eTdZa0owUUZHSU5YQnBwTEtiZWFFNWRZa09pLWF0NmlURkp1UWVoaWtYdDFpRGN6ZDVDWGJNeUxPQW9UMEpyb0djc291S2RMdWhPOGdFZ0lMV2trNU5uUF9GTTYzbUdYeWdod1ZXNFZCbll2TnZSTzR6ZmRwZklsRWYtQy1FaEtWelI2bGF2aEM4MlM5cm9S?oc=5",
+      "sourceName": "Правда Севера",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaRDgtRlQycFM2RjMzZHpWUEdqZkhXZGNLaDFvTl8xYzFrbm9GYS1ydHQ2dGJxV2Y1UTBHVXBqbkxsWUZsckdodXVDTm84Y1dpQXYxc1Vkc2VYRTVtVkV2UnI4RGVaWEF1YVFTYjJUemM3UQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-27T16:27:59Z",
-      "likes": 65
+      "publishedAt": "2026-11-27T14:23:38Z",
+      "likes": 17
     },
     {
-      "id": "p_travel_news_2286099714",
-      "title": "В Петербурге запустили путеводитель по маршрутам и событиям межсезонья - Вечерний Санкт-Петербург",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Вечерний Санкт-Петербург.",
+      "id": "p_travel_news_1658400695",
+      "title": "Гонконг укрепляет туристические связи с Казахстаном в преддверии запуска прямых авиасообщений в янв…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: DKNews.kz.",
       "emoji": "✈️",
-      "sourceName": "Вечерний Санкт-Петербург",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT1VQTGRnNkxaX1M5VnhhRzhJNjJPNXFJUW85eThzSEViRmREU2JoQUVfUTlubV9fWGYyb1BXUlRneElkYnBEX3EtdDhEeEVKTjF0cVgwSzdsVUgydk9lYktTNzFwQzFzMy1COUtOTWlDY2NqZW1TUExQVUNDalBObHIwOGJhLURRcVJEOTNlYWltbUVHY0hoNWY0R2d1YWU1aXhVRjhjUzZWb0E?oc=5",
+      "sourceName": "DKNews.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQVVfekZfQ0RCS2JXZVdaV3dHX0pMWHdzRGg4QnhTeTdqWXJWa1hSNXZncG9JcTczSWlNRnVDeXRZYUdVcmpYcFJXUGEwNmprdzNBd3JtLUhQR0xSdk9EY1M4d25sSjdvVXdRbTBrNFRnUjktdUZIcm55MHgyY0xpeFFhSk1SSzZJMHFxUA?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-27T15:45:32Z",
-      "likes": 5
+      "publishedAt": "2026-11-27T12:50:00Z",
+      "likes": 67
     },
     {
-      "id": "p_travel_news_202703250",
-      "title": "В Мурманске мамы в декрете осваивают городские маршруты с экскурсиями - www.mvestnik.ru",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: www.mvestnik.ru.",
+      "id": "p_travel_news_69316385",
+      "title": "Меморандум о поставках мяса и идея общего горнолыжного маршрута: итоги казахстанско-узбекского фору…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Ratel.kz.",
       "emoji": "✈️",
-      "sourceName": "www.mvestnik.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFZFRVJJRVVhMW00XzFGSnlWbHJaNjRmaVF1Y0UwdGhnSTFyRTFJV1FvVVBPejRrZXMtTnVYNlc5aHNZN3RwODJfbmNTNWREVGJKTlJfVVFNa25teVNNN2EtYTFaOUc4OFp3ZHFkWFQ2b0syV3lQNUY4ZmRsd2hVN1Jhc05lMXhsSVBfV01INTdsckZCZmcteTN1eEpFZUZtNm5tSkF2c3RmQQ?oc=5",
+      "sourceName": "Ratel.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRkZqNVo5Z1ZGdWZtZlN0MEdrZERsNEg5ZHRDUTZYeUkwV3lzYXZaZklOV2hrYk85NUJsTEtYNEIwamJqaThNY0FWOC1VSURjdHFVUkpvRm41Qy1GLVNNSEc4Vk1ySnNsRjFpazNxVmFFUXpwbmpSWC05TkxqbVpOTlJhbVEzM3BIa2JiWVl5UzNYX2xKUXhkMGNDajQtUDJyMkRmMEwwb1VSdjY1SmFIcG01djZvRUtEaDhMeGdsbEtCeU9TdHc?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-27T14:30:17Z",
-      "likes": 85
+      "publishedAt": "2026-11-27T12:41:27Z",
+      "likes": 26
     },
     {
-      "id": "p_travel_news_1250821838",
-      "title": "Компания Lam Dong объединяет туристический сектор Центрального Вьетнама и Центрального нагорья, спо…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
+      "id": "p_travel_news_3345931683",
+      "title": "Туристические проекты России могут побороться за премию «Маршрут построен» - Ассоциация Туроператор…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Ассоциация Туроператоров.",
       "emoji": "✈️",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcTVFZUEzRXp2aTdIck9lLVZMNDktTTVpRFB3SGNyRUZsS0VGaWRuZlFRN0ZLazJYWGtvNFBVRVpDRGQ0VlJBNXEtclptLTBGWWNkNzg4enZscVZ0UWJpU2FrbzZTWmg4N09VZWFlSHVLX2xJeTF5ZkI2TWJlWkJhejBPZ2JzWXZfM1FQQTJVOFhxbHU2REJEeHMzRkFxcmRvelNGNUFhRnU?oc=5",
+      "sourceName": "Ассоциация Туроператоров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ3d6bVFSMlVEVVI0cUM1d09nV05DT3VnZnN6RUhaTlAteEVrcXgtZjg2TktCXzRSNldoTGYzV2NNSVY3eUgxY2s1QlI3Vjh2bjF6a1BWSGNuc0JPbW4xb21wR3VockptSmFKMXBlaW1IcXJJSEdtRmxUZlpKRFFmTUxkajNBWWwwd1RKQ1ZyZVRrc2FpM3Rsd1ZENDAxZHVvTDE5Nllzb1dJVDl1dFN1aNIBtgFBVV95cUxOaGZqVjR3RC1RUVloWkNwYWduX0g3cTFhVVdCQlBOZi1VeU1NQ3VtMG9fRmkxelF6WjEtdDlPTHRPU0VsTGZwTGRsbGt6MXB2ZmRmYVV1QU1UVDNTczFoYWt6bUVlaE44aFdrY0VKSUJjaUljaGtHdlZzZWpxaHdqdDd0YWlDYnU4T3V6a2tuNnRzNlRJbmQ1UU91UjBYMG5LcVpFZjZJRkg0UTJNcEJ5ZjhRby1tUQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-27T14:28:39Z",
-      "likes": 45
+      "publishedAt": "2026-11-27T11:45:00Z",
+      "likes": 77
     },
     {
-      "id": "p_travel_news_3830799361",
-      "title": "Мурманская область представила турпродукт для китайских туристов - Национальные проекты России",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
+      "id": "p_travel_news_1057179994",
+      "title": "Туристы отказываются от привычного отдыха: названы 5 новых трендов - Cursorinfo",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Cursorinfo.",
       "emoji": "✈️",
-      "sourceName": "Национальные проекты России",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVW1aZk1yeFdlTTdoSldjVmxPQjBKYm5SSVdwNU52a2hQeExGNWlzUDNvT0hVeXRUaVRFMGRzSzg0ODlxVUJrNEtmcTdqUVNXOEVZU2R4UnlZb0NZMlBDRDFXTWVXeTlXRi15SXZiZi1TR2JtS1hyMktGS3JNQlhzaDd1cDAxakhGUXlmUm0zM2x5R0dHVFo0aXRvZVVwdkN6emdQaEM0RXd2Q3RmdmhNdkpLR0lkMm1FM0E?oc=5",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaTNhQkdGNUdwYnVJWE5Ud05TQS1nOFkyMnV0Q0w4UDRfbVpMNGFWSkRMYW81WkUtdGpxcFJENmJ1UkZvdFVCUHNsSktqMk9KTTdxTnNGSjBvWjIxelp6SF9PVGxKcnZUM1B2QV9vOHk5aUpWMjI1SnJjY3pfSG82Q1FoekZ5NlQwVjNmUzVXTUpJNllfS3QzY0t3UV82YW5wcERQOUZB0gGrAUFVX3lxTFBDX0J4SkM3RFBXUVVXODhESXcxcjFwMmZyYlhua21IYkljY1ZCdjRZRlRGSW9MWVNHcnh2MzVKLVJpUktZaG1qRnJVb0g4UjUyTFhLVHlDNVUtMTB0eGM0VHJLR3JYai1kc3VCVEJzVzMwNmRWUmduNGlNTktSNjJNV1lwQkkyc0V5czNjc1pEQnpwU3VEbTVxV2sza29jVTNCN1hhUm0tdkFpaw?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-27T13:19:57Z",
-      "likes": 8
+      "publishedAt": "2026-11-27T11:33:23Z",
+      "likes": 68
     }
   ]
 }

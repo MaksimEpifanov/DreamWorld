@@ -1,9 +1,20 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
+    {
+      "id": "p_gardening_news_717436402",
+      "title": "Завязи осыпаются, а урожая с гулькин нос: какие распиаренные огурцы не стоит брать в 2027 - Правда.…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Правда.Ру.",
+      "emoji": "🌱",
+      "sourceName": "Правда.Ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oaHh0R1NYS3pxVW1FU0k3MzN5c3kzalpWcWFaRzdLVkg2Z0NGYllsOHFtdE13bVp3Y1kwejBtOFRmTUg4T0xUWUpBcXdZcVNqX3ZaNi00TTk4VzlIcXZMQ1J4N0hqbURiTThTRGJWTVQtbzlPOWJ2Rw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T17:56:00Z",
+      "likes": 21
+    },
     {
       "id": "p_gardening_news_1065086025",
       "title": "Вместо \"Германа\" сажают \"Настоящего полковника\": огурцы плодоносят до осени - IrkutskMedia",
@@ -47,17 +58,6 @@
       "tag": "Природа",
       "publishedAt": "2026-11-27T10:23:00Z",
       "likes": 3
-    },
-    {
-      "id": "p_gardening_news_3150732257",
-      "title": "Лунный календарь садовода и огородника на 27 ноября 2026 года - Погода Mail",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Погода Mail.",
-      "emoji": "🌱",
-      "sourceName": "Погода Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42VjJRVWt2bUNzVzhQb2ZwaS05TUoxLV9lSG9KdjByMTZnMThOdDBDMU5PbVJmTExzempYWDBEeFFGcU1fc3RDT3ZOcnFwZw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-27T03:00:04Z",
-      "likes": 27
     }
   ]
 }

@@ -1,19 +1,30 @@
 {
   "planetId": "p_art",
-  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "updatedAt": "2026-11-27T21:11:47.325384Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_art_news_2643214629",
-      "title": "В Калуге открылась выставка «Николай Ге. В поисках истины» - www.vest-news.ru",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: www.vest-news.ru.",
+      "id": "p_art_news_3734572136",
+      "title": "В Твери открылась выставка «Отличники» о европейских путешествиях русских художников - The Blueprint",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: The Blueprint.",
       "emoji": "🎨",
-      "sourceName": "www.vest-news.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xekdfZ01ndk9TN1ppVEhRUkJheG5rWDVyRzNNaXVnczdPdWlvX21oaTJBSHpSWndQNmN6cjN4MERLWnBkMXMwMXVIa0FsNEJrYmc?oc=5",
+      "sourceName": "The Blueprint",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1YXzJvRG1ickpGdFZGR3ZFeDdTUHJGOFVpV2doUm1XYzVaMVFzYW1aYmhFQkRZSXFTSzdBRllCS0ZjaExxZlNCN0RR?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-27T16:37:00Z",
-      "likes": 76
+      "publishedAt": "2026-11-27T17:07:00Z",
+      "likes": 34
+    },
+    {
+      "id": "p_art_news_1966832928",
+      "title": "В Твери и Звенигороде открылись выставки русского искусства - Gosrf.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Gosrf.ru.",
+      "emoji": "🎨",
+      "sourceName": "Gosrf.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVGpQYUpqb3diRDFiam9QWDFTOS1lZUR6RkJpNmpwakVXV1EtOW1fV0tiOWU4RWVLam83T2RHekU4LVIzdkRRdTFOM0lBUkVCVDFSdXNybzdaLVFJTHNSeXB6NUV4aFg2SEV5THhZbjJ1dmNSY2xEbk13RWdORTJuYndqMWh1Zw?oc=5",
+      "tag": "Искусство",
+      "publishedAt": "2026-11-27T16:53:05Z",
+      "likes": 91
     },
     {
       "id": "p_art_news_3833698397",
@@ -27,37 +38,26 @@
       "likes": 6
     },
     {
-      "id": "p_art_news_2259427832",
-      "title": "«Росатом Энергосбыт» открыл выставку «Отличники» в Твери - ГлагоL",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: ГлагоL.",
+      "id": "p_art_news_3786820913",
+      "title": "Выставка \"Москва Златоглавая\" открылась в Музее редкой книги в Барнауле - prospect.com.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: prospect.com.ru.",
       "emoji": "🎨",
-      "sourceName": "ГлагоL",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fVzlTVXJlai1CY3FZYVgwbGRaTDB5dl83ZGR3aEpTaXNrci1FTE1idXlzclUzdlhKQ2pXVHFMb05MY1NoTmxYcXpjQmM2czdCU3ZfeHNQRHpzMHI5QURVcTNycDgtaVdiN1ZBQklpeERUQU56bWpDZ2FyOWpISmM?oc=5",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUm1VWU5Ka1dHZW01YllqazdkaWJ6LVBsS3FuVnBMM2txVnNBMXhzZDJORlUxNjcyVmgyaXJ6V3hFamZhdkR6djFvYlR1S2xMdnAxajhVY0dVQnZ3Wm11c0x0X1Q5TVdCZkp5SC1xS1lobnJRZDNRQ3Y4dlhjeWRQNDNCWVl1amlBN2VEVkF1d1FQOVU3TEhTYWpRWkFSaTJsTFFPenZuUnpsTVlteVhoTg?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-27T15:02:18Z",
-      "likes": 31
+      "publishedAt": "2026-11-27T15:09:25Z",
+      "likes": 48
     },
     {
-      "id": "p_art_news_950381438",
-      "title": "Фотоальбом, две выставки, четыре концерта: события к 100-летию Екатерины Савиновой охватят нескольк…",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: Визиталтай.",
+      "id": "p_art_news_2680415",
+      "title": "\"Мосбилет\" представляет выставку \"Пётр Кончаловский. Искусство жизни\" в ММОМА - Ruposters.ru",
+      "summary": "Краски, свет, вдохновение и новые работы. Источник: Ruposters.ru.",
       "emoji": "🎨",
-      "sourceName": "Визиталтай",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQmxPTUZ5UGlqMm5iV1JfekJrdzA3dWdiVmNvN2tPNUVvQWtDRUIzZ0ctZ2lzbXhjVFZuNExkcEtPNjlDOEdlZUY3S011WWJjVkE3a1JwUldWRm5hZS1lMXFNVXNiNGFhU0MwU0hfMThobzJXT3ZITVd5UVRwdXE1Z3VVaHA1aEI5eGw4WUpzeUZMNUdURzgwZkVFYkp6R1hZOGw3UzladTRoT296ZE5DQWl5MV8wY2lwOW43YmowNkpYMkpFRDRJTjFn?oc=5",
+      "sourceName": "Ruposters.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSUMtajZuZUc0ZW8yWFVxXzc2YVhMSU1qV05zMUhVNGx0aWd2d1NVeTNyanNNNXFlMWNBQ1FkQXV6YWRSMnl3Y0t1ZE9pSV92OEFlb0F1SFZzdWN3eXBRVDJBSnBXX2lVeFh1cF9OVFBoZERnQ21Ia1BzTTdVZm5DcWhqMk9CdmVUNkFQZ1huSFBlN01peXQ1d3VMRHVacGhVYmZwYjFIZ1pFWFA4NU4zVg?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-27T14:50:03Z",
-      "likes": 90
-    },
-    {
-      "id": "p_art_news_1255589603",
-      "title": "В Алматы открылась выставка произведений казахстанского художника Мухита Калимова - GOV.KZ",
-      "summary": "Краски, свет, вдохновение и новые работы. Источник: GOV.KZ.",
-      "emoji": "🎨",
-      "sourceName": "GOV.KZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtdW9qSjA2OEdKa1IzZjZXd25pNUR1TU5xRWZ2QWlXWFo0aEtaQVZVc2gzdWwzZEZSQzNKS1VWcVk3UHNySmQ2XzM3NU5JVFBIY2ZKSzZLLXBwUC14SHN3V09UVVpGUmRvMHhfUmd3?oc=5",
-      "tag": "Искусство",
-      "publishedAt": "2026-11-27T14:36:03Z",
-      "likes": 37
+      "publishedAt": "2026-11-27T14:19:10Z",
+      "likes": 42
     }
   ]
 }
