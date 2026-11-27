@@ -46,7 +46,15 @@ class WebVoiceRecorderService implements VoiceRecorderService {
 
     web.MediaRecorder recorder;
     try {
-      recorder = web.MediaRecorder(_stream!);
+      final String? mimeType = _pickSupportedMimeType();
+      if (mimeType == null) {
+        recorder = web.MediaRecorder(_stream!);
+      } else {
+        final web.MediaRecorderOptions options = web.MediaRecorderOptions(
+          mimeType: mimeType,
+        );
+        recorder = web.MediaRecorder(_stream!, options);
+      }
     } catch (error) {
       _stopCompleter = null;
       _cleanupStream();
@@ -82,6 +90,22 @@ class WebVoiceRecorderService implements VoiceRecorderService {
     _startedAt = DateTime.now();
     _recording = true;
     recorder.start();
+  }
+
+  static String? _pickSupportedMimeType() {
+    const List<String> candidates = <String>[
+      'audio/mp4;codecs=mp4a.40.2',
+      'audio/mp4',
+      'audio/aac',
+      'audio/webm;codecs=opus',
+      'audio/webm',
+    ];
+    for (final String type in candidates) {
+      try {
+        if (web.MediaRecorder.isTypeSupported(type)) return type;
+      } catch (_) {}
+    }
+    return null;
   }
 
   String _describeStartError(Object error) {
