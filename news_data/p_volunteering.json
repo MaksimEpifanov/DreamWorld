@@ -1,63 +1,63 @@
 {
   "planetId": "p_volunteering",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_volunteering_news_1404830908",
-      "title": "Неделя добрых дел: волонтеры БРСМ помогают тем, кто нуждается в заботе - Газета Светлае жыццё",
-      "summary": "Помощь людям, приютам и природе. Источник: Газета Светлае жыццё.",
+      "id": "p_volunteering_news_2950736165",
+      "title": "В Мурманске ищут волонтёров на форум - Severpost.ru",
+      "summary": "Помощь людям, приютам и природе. Источник: Severpost.ru.",
       "emoji": "🤝",
-      "sourceName": "Газета Светлае жыццё",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWXpoTFFiOXAzRnRzZ254bEg1LTZHbzVUQnNPMTdoN2wtYzdvb1lwWE1ERkk0Tmo3TS02TjNmUEhOTGZSb1VUOHNGQVpwRUtmTGZ6SF9sN3p5TWszcjk2NzZGcTVPY25ZLV9Qa0xUbnZpbEZIZHdzQjFsQXFNYmg3VXNFQWY2ZXdRMjM4cnhrVE5uTkRaLVVQbnRNUm1sRFZ5a0lPOVBWeFBrdw?oc=5",
+      "sourceName": "Severpost.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE54QkNCdUdlX0VLS25xeHB6NzNmUXVhaDZ2T0VjX3FtWHRMODk4aHMzb0Q3QnZTWWRnQ3cxWlpHNFB2QzNDTldmVw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T15:24:15Z",
-      "likes": 59
+      "publishedAt": "2026-11-27T15:45:00Z",
+      "likes": 17
     },
     {
-      "id": "p_volunteering_news_599566295",
-      "title": "Технологии и милосердие: в Твери обсудили помощь нуждающимся - Tverlife.ru",
-      "summary": "Помощь людям, приютам и природе. Источник: Tverlife.ru.",
+      "id": "p_volunteering_news_4174830920",
+      "title": "Стали известны победители конкурса «Чемпионы добрых дел» - Милосердие.ru",
+      "summary": "Помощь людям, приютам и природе. Источник: Милосердие.ru.",
       "emoji": "🤝",
-      "sourceName": "Tverlife.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSGlxMlhMb3dsQTcxT0VRcXZEV3diUDJibGotWk1pV1ozNWI0bWN2clRYbmY1VzZKTFBhV3ItR0ZJT3QyQnJ2anNqUTlHYnVXZHVsRDVRdEdnNlBDMnNPNnNhWVBXeHM0THdYc05mLWdZbWdLM0Z3Z1dUWW0tZU81OGNaNVV6SWtYdmJDQUhQOWpWWGEwWFlz?oc=5",
+      "sourceName": "Милосердие.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeFFvTE0xTjRaVTllSUM2WkhFQzNDbVhsbG84RGZYX1VsN3gtQmJUVHlyNThXWlc3dkc3bi04dmwxTmJULVE4WFhhTUE3R2diV1Z1bzJfbElnMkZaYnFJY01fbE12dHo2RVlYb2JiZWUzenBqR1U0WnJrcF9rNUpMZmZCRzM1dHAyV1BRNUF6VHI3czZpRmfSAZYBQVVfeXFMUHhRb0xNMU40WlU5ZUlDNlpIRUMzQ21YbGxvOERmWF9VbDd4LUJiVFR5cjU4V1pXN3ZHN24tOHZsMU5iVC1ROFhYYU1BN0dnYldWdW8yX2xJZzJGWmJxSWNNX2xNdnR6NkVZWG9iYmVlM3pwakdVNFpya3BfazVKTGZmQkczNXRwMldQUTVBelRyN3M2aUZn?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T13:18:19Z",
-      "likes": 69
+      "publishedAt": "2026-11-27T13:40:00Z",
+      "likes": 42
     },
     {
-      "id": "p_volunteering_news_3548627170",
-      "title": "Служба помощи нуждающимся «Милосердие — Казань» проведёт собрание добровольцев - Татарстанская митр…",
-      "summary": "Помощь людям, приютам и природе. Источник: Татарстанская митрополия.",
+      "id": "p_volunteering_news_300487000",
+      "title": "«Утрамбовали битком, наделали дырочек и сбежали»: волонтеры назвали самую бездарную категорию волго…",
+      "summary": "Помощь людям, приютам и природе. Источник: Блокнот Волгоград.",
       "emoji": "🤝",
-      "sourceName": "Татарстанская митрополия",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wN2pQbV9vS1NkOTkxTFNRbWpXZkVCSVpqRU13WGVfOTRmWDFpWDFnSl92MkhLOGtJVWp5dXlIUk5qdHlabGhwUjR4QlBuaEppRnNodjczczR0WExTTDBkdXdLdGRqQQ?oc=5",
+      "sourceName": "Блокнот Волгоград",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZnF5emQtQjJjOXdRUERsMVNWS3FhVzJYNUtMbEpYYklqTUVsMGJGMGNZN09aS3kwWXhra0lpcUF5TDdDRjdwcjdJQkVUUU5kcUl1UTFsc19vYWI1NDFCcGo1eVBxMlIxODVHSDBkN0ZfaUEweXZ6QmNYbFRiTy1pdG9rTjhHbXRPdnVoQ3lpWnFBZUxuUWl3?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T11:52:12Z",
-      "likes": 41
+      "publishedAt": "2026-11-27T11:52:16Z",
+      "likes": 74
     },
     {
-      "id": "p_volunteering_news_711014513",
-      "title": "Доброволец Евгений Григоров из Пензы: биография, помощь Матвею Гурину, благотворительность, фото -…",
-      "summary": "Помощь людям, приютам и природе. Источник: Пензенская правда.",
+      "id": "p_volunteering_news_2524218921",
+      "title": "Форум и награды «Доброволец года» пройдут в бургасской библиотеке 5 декабря - BurgasMedia",
+      "summary": "Помощь людям, приютам и природе. Источник: BurgasMedia.",
       "emoji": "🤝",
-      "sourceName": "Пензенская правда",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBheklzUmNmcWowOUhuQUJ5eFdrZ2ZENVo2amRMLUd1Q1kyeWtzaWxrWFU5aVlfdDlLVnp4dC10TzJiMWpZUmVZZkhyRDYta3NUalZCZGVjaU5SUzFvNXZiTFJPTmp3a1dMNlBMRHd3ZG0xamdLX3c?oc=5",
+      "sourceName": "BurgasMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMG80aEhyRWFHTEZGaG9BM3dYT2N4OUd5SUVKQzR3MlBCVFpidU9ZYy0tWDdONmVsYlRMc09WeEwwaUpEWFRScEZjNGktM0hqVE93ZGh1UDA4NmQ4b2lOYWlNa1lVVk1QbVJ5d1RTb2hFbHI3dk56aUlLc0hqLXY2U3F3VjMzLWtxcXg3UWlXeHFsZnl6V1RGVkxjcVBsOWozRjdpOWppU2pUTm9KNDBieC1sSdIBuAFBVV95cUxNM0pVeU9VVDE2RU55QUl6R0E0TUIzZ1VnR25BdXNWVGVkSUtpWVFYd0tNenh1cjlYZXZuTVAtS1B5SlRLWmwtdWF6VWlkS0ZMNlRJdnRGYWVPMm05Q3JQYVhrRXpWbVZVT3BVMDZGUk9pT1E1ZnRsazJEWFcwTUZybWZmd2NRWDliZEpPSHFFR3dVeUVpMGc4eldscnVrMjZFVTRUYlVUWm1ZVGRYR01TNGdSRHVfc0lv?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T10:15:46Z",
-      "likes": 37
+      "publishedAt": "2026-11-27T09:59:32Z",
+      "likes": 34
     },
     {
-      "id": "p_volunteering_news_2171565647",
-      "title": "Поддержать бойцов СВО и помочь подопечным фондов: в Москве начинается зимний благотворительный сезо…",
-      "summary": "Помощь людям, приютам и природе. Источник: mos.ru.",
+      "id": "p_volunteering_news_467549089",
+      "title": "В Мурманске ищут добровольцев для форума «Музейные маршруты России» - Newsroom24",
+      "summary": "Помощь людям, приютам и природе. Источник: Newsroom24.",
       "emoji": "🤝",
-      "sourceName": "mos.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GaUMxSGxXSmtzVEhuNFhULVEtNFhJV2xBRjE5WFc4YmRQY1UzNlZqWS1OQUVOVmc4X3ZscVhSOVpfeUp1dVFpX2hTa0hSY3Bi?oc=5",
+      "sourceName": "Newsroom24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZzZQMEhtX0lqWFBxTVJ1MHRCdWZkVGdnQ1dkQkFvamJUVDNpVnVhQWJ0bGVybWltUGk5Z0pxcXprVE56V0JNYzFNQUdMZnh2eFJ2V2pMcEdzOUJzdlVoWW0tTEVzRlRU?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T06:55:03Z",
-      "likes": 69
+      "publishedAt": "2026-11-27T09:12:02Z",
+      "likes": 43
     }
   ]
 }

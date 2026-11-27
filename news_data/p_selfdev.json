@@ -1,63 +1,63 @@
 {
   "planetId": "p_selfdev",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_selfdev_news_2909340717",
-      "title": "Восемь самых продуктивных пород кур, которые несут до 320 яиц в год - Новини.Live",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Новини.Live.",
+      "id": "p_selfdev_news_147130977",
+      "title": "Поддержите яичную продуктивность кур зимой с помощью рыбьего жира - UGRA.RU",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: UGRA.RU.",
       "emoji": "🚀",
-      "sourceName": "Новини.Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUcyeGZBYXdtZlhYamU1aEkzYjhzSVZ2VGd1NlItNGtZYWdDdFFfTUpEc0YzLTIxWjhpTXlPckZNanZjVVlxVWIxR2lzVDNVdnRiRU9Wb0dPakszQ2p4dEh6c3drVHJJOXVCLXh3dFEtUU44STVpWk5VNmw2VWo0Z0tvSXpXakQ3SGwxRDFNaWx0T01SU3VNVWx0NEJxMDFJT0h2T09jbkVwUVpuMXJSTTBaUndfUkVpR01LSlVB0gG-AUFVX3lxTFBVRzJ4ZkFhd21mWFhqZTVoSTNiOHNJVnZUZ3U2Ui00a1lhZ0N0UV9NSkRzRjMtMjFaOGlNeU9yRk1qdmNVWXFVYjFHaXNUM1V2dGJFT1ZvR09qSzNDanh0SHpzd2tUckk5dUIteHd0US1RTjhJNWlaTlU2bDZVajRnS29JeldqRDdIbDFEMU1pbHRPTVJTdU1VbHQ0QnEwMUlPSHZPT2NuRXBRWm4xclJNMFpSd19SRWlHTUtKVUE?oc=5",
+      "sourceName": "UGRA.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObmZlUEhYYzdIWGdBRnFaWW42NEtpcnlCa1lnNUs2dUtNYXcxN2R5ckYza0xKeHJ4ZVVGZndTeV9mZjNBY3BhOFhlTU9aTk9ENUh0YjlqYkpYaDJ5N3FVaHpMNlhSSWtVMUltVV9UZVRFb0ZnV3dDeEZzZ0ZZRjBtbTVXbjJibHNNTXU3dVZtOXhud3g2ZWxTandtdXJqeERFRG9aWGRSUVJOQQ?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T17:49:00Z",
-      "likes": 75
+      "publishedAt": "2026-11-27T15:00:00Z",
+      "likes": 19
     },
     {
-      "id": "p_selfdev_news_1953392692",
-      "title": "Anthropic представила инструмент Claude Ship для проверки ИИ-кода и повышения продуктивности - iXBT…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: iXBT.com.",
+      "id": "p_selfdev_news_53055169",
+      "title": "Любовь мешает учиться? Почему в начале отношений падает продуктивность | ОТВ - Новости - obltv.ru",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: obltv.ru.",
       "emoji": "🚀",
-      "sourceName": "iXBT.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDJuYTIxWG82cEZFclh6MHZHeEZEbmtYVmZtNUl6eG9vTTJvZVBnLS0zbS1FdGJKdVllRm9PenVLNmo2Z2VSNXFPbmRqTGJzbFJmbkI3Ukt0Nnl0VzBFMFZaTV80V3dKck0wTWctQ0NtRzd6dEZGSmRQd2tGcW5wcDJTX254NVZ4QlJSTVNLdUZYaHpmNkRsN0loTkx2QUpMTzRQLUhaSUhsekg5NThDZ3M1RnNMa2xGOHZydXJPTlEzRVJsYnhCeNIBzgFBVV95cUxQemxnZ2VLQXl0VFk3aVo1V1hNRERaN3YyTkl5XzRSZW1xbXpNT19DdE9sYTk0VDlEa04yMjFtc1IyYjR3NmJhamVnTmF6VVZFZmZPVWtNTUlvLWdrRmxtR0UtZGk0MkNLbnpFLTBuQzNMMlp2VC01VXJGSlBPeEU2anVYUFNlaE5ESE1xU1lBbWk3N2NPMGJBeWpTcXAtWm1zVkRHRXF4cjNVNlpxX19ab3RicHFJRDJmX2s0MHZjUGc0UmVHNllYeEhKV2lCUQ?oc=5",
+      "sourceName": "obltv.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaEk1OFE0WTl5T1k0aUhzRG1pZHV4UDVnUmU4Q2ZqbkRkdXBGVzY5bzB5aGZ6Z3VMMy15bkpndWtmTnprMmVMTTRMWDJMMDdRTzVlRF9lemplTzBOLXgwbDhiS0lTb0lVbk52RTlyalM5T2J0ZXVwRDZ6N3BKVFE3VHk5SndBaVlqTlVPWEU3SDN4V0o0emFJMHJhSUJLMmVuM2R3?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T14:19:37Z",
-      "likes": 71
+      "publishedAt": "2026-11-27T11:31:17Z",
+      "likes": 76
     },
     {
-      "id": "p_selfdev_news_3686596106",
-      "title": "Командный коучинг: отличия от индивидуального и когда он нужен - prospect.com.ru",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: prospect.com.ru.",
+      "id": "p_selfdev_news_448395215",
+      "title": "Марс в Деве: время для целей, продуктивности. Девам новые возможности, Стрельцам — карьерный прорыв…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Meta.ua.",
       "emoji": "🚀",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWVocUw2UDdua2kxb1FUTjlERVdidnZyRjNNZ1FlWl96N3d4WFFJUDhKYTlzZVd3Vy03YTRSQnhvVmRaTnl1OXYtUGRLMFphQzl4YlVZdEl2WG1XRW00cWk4cnBlZUc2VlpTY2dxSFFDZGFxM3RyM2F1MkMyTG9ZUzZQN2MtdlFDUU8zMmpaNm1yOFM5N3dFbWd6Rms2R3hmbjJKQkhmRUM?oc=5",
+      "sourceName": "Meta.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeXVxMFp2Z19nVWZ3TzRQb05ZdF8yRWdjanNkYXJzdHl6aTM5eEUtZUk4Z1hEdjhuNmZXWEZDNC1OU2t3eEFVcGtqam1WTm9LZkJqaG1QRXpKOXBxcE9OSkJMRllJRHh2YXVNZE14Mm9uWV9Sc3g0MEtKLXZtTmhDOEFjZ1liNTFTZjQwTGdBRllmLXpIN1RlQlNXY2d4MllTajRaNy1LUDEwaWR1Z0lRcndORi1KYVBqaVVjN09lTDR2Q2Y5eEJVTDlFTng2ZHha?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T10:22:17Z",
+      "publishedAt": "2026-11-27T08:39:00Z",
+      "likes": 57
+    },
+    {
+      "id": "p_selfdev_news_234155238",
+      "title": "Система продуктивности готова на 100% и работает на 40%: что я понял, став руководителем - Хабр",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Хабр.",
+      "emoji": "🚀",
+      "sourceName": "Хабр",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aT2VuOXAtb1RUUzk0SUdoZGVKcFlla1ZTQkRFOFdla0RTOVZkc0RfYTd5dVl1anlLT3EtdExqVkZjMU9BY0d5am42SE13dm16aThheW9XaU1WZlZVVm5UZTVXQXBPbG_SAVhBVV95cUxOOE5pdGFvd0FLNlJTYThGVWNxM3NBclBaSV9URXh4V2FYLWRqN1A4Y25McFFjVERnU29udVQtdTU2Y0V6Ukx6YktCV1ZhSy1OWm9FdG8xVzdE?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T06:28:57Z",
+      "likes": 34
+    },
+    {
+      "id": "p_selfdev_news_2941660165",
+      "title": "В Вавиловском университете разработали новый способ изготовления кормовой добавки для повышения продуктивности и сохран…",
+      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Поиск - новости науки и техники.",
+      "emoji": "🚀",
+      "sourceName": "Поиск - новости науки и техники",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQeFZZbmJ0SHNoU3ZlTEstZlRRTEFuWFRlODhhWnRHMzBleDRaZ241NDRHU0taOWs2d0l0QXI2Uk5VLVJKV3VaR3RpbGxhV0gyTlRySlpOLU9POEFKcTdnLTQzRWktM3JMWTl2dkljYlV5SFR4QzZRdC1PcjEwak9Va0FVenhDSW5Cdy1NWWpwQjZtR292Q2l2SmxHRXZfaTN6SUZFZXlZQTBSd01ldklBeUpuSjhpTm1mTEN2aXBVT1YwOE5DQVprRjB4d1lGcEVyaFUxWXByZlVxeUtQREl4NHJfZUZ5NnBQRnZ3eEhfVkg5THU0LXJWMTBTWTQ0T0tFN25Xd295MEU2Qm5fZ0p3?oc=5",
+      "tag": "Книги",
+      "publishedAt": "2026-11-27T05:38:47Z",
       "likes": 84
-    },
-    {
-      "id": "p_selfdev_news_225966855",
-      "title": "Топ-менеджер Юрьев: 29% москвичей считают работу из дома более продуктивной - Дзен",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Дзен.",
-      "emoji": "🚀",
-      "sourceName": "Дзен",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5iclpqX1p1MlhkV0RYV0ZUd3JqUjhFdlFjUnlZUlM5cHJTZ1Y4WlFYb3QtMGU1RVNBbmtHZ185STdvZzc2MkV1d3Zn?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-26T03:13:41Z",
-      "likes": 11
-    },
-    {
-      "id": "p_selfdev_news_1155522243",
-      "title": "\"Новые технологии, креатив и саморазвитие\": Представитель батальона имени Мусы Гареева о преимущест…",
-      "summary": "Привычки, цели и маленькие шаги к большим целям. Источник: Bash.News.",
-      "emoji": "🚀",
-      "sourceName": "Bash.News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRTN5WmR0NTlMTXJYbTJXdE1hTW1TTlNfcm4wZGZNZ3psakxoT2QtWHJqdHh6d2N0ektFdGpEVkZzS3N0WUJEX2djWllMZ0NPNGlUaWdiZ2FnUVdTajFZYTFGT2YwRGlUc3pEdVJybzVRRTE2R1d6VFJTRmFfZl9lRTV4Z1JkNGtGMjRSYkZwYl9iWmhIdkJHa3h5dWVsM2xId1hVZ1JZcTBKLTBjaFBSdjk4NXd6QUlKdG9NMEo1d3Q1X29Tc3RESHlRaXJJLXM3WUFTSWhfWUlYbE1uY0NZT2F2Vk5JWVIxNWdjN3Bmckd2dXBzeHFn?oc=5",
-      "tag": "Книги",
-      "publishedAt": "2026-11-25T21:40:00Z",
-      "likes": 52
     }
   ]
 }

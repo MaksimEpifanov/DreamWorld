@@ -1,63 +1,63 @@
 {
   "planetId": "p_travel",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_travel_news_716020831",
-      "title": "«В поисках Аленького цветочка»: в Самарской области появился необычный туристический маршрут - Ново…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Новости Тольятти.",
+      "id": "p_travel_news_1136524743",
+      "title": "Промышленный туризм на Урале: металлургические заводы становятся туристическими объектами - news-as…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: news-asia.ru.",
       "emoji": "✈️",
-      "sourceName": "Новости Тольятти",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMm9MbUdRN2VHNkp6alRacjJvX1BoY0RvWUd1U0dEbjViTkRXazNXNXp5aTFQZGZtTlZGeXdaUjN0dEZOb0NRUzhWSVRsTmxjZ1lLTV9lcV9PZWVjaVFOUUVNS3hOb1RKOUtBeHVFMzNIRWN4UmpEUXhQR2EzLUJpb19CdE9uWU5hN25jcFZ0aDR2ZTVOdHctM0tVTjM2UzBMLVBPWGN1UDFNNk5nQ1dzT3lFSjViOXZMakE?oc=5",
+      "sourceName": "news-asia.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzdoeWVheElSLWxKTFpGRUpHcV9mZGIwUTRRa2hfZmo3eTdZa0owUUZHSU5YQnBwTEtiZWFFNWRZa09pLWF0NmlURkp1UWVoaWtYdDFpRGN6ZDVDWGJNeUxPQW9UMEpyb0djc291S2RMdWhPOGdFZ0lMV2trNU5uUF9GTTYzbUdYeWdod1ZXNFZCbll2TnZSTzR6ZmRwZklsRWYtQy1FaEtWelI2bGF2aEM4MlM5cm9S?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T17:53:30Z",
-      "likes": 82
+      "publishedAt": "2026-11-27T16:27:59Z",
+      "likes": 65
     },
     {
-      "id": "p_travel_news_2146548730",
-      "title": "Медленный ритм, глубокий смысл: новые сценарии путешествий по Азии, где важен не комфорт, а опыт -…",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: prospect.com.ru.",
+      "id": "p_travel_news_2286099714",
+      "title": "В Петербурге запустили путеводитель по маршрутам и событиям межсезонья - Вечерний Санкт-Петербург",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Вечерний Санкт-Петербург.",
       "emoji": "✈️",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWThzOERQRml1M1dNMTVmR1VrYVRMOEVHSWpuMEhfUnBDUjZCUnd3R1FkdjR0XzkwT0JISXY0VzJMbVBPeXJ2aGJsSTBkYTVlSGRfSzNYYVN5UGJ2Z0JqYXF0UEthNmNDNXR2SEtRTEk2dW82OGxLNWxoSjZWVkJiZmJrT08yV2dzMDA0UG9laGV4N2pyT1BrVlpFQ1gwdkh0V2J6UG5JQlJkLTlxNGRnMDhuYXk5cV9henJ0LTNCcUotMmREVGtvcjVJaldoR3VwMnc?oc=5",
+      "sourceName": "Вечерний Санкт-Петербург",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT1VQTGRnNkxaX1M5VnhhRzhJNjJPNXFJUW85eThzSEViRmREU2JoQUVfUTlubV9fWGYyb1BXUlRneElkYnBEX3EtdDhEeEVKTjF0cVgwSzdsVUgydk9lYktTNzFwQzFzMy1COUtOTWlDY2NqZW1TUExQVUNDalBObHIwOGJhLURRcVJEOTNlYWltbUVHY0hoNWY0R2d1YWU1aXhVRjhjUzZWb0E?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T16:51:32Z",
-      "likes": 52
+      "publishedAt": "2026-11-27T15:45:32Z",
+      "likes": 5
     },
     {
-      "id": "p_travel_news_3170060226",
-      "title": "Старейшие заводы Прикамья открылись для туристов - Про Город Пермь",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Про Город Пермь.",
+      "id": "p_travel_news_202703250",
+      "title": "В Мурманске мамы в декрете осваивают городские маршруты с экскурсиями - www.mvestnik.ru",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: www.mvestnik.ru.",
       "emoji": "✈️",
-      "sourceName": "Про Город Пермь",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWXhnX3B1cU0tVWhLOVo2a3VsY25zMXZPR2dFVjB6ZkRfUERsYzVxeERqdkdZb1RjT05EcUdfMUo0YVgzUkk4Y3J2UmNtLXBsc1d3TFhrUGVwTW1VV3cxOV85LUZKWWV3QlhvMnlneGxIcnpocTYtQ3VGUkJMZ3otSFRZWlBPams?oc=5",
+      "sourceName": "www.mvestnik.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFZFRVJJRVVhMW00XzFGSnlWbHJaNjRmaVF1Y0UwdGhnSTFyRTFJV1FvVVBPejRrZXMtTnVYNlc5aHNZN3RwODJfbmNTNWREVGJKTlJfVVFNa25teVNNN2EtYTFaOUc4OFp3ZHFkWFQ2b0syV3lQNUY4ZmRsd2hVN1Jhc05lMXhsSVBfV01INTdsckZCZmcteTN1eEpFZUZtNm5tSkF2c3RmQQ?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T16:48:24Z",
-      "likes": 70
+      "publishedAt": "2026-11-27T14:30:17Z",
+      "likes": 85
     },
     {
-      "id": "p_travel_news_1243623337",
-      "title": "В Кировской области открылся новый туристический маршрут с аудиогидами - Киров Град",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Киров Град.",
+      "id": "p_travel_news_1250821838",
+      "title": "Компания Lam Dong объединяет туристический сектор Центрального Вьетнама и Центрального нагорья, спо…",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Vietnam.vn.",
       "emoji": "✈️",
-      "sourceName": "Киров Град",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUNvOHYtbXl6S1p1NVgyQkp6ZnhWU1lybWdleUNrUkpiTllnQnZZWjQ1SGZVYmNhNlhheWVwOVRDUGI1NTNSOU9QSTZPTHhxYnVEUkMxNVhqc28yd1NFZ2JySmlxbWVCcTk5dTE5TlVydVRqWEZROS1XQ01BYzNON3gtT1dtVUZZa2hiRmZjRmFtdEZrMm1tazVvbTBPaHFnbkJN?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcTVFZUEzRXp2aTdIck9lLVZMNDktTTVpRFB3SGNyRUZsS0VGaWRuZlFRN0ZLazJYWGtvNFBVRVpDRGQ0VlJBNXEtclptLTBGWWNkNzg4enZscVZ0UWJpU2FrbzZTWmg4N09VZWFlSHVLX2xJeTF5ZkI2TWJlWkJhejBPZ2JzWXZfM1FQQTJVOFhxbHU2REJEeHMzRkFxcmRvelNGNUFhRnU?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T13:47:46Z",
-      "likes": 37
+      "publishedAt": "2026-11-27T14:28:39Z",
+      "likes": 45
     },
     {
-      "id": "p_travel_news_3893087161",
-      "title": "В Кировской области открыли маршрут «Уржум: сказы и образы родной земли» - 1istochnik",
-      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: 1istochnik.",
+      "id": "p_travel_news_3830799361",
+      "title": "Мурманская область представила турпродукт для китайских туристов - Национальные проекты России",
+      "summary": "Далёкие страны, архитектура и дороги, что ведут к мечте. Источник: Национальные проекты России.",
       "emoji": "✈️",
-      "sourceName": "1istochnik",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSd3dHeHlvNkpjYnVUV3ZLWlllSE9TbXRjcS1vajNvTE5KZGlla25KNy02RThRbVpNVGx4TFczQXh5cGdtaU9xVA?oc=5",
+      "sourceName": "Национальные проекты России",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVW1aZk1yeFdlTTdoSldjVmxPQjBKYm5SSVdwNU52a2hQeExGNWlzUDNvT0hVeXRUaVRFMGRzSzg0ODlxVUJrNEtmcTdqUVNXOEVZU2R4UnlZb0NZMlBDRDFXTWVXeTlXRi15SXZiZi1TR2JtS1hyMktGS3JNQlhzaDd1cDAxakhGUXlmUm0zM2x5R0dHVFo0aXRvZVVwdkN6emdQaEM0RXd2Q3RmdmhNdkpLR0lkMm1FM0E?oc=5",
       "tag": "Путешествия",
-      "publishedAt": "2026-11-26T12:00:00Z",
-      "likes": 80
+      "publishedAt": "2026-11-27T13:19:57Z",
+      "likes": 8
     }
   ]
 }

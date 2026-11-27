@@ -1,63 +1,41 @@
 {
   "planetId": "p_other",
-  "updatedAt": "2026-11-26T16:55:40.443244Z",
-  "source": "bing-rss",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
+  "source": "google-rss+bing-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_other_news_1240198456",
-      "title": "«Хобби — это социальный лифт»: почему бизнес выбирает падел и триатлон",
-      "summary": "Необычные увлечения и темы вне списка. Источник: RBC.",
+      "id": "p_other_news_4019635932",
+      "title": "Никто бы и не подумал: Джон Траволта удивил своим необычным увлечением - 24 Канал",
+      "summary": "Необычные увлечения и темы вне списка. Источник: 24 Канал.",
       "emoji": "✨",
-      "sourceName": "RBC",
-      "sourceUrl": "https://www.rbc.ru/radio/25/06/2026/6a3d88fa9a7947749da019b8",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUTRZaWRDU1JWMHNRTm9FeHcwVEFWZUJFMnZuMTNkYV93bEJGU2NSUk1mblJxalQ1akhjMzcwcElJSVMzaXFmbHZXWlZNOC1wNF9hajgyUnVlTjJxblJGSkZkbl9tWDE4bklqNV8zdkpYdTBXNHlwMUp2OVlwMGo3aUdjckY4MHptQ2JMNl83ajFsMjg0dkJXT2pWUTFpT2N5ZDVoTVZMMVc1NHJBb21WYmFCQ0V3SzBYdVg00gHAAUFVX3lxTE02WTNFZkRtOW9HVE0weHZjakQzRm5EQ1J6Zl9ZNk82UWVYS2QtSGJoNlVrcDRqRlFvdkgwY0xoSVgySURTRFJKS3l3a0dKSmg4QkhGckU0UlZ6bkxfNGFBampCODBpSDNfTnRXQllhQU1Jdzg1bVkzU2VOajYyRVBWTkVoUjYyRjBqVlRzVC1HTE5nanNtRHRIU3BFMExuTmhfd1ZJR085QlI2dVNZckF5cTdfYnF3eDZ5dmNHWFJmSA?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-06-25T13:04:00Z",
-      "likes": 65
+      "publishedAt": "2026-11-27T12:06:00Z",
+      "likes": 23
     },
     {
-      "id": "p_other_news_1886400431",
-      "title": "Чем заняться в свободное время? Хобби в домашних условиях",
-      "summary": "Необычные увлечения и темы вне списка. Источник: myJane.",
+      "id": "p_other_news_2950245046",
+      "title": "Дерётся на ринге и таскает львов за гривы: необычные хобби 61-летней Екатерины Андреевой - 78.ru",
+      "summary": "Необычные увлечения и темы вне списка. Источник: 78.ru.",
       "emoji": "✨",
-      "sourceName": "myJane",
-      "sourceUrl": "https://www.myjane.ru/articles/text/?id=25059",
+      "sourceName": "78.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZDNjSjkxc3d4WTRZRzZzTUhyLVo4V2JIcS15SlZITnIwcWt0Sl9XSElOZVd5dEhkVTVhMC1iSG9yQVR4UzdxVWZ6RkRrMEtjTlVIX0xDX1pSb3RqUDJvZmwzTks5SVdDR1M2TGRBWm5SUERqZ2t5dDh3cjl2N1Q2Yl9SUHBTQjNRVUZhYS1GMkE1WHA5OUxDT21QMEpMd1J0eXFYb2dEeHByMUlJaWxsMlc5WEE3TzJpVzFyM0lwdWpqR1HSAcMBQVVfeXFMTmQzY0o5MXN3eFk0WUc2c01Ici1aOFdiSHEteUpWSE5yMHFrdEpfV0hJTmVXeXRIZFU1YTAtYkhvckFUeFM3cVVmekZEazBLY05VSF9MQ19aUm90alAyb2ZsM05LOUlXQ0dTNkxkQVpuUlBEamdreXQ4d3I5djdUNmJfUlBwU0IzUVVGYWEtRjJBNVhwOTlMQ09tUDBKTHdSdHlxWG9nRHhwcjFJSWlsbDJXOVhBN08yaVcxcjNJcHVqakdR?oc=5",
       "tag": "Игры",
-      "publishedAt": "2025-09-22T01:00:00Z",
-      "likes": 17
+      "publishedAt": "2026-11-27T10:55:16Z",
+      "likes": 80
     },
     {
-      "id": "p_other_news_2063185312",
-      "title": "Лера Кудрявцева показала необычное увлечение 6-летней дочери",
-      "summary": "Необычные увлечения и темы вне списка. Источник: muz-tv.",
+      "id": "p_other_news_4208415375",
+      "title": "Где в Минске прокачать харизму и освоить новое хобби – собрали самые интересные курсы для взрослых…",
+      "summary": "Необычные увлечения и темы вне списка. Источник: Blizko.by.",
       "emoji": "✨",
-      "sourceName": "muz-tv",
-      "sourceUrl": "https://muz-tv.ru/news/lera-kudryavceva-pokazala-neobychnoe-uvlechenie-6-letney-docheri/",
+      "sourceName": "Blizko.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPem9FTTFyNjNjQ0dPVS1LZ0JQS1VqckE5ay13cWhqU2xka1RHR0lyVjlpX0YxekJuNnNYck1udVI1cnpPNTRyR1FRVHgtQVZ4NEVGREl0ajBwTVpLNU5JdG5lcWtsME94MEtELS1WeVprSzFLb2o0aTd1d0p3OXBTNXVBMWlyeTdqZnBvMkVwZzNLVW12SlB2T2VhMDFiZ1dDZ2F2eUpqZXZLczZHVS1uREZ3T2ZmUWgwOElhRUxBVmxEZw?oc=5",
       "tag": "Игры",
-      "publishedAt": "2025-07-18T23:49:00Z",
-      "likes": 11
-    },
-    {
-      "id": "p_other_news_2598521672",
-      "title": "Марафон «Комсомолки» о самых необычных хобби россиян стартует в «Одноклассниках»",
-      "summary": "Необычные увлечения и темы вне списка. Источник: Komsomolskaya Pravda.",
-      "emoji": "✨",
-      "sourceName": "Komsomolskaya Pravda",
-      "sourceUrl": "https://www.kp.ru/daily/27665/5016372/",
-      "tag": "Игры",
-      "publishedAt": "2024-11-25T21:55:00Z",
-      "likes": 49
-    },
-    {
-      "id": "p_other_news_2224831412",
-      "title": "Необычные увлечения: хоббихорсинг и квадробинг набирают популярность в Хабаровском крае",
-      "summary": "Необычные увлечения и темы вне списка. Источник: KP in Khabarovsk.",
-      "emoji": "✨",
-      "sourceName": "KP in Khabarovsk",
-      "sourceUrl": "https://www.hab.kp.ru/online/news/6011252/",
-      "tag": "Игры",
-      "publishedAt": "2024-09-25T17:01:00Z",
-      "likes": 39
+      "publishedAt": "2026-11-27T10:08:00Z",
+      "likes": 44
     }
   ]
 }

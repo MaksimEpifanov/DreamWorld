@@ -1,63 +1,63 @@
 {
   "planetId": "p_collecting",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_collecting_news_1676840678",
-      "title": "Дедовский «Иж» превратился в гаражное золото: вот за что коллекционеры ценят «ИЖ Планету-5» - ProGo…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: ProGorodNN.",
+      "id": "p_collecting_news_1055602500",
+      "title": "Не спешите выбрасывать старую Singer: некоторые модели сегодня в цене, их ищут коллекционеры - ИА S…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: SM.news.",
       "emoji": "🧩",
-      "sourceName": "ProGorodNN",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45dExRUHFoMTdqQWR1WXNLVFlSMnpZcE5IaEpjMzk4LVFDdnJDM19PTkFaV3BYTUFIQlFsUmxsRy1qdTZDb3hr?oc=5",
+      "sourceName": "SM.news",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTExkYm95Z0RHZy1LaHNiWmJKN1phRzIyb2ZSOFBlaFZCNlF1UnRhdjVSQlVqUndCZVg4TFVQdUozNkdRbHpweGRjeWo1MV9yNzNnUGNBbXUxNW9IUS00LVRwSXRYRFh2a21oMFdFNXgxNVk5ZWJwRmFIWDFEVUJiREtCOGRpLWJySF9qWnhSZ9IBlAFBVV95cUxNbnduclA2bHBZX0NvYzN3aDRzaG1hWmd6b283RVBLZXJEYklVbWNNdEtTWnZ5RW45M04wdFRYT2luTURHdnN1Y0JaaU5RcVBSd2dmQUg3TGwwZWJacWdWLTRYTnJTbnBQTDBHRGhIbjFGbTNCRkotOEh0M1FkMlE0YTdqYVR3bGlGM0pxR2ktc0NfTEp2?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T19:40:51Z",
-      "likes": 39
+      "publishedAt": "2026-11-27T16:12:26Z",
+      "likes": 13
     },
     {
-      "id": "p_collecting_news_4191148578",
-      "title": "Подарок за 65 тысяч евро: Уэсли Снейдер продал на аукционе футболку, полученную от Серхио Рамоса -…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Zamin.uz.",
+      "id": "p_collecting_news_3877054",
+      "title": "Картридж с игрой Super Mario Bros. 1985 года ушёл с аукциона за $96 875 - 3DNews",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: 3DNews.",
       "emoji": "🧩",
-      "sourceName": "Zamin.uz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaVQxeDlQY1pxYXhuYU1xbmtBWTFGV2c0WWtXcUprRVBGNXVsX3ROUjZZc3FLcXhFRHlVUDFpSmdqczVJX2NOeWpKalpDblQ0blNmZUxUdmdWMXI0T3A0elpWekxJRXJIYkhkVUxmdF9rQlA1cXlqcXZwd2VqNzYyQndDTlMxVE1pU0hQTVhGcFBJbTU1OHpuUm5TR2xCazYxY1daQTR5V1BrdFFCZTRhRzZpbUxnOEdSY3pRS2otOGZza2ZoaUJvMGc4THVIbVYwbEJDMA?oc=5",
+      "sourceName": "3DNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNjQyV3h5RlhfbGNxTlJkdEVDcE1sdDNlOWtrNDlOd29nUjByNDJyV1ZPbURXdGItZ29uZVA3R2sydTM5S2RjeUJQS0I4b0Q2dlo1VE8wbloyWFktRjZ3cUd3YURQMUJEbG1aZHZsRmpqWENzZ2lVREZyZm1RT1NqQ2dVeUFWN2MxbUJVaUNDWHQ2NGxkZ2gyOG9qanJnU2xObmQ00gGjAUFVX3lxTE02NDJXeHlGWF9sY3FOUmR0RUNwTWx0M2U5a2s0OU53b2dSMHI0MnJXVk9tRFd0Yi1nb25lUDdHazJ1MzlLZGN5QlBLQjhvRDZ2WjVUTzBuWjJYWS1GNndxR3dhRFAxQkRsbVpkdmxGampYQ3NnaVVERnJmbVFPU2pDZ1V5QVY3YzFtQlVpQ0NYdDY0bGRnaDI4b2pqcmdTbE5uZDQ?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T16:48:00Z",
-      "likes": 51
+      "publishedAt": "2026-11-27T15:54:00Z",
+      "likes": 75
     },
     {
-      "id": "p_collecting_news_2885405451",
-      "title": "Уважаемые коллекционеры!Напоминаем, что через час заканчивается аукцион от Степана Кушнира. 2026 |…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: ВКонтакте.",
+      "id": "p_collecting_news_2023068602",
+      "title": "Проверьте старые копилки: за эти три советские монеты коллекционеры готовы заплатить тысячи рублей…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Банки Юга.ру.",
       "emoji": "🧩",
-      "sourceName": "ВКонтакте",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OOWtXUjJmWk96TDV6VTJmdnF3SFdSdmgwZUVpUDF3d25tQUZnMzRaT2NYWU5oajExUzJnb2RFRG9VYzY4RHRIT051WQ?oc=5",
+      "sourceName": "Банки Юга.ру",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5KOC1sYWo2VldSUDJTZW1xaEUydVpSQ1JVemUySFFGaVdXMFRJZTh3OTFRTU9weVc2a3NwOHF2YW5xWTNhYkxjM1ZUWjjSAVJBVV95cUxOX1VnMTYxeEFwanJDTkVJZGZYRVhFdUZndzJzdDNzR0xZVlBpMS1Ndk5TU0szOTgwUXRVbnREQ3cwTG9pYml5WV9WS3U1eXR4eHd3?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T16:00:01Z",
-      "likes": 92
+      "publishedAt": "2026-11-27T14:22:18Z",
+      "likes": 71
     },
     {
-      "id": "p_collecting_news_646712778",
-      "title": "Новая The Legend of Zelda и Pillars of Eternity 2 для Xbox One — в коллекции нашего подписчика Миха…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: ВКонтакте.",
+      "id": "p_collecting_news_3643100845",
+      "title": "Эти 5 копеек стоят в 300 тысяч раз больше номинала: как распознать ценную монету - ТСН",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: ТСН.",
       "emoji": "🧩",
-      "sourceName": "ВКонтакте",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vRlFSUUtzdndZOWIwYkRQbmxzOVpsUGpMQ2tZUFVEN2VrcTlsUFVhWVpDUGJLYW1vUEY1Q05Td0lxS0p2X0hsemZVMA?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQXzhHX3V3MXg2WTc1NXlSV1prMk05MlU2OEQ1eTkxclVyX1M2MDlPN3lzYy1NZVBjcm1oV0I2Y2dBTHc0b0lJZHh6c0xhY1JDeG4yVFhzY3llWVQ1N3BjWVZ2SDBlNTNISWUyeGxNb2tsb05TQXpHNEJVcDJrX1F1eVhOQmhldGdGNmpIcnd4bEVNYk1yTUdEaGVGVjNoR1N3SEYwejV1eUdNc3lxeTFVZGxMZ0JneWdzY0dkcjV30gHDAUFVX3lxTFA1LWI5YUM4ODA2VmlZYWlCWm5paVRCNjhoMlR6T1ctUVNtWkV0Y2JiVHFwaFczd1ZuMkJzRlluTnlDd0xjUjlNbUVZYjBTZHNUMGpyQmpnQUJLV2dUalAzUDNnZlVSTC1ISXU4Zl95S2x6bHdtM0ZFdHRNWGVLUzkyUllWSE5IVkJISDM4aXJ1SHduNXpjclJtT001N3N4UmFPaVlUSDg2SE1qc2FGM2JobFhYMGhReThQZ3FKdDJZSXdScw?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T15:22:24Z",
-      "likes": 51
+      "publishedAt": "2026-11-27T13:36:42Z",
+      "likes": 73
     },
     {
-      "id": "p_collecting_news_1401202977",
-      "title": "Бабушкины кружевные скатерти на помойку не несу: делаю «королевский» декор — обычная мебель теперь как с аукциона колле…",
-      "summary": "Редкости, обмен и полки сокровищ. Источник: Usolie.Info.",
+      "id": "p_collecting_news_3366902898",
+      "title": "В Твери молодой коллекционер срезал замок и унес с территории больницы 300 метров кабеля - Караван…",
+      "summary": "Редкости, обмен и полки сокровищ. Источник: Караван Ярмарка.",
       "emoji": "🧩",
-      "sourceName": "Usolie.Info",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9nNnZQMEVjb04wNXg0dGxVbFRWcTg3UE5abWY1cEp6SGNoNHB2bUpwaXZzU3paOHhaaDEzZ1NIMmRXdjQxUEE?oc=5",
+      "sourceName": "Караван Ярмарка",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV3p5ZU9vbnpQeHFxNXdFQ0VheGhDRGNJTGpXTXNOUjJkSkFvOGUxd3NWM05hZnJpZmJoa0tVNHZNRXV5b0NPWlJETG1iRm02d1dFTDZnUUZSdEt6Z1VYcVFsbnhFeHZXOWQ0eGp6d2owbDZuSzJpUnJPWXI4cUd4RDBNdzJoOVpaVWl2R04xT0tXOGNDRFJGV1p1MThjZkJmTDZBTlRmRkkyYzdDQ2pEMHJR?oc=5",
       "tag": "Искусство",
-      "publishedAt": "2026-11-26T13:27:11Z",
-      "likes": 36
+      "publishedAt": "2026-11-27T11:26:15Z",
+      "likes": 84
     }
   ]
 }

@@ -1,63 +1,63 @@
 {
   "planetId": "p_reading",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_reading_news_775686262",
-      "title": "Ярмарка Лаборатории Самиздата «Путь книги: встреча с читателем» пройдет в Самаре - НИА Самара",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: НИА Самара.",
+      "id": "p_reading_news_2925684780",
+      "title": "Читатель Толстов: книжные новинки недели с 23 по 29 ноября - Вся Тверь",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Вся Тверь.",
       "emoji": "📖",
-      "sourceName": "НИА Самара",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc19ubnU4NElhREhGdDFyVERDczd1TjhCNFo5YklINWNoYy04Wm5yOENDVk9KWXZfVUVFVDRaT0NyZmFXVHZ5M0J2NVdPVnlJUmtHMC1PZDZJR2R2SzlNbDVWb1djTHV6b1JzRVZ2X1JaNXJRTFZDUWtXaDNqTUJDSzdhM3dENG1ldWVkRlpJRWZSUTVrWkFqYmxZdkdGMkRIM09wODY1NmxsdzRlZDl3a25sMDctenlkd3ZGZnpIa0piUQ?oc=5",
+      "sourceName": "Вся Тверь",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORGxwbGtmcUJIT29xUVItQWxWZ2FhRnEtU1dUM3QzYmVrNVc3blN2cVpGZHBpVGNfb291cG1SUUlyVGE1dHNEV19nTk96STkwaVMwUlN0WmxBMXJKOUZOY3MyQkdVaEE1RndYYTg1c0lOQXk1cV9mZ0wxVmpINmpVbTZ6TGpLN1pzTjMtQjllczlBbG9yRHF6UFFFaXBHSkF5WWJYblphRzFRenVSeXYyWWlKN0k0Q2psdlFxNXdXVDBEVWM?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T17:19:00Z",
+      "publishedAt": "2026-11-27T15:00:09Z",
       "likes": 72
     },
     {
-      "id": "p_reading_news_1269599701",
-      "title": "Сгорели книги. В результате ракетного удара по Киеву 25 ноября пострадала типография Конви плюс - NV",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: NV.",
+      "id": "p_reading_news_3366174033",
+      "title": "Что читать жителю мегаполиса: книги, которые помогают взглянуть на жизнь по-новому - BAQ.KZ",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: BAQ.KZ.",
       "emoji": "📖",
-      "sourceName": "NV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOFVzNGxWLXB4NVFSRDh2QXBmclJ2UFZNbEZSLUJMUlEzSkktQjA2RE5KOEx6M0hRWlVrSnVmWUI4QWVKeUtKYkhIcXllSFFZNTk5b3p4WTcwLW9oNHdYUVZyMVRPeWdoQmMzOERmZU54SV9xQ2FrdzBKOFRfNExzVkd2VWVVd19HbjBKU2NXclFaYVNKOFV6VGhUOHlPU091SXN0ZTVEdEZnclpCQlh1MUREekJ3cWtwWTc40gG4AUFVX3lxTFA2WFRmZ0NpaHlYbExWN0txYlhmMk53a0xtcXFkOU9qR3c4aXdGanpkTk5XOFIwZjFxSGpPcWdfak1oVGNpTjZ0dXZzcHBibHotTlVoQWhlcnFvbTJKLUdpaTdvc3VnaWFiLThSQjhZTG0wWjNIRUpkSW1EZFN1akZaQmpKeDZVS2MybmtPZHFJNzRTWWhpMFRYR1UxSTlMYWd1SGZJbkZWcmFpQjU0SkhYbVNkMWx6T2k?oc=5",
+      "sourceName": "BAQ.KZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOXy1sczhsNDBqdmVJbUE3SFdYa25MNW10VUppZjVlU3lxVmVkWHBWcDRkYXJodHJ3S0stN1ZyTWU4RTJFRmd5ZEZRT3pCOG0yR2dvdmF2LTVyeFVmTDBlV05YZ1RQWUVvZDRtQWFLX3FKUUpVNEo1aHZ4ZGF2bGRnZzJsMzhzal9RSlNxTDBkYVFCUnQ1bXRCNnBoOHI3SWlrMjdxWE85dEhCMG55RW9CaGhOd3LSAcABQVVfeXFMTnBtN2lvVlB3RTc1YTdrQWo0YmdmS0RYUlVDUThrWXJnLXAybE1oUndsUmMzd0RsdmxLdjEzclFsaTFwOU56blYzellRTVFEN2NpS2lQSmdra1otUUFKNXd5bWxnV19BLWhnazNLY2E5S1doQlRGSjBscnF6ekpZakk0VTN1SU9zUm5ycENyeHhwbUZYNUJpNkZQcGxmS0g2cWNReHVSOXM2eC1Ga0lLSXlCYWRRLXJqbEladUZab0Nn?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T13:37:00Z",
-      "likes": 53
+      "publishedAt": "2026-11-27T14:51:00Z",
+      "likes": 28
     },
     {
-      "id": "p_reading_news_2627178833",
-      "title": "Воскресенье с книгой: курсанты Академии Национальной гвардии среди самых активных читателей марафон…",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Check-point.kz.",
+      "id": "p_reading_news_449189661",
+      "title": "Забытый самородок: Шаргунов раскрыл, почему посвятил новую книгу писателю Казакову - Национальная С…",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Национальная Служба Новостей.",
       "emoji": "📖",
-      "sourceName": "Check-point.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uUTJGb3I3U2xCXzk3bWpYZFA4dTV5Z3pyckwwQXJXN09DbV9OSnh6RG10SVVncXcxd2lldlhKWGI2Tmd2bjF5UzQ1YWF1TXNOY2JkLXVR?oc=5",
+      "sourceName": "Национальная Служба Новостей",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY3k4UzZBckVmNVdkcDdaRGJqZHFCeTZ3UWtnUDAwOTNidHhjTE9hdGVjNklZZ203QkZ0OEVpUEFGMEk0VThTRnp2UVh1enpWRTRtRHZ2d0ZjMVFzUnhkMmtpREVKUlYwSEdMbW5UWFNWWmNqTVFQMjZiaHVTcy01dXZReDVjc1oyekZRTmN5Uy1oN3Rhb3h4ZFdZQkhBOEtQRW9SYzlxOXdpZ9IBrwFBVV95cUxPQzl0cVctUFcwQ1V6Zkl1TGZuTk9zcnhkNkhDdmNESU5qY2hEWC1MMHNNSnFKUFNGN1JpU3ZlWUNILW9TZnpYWGo2SlppTWc5RktEN2w1OUVCMHl6TWRyUS03azhkV0xNN0YxZTV4SU0tOWpwVVlEVzJWWDAzdmR5YndiUVJ6dkRDQk5RNnV3ZkpIUE1EUVhkMWQzT29yOG9wNzhXVFRBVlQ1TVBUbzlj?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T13:30:33Z",
-      "likes": 61
+      "publishedAt": "2026-11-27T13:46:46Z",
+      "likes": 48
     },
     {
-      "id": "p_reading_news_1810986445",
-      "title": "Владимир ЗИМИН: «Я вербую автору читателя» - Ивановская газета",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Ивановская газета.",
+      "id": "p_reading_news_2207098938",
+      "title": "В Кочкоре провели литературный вечер к 85-летию детского поэта Каныбека Жунушова - Turmush",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Turmush.",
       "emoji": "📖",
-      "sourceName": "Ивановская газета",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdGp0elBQRmh5d1h5Y0JwX0drUkZybEVlc29JelNLU0JBLUdKWjlMTUN3X1EtQ190cXBPUGxTVjVOa0dXQ01kanBCQVhUUEFrMGlXWTY2aGZwV3lUYW12aG9aLUxCd0FOMndoTzN5ZFAwR3BuTHdZME1zd1Jub2JXanRkbC0tOXN5YTJZ?oc=5",
+      "sourceName": "Turmush",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tVjg2aU5TUjFCZXJjZldVcWItMW5rQkloQzA4M3JndUhFSDVOa3FUcWNvSUJISGt2Q1FjUkVJUVRqSG5xeUV4WFd2TlFaQUk?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T12:49:57Z",
-      "likes": 65
+      "publishedAt": "2026-11-27T13:30:00Z",
+      "likes": 52
     },
     {
-      "id": "p_reading_news_2023635108",
-      "title": "Детский писатель из Санкт-Петербурга Денис Сорокин встретится с юными читателями Фаниполя - DZR.BY",
-      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: DZR.BY.",
+      "id": "p_reading_news_2680319778",
+      "title": "Тонкие книги, содержащие менее 100 страниц, неожиданно привлекают покупателей. - Vietnam.vn",
+      "summary": "Читательские марафоны, закладки и споры о финалах. Источник: Vietnam.vn.",
       "emoji": "📖",
-      "sourceName": "DZR.BY",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamxPclc4a1o4VkpDWHptM2dhN0NqZFplaGJFdGRQa2Y2bzRWdkM1VktrbFRlZURaS1RDOEl4WlRYY2NzZk92aklXRGtKZDRhM3JFLUJ5cXVLWUljR0tjdVN2Y0pvWVdKenlva3VJdHhhUDRfWnZTblZCcG94R0lpcGJOSGFTYWJ6UFQwS1p2ZGdwRFB0aTdxVUZuMnUzNS02cVVCWUFaUE1udHZLWHRSTnI4dURWYkotN3c?oc=5",
+      "sourceName": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40TFFhVHhZczRwTGtIM3BGY19YMkFUa1VFWWxXZkVUTjFTd3pfNzBNMjRoLXl0QmdaanRMU1F6UDJXQkMzdWJIRXNLUkhmejZrRU5GRThmQkxydFk2eXhyNmY4ZHhvUTBjeHNhRzVqZHVITEJxQVRn?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T11:46:58Z",
-      "likes": 59
+      "publishedAt": "2026-11-27T13:09:33Z",
+      "likes": 22
     }
   ]
 }

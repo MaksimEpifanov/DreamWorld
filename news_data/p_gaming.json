@@ -1,63 +1,63 @@
 {
   "planetId": "p_gaming",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gaming_news_623567181",
-      "title": "«Аль-Наср» показал обращение Роналду к одноклубникам перед игрой с «Аль-Саддом» - Чемпионат",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
-      "emoji": "🎮",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ1dTNDlvMkZQalduUmNVUTY4UHRRaVRpNkNqckhEdzhEemwtOGdvRFo1YlVqdTlBaWx2YTJjZlItUkxuejR4THZtUmxLRjNxQkR0c2YyRDd1NmxJa0d5WG40a3djMVpUckhIVnRUUEl4Z194NXJOWWhkU0hOd0trTEtwZFhXaDVBd0t4di1CWkc4NTJsY1YwQjl0bl9Ic2I0ZzJ0c3JZN0ZqenVxcC1FeGdnQ2RsRTNrSV93VlZUSXk5ZHphYnNR?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-26T21:20:04Z",
-      "likes": 62
-    },
-    {
-      "id": "p_gaming_news_3891441310",
-      "title": "Сборная Италии победила национальную команду Турции в квалификационной игре ЧМ-2027 - Чемпионат",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Чемпионат.",
-      "emoji": "🎮",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeW9IWENTZ3ZxODhZZzBBR0Qyc095UFlQQkJSdnVrdEEzVlByaWY4cDdVQmYyN2RUUDUydENienpBMmNSc1B0Q1ZtR0Fjc01zdTFkamtvU0ozYUVHUm5PenF6QnhYMWZyRV85MlducklSY1drSDJEMFg2VVVwUzJVTTlUMTdIc3pqUWtpVU5fcGtTQ1dsblpXZnZQVGJZcEF4b2YxazlSM09Qd1VGeWkyNW83LTFyMW5OUUNiVkRJNTgtZkZtczRPZTRRbUxFTzBxcW11VnZ6ZVU?oc=5",
-      "tag": "Игры",
-      "publishedAt": "2026-11-26T21:14:23Z",
-      "likes": 63
-    },
-    {
-      "id": "p_gaming_news_120335280",
-      "title": "В GTA 6 хотели добавить теннис, крафт предметов и возможность украшать дома, но от идей быстро отка…",
+      "id": "p_gaming_news_2581711066",
+      "title": "Житель Доминиканы неделю пытается скачать GTA 6 из-за медленного интернета - Shazoo",
       "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
       "sourceName": "Shazoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDRqOFRjQnpENGZORnZ1Zk1nLXRBOWpNQ0MxTEJUTTY1MTYyS3U5R09Od1Y5TGNxZEFheXVvZU05QTZ6dTJOcUFFNGxBYTFVbTBqSC1mcGd6bjk4NGNIcXFIM0ZlZW9RNHJqd0FDcVRkb1ZRSVV1OFdtYlVXWmN5M3RBbnhpaURhZHJuVE11U2dEWGg4MklrVEJ5VjBLQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2ZPaUlRUjhoQVdhQ2FWNHZTdm95X3g0RDZPaFN5eXhTVkhsVlJtSGNwRWdGSk1QR1MxRHdTVjYySzNJd3dmYzlHb3lHYlRkdzBxWmN1X0J0OGQzT0hCaWVmd1YwR3BnSGZDaVowOE01aXhfTmowNDNuTFA0dHpEMEdBTDhIYm5sY2tUdF9lOA?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T21:00:03Z",
-      "likes": 11
+      "publishedAt": "2026-11-27T16:40:00Z",
+      "likes": 59
     },
     {
-      "id": "p_gaming_news_2860634848",
-      "title": "От Call of Duty до Diablo и The Elder Scrolls: Microsoft начнёт активно продвигать Xbox своими фран…",
-      "summary": "Кооп, рейды и вечерние катки. Источник: GameMAG.",
+      "id": "p_gaming_news_556912394",
+      "title": "Ротенберг: чтобы попасть на игру, нужно было хорошо учиться. Желаю всем хорошо учиться - https://ww…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: https://www.championat.ru/.",
       "emoji": "🎮",
-      "sourceName": "GameMAG",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLWdkTVhiNkNwS2laZDVHMl90T1FseFFBX1d0R3lwdHFicF8wRzdPTUhCVlVHRWpDcWhERUZ2dDVzYm9VeEoxbzBZZ3IzNWRPVk5sTDdDaXVYd0o1MnBaOFlwQ1RKVW1tMmd3aHBtZUNaTkNDRlpNc0xuSDJxVTcxSHBiUk5nMkNnTUQtZ2VGVFA4S2txUzJsUXBGNkE2S2ptcVBKWjdxeVMxRmdINnhQd2hfUHpLa3NYbUhJM3ZmNmdVdXc?oc=5",
+      "sourceName": "https://www.championat.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFlLM2lwRlFTc0VTQkVhTFVubml0ak1UTTU5T2dfb1U0a3hYQkh6NzFPMXlkQ1htWWc5NHNpNTd0R3MwZU5jZ1ZtVVRvdjl1MU80ZVVtNVQydW55MUFtOFFmRXFoTnhlakRaU0drLTJ4aHFwOEV2ZG5UcGlUWEczN0tKRXo3RFZVaWo5akZnblZ3MVRFVTdtRlVUSGFWWndEQ01TQUU4bjRZVlNUc2ptX3VKaWROd01sSTZyR0NUOXdrbW1IYWl4WExZLUV0QWhmX0N2TU53YWc?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T20:59:00Z",
-      "likes": 63
+      "publishedAt": "2026-11-27T16:14:45Z",
+      "likes": 65
     },
     {
-      "id": "p_gaming_news_1027887460",
-      "title": "Школьники из Узбекистана представили в Гамбурге игры, которые учат распознавать фейки - Dunyo",
-      "summary": "Кооп, рейды и вечерние катки. Источник: Dunyo.",
+      "id": "p_gaming_news_4112219434",
+      "title": "Мультиплеер GTA 6 заработал на ПК благодаря неофициальному порту фанатов - Shazoo",
+      "summary": "Кооп, рейды и вечерние катки. Источник: Shazoo.",
       "emoji": "🎮",
-      "sourceName": "Dunyo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONjVrQVMyV00zR2FMdnFfb2Z5LWZjbXVxUEV1ckYyeDBGZGpodDFnNGVqakhkcWdNSjRiX1VQVlp4cUpvdEowUE9rMWxxX2Rrbks2UUdMMWlGR2lUYUxlYjBiRXdWdGhpcmN2eU1VU1ZIUHVTMS15T0pnMm53OGxHQ3R3Y3hNMXh5Q2ctSDhEM1h1LXdqT3pvZFFGS0RlblhHYV9hYXlTcUpxQQ?oc=5",
+      "sourceName": "Shazoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRU1xaktNcWR6LURzdnFEdGNidTZhVThzeDFBWi1LdzdLOGx4dk90ODFLUG1URmVwcndkZUhBM1laOUFOMV9jSDh2SGgyMWV6MDRkdTJjbEs5NVlKeVhsYjBtZF95aGVHTTFJeWJOWHg4a3kxSWdTNkhQWmhxQ0RoYXVXRnplMmVXSnQtR2Q3dWU2UlhsbnMtZjNkWGk4SjdjMm9vTVpxd0I1ems?oc=5",
       "tag": "Игры",
-      "publishedAt": "2026-11-26T20:37:24Z",
-      "likes": 73
+      "publishedAt": "2026-11-27T16:00:00Z",
+      "likes": 77
+    },
+    {
+      "id": "p_gaming_news_2604254974",
+      "title": "Обляков назвал моменты, которые нужно улучшить в игре ЦСКА - https://www.championat.ru/",
+      "summary": "Кооп, рейды и вечерние катки. Источник: https://www.championat.ru/.",
+      "emoji": "🎮",
+      "sourceName": "https://www.championat.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEhfZjYzOFE0WWJINWZ6MnBka1d1UndsN1p6U0VodHg4QzFmeWdIWmlwZmhvRlJlVzRod2psTlFrenBpN0VpRnVIakRIam5kYVVBRXRrNW9GbkJFT3dKcTVPZ2pMb2M3WGFaaEVZZmJoRHVLZ3VnUGtna3dvQmFKU0Jjc3lWbmZMZTY5TVMyYUYzOUphSWxFR3ZoQjJBd2RGUlpjTHp2b2VmcU9CaGU0QXliRQ?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-27T15:46:32Z",
+      "likes": 67
+    },
+    {
+      "id": "p_gaming_news_3652490191",
+      "title": "Бесплатное скорбное DLC Sea of Sorrow для Hollow Knight: Silksong выйдет 11 декабря — релизный трей…",
+      "summary": "Кооп, рейды и вечерние катки. Источник: GoHa.Ru.",
+      "emoji": "🎮",
+      "sourceName": "GoHa.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcGtvQmZwY2hFejljb2xLQXEwdFU5UnA0c1hCM2l3X1Nuc3pMVDh2S01pWlY3RXlmZFZsOFhMR29kQnBnYlpvRTNyRzB6RnRWRG5IZjdMVGZCZGxtX29aNXF1OTdPckN4Rzl3dXRSQ0xBcnZVZEZzSTkzYmFGUkxCVXdHZWVGR3I1X0FZRTZpVlU5YmpyNUszX3hVbTJHWGpPc0hBV1dtWUVVXy1aZFZ1ZG42RnpvekdGdkx6NWlqdlU5WnpqbmlN?oc=5",
+      "tag": "Игры",
+      "publishedAt": "2026-11-27T15:39:37Z",
+      "likes": 14
     }
   ]
 }

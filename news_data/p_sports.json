@@ -1,63 +1,63 @@
 {
   "planetId": "p_sports",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_sports_news_1505091303",
-      "title": "Продажа Ягра и Бондры, драка владельца с фанатом, многомиллионные убытки. Каким был «Вашингтон» до Овечкина - sport-exp…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: sport-express.net.",
+      "id": "p_sports_news_3659886649",
+      "title": "Даррен Диц из «Сибири» стал четвёртым защитником в истории КХЛ со 100 голами - https://www.champion…",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: https://www.championat.ru/.",
       "emoji": "⚽",
-      "sourceName": "sport-express.net",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWVZISTgtR1VhbFd5Z2psVGxHQVY4T3lkS0VucFBrblItb042N1BBazVHaUxfUFBlOVZTZ0FEMi1pSEFNRUFQNmM4UC1ZY0tNLVhMdzFLZkVaeWdpeWpzeXhTR0RvRXQ5OGZIcE9oNklWbVZjX2tqcjJUSkJ1UnN2R19FcjJBa0dKMnVMNWx2OVl1VHdBdFdCUDhGRGdyWUJnMXJydGstRXM5SzdEU3NHdVVfcm5pRmJ0Q3JxMkFrWE5laktnMjR4Skdfb1ZtTWdZd19EWUZoZzRWTFkwcC1XMVpQOUdwOFc2Y24wY3QxbzdPYlBaVFE?oc=5",
+      "sourceName": "https://www.championat.ru/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkpwR3dtd0RJRWlKWVB1b2RLY09pUF9Pc3UyamU5TkJsd2c0WUxLbUgyUE5UZmc3QmJTdmtGM292Yl81dE5mclNSVF9leExUVzZ6S3FpZzJfSm1VSktIQ1loVVV2TWt5OF9JUVRmMjY4eUd6S3lUMTBLdmhLaU9kOE9rYW9aSjFiTnNjSFBodE5BeTdJUDkwSU9UZFptNXZXNWtnLVZCN2V3eFFZeDhZZkVfVncwekNiS1pKYk9MUFhNTnMxeTdZcw?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T21:10:04Z",
-      "likes": 71
+      "publishedAt": "2026-11-27T16:34:14Z",
+      "likes": 84
     },
     {
-      "id": "p_sports_news_3386139919",
-      "title": "Хоккеист «Нью‑Джерси» Диллон дисквалифицирован на четыре матча НХЛ за удар соперника в голову - Мат…",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Матч ТВ.",
+      "id": "p_sports_news_73313786",
+      "title": "Фетисов обратился к Овечкину после 17 матчей без голов в НХЛ - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
       "emoji": "⚽",
-      "sourceName": "Матч ТВ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajJIRFZjLU1lRHh6YkVfZzlFQ0FkT3g5c3RWeFo2MWRtdzN1SFZaWFZDTWtnOWlHeEcxU0dHNjdIZTdOSEZXUUV4Y3ZZbVJrZEpweWxkUFJvVEdtNnd3dUtWU19vWUpCWEZPUWZJQ3VsNFBYZGtUdVNwRU1aTnphUEU1akdMN3VDUk8wVXpnLXJSNVlFYVRWTHY5TnllUWZIS0phX1RublZaaGlqMjN6VEFCclVLdldvNEIzd3k3eTJMdDFja1cydlMyS1NrTDF2ZGdiYVM0bWFEZw?oc=5",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWQxUGpxZ0JXMWxYXzFHSU5YY1VWN2ZMSFkyTjBjVDlrd2hScmttblg3Xzk1cDc1RXB5TmNLZEd1VUN0dUs2SUV0M2tyMWZoZUFTQjc3LTQ2TFNlTno3c1oza2Rrek44d1M0Qk9JTjdlUmJpLUVDOVlGSHZpS1czT1pKbWVHUjAza1lCS2kyeFIxMzRo?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T20:41:46Z",
-      "likes": 16
+      "publishedAt": "2026-11-27T16:11:42Z",
+      "likes": 90
     },
     {
-      "id": "p_sports_news_1473074898",
-      "title": "Ларионов покинул отборочный комитет Зала хоккейной славы - Рейтинг Букмекеров",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Рейтинг Букмекеров.",
+      "id": "p_sports_news_1812056726",
+      "title": "Белорусский форвард Егор Бориков не дебютирует за \"Юту\" в матче НХЛ против \"Нэшвилла\" - Sport5.by",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sport5.by.",
       "emoji": "⚽",
-      "sourceName": "Рейтинг Букмекеров",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcDVtVU9FSGNVVmhrdmdCMVJQLWJISFJqMUFNdDJEMEEzZE1CUEtGNFlZUUsxMW5wMW4zaUZjd25aQzJkTTBpZ0lfaWpHb1RrTEtKbXlvTG43TnpIY1pBTzYwUGhkdE9WeTRhS0lYVDN3UHNCdUVpd09hTXhsQThrVHY2aks4QndIZzBZb0RSbkthTzdLSmY0?oc=5",
+      "sourceName": "Sport5.by",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjJMWnVETGFRR0dSS0ZYY3VIYVRrdkUxU0xzN1A5aVdKb3lLbGY1UlhWbWQ5V0RHeXNkai1iOV81bjB2d0p5MHdyY29lek05elV5SXhuWmswSWp1V21uLTFiMy00TVZWMy1BZEpvQ09fN2RNRmRPdHAyQW90dnBDaXdGdTBKbHhPWTRKWUVkOUtSS1JWTmFHVm54T3ROVmNGMXpFWg?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T20:30:31Z",
-      "likes": 71
+      "publishedAt": "2026-11-27T16:10:29Z",
+      "likes": 13
     },
     {
-      "id": "p_sports_news_301142857",
-      "title": "Новичок из России повторил рекорд Овечкина. Такого в НХЛ никто не делал 20 лет - Sportbox",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sportbox.",
+      "id": "p_sports_news_4138888109",
+      "title": "НХЛ сделала заявление о российском дебютанте - Sports.kz",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Sports.kz.",
       "emoji": "⚽",
-      "sourceName": "Sportbox",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMXRuek5CbkZDc1RMTldETXJWMWVSeU1ZOC1GVW8wdzhjUjExWjZsTnlKU1EwcXFqdEU5c1F4YkdBOVg2N3M5MnY4MVFrVnpDRlZTZk1xRV8xclJWQTdhaVUtZEVIaGZ1dERmOXpBc0V5RkZsbUF6OEp5LXNDYXhmbEJxS1V5eGtVaVhkTzZyVHRkWTRBZHpwT2EydEpUOG9IUnNVRzk0aXp2ZWxkSjJhR1ZnWVYwQXZHSEszOTNaNTN5TnVNOVZrUUQtTEtJSWhxdkNVekRuTHRoLXZSUXBZ?oc=5",
+      "sourceName": "Sports.kz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yMy03T2xfRDgzMGJ5a1NZdHM1MFd0eU9qMFMySGZidFR1ajByMk41Wlh4alFHSVlUMXJYZ2V3d3lON0M3akRuSWRZcGNOR2ZkOFR6bEQxbzVNYWZpWTB2V1MxVF9OZ1c1V1MtRnROVHo0bkhHX2RjeWFlcEFhZw?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T20:05:46Z",
-      "likes": 52
+      "publishedAt": "2026-11-27T16:08:55Z",
+      "likes": 76
     },
     {
-      "id": "p_sports_news_1297424607",
-      "title": "Защитник «Нью-Джерси» Диллон дисквалифицирован на четыре матча НХЛ за удар в голову - Чемпионат",
-      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Чемпионат.",
+      "id": "p_sports_news_543507739",
+      "title": "Колячонок сыграет за «Нью-Джерси» в матче НХЛ против «Калгари» Шаранговича - Tribuna.com Беларусь",
+      "summary": "Тренировки, матчи и взаимная мотивация. Источник: Tribuna.com Беларусь.",
       "emoji": "⚽",
-      "sourceName": "Чемпионат",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFJmWTVWOG05bTJOcjFxVTJseWptRl9oaGVPN0YtVUxZQTJGV01SQlRaUkU2eGVlOTl3X0NoZG5DOTNvNHhwSGdhME1VSUFDTDFWeEQ2U3F4YWRuMnFIcmFISU5CSWctSHNyVHBDRk9lSm8zNDBvMl9Cbk5CRFlnbE1BT0paSUszSGNkdlRScm1JWDlKVi0tS0hCaDdyc0FjZm9yalJfSkdGa2U5eDNMWi04Vmp3dlMzZDkzX1BsVEdhdTlGb2VDOUtoX2JsUURSbmNj?oc=5",
+      "sourceName": "Tribuna.com Беларусь",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLWxZSWRBbE1rZHZQd2hSUHVpR0s5LWxzdlo3dWVCODRjLVVxeGZja2Q3N2dyS0lCTkVyV1RKSWQyZV9zcjRsRnJ5NzRtdEZtcllyOTc5YUFHc2dTNWFFeENiSmZPdDhMd2ZPdS1qVFIwa3czTXNXdjhhN3ZlelpSSFVwTDhabmJ5Rjk1VU1VdFVqbk5GUWEwcEMteWM0cUEtWW1B0gHQAUFVX3lxTFBMUDBHTzhHaGh5R2wzd05CUk9tSzhBNm1PWExfcW8zVmdkMmVwRUlUSnlmUlI2cC1kbVFlMWxHMFNGX0xTS04zOHlqMVQ3TkRwcGliWGppMGVfQmwzSmVmZWptNmxTd1oyVzBhTFBONjU3LVlkYjdndzQxOFZCMDFwNlZrYkQ1VFFadnBnX190SElyLTAxYlRmYXhydWViSWZ3MnJfY1Z1UFFiQnpPQndhNkR2REJlV1RGQXpZSTRtWXJ2eGtTSFVTUXBHdEZnaWE?oc=5",
       "tag": "Спорт",
-      "publishedAt": "2026-11-26T19:50:04Z",
-      "likes": 31
+      "publishedAt": "2026-11-27T16:07:50Z",
+      "likes": 90
     }
   ]
 }

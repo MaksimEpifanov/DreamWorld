@@ -1,63 +1,63 @@
 {
   "planetId": "p_gardening",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_gardening_news_2217740014",
-      "title": "Успеть до конца ноября: 3 вещи на огороде, которые важно сделать ответственным дачникам - Про Город…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Про Город Ухта.",
-      "emoji": "🌱",
-      "sourceName": "Про Город Ухта",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9lX0lGdk5wTWo1XzdLM2RzdWtyZG5tS29ucHJGbTdHNnhMRS1BWlkxeTc2VkZXQ3BpaE5LZVFrMllOVVdPY096azFn?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T17:04:54Z",
-      "likes": 59
-    },
-    {
-      "id": "p_gardening_news_1975830899",
-      "title": "«Бычье сердце» больше не сажаю: выбираю новые сорта – и урожай гребу до осени даже в холодное лето…",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Городовой.",
-      "emoji": "🌱",
-      "sourceName": "Городовой",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY3RyWWxxRTZxaFkxaHpjTDJwbmhSa2JBdloyUm1tdER3MC1uU3FNdFlKUlYydXR0X2l4TDFla2o4NktfMEdUWHM2RkdBWE5WdlEyR3FCdXJDZnZFQUdxamV2UVFtYjF6bDI3T2lTcnJxNFVxXzU1ZmhDT2JtX2gtNFMxS1JscDJ5QnZ5c1hsWWFITkFUYTk1VlVmVmgwcDNPME5JNlN0ck82cE1nS2dDSF9tVjlqeWFRX0REdy1XN0RfeVFNQ2pFR3VVNDhnSW9wRGwxMTVwVEdfSUM1VmU3ZjdfQTNDZw?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T16:17:00Z",
-      "likes": 28
-    },
-    {
-      "id": "p_gardening_news_3685909671",
-      "title": "Опытные цветоводы посыпают комнатные растения корицей: какую проблему решает специя - Главред",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Главред.",
-      "emoji": "🌱",
-      "sourceName": "Главред",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOE50TEJ4RVJ6QjNieUdOWEZwbUJFbE9CeDFDVDNDTTdrTkNnemplcnRBTVVvMWxkVVVkcnl0RHJhQVpoY2Jfc05JNEhxRVpJX3ZSYWcwVU1UWkhVQm1USUhtbGFGLVNSSHk4SnVpMzBGSk52T0dBZ1pOdkJaNWtES0M4eWJVeE1YMzhxdzI1aDhFandYNW5Ea1c1NE9kOHBJMi1lTXpucjg1NE5PSDdmSkJDWk5PZnNaODJRY19ncjh1eXVBZzNycGpiUm1uQdIB0wFBVV95cUxQS3BFUE12Q252dGFIWHp1SlhaeERkZUJZM1JTQ09lRmtRbW9rX29ySTlFLXl6eU1xcVBEaGdfNDBlLU0tRjM5V0pRMGt4ZkZNU1BiY3FuRkdXaDRVNU10ZFh0a2RCeHl5Mzg4Z3lJWnF5VDFhV280SkZGdjFGNmFjMHBMdzRSekF4YklsNGJOUVNGdjVyZlVidEFpb0VzbElrUUpTeWFrd0pQZDNMZ0otMGhkMW00MHlPVExlUHhES2NXR3lGS3Z2bHRoN280VzY5Q3pz?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T16:14:00Z",
-      "likes": 59
-    },
-    {
-      "id": "p_gardening_news_1688379207",
-      "title": "Топ-5 урожайных сортов томатов для открытого грунта - ветви просто ломятся от плодов - IrkutskMedia",
+      "id": "p_gardening_news_1065086025",
+      "title": "Вместо \"Германа\" сажают \"Настоящего полковника\": огурцы плодоносят до осени - IrkutskMedia",
       "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: IrkutskMedia.",
       "emoji": "🌱",
       "sourceName": "IrkutskMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jajlZXzdxVEZHeEhnVG5kU3BKVS0tQ1pJUXd4S2V6OFBhLUM1YUpSSFZmclpXalp3NHFMb3FtV05mcFNQRHhKcTZFZ2trQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wRTBPZjFqVng1a3pZQlJNU19qTUhqcjlweldLZWlHMVN0cjIxd05YOFlrMTZSa3ZSdEJMZUJKQ1Bqcmh3UDZhVTR1UFdVZw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T14:50:00Z",
-      "likes": 9
+      "publishedAt": "2026-11-27T14:50:00Z",
+      "likes": 13
     },
     {
-      "id": "p_gardening_news_1584389876",
-      "title": "Дачный сезон завершается. Как защитить свой дом? - Zelwa.by",
-      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Zelwa.by.",
+      "id": "p_gardening_news_1635196294",
+      "title": "Сажаю в октябре и ноябре 3 «особые» культуры – к весне собираю богатый урожай: грядки ломятся от св…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Про Город Киров.",
       "emoji": "🌱",
-      "sourceName": "Zelwa.by",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZzB4YXRIN19qTTdqbTM4ck9MUXRocHRqN3ROck5aaGNRLUt5UERfaFRlTTdiR29UOXJyVmRvc194R20zSkNzdjM0T0N4MVU4QkJGMGlfZks0THh4R2wwblQwNjdhQ0xWSUQ5OFJjSGZUbVBwOFpXbWw5OWpBMU5LQmlNdGVTZEtZdmxJRGctQ21ya1hQaGF4UzFlZHc4aU52?oc=5",
+      "sourceName": "Про Город Киров",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KTWJuUXMtZHFrWS1meldJWm5TN2VsZU1oSTRyQWM5VVE1UDlvdFNVeXNQMEhDZlV1U01PQTIwRWJxREJLMzljUg?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T14:20:28Z",
-      "likes": 12
+      "publishedAt": "2026-11-27T11:47:37Z",
+      "likes": 78
+    },
+    {
+      "id": "p_gardening_news_1478046740",
+      "title": "С 20 по 25 октября чесноку — обязательно: рассыпаю 50 г на метр грядки — летом головки крупные, хот…",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Usolie.Info.",
+      "emoji": "🌱",
+      "sourceName": "Usolie.Info",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1XSW9ZdWlUOFYyemN3X0docDA5emZ3UV90bWRNa0F5REo0S1p2MFZueHk4Y28zMDNWV2JqdzBWQV8zZzhxaUE?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T11:20:29Z",
+      "likes": 56
+    },
+    {
+      "id": "p_gardening_news_469670726",
+      "title": "Лук и морковь взошли перед морозами: как тюменцам спасти посадки - nashgorod.ru",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: nashgorod.ru.",
+      "emoji": "🌱",
+      "sourceName": "nashgorod.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDM1RGtucHBWTjRsc3E4dVVhZTIza0hObU9ENnVONVJnbWsxbUNoQkJMM1l1bVpHSHR3RmV3cnF4NmJFNUtVWmpqNlRCVF9aXzd3cG9GNDFTQmY3dVF6NlpzT3JKZ2U1VEZHaXZ5M1BtYXRWdzlDdkxrU0Q0UDdGRkk2Smk4VW53d0JKQ2draTI5ZHlTRUY0cElnOThodXZSYmgzRVdmVnBfTFJRQTNj?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T10:23:00Z",
+      "likes": 3
+    },
+    {
+      "id": "p_gardening_news_3150732257",
+      "title": "Лунный календарь садовода и огородника на 27 ноября 2026 года - Погода Mail",
+      "summary": "Комнатные растения, дачный огород и секреты ухода. Источник: Погода Mail.",
+      "emoji": "🌱",
+      "sourceName": "Погода Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42VjJRVWt2bUNzVzhQb2ZwaS05TUoxLV9lSG9KdjByMTZnMThOdDBDMU5PbVJmTExzempYWDBEeFFGcU1fc3RDT3ZOcnFwZw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T03:00:04Z",
+      "likes": 27
     }
   ]
 }

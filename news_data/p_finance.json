@@ -1,63 +1,63 @@
 {
   "planetId": "p_finance",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_finance_news_657637354",
-      "title": "Костромская облдума одобрила в первом чтении бюджет на 2027 год - InvestFuture",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: InvestFuture.",
+      "id": "p_finance_news_1994980570",
+      "title": "Две трети жителей СКФО обращались к нейросетям за советами по личным финансам - gazetaingush.ru",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: gazetaingush.ru.",
       "emoji": "💰",
-      "sourceName": "InvestFuture",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTURGb1RkdEtGY3JNLXRjeGFEN0VQUHd1eTZYZGEyenB4MGJIME1iU2dtN1N1cHBYSHVmaGJhLUhFLTFlaW02U2JCbmx5ZGl6Z3VBVmF6Umtha2QtakFxMS15R2FWZlVTTFFWY3dGbDd5aVpFaXkzeXRTTVVMMUdwYlp4a1hqNFdYQ0NINTF5a2lxbkZKMDAybWtDUl83bF9oT2VxUnZ1TTd1bE5SY3BqVEd1bXlWQmNO?oc=5",
+      "sourceName": "gazetaingush.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdkNwWGhaSFBoRl9RaHNBMHI3Ukt5ektBak9KcFZRbVJjNXB0XzI2dEs3N29EUzlmQW96WmVQM2Z6aUpJc0QzMkNWUFNhVm03QTRrRjRDc0xIdUVlaHg2WDFPWXhsRkp4R1FZTmF4eVRxUTlyUWZreGlGaWpVT21walRxWDRtdGluRnRPVmxPekgzclpuQml2ZVhUMnlFMk9KODROZUI4TkZhdFFuVDFmYjQ5V1ZhUUU?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T21:18:56Z",
-      "likes": 71
+      "publishedAt": "2026-11-27T13:44:44Z",
+      "likes": 6
     },
     {
-      "id": "p_finance_news_2552376775",
-      "title": "Бюджетные инвестиции в Коми сократятся - Про Город Ухта",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Про Город Ухта.",
+      "id": "p_finance_news_3429383892",
+      "title": "Минфин оценил допдоходы региональных бюджетов от мер по обелению экономики - Ведомости",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Ведомости.",
       "emoji": "💰",
-      "sourceName": "Про Город Ухта",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1aNXEyWm40ZnY3NjhMWnBXak5iQzNhWkF4Y01FXzdUOXJfVFZrYzRSRUZzUFNSVXhPNHpUNUNTXzN1REg5UXJDZXd3?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1h6SFBXRWNfMWdISk85RDZBX1h1ZVNhMVhiS1RMMjFGbDBDWExmZUdFUDR6alI5c29iTV9NMHpUY3Q1dW5mYl9tYXVtVFg1dGJOR0V6UWtvNHlWVWtvV0RaRHQwVkF6QWxjdlo4VWo0T2ZEckwyQ2Rqb255d2VIb3FkakFSQzJCSXVuZ0dmLUg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T17:04:54Z",
-      "likes": 83
+      "publishedAt": "2026-11-27T13:25:39Z",
+      "likes": 41
     },
     {
-      "id": "p_finance_news_17900074",
-      "title": "Южноуральский бюджет на 2027-2029 годы принят в первом чтении - mir74.ru",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: mir74.ru.",
+      "id": "p_finance_news_1862179499",
+      "title": "ВТБ: 65% россиян обращались к нейросетям за советами по личным финансам - Волга Ньюс",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Волга Ньюс.",
       "emoji": "💰",
-      "sourceName": "mir74.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd1lhNEt0VWtSSFhfQVNfcHFrY1ZfeFdGUlJZR0tKbmdVMVpsOHpUMF9sN1MyWWlNeUg0akZmUE9jRjd2TXg0R2twT21UTGFBWWhPY3lCa19NUERtb1V6dTlQSFBmYXZqcjQ2ZnNMeDloYnR6UE9hbHpacGcweXJKdmIzeDVMVXhsQUJFbzVrWWwtbEdTRVBuYi1R?oc=5",
+      "sourceName": "Волга Ньюс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NUGVkYlJ4aERHTjFVZFRBQlhhbEt0VGVLeVBMZUN3MWJ3bmlJYkVrYzZTbDZDckh2LVVvVFNxVDRXYXo4VlA3WW5POGxueTg?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T16:13:46Z",
-      "likes": 53
+      "publishedAt": "2026-11-27T13:20:00Z",
+      "likes": 43
     },
     {
-      "id": "p_finance_news_2697272533",
-      "title": "Военный бюджет России 2027: кто заплатит за войну - doxa.team",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: doxa.team.",
+      "id": "p_finance_news_3086142294",
+      "title": "Премьер: без заимствований на энергетику расходы лягут на плечи потребителей - Obzor.lt",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Obzor.lt.",
       "emoji": "💰",
-      "sourceName": "doxa.team",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94THd2RVJyUlhWRUVhZWJmR0dTdVgwTVktS0ppYVF5N3d1TUtHOTI3WXZMLS1IdmxwdUt1c1hfaGRtQ0FhR1pPelpYMUZDVDlKekRRdDZPamEtOGd5amNEOXZodGNDT2FlWTBUR19YZ0laRjhkSHdr?oc=5",
+      "sourceName": "Obzor.lt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1SRWdsRWRqWTRxeWhlQXJPWDVRaC12a1h2d2RNUEJ5bmtmN1VyZlVHa2dnRTh2NFJZVXR4c0FjZTJHeGdJRTZ0aDl3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:56:15Z",
-      "likes": 13
+      "publishedAt": "2026-11-27T12:34:12Z",
+      "likes": 40
     },
     {
-      "id": "p_finance_news_2671646397",
-      "title": "У Болгарии есть свои требования к бюджету ЕС - Бургас по русски",
-      "summary": "Бюджет, накопления и инвестиции без воды. Источник: Бургас по русски.",
+      "id": "p_finance_news_2259863416",
+      "title": "В бюджете Тамбовской области на 2027 год увеличились доходы - РИА «ТОП68",
+      "summary": "Бюджет, накопления и инвестиции без воды. Источник: РИА «ТОП68.",
       "emoji": "💰",
-      "sourceName": "Бургас по русски",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tT1p3SFhHMV9Fd0dUTWFkTFZKc3ppYW9wRnhPdjRxNmlnS3cyanZzSWJJbXpnRGZOay1JSWRhR0hSb2hURjFWcy1KTExlNTZ0SzUxVksyZjliLW0zbk5TQVBVVEJ5TFdYUHZMdVNzOWhEdzg?oc=5",
+      "sourceName": "РИА «ТОП68",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2xzdHpxQ3hSbXo5M2ZXMUF3SUIxU1dENWVrS1I3NzB1T1FuUXFWTVh5SHpyVG9kd2JrYzVrMF9GR2ZLdXNKTndyRnlESlk4VDIzSDR1SXNPTDllS2NUYlJjVGVSZzFSMGlhSFNGSHZRMVJ2MEZHOXJCUWRWenNsb0RCZ2VrbXR1NUpWT0ZmclpIOWVaaXJWYVEyYXRHTkJwTzRIYzFFZ2I4VF93WlE?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T13:47:00Z",
-      "likes": 66
+      "publishedAt": "2026-11-27T11:33:16Z",
+      "likes": 57
     }
   ]
 }

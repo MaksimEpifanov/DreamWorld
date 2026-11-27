@@ -1,63 +1,63 @@
 {
   "planetId": "p_fishing",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_fishing_news_3601699069",
-      "title": "Минсельхоз продлевает ограничения на вылов щуки, воблы и... - Астрахань.Ру",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Астрахань.Ру.",
+      "id": "p_fishing_news_4425012",
+      "title": "Рыболовный календарь на декабрь: когда в последнем месяце 2026 года ловить рыбу - 24 Канал",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: 24 Канал.",
       "emoji": "🎣",
-      "sourceName": "Астрахань.Ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTHJXM2pJZU1Yc3VjekJNVWtHTFpfWW5wU1pERTJSZFZpRE16RGlPVkFoSDQ3alpOQlhZZWFuRjBNNmQtSzluTnc1V3lxMi1WQjNfQW0xWUhqLWQ4RnlKVnJOMU14STNVUjFTa1VWWTQ0X1hTaWZIWGV0cEtuQkpmSlVrRHlDWWFNT0hrWUVnVXVlRFU4SDdjT2FVUGZfdUdUMzJHSmdFazdzaldwVzJiSGI0dXNGcHFRRGNYR29jSmZUbUdfUWfSAcYBQVVfeXFMUExyVzNqSWVNWHN1Y3pCTVVrR0xaX1lucFNaREUyUmRWaURNekRpT1ZBaEg0N2paTkJYWWVhbkYwTTZkLUs5bk53NVd5cTItVkIzX0FtMVlIai1kOEZ5SlZyTjFNeEkzVVIxU2tVVlk0NF9YU2lmSFhldHBLbkJKZkpVa0R5Q1lhTU9Ia1lFZ1V1ZURVOEg3Y09hVVBmX3VHVDMyR0pnRWs3c2pXcFcyYkhiNHVzRnBxUURjWEdvY0pmVG1HX1Fn?oc=5",
+      "sourceName": "24 Канал",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZzBIYl9keXhxYkM2aV9YdVdhWXNfOXY3eTdDeWhFTUZBb3dyY3hBcElIRXhJa04tVy1GNFBxOXNwclZBZzhpZjNNeXBpZTZITFNjM0dMR1ZUb2kzTFRYUkRRa01qbjRaODc2LXJ4WnNTczh3U0M0bGpyanRkMU5USGdEcFM0cmhJR2pIMFNNYXdCbV9PNWhpVnh5RTZTZjhoamVvV3Q3cVpRd3p0QUFnaHZpU05IZVNFdHhJZ3FDclJlUC0wQkJFcVRxMNIB0AFBVV95cUxPcjU4eG5hdXF0Wkp5d0JFZ1dEc2lmOTB4NFVMb0tZOGRici1VU0M5NHVpY3MzVVZ0WE9nQUhnaTcza2pkWnNIM0o5SDRHaFV3aWlUTzdKMDFFV1lVbkc2SDFnTEhXZ2xucmN6Umd3QTkwMXRsOE9kM2pMZWlrZjJBdzZlejJFeHN4SHpSRHdXcjhsN2ZoblJEVlF6cXNseVNpUks2dlc2T3VOMjVQSW4waGFmM3BORGVYaHR1b2F5NlRaUTN3ZkMzaFY0dTUteDhZ?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T14:19:42Z",
-      "likes": 86
-    },
-    {
-      "id": "p_fishing_news_3841181667",
-      "title": "В Днепропетровской области с 1 декабря вводится запрет на вылов раков: сроки и ограничения - новост…",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Дніпровська порадниця.",
-      "emoji": "🎣",
-      "sourceName": "Дніпровська порадниця",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0dKdEFZS3J2SllDc2d4Tm9oTE5oUDFWOXM1eURDSG41TlpYMFM1QVE1aHF6X1ZiYjU0NUR1QmZDN291S2Y4cWQ4QURnd0R1QWk5QWdTVWE2SE40YWtvdFNxLVhPczZubTFDRUxwMDJRNC12bFVhQlNBeno0SGR2UHdmU0MxYkhuR1hKRW9tNzhxYmQ4eExNdk1pLS0zSTMtYnAtZE1EbElobW9PakhsZS16OU5TeGQzZG9qQUx30gHDAUFVX3lxTE9FRGNnemRHZWZGWDhuOHV0aFNHdTFTdjBTY1lUalI4Y25NYXZSSnAyc3NTMDI0V0dkTGhYNVZsdEc1emxkdHNvZlhyczZIY1h4UHFoa3FYbDdaTHN0RXJ3bGktcXNGX216WmFydzQ4ZXlCSXlJa0hrcmJONVhsaGUtb3MzZXJZTWlnY1pxdE5BU2lCRUdxZ2hYU1BUdzRwVWdfSEtsM3A5NTF0a1hkSjFPMzFpNUZGc3NYTkluZk1MamNBMA?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T13:39:33Z",
-      "likes": 35
-    },
-    {
-      "id": "p_fishing_news_433689700",
-      "title": "Запрет на вылов воблы в Астраханской области сохранится ещё на год - ATPress.kz",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: ATPress.kz.",
-      "emoji": "🎣",
-      "sourceName": "ATPress.kz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalBXUXhjXzBqRzVqSXNTeWZOcWdsQTM0QjBZT2NsMmVOY25SQXU5Q1pWS3o1TWZBT24ySUN6STdkSkcyS3RDMGtJd1JBT29ESHY5MzNZdmt3VE9kYTdwQUNJdzRLM1dHRnc1dkw3Qjc0NHNDVEZhVzV4MU1EUWlScl9tM2tTb0lRRW9fM3JJNlRROW9HQ1NpZnVlSkxOcHY4N3lWX0xGeUY2RUlnX01N?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T11:39:36Z",
-      "likes": 51
-    },
-    {
-      "id": "p_fishing_news_2565453300",
-      "title": "Минсельхоз продлил запрет на вылов воблы до конца 2027 года - НИА «Экология",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: НИА «Экология.",
-      "emoji": "🎣",
-      "sourceName": "НИА «Экология",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tRmZYTi1NdG13cEhfbVV6WGRaQWM1NExKYk9uMFNDMGZ0WHhYYUJKbU9fVXg5MTlvWmxmLU5pYjBGMHR6UGJHNUpB?oc=5",
-      "tag": "Природа",
-      "publishedAt": "2026-11-26T11:06:13Z",
+      "publishedAt": "2026-11-27T15:02:00Z",
       "likes": 9
     },
     {
-      "id": "p_fishing_news_801748741",
-      "title": "В России до конца 2027 года запретили вылов популярной рыбы - Стерлеград",
-      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Стерлеград.",
+      "id": "p_fishing_news_3302231995",
+      "title": "Рыболовам на заметку: в Николаевской области на семь месяцев запретят отлов раков - 0512.com.ua",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: 0512.com.ua.",
       "emoji": "🎣",
-      "sourceName": "Стерлеград",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYmc3NGdJR05CWi1FRVpKUUhJRWdTejFIYnhnNFpuOW5DRTlQY2xKbWdQUEtCWlJ6eXp2LWk5OWJUR3NRdG9wckdQRkFtcU1Ia29lZm02N01FTmNZZmVxMFFEbTFpUHE3bFIyQWlidTlXeWRkekhUQjhXdGdaX0dUV19qMmhkV2xTcGxDS1J0b0lqZmNHY0g3QUZWVy1oNjRjaTlYMg?oc=5",
+      "sourceName": "0512.com.ua",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGx5MkFKZnB5aWliNlpyX3RJTEZVZXlXYlZ3MU93UFJETDNDakxnY1ZrNkw0VXltMVNWTkZrS2s1d0pILUNnNjBuNWV5QlVSaFJ3Mm1pWjA4WTNvWFpnd1hBRGQta2pHdm5ibmxLZnRPSE1XMUc1cUJTR0xqY3dlMlN5UGpDOG12UDZxb0hHVm85UGcwd2lnOEQ4dmJfRXd1YkhwMWlpcmxtWjF5eHBoc1ZLZ2tpM3dqd25mTU1BR0rSAcABQVVfeXFMTTBseTJBSmZweWlpYjZacl90SUxGVWV5V2JWdzFPd1BSREwzQ2pMZ2NWazZMNFV5bTFTVk5Ga0trNXdKSC1DZzYwbjVleUJVUmhSdzJtaVowOFkzb1haZ3dYQURkLWtqR3ZuYm5sS2Z0T0hNVzFHNXFCU0dMamN3ZTJTeVBqQzhtdlA2cW9IR1ZvOVBnMHdpZzhEOHZiX0V3dWJIcDFpaXJsbVoxeXhwaHNWS2draTN3anduZk1NQUdK?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T06:26:16Z",
+      "publishedAt": "2026-11-27T14:10:00Z",
+      "likes": 8
+    },
+    {
+      "id": "p_fishing_news_1391694634",
+      "title": "Лучший на военной рыбалке в Бурятии получит машину - Восток-Телеинформ",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Восток-Телеинформ.",
+      "emoji": "🎣",
+      "sourceName": "Восток-Телеинформ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44MVV3eTVGQ3lxNUhyRWZha3F2b2NKYlJseHc1RUc1dG1TVl9TRXlraW9lSE5qRGowRWpkNms1clBsZkZIdDE5VnhteHctUQ?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T09:51:49Z",
+      "likes": 75
+    },
+    {
+      "id": "p_fishing_news_2490440944",
+      "title": "На Сахалине расширят возможности рыбалки на краба и ограничат вылов корюшки - SakhalinMedia",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: SakhalinMedia.",
+      "emoji": "🎣",
+      "sourceName": "SakhalinMedia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvVlgzUDRXTTFiNGdUZWMyVHBlWDJNQ2d6aVdvTEZQYzh2VWgtYVFLWWpETDE0MTJRcEwweHU5cVhnem1valFvMlNCbzlkZFU?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T06:44:00Z",
       "likes": 85
+    },
+    {
+      "id": "p_fishing_news_420344014",
+      "title": "Сахалинским любителям рыбалки разрешить добывать камчатского краба по путевкам - Сахалин-Курилы",
+      "summary": "Тихие рассветы у воды, рыбацкие истории и азарт хорошего улова. Источник: Сахалин-Курилы.",
+      "emoji": "🎣",
+      "sourceName": "Сахалин-Курилы",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRTNlenZnMTFxZEItY0xXcEpJaGxVVzNqSHdEbk84cnBveEJWNURpdk95b1FqaTBickl1azU0Z29hQ0h2MXlGbEl6ck5nWkMweGY0RVJKclY2Q0dhLTlsbGd0Wkl5YWQwSXRsQkg1YkpJRzhuR3ZMeUtXQUVNNHJXMHpyQndtREJncGFuZ3NQWGFpSDh6V2ZTSnFHM1JfMXhZdGlYS25HaW95a3lFMGUxaFpjNTFYMXJ0RHJEUjFUV0RZN1Zw?oc=5",
+      "tag": "Природа",
+      "publishedAt": "2026-11-27T01:43:23Z",
+      "likes": 57
     }
   ]
 }

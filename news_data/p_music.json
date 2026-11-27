@@ -1,63 +1,63 @@
 {
   "planetId": "p_music",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_music_news_911880097",
-      "title": "Группа компаний «Лучи» снизила трудозатраты на кадровое делопроизводство с помощью HRlink - prospec…",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "id": "p_music_news_1617145357",
+      "title": "Лана Дель Рей объяснила, почему ее альбом «Stove» никак не выйдет - Soyuz.Ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Soyuz.Ru.",
       "emoji": "🎵",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMzk5eFNrMnVrMXZRSzVxUUh2Mm15TjJNbjVuR0NWOUl5ZVVyeTNYR292bUlDY2RmUFJZMFdGWHRmU1BiRUQ2cTd0NnM4ekN1ZlNabV9DUDFMR0NJQi1id05ucGozNUJocFMyelJaRzIwX25VMlpkVlVlUkt1NjFWcGpSYVdyUi1WSEREUkEwUm9acUlLZXRmQzhSaTlKN0RYcHBiMWNjTVpkZjZZRlNzdE9xaElVU0dzVDEyOHBDUnhkakJ1cTgyTVNEUEE?oc=5",
+      "sourceName": "Soyuz.Ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNkdCQ3FvT0hqOW81RUduVWNVajJOZDJYeHY2Umx6dGhIcTN4dEExTmltczZqMDY5clBWZGFJLVB0SzI5Tnp4SS0zZEMtZHliODlibFRMVUJyeVM3NHhaVktILW1RZl9rTUYtcGY4SWdVZmdIcTBlRTN0Mk45eTBOSFJyYTdCTWhXc1Z1cUZ6bUg?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T19:51:53Z",
-      "likes": 18
-    },
-    {
-      "id": "p_music_news_1548285730",
-      "title": "Студентка выиграла приз в размере 80 миллионов донгов на экспедицию в пещеру Сон Доонг после посещения рок-концерта. -…",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
-      "emoji": "🎵",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSzZiTk1CcEd0TlBxZjJMSU04X3EtYVFGemNUNlZiVzYyRXJLNmNzUnR3YmE5bU5iSV9Cam9YVEtIb1ZWQzd1MHl2Z0R0RUl3ZUFIY1Axdkh5TnU2YlpFdDlGYkNJaDVWSmhEcngwZDhndTJqcldhM2RjVGJXQWJ0TnBQem9oZ1BwQi03YnJxYlpfQjdQbUQ2bG1nTXRaYnpKUmc?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-26T18:51:37Z",
-      "likes": 62
-    },
-    {
-      "id": "p_music_news_2841812342",
-      "title": "Прибыв в Лас-Вегас в День благодарения, 21 артист из групп Say Hi Universe и HIEUTHUHAI дал два концерта подряд. - Viet…",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Vietnam.vn.",
-      "emoji": "🎵",
-      "sourceName": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYnNTZjI5ZUFidzVKaF9PRlROcnZoU3llcktuSmR4YUVDeW5wS2RNSmJxMGVOSGJ3ekdSQzFIQTMzYW9YNnFFbXp5aTRIQnJNWkhNLXRpVlU4MnZLZnJOdnFDanhCZUpzaEhZbjlMVkZDSVdjdEhfNG5ZbG5vOTRyei1Oclpyc2RxSUVVUFBjcWZjS3RUN2lqNWxIc0MybHA3RnpKSDhpR25LaHlJUTBtRnlaVnU4WFloQjVacEpFd002eTVHSVE?oc=5",
-      "tag": "Музыка",
-      "publishedAt": "2026-11-26T18:51:36Z",
+      "publishedAt": "2026-11-27T15:19:34Z",
       "likes": 37
     },
     {
-      "id": "p_music_news_3321485965",
-      "title": "В Астане состоялся этно-хореографический концерт «Бірлік әуені» - GOV.KZ",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: GOV.KZ.",
+      "id": "p_music_news_2158034805",
+      "title": "Я — сноб: актриса и певица Анастасия Тереля - Сноб",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: Сноб.",
       "emoji": "🎵",
-      "sourceName": "GOV.KZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tcnVxNFBzSFJ3MW5iSlhSV0N2RW5maFZyd2lEM0RQR0pRNkMyWVUzVldCWmR4eHhocU9pcy1OV1pjdGMtUzF2WUoxbHJIM3FrNWZuWlBSZ3BWdjMxRHJpVl9oM1ZnVUtWQzBnb1Rn?oc=5",
+      "sourceName": "Сноб",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HOU5hYnhEREV0T2lfQ0N0dlNVdWNGWkRwaEhnQUxGQXNxbjJ3NVQxV0xQTlRTU2xna1Q3VDZMR3pZZ9IBQkFVX3lxTE9HOU5hYnhEREV0T2lfQ0N0dlNVdWNGWkRwaEhnQUxGQXNxbjJ3NVQxV0xQTlRTU2xna1Q3VDZMR3pZZw?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T16:17:50Z",
-      "likes": 11
+      "publishedAt": "2026-11-27T14:36:27Z",
+      "likes": 88
     },
     {
-      "id": "p_music_news_1785619698",
-      "title": "Казахстанский музыкант jeltoksan. анонсировал мини-альбом - 98mag",
-      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: 98mag.",
+      "id": "p_music_news_2922768114",
+      "title": "ZHARA MAG в твоем формате: EMIN выпустил новый альбом «Что если останусь» - ZHARAMEDIA",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: ZHARAMEDIA.",
       "emoji": "🎵",
-      "sourceName": "98mag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeFBTNHdTWENtamZrNlNmOFAwVFduajJ6alBZZkxGZ3RxRnFCSWNHSzdDZ0NIcEVLZEJpTUZjUjc1REI2bEJBandBZUVfY2Z3Nk02VEFSUzRtRTh1OWx3TWtnS1lrQnF5ZWViSXVjNFAwQXpJSGo4QlpJeF9oRjBQSTlOSkZOckYteXQwWnJn?oc=5",
+      "sourceName": "ZHARAMEDIA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMVJjVDVRaW5ONk84UHJhaHkzM1RDQTNyMzc5YmVxV3FfNHJhSkRDRnFoSjRPdFllZjROaF91TzdYSTZ5bzF5TTA4MFI2cnVXcXZsSGpTbmg1S29vLVlxcjdZTHhQdGdjVm5iZE94eURxTGUzN1pyWlVGWm5YeVhXTEo3Ri10VXBLcFVEQjFCWQ?oc=5",
       "tag": "Музыка",
-      "publishedAt": "2026-11-26T16:16:38Z",
-      "likes": 79
+      "publishedAt": "2026-11-27T13:07:30Z",
+      "likes": 20
+    },
+    {
+      "id": "p_music_news_2938553578",
+      "title": "«Дыхание и четыре винила»: Актер Устюгов раскрыл секреты альбома с песнями Высоцкого - prospect.com…",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT2k0TUpOWlhuVEpFeVZkbWtBSUJSVUVRdlhISm10Qm5kT2UtNC1icFp5VGt5NGo1UTh3eGpoV1pXWlFjRFpYMEIzVDJvQThXM1Z0SUhvdVlYVG5Wak1rR0lVcnVUYTNaUmRJbFYyMGxSaGViMWxlN3FnMjRORjFGVE5NMzNaVDJNVEhfV3NXV19HZE14VmJ0aHhCSTBfMEVFdmozYWwxWUF0UHExMTVLOG9acHJMSnpyNENGRk1GNm5mLWNw?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-27T11:33:28Z",
+      "likes": 39
+    },
+    {
+      "id": "p_music_news_3607271753",
+      "title": "На концерт народной артистки России в Пхеньяне пришел Ким Чен Ын с женой - prospect.com.ru",
+      "summary": "Плейлисты, концерты и разговоры о звуке. Источник: prospect.com.ru.",
+      "emoji": "🎵",
+      "sourceName": "prospect.com.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYjVYNUVBMXlCX3JUM0lIcjhhUm1FVGtjbXVkLUFHZGY0Qm5JVHBUbV9sZ1VFWFJrT19pdlVXWldqNHRtOUU5cjVWVnp1eWpmSVFTU1hIU3pNcjNFcHFxN0oxN2V6YS1lTnRlLXRTel9SSXJ0TEtUOXJJZ3puMVZoMF9nUzhud1FWYWxQaEt3UVhsQU44VUN2cTJNY2FSYURmc2JhZW9TRFZnbFhBS0tjXzRILXRULXhR?oc=5",
+      "tag": "Музыка",
+      "publishedAt": "2026-11-27T11:23:28Z",
+      "likes": 58
     }
   ]
 }

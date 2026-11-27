@@ -1,63 +1,63 @@
 {
   "planetId": "p_psychology",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_psychology_news_4230308940",
-      "title": "«Остаться без другого — значит потерять опору». Психолог — о том, почему некоторые люди не выносят…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: СБ. Беларусь сегодня.",
+      "id": "p_psychology_news_4168130641",
+      "title": "Вся правда о лжи: звёздные гости и эксперты на «viju ночь эмоций» - Журнал «Теленеделя»",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Журнал «Теленеделя».",
       "emoji": "🧠",
-      "sourceName": "СБ. Беларусь сегодня",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZXp2cktxVE41ODRlUUM1REpXRkxvcjktQ2Fxa3gwQkZhMzkxSm9SNEx1TW5IMEpKTUFmWHdDZTNma3ZreXEzUmtReUprVDNsZlJla0ZHWFRFOUJ6eEVjcjY3UU81cXhEZlFvQjZpRkZnZzdqcFpjUWZtcEFkWWE0WXMtdFpaejl1WU1jalhoVFUxYTJ6YnBsUkNWa2xGWjVNMHJyUXU4YWRMUnRFcnBtbWdRSlowQnZjZ3h5WkJSMktkajVURVVTQ3NPWG9VemtHUHNsWtIB1AFBVV95cUxOZXp2cktxVE41ODRlUUM1REpXRkxvcjktQ2Fxa3gwQkZhMzkxSm9SNEx1TW5IMEpKTUFmWHdDZTNma3ZreXEzUmtReUprVDNsZlJla0ZHWFRFOUJ6eEVjcjY3UU81cXhEZlFvQjZpRkZnZzdqcFpjUWZtcEFkWWE0WXMtdFpaejl1WU1jalhoVFUxYTJ6YnBsUkNWa2xGWjVNMHJyUXU4YWRMUnRFcnBtbWdRSlowQnZjZ3h5WkJSMktkajVURVVTQ3NPWG9VemtHUHNsWg?oc=5",
+      "sourceName": "Журнал «Теленеделя»",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fc2l2d1k1Mk1RRHFnek95NXhvX3RaQ2lkZlpUMlF2VTY2eWhxSWVRZGt4bElLZEVURTc4WnhLUkYwN2pydW1qVGZzVETSAUxBVV95cUxPX3NpdndZNTJNUURxZ3pPeTV4b190WkNpZGZaVDJRdlU2NnlocUllUWRreGxJS2RFVEU3OFp4S1JGMDdqcnVtalRmc1RE?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T18:31:47Z",
-      "likes": 92
+      "publishedAt": "2026-11-27T13:53:47Z",
+      "likes": 7
     },
     {
-      "id": "p_psychology_news_1025692512",
-      "title": "Вместо крика — разговор: Психолог объяснила, как научить ребёнка справляться с эмоциями - Дети Mail",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Дети Mail.",
+      "id": "p_psychology_news_1406988239",
+      "title": "Улыбка в ответ на критику: психологи объяснили, что за этим стоит - новости Израиля и мира - Cursor…",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Cursorinfo.",
       "emoji": "🧠",
-      "sourceName": "Дети Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObEt3MHd3cWlPYXBRMG1jMFdSZlRhTXFOMHdhX3BPcEpZMDlzU1h4dlpaUXVzOVZaenN1VkhWeFBXUmU4YmNHR1hQTDh6VTJ5TVgxYS15eVFENEpYU0NJajZTNGs5REE3WFFMR1otWDUzd0tMdHdUZ3Z0LVd6STJPM3pTWDZydFdhRl8yQjZSek5nVnNSdFhQcS1QRW5TY1VSR0RjZGtEVkpyZDV1Z2ExTWxvSnF0c09MaEk4aQ?oc=5",
+      "sourceName": "Cursorinfo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWM5Y3FXbzJURkhVM3g3MFNNY3JFUmFXMHlmNmVFaHZlWlRmX0M2UG9reHEwNGZDQVZES3hFeHVra0dMSVoxRGRBVm80MXI1OXd6TGZPclhnY3NuUjJxbnIxTVU5am4wNkMwek0yVm9ENlB6NTRiNWhkekNNb2QzTkJvWG05bjRzTlplc2ZudUdGd2ZLX1dSSHEzRG01Q0ZsNmRRMGp30gGmAUFVX3lxTE9BYzljcVdvMlRGSFUzeDcwU01jckVSYVcweWY2ZUVodmVaVGZfQzZQb2t4cTA0ZkNBVkRLeEV4dWtrR0xJWjFEZEFWbzQxcjU5d3pMZk9yWGdjc25SMnFucjFNVTlqbjA2QzB6TTJWb0Q2UHo1NGI1aGR6Q01vZDNOQm9YbTluNHNOWmVzZm51R0Z3ZktfV1JIcTNEbTVDRmw2ZFEwanc?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T16:03:24Z",
-      "likes": 52
+      "publishedAt": "2026-11-27T12:19:50Z",
+      "likes": 62
     },
     {
-      "id": "p_psychology_news_1842185288",
-      "title": "Психолог рассказала, как раскрыть свою аутентичность - Здоровье Mail",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Здоровье Mail.",
+      "id": "p_psychology_news_2521445724",
+      "title": "Психолог назвал неожиданную причину переедания - ВФокусе Mail",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ВФокусе Mail.",
       "emoji": "🧠",
-      "sourceName": "Здоровье Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWczYjVCOFpEUjRtQ2RZczBJd3ZCRkZTS1RyaWpaS0NvaUNZcEdPR2FlLWNMQTBkMWp3MU04UmNrQmJtVjhBYWZLLUpNa3cxNFdrWldRVlRlVEhUc1FkRzI1SUdiMkQ0a1pyb2xKZFVVbG9CNVp2b2drc0pIWlBzOHlmVTBDOF84a3VydjM5bGRnaXc?oc=5",
+      "sourceName": "ВФокусе Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYU9aUi16STdTYnFYOTBYcUQ2bjVXdDY0UlZfZFFwaTFoc1hUNmExblN3M0RHT3lCZ1J4a0RYVjVydmpWQi1sT0RBcFQzMW5Db0laNXlrWFRfXzYxZHZtWVVjaEFtUy1RTDhRQ1F2MUxzSHhBQWFscThjdlQ2aHJST0VZTElsQlpLb0FGZWF3UHV4VzNNSW5xaA?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T15:16:59Z",
-      "likes": 56
+      "publishedAt": "2026-11-27T09:46:42Z",
+      "likes": 91
     },
     {
-      "id": "p_psychology_news_2731505354",
-      "title": "Группа навыков АСТ для жизни «Тренировка психологической гибкости» 10 декабря 2026 года в Москве -…",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: kudago.com.",
+      "id": "p_psychology_news_3005349786",
+      "title": "Почему мы ссоримся из-за новостей, выживаем на копейки и не хотим отношений? - Бердск-Онлайн",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Бердск-Онлайн.",
       "emoji": "🧠",
-      "sourceName": "kudago.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLTliYkRqZlhKeUsxc251NFVjVWhST1JSbGNiVkxPeUlsTk9MZVhScS1fRzJkc3BtejB3cUoyTG9lYVlVbWZVWXh0WkhKdUhtWXVvM0N3d1hrMnNHdmZHcFJFQUNPVjhiQnlNREwyTXdpVU02S19qaGtIVldNdkl2Qm9saW9Ed2pDOVZLRXZpQ1ZfUWs2NmtXV1UzYUxGNFE?oc=5",
+      "sourceName": "Бердск-Онлайн",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUROenB0N2ZUM0R4dmQwdmVhdGxFODljUjN0cmhSNmpyUXgtN2FjaldNaXdrcmtUTHM1eW1NQWNoeFh4NmkxNGpmd2k4WmE4U09aSzVpYkM1dlE2VjZjcjZBdUZ0RmtEbXRIYWNfbHZ1am5iWHJNNngtaXBCeHhoSVZmOGs1aEJsTzBmYy03SzVrQ0ZwdkhyZnUzTWFzVmlmWFR4UGNoZHRLaFZhMHo5MGJQdi1CVUdjUWtnTGdn?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T14:04:16Z",
-      "likes": 81
+      "publishedAt": "2026-11-27T09:02:22Z",
+      "likes": 58
     },
     {
-      "id": "p_psychology_news_4027556394",
-      "title": "«viju ночь эмоций»: четвертая встреча проекта прошла в Москве - Vokrug.tv",
-      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: Vokrug.tv.",
+      "id": "p_psychology_news_1480581779",
+      "title": "Зумеры боятся любви и не хотят играть по старым правилам: молодежь все осторожнее относится к сексу и отношениям - ТСН",
+      "summary": "Бережные разговоры о себе, отношениях и внутреннем мире. Источник: ТСН.",
       "emoji": "🧠",
-      "sourceName": "Vokrug.tv",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUUZGcjhkQ3A3YnZhazFSMWV6NU5EVHhrOVVyRHE1aWNEclpTRXRSanJweEh6b3JFdUU0dy13am1STXZuTkxoUVRCaVgyVXpGcTNRN0lPN1BqYW_SAWBBVV95cUxOSDF4My1MU2lMYnZuSUxxaThwVGo0YkxZempKbVlVSGpPb1NpOTBjYTRzZmcwSFdqNjhwb0dXWlZURm5QZUhZWENEMnlDeGVyMEpPdFdjV0lNby1OV3NrQTU?oc=5",
+      "sourceName": "ТСН",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQaG9hbFBCTUotZG5aRV82WHRjYTI0QUFscndrQUpNWFZiaElTclB6QVYzeDAtOHIwdTFLWG9idkVWTmVJX25jdEsyMm5rQTJJQXhVZ2Rwb3dvYlpsOTBXYUw1a0lJVXY2cF9JQlVub0loWk8zWnNQOVFZMXRqNUdieWVWOHhESndGSzBYZkFkNzZpT0U2MTZCOHhsTDVjQW5QTDhiSHlDUklpRUR0WFo3ekZpbjBjWFU3Um1XLVZtaUhRZmxUSy1iWFRLSnZlX2ItY0luLWt5Y25pNWdHMUc5SHZFMXZHSVpOQkM3Z1lHdlNvWkQwOGU5QTYyMTQ3OEZ6NzNoTXpoNy11ZU8wOWZJ0gGPAkFVX3lxTFBob2FsUEJNSi1kblpFXzZYdGNhMjRBQWxyd2tBSk1YVmJoSVNyUHpBVjN4MC04cjB1MUtYb2J2RVZOZUlfbmN0SzIybmtBMklBeFVnZHBvd29iWmw5MFdhTDVrSUlVdjZwX0lCVW5vSWhaTzNac1A5UVkxdGo1R2J5ZVY4eERKd0ZLMFhmQWQ3NmlPRTYxNkI4eGxMNWNBblBMOGJIeUNSSWlFRHRYWjd6RmluMGNYVTdSbVctVm1pSFFmbFRLLWJYVEtKdmVfYi1jSW4ta3ljbmk1Z0cxRzlIdkUxdkdJWk5CQzdnWUd2U29aRDA4ZTlBNjIxNDc4Rno3M2hNemg3LXVlTzA5Zkk?oc=5",
       "tag": "Книги",
-      "publishedAt": "2026-11-26T12:00:00Z",
-      "likes": 75
+      "publishedAt": "2026-11-27T07:58:47Z",
+      "likes": 12
     }
   ]
 }

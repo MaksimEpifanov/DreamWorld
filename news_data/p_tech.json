@@ -1,63 +1,63 @@
 {
   "planetId": "p_tech",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_tech_news_361834161",
-      "title": "OPPO впервые представила флагманскую серию смартфонов Find X10 в России - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_3414567690",
+      "title": "Сбер выложил в открытый доступ ИИ, который позволяет управлять домом без интернета - iPhones.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iPhones.ru.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTHp1NDFHUFpIU0JYX3RkUnlldFZSSDdqR1FKRk9XSnBTUUUtc0I3RjJLSkowRkhhS0dxS1dNN3FkOWRIM3huQXZTSi1qWkxuTWZIajlXQW1mUEFHRU82Nnc4ZkcwTVZOWlZpRU9rNkVJT0cwUGRrSVMyZTVBNWxMekF5b0JCeFV4THgwRWNrdDNmQ1RtMzRlQjZhUDVNQ3NPU1E5ZUdjdEFuZzFjVEw3QTYtaVFPZw?oc=5",
+      "sourceName": "iPhones.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOLTJQYTVrWTZuR3FPSkpCS09CRmpsNllnRzYzQ3YxaDJFSTZlUnZZQ1pSVlE3ZC1NN0I1UEdkNllmUXV2eEFsenFTaHZBNGpHQVFia3FfbWl3aE04eEhzUEU5TGZzT1M0UnZKMVM0bnduQi1WR0pFQ1FRaEhmVTU4U0tocV90NDNoaEp0TzJPWlQxcmYtUzJUc25icTlXMzgwTTd0WHRHSmMwUzVXZ2FNOTRoeS1RVi1WRTRQZTREMlNxd0FBRVo5Z240MXVzdzFHX0puWk02VUFSRnA2Skd4SXJyNng?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T18:22:12Z",
-      "likes": 50
+      "publishedAt": "2026-11-27T16:19:17Z",
+      "likes": 17
     },
     {
-      "id": "p_tech_news_2022915590",
-      "title": "Уже в России: зачем Xiaomi 18 Pro и 18 Pro Max второй экран и чем ещё интересны новые флагманы - pr…",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_3614766951",
+      "title": "OpenAI хочет убить iPhone: Джони Айв опять разрабатывает гаджет, который должен изменить рынок элек…",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: 3DNews.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSU5adnptdXFoc3pQTEdLRVhUQWg5eUJaVmxzSmpFRVhmZG9LVVFyN2tVRmpWdGFyTXVsQ1dOelFQWkdwM3ZhNFJNX1ktMEJHdkI5dVhhMkIxbENWS3Z5bGEtNjc2b3liOThpM1NKVkR6VER3TWVtbkxLT3VmSE9zM2RVaGxwMlAyb04taFpzbzhDTW5RZlRPVjhhdWtZMkNrUWE4TVhob1VDZ1Z0U19mMzdVeFJKYlpyX0lkVEV4TzZhLWxVaXZKNkx0alFlNE9WeGVHNThB?oc=5",
+      "sourceName": "3DNews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5EXy1WR09VN0RWaW9FTTBsQmNybjZnaVJISU5JTWRGbTQ3SVdxdjI3Ni12bXEyRTlWa2k2SDB3?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T16:01:31Z",
-      "likes": 77
+      "publishedAt": "2026-11-27T15:52:00Z",
+      "likes": 41
     },
     {
-      "id": "p_tech_news_3849996882",
-      "title": "Apple готовит MacBook Air в новом дизайне с главной фишкой MacBook Pro - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_639844936",
+      "title": "В обновлении iOS 27.3 появятся суточные лимиты на облачные ИИ-функции Apple Intelligence - iXBT.com",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: iXBT.com.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV2Qtc2pqbkJ6R0Z5U1lSV0ttbU90LThhRGU1Z1FNd3hIWnBNUWdXR3FWSGNwbFJkTjVjVEg4LWhmVFRrVlFfYjNQVXI2cm5VSWtxSHE3Q2FXbkhxdlVyLXpBeVctWjh0QzE0NmVjRVlmRFM0ZTFxbGEwbkVRUVZGMmh3aEVKbEhnd3VWSUVVTV9nY2ptelVxdmt2RmRaOTYwZ0o5aS0wcWJSQXR6a25tMm1Sbw?oc=5",
+      "sourceName": "iXBT.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNejNENXJId0NsMmFBUFpndnJHazZ4V2FuOHJ0THJhY21wb1J0YkF4c2ozQVp4NC1wSzFqM2ZjeXpjcHVKT1BMRUllT2g3bXJ4cTN3VmVWLUFnLUNUOXJMYkF4VVJOQ28yeERTQXdUQlZWT2p1YTh5Z08xQy1sTU1OWEhnZkZ4elBDS2E4VXdHN0lfNUhLc1lfOWdscHhYTi1nQTJtbVNELUplRVRJRzRqNkZEY2RjcE1MUUhsTEtvQlQxUTNoU3BuMmd4RGJnT1nSAc8BQVVfeXFMTXozRDVySHdDbDJhQVBaZ3ZyR2s2eFdhbjhydExyYWNtcG9SdGJBeHNqM0FaeDQtcEsxajNmY3l6Y3B1Sk9QTEVJZU9oN21yeHEzd1ZlVi1BZy1DVDlyTGJBeFVSTkNvMnhEU0F3VEJWVk9qdWE4eWdPMUMtbE1NTlhIZ2ZGeHpQQ0thOFV3RzdJXzVIS3NZXzlnbHB4WE4tZ0EybW1TRC1KZUVUSUc0ajZGRGNkY3BNTFFIbExLb0JUMVEzaFNwbjJneERiZ09Z?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:21:31Z",
-      "likes": 45
+      "publishedAt": "2026-11-27T15:21:30Z",
+      "likes": 43
     },
     {
-      "id": "p_tech_news_2737981248",
-      "title": "Nothing показала дизайн наушников Ear Note - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_2912980332",
+      "title": "Соавтор iPhone рассказал, зачем OpenAI собственный гаджет с ИИ - Life.ru",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Life.ru.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGo4QkNqeXhrMzJIczJ3bUZlSmY4bUpvVTZqa2hXc2ZqRzBmZ1BYbGR1U01kcXljMTlyZE1zOTNpT1NLeEJPaVpkVzJJcWd4OGJRRGdwZmxSV3hGc241ZmZhYnBRQldZUno3UkZiV2g2MENZMUVsbGRwdklscUswbS16eG1wSFBsd29uNE53?oc=5",
+      "sourceName": "Life.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNXQ2bHBKMmdOQkRQbnRFeGRTNDl6U1Zzak9KXzdtRUpEUGZqRkd5UEVSZ2QySDdhUnhQVkRwQ1htV2ROaV9kNC1KQUNWUjAyOW9pMWtBZkJwbHdhUEdCTzBVV0dyNjIyXzE1MDdzLWRTXzZQZE1xTHFaVTlvVWNVY1FzaDdLRGJx?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:12:24Z",
-      "likes": 84
+      "publishedAt": "2026-11-27T14:23:36Z",
+      "likes": 49
     },
     {
-      "id": "p_tech_news_742068639",
-      "title": "Смартфон HONOR Choice T20 оценен в 12 тысяч рублей - prospect.com.ru",
-      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: prospect.com.ru.",
+      "id": "p_tech_news_1026290343",
+      "title": "OpenAI готовит собственное ИИ-устройство для изучения информации пользователей - Ведомости",
+      "summary": "Гаджеты, код, ИИ и стартапы, которые меняют мир. Источник: Ведомости.",
       "emoji": "💻",
-      "sourceName": "prospect.com.ru",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDAxa0t1RlNkMnJPR0lkRGdFa09iay01R3NWUVRwOTNIeWZTVlJEeTJ5b0M3TzA3NHJ2RmJsWGRvckJsN0t1dEVuTUZERC1WUEFzZXpYVnBWNk5WXzZINHduUFQ0dURBYmVPbm5nSmtNTUctT1paUHlUZV9WWGR2TEtmOWpvdGJraVR2Z1V2VzBjOGVabEpYenZiTQ?oc=5",
+      "sourceName": "Ведомости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEVlS2JFMDhSeDA0QThJZC1qTjIyMm8xOUpSandsLU5XMDFfUzBjY2huSUhRLXRwcEpFbi1peVh2Wko3YWdhNDhKX3ZPOGhWRHJobHBDQ1kyUzFtaGFHXzdaNVpEc08xNTJzeldLSEpZc29BNC1UVnE2eWVkTVNwUDNNU0RzZ2xhdVRaWDhOaEs4NXVjNmc?oc=5",
       "tag": "Технологии",
-      "publishedAt": "2026-11-26T15:12:24Z",
-      "likes": 25
+      "publishedAt": "2026-11-27T14:08:12Z",
+      "likes": 55
     }
   ]
 }

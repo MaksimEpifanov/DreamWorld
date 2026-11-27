@@ -1,63 +1,63 @@
 {
   "planetId": "p_food",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_food_news_2393678607",
-      "title": "Как подготовиться к рождественскому и новогоднему ужину: советы, которые помогут сэкономить время на кухне - NV",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: NV.",
+      "id": "p_food_news_532015662",
+      "title": "Новый ГОСТ закрепил эталонный рецепт оливье без колбасы - Новосибирские новости",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Новосибирские новости.",
       "emoji": "🍜",
-      "sourceName": "NV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHl2RDg4VDZtMmFqWDluU0FOdjdDRERaeDJBSVNIM0F6Mk9KdFdpR3lxdnkyb2taMHkybGEtMGRuc1lsbFdyRDl0T2ViZ05XY3FiSExhcEx6Y0RUMjhNLXppTjljODlUSWh0T1RWazJld01KRFJrTzhKNEcxSlJOWlU1THRGNS1xejhJb0NRVjg5ZnpkSXljaDdMYVZHM29FckJMeHA1RXZWbElydHhEYlNuRTA1b21ZTjd0bmlJLVdOVEVKb0HSAb8BQVVfeXFMTURGclZfOGhmS2NDQTJvWnNiRDNTdDB5b2pDTE1WS19nWlZwY21PVVN3aldWdkFad21Bdmg5U1lKMWlGUDZxSDlrek02Nzk5U3FYLUZHT0plc1YwaVdRNHZrUW9TWUNydXU3ZWVqOTc4UzloaC1GdDdGbWlCVkdJYXg0Uk1sdllGaGx6eG5jVzBIYW5WSGVFOTdzckpDYnRjV2p0V0xCZ3J0NFFwZDJPN3RNRUZsQjVPdFMzajJYN2s?oc=5",
+      "sourceName": "Новосибирские новости",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd21iQVZ5aWt1ODFkM2lERi1pRzV6M1lCTGVuVFRDWXpzQlpRR29pRGpFWF9icTNhUmVaNE5ZRUt5aW42bzhORHRMN0ZvUDFwbHBxODlqRG9zaTFVUmlqVWtWTFV0Y0l2QVlCREx1WExlZXBsQzdjZkUwSXNQSy1rNFJqRENGTXc?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-26T21:15:00Z",
-      "likes": 86
+      "publishedAt": "2026-11-27T15:00:00Z",
+      "likes": 56
     },
     {
-      "id": "p_food_news_3918474128",
-      "title": "3 квадрата теста - и стол на Новый год накрыт: 3 быстрых и вкусных рецепта, от которых Коза теряет…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: UssurMedia.",
+      "id": "p_food_news_1094026047",
+      "title": "Роскачество назвало долю мяса в хорошем холодце: как выбрать и приготовить блюдо к Новому году - PN…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: PNZ.RU.",
       "emoji": "🍜",
-      "sourceName": "UssurMedia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uZmJvVjlyTllQUkxYeTROQ3BIZWJRb3QzYWQzdFJOT2VfUFd5ZWdfcG9tb3J6TFdyaHBwbjlwS3NOLUVzMmQ1c1RYRQ?oc=5",
+      "sourceName": "PNZ.RU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUzc1WnBpQ3NPVkZaMW5xZWdTWVFSbDJHRTBwdS14bXdrWXJ3dDdRWF9UYUlaazhWR2cwd2xwZlUwbHhtS1NfR1g0TVAzZzJMMV9VbTN0UjhlekFEMl92bTEyaU90WTdxLU5DWUFOd0dwZHNzVHJ1cWNnTHQ5NkVPUDE2Wjh1OTUzVS01SlNOOTlTM2JaZmpJdTNic19XV2g1X1FMZ1pWcEQ3eXlKVW4zcg?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-26T19:30:00Z",
-      "likes": 7
+      "publishedAt": "2026-11-27T15:00:00Z",
+      "likes": 19
     },
     {
-      "id": "p_food_news_3552887102",
-      "title": "Как питаются в Сербии: почему в рационе слишком много хлеба и мяса и мало овощей и фруктов - RuSerb…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: RuSerbia.com.",
+      "id": "p_food_news_2973060769",
+      "title": "Таиланд или Вьетнам: где вкуснее? - ВкусВилл",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: ВкусВилл.",
       "emoji": "🍜",
-      "sourceName": "RuSerbia.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMmliQkh2Y2ZqZm9lSEZKdDNkNjB0cXhHUUtraXpic3VYbThxdnFDUndYbUZTa2M2cWttQkNVRS1LMnRmUzIzeHBSQUNQQ2JBaXFmS0RfLWJ5TWZBXzE1SXFhYmtwZW52UGZWYWZYQjByV3VwVVNOYkplTEVNVFRBdmMwZmtJQnNBam02c21TVWRNQzQxZE9hNFJlQ2trLTBUTEtqRFdxNzA2ZmRZMk05c2NvaXR3MUZrWGJzT05FZE94Qk5Qcnc?oc=5",
+      "sourceName": "ВкусВилл",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ncnJrOVU5MFlMZHJadXNOay05WHVLTk96RWJvRWM4TUo2UXp2ZXVnSTR2UmZ3dG13X0pYZmN6TGpfVU5Ec0RmV3FaVnR6ZEdFY2tZSE9iNGkwT3I2VWZZY2UtSDFtVk9yTVV6YnpWZHplRjVCMjlSTA?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-26T17:20:07Z",
-      "likes": 12
+      "publishedAt": "2026-11-27T14:31:13Z",
+      "likes": 60
     },
     {
-      "id": "p_food_news_2057907818",
-      "title": "Подделывали рецепты и продавали психотропные препараты: в Кузбассе вынесли сроки до 16 лет - Общест…",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: Общественная служба новостей.",
+      "id": "p_food_news_3637069782",
+      "title": "30 овощей, фруктов и орехов, которые стоит добавить в зимнее меню, — и что из них приготовить - Ukr…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: Ukr.net.",
       "emoji": "🍜",
-      "sourceName": "Общественная служба новостей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWWZ6OUdkR1ZKU29ISG9USUVWX3AxbzBETUFjN1RSRTBLbFZBUWd2bWU3MHJ2UUxSam5FQWhBaXYySEJpd0NybGplc0pDc09IdlJtYUQwNzdZOWRMUTFJejhLd05ReVJxWXNjSEV0TmgtUVlOMzNfRGJSY0M0TmtzTm96TlJuZlFtemJoTkd3WXRBNkRIR0dTVjVGcUlqOFBNTVliaVQ4SFBJTldpWjNEMms3Z0trby1KMGJpUUtxVGZWVk12LVVVUHRn?oc=5",
+      "sourceName": "Ukr.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SUW41UUZyLVRpTldUbFdyMFlKVlhQS19JZk15blRVZmx1UVdFQkhzVm5yRUpIdVFlWmNFMXRIVTlJWTVaQXZnMEVWQXl1b2hyd19VTkRZTXVVQU82cGMtc0VwV293QQ?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-26T15:59:28Z",
-      "likes": 44
+      "publishedAt": "2026-11-27T14:13:58Z",
+      "likes": 40
     },
     {
-      "id": "p_food_news_1036065071",
-      "title": "Какие блюда готовить зимой 2026-2027: эти продукты — на пике популярности (фото) - ТСН",
-      "summary": "Рецепты, вкусы и уютные ужины. Источник: ТСН.",
+      "id": "p_food_news_2947595418",
+      "title": "Ресторан-лаунж, зеленый бургер, грузинские секреты, День матери: свежий гастрономический дайджест -…",
+      "summary": "Рецепты, вкусы и уютные ужины. Источник: The Voice Mag.",
       "emoji": "🍜",
-      "sourceName": "ТСН",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLUtzcFlZYi1FSnZvXzVCWEZUZlhBbnNuLVlzS1k3TmxSdV9BOU9hZVhRLW5UamZyU0dHZUFtMHdDR0hUdW1rREFFc3VLU0QyY0ZxaHJDeDVOdndRNUxYcnNpdS0yWFd6VW1BcXRjN0w3Q1JyZjdFenlvTkh1VjhIOUpVVVEwQ2txNUlYU0V5Y0d4NnRSRU9QN0FuYXNYUVhfLTZ1Yk9rdU9jT2JKT0htek9nMzlpSjFt0gG4AUFVX3lxTFAtS3NwWVliLUVKdm9fNUJYRlRmWEFuc24tWXNLWTdObFJ1X0E5T2FlWFEtblRqZnJTR0dlQW0wd0NHSFR1bWtEQUVzdUtTRDJjRnFockN4NU52d1E1TFhyc2l1LTJYV3pVbUFxdGM3TDdDUnJmN0V6eW9OSHVWOEg5SlVVUTBDa3E1SVhTRXljR3g2dFJFT1A3QW5hc1hRWF8tNnViT2t1T2NPYkpPSG16T2czOWlKMW0?oc=5",
+      "sourceName": "The Voice Mag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZkpCN1N1eXhaOFVJUjdUY2p1T3JEclFtcUJuMnVTaDZGTVVjaUp4ak9lU1RoRjB2MVZUdnBHYTdvMEpGN0JBeE1wbGNwRnlldnJIbHprYTBqS2oxQWpWSzRZajZ3dUMteTdVZ0UwaTNjUnhjQzZJN3Jpd1duUGZPckF2S2FqR2J1Tk1iRDBNUWhEYkhHVnJhY2pUTEN0NmxsUVllN3RhV2pyajQzZE9zd3FkOEdZT1g1b0luTG5JQnAzMEJHaTFYUXYyQ21vdllGeEc3MWRlYVpTSjdLeEhzVw?oc=5",
       "tag": "Кулинария",
-      "publishedAt": "2026-11-26T15:57:59Z",
-      "likes": 83
+      "publishedAt": "2026-11-27T14:00:00Z",
+      "likes": 35
     }
   ]
 }

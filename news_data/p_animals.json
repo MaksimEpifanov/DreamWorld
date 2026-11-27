@@ -1,63 +1,63 @@
 {
   "planetId": "p_animals",
-  "updatedAt": "2026-11-26T21:26:59.656999Z",
+  "updatedAt": "2026-11-27T16:41:29.651576Z",
   "source": "google-rss",
   "mode": "template",
   "news": [
     {
-      "id": "p_animals_news_2805068803",
-      "title": "На дачах в Курске умирают 3 собаки, волонтёры просят о помощи - Курские Известия",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Курские Известия.",
+      "id": "p_animals_news_1142415859",
+      "title": "Спасённые из кошачьего гетто котики наели бока. Фоторепортаж - KO44.ru",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: KO44.ru.",
       "emoji": "🐾",
-      "sourceName": "Курские Известия",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aOVM0ME5CbHZWNk52QS1xRUI3VUdFWklub2hLcTJNRTlCdGNROVV2MHN6Q1kzYm8zbjJtSzlaYVNTNnhuSXNlWXV0MEZOcWph?oc=5",
+      "sourceName": "KO44.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5wRTNQYzVyeDBjVVBNZEZpVHdiRDVGYTNrcllyMjQyeUY5S0hYUl81UHZBcDdidGQtRFY0eUJR?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T18:56:00Z",
-      "likes": 55
+      "publishedAt": "2026-11-27T14:24:09Z",
+      "likes": 81
     },
     {
-      "id": "p_animals_news_3708010849",
-      "title": "«Счета только за двое суток вышли на 237 тысяч». Тюменские волонтеры просят помощи в спасении животных - 72.ру",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: 72.ру.",
+      "id": "p_animals_news_95138906",
+      "title": "Тульские журналисты передали корм в приют для бездомных животных - Тульские известия",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Тульские известия.",
       "emoji": "🐾",
-      "sourceName": "72.ру",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5MXdURXZLbXlOQ1JkcC1aRWZqQ1ZJMC1xNmxYRjBaWktYMzZnendQVjF3NURjTjZPYXlMMS1MZkFYZmNfUkV6aEllZ3RpN19pdkF2bTB6TFREZzg?oc=5",
+      "sourceName": "Тульские известия",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXdFdwcWFDeHFUOVFnRjhvNHdJQmJBQk5sR203aUpGUDRBTFZTWVAyQnY5U3lXejZ1SXdjazk0MnI5Zw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T16:01:00Z",
-      "likes": 22
+      "publishedAt": "2026-11-27T13:53:01Z",
+      "likes": 14
     },
     {
-      "id": "p_animals_news_4104042331",
-      "title": "Семь собак муниципального приюта Екатеринбурга находятся на грани нервного истощения - Вечерние вед…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Вечерние ведомости.",
+      "id": "p_animals_news_2341136470",
+      "title": "Собака оказалась лишней: что делать, если нет возможности содержать питомца - kursdela.biz",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: kursdela.biz.",
       "emoji": "🐾",
-      "sourceName": "Вечерние ведомости",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYTlwbzVVdVRFdC1Yb2E5NEg5SG9kd2pDeFF2SkFEb3ZRcUFIQ0U3MV9ZaDMyWDFtcWs1eU40ZWZ5QmpnQVU0QlJ1QjdkWEE3U1VlWEg4cnF2OVpzSURFbHlEZ2xpdFZfQkoxaEZFdkEwMG9zSjllNF9WTk9pd2llT3JnRkFkWEZ6UG5LRVVKS2ZScW5OMU5INExYYmt4RVRjUTBpNDlFNi1ubC1iWDA3eHluYW1LTnJTeWFQdmNOanBXSUdMcDdjdEV6UGhzQdIB0wFBVV95cUxQUTVNY2Vta1QySGdmVUdpb1h6cjRWVWJlbGhJcVZ2X0dneTlrLThELWFzSVNKWU5MR1VLbVR2TGlzVGoxbjloaWpSaVBnV0VlVG4ybUZsYWpxVnJNVExvRUNCeWNTbzhVWDFDelNkbFRadThtTXU3SWVSS1RqYnRkQTFYRFRkSGszYjM1bDZWMWlTUmxwRFd4bXRZNmJrZlpaQkRjLWV0dFBaajFQckFSdFJvdk9QQnFwdkZyQ2E4RGhpdEVfeVJDV2U4bHlMTDBaTUU0?oc=5",
+      "sourceName": "kursdela.biz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1JNYmFWUTk5SXJsNzhWaml0blRNaHNqeW5fZHZQWEF3Wmd1VzNfMzZtOTlENEZqaUh2SFh3NFZRUDZhRWJUZTJJMGdFSENZWXRlc0lkMnVPbmNtd1h2eWdXZ0drSnFucVU0RkE3WTY0QnpTNmRSRXhOYnZSaGJTMjltNGJhSDJjWFl5aGEwaS1nRkhIa0lucXNyUlZSZmJadjBEWjZDWjlOa2pLQW9PYmY0NGlQOE9feGxIRw?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T15:54:26Z",
-      "likes": 58
+      "publishedAt": "2026-11-27T13:23:00Z",
+      "likes": 20
     },
     {
-      "id": "p_animals_news_4263897269",
-      "title": "На Харьковщине бездомные бешеные животные стали чаще нападать на людей - Харків Тудей",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Харків Тудей.",
+      "id": "p_animals_news_1220221361",
+      "title": "Сотрудники ГУФСИН навестили животных в челябинском приюте «Друг» - mir74.ru",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: mir74.ru.",
       "emoji": "🐾",
-      "sourceName": "Харків Тудей",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQmdjdGxvQldIUGs1NmhRODhyaVNMdUZrOEZrX29vT3ZrNjEzUWpWVjJTYl9qZXVsQ2JuZlBiTnZ4b3VkSml0TjZ4Z3dmUHJvZU9xeWRTYzIyeXBKQzZUR3lvTk1BSGp2My1CSC01UGkxQ0dlNmtZeWU3TGlpOUVLQ0dfUmYwU01iX3JJbDFYT2pEeE5rTVk4VTdlYTVFNF9yVDVhR0Y4MFMtODDSAbYBQVVfeXFMT042MGNEdjQ0QTZ4QnluRHRIelZXVWhXZ2tMZTdLSDRLRk5MNmxQUC1LTkdyUHk3MGppVlk1WVBEcldpbTFVRjNXdEpBSk95NFk2SWZGQmtwWVczay1aSXBtQUNQaXE2T3JoTWNfRzdVanJTbUM3QklwYkl3UDhDTGFaOGNQZTQ2U1gtblNneUg4eTNTamdqcXRFNUxKREU5eXZfbjl4YTRRYUwxYzBCWHp0cV9iaHc?oc=5",
+      "sourceName": "mir74.ru",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGllcGVTd1c0Z0pDV1p3TTVhaDdTUTFmYUZoc19Kcm1lQnRKMFMzTjQyemx1TUdOT2t6d0pUSXJ5SHJjV2RYTTRiTjRGWUVEelhzX2RjeVpzekpENkh4QklZd05DZ0szYlV5OV9Ba0RFaWVvUnFEaFlHTnBtRk1KbDhub04xbDZfUWFoSkNyZTZjRWlXa1RUbjZR?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T11:39:37Z",
-      "likes": 26
+      "publishedAt": "2026-11-27T12:55:15Z",
+      "likes": 87
     },
     {
-      "id": "p_animals_news_538338417",
-      "title": "Штрафы за животных в Братске: за что горожане заплатили более 120 тысяч рублей в 2026 году - Братск…",
-      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Братская студия телевидения.",
+      "id": "p_animals_news_3731292855",
+      "title": "Из прифронтового Балабино в Запорожской области эвакуировали животных под прикрытием антидроновой г…",
+      "summary": "Питомцы, спасение и забота о тех, кто рядом. Источник: Rubryka.",
       "emoji": "🐾",
-      "sourceName": "Братская студия телевидения",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5sTWhHTVpDNDVpWXg4SW9Fb0NjV09iTGJFNWRnRU5qc3hsaHhnaFltOVFhQ3ZOZ0lxQzF2cmVObVFuTF9tdWRZ?oc=5",
+      "sourceName": "Rubryka",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12enNjaUlLaTdHOTNMeHhaLUNKWjVrdlBLZlVhZi1oam1TeW1obk1rY0p3b0tNa29XdGhnTEt4YnVqOWl1UG9lWkJaN3FNQWg1MXY3WWhtZUR5aWdkVHEwNGQyeGhXcW01cllrMHlXWWRyRm5HNnp4aHZRMmU?oc=5",
       "tag": "Природа",
-      "publishedAt": "2026-11-26T11:35:39Z",
-      "likes": 17
+      "publishedAt": "2026-11-27T12:27:57Z",
+      "likes": 28
     }
   ]
 }
