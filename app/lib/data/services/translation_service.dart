@@ -17,3 +17,24 @@ abstract interface class TranslationService {
     required String toLang,
   });
 }
+
+/// Названия поддерживаемых языков для UI.
+const Map<String, String> kTranslationLanguageLabels = <String, String>{
+  'ru': 'Русский',
+  'en': 'English',
+  'es': 'Español',
+  'de': 'Deutsch',
+  'fr': 'Français',
+  'it': 'Italiano',
+  'pt': 'Português',
+  'zh': '中文',
+  'ja': '日本語',
+  'ko': '한국어',
+  'ar': 'العربية',
+  'tr': 'Türkçe',
+  'hi': 'हिन्दी',
+  'pl': 'Polski',
+  'uk': 'Українська',
+  'kk': 'Қазақша',
+  'uz': 'Oʻzbekcha',
+};

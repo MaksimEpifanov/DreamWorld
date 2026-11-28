@@ -12,6 +12,7 @@ import '../../../data/providers/app_providers.dart';
 import '../../../data/providers/planet_providers.dart';
 import '../../../data/services/call_service.dart';
 import '../../../data/services/moderation_service.dart';
+import '../../../data/services/translation_service.dart';
 import '../../chat/widgets/message_bubble.dart';
 
 /// Общий чат сообщества планеты.
@@ -32,6 +33,10 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
   final TextEditingController _textController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final ModerationService _moderation = const MockModerationService();
+  final Map<String, String> _translations = <String, String>{};
+  String? _translatingMessageId;
+  String? _chatTranslationLang;
+  bool _translatingAll = false;
 
   @override
   void dispose() {
@@ -128,6 +133,119 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
     );
   }
 
+  String _translationKey(String messageId, String lang) => '$messageId::$lang';
+
+  String _activeTranslationLang() {
+    return _chatTranslationLang ??
+        ref.read(translationServiceProvider).defaultTargetLanguage;
+  }
+
+  Future<void> _translateMessage(
+    PlanetChatMessage message, {
+    String? toLang,
+  }) async {
+    final String lang = toLang ?? _activeTranslationLang();
+    final String key = _translationKey(message.id, lang);
+    if (_translatingMessageId == message.id || _translations.containsKey(key)) {
+      return;
+    }
+    if (message.text.trim().isEmpty) return;
+    setState(() => _translatingMessageId = message.id);
+    final TranslationService translationService = ref.read(
+      translationServiceProvider,
+    );
+    final String translated = await translationService.translate(
+      message.text,
+      fromLang: '',
+      toLang: lang,
+    );
+    if (mounted) {
+      setState(() {
+        _translations[key] = translated;
+        _translatingMessageId = null;
+      });
+    }
+  }
+
+  Future<void> _translateAllMessages(
+    List<PlanetChatMessage> messages,
+    String lang,
+  ) async {
+    if (_translatingAll) return;
+    setState(() => _translatingAll = true);
+    final TranslationService translationService = ref.read(
+      translationServiceProvider,
+    );
+    for (final PlanetChatMessage message in messages) {
+      if (!mounted || _chatTranslationLang != lang) break;
+      if (message.text.trim().isEmpty) continue;
+      final String key = _translationKey(message.id, lang);
+      if (_translations.containsKey(key)) continue;
+      final String translated = await translationService.translate(
+        message.text,
+        fromLang: '',
+        toLang: lang,
+      );
+      if (!mounted || _chatTranslationLang != lang) break;
+      setState(() => _translations[key] = translated);
+    }
+    if (mounted) setState(() => _translatingAll = false);
+  }
+
+  Future<void> _pickChatTranslationLanguage() async {
+    final TranslationService service = ref.read(translationServiceProvider);
+    final String? selected = await showModalBottomSheet<String>(
+      context: context,
+      backgroundColor: AppColors.surface,
+      builder: (BuildContext context) {
+        return SafeArea(
+          child: ListView(
+            shrinkWrap: true,
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(AppSpacing.md),
+                child: Text('Язык перевода', style: AppTextStyles.title()),
+              ),
+              ListTile(
+                leading: const Icon(Icons.close_rounded),
+                title: const Text('Отключить перевод'),
+                onTap: () => Navigator.of(context).pop('__off__'),
+              ),
+              for (final String code in service.supportedLanguages)
+                ListTile(
+                  leading: Icon(
+                    _chatTranslationLang == code
+                        ? Icons.check_circle_rounded
+                        : Icons.language_rounded,
+                    color: _chatTranslationLang == code
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                  title: Text(
+                    kTranslationLanguageLabels[code] ?? code.toUpperCase(),
+                  ),
+                  subtitle: Text(code.toUpperCase()),
+                  onTap: () => Navigator.of(context).pop(code),
+                ),
+              const SizedBox(height: AppSpacing.sm),
+            ],
+          ),
+        );
+      },
+    );
+    if (!mounted || selected == null) return;
+    if (selected == '__off__') {
+      setState(() => _chatTranslationLang = null);
+      return;
+    }
+    setState(() => _chatTranslationLang = selected);
+    final List<PlanetChatMessage> messages = ref
+            .read(planetChatMessagesProvider(widget.planetId))
+            .valueOrNull ??
+        const <PlanetChatMessage>[];
+    await _translateAllMessages(messages, selected);
+  }
+
   void _scrollToBottom() {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (_scrollController.hasClients) {
@@ -152,7 +270,16 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
       planetChatMessagesProvider(widget.planetId),
       (AsyncValue<List<PlanetChatMessage>>? previous,
        AsyncValue<List<PlanetChatMessage>> next) {
-        if (next.hasValue) _scrollToBottom();
+        if (next.hasValue) {
+          _scrollToBottom();
+          final String? lang = _chatTranslationLang;
+          if (lang != null) {
+            _translateAllMessages(
+              next.valueOrNull ?? const <PlanetChatMessage>[],
+              lang,
+            );
+          }
+        }
       },
     );
 
@@ -164,6 +291,18 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
               context.go('/main/planet/${widget.planetId}'),
         ),
         actions: <Widget>[
+          IconButton(
+            tooltip: _chatTranslationLang == null
+                ? 'Перевести чат'
+                : 'Перевод: ${kTranslationLanguageLabels[_chatTranslationLang] ?? _chatTranslationLang!.toUpperCase()}',
+            icon: Icon(
+              Icons.translate_rounded,
+              color: _chatTranslationLang != null
+                  ? Theme.of(context).colorScheme.primary
+                  : null,
+            ),
+            onPressed: _pickChatTranslationLanguage,
+          ),
           IconButton(
             tooltip: 'Аудиозвонок',
             icon: const Icon(Icons.call_outlined),
@@ -203,9 +342,23 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
                       itemBuilder: (BuildContext context, int index) {
                         final PlanetChatMessage message = messages[index];
                         final bool isMine = message.senderId == currentUserId;
+                        final String activeLang = _activeTranslationLang();
+                        final String translationKey =
+                            _translationKey(message.id, activeLang);
+                        final String? translation =
+                            _translations[translationKey];
+                        final bool showTranslate =
+                            _chatTranslationLang == null &&
+                            message.text.trim().isNotEmpty;
                         return _PlanetMessageRow(
                               message: message,
                               isMine: isMine,
+                              translation: translation,
+                              isTranslating:
+                                  _translatingMessageId == message.id,
+                              onTranslate: showTranslate
+                                  ? () => _translateMessage(message)
+                                  : null,
                             )
                             .animate(key: ValueKey<String>(message.id))
                             .fadeIn(duration: 250.ms)
@@ -219,6 +372,13 @@ class _PlanetChatScreenState extends ConsumerState<PlanetChatScreen> {
                   },
                 ),
               ),
+              if (_chatTranslationLang != null)
+                _PlanetTranslationBanner(
+                  lang: _chatTranslationLang!,
+                  isLoading: _translatingAll,
+                  onDisable: () => setState(() => _chatTranslationLang = null),
+                  onChange: _pickChatTranslationLanguage,
+                ),
               _InputBar(controller: _textController, onSend: _send),
             ],
           ),
@@ -305,13 +465,25 @@ class _EmptyChat extends StatelessWidget {
 }
 
 class _PlanetMessageRow extends StatelessWidget {
-  const _PlanetMessageRow({required this.message, required this.isMine});
+  const _PlanetMessageRow({
+    required this.message,
+    required this.isMine,
+    required this.translation,
+    required this.isTranslating,
+    required this.onTranslate,
+  });
 
   final PlanetChatMessage message;
   final bool isMine;
+  final String? translation;
+  final bool isTranslating;
+  final VoidCallback? onTranslate;
 
   @override
   Widget build(BuildContext context) {
+    final bool hasText = message.text.trim().isNotEmpty;
+    final bool showTranslateButton = hasText && onTranslate != null;
+    final bool showTranslation = hasText && translation != null;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
@@ -326,7 +498,130 @@ class _PlanetMessageRow extends StatelessWidget {
             ),
           ),
         MessageBubble(message: message.toMessage(), isMine: isMine),
+        if (showTranslateButton) ...<Widget>[
+          const SizedBox(height: 2),
+          Align(
+            alignment: isMine ? Alignment.centerRight : Alignment.centerLeft,
+            child: _PlanetTranslateButton(
+              isLoading: isTranslating,
+              onTap: onTranslate!,
+            ),
+          ),
+        ],
+        if (showTranslation)
+          Padding(
+            padding: EdgeInsets.only(
+              left: isMine ? 0 : AppSpacing.xs,
+              right: isMine ? AppSpacing.xs : 0,
+              bottom: AppSpacing.xs,
+            ),
+            child: Align(
+              alignment: isMine ? Alignment.centerRight : Alignment.centerLeft,
+              child: _PlanetTranslatedText(text: translation!),
+            ),
+          ),
       ],
+    );
+  }
+}
+
+class _PlanetTranslationBanner extends StatelessWidget {
+  const _PlanetTranslationBanner({
+    required this.lang,
+    required this.isLoading,
+    required this.onDisable,
+    required this.onChange,
+  });
+
+  final String lang;
+  final bool isLoading;
+  final VoidCallback onDisable;
+  final VoidCallback onChange;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color primary = Theme.of(context).colorScheme.primary;
+    final String label = kTranslationLanguageLabels[lang] ?? lang.toUpperCase();
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(
+        horizontal: AppSpacing.md,
+        vertical: AppSpacing.xs,
+      ),
+      decoration: BoxDecoration(
+        color: AppColors.surface.withValues(alpha: 0.9),
+        border: Border(
+          top: BorderSide(color: primary.withValues(alpha: 0.25)),
+        ),
+      ),
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.translate_rounded, size: 16, color: primary),
+          const SizedBox(width: AppSpacing.xs),
+          Expanded(
+            child: Text(
+              isLoading ? 'Перевод на $label...' : 'Перевод на $label',
+              style: AppTextStyles.caption(color: AppColors.textSecondary),
+            ),
+          ),
+          TextButton(onPressed: onChange, child: const Text('Язык')),
+          TextButton(onPressed: onDisable, child: const Text('Выкл')),
+        ],
+      ),
+    );
+  }
+}
+
+class _PlanetTranslateButton extends StatelessWidget {
+  const _PlanetTranslateButton({required this.isLoading, required this.onTap});
+
+  final bool isLoading;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color accent = Theme.of(context).colorScheme.primary;
+    return TextButton.icon(
+      onPressed: isLoading ? null : onTap,
+      icon: Icon(Icons.translate_rounded, size: 16, color: accent),
+      label: Text(
+        isLoading ? 'Перевод...' : 'Перевод',
+        style: AppTextStyles.caption(color: accent),
+      ),
+      style: TextButton.styleFrom(
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSpacing.sm,
+          vertical: AppSpacing.xxs,
+        ),
+        minimumSize: Size.zero,
+        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+      ),
+    );
+  }
+}
+
+class _PlanetTranslatedText extends StatelessWidget {
+  const _PlanetTranslatedText({required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color primary = Theme.of(context).colorScheme.primary;
+    return Container(
+      padding: const EdgeInsets.symmetric(
+        horizontal: AppSpacing.sm + 2,
+        vertical: AppSpacing.xs + 2,
+      ),
+      decoration: BoxDecoration(
+        color: primary.withValues(alpha: 0.08),
+        borderRadius: AppRadius.smAll,
+        border: Border(left: BorderSide(color: primary, width: 2)),
+      ),
+      child: Text(
+        text,
+        style: AppTextStyles.caption(color: AppColors.textSecondary),
+      ),
     );
   }
 }

@@ -11,12 +11,22 @@ class MockTranslationService implements TranslationService {
     'es',
     'de',
     'fr',
+    'it',
+    'pt',
     'zh',
     'ja',
+    'ko',
+    'ar',
+    'tr',
+    'hi',
+    'pl',
+    'uk',
+    'kk',
+    'uz',
   ];
 
   @override
-  String get defaultTargetLanguage => 'en';
+  String get defaultTargetLanguage => 'ru';
 
   @override
   Future<String> translate(

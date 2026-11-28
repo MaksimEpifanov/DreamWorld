@@ -39,6 +39,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   final VoiceRecorderService _voiceRecorder = createVoiceRecorderService();
   final Map<String, String> _translations = <String, String>{};
   String? _translatingMessageId;
+  String? _chatTranslationLang;
+  bool _translatingAll = false;
   bool _showingTopics = false;
   List<String> _suggestedTopics = <String>[];
   bool _isRecordingVoice = false;
@@ -328,10 +330,20 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     );
   }
 
-  Future<void> _translateMessage(Message message) async {
-    if (_translatingMessageId == message.id) {
+  String _translationKey(String messageId, String lang) => '$messageId::$lang';
+
+  String _activeTranslationLang() {
+    return _chatTranslationLang ??
+        ref.read(translationServiceProvider).defaultTargetLanguage;
+  }
+
+  Future<void> _translateMessage(Message message, {String? toLang}) async {
+    final String lang = toLang ?? _activeTranslationLang();
+    final String key = _translationKey(message.id, lang);
+    if (_translatingMessageId == message.id || _translations.containsKey(key)) {
       return;
     }
+    if (message.text.trim().isEmpty) return;
     setState(() => _translatingMessageId = message.id);
     final TranslationService translationService = ref.read(
       translationServiceProvider,
@@ -339,14 +351,95 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     final String translated = await translationService.translate(
       message.text,
       fromLang: '',
-      toLang: translationService.defaultTargetLanguage,
+      toLang: lang,
     );
     if (mounted) {
       setState(() {
-        _translations[message.id] = translated;
+        _translations[key] = translated;
         _translatingMessageId = null;
       });
     }
+  }
+
+  Future<void> _translateAllMessages(
+    List<Message> messages,
+    String lang,
+  ) async {
+    if (_translatingAll) return;
+    setState(() => _translatingAll = true);
+    final TranslationService translationService = ref.read(
+      translationServiceProvider,
+    );
+    for (final Message message in messages) {
+      if (!mounted || _chatTranslationLang != lang) break;
+      if (message.text.trim().isEmpty) continue;
+      final String key = _translationKey(message.id, lang);
+      if (_translations.containsKey(key)) continue;
+      final String translated = await translationService.translate(
+        message.text,
+        fromLang: '',
+        toLang: lang,
+      );
+      if (!mounted || _chatTranslationLang != lang) break;
+      setState(() => _translations[key] = translated);
+    }
+    if (mounted) setState(() => _translatingAll = false);
+  }
+
+  Future<void> _pickChatTranslationLanguage() async {
+    final TranslationService service = ref.read(translationServiceProvider);
+    final String? selected = await showModalBottomSheet<String>(
+      context: context,
+      backgroundColor: AppColors.surface,
+      builder: (BuildContext context) {
+        return SafeArea(
+          child: ListView(
+            shrinkWrap: true,
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(AppSpacing.md),
+                child: Text(
+                  'Язык перевода',
+                  style: AppTextStyles.title(),
+                ),
+              ),
+              ListTile(
+                leading: const Icon(Icons.close_rounded),
+                title: const Text('Отключить перевод'),
+                onTap: () => Navigator.of(context).pop('__off__'),
+              ),
+              for (final String code in service.supportedLanguages)
+                ListTile(
+                  leading: Icon(
+                    _chatTranslationLang == code
+                        ? Icons.check_circle_rounded
+                        : Icons.language_rounded,
+                    color: _chatTranslationLang == code
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                  title: Text(
+                    kTranslationLanguageLabels[code] ?? code.toUpperCase(),
+                  ),
+                  subtitle: Text(code.toUpperCase()),
+                  onTap: () => Navigator.of(context).pop(code),
+                ),
+              const SizedBox(height: AppSpacing.sm),
+            ],
+          ),
+        );
+      },
+    );
+    if (!mounted || selected == null) return;
+    if (selected == '__off__') {
+      setState(() => _chatTranslationLang = null);
+      return;
+    }
+    setState(() => _chatTranslationLang = selected);
+    final List<Message> messages =
+        ref.read(messagesProvider(widget.conversationId)).valueOrNull ??
+            const <Message>[];
+    await _translateAllMessages(messages, selected);
   }
 
   Future<String?> _transcribeMessage(Message message) async {
@@ -461,6 +554,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       (AsyncValue<List<Message>>? previous, AsyncValue<List<Message>> next) {
         if (next.hasValue) {
           ref.read(chatRepositoryProvider).markAsRead(widget.conversationId);
+          final String? lang = _chatTranslationLang;
+          if (lang != null) {
+            _translateAllMessages(next.valueOrNull ?? const <Message>[], lang);
+          }
         }
       },
     );
@@ -508,6 +605,18 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
         ),
         actions: <Widget>[
           IconButton(
+            tooltip: _chatTranslationLang == null
+                ? 'Перевести чат'
+                : 'Перевод: ${kTranslationLanguageLabels[_chatTranslationLang] ?? _chatTranslationLang!.toUpperCase()}',
+            icon: Icon(
+              Icons.translate_rounded,
+              color: _chatTranslationLang != null
+                  ? Theme.of(context).colorScheme.primary
+                  : null,
+            ),
+            onPressed: _pickChatTranslationLanguage,
+          ),
+          IconButton(
             tooltip: 'Аудиозвонок',
             icon: const Icon(Icons.call_outlined),
             onPressed: _openCallSheet,
@@ -553,13 +662,23 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                       itemBuilder: (BuildContext context, int index) {
                         final Message message = messages[index];
                         final bool isMine = message.senderId == currentUserId;
+                        final String activeLang = _activeTranslationLang();
+                        final String translationKey =
+                            _translationKey(message.id, activeLang);
+                        final String? translation =
+                            _translations[translationKey];
+                        final bool showTranslate =
+                            _chatTranslationLang == null &&
+                            message.text.trim().isNotEmpty;
                         return _MessageRow(
                               message: message,
                               isMine: isMine,
-                              translation: _translations[message.id],
+                              translation: translation,
                               isTranslating:
                                   _translatingMessageId == message.id,
-                              onTranslate: () => _translateMessage(message),
+                              onTranslate: showTranslate
+                                  ? () => _translateMessage(message)
+                                  : null,
                               onTranscribe: message.hasAudio
                                   ? () => _transcribeMessage(message)
                                   : null,
@@ -572,6 +691,13 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                   },
                 ),
               ),
+              if (_chatTranslationLang != null)
+                _TranslationBanner(
+                  lang: _chatTranslationLang!,
+                  isLoading: _translatingAll,
+                  onDisable: () => setState(() => _chatTranslationLang = null),
+                  onChange: _pickChatTranslationLanguage,
+                ),
               if (_showingTopics && _suggestedTopics.isNotEmpty)
                 _TopicPanel(topics: _suggestedTopics, onSelect: _useTopic),
               if (_ageRestriction != null)
@@ -687,11 +813,14 @@ class _MessageRow extends StatelessWidget {
   final bool isMine;
   final String? translation;
   final bool isTranslating;
-  final VoidCallback onTranslate;
+  final VoidCallback? onTranslate;
   final Future<String?> Function()? onTranscribe;
 
   @override
   Widget build(BuildContext context) {
+    final bool hasText = message.text.trim().isNotEmpty;
+    final bool showTranslateButton = hasText && onTranslate != null;
+    final bool showTranslation = hasText && translation != null;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
@@ -700,24 +829,28 @@ class _MessageRow extends StatelessWidget {
           isMine: isMine,
           onTranscribe: onTranscribe,
         ),
-        if (!isMine && message.text.trim().isNotEmpty) ...<Widget>[
+        if (showTranslateButton) ...<Widget>[
           const SizedBox(height: 2),
           Align(
-            alignment: Alignment.centerLeft,
+            alignment: isMine ? Alignment.centerRight : Alignment.centerLeft,
             child: _TranslateButton(
               isLoading: isTranslating,
-              onTap: onTranslate,
+              onTap: onTranslate!,
             ),
           ),
-          if (translation != null)
-            Padding(
-              padding: const EdgeInsets.only(
-                left: AppSpacing.xs,
-                bottom: AppSpacing.xs,
-              ),
+        ],
+        if (showTranslation)
+          Padding(
+            padding: EdgeInsets.only(
+              left: isMine ? 0 : AppSpacing.xs,
+              right: isMine ? AppSpacing.xs : 0,
+              bottom: AppSpacing.xs,
+            ),
+            child: Align(
+              alignment: isMine ? Alignment.centerRight : Alignment.centerLeft,
               child: _TranslatedText(text: translation!),
             ),
-        ],
+          ),
       ],
     );
   }
@@ -772,6 +905,59 @@ class _TranslatedText extends StatelessWidget {
       child: Text(
         text,
         style: AppTextStyles.caption(color: AppColors.textSecondary),
+      ),
+    );
+  }
+}
+
+class _TranslationBanner extends StatelessWidget {
+  const _TranslationBanner({
+    required this.lang,
+    required this.isLoading,
+    required this.onDisable,
+    required this.onChange,
+  });
+
+  final String lang;
+  final bool isLoading;
+  final VoidCallback onDisable;
+  final VoidCallback onChange;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color primary = Theme.of(context).colorScheme.primary;
+    final String label = kTranslationLanguageLabels[lang] ?? lang.toUpperCase();
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(
+        horizontal: AppSpacing.md,
+        vertical: AppSpacing.xs,
+      ),
+      decoration: BoxDecoration(
+        color: AppColors.surface.withValues(alpha: 0.9),
+        border: Border(
+          top: BorderSide(color: primary.withValues(alpha: 0.25)),
+        ),
+      ),
+      child: Row(
+        children: <Widget>[
+          Icon(Icons.translate_rounded, size: 16, color: primary),
+          const SizedBox(width: AppSpacing.xs),
+          Expanded(
+            child: Text(
+              isLoading ? 'Перевод на $label...' : 'Перевод на $label',
+              style: AppTextStyles.caption(color: AppColors.textSecondary),
+            ),
+          ),
+          TextButton(
+            onPressed: onChange,
+            child: const Text('Язык'),
+          ),
+          TextButton(
+            onPressed: onDisable,
+            child: const Text('Выкл'),
+          ),
+        ],
       ),
     );
   }
